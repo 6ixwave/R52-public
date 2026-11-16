@@ -1,0 +1,188 @@
+diff --git a/r52/collectors/aliexpress.py b/r52/collectors/aliexpress.py
+--- a/r52/collectors/aliexpress.py
++++ b/r52/collectors/aliexpress.py
+@@ -253,6 +253,13 @@
+         self._cleanup_pw()
+ 
+     # ─── URL ───
++
++    def collect_by_search(self, query: str, page: int = 1, page_size: int = 20) -> list[dict]:
++        from urllib.parse import urlencode
++        from .discovery import collect_links
++
++        url = "https://www.aliexpress.com/wholesale?" + urlencode({"SearchText": query, "page": page})
++        return collect_links(self, "ALIEXPRESS", url, page_size)
+ 
+     def build_url(self, listing_id: str) -> str:
+         if self._ru_mode:
+diff --git a/r52/collectors/discovery.py b/r52/collectors/discovery.py
+new file mode 100644
+--- /dev/null
++++ b/r52/collectors/discovery.py
+@@ -0,0 +1,54 @@
++"""Discover listing IDs from public category pages using the source's own card reader."""
++from html.parser import HTMLParser
++from urllib.parse import urljoin, urlsplit
++
++from ..domain.normalize import HOSTS, ID_PATTERNS
++
++
++def source_url(source, url):
++    try:
++        parsed = urlsplit(url)
++        return (parsed.scheme == "https" and parsed.hostname in HOSTS[source]
++                and not parsed.username and not parsed.password and parsed.port in (None, 443))
++    except ValueError:
++        return False
++
++
++class ListingLinks(HTMLParser):
++    def __init__(self, source, base, limit):
++        super().__init__()
++        self.source, self.base, self.limit = source, base, limit
++        self.links = {}
++
++    def handle_starttag(self, tag, attrs):
++        if tag != "a" or len(self.links) >= self.limit:
++            return
++        url = urljoin(self.base, dict(attrs).get("href") or "")
++        if source_url(self.source, url):
++            match = ID_PATTERNS[self.source].search(urlsplit(url).path)
++            if match:
++                listing_id = next(g for g in match.groups() if g)
++                self.links.setdefault(listing_id, url.split("#")[0])
++
++
++def collect_links(collector, source, url, limit, page=1):
++    if not source_url(source, url):
++        raise ValueError("URL_SOURCE_MISMATCH")
++    response = collector.fetch(url)
++    if response is None or response.status_code != 200:
++        raise ValueError("LISTING_HTTP_" + str(getattr(response, "status_code", "UNAVAILABLE")))
++    if not source_url(source, response.url):
++        raise ValueError("UNEXPECTED_REDIRECT")
++    html = response.text
++    if "captcha" in html[:6000].lower() and "<title" in html[:6000].lower():
++        raise ValueError("ACCESS_CHALLENGE")
++    parser = ListingLinks(source, url, page * limit)
++    parser.feed(html)
++    results = []
++    for listing_id, link in list(parser.links.items())[(page-1)*limit:page*limit]:
++        item = collector.collect_product(listing_id, link)
++        if not item or item.get("observation", {}).get("status") in ("FAILED", "BLOCKED"):
++            break
++        results.append(item)
++    return results
++
+diff --git a/r52/collectors/auto_worker.py b/r52/collectors/auto_worker.py
+new file mode 100644
+--- /dev/null
++++ b/r52/collectors/auto_worker.py
+@@ -0,0 +1,88 @@
++"""One bounded invocation of a registered collector. Only this process uses the network."""
++import json
++import logging
++import os
++import sys
++import threading
++from pathlib import Path
++
++from .runner import _get_collector_class
++from .discovery import collect_links
++
++
++def follow_parent(pid):
++    """Exit even on an ungraceful core shutdown; on Windows take descendants with us."""
++    if os.name == "nt":
++        import ctypes
++        from ctypes import wintypes
++        kernel = ctypes.WinDLL("kernel32", use_last_error=True)
++        kernel.OpenProcess.argtypes = (wintypes.DWORD, wintypes.BOOL, wintypes.DWORD)
++        kernel.OpenProcess.restype = wintypes.HANDLE
++        parent = kernel.OpenProcess(0x100000, False, pid)
++        if not parent:
++            raise RuntimeError("CORE_GONE")
++        kernel.WaitForSingleObject.argtypes = (wintypes.HANDLE, wintypes.DWORD)
++        def watch():
++            kernel.WaitForSingleObject(parent, 0xffffffff)
++            os._exit(1)
++        # Set kill-on-close before a collector can start browser children.
++        class Basic(ctypes.Structure):
++            _fields_ = [("process_time", ctypes.c_int64), ("job_time", ctypes.c_int64),
++                        ("flags", wintypes.DWORD), ("min_ws", ctypes.c_size_t),
++                        ("max_ws", ctypes.c_size_t), ("process_limit", wintypes.DWORD),
++                        ("affinity", ctypes.c_size_t), ("priority", wintypes.DWORD),
++                        ("scheduling", wintypes.DWORD)]
++        class Limits(ctypes.Structure):
++            _fields_ = [("basic", Basic), ("io", ctypes.c_uint64 * 6),
++                        ("memory", ctypes.c_size_t * 4)]
++        kernel.CreateJobObjectW.restype = wintypes.HANDLE
++        job = kernel.CreateJobObjectW(None, None)
++        limits = Limits()
++        limits.basic.flags = 0x2000
++        handle = wintypes.HANDLE(job)
++        if not job or not kernel.SetInformationJobObject(handle, 9, ctypes.byref(limits), ctypes.sizeof(limits)) or not kernel.AssignProcessToJobObject(handle, wintypes.HANDLE(-1)):
++            raise ctypes.WinError(ctypes.get_last_error())
++        # The process owns both handles until exit.
++    else:
++        import time
++        def watch():
++            while os.getppid() == pid:
++                time.sleep(0.5)
++            os._exit(1)
++    threading.Thread(target=watch, daemon=True).start()
++
++
++def run(params, directory):
++    source = params["source"]
++    collector = _get_collector_class(source)(data_dir=Path(params["home"]), use_proxies=False)
++    try:
++        if params["mode"] == "refresh":
++            rows = []
++            for listing_id in params["ids"]:
++                row = collector.collect_product(listing_id, collector.build_url(listing_id))
++                if not row or row.get("observation", {}).get("status") in ("FAILED", "BLOCKED"):
++                    break
++                rows.append(row)
++        elif params["kind"] == "url" or params["value"].startswith("https://"):
++            rows = collect_links(collector, source, params["value"], params["limit"], params["page"])
++        else:
++            rows = collector.collect_by_search(params["value"], page=params["page"], page_size=params["limit"])
++        valid = [r for r in rows[:params["limit"]] if isinstance(r, dict) and
++                 r.get("observation", {}).get("status") not in ("FAILED", "BLOCKED")]
++        collector.write_observations(valid, directory)
++    finally:
++        collector.close()
++
++
++def main(folder, parent_pid):
++    follow_parent(parent_pid)
++    try:
++        run(json.loads((folder / "request").read_text("utf-8")), folder)
++    except Exception as error:
++        import re
++        message = str(error)
++        code = message if re.fullmatch(r"[A-Z0-9_]{1,80}", message) else type(error).__name__.upper()
++        (folder / "error.txt").write_text(code, encoding="ascii")
++        logging.error("Collector stopped: %s", code)
++        sys.exit(1)
++
+diff --git a/r52/collectors/runner.py b/r52/collectors/runner.py
+--- a/r52/collectors/runner.py
++++ b/r52/collectors/runner.py
+@@ -211,10 +211,15 @@
+     parser.add_argument("--output-dir", type=str, help="Папка для вывода")
+     parser.add_argument("--data-dir", type=str, default=None, help="Папка данных (proxies.json)")
+     parser.add_argument("--no-proxies", action="store_true", help="Без прокси (direct)")
++    parser.add_argument("--auto-job", nargs=2, metavar=("DIRECTORY", "CORE_PID"))
+     parser.add_argument("--params", type=str, help="JSON-файл с параметрами")
+     args = parser.parse_args()
+ 
+     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(levelname)s %(message)s")
++
++    if args.auto_job:
++        from .auto_worker import main as auto_main
++        return auto_main(Path(args.auto_job[0]), int(args.auto_job[1]))
+ 
+     if args.params:
+         params = json.loads(Path(args.params).read_text(encoding="utf-8"))

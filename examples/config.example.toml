@@ -1,0 +1,11 @@
+[api]
+port = 0
+
+[logging]
+level = "INFO"
+
+[display]
+timezone = "Asia/Vladivostok"
+
+[intake]
+folders = ["~/Downloads"]

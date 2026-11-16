@@ -1,0 +1,9 @@
+import test from'node:test';import assert from'node:assert/strict';import{labelAnchor,anchoredLabelRect,chooseLabels}from'../r52/web/js/city-label-layout.js';
+const node={position:{x:12,z:-30},radius:18};
+test('label world anchor is deterministic and independent of camera or hover',()=>{assert.deepEqual(labelAnchor(node),labelAnchor(node));assert.deepEqual(labelAnchor(node),{x:12,y:5.3999999999999995,z:-30});});
+test('world elevation stays bounded for small and large territories',()=>{assert.equal(labelAnchor({...node,radius:.01}).y,.8);assert.equal(labelAnchor({...node,radius:100}).y,8);});
+test('label is exactly centred above projected anchor',()=>{const r=anchoredLabelRect({x:200,y:300},160,54);assert.equal(r.x+r.width/2,200);assert.equal(r.y+r.height+8,300);});
+test('collision hides a label instead of changing its coordinates',()=>{const a={rect:{x:10,y:10,width:100,height:44},priority:10,order:0},b={rect:{x:20,y:20,width:100,height:44},priority:0,order:1};assert.deepEqual(chooseLabels([a,b],{x:0,y:0,width:500,height:500}),[a]);assert.deepEqual(b.rect,{x:20,y:20,width:100,height:44});});
+test('offscreen labels are never edge clamped',()=>{assert.deepEqual(chooseLabels([{rect:{x:-1,y:10,width:100,height:44},priority:0,order:0}],{x:0,y:0,width:500,height:500}),[]);});
+test('selection priority is stable regardless of input ordering',()=>{const a={rect:{x:10,y:10,width:100,height:44},priority:100,order:2},b={rect:{x:20,y:20,width:100,height:44},priority:10,order:1},bounds={x:0,y:0,width:500,height:500};assert.deepEqual(chooseLabels([b,a],bounds),chooseLabels([a,b],bounds));});
+test('interface obstacles hide labels rather than redocking them',()=>{const c={rect:{x:10,y:10,width:100,height:44},priority:100,order:0};assert.equal(chooseLabels([c],{x:0,y:0,width:500,height:500},[{x:0,y:0,width:200,height:80}]).length,0);});

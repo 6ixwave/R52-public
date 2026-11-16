@@ -1,0 +1,217 @@
+diff --git a/r52/api/autocollect.py b/r52/api/autocollect.py
+new file mode 100644
+--- /dev/null
++++ b/r52/api/autocollect.py
+@@ -0,0 +1,82 @@
++import json
++import sqlite3
++
++from ..collectors.discovery import source_url
++from ..core.autocollect import enabled
++from ..errors import AppError
++from ..sources import SOURCE_KEYS
++from ..validate import boolean, choice, fail, integer, only_keys, path_int, text
++
++
++def register(app, add):
++    prefix = "/api/autocollect"
++
++    def overview(req):
++        with app.db.read() as conn:
++            sources = [dict(row) for row in conn.execute("SELECT * FROM auto_source ORDER BY source")]
++            targets = [dict(row) for row in conn.execute("SELECT * FROM auto_target ORDER BY id")]
++        for source in sources:
++            source["last_result"] = json.loads(source["last_result"] or "null")
++        return {"sources": sources, "targets": targets,
++                "settings": {k:v for k,v in app.settings.all().items() if k.startswith("autocollect.")}}
++
++    def save(req):
++        data = req.body
++        only_keys(data, {"source","kind","value","interval_seconds","item_limit","enabled"})
++        if not isinstance(data.get("source"), str) or not isinstance(data.get("kind", "query"), str):
++            raise fail("source")
++        source = choice(data, "source", SOURCE_KEYS)
++        kind = choice(data, "kind", ("query","category","url"), "query")
++        if source is None or kind is None:
++            raise fail("source")
++        value = text(data, "value", 1000, required=True)
++        if (kind == "url" or "://" in value) and not source_url(source, value):
++            raise fail("value", "http_url_required")
++        count = integer(data, "item_limit", 1, 50, required=True)
++        interval = integer(data, "interval_seconds", 60, 2592000)
++        active = boolean(data,"enabled",True)
++        if active is None:
++            raise fail("enabled")
++        values = (source,kind,value,interval,count,int(active))
++        try:
++            with app.db.write() as conn:
++                if "id" in req.params:
++                    ident = path_int(req.params["id"])
++                    if not conn.execute("UPDATE auto_target SET source=?,kind=?,value=?,interval_seconds=?,item_limit=?,enabled=?,last_run=NULL,page=1 WHERE id=?", values+(ident,)).rowcount:
++                        raise AppError("NOT_FOUND",status=404)
++                else:
++                    ident = conn.execute("INSERT INTO auto_target(source,kind,value,interval_seconds,item_limit,enabled) VALUES(?,?,?,?,?,?)",values).lastrowid
++        except sqlite3.IntegrityError:
++            raise AppError("INVALID_INPUT",status=409, detail={"field":"value","reason":"duplicate"}) from None
++        return {"id":ident}
++
++    def remove(req):
++        with app.db.write() as conn:
++            if not conn.execute("DELETE FROM auto_target WHERE id=?", (path_int(req.params["id"]),)).rowcount:
++                raise AppError("NOT_FOUND",status=404)
++        return {"deleted":True}
++
++    def toggle(req):
++        only_keys(req.body,{"enabled"})
++        active = boolean(req.body,"enabled")
++        if active is None:
++            raise fail("enabled")
++        with app.db.write() as conn:
++            if not conn.execute("UPDATE auto_source SET enabled=? WHERE source=?", (int(active),req.params["source"])).rowcount:
++                raise AppError("NOT_FOUND",status=404)
++        return {"enabled":active}
++
++    def trigger(req):
++        only_keys(req.body,set())
++        if not enabled(app):
++            raise AppError("AUTOCOLLECT_DISABLED",status=409)
++        task,_ = app.tasks.submit("autocollect",{"force":True})
++        return {"task_id":task["id"]}
++
++    add("GET",prefix,overview)
++    add("POST",prefix+"/targets",save)
++    add("PUT",prefix+r"/targets/(?P<id>\d+)",save)
++    add("DELETE",prefix+r"/targets/(?P<id>\d+)",remove)
++    add("PATCH",prefix+r"/sources/(?P<source>[A-Z_]+)",toggle)
++    add("POST",prefix+"/run",trigger)
++
+diff --git a/r52/api/routes.py b/r52/api/routes.py
+--- a/r52/api/routes.py
++++ b/r52/api/routes.py
+@@ -76,7 +76,9 @@
+ def build_router(app):
+     router = Router()
+     db = app.db
++    from .autocollect import register as register_autocollect
+     add = router.add
++    register_autocollect(app, add)
+ 
+     def now():
+         return iso(app.clock.now())
+diff --git a/r52/web/js/palette.js b/r52/web/js/palette.js
+--- a/r52/web/js/palette.js
++++ b/r52/web/js/palette.js
+@@ -13,6 +13,7 @@
+   { key: "assistant", label: "Помощник", icon: "assistant", sub: "", keywords: "чат бот спросить" },
+   { key: "tasks", label: "Задачи", icon: "tasks", sub: "", keywords: "очередь расписание фон" },
+   { key: "settings", label: "Настройки", icon: "settings", sub: "", keywords: "параметры тихие часы звук анимации" },
++  { key: "autocollect", label: "Автосбор", icon: "refresh", sub: "", keywords: "источники поиск расписание" },
+   { key: "service", label: "Сервис", icon: "service", sub: "", keywords: "журнал лог копии ядро выгрузка" },
+   {key:"map",label:"Город",icon:"overview",sub:"",keywords:"карта топография"},
+ ];
+diff --git a/r52/web/js/main.js b/r52/web/js/main.js
+--- a/r52/web/js/main.js
++++ b/r52/web/js/main.js
+@@ -21,6 +21,7 @@
+   assistant: () => import("./views/assistant.js"),
+   tasks: () => import("./views/tasks.js"),
+   settings: () => import("./views/settings.js"),
++  autocollect: () => import("./views/autocollect.js"),
+   service: () => import("./views/service.js"),
+ };
+ const NOTIFY_META = ["TARGET_REACHED", "PRICE_DROPPED", "BECAME_AVAILABLE", "BECAME_UNAVAILABLE"].map(eventMeta);
+diff --git a/r52/web/js/views/autocollect.js b/r52/web/js/views/autocollect.js
+new file mode 100644
+--- /dev/null
++++ b/r52/web/js/views/autocollect.js
+@@ -0,0 +1,75 @@
++import { h } from "../dom.js";
++import { get, post, put, patch, del, describe } from "../api.js";
++
++const path = "/api/autocollect";
++const label = (name, control) => h("label", {class:"auto-field"}, name, control);
++const number = (value, min, max) => h("input", {type:"number", min, max, value});
++const button = (name, action) => h("button", {type:"button", class:"btn", onclick: action}, name);
++const names = {WB:"Wildberries", OZON:"Ozon", AVITO:"Авито", FARPOST:"FarPost", ALIEXPRESS:"AliExpress", ALIEXPRESS_RU:"AliExpress Россия"};
++
++export async function render(root, ctx) {
++  const status = h("p", {role:"status", class:"muted"});
++  const content = h("div", {class:"auto-grid"});
++  root.replaceChildren(status, content);
++  let busy = false;
++  async function change(action, message) {
++    if (busy) return;
++    busy = true;
++    content.inert = true;
++    try {
++      await action();
++      await load();
++      status.textContent = message;
++    } catch (error) { status.textContent = describe(error); }
++    finally { busy = false; content.inert = false; }
++  }
++  function targetForm(source, target) {
++    const kind = h("select", {value:target?.kind || "query"},
++      ...[["query","Запрос"],["category","Категория"],["url","URL категории"]].map(([value,name])=>h("option",{value},name)));
++    const value = h("input", {value:target?.value || "", required:true, maxlength:1000});
++    const interval = number(target?.interval_seconds || "",60,2592000);
++    interval.placeholder = "Общий";
++    const limit = number(target?.item_limit ?? 5,1,50);
++    const active = h("input",{type:"checkbox",checked:target ? !!target.enabled : true});
++    const save = async event => {
++      event.preventDefault();
++      const data = {source,kind:kind.value,value:value.value,item_limit:Number(limit.value),
++        interval_seconds:interval.value ? Number(interval.value) : null, enabled:active.checked};
++      await change(()=>target ? put(path+"/targets/"+target.id,data) : post(path+"/targets",data),"Цель сохранена");
++    };
++    return h("form",{class:"auto-form",onsubmit:save}, label("Тип",kind),label("Что искать",value),
++      label("Интервал, с",interval),label("За прогон",limit),label("Активна",active),
++      h("button",{class:"btn",type:"submit"},target ? "Сохранить":"Добавить цель"),
++      target && button("Удалить",()=>change(()=>del(path+"/targets/"+target.id),"Цель удалена")));
++  }
++  async function load() {
++    const data = await get(path);
++    if (!ctx.alive()) return;
++    const s = data.settings;
++    const active = h("input",{type:"checkbox",checked:s["autocollect.enabled"],
++      onchange:e=>change(()=>patch("/api/settings",{"autocollect.enabled":e.target.checked}),"Настройка сохранена")});
++    const refresh = number(s["autocollect.refresh_seconds"],60,2592000);
++    const search = number(s["autocollect.discovery_seconds"],60,2592000);
++    const cap = number(s["autocollect.new_limit"],1,200);
++    const run = button("Запустить сейчас",()=>change(()=>post(path+"/run"),"Задача поставлена в очередь"));
++    run.disabled = !active.checked;
++    content.replaceChildren(h("section",{class:"card auto-card"},label("Автосбор включён",active),
++      h("form",{class:"auto-form",onsubmit:e=>{
++        e.preventDefault();change(()=>patch("/api/settings",{"autocollect.refresh_seconds":Number(refresh.value),
++          "autocollect.discovery_seconds":Number(search.value),"autocollect.new_limit":Number(cap.value)}),"Интервалы сохранены");
++      }},label("Обновление цен, с",refresh),label("Поиск, с",search),label("Лимит за цикл",cap),
++        h("button",{type:"submit",class:"btn"},"Сохранить")),run,button("Обновить статус",()=>change(async()=>{},"Статус обновлён"))));
++    for (const src of data.sources) {
++      const toggle = h("input",{type:"checkbox",checked:!!src.enabled,onchange:e=>
++        change(()=>patch(path+"/sources/"+src.source,{enabled:e.target.checked}),"Источник обновлён")});
++      const r = src.last_result;
++      content.append(h("section",{class:"card auto-card"},h("h2",{},names[src.source] || src.source),
++        label("Источник включён",toggle), h("p",{class:"muted"},r ?
++          new Date(src.last_run).toLocaleString("ru")+" · Найдено "+r.found+" · Обновлено "+r.refreshed+" · Ошибок "+r.errors+(r.reason?" · "+r.reason:"")
++          :"Ожидает первого прогона"), ...data.targets.filter(t=>t.source===src.source).map(t=>targetForm(src.source,t)),
++        h("details",{},h("summary",{},"Новая цель"),targetForm(src.source,null))));
++    }
++  }
++  await load();
++}
++
+diff --git a/r52/web/css/views.css b/r52/web/css/views.css
+--- a/r52/web/css/views.css
++++ b/r52/web/css/views.css
+@@ -386,3 +386,11 @@
+   .analysis-selected { left: 50%; max-width: calc(100vw - 32px); justify-content: center; }
+   .analysis-panel .row > .btn { flex: 1 1 180px; }
+ }
++
++.auto-grid { display:grid; gap:16px; }
++.auto-card { padding:20px; display:grid; gap:12px; }
++.auto-card .btn { justify-self:start; }
++.auto-form { display:flex; flex-wrap:wrap; align-items:end; gap:10px; }
++.auto-field { display:grid; gap:4px; }
++.auto-field input, .auto-field select { max-width:100%; }
++.auto-card details summary { cursor:pointer; }
