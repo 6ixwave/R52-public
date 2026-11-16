@@ -1,0 +1,28 @@
+2026-11-10 21:14:44,140 [INFO] curl_cffi available
+
+======================================================================
+0. DNS PRE-CHECK [rem=239s]
+======================================================================
+  card.wb.ru                                    -> 185.62.202.24
+  static-basket-199.wbbasket.ru                 -> ERR:[Errno 11001] getaddrinfo failed
+  basket-199.wbbasket.ru                        -> ERR:[Errno 11001] getaddrinfo failed
+  static-basket-142.wbbasket.ru                 -> ERR:[Errno 11001] getaddrinfo failed
+  basket-142.wbbasket.ru                        -> ERR:[Errno 11001] getaddrinfo failed
+  www.ozon.ru                                   -> 185.73.193.68
+  api.ozon.ru                                   -> 185.73.195.136
+  www.avito.ru                                  -> 176.114.124.24
+  m.avito.ru                                    -> 176.114.120.16
+  www.farpost.ru                                -> 195.88.224.82
+  farpost.ru                                    -> 195.88.224.71
+  DNS section: 49.7s
+
+======================================================================
+1. WILDBERRIES [rem=190s]
+======================================================================
+  [card_v2_basic] 403 | 0B | 
+  [card_v2_full] 403 | 0B | 
+  [card_v2_spu] 403 | 0B | 
+  [card_main_dom] 498 | 1136B | <!doctype html><html lang="ru" data-theme="light" data-req-uuid="6ef79432732e093d1163b1dc2ecca4bb" data-req-ip="82.162.122.156"><head><meta charset="U
+  [cffi_card] 403 | 0B | 
+  [cffi_card_full] 403 | 0B | 
+  --- CDN scan ---

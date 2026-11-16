@@ -1,0 +1,94 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT",
+        "method": "PW_META",
+        "evidence": {
+          "method": "PW_META",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg_220x220q75.jpeg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_960x960q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005013496905897",
+    "url": "https://www.aliexpress.com/item/1005013496905897.html",
+    "observed_at": "2026-11-13T04:53:49.919482+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

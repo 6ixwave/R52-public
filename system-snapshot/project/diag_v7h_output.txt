@@ -1,0 +1,24 @@
+=== diag_v7h — 2026-11-14 12:52:58 ===
+Query: 'наушники'
+
+── [1] COM wholesale (EN/USD cookies) ──
+  OK: 737459 bytes, 4.2s
+  Locale: IT=0, EN=0, RU=1
+  pdp_npi currencies: {'EUR'}
+  Parsed: 12 products
+  [0] title='Cuffie Bluetooth Wireless Over-Ear Open-Ear con Design Rotan'
+      price=7.99 EUR
+
+── [2] RU search API (X-Requested-With) ──
+  None in 2.7s
+  --- Manual API probes ---
+  [aer-webapi/v1/search] HTTP 200, 13828B, 7.8s, JSON=False
+  [api/search] HTTP 200, 13828B, 2.7s, JSON=False
+  [wholesale (HTML fallback)] HTTP 200, 742071B, 3.6s, JSON=False
+
+── [3] COM Playwright locale check ──
+  _ensure_browser: True in 0.6s
+  navigator.language=en-US
+  navigator.languages=["en-US"]
+
+=== DONE ===

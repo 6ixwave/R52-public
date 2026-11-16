@@ -1,0 +1,21 @@
+[
+  {
+    "source": "FARPOST",
+    "listing_id": "18530297982",
+    "url": "https://www.farpost.ru/vladivostok/18530297982.html",
+    "status": "NO_DATA",
+    "eye_errors": [],
+    "normalize_errors": [],
+    "title": null,
+    "prices": [],
+    "media": {
+      "total": 0,
+      "photos": 0,
+      "videos": 0
+    },
+    "availability": null,
+    "fields_count": 0,
+    "elapsed_sec": 2.5,
+    "error": "collect_product returned None (fetch failed or parse empty)"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "db": "C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\r52\\data\\r52.db",
+  "pre_counts": {
+    "source": 6,
+    "product": 0,
+    "observation": 0,
+    "price_point": 0
+  },
+  "post_counts": {
+    "source": 6,
+    "product": 2,
+    "observation": 2,
+    "price_point": 2
+  },
+  "platforms": {
+    "FARPOST": {
+      "status": "OK",
+      "product_id": 1,
+      "created": true,
+      "observation_id": 1,
+      "observation_created": true,
+      "title": "Triangle IcelynX TI501, 205/55 R16 94T XL",
+      "prices": 1,
+      "availability": "IN_STOCK"
+    },
+    "WB": {
+      "status": "ERROR",
+      "error": "TITLE_WITH_EVIDENCE_REQUIRED"
+    },
+    "OZON": {
+      "status": "OK",
+      "product_id": 2,
+      "created": true,
+      "observation_id": 2,
+      "observation_created": true,
+      "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез ",
+      "prices": 1,
+      "availability": "IN_STOCK"
+    }
+  },
+  "timestamp": "2026-11-11T00:24:39.122+00:00"
+}

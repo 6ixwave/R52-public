@@ -1,0 +1,33 @@
+{
+  "ts": "2026-11-12T11:52:11.300786+10:00",
+  "s": 15.2,
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "d": {
+    "WB": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "reason": "title=True price=None"
+    },
+    "AVITO": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "inbox": null,
+      "ad_ids_tried": [],
+      "reason": "no ad fetched"
+    }
+  }
+}

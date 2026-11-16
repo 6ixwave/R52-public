@@ -1,0 +1,36 @@
+[04:20:05] PHASE2 START (cffi=True)
+[04:20:05] === FARPOST P2 ===
+[04:20:05] === WB P2 ===
+[04:20:05] === OZON P2 ===
+[04:20:05] === AVITO P2 ===
+[04:20:06] WB basket vol%50=42: 404
+[04:20:06] FP warmup: 200, cookies=[REDACTED_AUTH_SECRET]
+[04:20:07] Avito : 429
+[04:20:07] WB basket vol%50+1=43: 404
+[04:20:08] FP 18530297982: 200 size=198004 generic=True price=None jsonld=False
+[04:20:08] WB basket vol%50-1=41: 404
+[04:20:09] WB basket vol%100=92: DNS err
+[04:20:09] FP 139122082: 200 size=89193 generic=True price=None jsonld=False
+[04:20:11] WB basket vol%100+1=93: DNS err
+[04:20:11] FP cat-telefony: 200 size=89129 links=0 data_ids=0
+[04:20:11] FP /item/ path: 404 size=13896
+[04:20:11] === FARPOST P2 DONE ===
+[04:20:11] WB basket nm%50=21: 404
+[04:20:12] WB basket nm%50+1=22: 404
+[04:20:13] WB basket nm%100=71: DNS err
+[04:20:14] WB basket nm//10000%50=29: 404
+[04:20:15] WB basket nm//10000%50+1=30: 404
+[04:20:17] Avito iphone: 429
+[04:20:17] === OZON P2 DONE ===
+[04:20:18] Avito fony: 429
+[04:20:20] Avito ka: 429
+[04:20:21] Avito: no live ID found from categories
+[04:20:25] === AVITO P2 DONE ===
+[04:20:38] === WB P2 DONE ===
+[04:20:38] PHASE2 DONE in 33.2s
+[04:20:38] Saved: diag_phase2_result.json
+[04:20:38] --- SUMMARY ---
+[04:20:38]   FARPOST: 4/5 → ['warmup', 'item-18530297982', 'item-139122082', 'cat-telefony']
+[04:20:38]   WB: 0/26 → []
+[04:20:38]   OZON: 0/12 → []
+[04:20:38]   AVITO: 0/8 → []

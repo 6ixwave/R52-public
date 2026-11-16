@@ -1,0 +1,50 @@
+{
+  "card_json": {
+    "keys": [
+      "imt_id",
+      "nm_id",
+      "imt_name",
+      "slug",
+      "subj_name",
+      "subj_root_name",
+      "vendor_code",
+      "description",
+      "options",
+      "compositions",
+      "certificate",
+      "colors",
+      "contents",
+      "full_colors",
+      "selling",
+      "media",
+      "data",
+      "grouped_options",
+      "need_kiz",
+      "has_tnvd_okpd",
+      "user_flags",
+      "properties",
+      "update_date",
+      "create_date"
+    ],
+    "nm_id": 199298871,
+    "imt_name": "Овсяный смарт коктейль для похудения без сахара",
+    "media": {
+      "has_video": true,
+      "photo_count": 6
+    },
+    "selling": {
+      "brand_name": "Родник Здоровья",
+      "brand_hash": "287D12FB814E0535",
+      "supplier_id": 1302193,
+      "no_return_map": 8191
+    }
+  },
+  "img_primary": {
+    "status": 404,
+    "body": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>"
+  },
+  "html_alt": {
+    "status": 498,
+    "body": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"3d6ccf9c9696ee6aba961c617ab028fb\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Dat"
+  }
+}

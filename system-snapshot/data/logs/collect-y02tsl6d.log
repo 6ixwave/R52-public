@@ -1,0 +1,8 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 05:17:25,786 r52.autocollect.worker INFO phase=worker_start pid=15252
+2026-11-16 05:17:25,809 r52.autocollect.worker INFO source=WB mode=discover phase=initialize
+2026-11-16 05:17:25,810 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 05:17:25,811 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-16 05:17:25,811 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 05:17:25,815 r52.autocollect.worker INFO source=WB phase=search_start page=1 limit=5
+2026-11-16 05:17:26,753 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498

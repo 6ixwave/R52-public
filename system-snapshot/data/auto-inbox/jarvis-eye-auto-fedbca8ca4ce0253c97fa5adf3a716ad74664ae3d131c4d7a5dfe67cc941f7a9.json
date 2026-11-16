@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Оперативная память DDR4 8GB+8GB=16GB 3200MHz DIMM INTEL",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "GUDGA",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "GS-DDR4-PC-8G-3200-1.2V-Gold INTEL x2",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "(Примечание: это специфичная для INTEL панель. Обратите особое внимание на адаптацию оборудования, рабочие характеристики и потенциальные риски, чтобы избежать таких проблем, как отказ подсветки и сбой системы из-за неправильной установки.)\nХорошая совместимость: разработанный и оптимизированный специально для платформы Intel, он имеет лучшую совместимость с определенными процессорами Intel и материнскими платами, может лучше адаптироваться к архитектуре и характеристикам платформы Intel и может в определенной степени снизить вероятность нестабильности системы, синего экрана и других сбоев, вызванных проблемами совместимости.\nБолее высокая частота: обычно поддерживает более высокие частоты, может соответствовать более высоким требованиям процессоров Intel к пропускной способности памяти, тем самым повышая скорость передачи данных, позволяя системе быстрее считывать и записывать данные при обработке нескольких задач, запуске большого программного обеспечения или игр, уменьшая заторы и повышая общую эффективность работы.\nСтрогий тайминг: тайминг обычно более строгий, что означает, что во время процесса передачи инструкций данных интервал короче, а эффективность обработки данных выше, что может в определенной степени повысить производительность и стабильность памяти и заставить систему реагировать быстрее.\nВысокая стоимость производительности: Некоторые платы Intel-специфические имеют определенные преимущества с точки зрения цены. Некоторые платы Intel-специфические от небольших брендов предлагают относительно доступные цены, обеспечивая при этом высокую производительность. Они являются более экономичным выбором для пользователей с ограниченным бюджетом, которые хотят улучшить производительность компьютеров на базе Intel.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Ноутбуки и компьютеры > Оперативная память",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Вес с упаковкой (кг): 0.16 кг\nШирина упаковки: 10 см\nВысота упаковки: 4 см\nДлина упаковки: 15 см\nМодель: GS-DDR4-PC\nГарантийный срок: 5 лет\nКоличество модулей в комплекте: 2 шт.\nИгровая модель: да\nТип оперативной памяти: озу ddr4\nТипоразмер модуля оперативной памяти: DIMM\nЧастота оперативной памяти: 3200 МГц\nСуммарный объем оперативной памяти: 16 Гб\nОбъем одного модуля памяти: 8 Гб\nНизкопрофильная: CL 22\nCAS Latency (CL): 22\nRAS to CAS Delay (tRCD): 22\nRow Precharge Delay (tRP): 22\nRAS Active Time (tRAS): 52\nНапряжение: 1.2V\nПодсветка: нет\nРадиатор охлаждения: иметь\nМаксимальная температура: 80 градусов\nСтрана производства: Китай\nШирина предмета: 13.5 см\nВысота предмета: 4.1 см",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 3475700,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "34757.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 878600,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "8786.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-25.wbbasket.ru/vol4466/part446653/446653020/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-25.wbbasket.ru/vol4466/part446653/446653020/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-25.wbbasket.ru/vol4466/part446653/446653020/images/S800/1.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Ноутбуки и компьютеры > Оперативная память",
+    "source": "WB",
+    "id": "446653020",
+    "url": "https://www.wildberries.ru/catalog/446653020/detail.aspx",
+    "observed_at": "2026-11-16T05:36:59.312407+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

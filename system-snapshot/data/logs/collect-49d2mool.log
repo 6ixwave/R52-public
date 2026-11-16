@@ -1,0 +1,19 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 00:38:44,941 r52.autocollect.worker INFO phase=worker_start pid=32740
+2026-11-16 00:38:44,949 r52.autocollect.worker INFO source=ALIEXPRESS_RU mode=refresh phase=initialize
+2026-11-16 00:38:44,950 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-16 00:38:44,951 r52.autocollect.worker INFO source=ALIEXPRESS_RU proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-16 00:38:44,951 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012842083149 phase=collect_product_start
+2026-11-16 00:38:46,961 r52.collectors.aliexpress WARNING ALI_RU: product fetch error (try 1): Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 00:38:54,131 r52.collectors.aliexpress WARNING ALI_RU: product fetch error (try 2): Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 00:39:12,248 r52.collectors.aliexpress WARNING ALI_RU: product fetch error (try 3): Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 00:39:12,248 r52.collectors.aliexpress INFO ALI_RU: HTML incomplete/captcha after 3 tries, trying search API for id=1005012842083149
+2026-11-16 00:39:14,279 r52.collectors.aliexpress WARNING ALI_RU: search API error: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 00:39:16,382 r52.collectors.aliexpress WARNING ALI_RU: search API error: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 00:39:18,390 r52.collectors.aliexpress WARNING ALI_RU: search API error: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 00:39:18,390 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012842083149 phase=collect_product_return status=NO_RESULT
+2026-11-16 00:39:18,390 r52.autocollect.worker WARNING source=ALIEXPRESS_RU listing=1005012842083149 result=NO_RESULT remaining_not_attempted=['1005012849374380', '1005010604232754', '1005013182349018', '1005013374868977']
+2026-11-16 00:39:18,390 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_start returned=0 valid=0 stats={'requests': 3, 'success': 0, 'failed': 0, 'blocked': 0}
+2026-11-16 00:39:18,391 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_complete files=0
+2026-11-16 00:39:18,391 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_start
+2026-11-16 00:39:18,391 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_complete

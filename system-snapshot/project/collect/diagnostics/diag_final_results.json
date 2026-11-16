@@ -1,0 +1,41 @@
+{
+  "ozon": {
+    "ok": false,
+    "method": "playwright 3306B",
+    "title": "Похоже, нет соединения",
+    "prices": [],
+    "media_count": 0,
+    "availability": "UNKNOWN",
+    "time": 96.9
+  },
+  "wb": {
+    "ok": false,
+    "method": "basket_cdn",
+    "title": "Утюг BBK ISE-2404",
+    "prices": [],
+    "media_count": 1,
+    "availability": "UNKNOWN",
+    "time": 55.2
+  },
+  "avito": {
+    "ok": false,
+    "error": "no live ID",
+    "time": 7.8
+  },
+  "farpost": {
+    "ok": false,
+    "method": "playwright 12863B",
+    "title": "Страница не найдена",
+    "prices": [],
+    "media_count": 0,
+    "availability": "UNKNOWN",
+    "time": 9.6
+  },
+  "summary": {
+    "ozon": false,
+    "wb": false,
+    "avito": false,
+    "farpost": false
+  },
+  "total_time": 169.5
+}

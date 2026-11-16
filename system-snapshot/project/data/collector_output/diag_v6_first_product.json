@@ -1,0 +1,47 @@
+{
+  "tItemType": "search_refine_switch_group",
+  "type": "featureSwitchGroup",
+  "paramName": "selectedSwitches",
+  "paramType": "List",
+  "title": "Offerte e sconti",
+  "content": [
+    {
+      "displayType": "text",
+      "selectedValue": "filterCode:bigsale",
+      "selected": false,
+      "text": "Promozione dell'11.11",
+      "trace": {
+        "utLogMap": {
+          "term_id": "filterCode:bigsale",
+          "type": "biz"
+        }
+      }
+    },
+    {
+      "displayType": "text",
+      "selectedValue": "filterCode:freeshipping",
+      "selected": false,
+      "text": "Spedizione gratuita",
+      "trace": {
+        "utLogMap": {
+          "term_id": "filterCode:freeshipping",
+          "type": "biz"
+        }
+      }
+    }
+  ],
+  "rapidTiling": true,
+  "isMulti": true,
+  "multiValSep": ",",
+  "loadFilter": false,
+  "existSelectedValue": false,
+  "trace": {
+    "utLogMap": {
+      "manhaId": "discountSwitchGroup",
+      "filters": "filterCode:bigsale,filterCode:freeshipping,filterCode:newCateDiscount,",
+      "type": "biz"
+    }
+  },
+  "refineTiling": false,
+  "needExpose": false
+}

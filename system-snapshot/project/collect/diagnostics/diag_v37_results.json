@@ -1,0 +1,147 @@
+{
+  "OZON": {
+    "prod1": {
+      "status": "PARSED",
+      "html_bytes": 600000,
+      "fields": {
+        "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра",
+        "description": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра – покупайте на OZON по выгодным ценам! Быстрая и бес",
+        "category": "Хобби и творчество > Рукоделие > Шитье > Ткани, подкладочные материалы и дублерин > Айхал",
+        "model": "7",
+        "rating": "4.9",
+        "reviews_count": "12972",
+        "characteristics": "О товаре | Тип | Ткань | Вид ткани | Плотность, г/м2 | 300 | Материал | Микровелюр, | Длина, м",
+        "brand": "Айхал"
+      },
+      "prices": [
+        {
+          "role": "regular",
+          "amount_minor": 240400,
+          "label": "JSON-LD price"
+        }
+      ],
+      "media_total": 60,
+      "media_images": 60,
+      "media_videos": 0,
+      "media_product_imgs": 39,
+      "media_payment_icons": 4,
+      "media_video_covers": 5,
+      "media_other": 12,
+      "availability": "IN_STOCK",
+      "category": "Хобби и творчество > Рукоделие > Шитье > Ткани, подкладочные материалы и дублерин > Айхал"
+    },
+    "prod2": {
+      "status": "PARSE_NONE"
+    }
+  },
+  "WB": {
+    "A_api_199298871": {
+      "status_code": 403,
+      "bytes": 0,
+      "snippet": ""
+    },
+    "A_api_123456789": {
+      "status_code": 403,
+      "bytes": 0,
+      "snippet": ""
+    },
+    "B_mobile_199298871": {
+      "status_code": 498,
+      "bytes": 1136,
+      "is_challenge": true,
+      "snippet": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"7e4c17c54ed64b4ca63cc9af0ae2b088\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Date.now()</script><title>...</title><script type=\"module\" crossorigin src=\"/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js\"></script><link rel=\"stylesheet\" crossorigin href=\"/__wbaas/challenge"
+    },
+    "B_mobile_123456789": {
+      "status_code": 498,
+      "bytes": 1136,
+      "is_challenge": true,
+      "snippet": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"f94f1bfeba56ce9698c59a01f1fb7954\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Date.now()</script><title>...</title><script type=\"module\" crossorigin src=\"/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js\"></script><link rel=\"stylesheet\" crossorigin href=\"/__wbaas/challenge"
+    },
+    "C_detail_199298871": {
+      "status_code": 498,
+      "bytes": 1136,
+      "is_challenge": true,
+      "has_jsonld": false,
+      "has_state": false,
+      "snippet": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"ff8f55ba62da8efe3f0d21a87425e1d0\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Dat"
+    },
+    "C_detail_123456789": {
+      "status_code": 498,
+      "bytes": 1136,
+      "is_challenge": true,
+      "has_jsonld": false,
+      "has_state": false,
+      "snippet": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"a928f4ed79753582620305306c349f29\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Dat"
+    },
+    "D_batch_199298871": {
+      "status_code": 403,
+      "bytes": 0,
+      "snippet": ""
+    },
+    "D_batch_123456789": {
+      "status_code": 403,
+      "bytes": 0,
+      "snippet": ""
+    }
+  },
+  "AVITO": {
+    "A_mobile_1000000000": {
+      "status_code": 404,
+      "bytes": 18752,
+      "is_blocked": false,
+      "has_jsonld": false,
+      "has_preloaded": false,
+      "title_match": "Авито — Объявления на сайте Авито",
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>Авито — Объявления на сайте Авито</title>\n\n        <link rel=\"shortcut icon\" href=\"/mstatic/favicon.ico\" type=\"image/x-icon\" crossorigin=\"anonymous\">\n\n        <style>\n            body {\n                margin: 0;\n              "
+    },
+    "A_mobile_1234567890": {
+      "status_code": 404,
+      "bytes": 18752,
+      "is_blocked": false,
+      "has_jsonld": false,
+      "has_preloaded": false,
+      "title_match": "Авито — Объявления на сайте Авито",
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>Авито — Объявления на сайте Авито</title>\n\n        <link rel=\"shortcut icon\" href=\"/mstatic/favicon.ico\" type=\"image/x-icon\" crossorigin=\"anonymous\">\n\n        <style>\n            body {\n                margin: 0;\n              "
+    },
+    "B_www_mobile_1000000000": {
+      "status_code": 404,
+      "bytes": 18752,
+      "is_blocked": false,
+      "has_jsonld": false,
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>Авито — Объявления на сайте Авито</title>\n\n        <link rel=\"shortcut icon\" href=\"/mstatic/favicon.ico\" type=\"image/x-icon\" crossorigin=\"anonymous\">\n\n        <style>\n            body {\n                margin: 0;\n              "
+    },
+    "B_www_mobile_1234567890": {
+      "status_code": 404,
+      "bytes": 18752,
+      "is_blocked": false,
+      "has_jsonld": false,
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>Авито — Объявления на сайте Авито</title>\n\n        <link rel=\"shortcut icon\" href=\"/mstatic/favicon.ico\" type=\"image/x-icon\" crossorigin=\"anonymous\">\n\n        <style>\n            body {\n                margin: 0;\n              "
+    },
+    "C_rss_1000000000": {
+      "status_code": 404,
+      "bytes": 29440,
+      "is_xml": false,
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>Ошибка 404. Страница не найдена</title>\n\n        <link rel=\"shortcut icon\" href=\"/dstatic/favicon.ico\" type=\"image/x-icon\" crossorigin=\"anonymous\">\n\n        <style>\n            body {\n                display: flex;\n                flex-direction: column;\n                min-height: 100vh;\n                margin: 0;\n          "
+    },
+    "C_rss_1234567890": {
+      "status_code": 404,
+      "bytes": 29440,
+      "is_xml": false,
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>Ошибка 404. Страница не найдена</title>\n\n        <link rel=\"shortcut icon\" href=\"/dstatic/favicon.ico\" type=\"image/x-icon\" crossorigin=\"anonymous\">\n\n        <style>\n            body {\n                display: flex;\n                flex-direction: column;\n                min-height: 100vh;\n                margin: 0;\n          "
+    }
+  },
+  "FARPOST": {
+    "123456": {
+      "status": "FETCH_NONE"
+    },
+    "789012": {
+      "status": "FETCH_NONE"
+    },
+    "intake_format_match": true
+  },
+  "_meta": {
+    "version": "v37",
+    "elapsed_sec": 71.4,
+    "timestamp": "2026-11-11 00:47:51"
+  }
+}

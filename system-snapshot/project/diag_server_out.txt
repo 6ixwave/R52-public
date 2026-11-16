@@ -1,0 +1,33 @@
+2026-11-13T12:35:45.535+00:00 INFO r52.db [MainThread] Миграция 1 (initial) применена
+2026-11-13T12:35:45.538+00:00 INFO r52.db [MainThread] Миграция 2 (product_media) применена
+2026-11-13T12:35:45.538+00:00 INFO r52.db [MainThread] Миграция 3 (product_gallery) применена
+2026-11-13T12:35:45.538+00:00 INFO r52.db [MainThread] Миграция 4 (analysis_request) применена
+2026-11-13T12:35:45.539+00:00 INFO r52.db [MainThread] Миграция 5 (analysis_request_json) применена
+2026-11-13T12:35:45.539+00:00 INFO r52.db [MainThread] Миграция 6 (analysis_history) применена
+2026-11-13T12:35:45.540+00:00 INFO r52.db [MainThread] Миграция 7 (assistant_request) применена
+2026-11-13T12:35:45.542+00:00 INFO r52.db [MainThread] Миграция 8 (llm_call_unknown) применена
+2026-11-13T12:35:45.545+00:00 INFO r52.service [MainThread] Применены миграции базы: [1, 2, 3, 4, 5, 6, 7, 8]
+2026-11-13T12:35:45.570+00:00 INFO r52.service [MainThread] Ядро R-52 2.12.0 запущено на 127.0.0.1:8421
+2026-11-13T12:35:48.586+00:00 INFO r52.service [MainThread] Ядро R-52 остановлено
+[1] config.toml written:
+[api]
+port = 8421
+
+[logging]
+level = "DEBUG"
+
+[display]
+timezone = "Asia/Vladivostok"
+
+[intake]
+folders = ["C:/Users/aleks/.local/share/r52/intake_test"]
+
+[2] No stale lock
+[3] Config OK: port=8421, intake=(WindowsPath('C:/Users/aleks/.local/share/r52/intake_test'),)
+[4] App created, calling start()...
+[5] start() OK: port=8421, running=True
+[6] Waiting 3s...
+[7] After 3s: running=True, shutdown_requested=False
+[8] Health: {'service': 'r52-core', 'version': '2.12.0', 'instance': '7ce504158ada4019ae3b04a0bc99f84d', 'ok': True, 'components': {'worker': True, 'scheduler': True, 'intake': True}}
+[9] ALIVE - stopping...
+[10] DONE: server was ALIVE

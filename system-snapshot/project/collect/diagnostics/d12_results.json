@@ -1,0 +1,70 @@
+{
+  "WB:1_size_json": {
+    "ok": false,
+    "detail": "HTTP=404 len=196",
+    "s": 1.0
+  },
+  "WB:2_html": {
+    "ok": false,
+    "detail": "HTTP=498 len=1136",
+    "s": 0.9
+  },
+  "WB:3_web_api": {
+    "ok": false,
+    "detail": "HTTP=498 len=1136",
+    "s": 0.8
+  },
+  "WB:4_card_v5": {
+    "ok": false,
+    "detail": "HTTP=403 len=0",
+    "s": 0.9
+  },
+  "WB:5_card_recheck": {
+    "ok": true,
+    "detail": "HTTP=200 top_nums={'imt_id': 2227481309, 'nm_id': 1097975275} sell_nums={'supplier_id': 250148991, 'no_return_map': 4351} price_keys=[]",
+    "s": 0.9
+  },
+  "OZ:1_cffi_page": {
+    "ok": false,
+    "detail": "HTTP=403 len=8675",
+    "s": 1.0
+  },
+  "OZ:2_composer_www": {
+    "ok": false,
+    "detail": "HTTP=403 len=1081",
+    "s": 1.0
+  },
+  "OZ:3_pdp_entry": {
+    "ok": false,
+    "detail": "HTTP=403 len=6127",
+    "s": 1.1
+  },
+  "OZ:4_playwright": {
+    "ok": false,
+    "detail": "HTTP=403 len=3305",
+    "s": 6.4
+  },
+  "FP:1_warmup_cookies": "[REDACTED_AUTH_SECRET]",
+  "FP:2_direct_noredir": {
+    "ok": false,
+    "detail": "HTTP=404 loc= len=12941",
+    "s": 1.0
+  },
+  "FP:3_city_path": {
+    "ok": false,
+    "detail": "HTTP=404 len=13129 url=https://www.farpost.ru/vladivostok/138859452.h",
+    "s": 0.9
+  },
+  "AV:1_cffi": {
+    "ok": false,
+    "detail": "HTTP=429 len=35048 CAPTCHA",
+    "s": 1.0
+  },
+  "AV:2_mobile": {
+    "ok": false,
+    "detail": "HTTP=429 len=35048 CAPTCHA",
+    "s": 1.0
+  },
+  "total_s": 20.4,
+  "time": "2026-11-12T16:49:55.424492"
+}

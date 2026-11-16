@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Брюки спортивные хлопок трико",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "DreamFit",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Стильные и удобные мужские черные брюки в стиле оверсайз - это модный тренд 2026 года. Стильные летние трико выполнены из плотной, мягкой и дышащей хлопковой ткани премиум - качества футер, которая не скатывается, не вытягивается и прекрасно держит форму. Спортивные штаны широкие имеют свободный крой сверху и зауженный внизу, завышенную посадку на талии, резинку и декоративный шнурок на поясе, прорезные карманы по бокам, манжеты внизу на штанинах и декоративный принт в виде небольшого логотипа бренда на одной штанине. Трикотажные джоггеры мужские прекрасно подойдут для занятий спортом, туризма и активного отдыха. Черные треники идеальны для танцев, тренировок в тренажерном зале. Классическое трико из хлопкового трикотажа прекрасно подойдет для туристического похода и поездки на природу. Легкие демисезонные треники из хлопка станут вашей любимой повседневной вещью. Благодаря свободному крою oversize, они красиво сядут на мужчин любого роста и типа телосложения.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Спортивная одежда > Брюки спортивные",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 510000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "5100.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 162000,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1620.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Спортивная одежда > Брюки спортивные",
+    "source": "WB",
+    "id": "163851554",
+    "url": "https://www.wildberries.ru/catalog/163851554/detail.aspx",
+    "observed_at": "2026-11-16T17:15:27.141597+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

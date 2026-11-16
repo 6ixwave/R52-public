@@ -1,0 +1,358 @@
+{
+  "fields": {
+    "title": {
+      "status": "KNOWN",
+      "value": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра",
+      "method": "SSR"
+    },
+    "description": {
+      "status": "KNOWN",
+      "value": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей.",
+      "method": "SSR"
+    },
+    "category": {
+      "status": "KNOWN",
+      "value": "Хобби и творчество > Рукоделие > Шитье > Ткани, подкладочные материалы и дублерин > Айхал",
+      "method": "BREADCRUMB"
+    },
+    "model": {
+      "status": "KNOWN",
+      "value": "7",
+      "method": "URL"
+    },
+    "rating": {
+      "status": "KNOWN",
+      "value": "4.9",
+      "method": "SSR"
+    },
+    "reviews_count": {
+      "status": "KNOWN",
+      "value": "12972",
+      "method": "SSR"
+    },
+    "characteristics": {
+      "status": "KNOWN",
+      "value": "О товаре | Тип | Ткань | Вид ткани | Плотность, г/м2 | 300 | Материал | Микровелюр, | Длина, м",
+      "method": "SSR"
+    },
+    "brand": {
+      "status": "KNOWN",
+      "value": "Айхал",
+      "method": "SSR"
+    }
+  },
+  "price_candidates": [
+    {
+      "role": "regular",
+      "amount_minor": 240400,
+      "currency": "RUB",
+      "label": "JSON-LD price"
+    }
+  ],
+  "media": {
+    "items": [
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/cms/e3/tc1/wc200/group_2087330924.png",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/wc50/7362987720.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-m/wc50/7158491914.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-0/wc50/7340757300.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-l/wc50/7158491877.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-5/wc50/8209411169.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-1/wc50/7158491893.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-k/wc50/7158491876.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-g/wc50/7158491872.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-f/wc50/7158491907.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-y/wc50/6919587214.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/wc1000/7362987720.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-x/wc140/8325198069.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/wc140/7652842008.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-4/wc140/7652843392.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-b/wc140/7479305111.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-r/wc140/9323286723.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-u/wc140/10793578602.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/video-73/01M60MN5E81EQYVB81XMP92QZP/cover/wc200/cover.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/video-73/01M5BM3SBE3RHN1X1X2M2RDJ7P/cover/wc200/cover.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/video-73/01M4NC004MXGTQBTYAT3WZNTP3/cover/wc200/cover.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/video-71/01M20CB0FVW6GF3YHT9GCX770B/cover/wc200/cover.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/video-72/01M1V93VK9X0ZWQ40YJPQCE81Y/cover/wc200/cover.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/payments-cdn/wc75/ozon-price-compact-new-ozon-light.png",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/payments-cdn/wc75/ozon_other_sovkombank_dark.png",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/payments-cdn/wc75/ozon_other_otp_light.png",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/payments-cdn/wc75/ozon_other_crediteurope_black.png",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/c50/7362987720.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-u/wc500/9739655922.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/wc500/8773328328.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-0/wc500/7911518832.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-7/wc500/10992522139.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-9/wc500/7845240537.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-5/wc500/9003554465.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-f/wc500/8218287735.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-x/wc500/7969376805.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-u/wc500/9068082402.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-v/wc500/13949203531.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-2/wc500/21139682726.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-h/wc500/7423850537.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-e/wc500/7177630442.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/wc500/7429889616.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-p/wc500/13886576809.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-v/wc500/13030417147.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-w/wc500/7037977784.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-p/wc500/7345131613.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-l/wc500/13951837677.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-u/wc500/9736551246.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-5/wc500/11736843809.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-a/wc500/13218565294.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-f/wc500/6745892883.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/5A/Mk/wc100/5AMkSfnagNF29RInqfa8C42hpZ4H0bP4.png",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/c600/7362987720.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/7362987720.jpg",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/cms/e3/tc1/wc400/group_2087330924.png 2x",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/wc100/7362987720.jpg 2x",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-m/wc100/7158491914.jpg 2x",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-0/wc100/7340757300.jpg 2x",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-l/wc100/7158491877.jpg 2x",
+        "image_data": null
+      },
+      {
+        "type": "image",
+        "source_url": "https://ir.ozone.ru/s3/multimedia-1-5/wc100/8209411169.jpg 2x",
+        "image_data": null
+      }
+    ]
+  },
+  "availability": "IN_STOCK",
+  "category_path": "Хобби и творчество > Рукоделие > Шитье > Ткани, подкладочные материалы и дублерин > Айхал"
+}

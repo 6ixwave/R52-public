@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie da gaming con microfono regolabile e design mimetico, cuffie stereo sovraurali con cavo, ideali per console, PC e laptop.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "27.07",
+        "amount_minor": 2707,
+        "currency": "RUB",
+        "visible_label": "27.07 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "20.13",
+        "amount_minor": 2013,
+        "currency": "RUB",
+        "visible_label": "20.13 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sb82135ceac564ba38a8fee5a0cfc10b0F.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013407595470",
+    "url": "https://ru.aliexpress.com/item/1005013407595470.html",
+    "observed_at": "2026-11-13T07:55:54.351546+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,22 @@
+Python: 3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]
+Platform: Windows-11-10.0.26300-SP0
+Executable: C:\Python315\python.exe
+  [OK] requests 2.34.2
+  [OK] urllib3 2.8.0
+C:\Users\aleks\Downloads\R52-2.12\R52-2.12\check_env.py:15: DeprecationWarning: '__version__' is deprecated and slated for removal in Python 3.20
+  ver = getattr(mod, "__version__", "")
+  [OK] json 2.0.9
+  [OK] re 2.2.1
+  [OK] hashlib 
+  [OK] base64 
+  [OK] concurrent.futures 
+  [OK] sqlite3 
+  [OK] subprocess 
+  [OK] pathlib 
+  [OK] curl_cffi installed
+  [OK] curl_cffi Session(impersonate='chrome') created
+  [MISS] bs4
+  [MISS] lxml
+  [MISS] html5lib
+
+Done.

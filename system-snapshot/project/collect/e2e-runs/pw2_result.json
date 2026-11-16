@@ -1,0 +1,66 @@
+{
+  "wb": {
+    "nm_id": 138278567,
+    "url": "https://www.wildberries.ru/catalog/138278567/detail.aspx",
+    "html_size": 7590,
+    "title": "...",
+    "prices": [],
+    "has_price": false,
+    "images": []
+  },
+  "ozon": {
+    "product_id": "1600562267",
+    "url": "https://www.ozon.ru/product/tkan-dlya-obivki-mebeli-velyur-s-abstraktnym-printom-otrez-3-metra-1600562267/?__rr=1&abt_att=1&sh=msuA89eRKg",
+    "html_size": 1087493,
+    "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра купить на OZON по низкой цене (1",
+    "jsonld_name": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез ",
+    "images": [
+      "https://ir.ozone.ru/s3/multimedia-1-h/ww1200/8369406197.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-g/wc50/7158491872.jpg",
+      "https://ir.ozone.ru/s3/video-71/01M18CMYDJJ5N5X1GHD2F7QSNN/cover/wc400/cover.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-h/wc600/20070043505.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-5/wc300/8099611061.jpg"
+    ],
+    "prices": [
+      {
+        "source": "json-price",
+        "value": 2295
+      },
+      {
+        "source": "jsonld",
+        "value": 2295.0,
+        "cur": "RUB",
+        "avail": "http://schema.org/InStock"
+      }
+    ],
+    "has_price": true
+  },
+  "avito": {
+    "direct_7494308705": {
+      "url": "https://www.avito.ru/ad/7494308705",
+      "size": 29378,
+      "title": "Ошибка 404. Страница не найдена",
+      "ids": [
+        "200026938"
+      ],
+      "prices": [],
+      "has_price": false
+    },
+    "search_noutbuki": {
+      "url": "https://www.avito.ru/moskva/noutbuki",
+      "size": 36447,
+      "title": "Доступ ограничен: проблема с IP",
+      "ids": [],
+      "prices": [],
+      "has_price": false
+    },
+    "search_electronics": {
+      "url": "https://www.avito.ru/moskva/elektronika",
+      "size": 36447,
+      "title": "Доступ ограничен: проблема с IP",
+      "ids": [],
+      "prices": [],
+      "has_price": false
+    }
+  }
+}

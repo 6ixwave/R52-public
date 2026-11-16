@@ -1,0 +1,28 @@
+2026-11-12 16:08:53,466 INFO PROBE2 START 2026-11-12T16:08:53.466071+10:00
+2026-11-12 16:08:53,466 INFO === WB nm=1097975275 vol=10979 part=1097975 ===
+2026-11-12 16:08:54,551 INFO [WB] card_dump OK (0.9s) keys=['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_name', 'vendor_code', 'descript
+2026-11-12 16:08:59,039 INFO [WB] price_paths FAIL (4.5s) all 404, tried 5 paths
+2026-11-12 16:09:03,482 INFO [WB] web_api FAIL (0.8s) HTTP 498 body[:80]=<!doctype html><html lang="ru" data-theme="light" data-req-uuid="f372d20c4242d7d
+2026-11-12 16:09:12,303 INFO [WB] basket_suffix_scan FAIL (5.2s) all tried, last HTTP 404
+2026-11-12 16:09:13,165 INFO [WB] html_embed FAIL (0.9s) HTTP 498
+2026-11-12 16:09:13,165 INFO === OZON ===
+2026-11-12 16:09:14,828 INFO [OZON] composer_v2_real FAIL (1.7s) HTTP 403 body=
+
+{"incidentId": "fab_chlg_20261112060915_01M775ZTT9788CYG5S71B3BGYG", "challengeURL":
+2026-11-12 16:09:15,792 INFO [OZON] html_real FAIL (1.0s) HTTP 403 len=8314
+2026-11-12 16:09:16,790 INFO [OZON] id_3481320800 FAIL (1.0s) HTTP 403 title=Antibot Challenge Page
+2026-11-12 16:09:17,761 INFO [OZON] id_761659557 FAIL (2.0s) HTTP 403 title=Antibot Challenge Page
+2026-11-12 16:09:18,755 INFO [OZON] id_1848574753 FAIL (3.0s) HTTP 403 title=Antibot Challenge Page
+2026-11-12 16:09:32,409 INFO [OZON] playwright FAIL (13.7s) len=705689 prices=[] fab=False
+2026-11-12 16:09:32,527 INFO === AVITO ===
+2026-11-12 16:09:33,556 INFO Avito main: HTTP 429, len=34116
+2026-11-12 16:09:35,764 INFO [AVITO] category_ids FAIL (0.2s) HTTP 429
+2026-11-12 16:09:36,803 INFO [AVITO] m_category FAIL (1.0s) HTTP 429
+2026-11-12 16:09:37,736 INFO [AVITO] api_v1 FAIL (0.9s) HTTP 404 body[:80]={"message":"no Route matched with those values"}
+2026-11-12 16:09:37,739 INFO PROBE2 DONE 44.3s
+2026-11-12 16:09:37,741 INFO Saved probe2_results.json
+2026-11-12 16:09:37,741 INFO ==================================================
+2026-11-12 16:09:37,741 INFO   WB     1/5 OK
+2026-11-12 16:09:37,741 INFO   OZON   0/6 OK
+2026-11-12 16:09:37,741 INFO   AVITO  0/3 OK
+2026-11-12 16:09:37,741 INFO DONE

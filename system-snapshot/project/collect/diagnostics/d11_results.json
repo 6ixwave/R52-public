@@ -1,0 +1,44 @@
+{
+  "WB:price": {
+    "ok": false,
+    "detail": "all endpoints failed",
+    "s": 10.2
+  },
+  "OZON:composer_v2": {
+    "ok": false,
+    "detail": "err=Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to g",
+    "s": 1.4
+  },
+  "OZON:pdp_entry": {
+    "ok": false,
+    "detail": "HTTP=403",
+    "s": 3.4
+  },
+  "OZON:api_card": {
+    "ok": false,
+    "detail": "HTTP=403",
+    "s": 6.0
+  },
+  "FP:v2_0": {
+    "ok": false,
+    "detail": "HTTP=200 len=89024 verify=True url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F138859452.h prices=[] cookies=[REDACTED_AUTH_SECRET]",
+    "s": 4.5
+  },
+  "FP:v2_1": {
+    "ok": false,
+    "detail": "HTTP=404 len=13900 verify=False url=https://www.farpost.ru/bulletin/138859452 prices=[] cookies=[REDACTED_AUTH_SECRET]",
+    "s": 7.6
+  },
+  "AV:v2_0": {
+    "ok": false,
+    "detail": "HTTP=429 len=34116 captcha=True prices=[]",
+    "s": 1.0
+  },
+  "AV:v2_1": {
+    "ok": false,
+    "detail": "HTTP=429 len=34116 captcha=True prices=[]",
+    "s": 4.2
+  },
+  "total_s": 34.0,
+  "time": "2026-11-12T16:47:06.978678"
+}

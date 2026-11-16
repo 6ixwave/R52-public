@@ -1,0 +1,94 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Monitor da gioco KTC H27T7P-2 Fast IPS da 27 pollici 2560×1440 QHD 200Hz fino a 210Hz Tempo di risposta MPRT di 1 ms Sincronizzazione adattiva avanzata e HDR400",
+        "method": "PW_META",
+        "evidence": {
+          "method": "PW_META",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S9e17aafc959b4b33b6e0cf27e128ce9bN.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S1e828ecd8c3a412da677d0da4afca2e5J.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sfdc14f8212d0404daa56dda039a86a1fp.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S4b794bf9af354285b962870f76dc2b5a0.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sadd0c56603e248baaf5be683ec5dd760p.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S0634777ebaf5400d849f1adc4c71ebdcZ.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Se1a66d1f39674887a8af8a5f9808fdf9S.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sdaefe032ce19441ea12e52045675e47ag.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S9e17aafc959b4b33b6e0cf27e128ce9bN.jpg_960x960q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005012258539556",
+    "url": "https://www.aliexpress.com/item/1005012258539556.html",
+    "observed_at": "2026-11-15T20:26:18.488494+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

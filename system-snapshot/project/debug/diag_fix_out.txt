@@ -1,0 +1,33 @@
+2026-11-15 00:30:26,560 diag.fix INFO === FARPOST test ===
+2026-11-15 00:30:26,864 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 00:30:26,865 r52.collectors.farpost INFO FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-15 00:30:28,234 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-15 00:30:30,759 r52.collectors.farpost INFO FARPOST search: 48 bulletin links found
+2026-11-15 00:30:30,760 r52.collectors.farpost INFO FARPOST: collect_by_search 'тест' → 5 products
+2026-11-15 00:30:30,763 diag.fix INFO === WB test ===
+2026-11-15 00:30:30,763 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 00:30:30,763 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-15 00:30:31,617 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-15 00:30:34,494 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-15 00:30:35,434 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-15 00:30:54,757 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-15 00:31:06,355 r52.collectors.wb INFO WB search: global deadline reached, stopping
+2026-11-15 00:31:06,355 r52.collectors.wb INFO WB search: JSON API failed (status=403), trying HTML fallback
+2026-11-15 00:31:19,656 diag.fix ERROR WB FAIL: SEARCH_HTTP_403
+2026-11-15 00:31:19,657 diag.fix INFO === AVITO test ===
+2026-11-15 00:31:19,657 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 00:31:19,657 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-15 00:31:20,705 r52.collectors.avito INFO AVITO warmup m.avito.ru: HTTP 439
+2026-11-15 00:31:22,722 r52.collectors.avito INFO AVITO warmup www.avito.ru: HTTP 200
+2026-11-15 00:31:22,722 r52.collectors.avito INFO AVITO warmup: HTTP 200
+2026-11-15 00:31:43,293 r52.collectors.avito WARNING AVITO search: CAPTCHA/blocked (439) for 'тест'
+2026-11-15 00:31:43,293 r52.collectors.avito INFO AVITO: 439 → trying www.avito.ru desktop fallback
+2026-11-15 00:31:44,564 r52.collectors.avito INFO AVITO: mobile fallback OK (375146 bytes)
+2026-11-15 00:31:44,564 r52.collectors.avito INFO AVITO: mobile fallback succeeded, proceeding to parse
+2026-11-15 00:31:44,567 r52.collectors.avito INFO AVITO search: 3 ad links found
+2026-11-15 00:31:44,569 r52.collectors.avito INFO AVITO: collect_by_search 'тест' → 3 products
+2026-11-15 00:31:44,569 diag.fix INFO === SUMMARY ===
+2026-11-15 00:31:44,569 diag.fix INFO   FARPOST         FAIL err=? (4.2s)
+2026-11-15 00:31:44,569 diag.fix INFO   WB              FAIL err=SEARCH_HTTP_403 (48.9s)
+2026-11-15 00:31:44,569 diag.fix INFO   AVITO           PASS rows=3 prices=0 (24.9s)
+2026-11-15 00:31:44,571 diag.fix INFO Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\diag_fix_report.json

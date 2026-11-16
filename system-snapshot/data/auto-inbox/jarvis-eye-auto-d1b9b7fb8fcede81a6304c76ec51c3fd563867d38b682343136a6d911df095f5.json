@@ -1,0 +1,33 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "WB-619204389",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "619204389",
+    "url": "https://www.wildberries.ru/catalog/619204389/detail.aspx",
+    "observed_at": "2026-11-17T01:18:07.302788+10:00",
+    "status": "DEGRADED",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

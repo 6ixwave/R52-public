@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Джинсы широкие трубы y2k багги",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Feimailis",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Представляем вам классические мужские джинсы трубы, идеальные для весны и лета. Состав -\nхлопок 100%. Эта модель выполнена в универсальном синем темном цвете, что позволяет легко сочетать их с любыми  любыми образами. Прямой крой обеспечивает комфорт и стильный внешний вид, а средняя посадка гарантирует удобство в течение всего дня. Широкие багги джинсы оснащены надежной застежкой на пуговицу и молнию, а также практичными накладными карманами. Изготовленные из прочного материала, эти джинсы отличаются высокой устойчивостью к истиранию, что делает их идеальным выбором для ежедневной носки.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Джинсы",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 935300,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "9353.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 315600,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "3156.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Одежда > Джинсы",
+    "source": "WB",
+    "id": "829829020",
+    "url": "https://www.wildberries.ru/catalog/829829020/detail.aspx",
+    "observed_at": "2026-11-16T17:09:30.111664+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

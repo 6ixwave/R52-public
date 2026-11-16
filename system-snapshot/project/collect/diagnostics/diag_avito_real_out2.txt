@@ -1,0 +1,53 @@
+﻿C:\Python315\python.exe : 2026-11-12 03:30:09,248 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52
+\collectors\proxies.json не найден, режим direct
+строка:2 знак:1
++ C:\Python315\python.exe diag_avito_real.py 2>&1 | Out-File -FilePath  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 03:3...н, режим direct:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 03:30:10,222 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.avito.ru:443
+2026-11-12 03:30:11,044 urllib3.connectionpool DEBUG https://www.avito.ru:443 "GET /ad/7494308705 HTTP/1.1" 404 None
+======================================================================
+AVITO REAL COLLECTOR DIAG  listing=7494308705
+======================================================================
+
+[1] Collector created: AVITO
+
+[2] Raw HTTP fetch...
+    HTTP 404, 29907 bytes
+
+[3] CAPTCHA check...
+    captcha=False
+
+[4] JSON-LD extraction...
+    jsonld blocks: 0
+    product_ld: None
+
+[5] State extraction...
+    state: None
+
+[6] Prices from state...
+    from state: 0 candidates
+
+[7] Prices from HTML...
+    total: 0 candidates
+
+[8] Media...
+    0 items
+
+[9] Full collect_product()...
+    [FAIL] collect_product returned None in 0.8s
+
+[10] Raw state patterns in HTML...
+    __PRELOADED_STATE__: not found
+    __INITIAL_STATE__: not found
+    data-state: not found
+    __NUXT__: not found
+    __APP_DATA__: not found
+
+[11] Raw price patterns in HTML...
+
+======================================================================
+DONE
+======================================================================

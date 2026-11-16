@@ -1,0 +1,26 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-14 03:05:54,986 r52.autocollect.worker INFO phase=worker_start pid=8684
+2026-11-14 03:05:55,002 r52.autocollect.worker INFO source=ALIEXPRESS mode=discover phase=initialize
+2026-11-14 03:05:55,002 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, режим direct
+2026-11-14 03:05:55,002 r52.autocollect.worker INFO source=ALIEXPRESS proxy_pool={'total': 0, 'alive': 0, 'use_proxies': True}
+2026-11-14 03:05:55,002 r52.autocollect.worker INFO source=ALIEXPRESS phase=search_start page=1 limit=5
+2026-11-14 03:05:56,105 r52.collectors.aliexpress INFO ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile, domain=com
+2026-11-14 03:05:56,122 r52.collectors.aliexpress INFO ALI PW: session already warm (17 cookies)
+2026-11-14 03:06:00,800 r52.collectors.aliexpress INFO ALI PW: navigate https://www.aliexpress.com/wholesale?SearchText=%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D -> 200
+2026-11-14 03:06:01,815 r52.collectors.aliexpress INFO ALI PW: rendered at tick=0, prices=[]
+2026-11-14 03:06:01,840 r52.collectors.aliexpress INFO ALI PW: done in 5.7s, mtop=0, rendered=True, dom_prices=[]
+2026-11-14 03:06:01,840 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_start
+2026-11-14 03:06:02,031 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_complete
+2026-11-14 03:06:02,033 root ERROR phase=worker_failed code=ATTRIBUTEERROR
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98, in main
+    run(json.loads((folder / "request").read_text("utf-8")), folder)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 80, in run
+    rows = collector.collect_by_search(params["value"], page=params["page"], page_size=params["limit"])
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\aliexpress.py", line 262, in collect_by_search
+    return collect_links(self, "ALIEXPRESS", url, page_size)
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\discovery.py", line 38, in collect_links
+    if response is None or response.status_code != 200:
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'status_code'

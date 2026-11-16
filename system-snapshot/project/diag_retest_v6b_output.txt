@@ -1,0 +1,25 @@
+=== R-52 retest_v6b — 2026-11-14 11:36:23 ===
+Query: 'наушники'
+
+  OZON: OK
+  AVITO: OK
+  FARPOST: OK
+
+── OZON ──
+  p1: OK 0 items 37.8s IDs=[]
+  p2: OK 0 items 3.5s IDs=[]
+
+── AVITO ──
+  p1: ERR SearchError: SEARCH_ACCESS_CHALLENGE (15.5s)
+  p2: ERR SearchError: SEARCH_REQUEST_FAILED (0.0s)
+
+── FARPOST (p1+p2+p3) ──
+  p1: OK 10 items 3.7s IDs=['138088942', '138089008', '135023432', '135023441', '135023456']
+  p2: OK 10 items 21.0s IDs=['138088942', '138089008', '135023432', '135023441', '135023456']
+  p3: OK 10 items 17.5s IDs=['138088942', '138089008', '135023432', '135023441', '135023456']
+
+  Overlap:
+    p1∩p2: 10/10
+    p2∩p3: 10/10
+
+=== DONE ===

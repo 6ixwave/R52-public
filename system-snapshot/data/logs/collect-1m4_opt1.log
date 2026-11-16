@@ -1,0 +1,25 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 02:19:06,755 r52.autocollect.worker INFO phase=worker_start pid=2312
+2026-11-15 02:19:06,781 r52.autocollect.worker INFO source=WB mode=discover phase=initialize
+2026-11-15 02:19:06,782 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 02:19:06,782 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-15 02:19:06,782 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-15 02:19:06,784 r52.autocollect.worker INFO source=WB phase=search_start page=1 limit=5
+2026-11-15 02:19:07,696 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-15 02:19:10,712 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-15 02:19:11,621 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-15 02:19:23,724 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-15 02:19:38,887 r52.collectors.wb INFO WB search: global deadline reached, stopping
+2026-11-15 02:19:38,887 r52.collectors.wb INFO WB search: JSON API failed (status=403), trying HTML fallback
+2026-11-15 02:19:56,228 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-15 02:19:56,228 r52.autocollect.worker INFO source=WB phase=close_complete
+2026-11-15 02:19:56,230 root ERROR phase=worker_failed code=SEARCH_HTTP_403
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98, in main
+    run(json.loads((folder / "request").read_text("utf-8")), folder)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 80, in run
+    rows = collector.collect_by_search(params["value"], page=params["page"], page_size=params["limit"])
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 972, in collect_by_search
+    raise SearchError(f"SEARCH_HTTP_{last_status}")
+r52.collectors.discovery.SearchError: SEARCH_HTTP_403

@@ -1,0 +1,1432 @@
+{
+  "ts": "2026-11-12T20:37:54.435351+00:00",
+  "phase": "done",
+  "search_api": {
+    "size": 1427281,
+    "keys": [
+      "data"
+    ],
+    "item_arrays": [
+      {
+        "path": ".data.breadcrumbs.breadcrumbs",
+        "count": 5,
+        "keys": [
+          "href",
+          "title"
+        ],
+        "first": {
+          "title": "Все Категории",
+          "href": "https://aliexpress.ru/all-wholesale-products.html"
+        }
+      },
+      {
+        "path": ".data.sideFilter.categoriesPath",
+        "count": 5,
+        "keys": [
+          "id",
+          "isSearchFromCategoryChips",
+          "title",
+          "url"
+        ],
+        "first": {
+          "id": "15",
+          "title": "Электроника",
+          "url": "/wholesale?CatId=15&SearchText=наушники беспроводные&searchInfo=HitTYTsKrvWltDGwJ7sjW55VEZoJLkZXoY3gjl-PLq7ZUCFobk-V_KK78qeQtdXosnZrIVb5E-rx2YwxpdxYgP1FwQq7K45QHK2C5hq3Qn8VNSDcyZ4OTkfu5dAUihYyO0OsUSYInHRUwqPJHpEe9Je29e42dF0SvvaAoaD_SDIoEztq",
+          "isSearchFromCategoryChips": false
+        }
+      },
+      {
+        "path": ".data.sideFilter.categories",
+        "count": 10,
+        "keys": [
+          "chevronFlag",
+          "id",
+          "indeterminate",
+          "rightArrow",
+          "selected",
+          "sub",
+          "title",
+          "trackInfo",
+          "url"
+        ],
+        "first": {
+          "id": "15",
+          "title": "Электроника",
+          "url": "",
+          "selected": false,
+          "sub": [
+            {
+              "id": "16047",
+              "title": "Наушники",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"16047\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"16047\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "16047",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "9129",
+              "title": "Аксессуары для наушников",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"9129\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"9129\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "9129",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "5931",
+              "title": "Телефоны и аксессуары",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"5931\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"5931\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "5931",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "565",
+              "title": "Портативная аудио- и видеотехника",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"565\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"565\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "565",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "16048",
+              "title": "Микрофоны и диктофоны",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"16048\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"16048\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "16048",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "5280",
+              "title": "Батареи",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"5280\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"5280\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "5280",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "1761",
+              "title": "Портативные умные устройства",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"1761\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"1761\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "1761",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "16049",
+              "title": "Акустика",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"16049\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"16049\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "16049",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "16052",
+              "title": "Аксессуары",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"16052\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"16052\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "16052",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "2162",
+              "title": "Устройства VR/AR и аксессуары",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"2162\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"2162\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "2162",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "16053",
+              "title": "Рация",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"16053\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"16053\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "16053",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "566",
+              "title": "Домашняя аудио- и видеотехника",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"566\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"566\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "566",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "16050",
+              "title": "Плееры",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"16050\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"16050\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "16050",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            },
+            {
+              "id": "2957",
+              "title": "Профессиональное аудиооборудование",
+              "url": "",
+              "selected": false,
+              "sub": [],
+              "indeterminate": false,
+              "trackInfo": {
+                "click": {
+                  "Name": "Refine_Service_Point",
+                  "ae_button_type": "select",
+                  "ae_click_behavior": "{\"2957\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+                  "ae_object_type": "catpred",
+                  "ae_page_area": "nesting",
+                  "ae_page_type": "productlist",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "exposure": {
+                  "Name": "Refine_Service_Point",
+                  "exp_attribute": "{\"category_id\":\"2957\",\"key_word\":\"наушники беспроводные\"}",
+                  "exp_page": "productlist",
+                  "exp_page_area": "nesting",
+                  "exp_type": "catpred",
+                  "spm": "a2g2w.productlist.refine.nesting"
+                },
+                "aerEvent": {
+                  "filterType": "nesting",
+                  "keyWord": "наушники беспроводные",
+                  "nameFilter": "2957",
+                  "pageArea": "nesting",
+                  "spm": "a2g2w.productlist.refine.nesting",
+                  "type": "catpred"
+                },
+                "aerActionTypeViewFilter": "view_filter",
+                "aerActionTypeSelectFilter": "select_filter",
+                "aerActionTypeUnselectFilter": ""
+              },
+              "chevronFlag": false
+            }
+          ],
+          "indeterminate": false,
+          "trackInfo": {
+            "click": {
+              "Name": "Refine_Service_Point",
+              "ae_button_type": "select",
+              "ae_click_behavior": "{\"15\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+              "ae_object_type": "catpred",
+              "ae_page_area": "nesting",
+              "ae_page_type": "productlist",
+              "spm": "a2g2w.productlist.refine.nesting"
+            },
+            "exposure": {
+              "Name": "Refine_Service_Point",
+              "exp_attribute": "{\"category_id\":\"15\",\"key_word\":\"наушники беспроводные\"}",
+              "exp_page": "productlist",
+              "exp_page_area": "nesting",
+              "exp_type": "catpred",
+              "spm": "a2g2w.productlist.refine.nesting"
+            },
+            "aerEvent": {
+              "filterType": "nesting",
+              "keyWord": "наушники беспроводные",
+              "nameFilter": "15",
+              "pageArea": "nesting",
+              "spm": "a2g2w.productlist.refine.nesting",
+              "type": "catpred"
+            },
+            "aerActionTypeViewFilter": "view_filter",
+            "aerActionTypeSelectFilter": "select_filter",
+            "aerActionTypeUnselectFilter": ""
+          },
+          "chevronFlag": false,
+          "rightArrow": "DOWN"
+        }
+      },
+      {
+        "path": ".data.sideFilter.categories[0].sub",
+        "count": 14,
+        "keys": [
+          "chevronFlag",
+          "id",
+          "indeterminate",
+          "selected",
+          "sub",
+          "title",
+          "trackInfo",
+          "url"
+        ],
+        "first": {
+          "id": "16047",
+          "title": "Наушники",
+          "url": "",
+          "selected": false,
+          "sub": [],
+          "indeterminate": false,
+          "trackInfo": {
+            "click": {
+              "Name": "Refine_Service_Point",
+              "ae_button_type": "select",
+              "ae_click_behavior": "{\"16047\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+              "ae_object_type": "catpred",
+              "ae_page_area": "nesting",
+              "ae_page_type": "productlist",
+              "spm": "a2g2w.productlist.refine.nesting"
+            },
+            "exposure": {
+              "Name": "Refine_Service_Point",
+              "exp_attribute": "{\"category_id\":\"16047\",\"key_word\":\"наушники беспроводные\"}",
+              "exp_page": "productlist",
+              "exp_page_area": "nesting",
+              "exp_type": "catpred",
+              "spm": "a2g2w.productlist.refine.nesting"
+            },
+            "aerEvent": {
+              "filterType": "nesting",
+              "keyWord": "наушники беспроводные",
+              "nameFilter": "16047",
+              "pageArea": "nesting",
+              "spm": "a2g2w.productlist.refine.nesting",
+              "type": "catpred"
+            },
+            "aerActionTypeViewFilter": "view_filter",
+            "aerActionTypeSelectFilter": "select_filter",
+            "aerActionTypeUnselectFilter": ""
+          },
+          "chevronFlag": false
+        }
+      },
+      {
+        "path": ".data.sideFilter.categories[1].sub",
+        "count": 4,
+        "keys": [
+          "chevronFlag",
+          "id",
+          "indeterminate",
+          "selected",
+          "sub",
+          "title",
+          "trackInfo",
+          "url"
+        ],
+        "first": {
+          "id": "4478",
+          "title": "Электроника и навигация",
+          "url": "",
+          "selected": false,
+          "sub": [],
+          "indeterminate": false,
+          "trackInfo": {
+            "click": {
+              "Name": "Refine_Service_Point",
+              "ae_button_type": "select",
+              "ae_click_behavior": "{\"4478\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+              "ae_object_type": "catpred",
+              "ae_page_area": "nesting",
+              "ae_page_type": "productlist",
+              "spm": "a2g2w.productlist.refine.nesting"
+            },
+            "exposure": {
+              "Name": "Refine_Service_Point",
+              "exp_attribute": "{\"category_id\":\"4478\",\"key_word\":\"наушники беспроводные\"}",
+              "exp_page": "productlist",
+              "exp_page_area": "nesting",
+              "exp_type": "catpred",
+              "spm": "a2g2w.productlist.refine.nesting"
+            },
+            "aerEvent": {
+              "filterType": "nesting",
+              "keyWord": "наушники беспроводные",
+              "nameFilter": "4478",
+              "pageArea": "nesting",
+              "spm": "a2g2w.productlist.refine.nesting",
+              "type": "catpred"
+            },
+            "aerActionTypeViewFilter": "view_filter",
+            "aerActionTypeSelectFilter": "select_filter",
+            "aerActionTypeUnselectFilter": ""
+          },
+          "chevronFlag": false
+        }
+      },
+      {
+        "path": ".data.sideFilter.categories[2].sub",
+        "count": 3,
+        "keys": [
+          "chevronFlag",
+          "id",
+          "indeterminate",
+          "selected",
+          "sub",
+          "title",
+          "trackInfo",
+          "url"
+        ],
+        "first": {
+          "id": "619",
+          "title": "Аксессуары для мобильных телефонов",
+          "url": "",
+          "selected": false,
+          "sub": [],
+          "indeterminate": false,
+          "trackInfo": {
+            "click": {
+              "Name": "Refine_Service_Point",
+              "ae_button_type": "select",
+              "ae_click_behavior": "{\"619\":\"select\",\"key_word\":\"наушники беспроводные\"}",
+              "ae_object_type": "catpred",
+              "ae_page_area": "nesting",
+              "ae_page_type": "productlist",
+              "spm": "a2g2w.productlist.refine.nesting"
+            },
+            "exposure": {
+              "Name": "Refine_Service_Point",
+              "exp_attribute": "{\"category_id\":\"619\",\"key_word\":\"наушники беспроводные\"}",
+              "exp_page": "productlist",
+              "exp_page_area": "nesting",
+              "exp_type": "catpred",
+              "spm": "a2g2w.productlist.refine.nesting"
+            },
+            "aerEvent": {
+              "filterType": "nesting",
+              "keyWord": "наушники беспроводные",
+              "nameFilter": "619",
+              "pageArea": "nesting",
+              "spm": "a2g2w.productlist.refine.nesting",
+              "type": "catpred"
+            },
+            "aerActionTypeViewFilter": "view_filter",
+            "aerActionTypeSelectFilter": "select_filter",
+            "aerActionTypeUnselectFilter": ""
+          },
+          "chevronFlag": false
+        }
+      },
+      {
+        "path": ".data.sideFilter.filters[0].list",
+        "count": 39,
+        "keys": [
+          "active",
+          "disabled",
+          "id",
+          "img",
+          "title",
+          "trackInfo",
+          "value"
+        ],
+        "first": {
+          "title": "KZ",
+          "value": "1609-10837",
+          "img": "",
+          "active": false,
+          "id": "10837",
+          "trackInfo": {
+            "click": {
+              "Name": "Refine_Service_Point",
+              "ae_button_type": "select",
+              "ae_click_behavior": "{\"1609-10837\":\"Y\",\"project_id\":\"15201\"}",
+              "ae_object_type": "filter",
+              "ae_page_area": "refine_search",
+              "ae_page_type": "productlist",
+              "spm": "a2g2w.productlist.refine.0",
+              "spmC": "refine",
+              "spmD": "index"
+            },
+            "exposure": {
+              "Name": "Page_ProductList_Refine_Service_Point_Exposure",
+              "exp_attribute": "{\"1609-10837\":\"N\",\"project_id\":\"15201\"}",
+              "exp_page_area": "refine_search",
+              "exp_type": "filter",
+              "spm": "a2g2w.productlist.refine.0",
+              "spmC": "refine",
+              "spmD": "index"
+            },
+            "aerEvent": {
+              "filterType": "refine_search",
+              "keyWord": "наушники беспроводные",
+              "nameFilter": "1609-10837",
+              "pageArea": "refine_search",
+              "type": "filter",
+              "value": "N"
+            },
+            "aerActionTypeViewFilter": "view_filter",
+            "aerActionTypeSelectFilter": "select_filter",
+            "aerActionTypeUnselectFilter": "unselect_filter"
+          },
+          "disabled": false
+        }
+      },
+      {
+        "path": ".data.sideFilter.filters[1].list",
+        "count": 15,
+        "keys": [
+          "active",
+          "disabled",
+          "id",
+          "img",
+          "title",
+          "trackInfo",
+          "value"
+        ],
+        "first": {
+          "title": "Черный",
+          "value": "20-49",
+          "img": "",
+          "active": false,
+          "id": "49",
+          "trackInfo": {
+            "click": {
+              "Name": "Refine_Service_Point",
+              "ae_button_type": "select",
+              "ae_click_behavior": "{\"20-49\":\"Y\",\"project_id\":\"15201\"}",
+              "ae_object_type": "filter",
+              "ae_page_area": "refine_search",
+              "ae_page_type": "productlist",
+              "spm": "a2g2w.productlist.refine.0",
+              "spmC": "refine",
+              "spmD": "index"
+            },
+            "exposure": {
+              "Name": "Page_ProductList_Refine_Service_Point_Exposure",
+              "exp_attribute": "{\"20-49\":\"N\",\"project_id\":\"15201\"}",
+              "exp_page_area": "refine_search",
+              "exp_type": "filter",
+              "spm": "a2g2w.productlist.refine.0",
+              "spmC": "refine",
+              "spmD": "index"
+            },
+            "aerEvent": {
+              "filterType": "refine_search",
+              "keyWord": "наушники беспроводные",
+              "nameFilter": "20-49",
+              "pageArea": "refine_search",
+              "type": "filter",
+              "value": "N"
+            },
+            "aerActionTypeViewFilter": "view_filter",
+            "aerActionTypeSelectFilter": "select_filter",
+            "aerActionTypeUnselectFilter": "unselect_filter"
+          },
+          "disabled": false
+        }
+      },
+      {
+        "path": ".data.sideFilter.filters[2].list",
+        "count": 4,
+        "keys": [
+          "active",
+          "disabled",
+          "id",
+          "img",
+          "title",
+          "trackInfo",
+          "value"
+        ],
+        "first": {
+          "title": "TWS (полностью беспроводное)",
+          "value": "13423-29761",
+          "img": "",
+          "active": false,
+          "id": "29761",
+          "trackInfo": {
+            "click": {
+              "Name": "Refine_Service_Point",
+              "ae_button_type": "select",
+              "ae_click_behavior": "{\"13423-29761\":\"Y\",\"project_id\":\"15201\"}",
+              "ae_object_type": "filter",
+              "ae_page_area": "refine_search",
+              "ae_page_type": "productlist",
+              "spm": "a2g2w.productlist.refine.0",
+              "spmC": "refine",
+              "spmD": "index"
+            },
+            "exposure": {
+              "Name": "Page_ProductList_Refine_Service_Point_Exposure",
+              "exp_attribute": "{\"13423-29761\":\"N\",\"project_id\":\"15201\"}",
+              "exp_page_area": "refine_search",
+              "exp_type": "filter",
+              "spm": "a2g2w.productlist.refine.0",
+              "spmC": "refine",
+              "spmD": "index"
+            },
+            "aerEvent": {
+              "filterType": "refine_search",
+              "keyWord": "наушники беспроводные",
+              "nameFilter": "13423-29761",
+              "pageArea": "refine_search",
+              "type": "filter",
+              "value": "N"
+            },
+            "aerActionTypeViewFilter": "view_filter",
+            "aerActionTypeSelectFilter": "select_filter",
+            "aerActionTypeUnselectFilter": "unselect_filter"
+          },
+          "disabled": false
+        }
+      },
+      {
+        "path": ".data.sideFilter.filters[3].list",
+        "count": 9,
+        "keys": [
+          "active",
+          "disabled",
+          "id",
+          "img",
+          "title",
+          "trackInfo",
+          "value"
+        ],
+        "first": {
+          "title": "Универсальные",
+          "value": "1295-3840",
+          "img": "",
+          "active": false,
+          "id": "3840",
+          "trackInfo": {
+            "click": {
+              "Name": "Refine_Service_Point",
+              "ae_button_type": "select",
+              "ae_click_behavior": "{\"1295-3840\":\"Y\",\"project_id\":\"15201\"}",
+              "ae_object_type": "filter",
+              "ae_page_area": "refine_search",
+              "ae_page_type": "productlist",
+              "spm": "a2g2w.productlist.refine.0",
+              "spmC": "refine",
+              "spmD": "index"
+            },
+            "exposure": {
+              "Name": "Page_ProductList_Refine_Service_Point_Exposure",
+              "exp_attribute": "{\"1295-3840\":\"N\",\"project_id\":\"15201\"}",
+              "exp_page_area": "refine_search",
+              "exp_type": "filter",
+              "spm": "a2g2w.productlist.refine.0",
+              "spmC": "refine",
+              "spmD": "index"
+            },
+            "aerEvent": {
+              "filterType": "refine_search",
+              "keyWord": "наушники беспроводные",
+              "nameFilter": "1295-3840",
+              "pageArea": "refine_search",
+              "type": "filter",
+              "value": "N"
+            },
+            "aerActionTypeViewFilter": "view_filter",
+            "aerActionTypeSelectFilter": "select_filter",
+            "aerActionTypeUnselectFilter": "unselect_filter"
+          },
+          "disabled": false
+        }
+      }
+    ]
+  },
+  "search_dom": [
+    {
+      "href": "https://aliexpress.ru/item/1005009395997036.html?sku_id=12000058714390951",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005010177647202.html?sku_id=12000051414161572",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1_1006710909.html?sku_id=5000004411710516",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005011854128641.html?sku_id=12000056780693426",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005004971057275.html?shpMethod=CAINIAO_SUPER_ECONOMY&sku_id=12000031198096277",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005010188904401.html?sku_id=12000051461288160",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005012942504630.html?sku_id=12000059821340362",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005009186088167.html?sku_id=12000048230985753",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005012387625997.html?sku_id=12000058244797952",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005010521339595.html?sku_id=12000052681964834",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005012470101332.html?sku_id=12000058486938311",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005009079611998.html?sku_id=12000047840593982",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005012203182425.html?sku_id=12000057738037386",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005012479526928.html?sku_id=12000058472333548",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005012331552250.html?sku_id=12000058089935617",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005011862068601.html?sku_id=12000056802817698",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005010115456283.html?sku_id=12000051194056762",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005009397326958.html?sku_id=12000048993803318",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005006959700436.html?sku_id=12000039477279754",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005010674996475.html?sku_id=12000053154856990",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1_1006700406.html?sku_id=5000004411690718",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005009399452623.html?sku_id=12000048995103051",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005007996567850.html?sku_id=12000043201487378",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005012045779486.html?sku_id=12000057365837725",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005013552366209.html?sku_id=12000061410159967",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005008995922516.html?shpMethod=CAINIAO_ECONOMY&sku_id=12000047504296450",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005003008134694.html?sku_id=12000046624322615",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005009398510095.html?shpMethod=CAINIAO_STANDARD&sku_id=12000048981004616",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005011802828897.html?sku_id=12000056614478275",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    },
+    {
+      "href": "https://aliexpress.ru/item/1005013082117746.html?shpMethod=CAINIAO_STANDARD&sku_id=12000060252360250",
+      "title": "Выберите категорию",
+      "prices": [
+        "1 278 ₽-72%",
+        "1 278 ₽",
+        "361 ₽",
+        "929 ₽-55%",
+        "929 ₽"
+      ],
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png"
+    }
+  ],
+  "product": {
+    "title": null,
+    "prices": [],
+    "images": [],
+    "meta": {},
+    "jsonld": [],
+    "seller": null,
+    "bodyLen": 310196
+  },
+  "product_captcha": {},
+  "mtop": [
+    {
+      "url": "https://aliexpress.ru/aer-jsonapi/bx/web/recommend/just-for-you-new-ru",
+      "len": 290868
+    }
+  ],
+  "log": [
+    "[06:37:54] V15 starting...",
+    "[06:37:55] Browser OK",
+    "[06:37:55] Warm: 65 cookies",
+    "[06:37:55] === PHASE 1: Search ===",
+    "[06:37:55] URL: https://aliexpress.ru/wholesale?SearchText=наушники+беспроводные",
+    "[06:38:06]   API: https://aliexpress.ru/aer-webapi/v1/search (1223603b)",
+    "[06:38:06]   API: https://aliexpress.ru/aer-jsonapi/v1/bx/searchSuggest/1?_bx-v=2.5.37 (4300b)",
+    "[06:38:06]   API: https://aliexpress.ru/aer-webapi/v2/recommend?_bx-v=2.5.37 (608687b)",
+    "[06:38:06] Search state: {'onCap': False, 'body': 1251218, 'title': 'наушники беспроводные с бесплатной доставкой на AliExpress'}",
+    "[06:38:06] Search API parsed: 1223603 bytes",
+    "[06:38:06]   Array: .data.breadcrumbs.breadcrumbs count=5 keys=['href', 'title']",
+    "[06:38:06]   Array: .data.sideFilter.categoriesPath count=5 keys=['id', 'isSearchFromCategoryChips', 'title', 'url']",
+    "[06:38:06]   Array: .data.sideFilter.categories count=10 keys=['chevronFlag', 'id', 'indeterminate', 'rightArrow', 'selected', 'sub', 'title', 'trackInfo', 'url']",
+    "[06:38:06]   Array: .data.sideFilter.categories[0].sub count=14 keys=['chevronFlag', 'id', 'indeterminate', 'selected', 'sub', 'title', 'trackInfo', 'url']",
+    "[06:38:06]   Array: .data.sideFilter.categories[1].sub count=4 keys=['chevronFlag', 'id', 'indeterminate', 'selected', 'sub', 'title', 'trackInfo', 'url']",
+    "[06:38:06] Search API saved to search_api.json",
+    "[06:38:06] DOM card extraction...",
+    "[06:38:06] DOM cards: 30",
+    "[06:38:06]   First: title=Выберите категорию prices=['1\\xa0278\\xa0₽-72%', '1\\xa0278\\xa0₽', '361\\xa0₽', '929\\xa0₽-55%', '929\\xa0₽']",
+    "[06:38:06] Search HTML: 1471598b",
+    "[06:38:06] === PHASE 2: Product ===",
+    "[06:38:06] URL: https://aliexpress.ru/item/1005013496905897.html",
+    "[06:38:15]   API: https://aliexpress.ru/aer-jsonapi/bx/web/recommend/just-for-you-new-ru (290868b)",
+    "[06:38:15] Product state: {'onCap': False, 'h1': None, 'body': 310196}",
+    "[06:38:15] No CAPTCHA on product!",
+    "[06:38:15] Extracting product data...",
+    "[06:38:15] Product: title=None",
+    "[06:38:15]   prices=[]",
+    "[06:38:15]   images=0 jsonld=0",
+    "[06:38:15]   seller=None",
+    "[06:38:15] Product HTML: 524191b",
+    "[06:38:15] PHASE=done search_ok=True prod_ok=False api_ok=True"
+  ],
+  "search_ok": true,
+  "prod_ok": false,
+  "api_ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "ts": "2026-11-12T13:01:01.235628+10:00",
+  "ozon": {
+    "dom_prices": {},
+    "real_challenge": false,
+    "body_len": 1114146,
+    "title": "Видеокарта Palit GeForce RTX 5060 Ti, 8 ГБ PCI Express 5.0 DisplayPort, HDMI NE7506T019P1-GB2062D купить c доставкой на OZON по низкой цене (2067947177)",
+    "ld_json": [
+      "{\"@context\":\"http://schema.org\",\"@type\":\"Product\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"5.0\",\"reviewCount\":\"7\"},\"brand\":\"Palit\",\"description\":\"Видеокарта Palit PA-RTX5060TI DUAL оснащена мощным графическим процессором NVIDIA GeForce RTX 5060TI для качественной графики.Интерфейс PCI-E 5.0 обеспечивает быструю передачу данных и совместимость с современными материнскими платами.Графический процессор работает на частоте до 2573 МГц в режиме Boost, что гарантирует плавное отображение сложных сцен в играх и приложениях.8 ГБ видеопамяти GDDR7 с частотой 28000 МГц обеспечивают высокую пропускную способность для быстрой обработки текстур и эффектов.Двухслотовая система охлаждения с двумя осевыми вентиляторами и тепловыми трубками эффективно поддерживает оптимальную температуру при нагрузках.Технологии NVIDIA DLSS и Ray Tracing дают реалистичное освещение и повышают производительность в играх.Видеокарта имеет один HDMI 2.1 и три DisplayPort 2.1b для подключения до четырёх м"
+    ],
+    "api_price": [
+      {
+        "url": "https://st.ozone.ru/assets/970a82e5/detached/my-profile/entry.price-feedback.js",
+        "status": 200,
+        "len": 19998,
+        "head": "(()=>{\"use strict\";var e,t,n,o,r,d,c,f={d4a08:e=>{e.exports=window.__federation__.deps[\"@bx-fe/common-feature-atom-actions@1.5.0\"]},\"318d1\":e=>{e.exports=window.__federation__.deps[\"@bx-fe/common-feature-notifications@1.7.0\"]},\"69aed\":e=>{e.exports=window.__federation__.deps[\"@bx-fe/platform-app-common\"]},16477:e=>{e.exports=window.__federation__.deps[\"@bx-fe/tracker-types\"]},\"36a63\":e=>{e.exports=window.__federation__.deps[\"@bx-fe/ui-kit-css-vars@7.2.2\"]},ce27b:e=>{e.exports=window.__federation__.deps.lodash.get},\"695d8\":e=>{e.exports=window.__federation__.deps[\"vue-loader-runtime\"].componentNormalizer},d86db:e=>{e.exports=window.__federation__.deps[\"vue-types\"]},daa70:(e,t,n)=>{var o;e.exports=(o=n.g||{},n._ce.lm(function(){return o.window.__federation__.deps[\"@bx-fe/common-atom-button@3"
+      },
+      {
+        "url": "https://ir.ozone.ru/s3/payments-cdn/wc75/ozon-price-compact-new-ozon-light.png",
+        "status": 200
+      },
+      {
+        "url": "https://st.ozone.ru/s3/shared-deps/%40bx-fe/ui-kit-ds-price/5.6.4/index.js",
+        "status": 200,
+        "len": 7513,
+        "head": "(()=>{var e={811:(e,t,_)=>{\"use strict\";_.d(t,{C2:()=>a,qs:()=>I,j8:()=>C,ES:()=>c,zk:()=>o,cQ:()=>E,vq:()=>l,vQ:()=>O,Sr:()=>P,b_:()=>r,$J:()=>i,rO:()=>s,r2:()=>d,F7:()=>n,Pg:()=>S});var r={PREFIX:\"PREFIX\",PRICE:\"PRICE\",PPU:\"PPU\",CAPTION:\"CAPTION\",ORIGINAL_PRICE:\"ORIGINAL_PRICE\"},o={PREFIX:!0,PRICE:!0,CAPTION:!0},i={SALE_PRICE:!0},I={TOP_BOTTOM:\"TOP_BOTTOM\",RIGHT_LEFT:\"RIGHT_LEFT\",BOTTOM_TOP:\"BOTTOM_TOP\",LEFT_RIGHT:\"LEFT_RIGHT\",BOTTOM_RIGHT_TOP_LEFT:\"BR_TL\",BOTTOM_LEFT_TOP_RIGHT:\"BL_TR\",TOP_LEFT_BOTTOM_RIGHT:\"TL_BR\",TOP_RIGHT_BOTTOM_LEFT:\"TR_BL\"},c=\"ICON\",a=\"DISCOUNT\",n=\"MULTI\",d={[r.PREFIX]:n,[r.PRICE]:r.PRICE,[r.PPU]:r.PPU,[r.CAPTION]:n,[r.ORIGINAL_PRICE]:n,[a]:n},P={ACTUAL_PRICE:\"ACTUAL_PRICE\",UNAVAILABLE:\"UNAVAILABLE\",SECOND_LVL:\"SECOND_LVL\",CARD_PRICE:\"CARD_PRICE\",CREDIT_PRICE:\"CREDI"
+      },
+      {
+        "url": "https://st.ozone.ru/s3/shared-deps/%40bx-fe/ui-kit-ds-price/5.6.3/index.js",
+        "status": 200,
+        "len": 7513,
+        "head": "(()=>{var e={811:(e,t,_)=>{\"use strict\";_.d(t,{C2:()=>a,qs:()=>I,j8:()=>C,ES:()=>c,zk:()=>o,cQ:()=>E,vq:()=>l,vQ:()=>O,Sr:()=>P,b_:()=>r,$J:()=>i,rO:()=>s,r2:()=>d,F7:()=>n,Pg:()=>S});var r={PREFIX:\"PREFIX\",PRICE:\"PRICE\",PPU:\"PPU\",CAPTION:\"CAPTION\",ORIGINAL_PRICE:\"ORIGINAL_PRICE\"},o={PREFIX:!0,PRICE:!0,CAPTION:!0},i={SALE_PRICE:!0},I={TOP_BOTTOM:\"TOP_BOTTOM\",RIGHT_LEFT:\"RIGHT_LEFT\",BOTTOM_TOP:\"BOTTOM_TOP\",LEFT_RIGHT:\"LEFT_RIGHT\",BOTTOM_RIGHT_TOP_LEFT:\"BR_TL\",BOTTOM_LEFT_TOP_RIGHT:\"BL_TR\",TOP_LEFT_BOTTOM_RIGHT:\"TL_BR\",TOP_RIGHT_BOTTOM_LEFT:\"TR_BL\"},c=\"ICON\",a=\"DISCOUNT\",n=\"MULTI\",d={[r.PREFIX]:n,[r.PRICE]:r.PRICE,[r.PPU]:r.PPU,[r.CAPTION]:n,[r.ORIGINAL_PRICE]:n,[a]:n},P={ACTUAL_PRICE:\"ACTUAL_PRICE\",UNAVAILABLE:\"UNAVAILABLE\",SECOND_LVL:\"SECOND_LVL\",CARD_PRICE:\"CARD_PRICE\",CREDIT_PRICE:\"CREDI"
+      },
+      {
+        "url": "https://st.ozone.ru/s3/shared-deps/%40bx-fe/common-atom-ds-price/3.11.1/index.js",
+        "status": 200,
+        "len": 2547,
+        "head": "(()=>{var e={35:(e,t,r)=>{\"use strict\";r.d(t,{Z:()=>s});var o=window.__federation__.deps[\"@vue/babel-helper-vue-jsx-merge-props\"],p=r.n(o),n=window.__federation__.deps[\"@bx-fe/ui-kit-ds-price@5.6.4\"]||{},d={PADDING_INVALID:\"0px\",NONE:\"0px\",PADDING_100:\"2px\",PADDING_200:\"4px\",PADDING_250:\"6px\",PADDING_300:\"8px\",PADDING_350:\"10px\",PADDING_400:\"12px\",PADDING_450:\"14px\",PADDING_500:\"16px\",PADDING_550:\"18px\",PADDING_600:\"20px\",PADDING_700:\"24px\",PADDING_800:\"32px\",PADDING_900:\"40px\",PADDING_950:\"44px\",PADDING_1000:\"48px\",PADDING_1050:\"52px\",PADDING_1100:\"56px\"},i={name:\"DsPrice\",functional:!0,inject:{asyncIconComponent:{default:()=>()=>{}}},props:{price:{type:Array,default:()=>[]},discount:{type:String,default:\"\"},discountColor:{type:String,default:\"\"},priceStyle:{type:Object,default:()=>({styl"
+      }
+    ],
+    "api_total": 63
+  },
+  "wb": {
+    "title": "Loading https://www.wildberries.ru/catalog/1097975275/detail.aspx",
+    "error": "Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  },
+  "avito": {
+    "search_title": "Доступ ограничен: проблема с IP",
+    "search_body_len": 36450,
+    "search_ids": [],
+    "live_ad": null
+  }
+}

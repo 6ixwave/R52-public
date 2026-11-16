@@ -1,0 +1,252 @@
+{
+  "version": "v47",
+  "timestamp": "2026-11-11T06:59:55.589569+10:00",
+  "platforms": {
+    "WB": {
+      "strategies": [
+        {
+          "strategy": "cdn_cffi",
+          "nm": "199298871",
+          "url": "https://basket-01.wbbasket.ru/vol1992/part98/199298871/images/big/199298871-1.webp",
+          "time_s": 0.92,
+          "http": 404,
+          "bytes": 196,
+          "ct": "text/html"
+        },
+        {
+          "strategy": "cdn_cffi",
+          "nm": "199298871",
+          "url": "https://basket-02.wbbasket.ru/vol1992/part98/199298871/images/big/199298871-1.webp",
+          "time_s": 0.77,
+          "http": 404,
+          "bytes": 196,
+          "ct": "text/html"
+        },
+        {
+          "strategy": "cdn_cffi",
+          "nm": "199298871",
+          "url": "https://basket-03.wbbasket.ru/vol1992/part98/199298871/images/big/199298871-1.webp",
+          "time_s": 0.96,
+          "http": 404,
+          "bytes": 196,
+          "ct": "text/html"
+        },
+        {
+          "strategy": "cdn_cffi",
+          "nm": "199298871",
+          "url": "https://basket-04.wbbasket.ru/vol1992/part98/199298871/images/big/199298871-1.webp",
+          "time_s": 0.79,
+          "http": 404,
+          "bytes": 196,
+          "ct": "text/html"
+        },
+        {
+          "strategy": "cdn_cffi",
+          "nm": "199298871",
+          "url": "https://basket-05.wbbasket.ru/vol1992/part98/199298871/images/big/199298871-1.webp",
+          "time_s": 0.95,
+          "http": 404,
+          "bytes": 196,
+          "ct": "text/html"
+        },
+        {
+          "strategy": "cdn_cffi",
+          "nm": "199298871",
+          "url": "https://static-basket-01.wbbasket.ru/vol1992/part98/199298871/images/big/199298871-1.webp",
+          "time_s": 0.94,
+          "http": 404,
+          "bytes": 0,
+          "ct": ""
+        },
+        {
+          "strategy": "cdn_cffi",
+          "nm": "199298871",
+          "url": "https://img.wbbasket.ru/vol1992/part98/199298871/images/big/199298871-1.webp",
+          "time_s": 1.3,
+          "http": "ERR"
+        },
+        {
+          "strategy": "wbx_cffi",
+          "nm": "199298871",
+          "url": "https://wbx-content-v1.wbbasket.ru/vol1992/part98/199298871/content/199298871.json",
+          "time_s": 1.35,
+          "http": "ERR"
+        },
+        {
+          "strategy": "wbx_cffi",
+          "nm": "314337853",
+          "url": "https://wbx-content-v1.wbbasket.ru/vol3143/part37/314337853/content/314337853.json",
+          "time_s": 0.47,
+          "http": "ERR"
+        },
+        {
+          "strategy": "card_v2_min",
+          "nm": "199298871",
+          "url": "https://card.wb.ru/cards/v2/detail?curr=rub&nm=199298871",
+          "time_s": 0.78,
+          "http": 403,
+          "bytes": 0,
+          "snippet": ""
+        },
+        {
+          "strategy": "card_v2_min",
+          "nm": "314337853",
+          "url": "https://card.wb.ru/cards/v2/detail?curr=rub&nm=314337853",
+          "time_s": 1.35,
+          "http": 403,
+          "bytes": 0,
+          "snippet": ""
+        },
+        {
+          "strategy": "card_v4_min",
+          "nm": "199298871",
+          "url": "https://card.wb.ru/cards/v4/detail?curr=rub&nm=199298871",
+          "time_s": 0.82,
+          "http": 403,
+          "bytes": 0,
+          "snippet": ""
+        },
+        {
+          "strategy": "search_wb",
+          "query": "телефон",
+          "url": "https://search.wb.ru/exactmatch/ru/common/v5/search?query=телефон&resultset=cata",
+          "time_s": 0.79,
+          "http": 403,
+          "bytes": 0,
+          "snippet": ""
+        },
+        {
+          "strategy": "search_wb",
+          "query": "iphone",
+          "url": "https://search.wb.ru/exactmatch/ru/common/v5/search?query=iphone&resultset=catal",
+          "time_s": 0.8,
+          "http": 403,
+          "bytes": 0,
+          "snippet": ""
+        },
+        {
+          "strategy": "html_body",
+          "nm": "199298871",
+          "url": "https://www.wildberries.ru/catalog/199298871/detail.aspx",
+          "time_s": 0.78,
+          "http": 498,
+          "bytes": 1136,
+          "body_len": 1136,
+          "body_saved": "diag_v47_wb_html_199298871.html",
+          "has_wbaas": true,
+          "has_jsonld": false,
+          "has_og": false,
+          "has_state": false,
+          "title": "...",
+          "script_srcs": [
+            "/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js",
+            "/__wbaas/challenges/antibot/__static/v2/browser-check.js"
+          ]
+        }
+      ]
+    },
+    "OZON": {
+      "strategies": [
+        {
+          "strategy": "api_verify_off",
+          "id": "1600562267",
+          "url": "https://api.ozon.ru/composer-api.bx/page/json/v2?url=/product/1600562267/",
+          "time_s": 1.49,
+          "http": 403,
+          "bytes": 1081,
+          "snippet": "\n\n{\"incidentId\": \"fab_20261110210030_01M73M6B4MXNZNWA8AZCWEBTJ8\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261110210030_01M73M6B4MXNZNWA8AZCWEBTJ8&token=[REDACTED_AUTH_SECRET]"
+        },
+        {
+          "strategy": "session_composer",
+          "id": "1600562267",
+          "home_http": 403,
+          "http": 403,
+          "bytes": 1081,
+          "cookies": [
+            "__Secure-ETC",
+            "abt_data"
+          ],
+          "snippet": "\n\n{\"incidentId\": \"fab_20261110210037_01M73M6J1T91J8K3XKX8SDE97N\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261110210037_01M73M6J1T91J8K3XKX8SDE97N&token=[REDACTED_AUTH_SECRET]"
+        },
+        {
+          "strategy": "ssr_session",
+          "id": "1600562267",
+          "home_http": 403,
+          "http": 403,
+          "bytes": 8633,
+          "has_data_widget": false,
+          "has_jsonld": false,
+          "has_og": false,
+          "has_state": false,
+          "title": "Antibot Challenge Page",
+          "widget_names": [],
+          "html_saved": "diag_v47_ozon_1600562267.html"
+        },
+        {
+          "strategy": "mobile_session",
+          "id": "1600562267",
+          "home_http": 403,
+          "http": 403,
+          "bytes": 8548,
+          "has_og": false,
+          "has_jsonld": false,
+          "title": "Antibot Challenge Page"
+        }
+      ]
+    },
+    "AVITO": {
+      "strategies": [
+        {
+          "strategy": "web_api",
+          "url": "https://www.avito.ru/web/1/js/items?path=electronics&f=0&q=iphone&maxPrice=10000",
+          "time_s": 0.91,
+          "http": 439,
+          "bytes": 14889,
+          "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1."
+        },
+        {
+          "strategy": "web_api",
+          "url": "https://www.avito.ru/web/1/js/items?path=electronics&f=0&q=iphone",
+          "time_s": 0.91,
+          "http": 439,
+          "bytes": 14889,
+          "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1."
+        },
+        {
+          "strategy": "web_api",
+          "url": "https://www.avito.ru/web/1/js/items?path=electronics&f=0",
+          "time_s": 0.9,
+          "http": 439,
+          "bytes": 14889,
+          "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1."
+        },
+        {
+          "strategy": "web_api",
+          "url": "https://www.avito.ru/web/1/js/items?path=transport&f=0&q=автомобиль",
+          "time_s": 0.93,
+          "http": 439,
+          "bytes": 14889,
+          "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1."
+        },
+        {
+          "strategy": "web_api",
+          "url": "https://www.avito.ru/web/1/js/items?path=realty&f=0&q=квартира",
+          "time_s": 0.88,
+          "http": 439,
+          "bytes": 14889,
+          "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1."
+        },
+        {
+          "strategy": "home",
+          "time_s": 0.92,
+          "http": 439,
+          "bytes": 14889,
+          "has_ip_limit": true,
+          "has_captcha": false,
+          "title": "Доступ ограничен: проверка безопасности"
+        }
+      ]
+    }
+  },
+  "total_time_s": 116.4
+}

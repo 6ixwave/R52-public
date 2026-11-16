@@ -1,0 +1,19 @@
+=== retest_v6e — 2026-11-14 11:48:11 ===
+Query: 'наушники'
+
+── FARPOST: p1 + p2 ──
+  p1: ERR SearchError: SEARCH_ACCESS_CHALLENGE (3.4s)
+  (sleep 20s)
+  p2: ERR SearchError: SEARCH_ACCESS_CHALLENGE (30.7s)
+
+── OZON: PwFetcher 10s wait ──
+  p1: OK 0 items 36.5s
+    IDs: []
+  p2: OK 0 items 11.6s
+    IDs: []
+
+── AVITO: post-cooldown check ──
+  (sleep 25s cooldown)
+  p1: SearchError: SEARCH_ACCESS_CHALLENGE (12.7s)
+
+=== DONE ===

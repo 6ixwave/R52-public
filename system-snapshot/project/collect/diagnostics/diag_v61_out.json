@@ -1,0 +1,110 @@
+[
+  {
+    "label": "WB/url",
+    "url": "https://www.wildberries.ru/catalog/199298871/detail.aspx",
+    "status": 498,
+    "content_type": "text/html",
+    "content_length": "",
+    "elapsed_ms": 775,
+    "first_800": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"d66b4ac81167d7ea533d9e0dc9a2626e\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Date.now()</script><title>...</title><script type=\"module\" crossorigin src=\"/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js\"></script><link rel=\"stylesheet\" crossorigin href=\"/__wbaas/challenges/antibot/__static/v2/index-BmW7NXYO.css\"></head><body><div class=\"w\"><noscript><div class=\"support\"><div class=\"support-header\"><h1 class=\"support-title\" id=\"no-js-title\"></h1><p class=\"support-subtitle no-js-support-subtitle\" id=\"no-js-title-subtitle\"></p><p class=\"support-id no-js-support-id\">ID:",
+    "error": null,
+    "final_url": "https://www.wildberries.ru/catalog/199298871/detail.aspx",
+    "lib": "curl_cffi"
+  },
+  {
+    "label": "WB/api",
+    "url": "https://card.wb.ru/cards/v2/detail?nm=199298871",
+    "status": 403,
+    "content_type": "text/plain",
+    "content_length": "0",
+    "elapsed_ms": 774,
+    "first_800": "",
+    "error": null,
+    "final_url": "https://card.wb.ru/cards/v2/detail?nm=199298871",
+    "lib": "curl_cffi"
+  },
+  {
+    "label": "WB/price_api",
+    "url": "https://basket-21.wbbasket.ru/vol0/part21/199298871/info/ru/card.json",
+    "status": 404,
+    "content_type": "text/html",
+    "content_length": "",
+    "elapsed_ms": 945,
+    "first_800": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>",
+    "error": null,
+    "final_url": "https://basket-21.wbbasket.ru/vol0/part21/199298871/info/ru/card.json",
+    "lib": "curl_cffi"
+  },
+  {
+    "label": "OZON/url",
+    "url": "https://www.ozon.ru/product/1600562267/",
+    "status": 403,
+    "content_type": "text/html",
+    "content_length": "",
+    "elapsed_ms": 938,
+    "first_800": "\n\n    \n\n<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1\">\n  <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">\n  <link rel=\"stylesheet\" href=\"https://cdn2.ozone.ru/s3/abt-challenge/incidents/styles_v2/common.css\">\n  <title>Antibot Challenge Page</title>\n  <link rel=\"stylesheet\" href=\"https://cdn2.ozone.ru/s3/abt-challenge/style_v47_3.css\">\n</head>\n\n<body>\n  <noscript>\n    <div class=\"container\">\n      <div class=\"message\">\n        <div class=\"variant\">\n          <h2 class=\"h2\">Пожалуйста, включите JavaScript для продолжения</h2>\n          <span class=\"subtitle\">Нам нужно убедиться, что вы не робот.</span>\n        </div>\n",
+    "error": null,
+    "final_url": "https://www.ozon.ru/product/1600562267/?__rr=1",
+    "lib": "curl_cffi"
+  },
+  {
+    "label": "OZON/url_alt",
+    "url": "https://www.ozon.ru/product/smartfon-iphone-17-pro-max-256gb-4605111975/",
+    "status": 403,
+    "content_type": "text/html",
+    "content_length": "",
+    "elapsed_ms": 927,
+    "first_800": "\n\n    \n\n<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1\">\n  <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">\n  <link rel=\"stylesheet\" href=\"https://cdn2.ozone.ru/s3/abt-challenge/incidents/styles_v2/common.css\">\n  <title>Antibot Challenge Page</title>\n  <link rel=\"stylesheet\" href=\"https://cdn2.ozone.ru/s3/abt-challenge/style_v47_3.css\">\n</head>\n\n<body>\n  <noscript>\n    <div class=\"container\">\n      <div class=\"message\">\n        <div class=\"variant\">\n          <h2 class=\"h2\">Пожалуйста, включите JavaScript для продолжения</h2>\n          <span class=\"subtitle\">Нам нужно убедиться, что вы не робот.</span>\n        </div>\n",
+    "error": null,
+    "final_url": "https://www.ozon.ru/product/smartfon-iphone-17-pro-max-256gb-4605111975/?__rr=1",
+    "lib": "curl_cffi"
+  },
+  {
+    "label": "FARPOST/url",
+    "url": "https://www.farpost.ru/bulletin/18530297982",
+    "status": 404,
+    "content_type": "text/html; charset=windows-1251",
+    "content_length": "",
+    "elapsed_ms": 974,
+    "first_800": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset=\"windows-1251\" />\n<meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />\n\n<meta http-equiv=\"x-dns-prefetch-control\" content=\"on\">\n\n\t<link rel=\"dns-prefetch\" href=\"https://static.baza.farpost.ru\">\n\n\t<meta name=\"description\" content=\"Подать объявление. Частные объявления и предложения организаций.\"/>\n\n\n\n\n\t<link rel=\"stylesheet\" href=\"https://www.farpost.ru/resources/assets/tokens_fp.c06ec41406266fb8356c.css\" type=\"text/css\" charset=\"UTF-8\"/>\n\t<link rel=\"stylesheet\" href=\"https://www.farpost.ru/resources/assets/common-critical_dk_fp.a7e249a24bf02805334f.css\" type=\"text/css\" charset=\"UTF-8\"/>\n\t<link rel=\"stylesheet\" href=\"https://www.farpost.ru/resources/assets/common_dk.e0e0907b5224651",
+    "error": null,
+    "final_url": "https://www.farpost.ru/bulletin/18530297982",
+    "lib": "curl_cffi"
+  },
+  {
+    "label": "FARPOST/url_alt",
+    "url": "https://www.farpost.ru/item/18530297982",
+    "status": 404,
+    "content_type": "text/html; charset=windows-1251",
+    "content_length": "",
+    "elapsed_ms": 855,
+    "first_800": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset=\"windows-1251\" />\n<meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />\n\n<meta http-equiv=\"x-dns-prefetch-control\" content=\"on\">\n\n\t<link rel=\"dns-prefetch\" href=\"https://static.baza.farpost.ru\">\n\n\t<meta name=\"description\" content=\"Подать объявление. Частные объявления и предложения организаций.\"/>\n\n\n\n\n\t<link rel=\"stylesheet\" href=\"https://www.farpost.ru/resources/assets/tokens_fp.c06ec41406266fb8356c.css\" type=\"text/css\" charset=\"UTF-8\"/>\n\t<link rel=\"stylesheet\" href=\"https://www.farpost.ru/resources/assets/common-critical_dk_fp.a7e249a24bf02805334f.css\" type=\"text/css\" charset=\"UTF-8\"/>\n\t<link rel=\"stylesheet\" href=\"https://www.farpost.ru/resources/assets/common_dk.e0e0907b5224651",
+    "error": null,
+    "final_url": "https://www.farpost.ru/item/18530297982",
+    "lib": "curl_cffi"
+  },
+  {
+    "label": "AVITO/url",
+    "url": "https://www.avito.ru/moskva/telefony/iphone_14_128_gb_8341658309",
+    "status": 439,
+    "content_type": "text/html; charset=utf-8",
+    "content_length": "",
+    "elapsed_ms": 912,
+    "first_800": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Доступ ограничен: проверка безопасности</title>\n    <style>\n        html,\n        body { height: 100%; }\n\n        body {\n            background-color: #fff;\n            color: #000;\n            margin: 0;\n        }\n\n        .firewall__title {\n            font-size: 32px;\n            font-weight: 700;\n            line-height: 1.1;\n            margin: 0;\n        }\n\n        .link {\n            color: #000;\n            text-decoration: underline;\n            -webkit-tap-highlight-color: transparent;\n        }\n\n        .firewall__text {\n            line-height: 22px;\n            fo",
+    "error": null,
+    "final_url": "https://www.avito.ru/moskva/telefony/iphone_14_128_gb_8341658309",
+    "lib": "curl_cffi"
+  },
+  {
+    "label": "AVITO/url_mobile",
+    "url": "https://m.avito.ru/moskva/telefony/iphone_14_128_gb_8341658309",
+    "status": 439,
+    "content_type": "text/html; charset=utf-8",
+    "content_length": "",
+    "elapsed_ms": 919,
+    "first_800": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Доступ ограничен: проверка безопасности</title>\n    <style>\n        html,\n        body { height: 100%; }\n\n        body {\n            background-color: #fff;\n            color: #000;\n            margin: 0;\n        }\n\n        .firewall__title {\n            font-size: 32px;\n            font-weight: 700;\n            line-height: 1.1;\n            margin: 0;\n        }\n\n        .link {\n            color: #000;\n            text-decoration: underline;\n            -webkit-tap-highlight-color: transparent;\n        }\n\n        .firewall__text {\n            line-height: 22px;\n            fo",
+    "error": null,
+    "final_url": "https://m.avito.ru/moskva/telefony/iphone_14_128_gb_8341658309",
+    "lib": "curl_cffi"
+  }
+]

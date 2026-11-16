@@ -1,0 +1,99 @@
+{
+  "OZON": {
+    "229225961": {
+      "status": "HTTP_403",
+      "http_code": 403,
+      "html_bytes": 10456,
+      "elapsed": 8.2
+    },
+    "1317678381": {
+      "status": "HTTP_403",
+      "http_code": 403,
+      "html_bytes": 10520,
+      "elapsed": 6.8
+    }
+  },
+  "WB": {
+    "api_1252522762": {
+      "http_code": 403,
+      "bytes": 0,
+      "elapsed": 6.6,
+      "status": "HTTP_403",
+      "snippet": ""
+    },
+    "html_1252522762": {
+      "http_code": 498,
+      "bytes": 1136,
+      "is_challenge": true,
+      "has_jsonld": false,
+      "elapsed": 0.8,
+      "status": "HTTP_498"
+    },
+    "api_1024173669": {
+      "http_code": 403,
+      "bytes": 0,
+      "elapsed": 7.8,
+      "status": "HTTP_403",
+      "snippet": ""
+    },
+    "html_1024173669": {
+      "http_code": 498,
+      "bytes": 1136,
+      "is_challenge": true,
+      "has_jsonld": false,
+      "elapsed": 0.8,
+      "status": "HTTP_498"
+    }
+  },
+  "AVITO": {
+    "disc_cellphones": {
+      "http_code": 439,
+      "bytes": 14382,
+      "elapsed": 2.1,
+      "status": "HTTP_439"
+    },
+    "disc_notebooks": {
+      "http_code": 439,
+      "bytes": 14382,
+      "elapsed": 2.5,
+      "status": "HTTP_439"
+    },
+    "note": "No real IDs discovered"
+  },
+  "FARPOST": {
+    "134004859": {
+      "http_code": 404,
+      "bytes": 12941,
+      "elapsed": 1.6,
+      "status": "HTTP_404",
+      "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset=\"windows-1251\" />\n<meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />\n\n<meta http-equiv=\"x-dns-prefetch-control\" content=\"on\">\n\n\t<link rel=\"dns-prefetch\" href=\"https://static.baza.farpost."
+    },
+    "132093530": {
+      "http_code": 404,
+      "bytes": 12941,
+      "elapsed": 1.9,
+      "status": "HTTP_404",
+      "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset=\"windows-1251\" />\n<meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />\n\n<meta http-equiv=\"x-dns-prefetch-control\" content=\"on\">\n\n\t<link rel=\"dns-prefetch\" href=\"https://static.baza.farpost."
+    }
+  },
+  "_meta": {
+    "version": "v39",
+    "elapsed_sec": 43.1,
+    "timestamp": "2026-11-11T05:26:43.084945+10:00",
+    "engine": "curl_cffi",
+    "ids": {
+      "OZON": [
+        "229225961",
+        "1317678381"
+      ],
+      "WB": [
+        "1252522762",
+        "1024173669"
+      ],
+      "FARPOST": [
+        "134004859",
+        "132093530"
+      ]
+    }
+  }
+}

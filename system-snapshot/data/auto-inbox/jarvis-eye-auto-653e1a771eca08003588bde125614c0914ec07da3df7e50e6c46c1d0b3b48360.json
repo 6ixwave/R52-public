@@ -1,0 +1,178 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Ноутбук ASUS ZenBook 14 OLED Ultra 9-285H / 32Gb / 1Tb",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Ноутбуки. Цена: 127 499&#8381;. Asus ZenBook 14 OLED. Ультрабук. Игровой. 14&quot;. 1 000 Гб. 32 Гб. 5,4 ГГц. WiFi: 1. Bluetooth: 1. 20 ч. Новый. В наличии. УЧАСТНИКАМ И ВЕТЕРАНАМ СВО ОСОБЫЕ СКИДКИ! СКИДКА СЕМЬЯ С 2 И БОЛЕЕ ДЕТЬМИ (Многодетным семьям) ! СКИДКА МОЛОДОЖЕНАМ ! СКИДКИ ДЛЯ УЧИТЕЛЕЙ СКИДКИ МЕДИЦИНСКИМ РАБОТНИКАМ СКИДКА 1.000 рублей в День Рождения при покупке от 20.000р Выросло количество РЕФРЕШЕЙ и ПОДДЕЛОК!!! Покупайте только у проверенного продавца! Если вам нужна помощь в проверке телефона на под... Владивосток",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Техника > Компьютерная техника и периферия > Ноутбуки > Ноутбуки Asus ZenBook",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Asus",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          },
+          "noteType": {
+            "label": "Тип",
+            "value": "Ультрабук"
+          },
+          "noteFeature": {
+            "label": "Особенности",
+            "value": "Игровой"
+          },
+          "memSize": {
+            "label": "Оперативная память",
+            "value": "32 Гб"
+          },
+          "screenSize": {
+            "label": "Диагональ",
+            "value": "14&nbsp;дюймов (36&nbsp;см)"
+          },
+          "cpuFreq": {
+            "label": "Частота процессора",
+            "value": "5,4&nbsp;ГГц"
+          },
+          "hddSize": {
+            "label": "Объём жесткого диска",
+            "value": "1 000&nbsp;Гб"
+          },
+          "batteryTime": {
+            "label": "Время работы батареи",
+            "value": "20&nbsp;ч."
+          },
+          "model": {
+            "label": "Модель ноутбука",
+            "value": "Asus ZenBook 14 OLED"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Новый"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "135709466",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 12749900,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "127499.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1778830791907_bulletin",
+          "image_data": null,
+          "alt": "Asus ZenBook 14 OLED. 14&quot;, 5,4 ГГц, ОЗУ 32 Гб, диск 1 000 Гб, WiFi: 1, Bluetooth: 1, аккумулятор на 20 ч. фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 1190
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1778830791197_bulletin",
+          "image_data": null,
+          "alt": "Asus ZenBook 14 OLED. 14&quot;, 5,4 ГГц, ОЗУ 32 Гб, диск 1 000 Гб, WiFi: 1, Bluetooth: 1, аккумулятор на 20 ч. фото",
+          "label": "",
+          "is_main": false,
+          "width": 1138,
+          "height": 1010
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1778830791262_bulletin",
+          "image_data": null,
+          "alt": "Asus ZenBook 14 OLED. 14&quot;, 5,4 ГГц, ОЗУ 32 Гб, диск 1 000 Гб, WiFi: 1, Bluetooth: 1, аккумулятор на 20 ч. фото",
+          "label": "",
+          "is_main": false,
+          "width": 1142,
+          "height": 930
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781156047430_bulletin",
+          "image_data": null,
+          "alt": "Asus ZenBook 14 OLED. 14&quot;, 5,4 ГГц, ОЗУ 32 Гб, диск 1 000 Гб, WiFi: 1, Bluetooth: 1, аккумулятор на 20 ч. фото",
+          "label": "",
+          "is_main": true,
+          "width": 1160,
+          "height": 819
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Техника > Компьютерная техника и периферия > Ноутбуки > Ноутбуки Asus ZenBook",
+    "source": "FARPOST",
+    "id": "135709466",
+    "url": "https://www.farpost.ru/vladivostok/135709466.html",
+    "observed_at": "2026-11-15T02:22:31.321400+10:00",
+    "status": "FULL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

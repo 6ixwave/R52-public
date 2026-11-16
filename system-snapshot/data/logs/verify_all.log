@@ -1,0 +1,20 @@
+23:33:08 Core: port=8423 token=[REDACTED_AUTH_SECRET]
+23:33:08 [01] /healthz: 200 {"service": "r52-core", "version": "2.12.0", "instance": "19545f27dfb941a19c456aa93e9f8c0f", "ok": true, "components": {"worker": true, "scheduler": true, "intake": true}}
+23:33:08 [02] /api/status: 200 {"service": "r52-core", "version": "2.12.0", "instance": "19545f27dfb941a19c456aa93e9f8c0f", "pid": 21516, "started_at": "2026-11-13T13:33:08.167+00:00", "home": "C:\\Users\\aleks\\AppData\\Local\\R52", "timezone": "Asia/Vladivostok", "health": {"ser
+23:33:08 [03] /api/products: 200 total=19
+23:33:08 [04] /api/ui/code: 404 {"error": {"code": "NOT_FOUND", "message": "Не найдено"}, "request_id": "23800ce6759d"}
+23:33:08 [05] No UI code, skipping enter
+23:33:08 [06] GET /api/schedules: 200 {"items": [{"key": "backup", "kind": "backup", "params_json": "{}", "rule": "daily", "interval_seconds": null, "daily_time": "04:00", "enabled": 1, "next_due_at": "2026-11-13T18:00:00.000+00:00", "last_task_id": "9e5403d5fb54434985e1ae098a1aa055", "last_run_at": "2026-11-13T07:22:02.663+00:00", "cre
+23:33:08 [07] POST /api/schedules: 405 {"error": {"code": "METHOD_NOT_ALLOWED", "message": "Метод не поддерживается"}, "request_id": "43a8c269f033"}
+23:33:08 [08] No schedule id, skip trigger
+23:33:08 [09] POST /api/export: 201 {"path": "C:\\Users\\aleks\\AppData\\Local\\R52\\exports\\r52-export-20261113T133308Z.zip", "size": 4127, "products": 19, "prices": 46}
+23:33:08 [10] Export files: [('r52-export-20261113T133308Z.zip', 4127), ('r52-export-20261113T132328Z.zip', 4127)]
+23:33:08 [11] POST /api/backup: 404 {"error": {"code": "NOT_FOUND", "message": "Не найдено"}, "request_id": "a6bcf4471879"}
+23:33:08 [12] GET /api/backups: 200 {"items": [{"name": "r52-20261113T132328Z-manual.sqlite3", "created_at": "2026-11-13T13:23:28+00:00", "label": "manual", "size": 2068480}, {"name": "r52-20261113T131055Z-pre-migrate-v7.sqlite3", "created_at": "2026-11-13T13:10:55+00:00", "label": "pre-migrate-v7", "size": 2060288}, {"name": "r52-202
+23:33:08 [13] No backup id, skip restore
+23:33:09 [14] Post-restore /api/status: 200 {"service": "r52-core", "version": "2.12.0", "instance": "19545f27dfb941a19c456aa93e9f8c0f", "pid": 21516, "started_at": "2026-11-13T13:33:08.167+00:00", "home": "C:\\Users\\aleks\\AppData\\Local\\R52", "timezone": "Asia/Vladivostok", "health": {"ser
+23:33:09 [15] Post-restore products: 200 total=19
+23:33:09 [16] Backup files: [('r52-20261113T132328Z-manual.sqlite3', 2068480), ('r52-20261113T131055Z-pre-migrate-v7.sqlite3', 2060288), ('r52-20261113T125919Z-pre-migrate-v6.sqlite3', 2056192)]
+23:33:09 
+23:33:09 === UI URL for Edge: None ===
+23:33:09 === VERIFY ALL DONE ===

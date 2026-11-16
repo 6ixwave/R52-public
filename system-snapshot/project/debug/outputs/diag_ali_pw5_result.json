@@ -1,0 +1,65 @@
+{
+  "listing_id": "1005011813323763",
+  "url": "https://www.aliexpress.com/item/1005011813323763.html",
+  "title": "",
+  "price": null,
+  "currency": null,
+  "availability": null,
+  "images": [],
+  "category": null,
+  "method": null,
+  "elapsed": 59.085417100002815,
+  "tmd_detected": true,
+  "tmd_solved": true,
+  "mtop_responses": [
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/mtop.js",
+      "status": 200,
+      "len": 25493,
+      "head": "(window[\"webpackJsonp-ae-fe/cosmos-1\"]=window[\"webpackJsonp-ae-fe/cosmos-1\"]||[]).push([[29],{1257:function(e,t,o){\"use strict\";o.r(t),window.lib&&window.lib.mtop||o(907),t.default=window.lib.mtop},907:function(e,t){\"undefined\"==typeof window&&(window={ctrl:{},lib:{}}),!window.ctrl&&(window.ctrl={})"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.5.1&appKey=12574478&t=1794491947308&sign=[REDACTED_AUTH_SECRET]",
+      "status": 200,
+      "len": 166,
+      "head": " mtopjsonp1({\"api\":\"mtop.aliexpress.address.shipto.division.get\",\"data\":{},\"ret\":[\"FAIL_SYS_TOKEN_EMPTY::令牌为空\"],\"traceId\":\"2103956a17944919499682024e0ecc\",\"v\":\"1.0\"})"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.5.1&appKey=12574478&t=1794491949319&sign=[REDACTED_AUTH_SECRET]",
+      "status": 200,
+      "len": 41330,
+      "head": " mtopjsonp2({\"api\":\"mtop.aliexpress.address.shipto.division.get\",\"data\":{\"hotCountries\":[{\"code\":\"US\",\"hasChildren\":true,\"i18nMap\":{\"hitGray\":\"false\"},\"id\":228,\"language\":\"it_IT\",\"level\":1,\"name\":\"Stati Uniti d'America\",\"phoneAreaCode\":\"1\",\"type\":\"COUNTRY\"},{\"code\":\"ES\",\"hasChildren\":true,\"i18nMap\":"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794491950365&sign=[REDACTED_AUTH_SECRET]",
+      "status": 200,
+      "len": 1195,
+      "head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"img_search_pc_result_title\":\"Risultati di ricerca\",\"img_search_pc_no_result_tip\":\"Prova a scegliere un altro articolo o a caricare un'altra immagine\",\"img_search_pc_search_btn\":\"Cerca\",\"img_search_pc_subtitle\":\"Trova ciò che ami "
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794491950365&sign=[REDACTED_AUTH_SECRET]",
+      "status": 200,
+      "len": 36333,
+      "head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"result\":[1],\"data\":{\"layoutInfo\":[\"categories\",\"subCategories\",\"rankList\",\"searchList\"],\"trace\":{\"exposure\":{},\"custom\":{},\"click\":{},\"utLogMap\":{\"query_from\":\"category_navigate\",\"streamId\":\"b5dec3a9-260b-4cab-9558-10f964d2fb1c\","
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794491950365&sign=[REDACTED_AUTH_SECRET]",
+      "status": 200,
+      "len": 160573,
+      "head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"abTestInfo\":{\"enableNewShading\":true},\"headerAtmosphere\":{},\"mods\":{\"itemList\":{\"content\":[{\"search_clk_action\":\"search\",\"image\":{},\"result_desc\":\"normal\",\"icon\":{},\"page_num\":0,\"action\":{\"action\":\"\",\"style\":\"\",\"content\":\"Home Sh"
+    }
+  ],
+  "errors": [],
+  "frames_found": [
+    "https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita",
+    "about:srcdoc",
+    "https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg88fc4aab2e1fdd0akj4fe367afa1fd95dceeb5539b5860005e179",
+    "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg88fc4aab2e1fdd0akj4fe367",
+    "about:srcdoc",
+    "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LeKU1AnAAAAANDF_Hx4z4OgLH1CJRwTO4IQ0Rfa&co=aHR0cHM6Ly9hY3MuYWxpZXhwcmVzcy5jb206NDQz&hl=en&v",
+    "about:blank",
+    "https://it.aliexpress.com/wp.html",
+    "about:blank",
+    "https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf&k=6LeKU1AnAAAAANDF_Hx4z4OgLH1CJRwTO4IQ0Rfa&bft=0dAFcWeA6s4Gy7A72cO"
+  ]
+}

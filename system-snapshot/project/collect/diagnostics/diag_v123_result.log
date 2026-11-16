@@ -1,0 +1,145 @@
+DIAG V123: WB IMAGE/PRICE FINAL + FARPOST FULL-SLUG  (2026-11-12)
+
+================================================================
+PART 1: WB IMAGE PATTERNS (FIXED)
+================================================================
+  card 259671175: basket-16.wbbasket.ru OK (5041B)
+  card 199298871: basket-13.wbbasket.ru OK (9623B)
+
+--- 1A: Basket CDN image patterns (with _N suffix) ---
+  [xx] 404    196B text/html                      /S800/236868886.jpg
+  [xx] 404    196B text/html                      /S800/236868886_1.jpg
+  [xx] 404    196B text/html                      /S800/236868886_2.jpg
+  [xx] 404    196B text/html                      /S800/259671175.jpg
+  [xx] 404    196B text/html                      /S800/259671175_1.jpg
+  [xx] 404    196B text/html                      /S800/1.jpg
+  [xx] 404    196B text/html                      /S800/2.jpg
+  [xx] 404    196B text/html                      /S800/3.jpg
+  [xx] 404    196B text/html                      /S800/236868886/1.jpg
+  [xx] 404    196B text/html                      /S800/236868886/2.jpg
+  [xx] 404    196B text/html                      /S120/236868886.jpg
+  [xx] 404    196B text/html                      /S120/236868886_1.jpg
+  [xx] 404    196B text/html                      /S120/259671175_1.jpg
+  [xx] 404    196B text/html                      /S400/236868886.jpg
+  [xx] 404    196B text/html                      /S100/236868886.jpg
+  [xx] 404    196B text/html                      /big/236868886.jpg
+  [xx] 404    196B text/html                      /big/236868886_1.jpg
+  [xx] 404    196B text/html                      /236868886.jpg
+  [xx] 404    196B text/html                      /236868886_1.jpg
+  Basket CDN: 0/19 OK
+
+--- 1B: ir-XX.wbxstatic.ru (FIXED hostname) ---
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-01.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-01.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-01.wbxstatic.ru/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-02.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-02.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-02.wbxstatic.ru/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-03.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-03.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-03.wbxstatic.ru/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-05.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-05.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-05.wbxstatic.ru/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-10.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-10.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-10.wbxstatic.ru/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-15.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-15.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-15.wbxstatic.ru/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-20.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-20.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-20.wbxstatic.ru/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-30.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-30.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-30.wbxstatic.ru/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-40.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-40.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-40.wbxstatic.ru/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-50.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-50.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-50.wbxstatic.ru/S800/236868886.jpg
+  ir-XX.wbxstatic.ru: 0 OK
+
+--- 1C: ir-XX.wbstatic.net ---
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-01.wbstatic.net/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-01.wbstatic.net/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-02.wbstatic.net/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-02.wbstatic.net/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-03.wbstatic.net/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-03.wbstatic.net/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-05.wbstatic.net/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-05.wbstatic.net/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-10.wbstatic.net/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-10.wbstatic.net/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-15.wbstatic.net/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-15.wbstatic.net/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-20.wbstatic.net/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir-20.wbstatic.net/S800/236868886.jpg
+  ir-XX.wbstatic.net: 0 OK
+
+--- 1D: static.wbstatic.net / wbxstatic.ru direct ---
+  [ER] Failed to perform, curl: (35) Recv failure: Connec static.wbstatic.net/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (35) Recv failure: Connec static.wbstatic.net/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (35) Recv failure: Connec static.wbstatic.net/images/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos wbxstatic.ru/images/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir.wbxstatic.ru/236868886/S800/1.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir.wbxstatic.ru/236868886/S800/236868886.jpg
+  [ER] Failed to perform, curl: (6) Could not resolve hos ir.wbxstatic.ru/images/236868886.jpg
+
+================================================================
+PART 2: WB PRICE ALTERNATIVES
+================================================================
+  [search_v5] 403      0B text/plain                    
+  [search_v5_nm] 403      0B text/plain                    
+  [card_v2_app] 403      0B text/plain                    
+  [card_v2_mobile] 403      0B text/plain                    
+  [web_v1] 498   1136B text/html                     
+  [web_v2] 498   1136B text/html                     
+  [basket_price] 404    196B text/html                     
+  [basket_seller] 404    196B text/html                     
+  [basket_stock] 404    196B text/html                     
+
+--- 2B: WB mobile/app API ---
+  [498]   1136B https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=25967117
+  [403]      0B https://card.wb.ru/cards/v2/detail?curr=rub&nm=259671175
+  [403]      0B https://card.wb.ru/cards/detail?curr=rub&nm=259671175
+
+================================================================
+PART 3: FARPOST FULL-SLUG URLS
+================================================================
+
+--- 3A: Category page → full URLs ---
+  Warmup: 200, 73362B, cookies=[REDACTED_AUTH_SECRET]
+  Category: 200, 231909B
+  Full-slug URLs: 0 (unique: 0)
+  Full-slug no-ext: 0
+  Relative URLs: 32
+  Bulletin URLs: 0
+
+--- 3B: Fetch full-slug URLs directly ---
+
+--- 3C: ?u= redirect with full slug ---
+
+================================================================
+PART 4: WB card.json FIELD AUDIT
+================================================================
+  card.json keys: ['certificate', 'colors', 'contents', 'create_date', 'data', 'description', 'full_colors', 'grouped_options', 'has_tnvd_okpd', 'imt_id', 'imt_name', 'media', 'need_kiz', 'nm_id', 'options', 'properties', 'selling', 'slug', 'subj_name', 'subj_root_name', 'update_date', 'user_flags', 'vendor_code']
+  media: {"has_video": true, "photo_count": 15}
+  selling: {"brand_name": "HAVAL", "brand_hash": "F0D3BA2FFA03DADE", "supplier_id": 777627}
+  colors: [259671175]
+  full_colors: [{'nm_id': 259671175}]
+  URLs in card.json: []
+
+================================================================
+SUMMARY
+================================================================
+  WB basket hosts: {2596: 16, 1992: 13}
+  WB images basket: 0/19
+  WB images ir-XX.wbxstatic: 0
+  WB images ir-XX.wbstatic: 0
+  Farpost full-slug URLs found: 0
+
+DIAG V123 DONE

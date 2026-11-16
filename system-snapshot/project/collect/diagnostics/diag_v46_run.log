@@ -1,0 +1,52 @@
+2026-11-11 06:56:31,351 [INFO] diag_v46: === diag_v46 START | cffi=True ===
+2026-11-11 06:56:31,351 [INFO] diag_v46: === WB (v46) ===
+2026-11-11 06:56:31,351 [INFO] diag_v46: WB S1: CDN basket-XX (vol/part)
+2026-11-11 06:56:31,351 [INFO] diag_v46:   nm=199298871 vol=1992 part=98
+2026-11-11 06:56:31,750 [INFO] diag_v46:     basket-01.wbbasket.ru: HTTP ERR 0B (0.4s)
+2026-11-11 06:56:33,166 [INFO] diag_v46:     basket-02.wbbasket.ru: HTTP ERR 0B (0.4s)
+2026-11-11 06:56:35,105 [INFO] diag_v46:     basket-03.wbbasket.ru: HTTP ERR 0B (0.9s)
+2026-11-11 06:56:37,061 [INFO] diag_v46:     basket-04.wbbasket.ru: HTTP ERR 0B (1.0s)
+2026-11-11 06:56:38,061 [INFO] diag_v46:   nm=314337853 vol=3143 part=37
+2026-11-11 06:56:38,456 [INFO] diag_v46:     basket-01.wbbasket.ru: HTTP ERR 0B (0.4s)
+2026-11-11 06:56:39,840 [INFO] diag_v46:     basket-02.wbbasket.ru: HTTP ERR 0B (0.4s)
+2026-11-11 06:56:41,245 [INFO] diag_v46:     basket-03.wbbasket.ru: HTTP ERR 0B (0.4s)
+2026-11-11 06:56:42,621 [INFO] diag_v46:     basket-04.wbbasket.ru: HTTP ERR 0B (0.4s)
+2026-11-11 06:56:43,622 [INFO] diag_v46: WB S2: wbx-content-v1 (product content)
+2026-11-11 06:56:55,169 [WARNING] diag_v46: std_get ERR https://wbx-content-v1.wbbasket.ru/vol1992/part98/199298871/: HTTPSConnectionPool(host='wbx-content-v1.wbbasket.ru', port=443): Max retries exceeded with url: /vol1992/part98/199298871/content/199298871.json (Caused by NameResolutionError("HTTPSConnection(host='wbx-content-v1.wbbasket.ru', port=443): Failed to resolve 'wbx-content-v1.wbbasket.ru' ([Errno 11001] getaddrinfo failed)"))
+2026-11-11 06:56:55,171 [INFO] diag_v46:   wbx nm=199298871: HTTP ERR (11.5s)
+2026-11-11 06:57:08,725 [WARNING] diag_v46: std_get ERR https://wbx-content-v1.wbbasket.ru/vol3143/part37/314337853/: HTTPSConnectionPool(host='wbx-content-v1.wbbasket.ru', port=443): Max retries exceeded with url: /vol3143/part37/314337853/content/314337853.json (Caused by NameResolutionError("HTTPSConnection(host='wbx-content-v1.wbbasket.ru', port=443): Failed to resolve 'wbx-content-v1.wbbasket.ru' ([Errno 11001] getaddrinfo failed)"))
+2026-11-11 06:57:08,725 [INFO] diag_v46:   wbx nm=314337853: HTTP ERR (11.6s)
+2026-11-11 06:57:10,725 [INFO] diag_v46: WB S3: card.wb.ru v2 (dest=0, batch comma)
+2026-11-11 06:57:11,575 [INFO] diag_v46:   v2 dest0 nm=199298871: HTTP 403 (0.8s)
+2026-11-11 06:57:14,356 [INFO] diag_v46:   v2 dest0 nm=314337853: HTTP 403 (0.8s)
+2026-11-11 06:57:17,140 [INFO] diag_v46:   v2 batch: HTTP 403 (0.8s)
+2026-11-11 06:57:19,140 [INFO] diag_v46: WB S4: HTML detail (Referer + cookies)
+2026-11-11 06:57:19,925 [INFO] diag_v46:   HTML ref nm=199298871: HTTP 498 (0.8s)
+2026-11-11 06:57:22,926 [INFO] diag_v46: WB S5: Session (home → detail)
+2026-11-11 06:57:23,738 [INFO] diag_v46:   Home: HTTP 498 (1136B)
+2026-11-11 06:57:25,855 [INFO] diag_v46:   Session detail: HTTP 498 (1136B) jsonld=False
+2026-11-11 06:57:25,855 [INFO] diag_v46: === OZON (v46) ===
+2026-11-11 06:57:25,856 [INFO] diag_v46: OZON S1: composer + Referer + device-id
+2026-11-11 06:57:26,811 [INFO] diag_v46:   composer ref nm=1600562267: HTTP 403 (1.0s)
+2026-11-11 06:57:32,710 [INFO] diag_v46:   composer ref nm=1317678381: HTTP 403 (0.9s)
+2026-11-11 06:57:37,711 [INFO] diag_v46: OZON S2: SSR HTML (device-id + session)
+2026-11-11 06:57:38,647 [INFO] diag_v46:   Home: HTTP 403
+2026-11-11 06:57:41,786 [INFO] diag_v46:   SSR session nm=1600562267: HTTP 403 widgets=False (8606B)
+2026-11-11 06:57:44,787 [INFO] diag_v46: OZON S3: api.ozon.ru
+2026-11-11 06:57:46,113 [WARNING] diag_v46: cffi_get ERR https://api.ozon.ru/composer-api.bx/page/json/v2?url=/produc: Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 06:57:46,114 [INFO] diag_v46:   api.ozon nm=1600562267: HTTP ERR (1.3s)
+2026-11-11 06:57:49,114 [INFO] diag_v46: OZON S4: Mobile (m.ozon.ru session)
+2026-11-11 06:57:50,656 [INFO] diag_v46:   Mobile home: HTTP 403
+2026-11-11 06:57:53,776 [INFO] diag_v46:   Mobile nm=1600562267: HTTP 403 (8632B)
+2026-11-11 06:57:53,777 [INFO] diag_v46: === AVITO (v46) ===
+2026-11-11 06:57:53,777 [INFO] diag_v46: AVITO S0: Найти живые ID (категория)
+2026-11-11 06:57:54,597 [INFO] diag_v46:   Cat avto: HTTP 404 ids=0 (0.8s)
+2026-11-11 06:58:00,501 [INFO] diag_v46:   Cat telefony: HTTP 439 ids=0 (0.9s)
+2026-11-11 06:58:06,422 [INFO] diag_v46:   Cat avto: HTTP 439 ids=0 (0.9s)
+2026-11-11 06:58:11,422 [INFO] diag_v46: AVITO S0b: Web API поиск (fallback)
+2026-11-11 06:58:13,580 [INFO] diag_v46:   API search: HTTP 200 items=0
+2026-11-11 06:58:18,581 [INFO] diag_v46: AVITO: valid_ids=[]
+2026-11-11 06:58:18,581 [INFO] diag_v46: AVITO S1: Fetch ads
+2026-11-11 06:58:18,581 [INFO] diag_v46: AVITO S2: Web API (cooldown 10s)
+2026-11-11 06:58:29,484 [INFO] diag_v46:   Web API: HTTP 439 items=0
+2026-11-11 06:58:29,485 [INFO] diag_v46: AVITO S3: Home (IP check)

@@ -1,0 +1,66 @@
+﻿=== diag_v7i — 2026-11-14 12:54:26 ===
+Query: 'наушники'
+
+── [1] COM wholesale (URL locale params) ──
+python : 2026-11-14 12:54:26,527 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\prox
+ies.json не найден, режим direct
+строка:2 знак:1
++ python -u diag_v7i.py 2>&1 | Out-File -FilePath diag_v7i_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 12:5...н, режим direct:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 12:54:31,071 INFO r52.collectors.aliexpress: ALI_COM: wholesale HTML OK, 821951 bytes, 4.5s
+  OK: 821951 bytes, 4.5s
+  Locale: IT=0, EN=0, RU=1
+  pdp_npi currencies: {'EUR'}
+  Symbols in first 100KB: $=0, €=0
+2026-11-14 12:54:31,078 INFO r52.collectors.aliexpress: ALI: 12 card anchors found
+  Parsed: 12 products
+  [0] id=1005012417611123
+      title='HIFIMAN Ananda Stealth Magnet Cuffie Hi-Fi Open-Back Over-Ea'
+      price=227.39 EUR
+  [1] id=1005013565057281
+      title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per'
+      price=521.39 EUR
+  [2] id=1005012541094028
+      title='Cuffie Hi-Fi HIFIMAN Edition XS Full-Size Over-Ear Open-Back'
+      price=235.39 EUR
+  [3] id=1005006995878553
+      title='Auricolari wireless Pro 6 TWS con microfono, auricolari Blue'
+      price=3.61 EUR
+  [4] id=1005013100963256
+      title='Cuffie Nothing (1), cancellazione attiva ibrida del rumore, '
+      price=198.77 EUR
+
+── [2] RU search API HTML probe ──
+  HTTP 200, 13830 bytes, 2.7s
+  Content-Type: text/html;charset=utf-8
+  First 500 chars:
+    
+
+    <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><
+  Last 200 chars:
+    .com/ae-dida/error/0.0.6/js/335.js" defer="" crossorigin="anonymous"></script><script src="https://g.alicdn.com/ae-dida/
+  SPA markers: []
+  --- POST probe ---
+  POST: HTTP 200, 13828B, 2.9s, JSON=False
+    first 200: '<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="follow,index"/><meta name="referrer" content="no-ref'
+
+── [3] RU wholesale (baseline) ──
+2026-11-14 12:54:36,683 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json 
+не найден, режим direct
+2026-11-14 12:54:45,350 INFO r52.collectors.aliexpress: ALI_RU: wholesale HTML OK, 744403 bytes, 8.7s
+  OK: 744403 bytes, 8.7s
+2026-11-14 12:54:45,351 INFO r52.collectors.aliexpress: ALI_RU: 12 card anchors found
+  Parsed: 12 products
+  [0] title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per' price=521.39 EUR
+2026-11-14 12:55:00,164 INFO r52.collectors.aliexpress: ALI_RU: wholesale HTML OK, 743538 bytes, 4.5s
+2026-11-14 12:55:00,164 INFO r52.collectors.aliexpress: ALI_RU: 12 card anchors found
+2026-11-14 12:55:00,166 INFO r52.collectors.aliexpress: ALI_RU: HTML search found 12 products
+2026-11-14 12:55:00,167 INFO r52.collectors.aliexpress: ALI_RU: collect_by_search 'наушники' → 12 products
+  collect_by_search: 12 items, 14.8s
+
+=== DONE ===
+2026-11-14 12:55:00,167 INFO diag_v7i: diag_v7i complete
+EXIT=0

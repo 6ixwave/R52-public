@@ -1,0 +1,46 @@
+[09:00:40] ========================================================================
+[09:00:40] LIVE DIAG V4 — 2026-11-14 09:00:40
+[09:00:40] Python: 3.15.2
+[09:00:40] ========================================================================
+[09:00:40] 
+── DNS CHECK ──
+[09:00:40]   DNS WB         catalog.wb.ru                OK 0.01s → ['185.62.202.24']
+[09:00:40]   DNS WB         search.wb.ru                 OK 0.52s → ['185.62.202.24']
+[09:00:41]   DNS WB         u-search.wb.ru               OK 0.56s → ['185.62.202.12']
+[09:00:41]   DNS OZON       www.ozon.ru                  OK 0.50s → ['185.73.194.82', '185.73.193.68']
+[09:00:42]   DNS AVITO      www.avito.ru                 OK 0.50s → ['176.114.124.24', '176.114.122.24', '176.114.120.24']
+[09:00:42]   DNS FARPOST    www.farpost.ru               OK 0.00s → ['195.88.224.71', '185.65.150.222', '195.88.224.82']
+[09:00:42]   DNS ALI_COM    www.aliexpress.com           OK 0.50s → ['2.23.84.43', '2.23.84.39']
+[09:00:43]   DNS ALI_RU     ru.aliexpress.com            OK 0.50s → ['2.23.84.17', '2.23.84.34', '2.23.84.35']
+[09:00:43] 
+── HTTP PROBE ──
+[09:00:43]   WB         HTTP 403 | 0 bytes | 0.4s | 
+[09:00:44]   OZON       HTTP 403 | 8442 bytes | 0.5s | 
+[09:00:44]   AVITO      HTTP 439 | 14230 bytes | 0.4s | 
+[09:00:45]   FARPOST    HTTP 200 | 191707 bytes | 0.8s | text/html; charset=windows-1251
+[09:00:49]   ALI_COM    HTTP 200 | 854127 bytes | 4.0s | text/html;charset=UTF-8
+[09:00:53]   ALI_RU     HTTP 200 | 871448 bytes | 4.0s | text/html;charset=UTF-8
+[09:00:53] 
+── SEARCH PAGE 1 ──
+[09:00:53]   [WB] search page=1 query='наушники' ...
+[09:01:33]   WB: THREAD still alive after 40s (daemon, will die)
+[09:01:33]   [WB] TIMEOUT | n=0 | 40.0s | IDs=[] | timeout
+[09:01:33]   [OZON] search page=1 query='наушники' ...
+[09:02:00]   [OZON] EMPTY | n=0 | 26.9s | IDs=[] | 
+[09:02:00]   [AVITO] search page=1 query='наушники' ...
+[09:02:22]   [AVITO] ERROR | n=0 | 21.8s | IDs=[] | SearchError: SEARCH_ACCESS_CHALLENGE
+[09:02:22]   [FARPOST] search page=1 query='наушники' ...
+[09:02:25]   [FARPOST] OK | n=5 | 3.3s | IDs=['138088942', '122744064', '109845405'] | 
+[09:02:25]   [ALI_COM] search page=1 query='headphones' ...
+[09:02:30]   [ALI_COM] ERROR | n=0 | 4.5s | IDs=[] | ValueError: UNEXPECTED_REDIRECT
+[09:02:30]   [ALI_RU] search page=1 query='наушники' ...
+[09:02:34]   [ALI_RU] OK | n=11 | 4.9s | IDs=['1005013569410352', '1005013564277066', '1005013556597717'] | 
+[09:02:34] 
+── PAGINATION PAGE 2 ──
+[09:02:34]   [WB] skip p2 (p1=TIMEOUT)
+[09:02:34]   [OZON] skip p2 (p1=EMPTY)
+[09:02:34]   [AVITO] skip p2 (p1=ERROR)
+[09:02:34]   [FARPOST] search page=2 ...
+[09:02:38]   [FARPOST] p2: ERROR | n=0 | 3.5s | IDs=[] | overlap=0 | SearchError: SEARCH_ACCESS_CHALLENGE
+[09:02:38]   [ALI_COM] skip p2 (p1=ERROR)
+[09:02:38]   [ALI_RU] search page=2 ...

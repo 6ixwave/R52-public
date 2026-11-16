@@ -1,0 +1,62 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Гирлянда роса 200 м желтая",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "SILKYDREAMWAY",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 143300,
+        "amount": "1433.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 408500,
+        "amount": "4085.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "source": "WB",
+    "id": "1390944091",
+    "listing_id": "1390944091",
+    "title": "Гирлянда роса 200 м желтая",
+    "url": "https://www.wildberries.ru/catalog/1390944091/detail.aspx",
+    "observed_at": "2026-11-17T02:17:29.374920+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

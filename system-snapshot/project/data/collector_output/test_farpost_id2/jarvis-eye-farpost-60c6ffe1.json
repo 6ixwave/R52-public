@@ -1,0 +1,175 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Запчасти на авто",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Широкий ассортимент запчастей &#128736; для легковых, грузовых, японских, китайских, корейских отечественных и других авто от интернет-магазинов, компаний и частных лиц с ценой, фото, описанием. Доступные цены, доставка &#9951; по всей России.",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Авто и мото",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 110000,
+        "currency": "RUB",
+        "label": "JSON-LD price",
+        "amount": "1100.00",
+        "visible_label": "JSON-LD price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793758305280_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1787951162185_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1788185787188_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1788410645701_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789289313201_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1790061248924_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1783074886917_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1784115925293_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1783074903552_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1747752243994_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1770039919308_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1747661868961_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793970117933_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793186955437_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1753448819162_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1753448819381_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1791544302941_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1743778351875_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1742289289069_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1786973177322_block",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1743774787775_block",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Авто и мото",
+    "source": "FARPOST",
+    "id": "100000000",
+    "url": "https://www.farpost.ru/vladivostok/100000000.html",
+    "observed_at": "2026-11-13T08:00:14.666815+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

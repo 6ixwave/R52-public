@@ -1,0 +1,19 @@
+{
+  "source": "OZON",
+  "total_items": 0,
+  "collected": 0,
+  "failed": 0,
+  "files_written": 0,
+  "elapsed_sec": 0.0,
+  "collector_stats": {
+    "requests": 0,
+    "success": 0,
+    "failed": 0,
+    "blocked": 0
+  },
+  "proxy_stats": {
+    "total": 0,
+    "alive": 0,
+    "use_proxies": true
+  }
+}

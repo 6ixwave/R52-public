@@ -1,0 +1,50 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "realme 16 Pro Plus 5G Smartphone 6.8\", Batteria da 7000mAh, NFC, Fotocamera 200MP OIS, IP69, Ricarica Rapida 80W, Dual SIM, Display AMOLED Curvo 144Hz, Next AI",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "1.00",
+        "amount_minor": 100,
+        "currency": "EUR",
+        "visible_label": "1.00 EUR"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005012330093922",
+    "url": "https://ru.aliexpress.com/item/1005012330093922.html",
+    "observed_at": "2026-11-14T03:00:05.482576+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

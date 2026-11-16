@@ -1,0 +1,10 @@
+2026-11-11 16:19:58,163 v97 INFO === probe_v97 START source=WB lid=259671175 ===
+2026-11-11 16:19:58,164 v97 INFO DB: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\r52.sqlite3 (exists=True)
+2026-11-11 16:19:58,682 r52.sources INFO Sources: зарегистрировано 4 сборщиков
+2026-11-11 16:19:58,728 v97 INFO Config loaded in 0.6s. db_file=C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\r52.sqlite3 intake_folders=(WindowsPath('C:/Users/aleks/Downloads'),)
+2026-11-11 16:19:58,744 v97 INFO App opened in 0.0s. auto_accept=False
+2026-11-11 16:19:58,745 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\collectors\proxies.json не найден, режим direct
+2026-11-11 16:19:59,089 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 16:19:59,089 v97 INFO Collector Wildberries ready (strict timeouts 8s/15s)
+2026-11-11 16:19:59,089 v97 INFO URL: https://www.wildberries.ru/catalog/259671175/detail.aspx
+2026-11-11 16:21:28,164 v97 ERROR WATCHDOG: 90 s exceeded, forcing exit

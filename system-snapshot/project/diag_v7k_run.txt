@@ -1,0 +1,91 @@
+﻿=== diag_v7k — 2026-11-14 12:58:37 ===
+python : 2026-11-14 12:58:37,203 INFO diag_v7k: ── [1] Baseline: aep_usuc_f only (current) ──
+строка:2 знак:1
++ python -u diag_v7k.py 2>&1 | Out-File -FilePath diag_v7k_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 12:5...ly (current) ──:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 12:58:41,956 INFO diag_v7k:   [baseline] HTTP 200, 750016B, 4.5s | lang=it | pdp_cur={'EUR'} | IT=213 RU=1
+2026-11-14 12:58:41,957 INFO diag_v7k:     title: HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per Audiofil
+i, Versione
+2026-11-14 12:58:41,957 INFO diag_v7k:     Set-Cookie: [REDACTED_AUTH_SECRET]
+b30299ee64470aeb&intl_locale=it_IT; Domain=.aliexpress.com; Expires=Tue, 09-Nov-2027 02:58:40 GMT; Path=/; Secure; Same
+Site=None, intl_l
+2026-11-14 12:58:41,957 INFO diag_v7k: ── [2] Override: + xman_us_f + intl_locale ──
+2026-11-14 12:58:46,299 INFO diag_v7k:   [xman_override] HTTP 200, 823464B, 4.3s | lang=it | pdp_cur={'EUR'} | IT=210 R
+U=1
+2026-11-14 12:58:46,299 INFO diag_v7k:     title: HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per Audiofil
+i, Versione
+2026-11-14 12:58:46,299 INFO diag_v7k:     Set-Cookie: [REDACTED_AUTH_SECRET]
+a119f9eeacde71eb&intl_locale=it_IT; Domain=.aliexpress.com; Expires=Tue, 09-Nov-2027 02:58:45 GMT; Path=/; Secure; Same
+Site=None, intl_l
+2026-11-14 12:58:46,299 INFO diag_v7k: ── [3] Override: xman_us_f full format ──
+2026-11-14 12:58:47,533 INFO diag_v7k:   [xman_full] HTTP 200, 1749B, 1.2s | lang=? | pdp_cur=set() | IT=0 RU=4
+2026-11-14 12:58:47,533 INFO diag_v7k:     title: ?
+2026-11-14 12:58:47,533 INFO diag_v7k:     Set-Cookie: [REDACTED_AUTH_SECRET]
+a86KJLPk8-fPaxFBpn26NMP_QjPeIOdSQEmkDD1yHZ_HAgsjq1R_NyJJZPyNavoDap-jkh7pM-KJEFw1WbaIIwGdwpIR78j1L_UBj53FjryMOPSNsgMOPRg
+EuYtEQGg3nNfwuH0y
+2026-11-14 12:58:47,533 INFO diag_v7k: ── [4] gatewayAdapt variants ──
+2026-11-14 12:58:48,749 INFO diag_v7k:   [ga=glo2rus] HTTP 200, 1705B, 1.2s | lang=? | pdp_cur=set() | IT=0 RU=4
+2026-11-14 12:58:48,750 INFO diag_v7k:     title: ?
+2026-11-14 12:58:48,750 INFO diag_v7k:     Set-Cookie: [REDACTED_AUTH_SECRET]
+nr5hp8ZA68zGcC5H_BHpZbXcLsnzzMNWmIbbrpSBDv8YNxjC_umuVFAzsJ6VXTDNB70DtHZIniy10d6aEdBQSu_3iVVKovEH4hUaDk2joEedoqby-CGgB96
+4Js9c4PKV7T53xP21
+2026-11-14 12:58:51,006 INFO diag_v7k:   [ga=ru] HTTP 200, 1705B, 1.3s | lang=? | pdp_cur=set() | IT=0 RU=4
+2026-11-14 12:58:51,006 INFO diag_v7k:     title: ?
+2026-11-14 12:58:51,006 INFO diag_v7k:     Set-Cookie: [REDACTED_AUTH_SECRET]
+kMZTQcFR9-ikfZFIAtrwL_36kV7ZQbmQl2-3ICRy7fL1mJ6I28lt5NfG7g6BPcbDsaJ_JpYF42PnNYdKTuxwRsdtCWtShXRNA-FKEx4k4nEr3UOIAkinMtp
+cQFk7HhJWbYCiD5vb
+2026-11-14 12:58:53,226 INFO diag_v7k:   [ga=RU] HTTP 200, 1705B, 1.2s | lang=? | pdp_cur=set() | IT=0 RU=4
+2026-11-14 12:58:53,226 INFO diag_v7k:     title: ?
+2026-11-14 12:58:53,226 INFO diag_v7k:     Set-Cookie: [REDACTED_AUTH_SECRET]
+KoI5ftaEIC6wUZpMkX4HZsRpfyJtsrdREokEsIpmCg2XtxfRU8JuO3QWUCHutWuFReZxNJPxewntQsLBtOaQ8MlcMy5BzWzEL-_JgckTzfJuv4Ym2aWmM3P
+rd7XPjEhQJI9pJ32I
+2026-11-14 12:58:55,618 INFO diag_v7k:   [ga=glo2ru] HTTP 200, 1705B, 1.4s | lang=? | pdp_cur=set() | IT=0 RU=4
+2026-11-14 12:58:55,618 INFO diag_v7k:     title: ?
+2026-11-14 12:58:55,618 INFO diag_v7k:     Set-Cookie: [REDACTED_AUTH_SECRET]
+U-OHwvXKoMfssJyt_APET4AtBWH721z9EBlJiQE3iHUPJB9JCN9gWsXFzq431yaZhc-jDnrMwMG3u8gPWgqnAFBE9PraiGDutXGLaZw06-kjkfa9N5ySaw_
+xDEtkqePV_Q7wzdp0
+2026-11-14 12:58:57,793 INFO diag_v7k:   [ga=ru2ru] HTTP 200, 1705B, 1.2s | lang=? | pdp_cur=set() | IT=0 RU=4
+2026-11-14 12:58:57,793 INFO diag_v7k:     title: ?
+2026-11-14 12:58:57,793 INFO diag_v7k:     Set-Cookie: [REDACTED_AUTH_SECRET]
+UDq5evsLzjfBJkTOfoWqU6EYfIUJLAZUfSMY4qD563gk5R5QWYvrob4pFvZG5xVx7ahcv2yUz3HTt4u9qNy2SRopxokK4KR5F2N1g6ilY6MB_VaavW80ocA
+_XeARtlG6EeNBpV4L
+2026-11-14 12:59:00,046 INFO diag_v7k:   [ga=rus] HTTP 200, 1705B, 1.3s | lang=? | pdp_cur=set() | IT=0 RU=4
+2026-11-14 12:59:00,046 INFO diag_v7k:     title: ?
+2026-11-14 12:59:00,046 INFO diag_v7k:     Set-Cookie: [REDACTED_AUTH_SECRET]
+BOiWvtxkkUraClEwXod9kmP1nySFBno9PbkeIRNacmU54clM2YH84iKYNQA1_l7VOj7TKNzBeApfFSxePltG8fc145PIvfmMGcTZ5ZoxTifXMewP9D7982e
+ibHRgw7s1znNadXvd
+2026-11-14 12:59:01,047 INFO diag_v7k: ── [5] COM with xman_us_f=en_US ──
+2026-11-14 12:59:02,229 INFO diag_v7k:   [COM+xman] HTTP 200, 2137B, 1.2s | lang=? | pdp_cur=set()
+2026-11-14 12:59:02,229 INFO diag_v7k:     title: ?
+2026-11-14 12:59:02,229 INFO diag_v7k:     Set-Cookie: [REDACTED_AUTH_SECRET]
+EePMJAftR2mPUpFV59dw9QQ_7zOYpCKuvOUQNQotYiodQ_vFb5WPLXUd9XDDb2IfWh_jYaHI7ynvIEUktCjFASF6gEtieLnOj1-oh6jsbnw2wY_4mUx9TrA
+jS4FV-rBabjcA4ad8
+2026-11-14 12:59:02,229 INFO diag_v7k: ── [6] Search API with xman cookies ──
+2026-11-14 12:59:05,090 INFO diag_v7k:   6a. GET aer-webapi/v1/search: HTTP 200, 13828B, JSON=False
+2026-11-14 12:59:05,091 INFO diag_v7k:       body[:150]: <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="
+viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="fo
+2026-11-14 12:59:07,810 INFO diag_v7k:   6b. +_input_charset: HTTP 200, 13828B, JSON=False
+2026-11-14 12:59:10,383 INFO diag_v7k:   6c. MTOP: HTTP 200, 13828B, JSON=False
+2026-11-14 12:59:10,384 INFO diag_v7k:       MTOP body[:200]: <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta n
+ame="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="follow,index"/><meta name="r
+eferrer" content="no-ref
+2026-11-14 12:59:10,384 INFO diag_v7k:   6d. SPA shell deep analysis
+2026-11-14 12:59:12,972 INFO diag_v7k:     Script[1] (3434 chars): 
+  window.__aec_base_config__ = {
+    runtimeVersion: '1.0.4',
+    reactVendorVersion: '1.0.0',
+    plugins: [
+      // ===== 1. UI 类（用户可见，优先加载） =====
+      {
+        name: 'header',
+        version: '1.0.9',
+        platform: ['pc', 'msite'],
+        platformEntry: true,
+        enabled: true,
+    
+=== DONE ===
+2026-11-14 12:59:12,973 INFO diag_v7k: diag_v7k complete
+EXIT=0

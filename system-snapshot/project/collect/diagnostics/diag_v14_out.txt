@@ -1,0 +1,109 @@
+[OK] curl_cffi available
+
+======================================================================
+1. AVITO — 429 HTML + pow_challenge retry  [0.2s]
+======================================================================
+  [Avito home] 439 | 14889B [1.1s]
+  Cookies: [REDACTED_AUTH_SECRET]
+  KW [pow_challenge]: ...      try {
+            showStatus('Получение задания...');
+
+            var challenge = getCookie('pow_challenge');
+            if (!challenge) {
+   ...
+  KW [challenge]: ...empt = attempt || 1;
+        try {
+            showStatus('Получение задания...');
+
+            var challenge = getCookie('pow_challenge');
+          ...
+  KW [nonce]: ... {
+        var prefix = '';
+        for (var i = 0; i < complexity; i++) prefix += '0';
+        var nonce = 0;
+        while (true) {
+            var ...
+  KW [sha256]: ...or('invalid jwt');
+        return JSON.parse(b64DecodeUnicode(parts[1]));
+    }
+
+    async function sha256hex(str) {
+        var buf = new TextEncoder...
+  KW [b64Decode]: ...ame + '=([^;]*)'));
+        return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function b64DecodeUnicode(str) {
+        str = str.replace(...
+  KW [parseJwt]: ...rn '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+        }).join(''));
+    }
+
+    function parseJwtPayload(jwt) {
+        var parts = jwt.spl...
+  [Avito retry] 439 | 14889B [5.1s]
+  Cookies2: ['srv_id', 'gMltIuegZN2COuSe', '_avisc', 'pow_challenge']
+  pow_challenge: 4ag08d5VSInj3vukfXJ7KbvKC+cKFhxC/odNTUcTObcPIJdxyCEnl/TP9wSngJr8UEIxNVGPwepJS3in19BHDrZzpBvcDQy5pQkJ...
+  Decoded (116): �4��UH�����}r{)���
+B��MMG9� �q�!'��������PB15Q���IKx���G�s����		�#�z��Z�(�q/��R��#=���Z�xg١}T�,U
+  Dots in cookie: [REDACTED_AUTH_SECRET]
+  Challenge scripts: 1
+  Script[0] (5044): function getCookie(name) {
+        var match = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'));
+        return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function b64DecodeUnicode(str) {
+        str = str.replace(/-/g, '+').replace(/_/g, '/');
+        while (str.length % 4) str += '=';
+        return decodeURIComponent(atob(str).split('').map(function(c) {
+          
+
+======================================================================
+2. FARPOST — Altcha config from 198KB page  [5.1s]
+======================================================================
+  [FP page] 200 | 89751B [6.9s]
+  -> Altcha detected. Parsing config from page...
+  <altcha-widget>: <altcha-widget language="ru" hidelogo hidefooter challengeurl="?r=1&amp;u=%2Fgeo%2Fmoskva%2Fl%2Ftelefony%2F&amp;f=2&amp;a=1794306914186">
+  Widget attrs: []
+  Altcha scripts: 3
+  Script[0] (66392 chars):
+    algorithm: a
+    challenge: s
+    salt: c
+    max: l
+    url: s()
+    First 300: /*<![CDATA[*/
+			const Yn='(function(){"use strict";const d=new TextEncoder;function p(e){return[...new Uint8Array(e)].map(t=>t.toString(16).padStart(2,"0")).join("")}async function b(e,t,r){if(typeof crypto>"u"||!("subtle"in crypto)||!("digest"in crypto.subtle))throw new Error("Web Crypto is not av
+
+  Script[1] (1638 chars):
+    challenge: Получить
+    First 300: /*<![CDATA[*/
+			const o=()=>{};function g(t,e){return t!=t?e==e:t!==e||null!==t&&"object"==typeof t||"function"==typeof t}let c=!1;function d(t){var e=c;try{return c=!0,t()}finally{c=e}}function p(t,e,n){if(null==t)return e(void 0),o;const l=d((()=>t.subscribe(e,n)));return l.unsubscribe?()=>l.unsu
+
+  Script[2] (368 chars):
+    First 300: domReady(function() {
+			document.querySelector('altcha-widget').addEventListener('statechange', evt => {
+				if (evt.detail.state === 'verified') {
+					document.querySelector('#send-button').disabled = false
+				}
+			})
+			document.querySelector('#grecap-form').addEventListener('submit', () => {
+	
+
+
+  Challenge: NOT FOUND
+  Salt: NOT FOUND
+  Max: NOT FOUND
+  Algo: a
+  ⚠ Challenge/Salt not found in page scripts
+  Saved -> fp_v14_page.html
+
+======================================================================
+3. WILDBERRIES — CDN + card API + search  [6.9s]
+======================================================================
+  [card cffi nm=135248485] 403 | 0B [8.1s]
+  [card cffi nm=207573764] 403 | 0B [9.2s]
+
+  --- CDN images --- [10.2s]
+  ❌ nm=135248485: CDN not found

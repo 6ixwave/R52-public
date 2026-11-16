@@ -1,0 +1,62 @@
+2026-11-14 15:11:55,561 [diag.step5] INFO: ============================================================
+2026-11-14 15:11:55,561 [diag.step5] INFO: TEST 1: FARPOST discovery by category
+2026-11-14 15:11:55,561 [diag.step5] INFO: ============================================================
+2026-11-14 15:11:55,881 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:11:55,881 [r52.collectors.farpost] INFO: FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-14 15:11:56,608 [r52.collectors.farpost] INFO: FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-14 15:11:57,609 [diag.step5] INFO: FARPOST category: https://www.farpost.ru/vladivostok/auto/wheel/tire/
+2026-11-14 15:12:45,985 [diag.step5] INFO: [TEST] FARPOST/discovery_cat_item0: {"status": "SUCCESS", "id": "129414484", "title": "Автошина 315/80R22.5 24PR Torro TR-888 170/167F", "obs_status": "FULL_SUCCESS", "prices": 1, "price_detail": [{"role": "regular", "amount": "29200.00", "currency": "RUB"}], "media_count": 10, "evidence": "COLLECTOR_AUTONOMOUS_HTTP"}
+2026-11-14 15:12:45,986 [diag.step5] INFO: [TEST] FARPOST/discovery_cat_item1: {"status": "SUCCESS", "id": "116449819", "title": "Шина грузовая BEL-138M. 315/70R22.5", "obs_status": "FULL_SUCCESS", "prices": 1, "price_detail": [{"role": "regular", "amount": "19600.00", "currency": "RUB"}], "media_count": 2, "evidence": "COLLECTOR_AUTONOMOUS_HTTP"}
+2026-11-14 15:12:45,986 [diag.step5] INFO: [TEST] FARPOST/discovery_cat_item2: {"status": "SUCCESS", "id": "118783615", "title": "Шина грузовая карьерная Forcerra BEL-268. 315/80R22.5 во Вла", "obs_status": "FULL_SUCCESS", "prices": 1, "price_detail": [{"role": "regular", "amount": "20600.00", "currency": "RUB"}], "media_count": 1, "evidence": "COLLECTOR_AUTONOMOUS_HTTP"}
+2026-11-14 15:12:45,986 [diag.step5] INFO: FARPOST: raw fetch of category for link extraction
+2026-11-14 15:12:46,703 [diag.step5] INFO: [TEST] FARPOST/raw_links: {"status": "INFO", "http_status": 200, "page_len": 416421, "total_links": 0, "unique_ids": []}
+2026-11-14 15:12:46,703 [diag.step5] INFO: ============================================================
+2026-11-14 15:12:46,703 [diag.step5] INFO: TEST 2: OZON graceful handling (all 403)
+2026-11-14 15:12:46,703 [diag.step5] INFO: ============================================================
+2026-11-14 15:12:46,703 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:12:46,706 [diag.step5] INFO: auto_target columns: ['id', 'source', 'kind', 'value', 'enabled', 'item_limit', 'interval_seconds', 'last_run', 'page', 'origin']
+2026-11-14 15:12:46,720 [diag.step5] INFO: [TEST] OZON/collect_graceful: {"status": "ERROR", "error": "no such column: url", "trace": "\\R52-2.12\\debug\\diag_step5.py\", line 132, in <module>\n    cur.execute(f\"SELECT {id_col}, url FROM auto_target WHERE source='OZON' AND enabled=1 LIMIT 3\")\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlite3.OperationalError: no such column: url\n"}
+2026-11-14 15:12:46,720 [diag.step5] INFO: ============================================================
+2026-11-14 15:12:46,720 [diag.step5] INFO: TEST 3: OZON different product IDs
+2026-11-14 15:12:46,720 [diag.step5] INFO: ============================================================
+2026-11-14 15:12:46,720 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:12:47,726 [diag.step5] INFO: [TEST] OZON/http_286156832: {"status": 403, "len": 8287, "is_anti": true, "elapsed_s": 1.0}
+2026-11-14 15:12:51,771 [diag.step5] INFO: [TEST] OZON/http_1700000001: {"status": 403, "len": 8259, "is_anti": true, "elapsed_s": 1.05}
+2026-11-14 15:12:54,772 [diag.step5] INFO: ============================================================
+2026-11-14 15:12:54,772 [diag.step5] INFO: TEST 4: Intake pipeline (eye.py validation)
+2026-11-14 15:12:54,772 [diag.step5] INFO: ============================================================
+2026-11-14 15:12:54,784 [diag.step5] INFO: [TEST] INTAKE/import: {"status": "IMPORT_ERROR", "error": "cannot import name 'validate_export' from 'r52.intake.eye' (C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\intake\\eye.py)"}
+2026-11-14 15:12:54,786 [diag.step5] INFO: Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\diag_step5_output\diag_step5_report.json
+2026-11-14 15:19:54,064 [diag.step5] INFO: ============================================================
+2026-11-14 15:19:54,064 [diag.step5] INFO: TEST 1: FARPOST discovery by category
+2026-11-14 15:19:54,064 [diag.step5] INFO: ============================================================
+2026-11-14 15:20:47,919 [diag.step5] INFO: ============================================================
+2026-11-14 15:20:47,919 [diag.step5] INFO: TEST 1: FARPOST discovery by category
+2026-11-14 15:20:47,919 [diag.step5] INFO: ============================================================
+2026-11-14 15:20:48,197 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:20:48,198 [r52.collectors.farpost] INFO: FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-14 15:20:49,809 [r52.collectors.farpost] INFO: FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-14 15:20:50,810 [diag.step5] INFO: FARPOST category: https://www.farpost.ru/vladivostok/auto/wheel/tire/
+2026-11-14 15:21:37,815 [diag.step5] INFO: [TEST] FARPOST/discovery_cat_item0: {"status": "SUCCESS", "id": "129414484", "title": "Автошина 315/80R22.5 24PR Torro TR-888 170/167F", "obs_status": "FULL_SUCCESS", "prices": 1, "price_detail": [{"role": "regular", "amount": "29200.00", "currency": "RUB"}], "media_count": 10, "evidence": "COLLECTOR_AUTONOMOUS_HTTP"}
+2026-11-14 15:21:37,815 [diag.step5] INFO: [TEST] FARPOST/discovery_cat_item1: {"status": "SUCCESS", "id": "116449819", "title": "Шина грузовая BEL-138M. 315/70R22.5", "obs_status": "FULL_SUCCESS", "prices": 1, "price_detail": [{"role": "regular", "amount": "19600.00", "currency": "RUB"}], "media_count": 2, "evidence": "COLLECTOR_AUTONOMOUS_HTTP"}
+2026-11-14 15:21:37,815 [diag.step5] INFO: [TEST] FARPOST/discovery_cat_item2: {"status": "SUCCESS", "id": "118783615", "title": "Шина грузовая карьерная Forcerra BEL-268. 315/80R22.5 во Вла", "obs_status": "FULL_SUCCESS", "prices": 1, "price_detail": [{"role": "regular", "amount": "20600.00", "currency": "RUB"}], "media_count": 1, "evidence": "COLLECTOR_AUTONOMOUS_HTTP"}
+2026-11-14 15:21:37,815 [diag.step5] INFO: FARPOST: raw fetch of category for link extraction
+2026-11-14 15:21:38,696 [diag.step5] INFO: [TEST] FARPOST/raw_links: {"status": "INFO", "http_status": 200, "page_len": 414064, "total_links": 0, "unique_ids": []}
+2026-11-14 15:21:38,696 [diag.step5] INFO: ============================================================
+2026-11-14 15:21:38,696 [diag.step5] INFO: TEST 2: OZON graceful handling (all 403)
+2026-11-14 15:21:38,696 [diag.step5] INFO: ============================================================
+2026-11-14 15:21:38,697 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:21:38,700 [diag.step5] INFO: auto_target columns: ['id', 'source', 'kind', 'value', 'enabled', 'item_limit', 'interval_seconds', 'last_run', 'page', 'origin']
+2026-11-14 15:21:38,714 [diag.step5] INFO: [TEST] OZON/collect_graceful: {"status": "ERROR", "error": "no such column: url", "trace": "\\R52-2.12\\debug\\diag_step5.py\", line 132, in <module>\n    cur.execute(f\"SELECT {id_col}, url FROM auto_target WHERE source='OZON' AND enabled=1 LIMIT 3\")\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlite3.OperationalError: no such column: url\n"}
+2026-11-14 15:21:38,715 [diag.step5] INFO: ============================================================
+2026-11-14 15:21:38,715 [diag.step5] INFO: TEST 3: OZON different product IDs
+2026-11-14 15:21:38,715 [diag.step5] INFO: ============================================================
+2026-11-14 15:21:38,715 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:21:40,365 [diag.step5] INFO: [TEST] OZON/http_286156832: {"status": 403, "len": 8287, "is_anti": true, "elapsed_s": 1.65}
+2026-11-14 15:21:44,939 [diag.step5] INFO: [TEST] OZON/http_1700000001: {"status": 403, "len": 8259, "is_anti": true, "elapsed_s": 1.57}
+2026-11-14 15:21:47,939 [diag.step5] INFO: ============================================================
+2026-11-14 15:21:47,940 [diag.step5] INFO: TEST 4: Intake pipeline (eye.py validation)
+2026-11-14 15:21:47,940 [diag.step5] INFO: ============================================================
+2026-11-14 15:21:47,945 [diag.step5] INFO: [TEST] INTAKE/validate_autonomous: {"status": "OK", "detail": "{'source': 'FARPOST', 'id': '139122082', 'url': 'https://www.farpost.ru/vladivostok/139122082.html', 'observed_at': '2026-11-14T15:10:00+10:00', 'status': 'FULL_SUCCESS', 'product_content': True, 'evi"}
+2026-11-14 15:21:47,946 [diag.step5] INFO: [TEST] INTAKE/validate_ozon_blocked: {"status": "OK", "detail": "{'source': 'OZON', 'id': '286156832', 'url': 'https://www.ozon.ru/product/286156832/', 'observed_at': '2026-11-14T15:10:00+10:00', 'status': 'BLOCKED', 'product_content': False, 'evidence_level': 'COL"}
+2026-11-14 15:21:47,946 [diag.step5] INFO: Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\diag_step5_output\diag_step5_report.json

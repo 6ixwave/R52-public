@@ -1,0 +1,88 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Интернет‑магазин Wildberries: широкий ассортимент товаров - скидки каждый день!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Коллекции женской, мужской и детской одежды, обуви, а также товары для дома и спорта. Информация о доставке и оплате. Таблицы размеров, советы по уходу за вещами.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/default-settings-ru.22f317172ab6ff43648c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lang-ru.0e2a353ea6bc7a37.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-vendors.88d8eda9c1885eea.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-app.f39d9a378793d996.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/index-spa.71cf448da12faff3.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/entry.d5d5ccc6a8b295e2.js",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "619204389",
+    "url": "https://www.wildberries.ru/catalog/619204389/detail.aspx",
+    "observed_at": "2026-11-16T17:10:57.407040+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

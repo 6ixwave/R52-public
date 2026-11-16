@@ -1,0 +1,49 @@
+02:17:57 [v133] INFO: curl_cffi OK
+02:17:57 [v133] INFO: === v133 START budget=100s ===
+02:17:57 [v133] INFO: --- A) CARD.JSON FULL ---
+02:17:58 [v133] INFO: card nm=199298871 host=13
+02:17:58 [v133] INFO:   keys: ['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'options', 'compositions', 'certificate', 'colors', 'contents', 'full_colors', 'selling', 'media', 'data', 'grouped_options', 'need_kiz', 'has_tnvd_okpd', 'user_flags', 'properties', 'update_date', 'create_date']
+02:17:58 [v133] INFO:   [contents] (64B): "овсяный коктейль; Коктейль для похудения; Питательный коктейль"
+02:17:58 [v133] INFO:   [media] (37B): {"has_video": true, "photo_count": 6}
+02:17:58 [v133] INFO:   [selling] (114B): {"brand_name": "Родник Здоровья", "brand_hash": "287D12FB814E0535", "supplier_id": 1302193, "no_return_map": 8191}
+02:17:58 [v133] INFO:   [compositions] (102B): [{"name": "дигидрокверцетин, стевия, пшеничные отруби, арабиногалактан, амарант, зерно овса цельное"}]
+02:17:58 [v133] INFO:   [colors] (77B): [173121919, 173036660, 199298871, 199298870, 308060721, 308060716, 201304460]
+02:17:58 [v133] INFO:   [full_colors] (154B): [{"nm_id": 173121919}, {"nm_id": 173036660}, {"nm_id": 199298871}, {"nm_id": 199298870}, {"nm_id": 308060721}, {"nm_id": 308060716}, {"nm_id": 201304460}]
+02:17:58 [v133] INFO: --- B) HTML detail.aspx ---
+02:17:59 [v133] INFO:   HTML nm=199298871: HTTP 498, 1136B
+02:17:59 [v133] INFO:   HTML imgs: 0, prices: []
+02:17:59 [v133] INFO: --- C) PRICE (5 endpoints) ---
+02:18:00 [v133] INFO:   PRICE cw_v2_xhr -> 403 0B: 
+02:18:01 [v133] INFO:   PRICE cw_v2_dest0 -> 403 0B: 
+02:18:02 [v133] INFO:   PRICE web_v1_xhr -> 498 1136B: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="70b0fd15c7c84fe4448e1b38e8187138" d
+02:18:04 [v133] INFO:   PRICE search_api -> 403 0B: 
+02:18:05 [v133] INFO:   PRICE card_v1_app2 -> 403 0B: 
+02:18:06 [v133] INFO: --- D) ALT IMAGE PATTERNS ---
+02:18:07 [v133] INFO:   IMG 404 196B basket-13.wbbasket.ru/vol1580/part158033/199298871/images/S800/158033827.jpg
+02:18:08 [v133] INFO:   IMG 404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/158033827.jpg
+02:18:10 [v133] WARNING: HTTP err https://wbx-static.wbbasket.ru/vol1580/part158033/: Failed to perform, curl: (6) Could not resolve host: wbx-static.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:18:11 [v133] WARNING: HTTP err https://img-basket-13.wbbasket.ru/vol1580/part1580: Failed to perform, curl: (6) Could not resolve host: img-basket-13.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:18:13 [v133] WARNING: HTTP err https://static-basket-13.wbbasket.ru/vol1580/part1: Failed to perform, curl: (6) Could not resolve host: static-basket-13.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:18:14 [v133] INFO:   IMG 404 196B basket-13.wbbasket.ru/vol1580/part158033/199298871/S800/158033827.jpg
+02:18:15 [v133] INFO:   IMG 404 196B basket-13.wbbasket.ru/vol1580/part158033/199298871/images/S800/S800.jpg
+02:18:17 [v133] INFO:   IMG 404 196B basket-13.wbbasket.ru/vol1580/part158033/158033827/images/S800/158033827.jpg
+02:18:23 [v133] WARNING: HTTP err https://wbstatic.net/vol1580/part158033/199298871/: Failed to perform, curl: (35) Recv failure: Connection was reset. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:18:24 [v133] INFO:   IMG 404 196B basket-01.wbbasket.ru/vol1580/part158033/199298871/images/S800/158033827.jpg
+02:18:24 [v133] INFO:   IMAGES found: 0
+02:18:24 [v133] INFO: --- PRODUCT2: nm=259671175 imt=236868886 ---
+02:18:32 [v133] INFO:   IMG 404 196B basket-13.wbbasket.ru/vol2368/part236868/259671175/images/S800/236868886.jpg
+02:18:33 [v133] INFO:   IMG 404 196B basket-13.wbbasket.ru/vol2596/part259671/259671175/images/S800/236868886.jpg
+02:18:34 [v133] WARNING: HTTP err https://wbx-static.wbbasket.ru/vol2368/part236868/: Failed to perform, curl: (6) Could not resolve host: wbx-static.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:18:35 [v133] WARNING: HTTP err https://img-basket-13.wbbasket.ru/vol2368/part2368: Failed to perform, curl: (6) Could not resolve host: img-basket-13.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:18:36 [v133] WARNING: HTTP err https://static-basket-13.wbbasket.ru/vol2368/part2: Failed to perform, curl: (6) Could not resolve host: static-basket-13.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:18:37 [v133] INFO:   IMG 404 196B basket-13.wbbasket.ru/vol2368/part236868/259671175/S800/236868886.jpg
+02:18:38 [v133] INFO:   IMG 404 196B basket-13.wbbasket.ru/vol2368/part236868/259671175/images/S800/S800.jpg
+02:18:39 [v133] INFO:   IMG 404 196B basket-13.wbbasket.ru/vol2368/part236868/236868886/images/S800/236868886.jpg
+02:18:45 [v133] WARNING: HTTP err https://wbstatic.net/vol2368/part236868/259671175/: Failed to perform, curl: (35) Recv failure: Connection was reset. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:18:46 [v133] INFO:   IMG 404 196B basket-01.wbbasket.ru/vol2368/part236868/259671175/images/S800/236868886.jpg
+02:18:47 [v133] INFO:   IMAGES found: 0
+02:18:47 [v133] INFO:   P2 images: 0
+02:18:47 [v133] INFO: === v133 SUMMARY ===
+02:18:47 [v133] INFO:   P1 card: OK, html: HTTP498, price: {'cw_v2_xhr': '403/0B', 'cw_v2_dest0': '403/0B', 'web_v1_xhr': '498/1136B'}, imgs: 0
+02:18:47 [v133] INFO:   Total: 49.6s
+02:18:47 [v133] INFO: === v133 DONE ===

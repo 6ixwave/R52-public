@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Samsung Galaxy S22 Ultra 5G generalüberholtes Smartphone S908U1 8K Kamera 6,8-Zoll-Bildschirm 128G Original entsperrtes Telefon S22U US-Version",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "301.48",
+        "amount_minor": 30148,
+        "currency": "CHF",
+        "visible_label": "301.48 CHF"
+      },
+      {
+        "role": "original",
+        "amount": "693.69",
+        "amount_minor": 69369,
+        "currency": "CHF",
+        "visible_label": "693.69 CHF"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S9e3f1d6c107e44278e74cfc7542c8e54Z.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005009915320363",
+    "listing_id": "1005009915320363",
+    "title": "Samsung Galaxy S22 Ultra 5G generalüberholtes Smartphone S908U1 8K Kamera 6,8-Zoll-Bildschirm 128G Original entsperrtes Telefon S22U US-Version",
+    "url": "https://www.aliexpress.com/item/1005009915320363.html",
+    "observed_at": "2026-11-16T05:13:26.487073+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

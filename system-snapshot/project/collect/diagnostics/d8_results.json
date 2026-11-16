@@ -1,0 +1,36 @@
+{
+  "time": "2026-11-12T16:37:20.889703",
+  "total_s": 33.9,
+  "results": {
+    "FP:playwright": {
+      "ok": false,
+      "detail": "len=216506 title=Фарпост - доска объявлений prices=[] markers={'bulletinText': False, 'price_block': False, 'data-price': False, 'jsonld': False, 'og_price': False} xhr=[]",
+      "s": 12.4
+    },
+    "FP:requests_verify": {
+      "ok": false,
+      "detail": "HTTP=200 url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F138952176.html len=197844 title=Фарпост - доска объявлений prices=[] verify=True home=True",
+      "s": 13.9
+    },
+    "WB:playwright": {
+      "ok": [],
+      "detail": "len=7590 prices=[] data_price=[] sale=[] basic=[] state=no",
+      "s": 20.6
+    },
+    "WB:basket_scan": {
+      "ok": false,
+      "detail": "all 404",
+      "s": 25.4
+    },
+    "WB:card_v1": {
+      "ok": false,
+      "detail": "HTTP=403 first50=",
+      "s": 26.2
+    },
+    "AV:playwright_v2": {
+      "ok": [],
+      "detail": "len=36447 prices=[] pats={'data-price': [], 'meta-og': [], 'price-block': [], 'json-state': False, 'captcha': True} xhr=[]",
+      "s": 33.8
+    }
+  }
+}

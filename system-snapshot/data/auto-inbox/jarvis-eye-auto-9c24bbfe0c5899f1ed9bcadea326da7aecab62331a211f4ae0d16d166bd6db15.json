@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Болгарка на аккумуляторе бесщеточная 125 мм",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "HORDER",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Болгарка на аккумуляторе Horder-AG-24-125-Li2 – это мощный и универсальный инструмент, идеально подходящий для выполнения различных задач по шлифовке, резке и полировке. Модель оснащена высокопроизводительным двигателем мощностью 1300 Вт, который обеспечивает высокую скорость вращения диска до 16000 об/мин, что гарантирует быстрый и эффективный результат.  Благодаря литий-ионным аккумуляторам емкостью 6000 мА*ч и возможности использования двух аккумуляторов, вы сможете работать без перерывов на длительное время.  Полная зарядка аккумулятора занимает всего 1 час, что минимизирует простои. Болгарка электрическая поставляется в комплекте с необходимыми аксессуарами: отрезными дисками по металлу и плитке, полировальным диском, шлифовальным лепестковым диском, фланцевым ключом, защитным кожухом и зарядной станцией.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Электроинструмент и оборудование > Шлифовальные машины",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 1185000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "11850.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 604500,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "6045.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Электроинструмент и оборудование > Шлифовальные машины",
+    "source": "WB",
+    "id": "1537082855",
+    "url": "https://www.wildberries.ru/catalog/1537082855/detail.aspx",
+    "observed_at": "2026-11-17T01:35:11.717942+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

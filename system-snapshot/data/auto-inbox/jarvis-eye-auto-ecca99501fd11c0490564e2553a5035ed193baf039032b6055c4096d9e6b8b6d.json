@@ -1,0 +1,58 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Видеокарта AMD Radeon RX 5700 XT BE 8GB Sapphire Pulse",
+        "method": "SEARCH_HTML",
+        "evidence": {
+          "method": "SEARCH_HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "19000.00",
+        "amount_minor": 1900000,
+        "currency": "RUB",
+        "visible_label": "19000 руб."
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764730688035_block",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "FARPOST",
+    "id": "132425761",
+    "listing_id": "132425761",
+    "title": "Видеокарта AMD Radeon RX 5700 XT BE 8GB Sapphire Pulse",
+    "url": "https://www.farpost.ru/vladivostok/132425761.html",
+    "observed_at": "2026-11-15T02:37:57.103631+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

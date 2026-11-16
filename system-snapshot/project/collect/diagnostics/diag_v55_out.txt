@@ -1,0 +1,74 @@
+============================================================
+DIAG v55: WB WBAAS + AVITO MOBILE | 2026-11-11T07:56:10.237103
+============================================================
+
+============================================================
+WILDBERRIES (Playwright + WBAAS)
+============================================================
+
+--- W1: WB main page (WBAAS init) ---
+  Main ERR: Error: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+
+--- W2: WB product pages ---
+  nm=199298871: 7590B, title=...
+    wbaas=True, jsonld=False, og=False, state=False
+    WBAAS challenge, waiting 12s...
+    Retry: 7590B, title=..., wbaas=True
+  nm=314337853: 7590B, title=...
+    wbaas=True, jsonld=False, og=False, state=False
+    WBAAS challenge, waiting 12s...
+    Retry: 7590B, title=..., wbaas=True
+  nm=110835207: ERR Error: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+
+--- W3: m.wildberries.ru ---
+  mobile nm=199298871: ERR Page.goto: net::ERR_NAME_NOT_RESOLVED at https://m.wildberries.ru/catalog/199298871/detail.aspx
+Call log:
+  - navigating to "https://m.wildberries.ru/
+  mobile nm=314337853: ERR Page.goto: net::ERR_NAME_NOT_RESOLVED at https://m.wildberries.ru/catalog/314337853/detail.aspx
+Call log:
+  - navigating to "https://m.wildberries.ru/
+
+--- W4: WB search (find live IDs) ---
+  search ERR: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+
+WB RESULT: ok=False
+
+============================================================
+AVITO (mobile + desktop)
+============================================================
+
+--- A1: Avito main ---
+  Main: 36447B, title=Доступ ограничен: проблема с IP, ip_limit=True
+  Cookies: [REDACTED_AUTH_SECRET]
+  IDs from main: []
+
+--- A2: Avito category ---
+  /moscow/elektronika/telefony: 36445B, ip_limit=True
+    title=Доступ ограничен: проблема с IP
+    IDs: []
+  /moscow/transport/avto: 36451B, ip_limit=True
+    title=Доступ ограничен: проблема с IP
+    IDs: []
+  /moscow/elektronika/noutbuki: 36451B, ip_limit=True
+    title=Доступ ограничен: проблема с IP
+    IDs: []
+
+--- A3: Avito mobile ---
+  Mobile main: 36451B, title=Доступ ограничен: проблема с IP, ip_limit=True
+  Mobile IDs: []
+
+--- A4: Avito ad pages ---
+  Testing: ['1154321987', '200026938']
+  id=1154321987: ERR BrowserContext.new_page: Target page, context or browser has been closed
+  id=1154321987: ERR BrowserContext.new_page: Target page, context or browser has been closed
+  id=200026938: ERR BrowserContext.new_page: Target page, context or browser has been closed
+  id=200026938: ERR BrowserContext.new_page: Target page, context or browser has been closed
+
+AVITO RESULT: ok=False, ids=[]
+
+============================================================
+SUMMARY
+============================================================
+  WB:    ok=False
+  AVITO: ok=False, ids=[]
+  DONE: 2026-11-11T08:00:23.501650

@@ -1,0 +1,58 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Игровой Монитор Xiaomi Redmi Display G27Q 2026 27&quot; 200Hz",
+        "method": "SEARCH_HTML",
+        "evidence": {
+          "method": "SEARCH_HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "14499.00",
+        "amount_minor": 1449900,
+        "currency": "RUB",
+        "visible_label": "14499 руб."
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1770272109534_block",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "FARPOST",
+    "id": "137571939",
+    "listing_id": "137571939",
+    "title": "Игровой Монитор Xiaomi Redmi Display G27Q 2026 27&quot; 200Hz",
+    "url": "https://www.farpost.ru/vladivostok/137571939.html",
+    "observed_at": "2026-11-15T13:42:06.858538+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

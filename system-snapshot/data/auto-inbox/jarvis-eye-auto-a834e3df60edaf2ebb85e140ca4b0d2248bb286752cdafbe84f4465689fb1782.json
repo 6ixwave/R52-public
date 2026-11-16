@@ -1,0 +1,81 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шоколад кондитерский белый в каплях 1 кг 27% какао",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Мистер Чокер",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 109600,
+        "amount": "1096.00",
+        "currency": "RUB",
+        "visible_label": "1096.00 руб.",
+        "variant_id": "",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 109600,
+          "listing_id": "177630236",
+          "variant_id": ""
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 645000,
+        "amount": "6450.00",
+        "currency": "RUB",
+        "visible_label": "6450.00 руб.",
+        "variant_id": "",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 645000,
+          "listing_id": "177630236",
+          "variant_id": ""
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "177630236",
+    "listing_id": "177630236",
+    "title": "Шоколад кондитерский белый в каплях 1 кг 27% какао",
+    "url": "https://www.wildberries.ru/catalog/177630236/detail.aspx",
+    "observed_at": "2026-11-16T04:03:28.246542+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

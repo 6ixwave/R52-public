@@ -1,0 +1,31 @@
+{
+  "FP:cat_parse": {
+    "ok": false,
+    "detail": "exc: SSLError: Failed to perform, curl: (35) BoringSSL SSL_connect: Connection closed abruptly (SSL_ERROR_SYSCALL; error queue empty) in connection to www.farpost.ru:443. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "s": 4.8
+  },
+  "FP:pw_card": {
+    "ok": false,
+    "detail": "resolved=False url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F134693091.h price=N/A jsonld=False title=Фарпост - доска объявлений len=216565",
+    "s": 26.6
+  },
+  "WB:card_json": {
+    "ok": false,
+    "detail": "HTTP=404 url=https://basket-42.wbbasket.ru/vol109797/part1097975/10979752",
+    "s": 7.4
+  },
+  "WB:card_wb": {
+    "ok": false,
+    "detail": "HTTP=403 len=0",
+    "s": 0.9
+  },
+  "OZ:pw": {
+    "ok": false,
+    "detail": " [{\"sku\": 3481320800, \"title\": \"Похоже, нет соединения\", \"jsonlds\": 0, \"price\": null, \"len\": 3305}, {\"sku\": 2067947177, \"title\": \"Похоже, нет соединения\", \"jsonlds\": 0, \"price\": null, \"len\": 3305}]",
+    "s": 17.8
+  },
+  "_meta": {
+    "total_s": 58.9,
+    "time": "2026-11-12 17:37:35"
+  }
+}

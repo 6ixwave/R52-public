@@ -1,0 +1,65 @@
+
+============================================================
+FARPOST: LIVE PARSER TEST (ID=129606872)
+============================================================
+2026-11-11 18:23:24,008 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+
+--- Test A: numeric ID (build_url -> /bulletin/129606872) ---
+URL: https://www.farpost.ru/bulletin/129606872
+2026-11-11 18:23:24,640 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+RESULT: None (1.8s), stats={'requests': 1, 'success': 0, 'failed': 1, 'blocked': 0}
+
+--- Test B: full path ---
+2026-11-11 18:23:25,813 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+URL: https://www.farpost.ru/ni/krasnoyarsk/zapchasti/kontraktnyj-dvigatel-1zz-fe-cena-s-navesnym-129606872.html
+2026-11-11 18:23:26,451 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+Status: PARTIAL_SUCCESS, Title: Контрактный двигатель 1ZZ-FE цена с навесным!
+  Price: 135000.00 RUB [data-bulletin-price]
+Media: 2 items (2 photos, 0 videos)
+  image: https://static.baza.farpost.ru/v/1777136686153_bulletin?ni=yes
+  image: https://static.baza.farpost.ru/v/1793093532734_bulletin?ni=yes
+Availability: IN_STOCK
+Category: Авто и мото > Автозапчасти > Двигатель и элементы двигателя
+Fields: ['title', 'description', 'category', 'brand', 'specs', 'seller', 'seller_url', 'bulletin_id', 'availability']
+  brand: Toyota
+  description: Контрактный двигатель 1ZZ-FE цена с навесным! в Красноярске. Стоимость: 135 000&#8381;. Смотрите все
+  seller: Motor+
+  specs: {'goodPresentState': {'label': 'Наличие товара в Красноярске', 'value': 'В наличии'}, 'condition': {
+  bulletin_id: 129606872
+
+============================================================
+WB: MEDIA URL PATTERN TEST
+============================================================
+  [1] S800/S800.jpg       : HTTP 404,      196B, text/html
+  [2] S800/S800-2.jpg     : HTTP 404,      196B, text/html
+  [3] S800/S800-3.jpg     : HTTP 404,      196B, text/html
+  [4] S800/S800-4.jpg     : HTTP 404,      196B, text/html
+  [5] S800/S800-5.jpg     : HTTP 404,      196B, text/html
+  [6] S800/S800-6.jpg     : HTTP 404,      196B, text/html
+  [7] S800/S800-7.jpg     : HTTP 404,      196B, text/html
+
+  --- S1000 pattern ---
+  [1] S1000/S1000.jpg     : HTTP 404,      196B
+  [2] S1000/S1000-2.jpg   : HTTP 404,      196B
+  [3] S1000/S1000-3.jpg   : HTTP 404,      196B
+
+============================================================
+WB: CARD.JSON 'data' FIELD
+============================================================
+  data type: dict
+  data keys: ['chrt_ids', 'subject_id', 'subject_root_id', 'tech_size']
+    subject_id: 5237
+    subject_root_id: 3109
+    chrt_ids: [322571081]
+    tech_size: 0
+
+  grouped_options: [{"group_name": "Основная информация", "options": [{"name": "Состав", "value": "[REDACTED_AUTH_SECRET]", "charc_type": 1}]}, {"group_n
+
+  contents: "овсяный коктейль; Коктейль для похудения; Питательный коктейль"
+
+============================================================
+SUMMARY
+============================================================
+  Farpost /bulletin/: FAIL
+  Farpost full path:   OK
+  DONE

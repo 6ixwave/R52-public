@@ -1,0 +1,64 @@
+SCRIPT START
+2026-11-11 10:11:03,186 e2e_fp INFO Читаю diag_v64_fp_1.html (55158 байт)
+2026-11-11 10:11:03,310 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 10:11:03,339 r52.db INFO Миграция 1 (initial) применена
+2026-11-11 10:11:03,340 r52.db INFO Миграция 2 (product_media) применена
+2026-11-11 10:11:03,340 r52.db INFO Миграция 3 (product_gallery) применена
+HTML: 52072 символов, 1141 строк, enc=utf-8(replace)
+FarpostCollector imported OK
+FarpostCollector instantiated OK
+
+=== PARSE_PAGE: 0.00s ===
+Fields: 9 → ['title', 'description', 'category', 'brand', 'model', 'specs', 'seller', 'seller_url', 'bulletin_id']
+Title: Triangle IcelynX TI501, 205/55 R16 94T XL
+Prices: 1
+  regular: 2440000 RUB [data-bulletin-price]
+Media: 5 items
+Availability: IN_STOCK
+Category: Авто и мото > Шины и диски > Шины > Шины Triangle > Triangle IcelynX TI501
+
+=== EYE WRAPPER ===
+format: JARVIS_BR02_EYE_USER_CAPTURE
+capture_action: EXPLICIT_POPUP_CLICK
+fully_autonomous: False
+
+=== NORMALIZE: 0.00s ===
+source: FARPOST
+listing_id: 130693618
+title: Triangle IcelynX TI501, 205/55 R16 94T XL
+prices: [{"role": "regular", "role_origin": "SOURCE_ROLE", "source_role": "regular", "amount_minor": 2440000, "currency": "RUB", "label": "data-bulletin-price", "variant_association": "UNKNOWN", "evidence": n
+availability: IN_STOCK
+completeness: {'total': 14, 'known': 4, 'unknown': ['Модификация', 'Отображаемая цена', 'Состояние', 'Комплект', 'Местонахождение продавца', 'Доставка', 'Гарантия', 'Возврат', 'Отзывы', 'Вопросы покупателей'], 'independently_verified': 0}
+brand: Triangle
+model: Triangle IcelynX TI501
+media items: 5
+
+=== DB: r52_e2e_fp.db ===
+Migrations applied: [1, 2, 3]
+Fingerprint: 740d619429960765bc5dde1a9c9f6522...
+Product: id=1 created=True
+Observation: id=1 created=True
+
+=== DB VERIFICATION ===
+PRODUCT: id=1 source=FARPOST listing_id=130693618
+  title=Triangle IcelynX TI501, 205/55 R16 94T XL
+  url=https://www.farpost.ru/ni/krasnoyarsk/auto/wheel/tire/triangle-icelynx-ti501-205
+  last_lowest_minor=2440000
+  last_seen_at=2026-11-11T00:11:03.314+00:00
+OBSERVATIONS: 1
+  id=1 origin=E2E_FP avail=IN_STOCK fp=740d619429960765...
+PRICE_POINTS: 1
+  id=1 role=regular minor=2440000 cur=RUB at=2026-11-11T00:11:03.314+00:00
+
+============================================================
+E2E FARPOST: OK
+  HTML: diag_v64_fp_1.html (52072 bytes, utf-8(replace))
+  Title: Triangle IcelynX TI501, 205/55 R16 94T XL
+  Prices: 1 (first=2440000 RUB)
+  Media: 5 items
+  Availability: IN_STOCK
+  DB: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\test-intake-e2e-fp\r52_e2e_fp.db
+============================================================
+JSON: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v66_fp_result.json
+
+DONE

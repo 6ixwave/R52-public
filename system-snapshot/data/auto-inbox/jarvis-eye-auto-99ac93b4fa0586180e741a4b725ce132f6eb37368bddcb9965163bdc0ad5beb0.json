@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "MLLSE AMD RX 580 8 Go 2048SP scheda grafica da gioco GDDR5 bit 6 connettori PCI Express 3.0x16 GPU radoon RX580 8G",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "107.83",
+        "amount_minor": 10783,
+        "currency": "EUR",
+        "visible_label": "107.83 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "138.07",
+        "amount_minor": 13807,
+        "currency": "EUR",
+        "visible_label": "138.07 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S9dd6f53cabf948418f4c38a639d5f428M.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005011680733698",
+    "listing_id": "1005011680733698",
+    "title": "MLLSE AMD RX 580 8 Go 2048SP scheda grafica da gioco GDDR5 bit 6 connettori PCI Express 3.0x16 GPU radoon RX580 8G",
+    "url": "https://ru.aliexpress.com/item/1005011680733698.html",
+    "observed_at": "2026-11-15T02:17:00.006289+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

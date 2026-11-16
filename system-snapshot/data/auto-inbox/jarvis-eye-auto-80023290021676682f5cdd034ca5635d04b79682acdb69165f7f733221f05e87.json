@@ -1,0 +1,250 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Монитор для компьютера Xiaomi Redmi A27U 4K (Type-C) 2026",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Мониторы. Цена: 19 900&#8381;. Redmi. ЖК (LCD, LED, QLED). 27&quot;. 4096x2160 (4K). Новый. В наличии. Пожалуйста, прочитайте пункт &quot;Важная информация&quot; в конце объявления. ВСЕ НАШИ ТОВАРЫ ПО ССЫЛКЕ НИЖЕ И НЕ ЗАБУДЬ ПОДПИСАТЬСЯ, ЧТОБЫ БЫТЬ В КУРСЕ НОВИНОК https://www.farpost.ru/user/PristoreVL ЦЕНА УКАЗАНА ЗА НАЛИЧНЫЙ РАСЧЕТ. Монитор REDMI A27U (Type-C) 2026 Монитор REDMI A27U сочетает в себе высокое качество изображения, эргономичный дизайн и передовые технологии для комфортной и продуктивной работы. 27-дюймовый... Владивосток",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Техника > Компьютерная техника и периферия > Мониторы",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Redmi",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          },
+          "model": {
+            "label": "Бренд",
+            "value": "Redmi"
+          },
+          "monitorType": {
+            "label": "Тип экрана",
+            "value": "ЖК (LCD, LED, QLED)"
+          },
+          "diagonal": {
+            "label": "Диагональ",
+            "value": "27&nbsp;дюймов (69&nbsp;см)"
+          },
+          "resolution": {
+            "label": "Максимальное разрешение",
+            "value": "4096x2160 (4K)"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Новый"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller": {
+        "status": "KNOWN",
+        "value": "PRISTORE - продажа Xiaomi, ремонт роботов",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller_url": {
+        "status": "KNOWN",
+        "value": "https://www.farpost.ru/user/PristoreVL/",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "132590945",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 1990000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "19900.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429485440_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": true,
+          "width": 1134,
+          "height": 1134
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429485734_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": false,
+          "width": 1134,
+          "height": 1134
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429486481_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": false,
+          "width": 1134,
+          "height": 1134
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429487294_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": false,
+          "width": 1134,
+          "height": 1134
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429487854_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": false,
+          "width": 1134,
+          "height": 1134
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429488269_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": false,
+          "width": 1134,
+          "height": 1134
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429488634_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": false,
+          "width": 1134,
+          "height": 1134
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429489073_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": false,
+          "width": 1134,
+          "height": 1134
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429489558_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": false,
+          "width": 1134,
+          "height": 1134
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429490090_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": false,
+          "width": 1134,
+          "height": 1134
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1765429490451_bulletin",
+          "image_data": null,
+          "alt": "Redmi. 27&quot;, технология ЖК (LCD, LED, QLED) фото",
+          "label": "",
+          "is_main": false,
+          "width": 1134,
+          "height": 1134
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Техника > Компьютерная техника и периферия > Мониторы",
+    "source": "FARPOST",
+    "id": "132590945",
+    "url": "https://www.farpost.ru/vladivostok/132590945.html",
+    "observed_at": "2026-11-15T02:07:14.821654+10:00",
+    "status": "FULL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

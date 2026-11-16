@@ -1,0 +1,52 @@
+{
+  "wb": {
+    "nm_id": 138278567,
+    "url": "https://www.wildberries.ru/catalog/138278567/detail.aspx",
+    "html_size": 7590,
+    "title": "...",
+    "prices": [],
+    "has_price": false
+  },
+  "avito": {
+    "live_id": null,
+    "live_url": null,
+    "live_size": 0,
+    "error": "No live ID found in candidates"
+  },
+  "ozon": {
+    "product_id": "1600562267",
+    "url": "https://www.ozon.ru/product/tkan-dlya-obivki-mebeli-velyur-s-abstraktnym-printom-otrez-3-metra-1600562267/?__rr=1&abt_att=1&sh=BOHHz1qdiA",
+    "html_size": 1088082,
+    "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра купить на OZON по низкой цене (1",
+    "jsonld": {
+      "name": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра",
+      "sku": "1600562267",
+      "mpn": "",
+      "brand": "Айхал"
+    },
+    "images": [
+      "https://ir.ozone.ru/s3/multimedia-1-o/c600/7362987720.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-o/7362987720.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-o/wc50/7362987720.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-o/wc100/7362987720.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-m/wc50/7158491914.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-m/wc100/7158491914.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-0/wc50/7340757300.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-0/wc100/7340757300.jpg"
+    ],
+    "videos": [],
+    "prices": [
+      {
+        "source": "json",
+        "value": 2295.0
+      },
+      {
+        "source": "jsonld",
+        "value": 2295.0,
+        "cur": "RUB",
+        "avail": "http://schema.org/InStock"
+      }
+    ],
+    "has_price": true
+  }
+}

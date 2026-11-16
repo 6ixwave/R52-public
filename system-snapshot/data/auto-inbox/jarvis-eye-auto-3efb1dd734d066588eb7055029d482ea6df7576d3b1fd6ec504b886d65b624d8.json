@@ -1,0 +1,39 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "SMARTPHONE MOTOROLA EDGE 70 FUSION GLOBAL VERSION 50MP MAIN CAMERA camera 144HZ DISPLAY incantato SNAPDRAGON 7S GEN 3 7000MAH BATTERY",
+        "method": "OPEN_GRAPH",
+        "evidence": {
+          "method": "OPEN_GRAPH",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S0aed5b98d7344cda96cc1fa3f56fb487Z.png",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005013378445577",
+    "url": "https://www.aliexpress.com/item/1005013378445577.html",
+    "observed_at": "2026-11-15T02:06:14.721461+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Кассеты женские Breeze 3 лезвия с гелевыми подушечками",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "VENUS",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 123400,
+        "amount": "1234.00",
+        "currency": "RUB",
+        "visible_label": "1234.00 руб.",
+        "variant_id": "",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 123400,
+          "listing_id": "2833871",
+          "variant_id": ""
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 189900,
+        "amount": "1899.00",
+        "currency": "RUB",
+        "visible_label": "1899.00 руб.",
+        "variant_id": "",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 189900,
+          "listing_id": "2833871",
+          "variant_id": ""
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "2833871",
+    "listing_id": "2833871",
+    "title": "Кассеты женские Breeze 3 лезвия с гелевыми подушечками",
+    "url": "https://www.wildberries.ru/catalog/2833871/detail.aspx",
+    "observed_at": "2026-11-15T18:13:57.924530+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

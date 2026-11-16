@@ -1,0 +1,58 @@
+=== R-52 DIAG V5 — 23:10:55 ===
+ROOT=C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12
+HOME=C:\Users\aleks\AppData\Local\R52
+DB=C:\Users\aleks\AppData\Local\R52\data\r52.sqlite3 exists=True
+Python=3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]
+  WAL checkpoint OK
+
+[1] load_config... t=0.0s
+    port=0, home=C:\Users\aleks\AppData\Local\R52, tz=Asia/Vladivostok
+    intake_folders=(WindowsPath('C:/Users/aleks/Downloads'),)
+
+[2] setup_logging... t=0.0s
+    OK
+
+[3] App(config)... t=0.0s
+    instance=a8686e5cc232
+
+[4] app.open()... t=0.3s
+    opened. db=C:\Users\aleks\AppData\Local\R52\data\r52.sqlite3
+
+[5] app.start(port=8423)... t=0.3s
+    started. actual_port=8423
+
+[6] HTTP check... t=0.3s
+
+[EXCEPTION] HTTPError: HTTP Error 401: Unauthorized
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_v5.py", line 88, in <module>
+    req = urllib.request.urlopen(f"http://127.0.0.1:{port_actual}/api/status", timeout=5)
+  File "C:\Python315\Lib\urllib\request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python315\Lib\urllib\request.py", line 495, in open
+    response = meth(req, response)
+  File "C:\Python315\Lib\urllib\request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Python315\Lib\urllib\request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Python315\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "C:\Python315\Lib\urllib\request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
+
+[FAIL] Ядро запущено — HTTPError: HTTP Error 401: Unauthorized
+
+--- core.log (new, 650B) ---
+2026-11-13T13:10:55.647+00:00 INFO r52.sources [MainThread] Sources: зарегистрировано 6 сборщиков
+2026-11-13T13:10:55.678+00:00 INFO r52.backup [MainThread] Резервная копия r52-20261113T131055Z-pre-migrate-v7.sqlite3 создана, 2060288 байт
+2026-11-13T13:10:55.680+00:00 INFO r52.db [MainThread] Миграция 8 (llm_call_unknown) применена
+2026-11-13T13:10:55.682+00:00 INFO r52.service [MainThread] Применены миграции базы: [8]
+2026-11-13T13:10:55.703+00:00 INFO r52.service [MainThread] Ядро R-52 2.12.0 запущено на 127.0.0.1:8423
+2026-11-13T13:10:57.717+00:00 DEBUG r52.api [Thread-1 (process_request_thread)] 127.0.0.1 "GET /api/status HTTP/1.1" 401 -
+
+
+ИТОГ (early): 0 PASS / 1 FAIL

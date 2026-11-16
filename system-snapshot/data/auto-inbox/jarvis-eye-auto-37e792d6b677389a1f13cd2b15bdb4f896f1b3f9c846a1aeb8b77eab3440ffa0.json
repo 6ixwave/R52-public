@@ -1,0 +1,143 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Джинсы широкие Lacoste лакост багги трубы бананы y2k",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "ZHABKA",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "wb1kez2a0e7",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Чёрные джинсы Lacoste от магазина ZHABKA — это базовая модель для уличных образов в стилях baggy, big boy и sk8. Глубокий чёрный цвет делает джинсы максимально практичными и универсальными, позволяя легко сочетать их с любой одеждой. Эти широкие джинсы трубы выглядят аккуратно, но при этом сохраняют расслабленный streetwear-силуэт, популярный в Pinterest и пинтерест-луках.\n\nФормат багги и биг бои создаёт свободную посадку и прямые широкие штанины без заужения. Это аналог big boy джинсов, рассчитанный на комфорт и свободу движения. Джинсы подходят на высокий рост, хорошо сидят по фигуре и визуально вытягивают пропорции. Такие штаны удобно носить каждый день — от школы до прогулок по городу.\n\nЧёрные джинсы Lacoste — это унисекс модель, подходящая как джинсы мужские, женские и подростковые. Они легко сочетаются с худи, свитшотами и лонгсливами, формируя образы в стиле y2k и отдельно у2к. Также модель органично вписывается в эстетику joto и sk8.\n\nМатериал denim плотный, устойчивый к износу и сохраняет форму даже при активной носке. Эти baggy-штаны подойдут тем, кто ищет широкие джинсы без лишнего декора, с чистым визуалом и универсальным характером для повседневного гардероба.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Джинсы",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Материал верха: хлопок\nСостав: хлопок\nЦвет: черный; черный мрамор; черный меланж; черный сапфир\nПол: Женский\nСезон: Круглогодичный\nРазмер на модели: M\nРост модели на фото: 166 см\nПараметры модели на фото (ОГ-ОТ-ОБ): Парень ростом 178см - L , девушка ростом 166см - M\nТип посадки: средняя\nВид застежки: молния; пуговица\nТип карманов: накладные\nОсобенности модели: унисекс; эффект потертости; uni-Sex\nДекоративные элементы: джинс\nУтеплитель: нет\nКомплектация: джинсы оверсайз; джинсы багги мужские; baggy; джинсы багги; Джинсы багги женские\nСтрана производства: Китай",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/chats/dist/v25.0.0-chats-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/rqx/dist/v7.6.0-rqx-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/default-settings-ru.22f317172ab6ff43648c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lang-ru.0e2a353ea6bc7a37.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-vendors.88d8eda9c1885eea.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-app.f39d9a378793d996.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/index-spa.71cf448da12faff3.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/entry.d5d5ccc6a8b295e2.js",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Одежда > Джинсы",
+    "source": "WB",
+    "id": "776430014",
+    "url": "https://www.wildberries.ru/catalog/776430014/detail.aspx",
+    "observed_at": "2026-11-16T05:26:07.395292+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

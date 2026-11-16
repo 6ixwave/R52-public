@@ -1,0 +1,81 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шапка зимняя с отворотом на флисе",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "ALDINI",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 73600,
+        "amount": "736.00",
+        "currency": "RUB",
+        "visible_label": "736.00 руб.",
+        "variant_id": "58-60",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 73600,
+          "listing_id": "9285253",
+          "variant_id": "58-60"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 410000,
+        "amount": "4100.00",
+        "currency": "RUB",
+        "visible_label": "4100.00 руб.",
+        "variant_id": "58-60",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 410000,
+          "listing_id": "9285253",
+          "variant_id": "58-60"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "9285253",
+    "listing_id": "9285253",
+    "title": "Шапка зимняя с отворотом на флисе",
+    "url": "https://www.wildberries.ru/catalog/9285253/detail.aspx",
+    "observed_at": "2026-11-15T18:13:57.924530+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

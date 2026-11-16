@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Acasis, docking station USB 11-in-1 con velocità di trasferimento dati di 40 Gbps, hub USB-C, supporto 8K a 60 Hz, ricarica PD da 100 W, espansore con molteplici porte USB-A e USB-C per MacBook Pro, Air, laptop e PC.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "119.50",
+        "amount_minor": 11950,
+        "currency": "RUB",
+        "visible_label": "119.50 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "104.39",
+        "amount_minor": 10439,
+        "currency": "RUB",
+        "visible_label": "104.39 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sda4081cf188845b8887fb06f33bc5837F.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013363256202",
+    "url": "https://ru.aliexpress.com/item/1005013363256202.html",
+    "observed_at": "2026-11-13T07:48:13.476805+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

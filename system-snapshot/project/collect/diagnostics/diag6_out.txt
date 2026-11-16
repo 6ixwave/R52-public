@@ -1,0 +1,63 @@
+﻿python : 2026-11-12 06:38:15,453 diag6 INFO === DIAG6 START 2026-11-12T06:38:15.453365+10:00 ===
+строка:1 знак:67
++ ... f-8'; $ErrorActionPreference='Continue'; python diag6.py 2>&1 | Out-F ...
++                                              ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 06:3...53365+10:00 ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 06:38:15,689 diag6 INFO WB: fetching card.json for 100000001...
+2026-11-12 06:38:15,689 diag6 INFO OZON: trying api.ozon.ru (verify=False)...
+2026-11-12 06:38:16,480 diag6 INFO AVITO 482962662 -> HTTP 404 (29440 bytes) final=https://www.avito.ru/ad/482962662
+2026-11-12 06:38:16,601 diag6 INFO OZON api.ozon.ru: HTTP 403, 1081 bytes
+2026-11-12 06:38:16,601 diag6 INFO OZON: trying www.ozon.ru composer...
+2026-11-12 06:38:16,604 diag6 INFO WB card.json: HTTP 404, 196 bytes
+2026-11-12 06:38:17,546 diag6 INFO OZON www composer: HTTP 403, 6225 bytes
+2026-11-12 06:38:17,547 diag6 INFO OZON: trying entrypoint...
+2026-11-12 06:38:18,276 diag6 INFO AVITO  -> HTTP 404 (29440 bytes) final=https://www.avito.ru/ad/482962662
+2026-11-12 06:38:18,460 diag6 INFO OZON entrypoint: HTTP 403, 6003 bytes
+2026-11-12 06:38:20,118 diag6 INFO AVITO 482962662 -> HTTP 404 (18752 bytes) final=https://m.avito.ru/ad/482962662
+2026-11-12 06:38:21,927 diag6 INFO AVITO  -> HTTP 404 (29440 bytes) final=https://www.avito.ru/moskovskaya/moskva/iphon
+e-15-128-gb-2-sim/482962662
+2026-11-12 06:38:22,931 diag6 INFO === DIAG6 DONE in 7.5s ===
+{
+  "WB": {
+    "ok": false,
+    "status": 404
+  },
+  "OZON": {
+    "api_v2": {
+      "status": 403,
+      "body": "\n\n{\"incidentId\": \"fab_20261111203816_01M765ABHXD1Y02MPCEQBHFH75\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261111203816_01M765ABHXD1Y02MPCEQBHFH75&token=[REDACTED_AUTH_SECRET]
+    },
+    "www_composer": {
+      "status": 403,
+      "body": "\n\n{\"incidentId\": \"fab_chlg_20261111203817_01M765ACFBWJ6Y9XTF5CES0JBB\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=9SINDdfMSxmYWJfY2hsZ18yMDI2MTExMTIwMzgxN18wMU03NjVBQ0ZCV0o2WTlYVEY1"
+    },
+    "entrypoint": {
+      "status": 403,
+      "body": "\n\n{\"incidentId\": \"fab_chlg_20261111203818_01M765ADBYG8ZK6XGBMN9Q14AZ\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=AV5NDdfMSxmYWJfY2hsZ18yMDI2MTExMTIwMzgxOF8wMU03NjVBREJZRzhaSzZYR0JN"
+    }
+  },
+  "AVITO": {
+    "https://www.avito.ru/ad/482962662": {
+      "status": 404,
+      "len": 29440,
+      "final": "https://www.avito.ru/ad/482962662"
+    },
+    "https://www.avito.ru/ad/482962662/": {
+      "status": 404,
+      "len": 29440,
+      "final": "https://www.avito.ru/ad/482962662"
+    },
+    "https://m.avito.ru/ad/482962662": {
+      "status": 404,
+      "len": 18752,
+      "final": "https://m.avito.ru/ad/482962662"
+    },
+    "https://www.avito.ru/moskovskaya/moskva/iphone-15-128-gb-2-sim/482962662/": {
+      "status": 404,
+      "len": 29440,
+      "final": "https://www.avito.ru/moskovskaya/moskva/iphone-15-128-gb-2-sim/482962662"
+    }
+  }
+}

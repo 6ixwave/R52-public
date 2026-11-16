@@ -1,0 +1,63 @@
+{
+  "wb_price": [
+    {
+      "label": "card_v2_ref",
+      "http": 403,
+      "bytes": 0
+    },
+    {
+      "label": "card_v1_ref",
+      "http": 403,
+      "bytes": 0
+    },
+    {
+      "label": "web_v1_full",
+      "http": 498,
+      "bytes": 1130
+    },
+    {
+      "label": "web_v2_full",
+      "http": 498,
+      "bytes": 1130
+    },
+    {
+      "label": "html",
+      "http": 498,
+      "bytes": 1130
+    }
+  ],
+  "farpost": {
+    "130693618": {
+      "http": 404,
+      "bytes": 13900,
+      "final_url": "https://www.farpost.ru/bulletin/130693618",
+      "note": "404 - bulletin expired/removed"
+    },
+    "139122082": {
+      "http": 404,
+      "bytes": 13900,
+      "final_url": "https://www.farpost.ru/bulletin/139122082",
+      "note": "404 - bulletin expired/removed"
+    },
+    "140000001": {
+      "http": 404,
+      "bytes": 13900,
+      "final_url": "https://www.farpost.ru/bulletin/140000001",
+      "note": "404 - bulletin expired/removed"
+    },
+    "138000000": {
+      "http": 404,
+      "bytes": 13900,
+      "final_url": "https://www.farpost.ru/bulletin/138000000",
+      "note": "404 - bulletin expired/removed"
+    }
+  },
+  "ozon": {
+    "id": "2198727557",
+    "fetch": "None"
+  },
+  "avito": {
+    "id": "1050000000",
+    "fetch": "None"
+  }
+}

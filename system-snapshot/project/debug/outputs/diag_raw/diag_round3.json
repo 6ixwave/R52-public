@@ -1,0 +1,28 @@
+{
+  "farpost_live": {
+    "error": "no live product found"
+  },
+  "ozon_pw": {
+    "status": 403,
+    "dt": 12.69,
+    "html_len": 3304,
+    "has_jsonld": false,
+    "has_og_title": false,
+    "has_webprice": false,
+    "has_state": false,
+    "has_h1": false,
+    "has_price_text": false,
+    "html_head_3000": "<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1\">\n  <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">\n  <link rel=\"stylesheet\" href=\"https://cdn2.ozone.ru/s3/abt-challenge/incidents/styles_v2/common.css\">\n  <title>Похоже, нет соединения</title>\n  <link rel=\"stylesheet\" href=\"https://cdn2.ozone.ru/s3/abt-challenge/style_v47_5.css\">\n</head>\n\n<body>\n  <noscript>\n    <div class=\"container\">\n      <div class=\"message\">\n        <div class=\"variant\">\n          <h2 class=\"h2\">Пожалуйста, включите JavaScript для продолжения</h2>\n          <span class=\"subtitle\">Нам нужно убедиться, что вы не робот.</span>\n        </div>\n        <div class=\"variant\" lang=\"en\">\n          <h2 class=\"h2\">Please, enable JavaScript to continue</h2>\n          <span class=\"subtitle\">We need to make sure that you are not a robot.</span>\n        </div>\n      </div>\n      <div class=\"details\">\n        <span class=\"details-text\"><b>ID:</b> fab_chlg_20261113101717_01M7A6JQE4REB6XDGVB1G2N1BD</span>,\n        <span class=\"details-text\"><b>IP:</b> 82.162.122.156</span>,\n        <span class=\"details-text\">Friday, 13-Nov-2026 10:17:17 UTC</span>\n      </div>\n    </div>\n  </noscript>\n  \n  <script>\n    performance.mark('jobStart', { startTime: Date.now() })\n    function showInformation() {\n      const informationElement = document.querySelector('.challenge-information');\n      if (informationElement) {\n        informationElement.removeAttribute(\"hidden\");\n      }\n    }\n  </script>\n  <script src=\"https://cdn2.ozone.ru/s3/abt-challenge/script_v47_5.js\"></script>\n\n\n\n\n<iframe style=\"display: none;\"></iframe><main>\n<div class=\"sec bl\" id=\"content\">\n  <div class=\"cnt\">\n    <img class=\"img\" src=\"https://cdn2.ozone.ru/s3/abt-challenge/incidents/images/warn.png\" alt=\"warning\">\n    <div class=\"title\">Похоже, нет&nbsp;соединения</div>\n    <div class=\"sign\">\n      Выключите VPN, перезагрузите роутер или&nbsp;подключитесь к&nbsp;другой сети\n    </div>\n  </div>\n  <div class=\"reload-loader-wrapper\">\n    <div class=\"reload-loader\">\n      <svg class=\"loader__arc\" width=\"80\" height=\"80\" viewBox=\"0 0 100 100\" fill=\"var(--action-primary)\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"m96 50c0-25-21-46-46-46s-46 21-46 46m8 0c0-21 17-38 38-38s38 17 38 38\" stroke-width=\"4\" stroke=\"var(--action-primary)\"></path>\n      </svg>\n    </div>\n  </div>\n  <div class=\"inc\">Инцидент: fab_chlg_20261113101717_01M7A6JQE4REB6XDGVB1G2N1BD</div>\n  <div class=\"btns\">\n    <button class=\"btn rb\" id=\"reload-button\">\n      Обновить страницу\n    </button>\n    <a class=\"btn sb\" href=\"https://www.ozon.ru/complaint/support/?incident_id=fab_chlg_20261113101717_01M7A6JQE4REB6XDGVB1G2N1BD&amp;platform=web&amp;token=[REDACTED_AUTH_SECRET]",
+    "title_tag": "Похоже, нет соединения",
+    "prices_found": [],
+    "jsonld_count": 0
+  },
+  "wb_basket_host1": {
+    "url": "https://basket-10979.wbbasket.ru/vol109/part1097/1097975/info/ru/card.json",
+    "error": "HTTPSConnectionPool(host='basket-10979.wbbasket.ru', port=443): Max retries exceeded with url: /vol109/part1097/1097975/info/ru/card.json (Caused by NameResolutionError(\"HTTPSConnection(host='basket-10979.wbbasket.ru', port=443): Failed to resolve 'basket-10979.wbbasket.ru' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  "wb_basket_static": {
+    "url": "https://static-basket-10979.wbbasket.ru/vol109/part1097/1097975/info/ru/card.json",
+    "error": "HTTPSConnectionPool(host='static-basket-10979.wbbasket.ru', port=443): Max retries exceeded with url: /vol109/part1097/1097975/info/ru/card.json (Caused by NameResolutionError(\"HTTPSConnection(host='static-basket-10979.wbbasket.ru', port=443): Failed to resolve 'static-basket-10979.wbbasket.ru' ([Errno 11001] getaddrinfo failed)\"))"
+  }
+}

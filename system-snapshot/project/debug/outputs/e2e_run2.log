@@ -1,0 +1,32 @@
+2026-11-13 18:00:57,778 test_e2e INFO ============================================================
+2026-11-13 18:00:57,779 test_e2e INFO E2E COLLECTOR TEST — 2026-11-13T18:00:57.779024
+2026-11-13 18:00:57,779 test_e2e INFO ============================================================
+2026-11-13 18:00:58,091 r52.sources INFO Sources: зарегистрировано 6 сборщиков
+2026-11-13 18:00:58,091 test_e2e INFO [PASS] registry_all_ready 6 sources: WB=READY, OZON=READY, AVITO=READY, FARPOST=READY, ALIEXPRESS=READY, ALIEXPRESS_RU=READY
+2026-11-13 18:00:58,091 test_e2e INFO [PASS] import_all_collectors 6 classes imported
+2026-11-13 18:00:58,091 test_e2e INFO ----------------------------------------
+2026-11-13 18:00:58,092 test_e2e INFO SOURCE: WB
+2026-11-13 18:00:58,093 r52.collectors.runner INFO Runner WB: запуск subprocess: C:\Python315\python.exe -m r52.collectors.runner --params C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\collect\output\WB\runner-wb-params.json
+2026-11-13 18:03:33,842 test_e2e INFO Subprocess WB: {"source": "WB", "total_items": 1, "collected": 1, "failed": 0, "files_written": 1, "elapsed_sec": 155.3, "collector_stats": {"requests": 52, "success": 2, "failed": 41, "blocked": 9}, "proxy_stats": {"total": 0, "alive": 0, "use_proxies": false}, "elapsed_total": 155.7}
+2026-11-13 18:03:33,842 test_e2e INFO [PASS] subprocess_WB items=1, collected=1, failed=0, files=1, 155.7s
+2026-11-13 18:03:33,848 test_e2e INFO [PASS] json_WB_title title='Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)'
+2026-11-13 18:03:33,849 test_e2e INFO [FAIL] json_WB_price price='', candidates=0
+2026-11-13 18:03:33,849 test_e2e INFO [FAIL] json_WB_availability avail='UNKNOWN'
+2026-11-13 18:03:33,849 test_e2e INFO [PASS] json_WB_photos photos=1, total_media=1
+2026-11-13 18:03:33,849 test_e2e INFO [PASS] json_WB_format format=JARVIS_BR02_COLLECTOR_AUTONOMOUS
+2026-11-13 18:03:33,849 test_e2e INFO [PASS] json_WB_status status=PARTIAL_SUCCESS
+2026-11-13 18:03:33,928 r52.intake INFO Во входящие добавлен файл jarvis-eye-wb-a2aa2825.json: PENDING 
+2026-11-13 18:03:33,928 test_e2e INFO [PASS] eye_WB_stage status=PENDING, created=True, id=2
+2026-11-13 18:03:33,933 test_e2e INFO [PASS] eye_WB_accept product_id=2, obs_created=True
+2026-11-13 18:03:33,935 test_e2e INFO [PASS] eye_WB_sqlite products=2, observations=2
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\scripts\test_e2e_collectors.py", line 264, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\scripts\test_e2e_collectors.py", line 237, in main
+    test_eye_pipeline(source, output_dir)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\scripts\test_e2e_collectors.py", line 217, in test_eye_pipeline
+    app.db.close()
+    ^^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'close'

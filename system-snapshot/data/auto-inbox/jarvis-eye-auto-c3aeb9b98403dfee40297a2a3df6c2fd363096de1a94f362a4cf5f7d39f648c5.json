@@ -1,0 +1,62 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Дышащие подгузники трусики детские, 5 размер (9-17 кг), 80шт",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Tokisan",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 190100,
+        "amount": "1901.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 387000,
+        "amount": "3870.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "source": "WB",
+    "id": "116593608",
+    "listing_id": "116593608",
+    "title": "Дышащие подгузники трусики детские, 5 размер (9-17 кг), 80шт",
+    "url": "https://www.wildberries.ru/catalog/116593608/detail.aspx",
+    "observed_at": "2026-11-16T17:02:59.712217+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

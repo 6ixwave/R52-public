@@ -1,0 +1,57 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "QCY H3S ANC Cuffie over Ear -56dB Cuffie con cancellazione del rumore Bluetooth 6.0 Auricolari audio spaziale LDAC ad alta risoluzione Doppio driver",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "39.64",
+        "amount_minor": 3964,
+        "currency": "RUB",
+        "visible_label": "39.64 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "39.69",
+        "amount_minor": 3969,
+        "currency": "RUB",
+        "visible_label": "39.69 RUB"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005010202687001",
+    "url": "https://ru.aliexpress.com/item/1005010202687001.html",
+    "observed_at": "2026-11-13T08:28:48.059807+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

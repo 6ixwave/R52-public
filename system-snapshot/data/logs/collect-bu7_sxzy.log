@@ -1,0 +1,25 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 13:43:05,240 r52.autocollect.worker INFO phase=worker_start pid=19792
+2026-11-15 13:43:05,250 r52.autocollect.worker INFO source=WB mode=discover phase=initialize
+2026-11-15 13:43:05,251 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-15 13:43:05,252 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-15 13:43:05,252 r52.autocollect.worker INFO source=WB proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-15 13:43:05,254 r52.autocollect.worker INFO source=WB phase=search_start page=1 limit=5
+2026-11-15 13:43:07,249 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-15 13:43:12,263 r52.collectors.wb INFO WB warmup catalog.wb.ru failed: Failed to perform, curl: (28) Connection timed out after 307 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:43:17,266 r52.collectors.wb WARNING WB cffi error https://catalog.wb.ru/exactmatch/ru/common/v4/search?query=%D0%B1%D1%8B%D1%82%D0: Failed to perform, curl: (28) Connection timed out after 5002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:43:22,274 r52.collectors.wb WARNING WB cffi error https://search.wb.ru/exactmatch/ru/common/v4/search?query=%D0%B1%D1%8B%D1%82%D0%: Failed to perform, curl: (28) Connection timed out after 5006 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:43:24,802 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-15 13:43:34,626 r52.collectors.wb INFO WB search: JSON API failed (status=403), trying HTML fallback
+2026-11-15 13:43:50,898 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-15 13:43:50,898 r52.autocollect.worker INFO source=WB phase=close_complete
+2026-11-15 13:43:50,899 root ERROR phase=worker_failed code=SEARCH_HTTP_403
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98, in main
+    run(json.loads((folder / "request").read_text("utf-8")), folder)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 80, in run
+    rows = collector.collect_by_search(params["value"], page=params["page"], page_size=params["limit"])
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 972, in collect_by_search
+    raise SearchError(f"SEARCH_HTTP_{last_status}")
+r52.collectors.discovery.SearchError: SEARCH_HTTP_403

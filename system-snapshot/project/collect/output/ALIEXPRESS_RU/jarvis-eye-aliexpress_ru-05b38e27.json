@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "K-Touch, nuovo smartphone per 17 Pro Max, 22G+2TB, schermo intero da 7,3 pollici, fotocamera da 16+48MP, sblocco tramite riconoscimento facciale, 5G, doppia SIM, batteria da 7800 mAh.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "114.96",
+        "amount_minor": 11496,
+        "currency": "EUR",
+        "visible_label": "114.96 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "94.53",
+        "amount_minor": 9453,
+        "currency": "EUR",
+        "visible_label": "94.53 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S8906d31b081348bd8f1227b72c4ebed3X.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013540856168",
+    "url": "https://ru.aliexpress.com/item/1005013540856168.html",
+    "observed_at": "2026-11-13T19:50:27.650701+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

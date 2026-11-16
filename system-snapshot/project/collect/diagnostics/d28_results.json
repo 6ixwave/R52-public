@@ -1,0 +1,76 @@
+{
+  "FP:card_dump": {
+    "ok": true,
+    "detail": "len=198921 title='Р¤Р°СЂРїРѕСЃС‚ - РґРѕСЃРєР° РѕР±СЉСЏРІР»РµРЅРёР№' markers={'h1': False, 'data-field': 0, 'viewbull': 0, 'bulletin': 0, 'price': 0, 'og_title': False, 'jsonld': 0, 'script_count': 5, 'img_count': 1, 'ajax': 8, 'nuxt': 0, 'react': 16, 'verify': True, 'cookie_banner': False}",
+    "s": 2.0
+  },
+  "FP:cat_2step": {
+    "ok": false,
+    "detail": "HTTP=200 len=89804 verify=True ids=0 items=0 url=https://www.farpost.ru/verify?u=%2Fvladivostok%2Fauto%2Fmisc",
+    "s": 6.6
+  },
+  "FP:card_referer": {
+    "ok": false,
+    "detail": "len=198786 prices=[] subj=0 bull_attrs=[] data_attrs=['top', 'state', 'floating-position', 'display', 'code-challenge', 'name', 'placement', 'variant', 'loading', 'backdrop']",
+    "s": 10.4
+  },
+  "FP:ajax_api": {
+    "ok": false,
+    "detail": "all endpoints non-JSON or 404",
+    "s": 13.9
+  },
+  "OZ:composer_req": {
+    "ok": false,
+    "detail": "HTTPSConnectionPool(host='api.ozon.ru', port=443): Max retries exceeded with url: /composer-api.bx/p",
+    "s": 14.7
+  },
+  "OZ:composer_cffi_nv": {
+    "ok": false,
+    "detail": "HTTP=403 len=1081",
+    "s": 15.7
+  },
+  "OZ:pw_mobile": {
+    "ok": true,
+    "detail": "len=482415 prices=28 og=N jld=2 skeleton=True",
+    "s": 34.6
+  },
+  "OZ:composer_www": {
+    "ok": false,
+    "detail": "HTTP=403 len=1081",
+    "s": 35.2
+  },
+  "WB:basket_60": {
+    "ok": true,
+    "detail": "host=basket-42.wbbasket.ru nm=1097975275 name=Смартфон iPhone 17 Pro Max 256 Серебряны",
+    "s": 78.2
+  },
+  "WB:price_mirror": {
+    "ok": false,
+    "detail": "all 3 endpoints failed (last HTTP=403)",
+    "s": 80.9
+  },
+  "WB:pw_load": {
+    "ok": false,
+    "detail": "len=7590 prices=0 og=N jld=0",
+    "s": 88.8
+  },
+  "AV:warmup_cat": {
+    "ok": false,
+    "detail": "HTTP=429 len=34116 offers=0 prices=0 links=0 consent=False",
+    "s": 93.1
+  },
+  "AV:pw_consent": {
+    "ok": false,
+    "detail": "len=36449 offers=0 prices=0 links=0 items=3",
+    "s": 102.8
+  },
+  "AV:rss_paths": {
+    "ok": false,
+    "detail": "last=404 all 4 paths tried",
+    "s": 107.5
+  },
+  "_meta": {
+    "total_s": 107.5,
+    "time": "2026-11-12T17:50:24.969148+10:00"
+  }
+}

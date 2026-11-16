@@ -1,0 +1,472 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 21:59:48,851 r52.autocollect.worker INFO phase=worker_start pid=31264
+2026-11-15 21:59:48,860 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-15 21:59:48,861 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-15 21:59:48,861 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-15 21:59:48,862 r52.autocollect.worker INFO source=WB proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-15 21:59:48,864 r52.autocollect.worker INFO source=WB listing=26950668 phase=collect_product_start
+2026-11-15 21:59:50,679 r52.collectors.wb INFO WB warmup www.wildberries.ru failed: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 21:59:52,020 r52.collectors.wb INFO WB warmup catalog.wb.ru failed: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 21:59:53,847 r52.collectors.wb WARNING WB cffi error https://basket-01.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 21:59:57,378 r52.collectors.wb WARNING WB cffi error https://basket-02.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 21:59:59,735 r52.collectors.wb WARNING WB cffi error https://basket-03.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:02,137 r52.collectors.wb WARNING WB cffi error https://basket-04.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:05,027 r52.collectors.wb WARNING WB cffi error https://basket-05.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:07,916 r52.collectors.wb WARNING WB cffi error https://basket-06.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:10,778 r52.collectors.wb WARNING WB cffi error https://basket-07.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:13,069 r52.collectors.wb WARNING WB cffi error https://basket-08.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:15,876 r52.collectors.wb WARNING WB cffi error https://basket-09.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:20,978 r52.collectors.wb WARNING WB cffi error https://basket-10.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:22,966 r52.collectors.wb WARNING WB cffi error https://basket-11.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:26,522 r52.collectors.wb WARNING WB cffi error https://basket-12.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:29,613 r52.collectors.wb WARNING WB cffi error https://basket-13.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:32,354 r52.collectors.wb WARNING WB cffi error https://basket-14.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:35,636 r52.collectors.wb WARNING WB cffi error https://basket-15.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:38,537 r52.collectors.wb WARNING WB cffi error https://basket-16.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:41,419 r52.collectors.wb WARNING WB cffi error https://basket-17.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:44,775 r52.collectors.wb WARNING WB cffi error https://basket-18.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:46,862 r52.collectors.wb WARNING WB cffi error https://basket-19.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 176 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 322 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 289 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 223 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:00:50,227 r52.collectors.wb WARNING WB cffi error https://basket-20.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:53,435 r52.collectors.wb WARNING WB cffi error https://basket-21.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:00:57,195 r52.collectors.wb WARNING WB cffi error https://basket-22.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:00,647 r52.collectors.wb WARNING WB cffi error https://basket-23.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:03,897 r52.collectors.wb WARNING WB cffi error https://basket-24.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:06,377 r52.collectors.wb WARNING WB cffi error https://basket-25.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:09,440 r52.collectors.wb WARNING WB cffi error https://basket-26.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:13,137 r52.collectors.wb WARNING WB cffi error https://basket-27.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:16,985 r52.collectors.wb WARNING WB cffi error https://basket-28.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:20,856 r52.collectors.wb WARNING WB cffi error https://basket-29.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:24,449 r52.collectors.wb WARNING WB cffi error https://basket-30.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:27,403 r52.collectors.wb WARNING WB cffi error https://basket-31.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:30,897 r52.collectors.wb WARNING WB cffi error https://basket-32.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:34,320 r52.collectors.wb WARNING WB cffi error https://basket-33.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:36,558 r52.collectors.wb WARNING WB cffi error https://basket-34.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:39,473 r52.collectors.wb WARNING WB cffi error https://basket-35.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:42,064 r52.collectors.wb WARNING WB cffi error https://basket-36.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:44,055 r52.collectors.wb WARNING WB cffi error https://basket-37.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:47,434 r52.collectors.wb WARNING WB cffi error https://basket-38.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 176 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 322 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 289 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 223 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:01:49,838 r52.collectors.wb WARNING WB cffi error https://basket-39.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:53,267 r52.collectors.wb WARNING WB cffi error https://basket-40.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:01:56,860 r52.collectors.wb WARNING WB cffi error https://basket-41.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:00,773 r52.collectors.wb WARNING WB cffi error https://basket-42.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:02,846 r52.collectors.wb WARNING WB cffi error https://basket-43.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:05,243 r52.collectors.wb WARNING WB cffi error https://basket-44.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:07,876 r52.collectors.wb WARNING WB cffi error https://basket-45.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:10,283 r52.collectors.wb WARNING WB cffi error https://basket-46.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:13,922 r52.collectors.wb WARNING WB cffi error https://basket-47.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:16,925 r52.collectors.wb WARNING WB cffi error https://basket-48.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:20,323 r52.collectors.wb WARNING WB cffi error https://basket-49.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:24,090 r52.collectors.wb WARNING WB cffi error https://basket-50.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:26,898 r52.collectors.wb WARNING WB cffi error https://basket-51.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:29,436 r52.collectors.wb WARNING WB cffi error https://basket-52.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:32,865 r52.collectors.wb WARNING WB cffi error https://basket-53.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:36,507 r52.collectors.wb WARNING WB cffi error https://basket-54.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:39,933 r52.collectors.wb WARNING WB cffi error https://basket-55.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:42,197 r52.collectors.wb WARNING WB cffi error https://basket-56.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:45,339 r52.collectors.wb WARNING WB cffi error https://basket-57.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 176 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 322 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 289 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 223 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:02:49,015 r52.collectors.wb WARNING WB cffi error https://basket-58.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:53,004 r52.collectors.wb WARNING WB cffi error https://basket-59.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:55,445 r52.collectors.wb WARNING WB cffi error https://basket-60.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:02:55,445 r52.collectors.wb WARNING WB 26950668: basket host не найден для vol=269
+2026-11-15 22:02:55,445 r52.collectors.wb WARNING WB 26950668: basket host не найден
+2026-11-15 22:02:58,294 r52.collectors.wb WARNING WB cffi error https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=26: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:00,609 r52.collectors.wb WARNING WB cffi error https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:03,435 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=26950668: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:05,493 r52.collectors.wb WARNING WB cffi error https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:05,493 r52.collectors.wb INFO WB 26950668: price — все эндпоинты не дали данных
+2026-11-15 22:03:21,504 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/catalog/26950668/detail.aspx: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:21,504 r52.autocollect.worker INFO source=WB listing=26950668 phase=collect_product_return status=DEGRADED
+2026-11-15 22:03:21,504 r52.autocollect.worker INFO source=WB listing=14890618 phase=collect_product_start
+2026-11-15 22:03:23,877 r52.collectors.wb WARNING WB cffi error https://basket-01.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:27,259 r52.collectors.wb WARNING WB cffi error https://basket-02.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:31,205 r52.collectors.wb WARNING WB cffi error https://basket-03.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:33,857 r52.collectors.wb WARNING WB cffi error https://basket-04.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:37,152 r52.collectors.wb WARNING WB cffi error https://basket-05.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:40,761 r52.collectors.wb WARNING WB cffi error https://basket-06.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:43,759 r52.collectors.wb WARNING WB cffi error https://basket-07.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:47,664 r52.collectors.wb WARNING WB cffi error https://basket-08.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 155 in _fast_throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 162 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 322 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 289 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 223 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:03:50,834 r52.collectors.wb WARNING WB cffi error https://basket-09.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:53,487 r52.collectors.wb WARNING WB cffi error https://basket-10.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:03:57,442 r52.collectors.wb WARNING WB cffi error https://basket-11.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:00,914 r52.collectors.wb WARNING WB cffi error https://basket-12.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:04,724 r52.collectors.wb WARNING WB cffi error https://basket-13.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:06,994 r52.collectors.wb WARNING WB cffi error https://basket-14.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:09,283 r52.collectors.wb WARNING WB cffi error https://basket-15.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:11,387 r52.collectors.wb WARNING WB cffi error https://basket-16.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:13,701 r52.collectors.wb WARNING WB cffi error https://basket-17.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:16,590 r52.collectors.wb WARNING WB cffi error https://basket-18.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:19,791 r52.collectors.wb WARNING WB cffi error https://basket-19.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:22,775 r52.collectors.wb WARNING WB cffi error https://basket-20.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:25,126 r52.collectors.wb WARNING WB cffi error https://basket-21.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:27,791 r52.collectors.wb WARNING WB cffi error https://basket-22.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:30,593 r52.collectors.wb WARNING WB cffi error https://basket-23.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:33,033 r52.collectors.wb WARNING WB cffi error https://basket-24.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:35,141 r52.collectors.wb WARNING WB cffi error https://basket-25.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:37,820 r52.collectors.wb WARNING WB cffi error https://basket-26.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:39,901 r52.collectors.wb WARNING WB cffi error https://basket-27.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:43,827 r52.collectors.wb WARNING WB cffi error https://basket-28.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:46,727 r52.collectors.wb WARNING WB cffi error https://basket-29.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 176 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 322 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 289 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 223 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:04:50,536 r52.collectors.wb WARNING WB cffi error https://basket-30.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:53,712 r52.collectors.wb WARNING WB cffi error https://basket-31.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:04:57,015 r52.collectors.wb WARNING WB cffi error https://basket-32.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:00,461 r52.collectors.wb WARNING WB cffi error https://basket-33.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:03,503 r52.collectors.wb WARNING WB cffi error https://basket-34.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:07,380 r52.collectors.wb WARNING WB cffi error https://basket-35.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:10,416 r52.collectors.wb WARNING WB cffi error https://basket-36.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:12,940 r52.collectors.wb WARNING WB cffi error https://basket-37.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:15,778 r52.collectors.wb WARNING WB cffi error https://basket-38.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:18,291 r52.collectors.wb WARNING WB cffi error https://basket-39.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:21,842 r52.collectors.wb WARNING WB cffi error https://basket-40.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:25,468 r52.collectors.wb WARNING WB cffi error https://basket-41.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:28,188 r52.collectors.wb WARNING WB cffi error https://basket-42.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:30,874 r52.collectors.wb WARNING WB cffi error https://basket-43.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:32,855 r52.collectors.wb WARNING WB cffi error https://basket-44.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:36,022 r52.collectors.wb WARNING WB cffi error https://basket-45.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:38,895 r52.collectors.wb WARNING WB cffi error https://basket-46.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:42,906 r52.collectors.wb WARNING WB cffi error https://basket-47.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:46,098 r52.collectors.wb WARNING WB cffi error https://basket-48.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 176 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 322 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 289 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 223 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:05:49,848 r52.collectors.wb WARNING WB cffi error https://basket-49.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:53,046 r52.collectors.wb WARNING WB cffi error https://basket-50.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:55,414 r52.collectors.wb WARNING WB cffi error https://basket-51.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:05:59,012 r52.collectors.wb WARNING WB cffi error https://basket-52.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:02,997 r52.collectors.wb WARNING WB cffi error https://basket-53.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:06,511 r52.collectors.wb WARNING WB cffi error https://basket-54.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:10,347 r52.collectors.wb WARNING WB cffi error https://basket-55.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:13,086 r52.collectors.wb WARNING WB cffi error https://basket-56.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:16,282 r52.collectors.wb WARNING WB cffi error https://basket-57.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:18,919 r52.collectors.wb WARNING WB cffi error https://basket-58.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:21,324 r52.collectors.wb WARNING WB cffi error https://basket-59.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:24,338 r52.collectors.wb WARNING WB cffi error https://basket-60.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:24,338 r52.collectors.wb WARNING WB 14890618: basket host не найден для vol=148
+2026-11-15 22:06:24,338 r52.collectors.wb WARNING WB 14890618: basket host не найден
+2026-11-15 22:06:27,477 r52.collectors.wb WARNING WB cffi error https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=14: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:29,742 r52.collectors.wb WARNING WB cffi error https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:32,367 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=14890618: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:35,491 r52.collectors.wb WARNING WB cffi error https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:35,491 r52.collectors.wb INFO WB 14890618: price — все эндпоинты не дали данных
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 164 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 408 in _fetch_html
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 230 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:06:52,216 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/catalog/14890618/detail.aspx: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:52,216 r52.autocollect.worker INFO source=WB listing=14890618 phase=collect_product_return status=DEGRADED
+2026-11-15 22:06:52,216 r52.autocollect.worker INFO source=WB listing=1475428055 phase=collect_product_start
+2026-11-15 22:06:55,704 r52.collectors.wb WARNING WB cffi error https://basket-01.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:06:58,874 r52.collectors.wb WARNING WB cffi error https://basket-02.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:01,424 r52.collectors.wb WARNING WB cffi error https://basket-03.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:03,524 r52.collectors.wb WARNING WB cffi error https://basket-04.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:05,851 r52.collectors.wb WARNING WB cffi error https://basket-05.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:08,847 r52.collectors.wb WARNING WB cffi error https://basket-06.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:11,736 r52.collectors.wb WARNING WB cffi error https://basket-07.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:15,582 r52.collectors.wb WARNING WB cffi error https://basket-08.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:18,586 r52.collectors.wb WARNING WB cffi error https://basket-09.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:21,226 r52.collectors.wb WARNING WB cffi error https://basket-10.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:24,846 r52.collectors.wb WARNING WB cffi error https://basket-11.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:28,901 r52.collectors.wb WARNING WB cffi error https://basket-12.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:31,831 r52.collectors.wb WARNING WB cffi error https://basket-13.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:35,139 r52.collectors.wb WARNING WB cffi error https://basket-14.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:37,600 r52.collectors.wb WARNING WB cffi error https://basket-15.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:40,849 r52.collectors.wb WARNING WB cffi error https://basket-16.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:43,090 r52.collectors.wb WARNING WB cffi error https://basket-17.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:45,763 r52.collectors.wb WARNING WB cffi error https://basket-18.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 176 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 322 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 289 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 223 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:07:49,152 r52.collectors.wb WARNING WB cffi error https://basket-19.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:51,655 r52.collectors.wb WARNING WB cffi error https://basket-20.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:55,767 r52.collectors.wb WARNING WB cffi error https://basket-21.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:07:59,176 r52.collectors.wb WARNING WB cffi error https://basket-22.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:02,694 r52.collectors.wb WARNING WB cffi error https://basket-23.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:06,367 r52.collectors.wb WARNING WB cffi error https://basket-24.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:09,989 r52.collectors.wb WARNING WB cffi error https://basket-25.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:12,294 r52.collectors.wb WARNING WB cffi error https://basket-26.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:15,469 r52.collectors.wb WARNING WB cffi error https://basket-27.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:18,271 r52.collectors.wb WARNING WB cffi error https://basket-28.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:20,791 r52.collectors.wb WARNING WB cffi error https://basket-29.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:23,977 r52.collectors.wb WARNING WB cffi error https://basket-30.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:27,240 r52.collectors.wb WARNING WB cffi error https://basket-31.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:31,044 r52.collectors.wb WARNING WB cffi error https://basket-32.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:34,296 r52.collectors.wb WARNING WB cffi error https://basket-33.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:37,677 r52.collectors.wb WARNING WB cffi error https://basket-34.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:39,667 r52.collectors.wb WARNING WB cffi error https://basket-35.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:42,924 r52.collectors.wb WARNING WB cffi error https://basket-36.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:45,595 r52.collectors.wb WARNING WB cffi error https://basket-37.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:48,595 r52.collectors.wb WARNING WB cffi error https://basket-38.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 155 in _fast_throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 162 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 322 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 289 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 223 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:08:52,308 r52.collectors.wb WARNING WB cffi error https://basket-39.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:54,874 r52.collectors.wb WARNING WB cffi error https://basket-40.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:08:56,954 r52.collectors.wb WARNING WB cffi error https://basket-41.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:00,588 r52.collectors.wb WARNING WB cffi error https://basket-42.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:02,818 r52.collectors.wb WARNING WB cffi error https://basket-43.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:05,440 r52.collectors.wb WARNING WB cffi error https://basket-44.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:09,051 r52.collectors.wb WARNING WB cffi error https://basket-45.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:11,226 r52.collectors.wb WARNING WB cffi error https://basket-46.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:13,871 r52.collectors.wb WARNING WB cffi error https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:17,296 r52.collectors.wb WARNING WB cffi error https://basket-48.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:20,841 r52.collectors.wb WARNING WB cffi error https://basket-49.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:23,767 r52.collectors.wb WARNING WB cffi error https://basket-50.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:26,151 r52.collectors.wb WARNING WB cffi error https://basket-51.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:29,074 r52.collectors.wb WARNING WB cffi error https://basket-52.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:32,742 r52.collectors.wb WARNING WB cffi error https://basket-53.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:36,588 r52.collectors.wb WARNING WB cffi error https://basket-54.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:39,396 r52.collectors.wb WARNING WB cffi error https://basket-55.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:42,067 r52.collectors.wb WARNING WB cffi error https://basket-56.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:44,347 r52.collectors.wb WARNING WB cffi error https://basket-57.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:47,513 r52.collectors.wb WARNING WB cffi error https://basket-58.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 155 in _fast_throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 162 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 322 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 289 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 223 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:09:51,128 r52.collectors.wb WARNING WB cffi error https://basket-59.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:54,989 r52.collectors.wb WARNING WB cffi error https://basket-60.wbbasket.ru/vol14754/part1475428/1475428055/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:09:54,989 r52.collectors.wb WARNING WB 1475428055: basket host не найден для vol=14754
+2026-11-15 22:09:54,989 r52.collectors.wb WARNING WB 1475428055: basket host не найден
+2026-11-15 22:09:58,850 r52.collectors.wb WARNING WB cffi error https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=14: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:01,671 r52.collectors.wb WARNING WB cffi error https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:04,855 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=1475428055: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:07,942 r52.collectors.wb WARNING WB cffi error https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:07,942 r52.collectors.wb INFO WB 1475428055: price — все эндпоинты не дали данных
+2026-11-15 22:10:24,260 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/catalog/1475428055/detail.aspx: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:24,261 r52.autocollect.worker INFO source=WB listing=1475428055 phase=collect_product_return status=DEGRADED
+2026-11-15 22:10:24,261 r52.autocollect.worker INFO source=WB listing=120526046 phase=collect_product_start
+2026-11-15 22:10:27,532 r52.collectors.wb WARNING WB cffi error https://basket-01.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:30,507 r52.collectors.wb WARNING WB cffi error https://basket-02.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:33,806 r52.collectors.wb WARNING WB cffi error https://basket-03.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:36,675 r52.collectors.wb WARNING WB cffi error https://basket-04.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:39,022 r52.collectors.wb WARNING WB cffi error https://basket-05.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:41,130 r52.collectors.wb WARNING WB cffi error https://basket-06.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:45,072 r52.collectors.wb WARNING WB cffi error https://basket-07.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:47,438 r52.collectors.wb WARNING WB cffi error https://basket-08.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004d14 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004530 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 155 in _fast_throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 162 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 322 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 289 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 223 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 22:10:51,211 r52.collectors.wb WARNING WB cffi error https://basket-09.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:54,989 r52.collectors.wb WARNING WB cffi error https://basket-10.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:10:57,180 r52.collectors.wb WARNING WB cffi error https://basket-11.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:00,462 r52.collectors.wb WARNING WB cffi error https://basket-12.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:04,319 r52.collectors.wb WARNING WB cffi error https://basket-13.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:07,869 r52.collectors.wb WARNING WB cffi error https://basket-14.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:11,254 r52.collectors.wb WARNING WB cffi error https://basket-15.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:13,656 r52.collectors.wb WARNING WB cffi error https://basket-16.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:16,366 r52.collectors.wb WARNING WB cffi error https://basket-17.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:19,588 r52.collectors.wb WARNING WB cffi error https://basket-18.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:23,551 r52.collectors.wb WARNING WB cffi error https://basket-19.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:27,161 r52.collectors.wb WARNING WB cffi error https://basket-20.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:29,264 r52.collectors.wb WARNING WB cffi error https://basket-21.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:32,535 r52.collectors.wb WARNING WB cffi error https://basket-22.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:35,674 r52.collectors.wb WARNING WB cffi error https://basket-23.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:38,943 r52.collectors.wb WARNING WB cffi error https://basket-24.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:42,347 r52.collectors.wb WARNING WB cffi error https://basket-25.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:44,809 r52.collectors.wb WARNING WB cffi error https://basket-26.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 22:11:47,539 r52.collectors.wb WARNING WB cffi error https://basket-27.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.

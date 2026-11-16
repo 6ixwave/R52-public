@@ -1,0 +1,21 @@
+{
+  "source": "ALIEXPRESS_RU",
+  "mode": "search",
+  "query": "iphone 17 pro max",
+  "total_items": 12,
+  "collected": 12,
+  "failed": 0,
+  "files_written": 12,
+  "elapsed_sec": 4.7,
+  "collector_stats": {
+    "requests": 1,
+    "success": 1,
+    "failed": 0,
+    "blocked": 0
+  },
+  "proxy_stats": {
+    "total": 0,
+    "alive": 0,
+    "use_proxies": false
+  }
+}

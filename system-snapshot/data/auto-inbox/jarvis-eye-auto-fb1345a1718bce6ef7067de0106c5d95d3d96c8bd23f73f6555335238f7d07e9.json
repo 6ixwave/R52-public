@@ -1,0 +1,261 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Подушка 50х70 - 2 шт.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Galtex",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Перед использованием подушку необходимо взбить!\nПодушка 50×70 с наполнителем из искусственного лебяжьего пуха создана для комфортного сна и ежедневного отдыха. Мягкий и воздушный наполнитель помогает подушке сохранять объём, быстро восстанавливать форму после использования и обеспечивать удобное положение головы.\nПодушка лёгкая, упругая и приятная в использовании. Размер 50×70 см считается универсальным и подходит для большинства стандартных наволочек и комплектов постельного белья. Изделие можно использовать дома, на даче, в гостевой комнате или взять с собой в поездку.\nПодушка с лебяжьим пухом подойдёт взрослым и подросткам. Она станет практичным выбором для спальни и хорошим подарком на новоселье, свадьбу или другой праздник. Подробная информация о составе чехла, плотности наполнителя и рекомендациях по уходу указана в характеристиках товара.\nВ комплекте 2 подушки размером 50×70.\nПреимущества подушки лебяжий пух: \n•\tгипоаллергенность\n•\tпростой уход\n•\tнет посторонних запахов\n•\tбольшой срок эксплуатации, \n•\tможно стирать в машинке на 30 градусах.\n\n\n",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Текстиль для дома > Подушки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.4-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/itemCounter-component.5140b735835198fe.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/manualQuantityInput-component.44a3f391bace13ae.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/catalogCard-component.225314dfb1bdd980.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/68848.6ccd0a495ece9b0e.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/12589.65deab12c6baab88.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/19921.53c25b7ac4868fa5.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/10781.98a603a07010e7a0.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/16243.38ade4de04b7a4f2.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/recommendations-slot.21c50124f7b9c435.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lottery-service.cb54e5fab8db32dd.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/12.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c246x328/13.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-26.wbbasket.ru/vol4633/part463395/463395546/images/big/12.webp",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Текстиль для дома > Подушки",
+    "source": "WB",
+    "id": "463395546",
+    "url": "https://www.wildberries.ru/catalog/463395546/detail.aspx",
+    "observed_at": "2026-11-17T01:37:47.661529+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "FP:cat_auto": {
+    "ok": true,
+    "detail": "HTTP=200 anns=36",
+    "s": 1.4
+  },
+  "FP:auto_0": {
+    "ok": true,
+    "detail": "id=134693091 price=500 title=Вскрытие авто без ключа Открыть машину В",
+    "s": 2.4
+  },
+  "FP:cat_home": {
+    "ok": true,
+    "detail": "HTTP=200 anns=50",
+    "s": 5.9
+  },
+  "FP:home_0": {
+    "ok": true,
+    "detail": "id=121063385 price=970800 title=Дизельный генератор Incon-R100 с двигате",
+    "s": 6.9
+  },
+  "FP:home_1": {
+    "ok": true,
+    "detail": "id=47461666 price=1115000 title=Генераторы дизельные ЭнергоЮнитс. Большо",
+    "s": 8.4
+  },
+  "FP:cat_hobby": {
+    "ok": true,
+    "detail": "HTTP=200 anns=50",
+    "s": 10.1
+  },
+  "FP:hobby_0": {
+    "ok": true,
+    "detail": "id=136303743 price=37980 title=Квадрокоптер DJI Flip (GL). Гарантия до ",
+    "s": 11.2
+  },
+  "FP:hobby_1": {
+    "ok": true,
+    "detail": "id=136133045 price=54980 title=Квадрокоптер DJI Lito X1 RC-N3. Гарантия",
+    "s": 12.7
+  },
+  "FP:stability": {
+    "ok": true,
+    "detail": "success=5/6",
+    "s": 13.2
+  },
+  "WB:1_sweep31_60": {
+    "ok": false,
+    "detail": "hosts 31-60 all 404/err",
+    "s": 44.3
+  },
+  "WB:2_other_nm": {
+    "ok": false,
+    "detail": "HTTP=403 len=",
+    "s": 45.2
+  },
+  "WB:3_b42_nm": {
+    "ok": false,
+    "detail": "HTTP=404 len=<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html",
+    "s": 46.1
+  },
+  "WB:4_catalog_search": {
+    "ok": false,
+    "detail": "HTTP=403 len=",
+    "s": 47.0
+  },
+  "OZ:EXC": {
+    "ok": false,
+    "detail": "CertificateVerifyError: Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer cert",
+    "s": 48.4
+  },
+  "AV:1_rss": {
+    "ok": false,
+    "detail": "HTTP=429 len=<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n<head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"",
+    "s": 49.5
+  },
+  "AV:2_l10": {
+    "ok": false,
+    "detail": "HTTP=429 len=<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n<head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"",
+    "s": 51.4
+  },
+  "AV:3_search": {
+    "ok": false,
+    "detail": "HTTP=429 len=<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n<head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"",
+    "s": 52.5
+  },
+  "AV:4_mobile_api": {
+    "ok": false,
+    "detail": "HTTP=404 len=<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.6</center>\r\n</body>\r\n</html",
+    "s": 53.3
+  },
+  "total_s": 53.3,
+  "time": "2026-11-12T17:02:41"
+}

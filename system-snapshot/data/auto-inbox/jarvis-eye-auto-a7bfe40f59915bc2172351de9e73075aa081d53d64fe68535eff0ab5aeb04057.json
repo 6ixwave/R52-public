@@ -1,0 +1,81 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Влажные полотенца большого размера XXL 60х10шт",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Aura",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 116200,
+        "amount": "1162.00",
+        "currency": "RUB",
+        "visible_label": "1162.00 руб.",
+        "variant_id": "",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 116200,
+          "listing_id": "204102059",
+          "variant_id": ""
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 211800,
+        "amount": "2118.00",
+        "currency": "RUB",
+        "visible_label": "2118.00 руб.",
+        "variant_id": "",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 211800,
+          "listing_id": "204102059",
+          "variant_id": ""
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "204102059",
+    "listing_id": "204102059",
+    "title": "Влажные полотенца большого размера XXL 60х10шт",
+    "url": "https://www.wildberries.ru/catalog/204102059/detail.aspx",
+    "observed_at": "2026-11-16T04:03:28.246542+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

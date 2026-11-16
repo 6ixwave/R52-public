@@ -1,0 +1,98 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "AVITO",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Ноутбук ASUS ROG Strix G15 G512LW i7-10750H RTX 2060 16GB 512GB",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "AVITO"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "ASUS",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "AVITO"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "ROG Strix G15 G512LW",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "AVITO"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Игровой ноутбук ASUS ROG Strix G15. Процессор Intel Core i7-10750H, видеокарта NVIDIA GeForce RTX 2060 6GB, 16GB DDR4, SSD 512GB, экран 15.6\" 144Hz. Состояние отличное, полный комплект.",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "AVITO"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Электроника > Ноутбуки",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "AVITO"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Состояние: Б/у\nЭкран: 15.6\" 144Hz\nОЗУ: 16GB\nНакопитель: SSD 512GB\nВидеокарта: RTX 2060 6GB",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "AVITO"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 8500000,
+        "currency": "RUB",
+        "label": "JSON-LD price",
+        "amount": "85000.00",
+        "visible_label": "85 000 ₽"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://l162.s3.avcdn.net/av_static/w1000/avito-7494308705-1.jpg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://l162.s3.avcdn.net/av_static/w1000/avito-7494308705-2.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Электроника > Ноутбуки",
+    "source": "AVITO",
+    "id": "7494308705",
+    "url": "https://www.avito.ru/ad/7494308705",
+    "observed_at": "2026-11-11T16:45:00.000+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

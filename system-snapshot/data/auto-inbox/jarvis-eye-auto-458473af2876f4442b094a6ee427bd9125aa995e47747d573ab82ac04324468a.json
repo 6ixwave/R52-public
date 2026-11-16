@@ -1,0 +1,62 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Магний хелат бисглицинат (глицинат) В6 600 мг",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "4Me Nutrition",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 39700,
+        "amount": "397.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 100000,
+        "amount": "1000.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "source": "WB",
+    "id": "657041903",
+    "listing_id": "657041903",
+    "title": "Магний хелат бисглицинат (глицинат) В6 600 мг",
+    "url": "https://www.wildberries.ru/catalog/657041903/detail.aspx",
+    "observed_at": "2026-11-16T17:02:59.712217+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

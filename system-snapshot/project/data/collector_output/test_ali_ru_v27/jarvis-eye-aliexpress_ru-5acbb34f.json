@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Nuove cuffie wireless Bluetooth Marshall MONITOR II, con design over-ear e bassi potenti, ideali per la musica rock.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "84.23",
+        "amount_minor": 8423,
+        "currency": "RUB",
+        "visible_label": "84.23 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "33.69",
+        "amount_minor": 3369,
+        "currency": "RUB",
+        "visible_label": "33.69 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S3010c56f5a884e99be8438d570c84b4c3.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013595574444",
+    "url": "https://ru.aliexpress.com/item/1005013595574444.html",
+    "observed_at": "2026-11-13T08:40:33.104523+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

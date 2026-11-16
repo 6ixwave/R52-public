@@ -1,0 +1,216 @@
+{
+  "farpost": {
+    "status": 200,
+    "len": 419704,
+    "patterns": {
+      "slug_html": [
+        "130693618",
+        "138279778",
+        "138145853",
+        "138017742",
+        "138858693",
+        "136471096",
+        "138158247",
+        "137958635",
+        "138891276",
+        "137999266",
+        "137716110",
+        "137086465",
+        "138052865",
+        "138860405",
+        "137730471",
+        "137733028",
+        "138582330",
+        "132827210",
+        "124638632",
+        "131101474"
+      ],
+      "bulletin": [],
+      "data_id": [],
+      "item_id": [],
+      "generic_num": []
+    },
+    "all_html_links": [
+      "/ni/krasnoyarsk/auto/wheel/tire/triangle-icelynx-ti501-205-55-r16-94t-xl-130693618.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-295-80r22-5-tl-18pr-goodride-icetrac-n2-138279778.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/legko-gruzovye-shiny-225-75r16c-tl-8pr-goodride-sw612-138145853.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/legko-gruzovaja-shina-195-70r15c-tl-8pr-triangle-ll01-138017742.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/legko-gruzovaja-shina-155r13c-tl-8pr-tracmax-ice-plus-sr1-138858693.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-315-70r22-5-tl-18pr-sailun-saw1-136471096.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/shina-na-gazel-185-75r16c-tl-8pr-goodride-sw613-138158247.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/shiny-bridzhstoun-137958635.html",
+      "/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-10.00-r20-tt-18pr-satoya-sd062-139043471.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-315-70r22-5-tl-18pr-kama-nr501-shipy-138891276.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/315-70r22-5-tl-20pr-goodride-icetrac-n2-shipy-137999266.html",
+      "/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-315-80r22-5-tl-18pr-goodride-icetrac-n2-shipy-137716110.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-385-65r22-5-tl-20pr-blackhawk-sailun-baw51-137086465.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-385-65r22-5-tl-20pr-goodride-iceguard-n1-138052865.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/legko-gruzovaja-shina-195-70r15c-tl-8pr-sailun-commercio-ice-138860405.html",
+      "/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-315-80r22-5-tl-20pr-royal-black-wdv02-137730471.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-315-70r22-5-tl-20pr-royal-black-wdv02-137733028.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/prodam-275.40-20-134285094.html",
+      "/krasnoyarsk/auto/wheel/tire/legko-gruzovaja-shina-195-75r16c-tl-8pr-fortune-snowfun-fsr902-138582330.html",
+      "/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-385-65r22-5-tl-24pr-hankook-ah31-132827210.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/zimnjaja-pokryshka-atlander-atl08-124638632.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/zimnjaja-pokryshka-triangle-trd66-315-70-r22-5-131101474.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/shina-na-gazel-185-75r16c-tl-8pr-doublestar-dw01-138957852.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/atlander-atl02-315-70r22-5-125852472.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/315-70r22-5-20pr-a-shina-sonix-sx802-154-150m-tl-131329138.html",
+      "/krasnoyarsk/auto/wheel/tire/legko-gruzovaja-shina-155r13c-tl-8pr-fortune-snowfun-fsr902-138002911.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-185.75-r16-8pr-triangle-tr646-gazel-v-kompanii-arden-31287857.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/gruzovye-karjernye-shiny-315-80r22-5-tr918-35311168.html",
+      "/krasnoyarsk/auto/wheel/tire/atlander-atl159-315-80r22-5-125852820.html",
+      "/ni/krasnoyarsk/auto/wheel/tire/shiny-385-65-r22-5-20pr-t-r692-160-158l-triangle-kitaj-99824026.html"
+    ],
+    "data_attrs": [
+      "13069361815",
+      "130693618",
+      "13827977815",
+      "138279778",
+      "13814585315",
+      "138145853",
+      "13801774215",
+      "138017742",
+      "13885869315",
+      "138858693"
+    ]
+  },
+  "ozon": {
+    "main_status": 403,
+    "cat_status": 403,
+    "cat_len": 8404,
+    "product_id": "1600562267",
+    "product_status": 403,
+    "product_len": 8341,
+    "markers": {
+      "widget": false,
+      "jsonld": false,
+      "next": false,
+      "state": false
+    },
+    "ids_found": [],
+    "cookies": [
+      "__Secure-ETC",
+      "abt_data"
+    ]
+  },
+  "wb_basket": [
+    {
+      "struct": "vol19/part92",
+      "host": 21,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol19/part92",
+      "host": 22,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol19/part92",
+      "host": 23,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol19/part29",
+      "host": 21,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol19/part29",
+      "host": 22,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol19/part29",
+      "host": 23,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol0/part92",
+      "host": 21,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol0/part92",
+      "host": 22,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol0/part92",
+      "host": 23,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol0/part29",
+      "host": 21,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol0/part29",
+      "host": 22,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol0/part29",
+      "host": 23,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol1/part92",
+      "host": 21,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol1/part92",
+      "host": 22,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "struct": "vol1/part92",
+      "host": 23,
+      "status": 404,
+      "len": 196
+    },
+    {
+      "host": "static-basket-01",
+      "struct": "vol19/part92",
+      "status": 404,
+      "len": 0
+    },
+    {
+      "host": "static-basket-01",
+      "struct": "vol19/part29",
+      "status": 404,
+      "len": 0
+    }
+  ],
+  "wb_detail": {
+    "status": 498,
+    "len": 1136,
+    "prices_found": []
+  },
+  "avito_pw": {
+    "status": 302,
+    "len": 36449,
+    "cookies_count": 9,
+    "jsonld": false,
+    "preloaded": false,
+    "og": false,
+    "price": false,
+    "title": "Доступ ограничен: проблема с IP"
+  }
+}

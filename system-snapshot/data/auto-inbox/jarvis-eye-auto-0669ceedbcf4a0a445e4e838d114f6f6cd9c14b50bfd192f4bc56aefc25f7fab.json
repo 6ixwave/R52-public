@@ -1,0 +1,84 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Трусы боксеры набор",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "WUCHT",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "Трусы_срезинкой4шт",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Комплект трусов 4 штуки микс цвета. Максимально ТОНКОЕ и не ощущаемое на теле белье, отлично подойдет на лето. Маленькие и большие размеры. Дышащие , короткие , молодежные , мягкие и плотные по своим свойствам и являются очень приятными к телу. Боксеры понравятся всем , кому надоела классика. Состав- хлопок, бамбук, спандекс. Это отличный подарок мужчине на день рождения, 23 февраля, 14 февраля и любой повод ! Премиального качества с удобной посадкой. Данная модель комфортна и соответствует гигиеническим требованиям . Обладают удобной резинкой , которая не доставляет дискомфорта. Износостойкие и не подвержены образованию катышек. В наличии трусы для мальчика подростковые.\n\nНаш бренд можно найти по запросам: вуч, вутч, вухт и wucht.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Белье > Трусы",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Состав: хлопок 70%; бамбуковое волокно 22%; спандекс 8%\nЦвет: черный; синий; серый; светло-серый\nРазмер на модели: 50-52\nПараметры модели на фото (ОГ-ОТ-ОБ): 113-86-100\nРост модели на фото: 188 см\nКоличество предметов в упаковке (шт.): 4 шт.\nМодель трусов: боксеры\nТип посадки: средняя\nФактура материала белья: гладкая\nДекоративные элементы: без элементов\nОсобенности белья: быстросохнущее; классическая модель; плоские швы\nУход за вещами: бережная стирка при 30 градусах\nКомплектация: набор трусов 4 штуки\nПолное наименование товара: Трусы мужские боксеры набор\nТип доставки: В пункт выдачи",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-14.wbbasket.ru/vol2075/part207509/207509051/images/S800/1.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Белье > Трусы",
+    "source": "WB",
+    "id": "207509051",
+    "url": "https://www.wildberries.ru/catalog/207509051/detail.aspx",
+    "observed_at": "2026-11-16T04:12:15.875136+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

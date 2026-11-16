@@ -1,0 +1,325 @@
+2026-11-14 16:35:03,111 test.pipeline INFO R-52 Full Pipeline Test — 6 sources + intake
+2026-11-14 16:35:03,111 test.pipeline INFO === TEST START: WB ===
+2026-11-14 16:35:03,740 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, режим direct
+2026-11-14 16:35:03,740 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-14 16:35:03,740 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:03,740 r52.collectors.wb INFO WB: warmup FAIL_CLOSED — прокси нет, skip (не direct)
+2026-11-14 16:35:07,422 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:07,422 r52.collectors.wb INFO WB: FAIL_CLOSED _http_get — прокси нет, https://catalog.wb.ru/exactmatch/ru/common/v4/search?query=% отложен (не direct)
+2026-11-14 16:35:09,796 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:09,796 r52.collectors.wb INFO WB: FAIL_CLOSED _http_get — прокси нет, https://search.wb.ru/exactmatch/ru/common/v4/search?query=%D отложен (не direct)
+2026-11-14 16:35:09,815 test.pipeline ERROR === TEST FAIL: WB (6.7s) SEARCH_HTTP_UNAVAILABLE ===
+2026-11-14 16:35:10,815 test.pipeline INFO === TEST START: OZON ===
+2026-11-14 16:35:10,816 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, режим direct
+2026-11-14 16:35:10,816 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:10,816 r52.collectors.ozon INFO OZON: warmup FAIL_CLOSED — прокси нет, skip (не direct)
+2026-11-14 16:35:28,945 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:28,945 r52.collectors.ozon INFO OZON: search FAIL_CLOSED — прокси нет, skip (не direct)
+2026-11-14 16:35:28,946 test.pipeline ERROR === TEST FAIL: OZON (18.1s) SEARCH_PROXY_NOT_READY ===
+2026-11-14 16:35:29,947 test.pipeline INFO === TEST START: AVITO ===
+2026-11-14 16:35:29,947 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, режим direct
+2026-11-14 16:35:29,947 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-14 16:35:29,947 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:29,947 r52.collectors.avito INFO AVITO: warmup FAIL_CLOSED — прокси нет, skip (не direct)
+2026-11-14 16:35:41,022 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:41,022 r52.collectors.avito INFO AVITO: search FAIL_CLOSED — прокси нет, skip (не direct)
+2026-11-14 16:35:41,023 test.pipeline ERROR === TEST FAIL: AVITO (11.1s) SEARCH_PROXY_NOT_READY ===
+2026-11-14 16:35:42,024 test.pipeline INFO === TEST START: FARPOST ===
+2026-11-14 16:35:42,024 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, режим direct
+2026-11-14 16:35:42,025 r52.collectors.farpost INFO FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-14 16:35:42,025 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:42,025 r52.collectors.farpost INFO FARPOST: warmup FAIL_CLOSED — прокси нет, skip (не direct)
+2026-11-14 16:35:42,025 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:42,025 r52.collectors.farpost INFO FARPOST: search FAIL_CLOSED — прокси нет, skip (не direct)
+2026-11-14 16:35:42,027 test.pipeline ERROR === TEST FAIL: FARPOST (0.0s) SEARCH_PROXY_NOT_READY ===
+2026-11-14 16:35:43,027 test.pipeline INFO === TEST START: ALIEXPRESS ===
+2026-11-14 16:35:43,028 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, режим direct
+2026-11-14 16:35:43,028 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:47,530 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML OK, 722004 bytes, 4.5s
+2026-11-14 16:35:47,531 r52.collectors.aliexpress INFO ALI: 12 card anchors found
+2026-11-14 16:35:47,533 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML → 3 items
+2026-11-14 16:35:47,533 test.pipeline ERROR === TEST FAIL: ALIEXPRESS (4.5s) Missing fields: ['listing_id', 'title'] ===
+2026-11-14 16:35:48,534 test.pipeline INFO === TEST START: ALIEXPRESS_RU ===
+2026-11-14 16:35:48,534 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, режим direct
+2026-11-14 16:35:48,535 r52.collectors.proxy WARNING PROXY_FAIL_CLOSED: use_proxies=True, alive=0/total=0 — запрос пропущен (не direct)
+2026-11-14 16:35:52,915 r52.collectors.aliexpress INFO ALI_RU: wholesale HTML OK, 721087 bytes, 4.4s
+2026-11-14 16:35:52,916 r52.collectors.aliexpress INFO ALI_RU: 12 card anchors found
+2026-11-14 16:35:52,917 r52.collectors.aliexpress INFO ALI_RU: HTML search found 12 products
+2026-11-14 16:35:52,918 r52.collectors.aliexpress INFO ALI_RU: collect_by_search 'тест' → 12 products
+2026-11-14 16:35:52,918 test.pipeline ERROR === TEST FAIL: ALIEXPRESS_RU (4.4s) Missing fields: ['listing_id', 'title'] ===
+2026-11-14 16:35:53,919 test.pipeline INFO === TEST START: INTAKE PIPELINE ===
+2026-11-14 16:35:54,005 r52.sources INFO Sources: зарегистрировано 6 сборщиков
+2026-11-14 16:35:54,051 r52.sources INFO Sources: БД синхронизирована (6 READY)
+2026-11-14 16:36:00,069 test.pipeline INFO === TEST PARTIAL: INTAKE (6.1s) intake=0 inbox=0 product=None obs=None ===
+2026-11-14 16:36:00,071 r52.service INFO Ядро R-52 остановлено
+2026-11-14 16:36:00,072 test.pipeline INFO ============================================================
+2026-11-14 16:36:00,072 test.pipeline INFO SUMMARY:
+2026-11-14 16:36:00,072 test.pipeline INFO   WB               FAIL  SEARCH_HTTP_UNAVAILABLE
+2026-11-14 16:36:00,072 test.pipeline INFO   OZON             FAIL  SEARCH_PROXY_NOT_READY
+2026-11-14 16:36:00,072 test.pipeline INFO   AVITO            FAIL  SEARCH_PROXY_NOT_READY
+2026-11-14 16:36:00,072 test.pipeline INFO   FARPOST          FAIL  SEARCH_PROXY_NOT_READY
+2026-11-14 16:36:00,072 test.pipeline INFO   ALIEXPRESS       FAIL  Missing fields: ['listing_id', 'title']
+2026-11-14 16:36:00,072 test.pipeline INFO   ALIEXPRESS_RU    FAIL  Missing fields: ['listing_id', 'title']
+2026-11-14 16:36:00,072 test.pipeline INFO   INTAKE           PARTIAL  6.1s
+2026-11-14 16:36:00,072 test.pipeline INFO Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\test_pipeline_report.json
+2026-11-14 17:47:40,638 test.pipeline INFO R-52 Full Pipeline Test — 6 sources + intake
+2026-11-14 17:47:40,638 test.pipeline INFO === TEST START: WB ===
+2026-11-14 17:47:41,284 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 17:47:41,284 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-14 17:47:42,186 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-14 17:47:45,126 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-14 17:47:46,042 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-14 17:48:02,676 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-14 17:48:09,713 test.pipeline ERROR === TEST FAIL: WB (29.1s) SEARCH_HTTP_403 ===
+2026-11-14 17:48:10,714 test.pipeline INFO === TEST START: OZON ===
+2026-11-14 17:48:10,715 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 17:48:12,350 r52.collectors.ozon INFO OZON warmup: HTTP 403
+2026-11-14 17:48:24,856 r52.collectors.ozon INFO OZON search: HTTP 403, retrying in 3s
+2026-11-14 17:48:30,131 r52.collectors.ozon INFO OZON search: page 2 passed (p1 was 403)
+2026-11-14 17:48:30,132 r52.collectors.ozon INFO OZON search: 17 product links found (pattern 1)
+2026-11-14 17:48:30,134 r52.collectors.ozon INFO OZON: collect_by_search 'тест' → 3 products
+2026-11-14 17:48:30,136 test.pipeline ERROR === TEST FAIL: OZON (19.4s) Missing fields: ['listing_id', 'title'] ===
+2026-11-14 17:48:31,136 test.pipeline INFO === TEST START: AVITO ===
+2026-11-14 17:48:31,136 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 17:48:31,137 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-14 17:48:32,118 r52.collectors.avito INFO AVITO warmup: HTTP 439
+2026-11-14 17:48:39,794 r52.collectors.avito INFO AVITO search: 3 ad links found
+2026-11-14 17:48:39,796 r52.collectors.avito INFO AVITO: collect_by_search 'тест' → 3 products
+2026-11-14 17:48:39,797 test.pipeline ERROR === TEST FAIL: AVITO (8.7s) Missing fields: ['listing_id', 'title'] ===
+2026-11-14 17:48:40,797 test.pipeline INFO === TEST START: FARPOST ===
+2026-11-14 17:48:40,798 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 17:48:40,798 r52.collectors.farpost INFO FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-14 17:48:42,209 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-14 17:48:44,791 r52.collectors.farpost INFO FARPOST search: 50 bulletin links found
+2026-11-14 17:48:44,792 r52.collectors.farpost INFO FARPOST: collect_by_search 'тест' → 3 products
+2026-11-14 17:48:44,793 test.pipeline ERROR === TEST FAIL: FARPOST (4.0s) Missing fields: ['listing_id', 'title'] ===
+2026-11-14 17:48:45,867 test.pipeline INFO === TEST START: ALIEXPRESS ===
+2026-11-14 17:48:45,867 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 17:48:50,261 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML OK, 788858 bytes, 4.4s
+2026-11-14 17:48:50,262 r52.collectors.aliexpress INFO ALI: 12 card anchors found
+2026-11-14 17:48:50,264 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML → 3 items
+2026-11-14 17:48:57,860 r52.collectors.aliexpress INFO ALI_COM: curl_cffi OK, 76862 bytes, 2.7s
+2026-11-14 17:48:57,868 r52.collectors.aliexpress INFO ALI parse: title=1/2/5PCS ANCEL BM200 PRO Tester per batterie auto , prices=0, avail=UNKNOWN, media=1
+2026-11-14 17:48:57,868 test.pipeline INFO === TEST PASS: ALIEXPRESS (12.0s) search=3 valid=3 price=True product=PARTIAL_SUCCESS ===
+2026-11-14 17:48:58,868 test.pipeline INFO === TEST START: ALIEXPRESS_RU ===
+2026-11-14 17:48:58,869 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 17:49:03,704 r52.collectors.aliexpress INFO ALI_RU: wholesale HTML OK, 719284 bytes, 4.8s
+2026-11-14 17:49:03,705 r52.collectors.aliexpress INFO ALI_RU: 12 card anchors found
+2026-11-14 17:49:03,706 r52.collectors.aliexpress INFO ALI_RU: HTML search found 12 products
+2026-11-14 17:49:03,707 r52.collectors.aliexpress INFO ALI_RU: collect_by_search 'тест' → 12 products
+2026-11-14 17:49:16,441 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76890B, 2.7s
+2026-11-14 17:49:16,446 r52.collectors.aliexpress INFO ALI parse: title=KONNWEI KW650 Tester per Batterie Auto 6V 12V, Ana, prices=0, avail=UNKNOWN, media=1
+2026-11-14 17:49:16,446 test.pipeline INFO === TEST PASS: ALIEXPRESS_RU (17.6s) search=12 valid=12 price=True product=PARTIAL_SUCCESS ===
+2026-11-14 17:49:17,447 test.pipeline INFO === TEST START: INTAKE PIPELINE ===
+2026-11-14 17:49:17,524 r52.sources INFO Sources: зарегистрировано 6 сборщиков
+2026-11-14 17:49:17,568 r52.sources INFO Sources: БД синхронизирована (6 READY)
+2026-11-14 17:49:21,609 r52.intake INFO Во входящие добавлен файл jarvis-eye-auto-e5a5cf4fdf9463bbc961d1e8b4a150f29ef1f74fc683ba9de2f8b12b35efbfe6.json: INVALID MANUAL_CAPTURE_REQUIRED
+2026-11-14 17:49:23,585 test.pipeline INFO === TEST PARTIAL: INTAKE (6.1s) intake=1 inbox=1 product=None obs=None ===
+2026-11-14 17:49:23,588 r52.service INFO Ядро R-52 остановлено
+2026-11-14 17:49:23,588 test.pipeline INFO ============================================================
+2026-11-14 17:49:23,588 test.pipeline INFO SUMMARY:
+2026-11-14 17:49:23,588 test.pipeline INFO   WB               FAIL  SEARCH_HTTP_403
+2026-11-14 17:49:23,589 test.pipeline INFO   OZON             FAIL  Missing fields: ['listing_id', 'title']
+2026-11-14 17:49:23,589 test.pipeline INFO   AVITO            FAIL  Missing fields: ['listing_id', 'title']
+2026-11-14 17:49:23,589 test.pipeline INFO   FARPOST          FAIL  Missing fields: ['listing_id', 'title']
+2026-11-14 17:49:23,589 test.pipeline INFO   ALIEXPRESS       PASS  12.0s
+2026-11-14 17:49:23,589 test.pipeline INFO   ALIEXPRESS_RU    PASS  17.6s
+2026-11-14 17:49:23,589 test.pipeline INFO   INTAKE           PARTIAL  6.1s
+2026-11-14 17:49:23,589 test.pipeline INFO Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\test_pipeline_report.json
+2026-11-14 21:16:38,019 test.pipeline INFO R-52 Full Pipeline Test — 6 sources + intake
+2026-11-14 21:16:38,020 test.pipeline INFO === TEST START: WB ===
+2026-11-14 21:16:38,603 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 21:16:38,603 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-14 21:16:39,511 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-14 21:16:42,432 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-14 21:16:43,394 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-14 21:17:07,359 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-14 21:17:22,944 test.pipeline ERROR === TEST FAIL: WB (44.9s) SEARCH_HTTP_403 ===
+2026-11-14 21:17:23,945 test.pipeline INFO === TEST START: OZON ===
+2026-11-14 21:17:23,946 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 21:17:25,568 r52.collectors.ozon INFO OZON warmup: HTTP 403
+2026-11-14 21:17:33,324 r52.collectors.ozon INFO OZON search: HTTP 403, retrying in 3s
+2026-11-14 21:17:39,152 r52.collectors.ozon INFO OZON search: page 2 passed (p1 was 403)
+2026-11-14 21:17:39,155 r52.collectors.ozon INFO OZON search: 17 product links found (pattern 1)
+2026-11-14 21:17:39,158 r52.collectors.ozon INFO OZON: collect_by_search 'тест' → 3 products
+2026-11-14 21:17:48,222 r52.collectors.ozon INFO OZON 6: v2 -> HTTP 403
+2026-11-14 21:18:03,375 r52.collectors.ozon INFO OZON 6: 6 -> HTTP 403
+2026-11-14 21:18:26,097 r52.collectors.ozon INFO OZON 6: v2 -> HTTP 403
+2026-11-14 21:18:26,899 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True, proxy=no)
+2026-11-14 21:18:39,275 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/6/ -> 403 (3305B, 12.4s)
+2026-11-14 21:18:39,280 r52.collectors.ozon INFO OZON 6: PW status=403 len=3305
+2026-11-14 21:18:42,185 r52.collectors.ozon INFO OZON 6: cffi HTTP status=403 len=8370
+2026-11-14 21:18:53,982 r52.collectors INFO OZON: HTTP 403, retry 1/3 через 11с
+2026-11-14 21:19:06,107 r52.collectors INFO OZON: HTTP 403, retry 2/3 через 21с
+2026-11-14 21:19:27,335 r52.collectors INFO OZON: HTTP 403, retry 3/3 через 44с
+2026-11-14 21:20:12,153 test.pipeline INFO === TEST PASS: OZON (168.2s) search=3 valid=3 price=True product=NO_RESULT ===
+2026-11-14 21:20:13,286 test.pipeline INFO === TEST START: AVITO ===
+2026-11-14 21:20:13,287 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 21:20:13,288 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-14 21:20:14,282 r52.collectors.avito INFO AVITO warmup: HTTP 439
+2026-11-14 21:20:24,772 r52.collectors.avito WARNING AVITO search: CAPTCHA/blocked (439) for 'тест'
+2026-11-14 21:20:24,774 r52.collectors.avito INFO AVITO: 439 → trying m.avito.ru mobile fallback
+2026-11-14 21:20:25,697 test.pipeline ERROR === TEST FAIL: AVITO (12.4s) SEARCH_ACCESS_CHALLENGE ===
+2026-11-14 21:20:26,698 test.pipeline INFO === TEST START: FARPOST ===
+2026-11-14 21:20:26,698 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 21:20:26,698 r52.collectors.farpost INFO FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-14 21:20:27,899 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-14 21:20:30,655 r52.collectors.farpost INFO FARPOST search: 50 bulletin links found
+2026-11-14 21:20:30,656 r52.collectors.farpost INFO FARPOST: collect_by_search 'тест' → 3 products
+2026-11-14 21:20:36,979 test.pipeline INFO === TEST PASS: FARPOST (10.3s) search=3 valid=3 price=False product=FULL_SUCCESS ===
+2026-11-14 21:20:37,982 test.pipeline INFO === TEST START: ALIEXPRESS ===
+2026-11-14 21:20:37,982 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 21:20:42,561 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML OK, 823994 bytes, 4.6s
+2026-11-14 21:20:42,562 r52.collectors.aliexpress INFO ALI: 12 card anchors found
+2026-11-14 21:20:42,566 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML → 3 items
+2026-11-14 21:20:56,060 r52.collectors.aliexpress INFO ALI_COM: curl_cffi OK, 76862 bytes, 2.6s
+2026-11-14 21:20:56,067 r52.collectors.aliexpress INFO ALI parse: title=1/2/5PCS ANCEL BM200 PRO Tester per batterie auto , prices=0, avail=UNKNOWN, media=1
+2026-11-14 21:20:56,067 test.pipeline INFO === TEST PASS: ALIEXPRESS (18.1s) search=3 valid=3 price=True product=PARTIAL_SUCCESS ===
+2026-11-14 21:20:57,067 test.pipeline INFO === TEST START: ALIEXPRESS_RU ===
+2026-11-14 21:20:57,068 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 21:21:01,645 r52.collectors.aliexpress INFO ALI_RU: wholesale HTML OK, 817640 bytes, 4.6s
+2026-11-14 21:21:01,646 r52.collectors.aliexpress INFO ALI_RU: 12 card anchors found
+2026-11-14 21:21:01,647 r52.collectors.aliexpress INFO ALI_RU: HTML search found 12 products
+2026-11-14 21:21:01,648 r52.collectors.aliexpress INFO ALI_RU: collect_by_search 'тест' → 12 products
+2026-11-14 21:21:18,169 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76862B, 2.7s
+2026-11-14 21:21:18,174 r52.collectors.aliexpress INFO ALI parse: title=1/2/5PCS ANCEL BM200 PRO Tester per batterie auto , prices=0, avail=UNKNOWN, media=1
+2026-11-14 21:21:18,174 test.pipeline INFO === TEST PASS: ALIEXPRESS_RU (21.1s) search=12 valid=12 price=True product=PARTIAL_SUCCESS ===
+2026-11-14 21:21:19,175 test.pipeline INFO === TEST START: INTAKE PIPELINE ===
+2026-11-14 21:21:19,248 r52.sources INFO Sources: зарегистрировано 6 сборщиков
+2026-11-14 21:21:19,287 r52.sources INFO Sources: БД синхронизирована (6 READY)
+2026-11-14 21:21:23,323 r52.intake INFO Во входящие добавлен файл jarvis-eye-auto-0a0b6a9c5d23f37345da5dfa5f181efda131c1b57e48cae6ce6d2e450e34b015.json: INVALID CARD_IDENTITY_NOT_CONFIRMED
+2026-11-14 21:21:25,302 test.pipeline INFO === TEST PARTIAL: INTAKE (6.1s) intake=2 inbox=1 product=None obs=None ===
+2026-11-14 21:21:25,307 r52.service INFO Ядро R-52 остановлено
+2026-11-14 21:21:25,308 test.pipeline INFO ============================================================
+2026-11-14 21:21:25,308 test.pipeline INFO SUMMARY:
+2026-11-14 21:21:25,308 test.pipeline INFO   WB               FAIL  SEARCH_HTTP_403
+2026-11-14 21:21:25,308 test.pipeline INFO   OZON             PASS  168.2s
+2026-11-14 21:21:25,308 test.pipeline INFO   AVITO            FAIL  SEARCH_ACCESS_CHALLENGE
+2026-11-14 21:21:25,308 test.pipeline INFO   FARPOST          PASS  10.3s
+2026-11-14 21:21:25,308 test.pipeline INFO   ALIEXPRESS       PASS  18.1s
+2026-11-14 21:21:25,308 test.pipeline INFO   ALIEXPRESS_RU    PASS  21.1s
+2026-11-14 21:21:25,308 test.pipeline INFO   INTAKE           PARTIAL  6.1s
+2026-11-14 21:21:25,308 test.pipeline INFO Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\test_pipeline_report.json
+2026-11-14 21:43:37,142 test.pipeline INFO R-52 Full Pipeline Test — 6 sources + intake
+2026-11-14 21:43:37,143 test.pipeline INFO === TEST START: WB ===
+2026-11-14 21:43:37,616 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 21:43:37,617 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-14 21:43:38,526 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-14 21:43:41,565 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-14 21:43:42,499 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-14 21:43:52,919 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-14 21:44:04,434 r52.collectors.wb INFO WB search: JSON API failed (status=403), trying HTML fallback
+2026-11-14 21:44:16,397 test.pipeline ERROR === TEST FAIL: WB (39.2s) SEARCH_HTTP_403 ===
+2026-11-14 21:44:17,398 test.pipeline INFO === TEST START: OZON ===
+2026-11-14 21:44:17,399 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 21:44:19,035 r52.collectors.ozon INFO OZON warmup: HTTP 403
+2026-11-14 21:44:37,839 r52.collectors.ozon INFO OZON search: HTTP 403, retrying in 3s
+2026-11-14 21:44:43,756 r52.collectors.ozon INFO OZON search: page 2 passed (p1 was 403)
+2026-11-14 21:44:43,758 r52.collectors.ozon INFO OZON search: 17 product links found (pattern 1)
+2026-11-14 21:44:43,759 r52.collectors.ozon INFO OZON: collect_by_search 'тест' → 3 products
+2026-11-14 21:44:47,770 r52.collectors.ozon INFO OZON 6: v2 -> HTTP 403
+2026-11-14 21:45:04,452 r52.collectors.ozon INFO OZON 6: 6 -> HTTP 403
+2026-11-14 21:45:22,159 r52.collectors.ozon INFO OZON 6: v2 -> HTTP 403
+2026-11-14 21:45:22,861 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True, proxy=no)
+2026-11-14 21:45:35,887 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/6/ -> 403 (3305B, 13.0s)
+2026-11-14 21:45:35,891 r52.collectors.ozon INFO OZON 6: PW status=403 len=3305
+2026-11-14 23:43:12,401 test.pipeline INFO R-52 Full Pipeline Test — 6 sources + intake
+2026-11-14 23:43:12,401 test.pipeline INFO === TEST START: WB ===
+2026-11-14 23:43:12,926 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 23:43:12,927 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-14 23:43:13,839 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-14 23:43:16,849 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-14 23:43:17,874 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-14 23:43:39,352 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-14 23:43:53,711 r52.collectors.wb INFO WB search: global deadline reached, stopping
+2026-11-14 23:43:53,711 r52.collectors.wb INFO WB search: JSON API failed (status=403), trying HTML fallback
+2026-11-14 23:44:09,710 test.pipeline ERROR === TEST FAIL: WB (57.3s) SEARCH_HTTP_403 ===
+2026-11-14 23:44:10,711 test.pipeline INFO === TEST START: OZON ===
+2026-11-14 23:44:10,711 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 23:44:12,391 r52.collectors.ozon INFO OZON warmup: HTTP 403
+2026-11-14 23:44:27,314 r52.collectors.ozon INFO OZON search: HTTP 403, retrying in 3s
+2026-11-14 23:44:33,159 r52.collectors.ozon INFO OZON search: page 2 passed (p1 was 403)
+2026-11-14 23:44:33,162 r52.collectors.ozon INFO OZON search: 17 product links found (pattern 1)
+2026-11-14 23:44:33,164 r52.collectors.ozon INFO OZON: collect_by_search 'тест' → 3 products
+2026-11-14 23:44:35,419 r52.collectors.ozon INFO OZON 6: v2 -> HTTP 403
+2026-11-14 23:44:50,911 r52.collectors.ozon INFO OZON 6: 6 -> HTTP 403
+2026-11-14 23:45:03,785 r52.collectors.ozon INFO OZON 6: v2 -> HTTP 403
+2026-11-14 23:45:04,527 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True, proxy=no)
+2026-11-14 23:50:11,441 test.pipeline INFO R-52 Full Pipeline Test — 6 sources + intake
+2026-11-14 23:50:11,441 test.pipeline INFO === TEST START: WB ===
+2026-11-14 23:50:11,745 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 23:50:11,746 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-14 23:50:12,624 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-14 23:50:15,797 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-14 23:50:16,720 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-14 23:50:39,116 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-14 23:50:52,194 r52.collectors.wb INFO WB search: global deadline reached, stopping
+2026-11-14 23:50:52,194 r52.collectors.wb INFO WB search: JSON API failed (status=403), trying HTML fallback
+2026-11-14 23:51:03,120 test.pipeline ERROR === TEST FAIL: WB (51.7s) SEARCH_HTTP_403 ===
+2026-11-14 23:51:04,120 test.pipeline INFO === TEST START: OZON ===
+2026-11-14 23:51:04,121 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 23:51:05,097 r52.collectors.ozon INFO OZON warmup: HTTP 403
+2026-11-14 23:51:17,131 r52.collectors.ozon INFO OZON search: HTTP 403, retrying in 3s
+2026-11-14 23:51:22,373 r52.collectors.ozon INFO OZON search: page 2 passed (p1 was 403)
+2026-11-14 23:51:22,374 r52.collectors.ozon INFO OZON search: 17 product links found (pattern 1)
+2026-11-14 23:51:22,374 r52.collectors.ozon INFO OZON: collect_by_search 'тест' → 3 products
+2026-11-14 23:51:32,266 r52.collectors.ozon INFO OZON 6: v2 -> HTTP 403
+2026-11-14 23:51:49,774 r52.collectors.ozon INFO OZON 6: 6 -> HTTP 403
+2026-11-14 23:52:09,249 r52.collectors.ozon INFO OZON 6: v2 -> HTTP 403
+2026-11-14 23:52:09,840 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True, proxy=no)
+2026-11-14 23:52:22,839 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/6/ -> 403 (3305B, 13.0s)
+2026-11-14 23:52:22,844 r52.collectors.ozon INFO OZON 6: PW status=403 len=3305
+2026-11-14 23:52:27,572 r52.collectors.ozon INFO OZON 6: cffi HTTP status=403 len=8314
+2026-11-14 23:52:45,341 r52.collectors INFO OZON: HTTP 403, retry 1/3 через 13с
+2026-11-14 23:53:07,276 r52.collectors INFO OZON: HTTP 403, retry 2/3 через 24с
+2026-11-14 23:53:31,269 r52.collectors INFO OZON: HTTP 403, retry 3/3 через 41с
+2026-11-14 23:54:12,808 test.pipeline INFO === TEST PASS: OZON (188.7s) search=3 valid=3 price=True product=NO_RESULT ===
+2026-11-14 23:54:13,943 test.pipeline INFO === TEST START: AVITO ===
+2026-11-14 23:54:13,943 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 23:54:13,943 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-14 23:54:14,907 r52.collectors.avito INFO AVITO warmup m.avito.ru: HTTP 439
+2026-11-14 23:54:17,103 r52.collectors.avito INFO AVITO warmup www.avito.ru: HTTP 200
+2026-11-14 23:54:17,104 r52.collectors.avito INFO AVITO warmup: HTTP 200
+2026-11-14 23:54:30,690 r52.collectors.avito WARNING AVITO search: CAPTCHA/blocked (439) for 'тест'
+2026-11-14 23:54:30,692 r52.collectors.avito INFO AVITO: 439 → trying www.avito.ru desktop fallback
+2026-11-14 23:54:31,684 test.pipeline ERROR === TEST FAIL: AVITO (17.7s) SEARCH_ACCESS_CHALLENGE ===
+2026-11-14 23:54:32,685 test.pipeline INFO === TEST START: FARPOST ===
+2026-11-14 23:54:32,685 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 23:54:32,685 r52.collectors.farpost INFO FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-14 23:54:33,813 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-14 23:54:36,455 r52.collectors.farpost INFO FARPOST search: 50 bulletin links found
+2026-11-14 23:54:36,456 r52.collectors.farpost INFO FARPOST: collect_by_search 'тест' → 3 products
+2026-11-14 23:54:45,331 test.pipeline INFO === TEST PASS: FARPOST (12.6s) search=3 valid=3 price=False product=FULL_SUCCESS ===
+2026-11-14 23:54:46,333 test.pipeline INFO === TEST START: ALIEXPRESS ===
+2026-11-14 23:54:46,334 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 23:54:50,780 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML OK, 811416 bytes, 4.4s
+2026-11-14 23:54:50,781 r52.collectors.aliexpress INFO ALI: 12 card anchors found
+2026-11-14 23:54:50,784 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML → 3 items
+2026-11-14 23:54:58,065 r52.collectors.aliexpress INFO ALI_COM: curl_cffi OK, 76860 bytes, 2.7s
+2026-11-14 23:54:58,072 r52.collectors.aliexpress INFO ALI parse: title=1/2/5PCS ANCEL BM200 PRO Tester per batterie auto , prices=0, avail=UNKNOWN, media=1
+2026-11-14 23:54:58,072 test.pipeline INFO === TEST PASS: ALIEXPRESS (11.7s) search=3 valid=3 price=True product=PARTIAL_SUCCESS ===
+2026-11-14 23:54:59,073 test.pipeline INFO === TEST START: ALIEXPRESS_RU ===
+2026-11-14 23:54:59,073 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-14 23:55:03,706 r52.collectors.aliexpress INFO ALI_RU: wholesale HTML OK, 718925 bytes, 4.6s
+2026-11-14 23:55:03,707 r52.collectors.aliexpress INFO ALI_RU: 12 card anchors found
+2026-11-14 23:55:03,709 r52.collectors.aliexpress INFO ALI_RU: HTML search found 12 products
+2026-11-14 23:55:03,709 r52.collectors.aliexpress INFO ALI_RU: collect_by_search 'тест' → 12 products
+2026-11-14 23:55:17,263 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76863B, 2.7s
+2026-11-14 23:55:17,268 r52.collectors.aliexpress INFO ALI parse: title=1/2/5PCS ANCEL BM200 PRO Tester per batterie auto , prices=0, avail=UNKNOWN, media=1
+2026-11-14 23:55:17,268 test.pipeline INFO === TEST PASS: ALIEXPRESS_RU (18.2s) search=12 valid=12 price=True product=PARTIAL_SUCCESS ===
+2026-11-14 23:55:18,269 test.pipeline INFO === TEST START: INTAKE PIPELINE ===
+2026-11-14 23:55:18,371 r52.sources INFO Sources: зарегистрировано 6 сборщиков
+2026-11-14 23:55:18,425 r52.sources INFO Sources: БД синхронизирована (6 READY)
+2026-11-14 23:55:22,463 r52.intake INFO Во входящие добавлен файл jarvis-eye-auto-9c36063bdb991c37ada9a42e750c343f229d6b78ee4d0b2136c521b6d3612604.json: PENDING 
+2026-11-14 23:55:24,452 test.pipeline INFO === TEST PASS: INTAKE (6.2s) intake=3 inbox=1 product=3 obs=3 ===
+2026-11-14 23:55:24,456 r52.service INFO Ядро R-52 остановлено
+2026-11-14 23:55:24,456 test.pipeline INFO ============================================================
+2026-11-14 23:55:24,456 test.pipeline INFO SUMMARY:
+2026-11-14 23:55:24,456 test.pipeline INFO   WB               FAIL  SEARCH_HTTP_403
+2026-11-14 23:55:24,456 test.pipeline INFO   OZON             PASS  188.7s
+2026-11-14 23:55:24,456 test.pipeline INFO   AVITO            FAIL  SEARCH_ACCESS_CHALLENGE
+2026-11-14 23:55:24,456 test.pipeline INFO   FARPOST          PASS  12.6s
+2026-11-14 23:55:24,456 test.pipeline INFO   ALIEXPRESS       PASS  11.7s
+2026-11-14 23:55:24,456 test.pipeline INFO   ALIEXPRESS_RU    PASS  18.2s
+2026-11-14 23:55:24,456 test.pipeline INFO   INTAKE           PASS  6.2s
+2026-11-14 23:55:24,457 test.pipeline INFO Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\test_pipeline_report.json

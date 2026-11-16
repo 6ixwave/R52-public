@@ -1,0 +1,94 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Monitor Portatile Amoudo 15.6 Pollici 1920x1080P, Pannello LCD IPS, Display Estensibile, VESA, USBC, Mini HDMI",
+        "method": "PW_META",
+        "evidence": {
+          "method": "PW_META",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sbbde9671f1804732b861a3096a962165c.png_220x220.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S42adafcd726e41969651ce5d155694bax.png_220x220.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S4a2c079d7db346bba8291371257052c7P.png_220x220.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S016cd0007a7a4799bfad2f9442a8efa1T.png_220x220.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf321018f7c9f4752b8e6c7068853e45ab.png_220x220.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S9c8e5afd31d646caaa4d8acd7ef88731r.png_220x220.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S3ec8009f6989415cb66352570d055f50B.png_220x220.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S39d4827ff6994be38d5dcdceb020859by.png_220x220.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sbbde9671f1804732b861a3096a962165c.png_960x960.png_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005013031421695",
+    "url": "https://www.aliexpress.com/item/1005013031421695.html",
+    "observed_at": "2026-11-15T20:26:45.000381+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Лот из 6 видеокарт на запчасти под восстановление",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Другие комплектующие для компьютера. Цена: 3 500&#8381;. Б/у. В наличии. Состояние и особенности: Симптом у карт — при включении нет картинки (не паялись, в сервисах не копались) Все системы охлаждения, медные и пассивные радиаторы, вентиляторы и разъемы на месте и в хорошем состоянии Отличный вариант для мастеров по ремонту ПК, любителей экспериментов с восстановлением или на разбор ради живых кулеров и радиаторов Продаю только всё вместе одним лотом, без поштучного разбора и без возвратов (цена выходит вс... Владивосток",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Техника > Компьютерная техника и периферия > Комплектующие > Прочие комплектующие > Запчасти для ноутбуков",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Б/у"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller": {
+        "status": "KNOWN",
+        "value": "ВостокАрт",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller_url": {
+        "status": "KNOWN",
+        "value": "https://www.farpost.ru/user/mastervostok/",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "139166358",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 350000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "3500.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1794468209044_bulletin",
+          "image_data": null,
+          "alt": "Видеокарты для ноутбуков. фото",
+          "label": "",
+          "is_main": true,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1794468209701_bulletin",
+          "image_data": null,
+          "alt": "Видеокарты для ноутбуков. фото",
+          "label": "",
+          "is_main": false,
+          "width": 960,
+          "height": 1280
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Техника > Компьютерная техника и периферия > Комплектующие > Прочие комплектующие > Запчасти для ноутбуков",
+    "source": "FARPOST",
+    "id": "139166358",
+    "url": "https://www.farpost.ru/vladivostok/139166358.html",
+    "observed_at": "2026-11-15T02:40:21.875686+10:00",
+    "status": "FULL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

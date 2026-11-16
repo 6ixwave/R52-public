@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шапка зимняя детская для мальчика с помпоном и снудом",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "РусБубон",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Шапка детская зимняя со снудом — тёплый вязаный комплект для мальчика и для девочки на морозную погоду, температурный режим от −5 до −25 °C. Подходит детям от 6 месяцев до 10 лет: на 1 год, 2 года, 3 года, 4, 5, 6, 7, 8, 9 и 10 лет. Размер удобно выбрать по возрасту и обхвату головы.\n\nЗимняя шапка связана крупным рубчиком из мягкой пряжи (акрил 100%). Внутри подкладка из натурального хлопка и утеплитель синтепон. Отворот и закрытые уши защищают от ветра, а завязки надёжно держат шапку на голове во время игр и прогулок.\n\nСверху большой пышный бубон из искусственного меха, сбоку небольшая нашивка с оленем. В комплект входит тёплый снуд в 2 оборота: он хорошо тянется, не колется и плотно закрывает шею. Его удобно носить под курткой или поверх неё.\n\nКомплект шапка и снуд подойдёт для прогулок, детского сада и школы, а также станет хорошим подарком ребёнку на зиму.\n\nУход: бережная стирка при температуре не выше 30 °C.\n\nШапка подойдёт, если вы ищете: шапка для мальчика, шапка зимняя для мальчика, шапка для мальчика осень, зимняя шапка для мальчика.\n\nПоисковые запросы: шапка зимняя для мальчиков; шапка зима для мальчика; шапка зимняя на мальчика; шапка для мальчика зима; шапка детская зимняя для мальчика; шапка зимняя для подростка мальчика; зимние шапки для мальчиков",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Головные уборы > Шапки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 284500,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "2845.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 128000,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1280.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Головные уборы > Шапки",
+    "source": "WB",
+    "id": "120477816",
+    "url": "https://www.wildberries.ru/catalog/120477816/detail.aspx",
+    "observed_at": "2026-11-17T01:32:19.521660+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

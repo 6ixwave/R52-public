@@ -1,0 +1,71 @@
+2026-11-13T12:41:24.539+00:00 INFO r52.service [MainThread] Ядро R-52 2.12.0 запущено на 127.0.0.1:8423
+2026-11-13T12:41:25.540+00:00 INFO r52.collectors.proxy [MainThread] Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13T12:41:25.541+00:00 INFO r52.collectors.wb [MainThread] WB: curl_cffi доступен (impersonate=chrome)
+2026-11-13T12:42:03.838+00:00 INFO r52.collectors.wb [MainThread] WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-13T12:42:06.523+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-13T12:42:09.388+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price card_v1 -> 403
+2026-11-13T12:42:13.352+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price card_v2 -> 403
+2026-11-13T12:42:16.954+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price card_v4 -> 403
+2026-11-13T12:42:20.387+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price card_v5 -> 403
+2026-11-13T12:42:22.595+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price catalog_v1 -> 403
+2026-11-13T12:42:26.079+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price catalog_v2 -> 403
+2026-11-13T12:42:27.058+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price web_api -> 498
+2026-11-13T12:42:30.613+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price search_wb -> 403
+2026-11-13T12:42:30.613+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price — все эндпоинты не дали данных
+2026-11-13T12:42:40.136+00:00 INFO r52.collectors.wb [MainThread] WB HTML: HTTP 498
+2026-11-13T12:42:40.136+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: photo_count=6, found=1
+2026-11-13T12:42:40.136+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: has_video=true, видео не найдено
+2026-11-13T12:42:42.728+00:00 INFO r52.intake [r52-intake] Во входящие добавлен файл jarvis-eye-wb-e2e4.json: PENDING 
+2026-11-13T12:42:47.159+00:00 DEBUG r52.api [Thread-1 (process_request_thread)] 127.0.0.1 "GET /api/status HTTP/1.1" 200 -
+2026-11-13T12:42:47.166+00:00 DEBUG r52.api [Thread-2 (process_request_thread)] 127.0.0.1 "GET /api/inbox HTTP/1.1" 200 -
+2026-11-13T12:42:47.177+00:00 DEBUG r52.api [Thread-3 (process_request_thread)] 127.0.0.1 "POST /api/inbox/3/accept HTTP/1.1" 200 -
+2026-11-13T12:42:47.197+00:00 DEBUG r52.api [Thread-4 (process_request_thread)] 127.0.0.1 "POST /api/inbox/2/accept HTTP/1.1" 200 -
+2026-11-13T12:42:47.225+00:00 DEBUG r52.api [Thread-5 (process_request_thread)] 127.0.0.1 "POST /api/inbox/1/accept HTTP/1.1" 200 -
+2026-11-13T12:42:47.229+00:00 DEBUG r52.api [Thread-6 (process_request_thread)] 127.0.0.1 "GET /api/products HTTP/1.1" 200 -
+2026-11-13T12:42:47.727+00:00 INFO r52.service [MainThread] Ядро R-52 остановлено
+============================================================
+E2E v4: R-52 Pipeline (WB + token API)
+============================================================
+
+[1] Config...
+  port=8423, intake=C:/Users/aleks/.local/share/r52/intake_test
+
+[2] Server...
+  port=8423, running=True, health=True
+  token=[REDACTED_AUTH_SECRET]
+
+[3] Collecting WB...
+  WB: status=PARTIAL_SUCCESS, title=?
+
+[4] Writing to intake...
+  jarvis-eye-wb-e2e4.json (7744B)
+
+[5] Waiting 7s for FolderWatcher...
+
+[6] API queries...
+  DB: products=0, obs=0, prices=0
+  Inbox: 3 items
+    id=3 [PENDING] jarvis-eye-wb-e2e4.json title=Овсяный смарт коктейль для похудения без price=Цена неизвестна
+    id=2 [PENDING] jarvis-eye-wb-e2e3.json title=Овсяный смарт коктейль для похудения без price=Цена неизвестна
+    id=1 [PENDING] jarvis-eye-wb-e2e3.json title=Овсяный смарт коктейль для похудения без price=Цена неизвестна
+
+[7] Accepting inbox items...
+  Accepted id=3: product_id=1, obs_created=True
+  Accepted id=2: product_id=1, obs_created=True
+  Accepted id=1: product_id=1, obs_created=True
+
+[8] Products after accept...
+  Products: 1 total
+    id=1 src=WB listing=199298871 title=Овсяный смарт коктейль для похудения без сахара
+
+============================================================
+E2E v4 SUMMARY
+============================================================
+  WB collected:      Y
+  WB in inbox:       Y
+  WB in products:    Y
+  API with token:    [REDACTED_AUTH_SECRET]
+============================================================
+
+[9] Stopping...
+DONE

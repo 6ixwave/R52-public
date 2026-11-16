@@ -1,0 +1,85 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Наматрасник 90х200 непромокаемый на резинке с бортами",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "ОТКРУС",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Наматрасник 90х200 — это непромокаемое и водонепроницаемое решение для защиты вашего матраса. Его основа выполнена из материала мулетон, который не только эффективно защищает от влаги, но и отличается повышенной износостойкостью. Мягкое махровое покрытие создаёт комфортный сон, а дышащая структура обеспечивает циркуляцию воздуха, предотвращая перегрев. Антискользящая поверхность и борта высотой 30 см создают надёжную фиксацию на матрасе, исключая его смещение. Наматрасник идеально подходит для двуспальных и односпальных кроватей, детских кроваток и диванов, обеспечивая защиту от пятен и других загрязнений, продлевая срок службы матраса. Уход за наматрасником прост — его можно стирать в машинке, и он быстро сохнет, сохраняя свои свойства даже после множества стирок. Универсальный дизайн позволяет использовать его для любых типов матрасов, включая кроватки новорожденных. Защитите свой матрас и обеспечьте себе комфортный и спокойный сон с нашим водонепроницаемым наматрасником из материала мулетон.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Текстиль для дома > Наматрасники",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 275100,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "2751.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 46700,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "467.00",
+        "visible_label": "price_api.product"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 1,
+        "currency": "RUB",
+        "label": "price_api.cashback",
+        "amount": "0.01",
+        "visible_label": "price_api.cashback"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Текстиль для дома > Наматрасники",
+    "source": "WB",
+    "id": "39405141",
+    "url": "https://www.wildberries.ru/catalog/39405141/detail.aspx",
+    "observed_at": "2026-11-17T01:44:11.599907+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

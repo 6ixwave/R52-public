@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Laptop da Gaming 15,6'' Intel Core I9 10980Hk Windows 11 16Gb Ram 1Tb 2Tb Ssd Sblocco con Impronta Digitale Computer Retroilluminato Laptop da Ufficio",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "225.05",
+        "amount_minor": 22505,
+        "currency": "EUR",
+        "visible_label": "225.05 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "176.34",
+        "amount_minor": 17634,
+        "currency": "EUR",
+        "visible_label": "176.34 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/A74e8e398b5e4406a9b3d26f87f539d51Q.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013182349018",
+    "url": "https://ru.aliexpress.com/item/1005013182349018.html",
+    "observed_at": "2026-11-14T03:06:08.935200+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

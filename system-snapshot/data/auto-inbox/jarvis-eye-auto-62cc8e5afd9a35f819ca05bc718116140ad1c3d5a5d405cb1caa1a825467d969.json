@@ -1,0 +1,41 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "OZON",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "OZON-4745904585",
+        "method": "SEARCH_HTML",
+        "evidence": {
+          "method": "SEARCH_HTML",
+          "source": "OZON"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ir.ozone.ru/s3/multimedia-1-v/wc500/11568317647.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "OZON",
+    "id": "4745904585",
+    "listing_id": "4745904585",
+    "title": "OZON-4745904585",
+    "url": "https://www.ozon.ru/product/4745904585/",
+    "observed_at": "2026-11-16T04:18:33.075482+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

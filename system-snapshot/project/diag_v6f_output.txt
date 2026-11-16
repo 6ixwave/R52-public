@@ -1,0 +1,66 @@
+=== diag_v6f — 2026-11-14 11:51:18 ===
+Query: 'наушники'
+
+── Cooldown 20s ──
+── OZON: deep HTML analysis ──
+  HTTP 403, 8489 bytes, 1.1s
+  Final URL: https://www.ozon.ru/search/?text=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8&from_global=true&page=1&__rr=1
+  Title: Antibot Challenge Page
+  Pattern hits:
+    antibot: 1
+    challenge: 10
+    fab-chlg: 3
+    ozone.ru/s3/abt: 3
+  /product/ IDs: 0 (first 5: [])
+  data-tid: 0 (first 5: [])
+  JSON script blocks: 0
+  --- HTML head (first 3000 chars) ---
+    
+    
+        
+    
+    <!DOCTYPE html><html lang="ru"><head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+      <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+      <link rel="stylesheet" href="https://cdn2.ozone.ru/s3/abt-challenge/incidents/styles_v2/common.css">
+      <title>Antibot Challenge Page</title>
+      <link rel="stylesheet" href="https://cdn2.ozone.ru/s3/abt-challenge/style_v47_2.css">
+    </head>
+    
+    <body>
+      <noscript>
+        <div class="container">
+          <div class="message">
+            <div class="variant">
+              <h2 class="h2">Пожалуйста, включите JavaScript для продолжения</h2>
+              <span class="subtitle">Нам нужно убедиться, что вы не робот.</span>
+            </div>
+            <div class="variant" lang="en">
+              <h2 class="h2">Please, enable JavaScript to continue</h2>
+              <span class="subtitle">We need to make sure that you are not a robot.</span>
+            </div>
+          </div>
+          <div class="details">
+            <span class="details-text"><b>ID:</b> fab_chlg_20261114015144_01M7BW1QYD5X38MFX1NYT4WCAK</span>,
+            <span class="details-text"><b>IP:</b> 82.162.122.156</span>,
+            <span class="details-text">Saturday, 14-Nov-2026 01:51:44 UTC</span>
+          </div>
+        </div>
+      </noscript>
+      <div class="container" id="container">
+        <div class="content" id="content">
+          <input id="challenge" type="hidden" value="LgKNDdfMixmYWJfY2hsZ18yMDI2MTExNDAxNTE0NF8wMU03QlcxUVlENVgzOE1GWDFOWVQ0V0NBSyxzYzpHMXJmc3dRVk01X0xTbHNOZFd6QjdR
+  Saved full HTML to: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\ozon_315k_dump.html
+
+── FARPOST: v8b pagination ──
+  p1: ERR SearchError: SEARCH_ACCESS_CHALLENGE (3.9s)
+  p2: ERR SearchError: SEARCH_ACCESS_CHALLENGE (29.2s)
+  (not enough pages for overlap check)
+
+── AVITO: post-cooldown ──
+  (sleep 15s)
+  p1: SearchError: SEARCH_HTTP_429 (23.3s)
+
+=== DONE ===

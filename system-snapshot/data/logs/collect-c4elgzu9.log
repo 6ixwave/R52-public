@@ -1,0 +1,378 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 15:21:42,033 r52.autocollect.worker INFO phase=worker_start pid=28892
+2026-11-16 15:21:42,054 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-16 15:21:42,054 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 15:21:42,056 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 15:21:42,056 r52.autocollect.worker INFO source=WB listing=446653020 phase=collect_product_start
+2026-11-16 15:22:01,673 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-16 15:22:10,425 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 61 bodies, best 1781803B from https://static-basket-01.wbbasket.ru/vol2/site/app/c/mo-ui.84fe2be63e02dc4c.js
+2026-11-16 15:22:16,120 r52.collectors.pw_fetch INFO PwFetcher: https://www.wildberries.ru/catalog/446653020/detail.aspx -> 200 (1984252B, 5.7s)
+2026-11-16 15:22:16,239 r52.autocollect.worker INFO source=WB listing=446653020 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:22:16,239 r52.autocollect.worker INFO source=WB listing=829829020 phase=collect_product_start
+2026-11-16 15:22:37,433 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 225 bodies, best 10418B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+Timeout (0:01:00)!
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 100 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 234 in _fetch_html
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 201 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 15:22:47,383 r52.autocollect.worker INFO source=WB listing=829829020 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:22:47,383 r52.autocollect.worker INFO source=WB listing=1046149972 phase=collect_product_start
+2026-11-16 15:23:09,535 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 221 bodies, best 1965B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:23:20,937 r52.autocollect.worker INFO source=WB listing=1046149972 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:23:20,937 r52.autocollect.worker INFO source=WB listing=278827800 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 771 in _poll
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 445 in select
+  File "C:\Python315\Lib\asyncio\base_events.py", line 2032 in _run_once
+  File "C:\Python315\Lib\asyncio\base_events.py", line 682 in run_forever
+  File "C:\Python315\Lib\asyncio\base_events.py", line 711 in run_until_complete
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\sync_api\_context_manager.py", line 60 in greenlet_main
+2026-11-16 15:23:43,630 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 233 bodies, best 1859B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:23:53,873 r52.autocollect.worker INFO source=WB listing=278827800 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:23:53,873 r52.autocollect.worker INFO source=WB listing=619204389 phase=collect_product_start
+2026-11-16 15:24:15,666 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 212 bodies, best 5008B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:24:16,595 r52.autocollect.worker INFO source=WB listing=619204389 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:24:16,596 r52.autocollect.worker INFO source=WB listing=58120161 phase=collect_product_start
+2026-11-16 15:24:26,068 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 229 bodies, best 1646B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:24:27,982 r52.autocollect.worker INFO source=WB listing=58120161 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:24:27,982 r52.autocollect.worker INFO source=WB listing=584804611 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 95 in _fast_throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 99 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 221 in _fetch_price
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 191 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 15:24:49,373 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 214 bodies, best 8609B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:24:53,947 r52.autocollect.worker INFO source=WB listing=584804611 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:24:53,947 r52.autocollect.worker INFO source=WB listing=991056121 phase=collect_product_start
+2026-11-16 15:25:15,469 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 220 bodies, best 8674B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:25:18,824 r52.autocollect.worker INFO source=WB listing=991056121 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:25:18,825 r52.autocollect.worker INFO source=WB listing=1097975275 phase=collect_product_start
+2026-11-16 15:25:39,519 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 206 bodies, best 604B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+Timeout (0:01:00)!
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 100 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 234 in _fetch_html
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 201 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 15:25:47,711 r52.autocollect.worker INFO source=WB listing=1097975275 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:25:47,711 r52.autocollect.worker INFO source=WB listing=273878706 phase=collect_product_start
+2026-11-16 15:25:58,517 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 228 bodies, best 1542B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:25:59,492 r52.autocollect.worker INFO source=WB listing=273878706 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:25:59,492 r52.autocollect.worker INFO source=WB listing=175367528 phase=collect_product_start
+2026-11-16 15:26:09,032 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 231 bodies, best 1814B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:26:15,198 r52.autocollect.worker INFO source=WB listing=175367528 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:26:15,198 r52.autocollect.worker INFO source=WB listing=17195801 phase=collect_product_start
+2026-11-16 15:26:25,178 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 226 bodies, best 11731B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:26:31,995 r52.autocollect.worker INFO source=WB listing=17195801 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:26:31,995 r52.autocollect.worker INFO source=WB listing=120477816 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 771 in _poll
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 445 in select
+  File "C:\Python315\Lib\asyncio\base_events.py", line 2032 in _run_once
+  File "C:\Python315\Lib\asyncio\base_events.py", line 682 in run_forever
+  File "C:\Python315\Lib\asyncio\base_events.py", line 711 in run_until_complete
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\sync_api\_context_manager.py", line 60 in greenlet_main
+2026-11-16 15:26:42,845 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 220 bodies, best 4129B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:26:46,646 r52.autocollect.worker INFO source=WB listing=120477816 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:26:46,646 r52.autocollect.worker INFO source=WB listing=255059226 phase=collect_product_start
+2026-11-16 15:26:57,402 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 219 bodies, best 3569B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:27:09,076 r52.autocollect.worker INFO source=WB listing=255059226 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:27:09,076 r52.autocollect.worker INFO source=WB listing=163375828 phase=collect_product_start
+2026-11-16 15:27:20,565 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 226 bodies, best 1702B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:27:23,211 r52.autocollect.worker INFO source=WB listing=163375828 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:27:23,211 r52.autocollect.worker INFO source=WB listing=201401324 phase=collect_product_start
+2026-11-16 15:27:34,246 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 234 bodies, best 2094B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+Timeout (0:01:00)!
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 100 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 234 in _fetch_html
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 201 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 15:27:44,284 r52.autocollect.worker INFO source=WB listing=201401324 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:27:44,284 r52.autocollect.worker INFO source=WB listing=776430014 phase=collect_product_start
+2026-11-16 15:28:05,843 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 210 bodies, best 1430B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:28:10,142 r52.autocollect.worker INFO source=WB listing=776430014 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:28:10,142 r52.autocollect.worker INFO source=WB listing=952441785 phase=collect_product_start
+2026-11-16 15:28:31,200 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 224 bodies, best 2020B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+Timeout (0:01:00)!
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 107 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 234 in _fetch_html
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 201 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 15:28:42,872 r52.autocollect.worker INFO source=WB listing=952441785 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:28:42,872 r52.autocollect.worker INFO source=WB listing=181599806 phase=collect_product_start
+2026-11-16 15:28:53,897 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 209 bodies, best 7364B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:29:01,203 r52.autocollect.worker INFO source=WB listing=181599806 phase=collect_product_return status=DEGRADED
+2026-11-16 15:29:01,204 r52.autocollect.worker INFO source=WB listing=163851554 phase=collect_product_start
+2026-11-16 15:29:11,772 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 227 bodies, best 8896B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:29:23,666 r52.autocollect.worker INFO source=WB listing=163851554 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:29:23,666 r52.autocollect.worker INFO source=WB listing=14747538 phase=collect_product_start
+2026-11-16 15:29:33,877 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 219 bodies, best 1958B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:29:40,668 r52.autocollect.worker INFO source=WB listing=14747538 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:29:40,669 r52.autocollect.worker INFO source=WB listing=177630236 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 107 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 119 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 190 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 15:29:51,586 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 218 bodies, best 1878B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:30:00,046 r52.autocollect.worker INFO source=WB listing=177630236 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:30:00,046 r52.autocollect.worker INFO source=WB listing=204102059 phase=collect_product_start
+2026-11-16 15:30:10,323 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 224 bodies, best 1692B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:30:24,376 r52.autocollect.worker INFO source=WB listing=204102059 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:30:24,376 r52.autocollect.worker INFO source=WB listing=222002219 phase=collect_product_start
+2026-11-16 15:30:34,098 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 218 bodies, best 1897B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:30:35,373 r52.autocollect.worker INFO source=WB listing=222002219 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:30:35,374 r52.autocollect.worker INFO source=WB listing=1537082855 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x00003534 [ThreadPoolExecutor-24_9] (most recent call first):
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000063ac [ThreadPoolExecutor-24_8] (most recent call first):
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000028bc [ThreadPoolExecutor-24_7] (most recent call first):
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00007fdc [ThreadPoolExecutor-24_6] (most recent call first):
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00003c34 [ThreadPoolExecutor-24_5] (most recent call first):
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00002a8c [ThreadPoolExecutor-24_4] (most recent call first):
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000055a4 [ThreadPoolExecutor-24_3] (most recent call first):
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00002c68 [ThreadPoolExecutor-24_2] (most recent call first):
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000748c [ThreadPoolExecutor-24_1] (most recent call first):
+  File "C:\Python315\Lib\socket.py", line 998 in getaddrinfo
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\connection.py", line 60 in create_connection
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 239 in _new_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 827 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 136 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004cec [ThreadPoolExecutor-24_0] (most recent call first):
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Python315\Lib\threading.py", line 363 in wait
+  File "C:\Python315\Lib\threading.py", line 665 in wait
+  File "C:\Python315\Lib\concurrent\futures\_base.py", line 237 in as_completed
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 144 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 117 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 190 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 15:30:55,724 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 222 bodies, best 1736B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:31:02,049 r52.autocollect.worker INFO source=WB listing=1537082855 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:31:02,049 r52.autocollect.worker INFO source=WB listing=14890618 phase=collect_product_start
+2026-11-16 15:31:12,694 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 225 bodies, best 9576B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:31:20,817 r52.autocollect.worker INFO source=WB listing=14890618 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:31:20,817 r52.autocollect.worker INFO source=WB listing=2833871 phase=collect_product_start
+2026-11-16 15:31:30,824 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 225 bodies, best 1861B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:31:30,967 r52.autocollect.worker INFO source=WB listing=2833871 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:31:30,967 r52.autocollect.worker INFO source=WB listing=217297881 phase=collect_product_start
+2026-11-16 15:31:41,815 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 219 bodies, best 1785B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+Timeout (0:01:00)!
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 100 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 234 in _fetch_html
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 201 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 15:31:47,013 r52.autocollect.worker INFO source=WB listing=217297881 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:31:47,013 r52.autocollect.worker INFO source=WB listing=120526046 phase=collect_product_start
+2026-11-16 15:31:56,909 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 224 bodies, best 4234B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:31:57,054 r52.autocollect.worker INFO source=WB listing=120526046 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:31:57,054 r52.autocollect.worker INFO source=WB listing=463395546 phase=collect_product_start
+2026-11-16 15:32:18,431 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 222 bodies, best 1571B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:32:28,175 r52.autocollect.worker INFO source=WB listing=463395546 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:32:28,175 r52.autocollect.worker INFO source=WB listing=1475428055 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x000052c4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000557c (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 107 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 221 in _fetch_price
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 191 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 15:32:49,848 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 209 bodies, best 1888B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 15:32:51,081 r52.autocollect.worker INFO source=WB listing=1475428055 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 15:32:51,082 r52.autocollect.worker INFO source=WB listing=26950668 phase=collect_product_start
+2026-11-16 15:33:01,481 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 220 bodies, best 1842B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&

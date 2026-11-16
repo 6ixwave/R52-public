@@ -1,0 +1,28 @@
+2026-11-12 05:51:11,682 e2e_all4 INFO === E2E ALL4 START ===
+2026-11-12 05:51:11,682 e2e_all4 INFO IDs: {'WB': '100000001', 'OZON': '1234567890', 'AVITO': '1234567890', 'FARPOST': '139122082'}
+2026-11-12 05:51:11,682 e2e_all4 INFO --- Testing WB (id=100000001) ---
+2026-11-12 05:51:11,863 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 05:51:12,026 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-12 05:51:12,027 e2e_all4 INFO [WB] URL: https://www.wildberries.ru/catalog/100000001/detail.aspx
+2026-11-12 05:51:25,804 r52.collectors.wb INFO WB: vol=1000 -> basket-05.wbbasket.ru (nm_id=100000001)
+2026-11-12 05:51:28,777 r52.collectors.wb INFO WB 100000001: card.json OK (17 keys, 5066B)
+2026-11-12 05:51:31,474 r52.collectors.wb INFO WB 100000001: price card_v1 -> 403
+2026-11-12 05:51:34,761 r52.collectors.wb INFO WB 100000001: price card_v2 -> 403
+2026-11-12 05:51:37,517 r52.collectors.wb INFO WB 100000001: price card_v4 -> 403
+2026-11-12 05:51:41,359 r52.collectors.wb INFO WB 100000001: price card_v5 -> 403
+2026-11-12 05:51:44,203 r52.collectors.wb INFO WB 100000001: price catalog_v1 -> 403
+2026-11-12 05:51:47,652 r52.collectors.wb INFO WB 100000001: price catalog_v2 -> 403
+2026-11-12 05:51:51,206 r52.collectors.wb INFO WB 100000001: price web_api -> 498
+2026-11-12 05:51:51,206 r52.collectors.wb INFO WB 100000001: price — все эндпоинты не дали данных
+2026-11-12 05:52:06,757 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-12 05:52:06,757 r52.collectors.wb INFO WB 100000001: photo_count=3, found=1
+2026-11-12 05:52:06,766 e2e_all4 INFO [WB] OK: title='Белизна отбеливатель средство для уборки' prices=0 media=1 stats={'requests': 14, 'success': 2, 'failed': 4, 'blocked': 8}
+2026-11-12 05:52:08,767 e2e_all4 INFO --- Testing OZON (id=1234567890) ---
+2026-11-12 05:52:08,768 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 05:52:08,768 e2e_all4 INFO [OZON] URL: https://www.ozon.ru/product/1234567890/
+2026-11-12 05:52:09,380 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True)
+2026-11-12 05:52:22,476 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/1234567890/ -> 403 (3307B, 13.1s)
+2026-11-12 05:52:22,480 r52.collectors.ozon INFO OZON 1234567890: PW status=403 len=3307
+2026-11-12 05:52:22,988 r52.collectors INFO OZON: HTTP 403, retry 1/3 через 11с
+2026-11-12 05:52:39,380 r52.collectors INFO OZON: HTTP 403, retry 2/3 через 20с
+2026-11-12 05:52:59,886 r52.collectors INFO OZON: HTTP 403, retry 3/3 через 42с

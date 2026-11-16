@@ -1,0 +1,50 @@
+=== diag_v6n — 2026-11-14 12:24:30 ===
+
+HTML: 752841 bytes
+Parsed: 12 products
+
+--- Product[0] ---
+  item_id: 1005013565057281
+  title: 'HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per'
+  price: 521.39
+  original_price: None
+  currency: EUR
+  images: 1
+
+--- Product[1] ---
+  item_id: 1005013569410352
+  title: 'Cuffie wireless con archetto, che offrono un suono stereo ni'
+  price: 14.78
+  original_price: None
+  currency: EUR
+  images: 1
+
+--- Product[2] ---
+  item_id: 1005013582572287
+  title: 'Cuffie wireless con archetto, cuscinetti auricolari in pelle'
+  price: 31.9
+  original_price: None
+  currency: EUR
+  images: 1
+
+============================================================
+MANUAL TRACE: card[0] price extraction steps
+============================================================
+Card length: 5191
+href: //it.aliexpress.com/item/1005013565057281.html?algo_pvid=87d79e7b-1dba-44e5-bc6f-911694995339&amp;al
+
+[Step 1] aria-label regex match: True
+  matched text: class="us--price--djLk2B_" aria-label="521,39€"
+  captured: '521,39€'
+  num_m: 521,39
+  after comma fix: '521.39'
+  float: 521.39
+
+[Step 2] DOM block match: True
+  inner (first 200): '<div class="us--price-sale--2AC5JCI"><span style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);clip-path:inset(50%);white-space:nowrap;border:0">5'
+  num_m: 2
+
+[Step 4] pdp_npi match: True
+  parts[:6]: ['6@dis', 'EUR', '685.96', '521.39', '', '']
+
+=== DONE ===

@@ -1,0 +1,42 @@
+{
+  "product_id": "1005010487474088",
+  "url": "https://www.aliexpress.com/item/1005010487474088.html",
+  "timestamp": "2026-11-13T02:46:11.823048",
+  "phase": "done",
+  "region": "US",
+  "cookies_set": "[REDACTED_AUTH_SECRET]",
+  "tmd_detected": false,
+  "tmd_handled": false,
+  "mtop_pdp_captured": false,
+  "mtop_responses": [],
+  "pdp_data": {
+    "source": "DOM_fallback",
+    "title": "",
+    "h1": null,
+    "price_text": null,
+    "result_keys": [
+      "DOM_ONLY"
+    ]
+  },
+  "errors": [],
+  "cookies_after": "[REDACTED_AUTH_SECRET]",
+  "log": [
+    "[02:46:12] Setting US cookies...",
+    "[02:46:13] Warming up: navigating to homepage...",
+    "[02:46:26] Homepage loaded, cookies warmed",
+    "[02:46:26] Checking for TMD...",
+    "[02:46:26] TMD frame found: https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____t (attempt 1)",
+    "[02:46:36] TMD frame found: https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____t (attempt 2)",
+    "[02:46:47] TMD frame found: https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____t (attempt 3)",
+    "[02:46:57] Navigating to product: https://www.aliexpress.com/item/1005010487474088.html",
+    "[02:46:58] Product page DOM loaded",
+    "[02:46:58] Waiting 12s for MTOP PDP...",
+    "[02:47:10] Checking for TMD...",
+    "[02:47:10] TMD frame found: https://www.aliexpress.com//item/1005010487474088.html/_____tmd_____/punish?x5secdata=xf3LIh-QI3V6Ee (attempt 1)",
+    "[02:47:20] TMD frame found: https://www.aliexpress.com//item/1005010487474088.html/_____tmd_____/punish?x5secdata=xf3LIh-QI3V6Ee (attempt 2)",
+    "[02:47:30] TMD frame found: https://www.aliexpress.com//item/1005010487474088.html/_____tmd_____/punish?x5secdata=xf3LIh-QI3V6Ee (attempt 3)",
+    "[02:47:40] No PDP MTOP captured. Trying DOM fallback...",
+    "[02:47:40] DOM: title=, h1=None, price=None",
+    "[02:47:40] Screenshot saved"
+  ]
+}

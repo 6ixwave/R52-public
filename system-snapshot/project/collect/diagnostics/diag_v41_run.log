@@ -1,0 +1,93 @@
+2026-11-11 05:31:29,568 [INFO] diag_v41: === DIAG V41: WB warmup + Avito stealth + Farpost discovery ===
+2026-11-11 05:31:30,310 [INFO] diag_v41: === WB: warmup + WBAAS ===
+2026-11-11 05:31:30,436 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:31:30,515 [INFO] diag_v41: WB warmup: https://www.wildberries.ru/
+2026-11-11 05:31:39,207 [INFO] diag_v41: WB warmup: 7590 B, title=...
+2026-11-11 05:31:39,207 [INFO] diag_v41: WB API(ctx) 199298871: https://card.wb.ru/cards/v2/detail?nm=199298871
+2026-11-11 05:31:39,659 [WARNING] diag_v41: WB API(ctx) 199298871: APIRequestContext.get: Parse Error: Expected HTTP/, RTSP/ or ICE/
+Call log:
+  - → GET https://card.wb.ru/cards/v2/detail?nm=199298871
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+    - accept: application/json, text/plain, */*
+    - accept-encoding: gzip,deflate,br
+    - Accept-Language: ru-RU,ru;q=0.9,en;q=0.8
+    - Referer: https://www.wildberries.ru/
+  - ← 403 Forbidden
+    - date: Tue, 10 Nov 2026 19:31:39 GMT
+    - content-type: text/plain
+    - connection: keep-alive
+    - status-no-id: PG-43-XC
+    - server: wbaas
+    - x-request-id: 8dca51c08f3b456402c67f89f14c0746
+    - report-to: { "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }
+    - nel: { "report_to": "nel", "max_age": 604800, "include_subdomains": false, "success_fraction": 0.0, "failure_fraction": 1.0 }
+    - strict-transport-security: max-age=31536000; preload; always
+    - x-content-type-options: nosniff
+    - x-frame-options: DENY always
+    - access-control-allow-methods: *
+    - access-control-allow-headers: *
+    - content-length: 0
+
+2026-11-11 05:31:41,660 [INFO] diag_v41: WB API(ctx) 1252522762: https://card.wb.ru/cards/v2/detail?nm=1252522762
+2026-11-11 05:31:42,024 [WARNING] diag_v41: WB API(ctx) 1252522762: APIRequestContext.get: Parse Error: Expected HTTP/, RTSP/ or ICE/
+Call log:
+  - → GET https://card.wb.ru/cards/v2/detail?nm=1252522762
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+    - accept: application/json, text/plain, */*
+    - accept-encoding: gzip,deflate,br
+    - Accept-Language: ru-RU,ru;q=0.9,en;q=0.8
+    - Referer: https://www.wildberries.ru/
+  - ← 403 Forbidden
+    - date: Tue, 10 Nov 2026 19:31:42 GMT
+    - content-type: text/plain
+    - connection: keep-alive
+    - status-no-id: PG-41-XC
+    - server: wbaas
+    - x-request-id: 7a8d563074cbd6b80bb685ffac24ebe9
+    - report-to: { "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }
+    - nel: { "report_to": "nel", "max_age": 604800, "include_subdomains": false, "success_fraction": 0.0, "failure_fraction": 1.0 }
+    - strict-transport-security: max-age=31536000; preload; always
+    - x-content-type-options: nosniff
+    - x-frame-options: DENY always
+    - access-control-allow-methods: *
+    - access-control-allow-headers: *
+    - content-length: 0
+
+2026-11-11 05:31:44,024 [INFO] diag_v41: WB HTML 199298871: https://www.wildberries.ru/catalog/199298871/detail.aspx
+2026-11-11 05:31:49,189 [INFO] diag_v41: WB HTML 199298871 round1: 7590 B, ch=True, 5.2s
+2026-11-11 05:31:54,199 [INFO] diag_v41: WB HTML 199298871 round2: 7590 B, ch=True, 10.2s
+2026-11-11 05:31:59,209 [INFO] diag_v41: WB HTML 199298871 round3: 7590 B, ch=True, 15.2s
+2026-11-11 05:32:04,225 [INFO] diag_v41: WB HTML 199298871 round4: 7590 B, ch=True, 20.2s
+2026-11-11 05:32:04,227 [INFO] diag_v41: WB HTML 199298871 final: 7590 B, ch=True, jl=False, 20.2s
+2026-11-11 05:32:07,228 [INFO] diag_v41: WB HTML 1252522762: https://www.wildberries.ru/catalog/1252522762/detail.aspx
+2026-11-11 05:32:12,399 [INFO] diag_v41: WB HTML 1252522762 round1: 7590 B, ch=True, 5.2s
+2026-11-11 05:32:17,415 [INFO] diag_v41: WB HTML 1252522762 round2: 7590 B, ch=True, 10.2s
+2026-11-11 05:32:22,426 [INFO] diag_v41: WB HTML 1252522762 round3: 7590 B, ch=True, 15.2s
+2026-11-11 05:32:27,434 [INFO] diag_v41: WB HTML 1252522762 round4: 7590 B, ch=True, 20.2s
+2026-11-11 05:32:27,435 [INFO] diag_v41: WB HTML 1252522762 final: 7590 B, ch=True, jl=False, 20.2s
+2026-11-11 05:32:30,446 [INFO] diag_v41: === AVITO: stealth + mobile ===
+2026-11-11 05:32:30,447 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:32:30,540 [INFO] diag_v41: AVITO disc_desktop: https://www.avito.ru/moskva/tech/notebooks
+2026-11-11 05:32:38,584 [INFO] diag_v41: AVITO disc_desktop: 36446 B, blocked=True, IDs=[]
+2026-11-11 05:32:41,585 [INFO] diag_v41: AVITO disc_mobile: https://m.avito.ru/moskva/tech/notebooks
+2026-11-11 05:32:49,502 [INFO] diag_v41: AVITO disc_mobile: 8172 B, blocked=False, IDs=[]
+2026-11-11 05:32:52,503 [INFO] diag_v41: AVITO: trying API via context.request
+2026-11-11 05:32:52,905 [INFO] diag_v41: AVITO api_search: 404, 555 B
+2026-11-11 05:32:55,271 [INFO] diag_v41: AVITO api_mobile: 404, 555 B
+2026-11-11 05:32:57,272 [WARNING] diag_v41: AVITO: fallback ID 1096783029
+2026-11-11 05:32:57,272 [INFO] diag_v41: AVITO card 1096783029: https://www.avito.ru/ad/1096783029
+2026-11-11 05:33:04,470 [INFO] diag_v41: AVITO 1096783029: 29378 B, bl=False 404=True jl=False pre=False
+2026-11-11 05:33:07,478 [INFO] diag_v41: === FARPOST: discovery + parse ===
+2026-11-11 05:33:07,478 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:33:07,552 [INFO] diag_v41: FARPOST cat: https://www.farpost.ru/telefony
+2026-11-11 05:33:14,108 [INFO] diag_v41: FARPOST cat telefony: 12869 B, IDs=[]
+2026-11-11 05:33:17,110 [INFO] diag_v41: FARPOST cat: https://www.farpost.ru/obshchie
+2026-11-11 05:33:22,443 [INFO] diag_v41: FARPOST cat obshchie: 13827 B, IDs=[]
+2026-11-11 05:33:25,444 [WARNING] diag_v41: FARPOST: no IDs, trying old ones as fallback
+2026-11-11 05:33:25,444 [INFO] diag_v41: FARPOST 137440009: https://www.farpost.ru/bulletin/137440009
+2026-11-11 05:33:30,667 [INFO] diag_v41: FARPOST 137440009: 13849 B, 404=True, jl=True, title=Страница не найдена
+2026-11-11 05:33:33,808 [INFO] diag_v41: === V41 done 124.2s -> diag_v41_results.json (6572 B) ===
+2026-11-11 05:33:33,808 [INFO] diag_v41: --- SUMMARY ---
+2026-11-11 05:33:33,808 [INFO] diag_v41: WB: {"api_199298871": "ERROR: APIRequestContext.get: Parse Error: Expected HTTP/, RTSP/ or ICE/\nCall log:\n  - → GET https://card.wb.ru/cards/v2/detail?nm=199298871\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\n    - accept: application/json, text/plain, */*\n    - accept-encoding: gzip,deflate,br\n    - Accept-Language: ru-RU,ru;q=0.9,en;q=0.8\n    - Referer: https://www.wildberries.ru/\n  - ← 403 Forbidden\n    - date: Tue, 10 Nov 2026 19:31:39 GMT\n    - content-type: text/plain\n    - connection: keep-alive\n    - status-no-id: PG-43-XC\n    - server: wbaas\n    - x-request-id: 8dca51c08f3b456402c67f89f14c0746\n    - report-to: { \"group\": \"nel\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/reports\"}] }, { \"group\": \"csp\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/csp\"}] }\n    - nel: { \"report_to\": \"nel\", \"max_age\": 604800, \"include_subdomains\": false, \"success_fraction\": 0.0, \"failure_fraction\": 1.0 }\n    - strict-transport-security: max-age=31536000; preload; always\n    - x-content-type-options: nosniff\n    - x-frame-options: DENY always\n    - access-control-allow-methods: *\n    - access-control-allow-headers: *\n    - content-length: 0\n", "api_1252522762": "ERROR: APIRequestContext.get: Parse Error: Expected HTTP/, RTSP/ or ICE/\nCall log:\n  - → GET https://card.wb.ru/cards/v2/detail?nm=1252522762\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\n    - accept: application/json, text/plain, */*\n    - accept-encoding: gzip,deflate,br\n    - Accept-Language: ru-RU,ru;q=0.9,en;q=0.8\n    - Referer: https://www.wildberries.ru/\n  - ← 403 Forbidden\n    - date: Tue, 10 Nov 2026 19:31:42 GMT\n    - content-type: text/plain\n    - connection: keep-alive\n    - status-no-id: PG-41-XC\n    - server: wbaas\n    - x-request-id: 7a8d563074cbd6b80bb685ffac24ebe9\n    - report-to: { \"group\": \"nel\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/reports\"}] }, { \"group\": \"csp\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/csp\"}] }\n    - nel: { \"report_to\": \"nel\", \"max_age\": 604800, \"include_subdomains\": false, \"success_fraction\": 0.0, \"failure_fraction\": 1.0 }\n    - strict-transport-security: max-age=31536000; preload; always\n    - x-content-type-options: nosniff\n    - x-frame-options: DENY always\n    - access-control-allow-methods: *\n    - access-control-allow-headers: *\n    - content-length: 0\n", "html_199298871": "CHALLENGE", "html_1252522762": "CHALLENGE"}
+2026-11-11 05:33:33,808 [INFO] diag_v41: AVITO: {"disc_desktop": "BLOCKED", "disc_mobile": "OK", "api_search": "HTTP_404", "api_mobile": "HTTP_404", "note": "?", "1096783029": "404"}
+2026-11-11 05:33:33,808 [INFO] diag_v41: FARPOST: {"cat_telefony": "NO_IDS", "cat_obshchie": "NO_IDS", "note": "?", "137440009": "404"}

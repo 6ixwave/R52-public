@@ -1,0 +1,157 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красноярске",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Автошина LINGLONG 205/75 R16C G-M Winter Grip Van 2 8 PR универсальная зима ШИПЫ",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Авто и мото > Шины и диски > Шины > Шины LingLong GREEN-Max Winter > LingLong GREEN-Max Winter Grip Van 2",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "LingLong GREEN-Max Winter Grip Van 2",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "inSetQuantity": {
+            "label": "Количество шин в неделимом комплекте",
+            "value": "1 шт"
+          },
+          "quantity": {
+            "label": "Всего комплектов",
+            "value": "100&nbsp;шт"
+          },
+          "year": {
+            "label": "Год выпуска шин",
+            "value": "2026"
+          },
+          "wheelSeason": {
+            "label": "Протектор",
+            "value": "Зимние"
+          },
+          "wheelSpike": {
+            "label": "Шиповка",
+            "value": "Шипованные"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Новый"
+          },
+          "marking": {
+            "label": "Каркас",
+            "value": "радиальный"
+          },
+          "goodPresentState": {
+            "label": "Наличие товара в Красноярске",
+            "value": "В наличии"
+          },
+          "predestination": {
+            "label": "Тип шины",
+            "value": "Грузовая и LT"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller": {
+        "status": "KNOWN",
+        "value": "ООО &quot;БарШина&quot;",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller_url": {
+        "status": "KNOWN",
+        "value": "https://www.farpost.ru/user/BarShina13/",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "139122082",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 849900,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "8499.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/farpost_catalog/1669597715957_bulletin",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Авто и мото > Шины и диски > Шины > Шины LingLong GREEN-Max Winter > LingLong GREEN-Max Winter Grip Van 2",
+    "source": "FARPOST",
+    "id": "139122082",
+    "url": "https://www.farpost.ru/vladivostok/139122082.html",
+    "observed_at": "2026-11-15T02:07:07.297476+10:00",
+    "status": "FULL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "source": "WB",
+    "id": "211321120",
+    "ok": true,
+    "status": "PARTIAL_SUCCESS",
+    "title": "Толстовка укороченная оверсайз с начесом на молнии",
+    "prices": 0,
+    "media": 1,
+    "elapsed": 90.9
+  },
+  {
+    "source": "OZON",
+    "id": "1161549185",
+    "ok": false,
+    "status": "NONE",
+    "title": "",
+    "prices": 0,
+    "media": 0,
+    "elapsed": 111.4
+  },
+  {
+    "source": "AVITO",
+    "id": "21964448",
+    "ok": false,
+    "status": "NONE",
+    "title": "",
+    "prices": 0,
+    "media": 0,
+    "elapsed": 24.8
+  },
+  {
+    "source": "FARPOST",
+    "id": "1234567890",
+    "ok": false,
+    "status": "NONE",
+    "title": "",
+    "prices": 0,
+    "media": 0,
+    "elapsed": 2.4
+  }
+]

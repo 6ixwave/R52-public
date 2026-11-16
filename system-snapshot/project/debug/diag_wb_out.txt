@@ -1,0 +1,32 @@
+﻿======================================================================
+1. JSON API endpoints
+======================================================================
+
+--- JSON 1: https://catalog.wb.ru/exactmatch/ru/common/v4/search ---
+  Status: 403
+  Headers: {'date': 'Sat, 14 Nov 2026 14:16:02 GMT', 'content-type': 'text/plain', 'status-no-id': 'PG-43-XC', 'server': 'wbaas', 'x-request-id': '4bdc828553e72e6063b15ff3d4ca52d4', 'report-to': '{ "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }', 'nel': '{ "report_to": "nel", "max_age": 604800, "include_subdomains": false, "success_fraction": 0.0, "failure_fraction": 1.0 }', 'strict-transport-security': 'max-age=31536000; preload; always'}
+
+--- JSON 2: https://search.wb.ru/exactmatch/ru/common/v4/search ---
+  Status: 403
+  Headers: {'date': 'Sat, 14 Nov 2026 14:16:03 GMT', 'content-type': 'text/plain', 'status-no-id': 'PG-42-XS', 'server': 'wbaas', 'x-request-id': 'e3d3b22b895bd8ab9760f3680f288828', 'report-to': '{ "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }', 'nel': '{ "report_to": "nel", "max_age": 604800, "include_subdomains": false, "success_fraction": 0.0, "failure_fraction": 1.0 }', 'strict-transport-security': 'max-age=31536000; preload; always'}
+
+======================================================================
+2. card.wb.ru batch API
+======================================================================
+  Status: 403
+
+======================================================================
+3. HTML fallback: wildberries.ru
+======================================================================
+
+--- HTML 1: https://www.wildberries.ru/catalog/0/ru/ ---
+  Status: 498
+  Final URL: https://www.wildberries.ru/catalog/0/ru/?search=%D1%82%D0%B5%D1%81%D1%82&page=1
+  Length: 1136
+
+--- HTML 2: https://www.wildberries.ru/catalog/0/ru/search.aspx ---
+  Status: 498
+  Final URL: https://www.wildberries.ru/catalog/0/ru/search.aspx?search=%D1%82%D0%B5%D1%81%D1%82
+  Length: 1136
+
+Done.

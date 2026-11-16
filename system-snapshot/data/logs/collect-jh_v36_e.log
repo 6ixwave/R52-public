@@ -1,0 +1,19 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 02:16:55,332 r52.autocollect.worker INFO phase=worker_start pid=22912
+2026-11-15 02:16:55,345 r52.autocollect.worker INFO source=ALIEXPRESS_RU mode=discover phase=initialize
+2026-11-15 02:16:55,345 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 02:16:55,346 r52.autocollect.worker INFO source=ALIEXPRESS_RU proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-15 02:16:55,348 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=search_start page=1 limit=5
+2026-11-15 02:17:00,000 r52.collectors.aliexpress INFO ALI_RU: wholesale HTML OK, 686167 bytes, 4.7s
+2026-11-15 02:17:00,002 r52.collectors.aliexpress INFO ALI_RU: 12 card anchors found
+2026-11-15 02:17:00,005 r52.collectors.aliexpress INFO ALI_RU: HTML search found 12 products
+2026-11-15 02:17:00,006 r52.collectors.aliexpress INFO ALI_RU: collect_by_search 'видеокарты' → 12 products
+2026-11-15 02:17:00,006 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_start returned=12 valid=5 stats={'requests': 1, 'success': 1, 'failed': 0, 'blocked': 0}
+2026-11-15 02:17:00,008 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-f49dd391.json
+2026-11-15 02:17:00,009 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-cfd251de.json
+2026-11-15 02:17:00,010 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-4502ec7e.json
+2026-11-15 02:17:00,012 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-32f8f49b.json
+2026-11-15 02:17:00,013 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-e4e06f34.json
+2026-11-15 02:17:00,016 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_complete files=5
+2026-11-15 02:17:00,016 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_start
+2026-11-15 02:17:00,016 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_complete

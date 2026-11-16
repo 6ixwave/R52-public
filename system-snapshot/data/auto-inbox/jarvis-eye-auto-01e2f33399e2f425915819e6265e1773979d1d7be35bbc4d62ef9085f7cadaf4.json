@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Ароматизатор в машину, 5шт",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "EIFFELAROMA",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Ароматизатор в машину - практичный аксессуар для авто. Подходит как подарок мужчине на день рождения: нейтральный дизайн, стойкий запах. Вонючка в машину устраняет посторонние запахи, освежает салон и создаёт комфортную атмосферу в поездке. Освежитель воздуха в машину - компактное решение для тех, кто ценит свежесть в салоне без лишних сложностей. В наборе 5 ароматов на любой вкус.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Автохимия и автокосметика > Автомобильные ароматизаторы",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 280000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "2800.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 36700,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "367.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Автохимия и автокосметика > Автомобильные ароматизаторы",
+    "source": "WB",
+    "id": "278827800",
+    "url": "https://www.wildberries.ru/catalog/278827800/detail.aspx",
+    "observed_at": "2026-11-16T17:09:44.413140+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

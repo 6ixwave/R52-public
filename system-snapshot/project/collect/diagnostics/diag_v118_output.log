@@ -1,0 +1,72 @@
+============================================================
+WB MEDIA PATTERNS (nm=199298871, imt=158033827, vol=1992, part=199298)
+============================================================
+
+[1] card.json: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/info/ru/card.json
+    HTTP 200, 9623B
+    Keys: ['certificate', 'colors', 'compositions', 'contents', 'create_date', 'data', 'description', 'full_colors', 'grouped_options', 'has_tnvd_okpd', 'imt_id', 'imt_name', 'media', 'need_kiz', 'nm_id', 'options', 'properties', 'selling', 'slug', 'subj_name', 'subj_root_name', 'update_date', 'user_flags', 'vendor_code']
+    'media': {"has_video": true, "photo_count": 6}
+    options: 18 items
+      Вес с упаковкой (кг) = 0.8 кг
+      Ширина упаковки = 16 см
+      Высота упаковки = 5 см
+      Длина упаковки = 22 см
+      Состав = дигидрокверцетин, стевия, пшеничные отру
+    -> wb_card_v118.json saved
+
+[2] Image URL patterns:
+  [xx] 404      196B text/html                           ...et.ru/vol1992/part199298/199298871/images/S800/S800.jpg
+  [xx] 404      196B text/html                           ...et.ru/vol1992/part199298/199298871/images/S120/S120.jpg
+  [xx] 404      196B text/html                           ...992/part199298/199298871/images/thumbnail/thumbnail.jpg
+  [xx] 404      196B text/html                           ...sket.ru/vol1992/part199298/199298871/images/big/big.jpg
+  [xx] 404      196B text/html                           ...u/vol1992/part199298/199298871/images/1000x0/1000x0.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ...https://ir-1.wbxstatic.ru/big/199298871.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ...https://ir-1.wbxstatic.ru/1000x0/199298871.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ...https://ir-1.wbxstatic.ru/120x120/199298871.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ...https://ir-1.wbxstatic.ru/120x0/199298871.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ...https://ir-2.wbxstatic.ru/big/199298871.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ...https://ir-2.wbxstatic.ru/1000x0/199298871.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ...https://ir-3.wbxstatic.ru/big/199298871.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ...https://ir-1.wbxstatic.ru/big/158033827.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ...https://ir-1.wbxstatic.ru/1000x0/158033827.jpg
+
+============================================================
+WB PRICE ENDPOINTS (nm=199298871)
+============================================================
+
+  [card.v2] HTTP 403, 0B
+    blocked, body[:100]=
+
+  [card.v4] HTTP 403, 0B
+    blocked, body[:100]=
+
+  [card.v5] HTTP 403, 0B
+    blocked, body[:100]=
+
+  [web.api] HTTP 498, 1130B
+
+  [basket.info] HTTP 200, 9623B
+    -> C:\Users\aleks\Downloads\R52-2.12\R52-2.12\wb_price_basket.info.json
+
+============================================================
+FARPOST: Full-path + numeric path
+============================================================
+
+[Warmup] farpost.ru/
+  HTTP 200, 73362B, cookies=[REDACTED_AUTH_SECRET]
+
+[Full] https://www.farpost.ru/ni/krasnoyarsk/zapchasti/kontraktnyj-dvigatel-1zz-fe-cena-s-navesnym-129606872.html
+  HTTP 200, 89923B
+  data-bulletin-price: NOT FOUND
+  JSON-LD blocks: 0
+  data-image-info: 0 photos
+  lightbox.init: 0 blocks
+  Title: ?
+  -> farpost_v118.html (89267 chars)
+
+[Numeric] https://www.farpost.ru/bulletin/129606872
+  HTTP 404, 13900B
+
+============================================================
+DIAG V118 DONE
+============================================================

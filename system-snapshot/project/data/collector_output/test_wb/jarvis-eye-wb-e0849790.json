@@ -1,0 +1,84 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Кружка \"Boxing (бокс)\"",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Cup",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "11000555018680",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "(Печать с 2х сторон!) Мы создаем крутые кружки и заряжаем их позитивом специально для вас. Наша керамическая кружка с надписью для чая и кофе станет отличным решением, для проявления внимания к нашим дорогим и близким людям. Вы можете подарить наш бокал на такие праздники как: Новый Год, 14 февраля, 23 февраля, 8 марта, 9 мая. Из нашей кружки с приколом очень удобно пить любые напитки, благодаря объёму 330мл, кружка отлично подойдет для разных напитков. Мы делаем все возможное для того, чтобы чашка с принтом пришла к вам без повреждений, поэтому в упаковке используем толстый слой пупырчатой плёнки. ",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Посуда и инвентарь > Кружки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Особенности кружки: мытьё в посудомоечной машине\nНазначение подарка: маме,сестре,жене,мужу,дедушке,коллегам,тете,подруге\nНазначение посуды: для дома\nМатериал посуды: керамика\nОбъем кружки: 330 мл\nВес товара с упаковкой (г): 370 г\nХрупкость: хрупкое\nТип подарка: домашние подарки\nВысота предмета: 10 см\nДекоративные элементы: без элементов\nТип кружки: универсальная,керамическая\nРисунок: надпись,принт,рисунок\nСтрана производства: Россия\nПовод: новый год,8 марта,23 февраля,день рождения\nКоличество предметов в упаковке: 1 кружка\nШирина предмета: 10 см\nДлина упаковки: 13 см\nВысота упаковки: 10 см\nШирина упаковки: 13 см",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-10.wbbasket.ru/vol1574/part157457/157457399/images/S800/S800.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Посуда и инвентарь > Кружки",
+    "source": "WB",
+    "id": "157457399",
+    "url": "https://www.wildberries.ru/catalog/157457399/detail.aspx",
+    "observed_at": "2026-11-13T08:50:37.955434+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

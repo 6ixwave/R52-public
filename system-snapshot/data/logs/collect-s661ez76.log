@@ -1,0 +1,19 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 13:41:59,686 r52.autocollect.worker INFO phase=worker_start pid=30160
+2026-11-15 13:41:59,696 r52.autocollect.worker INFO source=FARPOST mode=discover phase=initialize
+2026-11-15 13:41:59,697 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-15 13:41:59,697 r52.collectors.farpost INFO FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-15 13:41:59,697 r52.autocollect.worker INFO source=FARPOST proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-15 13:41:59,698 r52.autocollect.worker INFO source=FARPOST phase=search_start page=1 limit=5
+2026-11-15 13:42:02,568 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-15 13:42:06,858 r52.collectors.farpost INFO FARPOST search: 47 bulletin links found
+2026-11-15 13:42:06,859 r52.collectors.farpost INFO FARPOST: collect_by_search 'мониторы' → 5 products
+2026-11-15 13:42:06,859 r52.autocollect.worker INFO source=FARPOST phase=write_start returned=5 valid=5 stats={'requests': 1, 'success': 1, 'failed': 0, 'blocked': 0}
+2026-11-15 13:42:06,859 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-b1ae91cf.json
+2026-11-15 13:42:06,860 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-a1370290.json
+2026-11-15 13:42:06,860 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-0eb28bd5.json
+2026-11-15 13:42:06,860 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-39304b2c.json
+2026-11-15 13:42:06,861 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-3843d0fb.json
+2026-11-15 13:42:06,862 r52.autocollect.worker INFO source=FARPOST phase=write_complete files=5
+2026-11-15 13:42:06,862 r52.autocollect.worker INFO source=FARPOST phase=close_start
+2026-11-15 13:42:06,863 r52.autocollect.worker INFO source=FARPOST phase=close_complete

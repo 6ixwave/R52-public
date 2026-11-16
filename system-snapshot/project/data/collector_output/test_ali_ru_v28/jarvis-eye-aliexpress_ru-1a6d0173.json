@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "CMF Headphone Pro - Fino a 100 ore di autonomia, Hi-Res con LDAC, Suono Spaziale con Cancellazione Attiva del Rumore, Cuffie Bluetooth Over-Ear",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "96.05",
+        "amount_minor": 9605,
+        "currency": "EUR",
+        "visible_label": "96.05 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "89.73",
+        "amount_minor": 8973,
+        "currency": "EUR",
+        "visible_label": "89.73 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S31f231d87e2e4a0b9f6bb888486e2220Z.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013037146888",
+    "url": "https://ru.aliexpress.com/item/1005013037146888.html",
+    "observed_at": "2026-11-13T09:00:04.209227+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

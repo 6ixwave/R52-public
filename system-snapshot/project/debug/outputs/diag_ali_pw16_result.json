@@ -1,0 +1,17 @@
+{
+  "product_id": "1005011813323763",
+  "locale": "en-US",
+  "mtop_status": 200,
+  "mtop_body_len": 18846,
+  "result_keys": [
+    "GLOBAL_DATA"
+  ],
+  "bigBossBan": true,
+  "errorCode": "SITEM_BAN_NO_AVAIL_SKU",
+  "obs_fields": {},
+  "price_candidates": [],
+  "media_count": 0,
+  "availability": "UNKNOWN",
+  "category_path": null,
+  "elapsed": 11.9
+}

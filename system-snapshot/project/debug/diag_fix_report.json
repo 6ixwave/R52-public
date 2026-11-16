@@ -1,0 +1,22 @@
+{
+  "ts": "2026-11-15T00:31:44",
+  "results": {
+    "FARPOST": {
+      "status": "FAIL",
+      "rows": 5,
+      "prices_found": 0,
+      "elapsed": 4.2
+    },
+    "WB": {
+      "status": "FAIL",
+      "error": "SEARCH_HTTP_403",
+      "elapsed": 48.9
+    },
+    "AVITO": {
+      "status": "PASS",
+      "rows": 3,
+      "prices": 0,
+      "elapsed": 24.9
+    }
+  }
+}

@@ -1,0 +1,40 @@
+2026-11-11 06:53:40,593 [INFO] diag_v45: === diag_v45 START | cffi=True ===
+2026-11-11 06:53:40,594 [INFO] diag_v45: === WB (v45) ===
+2026-11-11 06:53:40,594 [INFO] diag_v45: WB S1: card.wb.ru/cards/v2/detail (batch)
+2026-11-11 06:53:41,409 [INFO] diag_v45:   WB v2 nm=199298871: HTTP 403 (0.8s)
+2026-11-11 06:53:44,202 [INFO] diag_v45:   WB v2 nm=314337853: HTTP 403 (0.8s)
+2026-11-11 06:53:46,203 [INFO] diag_v45: WB S2: card.wb.ru/cards/v1/detail
+2026-11-11 06:53:47,032 [INFO] diag_v45:   WB v1 nm=199298871: HTTP 403 (0.8s)
+2026-11-11 06:53:49,032 [INFO] diag_v45: WB S3: HTML detail.aspx (cffi chrome)
+2026-11-11 06:53:49,839 [INFO] diag_v45:   WB HTML nm=199298871: HTTP 498 (0.8s) jsonld=False
+2026-11-11 06:53:52,839 [INFO] diag_v45: WB S4: CDN wbbasket.ru (проверка доступности)
+2026-11-11 06:53:53,829 [INFO] diag_v45:   WB CDN: HTTP ERR (1.0s)
+2026-11-11 06:53:55,787 [INFO] diag_v45:   WB CDN: HTTP ERR (1.0s)
+2026-11-11 06:54:08,339 [INFO] diag_v45:   WB CDN: HTTP ERR (11.6s)
+2026-11-11 06:54:09,340 [INFO] diag_v45: WB S5: www.wildberries.ru/web/api/v1/cards/detail
+2026-11-11 06:54:10,142 [INFO] diag_v45:   WB web_api nm=199298871: HTTP 498 (0.8s)
+2026-11-11 06:54:12,142 [INFO] diag_v45: WB S6: batch.wb.ru
+2026-11-11 06:54:13,523 [INFO] diag_v45:   WB batch: HTTP ERR (1.4s)
+2026-11-11 06:54:13,523 [INFO] diag_v45: === OZON (v45) ===
+2026-11-11 06:54:13,523 [INFO] diag_v45: OZON S1: composer-api.bx/page/json/v2
+2026-11-11 06:54:15,100 [INFO] diag_v45:   OZON composer nm=1600562267: HTTP 403 (1.6s)
+2026-11-11 06:54:21,050 [INFO] diag_v45:   OZON composer nm=1317678381: HTTP 403 (0.9s)
+2026-11-11 06:54:26,051 [INFO] diag_v45: OZON S2: SSR HTML (cffi chrome, data-widget)
+2026-11-11 06:54:27,634 [INFO] diag_v45:   OZON SSR nm=1600562267: HTTP 403 (1.6s) widgets=False
+2026-11-11 06:54:32,634 [INFO] diag_v45: OZON S3: api.ozon.ru
+2026-11-11 06:54:33,323 [INFO] diag_v45:   OZON api nm=1600562267: HTTP ERR (0.7s)
+2026-11-11 06:54:36,324 [INFO] diag_v45: OZON S4: Mobile (m.ozon.ru)
+2026-11-11 06:54:37,920 [INFO] diag_v45:   OZON mobile nm=1600562267: HTTP 403 (1.6s)
+2026-11-11 06:54:40,921 [INFO] diag_v45: === AVITO (v45) ===
+2026-11-11 06:54:40,921 [INFO] diag_v45: AVITO S1: HTML ad page (cffi chrome)
+2026-11-11 06:54:41,770 [INFO] diag_v45:   AVITO ad=1154321987: HTTP 404 (0.8s) jsonld=False
+2026-11-11 06:54:47,591 [INFO] diag_v45:   AVITO ad=1096783029: HTTP 404 (0.8s) jsonld=False
+2026-11-11 06:54:52,592 [INFO] diag_v45: AVITO S2: web/1/js/items (поиск)
+2026-11-11 06:54:53,399 [INFO] diag_v45:   AVITO API: HTTP 403 items=? (0.8s)
+2026-11-11 06:54:59,195 [INFO] diag_v45:   AVITO API: HTTP 403 items=? (0.8s)
+2026-11-11 06:55:04,196 [INFO] diag_v45: AVITO S3: Mobile (m.avito.ru)
+2026-11-11 06:55:05,005 [INFO] diag_v45:   AVITO mobile ad=1154321987: HTTP 404 (0.8s)
+2026-11-11 06:55:08,005 [INFO] diag_v45: AVITO S4: Home page (IP check)
+2026-11-11 06:55:08,898 [INFO] diag_v45:   AVITO home: HTTP 439 ip_limit=True (0.9s)
+2026-11-11 06:55:08,898 [INFO] diag_v45: === diag_v45 DONE in 88.3s ===
+2026-11-11 06:55:08,900 [INFO] diag_v45: Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v45_results.json (7871 B)

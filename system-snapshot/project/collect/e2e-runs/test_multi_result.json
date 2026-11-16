@@ -1,0 +1,65 @@
+{
+  "time": "2026-11-12 17:20:26",
+  "results": {
+    "AV:find_id": {
+      "ok": false,
+      "detail": "HTTP=429 len=34116",
+      "s": 1.3
+    },
+    "FP:cffi": {
+      "ok": false,
+      "detail": "/verify redirect url=https://www.farpost.ru/verify?u=%2Fvladivostok%2Fauto%2Fmisc%2Fvskrytie-avto-bez-kljucha-otkryt-mashinu-vskryt-avtomobil-bagazhnik-24ch-134693091.html len=89398",
+      "s": 4.7
+    },
+    "FP:verify_flow": {
+      "ok": false,
+      "detail": "retry url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F121063385.html verify=True price=False len=197890 cookies=[REDACTED_AUTH_SECRET]",
+      "s": 7.1
+    },
+    "FP:cdn_json": {
+      "ok": false,
+      "detail": "all 3 endpoints: /api/bulletin/136303743=404, /bulletin/136303743=404",
+      "s": 7.2
+    },
+    "WB:card_price": {
+      "ok": false,
+      "detail": "exc: Failed to perform, curl: (6) Could not resolve host: basket-10979.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "s": 0.6
+    },
+    "WB:html_cffi": {
+      "ok": false,
+      "detail": "HTTP=498 len=1136 price=False title=True jsonld=False state=False",
+      "s": 4.8
+    },
+    "WB:web_api": {
+      "ok": false,
+      "detail": "exc: Failed to perform, curl: (6) Could not resolve host: api.wildberries.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "s": 1.5
+    },
+    "OZ:composer_cffi": {
+      "ok": false,
+      "detail": "HTTP=403 len=939 body=\n\n{\"incidentId\": \"fab_20261112072020_01M77A1ZVMT00YKHN2H5GM82C5\", \"supportURL\": ",
+      "s": 1.6
+    },
+    "OZ:ssr_cffi": {
+      "ok": false,
+      "detail": "HTTP=403 len=8342 price=False title=True img=False bot=False",
+      "s": 1.0
+    },
+    "OZ:mobile_api": {
+      "ok": false,
+      "detail": "all 3 failed",
+      "s": 3.0
+    },
+    "AV:direct": {
+      "ok": false,
+      "detail": "id=1045231001 all URLs failed",
+      "s": 1.8
+    },
+    "AV:jsonld": {
+      "ok": null,
+      "detail": "id=1045231001 HTTP=404 ld=False state=False price_html=False len=29440",
+      "s": 0.9
+    }
+  }
+}

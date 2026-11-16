@@ -1,0 +1,36 @@
+curl_cffi: OK
+requests: OK
+
+============================================================
+FIND BASKET HOST (curl_cffi)
+============================================================
+  199298871: host=basket-13.wbbasket.ru
+  url=https://basket-13.wbbasket.ru/vol1992/part199298/199298871/info/ru/card.json
+
+--- TEST 1: curl_cffi (impersonate=chrome) ---
+  status=200, 9623 bytes, 0.79s
+  content-type: application/json
+  body[:300]: {"imt_id":158033827,"nm_id":199298871,"imt_name":"Овсяный смарт коктейль для похудения без сахара","slug":"ovsyanyj-smart-koktejl-dlya-pokhudeniya-bez-sakhara","subj_name":"Коктейли злаковые","subj_root_name":"Продукты","vendor_code":"овсяный2","description":"ОВСЯНЫЙ СМАРТ-КОКТЕЙЛЬ\nкоторый придется
+  JSON OK: nm_id=199298871, imt_name=Овсяный смарт коктейль для похудения без сахара
+
+--- TEST 2: standard requests ---
+  status=200, 9623 bytes, 0.42s
+  content-type: application/json
+  body[:300]: {"imt_id":158033827,"nm_id":199298871,"imt_name":"Овсяный смарт коктейль для похудения без сахара","slug":"ovsyanyj-smart-koktejl-dlya-pokhudeniya-bez-sakhara","subj_name":"Коктейли злаковые","subj_root_name":"Продукты","vendor_code":"овсяный2","description":"ОВСЯНЫЙ СМАРТ-КОКТЕЙЛЬ\nкоторый придется
+  JSON OK: nm_id=199298871, imt_name=Овсяный смарт коктейль для похудения без сахара
+
+--- TEST 3: price API (curl_cffi) ---
+  status=403, 0 bytes, 0.82s
+  body[:300]: 
+  JSON FAIL: Expecting value: line 1 column 1 (char 0)
+
+--- TEST 4: price API (standard requests) ---
+  status=403, 0 bytes, 0.37s
+  body[:300]: 
+
+--- TEST 5: HTML page (curl_cffi) ---
+  status=498, 1136 bytes, 0.80s
+  <title>: ...
+  prices found: []
+
+Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_wb_cffi_out.txt

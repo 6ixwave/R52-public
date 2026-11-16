@@ -1,0 +1,64 @@
+============================================================
+DIAG V120: WB IMAGES/PRICES + FARPOST ALTCHA
+============================================================
+
+--- PART 1: WB IMAGE PATTERNS (nm=199298871, imt=158033827) ---
+  [xx]  404     196B text/html                      basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/1_1.jpg
+  [xx]  404     196B text/html                      basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/2_2.jpg
+  [xx]  404     196B text/html                      basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/1_2.jpg
+  [xx]  404     196B text/html                      -13.wbbasket.ru/vol1992/part199298/199298871/images/S800/158033827.jpg
+  [xx]  404     196B text/html                      sket-13.wbbasket.ru/vol1992/part199298/199298871/images/1000x0/1_1.jpg
+  [xx]  404     196B text/html                      3.wbbasket.ru/vol1992/part199298/199298871/images/1000x0/158033827.jpg
+  [xx]  404     196B text/html                      t-13.wbbasket.ru/vol1992/part199298/199298871/images/thumbnail/1_1.jpg
+  [xx]  404     196B text/html                      bbasket.ru/vol1992/part199298/199298871/images/thumbnail/158033827.jpg
+  [xx]  404     196B text/html                      /basket-13.wbbasket.ru/vol1992/part199298/199298871/images/big/1_1.jpg
+  [xx]  404     196B text/html                      ket-13.wbbasket.ru/vol1992/part199298/199298871/images/120x120/1_1.jpg
+  [xx]  404     196B text/html                      basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S120/1_1.jpg
+  [xx]  404     196B text/html                      /basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S50/1_1.jpg
+  [xx]  404     196B text/html                      ps://basket-13.wbbasket.ru/vol1992/part199298/199298871/images/1_1.jpg
+  [xx]  404     196B text/html                      asket-13.wbbasket.ru/vol1992/part199298/199298871/images/158033827.jpg
+  [??]   -1     170B error                          https://ir-1.wbxstatic.net/1000x0/199298871.jpg
+  [??]   -1     170B error                          https://ir-2.wbxstatic.net/1000x0/199298871.jpg
+  [??]   -1     170B error                          https://ir-1.wbxstatic.net/S800/199298871.jpg
+  [??]   -1     169B error                          https://ir-4.wbxstatic.ru/1000x0/199298871.jpg
+  [??]   -1     169B error                          https://ir-5.wbxstatic.ru/1000x0/199298871.jpg
+  [??]   -1     182B error                          sket-1992.wbbasket.ru/vol1992/part199298/199298871/images/S800/1_1.jpg
+  [??]   -1     167B error                          https://ir.wbxstatic.ru/1000x0/199298871.jpg
+  [??]   -1     170B error                          ://images.wbbasket.ru/vol1992/part199298/199298871/images/S800/1_1.jpg
+
+--- PART 2: WB HTML (detail.aspx) ---
+  [desktop] HTTP 498, 1130B, text/html
+  [mobile] HTTP 498, 1130B, text/html
+  [no-UA] HTTP 498, 1130B, text/html
+
+--- PART 3: WB PRICE ENDPOINTS ---
+  [card_v1] HTTP 403, 0B
+  [card_v1_batch] HTTP 403, 0B
+  [basket_info] HTTP 200, 9623B
+  [web_api_v2] HTTP 498, 1130B
+  [search_api] HTTP 403, 0B
+
+--- PART 4: FARPOST ALTCHA ---
+  [Warmup] GET https://www.farpost.ru/
+    HTTP 200, 75719B
+  [f=1] https://www.farpost.ru?u=%2Fni%2Fkrasnoyarsk%2Fzapchasti%2Fkontraktnyj-dvigatel-
+    HTTP 200, 90521B, text/html; charset=windows-1251
+    Altcha: False, Price: False, JSON-LD: True
+    *** FARPOST f=1 GAVE REAL DATA ***
+  [Numeric] https://www.farpost.ru/bulletin/129606872
+    HTTP 404, 15298B
+  [Full mobile] https://www.farpost.ru/ni/krasnoyarsk/zapchasti/kontraktnyj-dvigatel-1zz-fe-cena
+    HTTP 200, 198892B
+    Altcha: True, Price: False, JSON-LD: False
+  [Two-step cookie] warmup + full path
+    Warmup: 200, cookies=[REDACTED_AUTH_SECRET]
+    Page: 200, 89961B
+    Altcha: True, Price: False
+  [Bulletin f=1] https://www.farpost.ru/bulletin/129606872?f=1
+    HTTP 404, 15310B
+
+--- PART 5: WB IMAGES — alternate basket hosts ---
+
+============================================================
+DIAG V120 DONE
+============================================================

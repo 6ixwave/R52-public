@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шампунь для волос женский и бальзам",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "MIXIT",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "В профессиональный уход от Миксит Hair Expert collagen + amino acids входит шампунь для волос женский и восстанавливающий кондиционер ополаскиватель. Шампунь и бальзам с коллагеном объемом 1000 мл или 1 литр. Подходит для восстановления окрашенных, мелированных светлых и жирных волос у женщин. Можно использовать как подарочный набор косметики. Имеет парфюмированный аромат. Миксид.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Красота > Шампуни",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 142600,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "1426.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 79300,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "793.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Красота > Шампуни",
+    "source": "WB",
+    "id": "175102923",
+    "url": "https://www.wildberries.ru/catalog/175102923/detail.aspx",
+    "observed_at": "2026-11-17T01:41:38.233482+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

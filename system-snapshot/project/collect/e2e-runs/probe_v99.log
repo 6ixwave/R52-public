@@ -1,0 +1,53 @@
+2026-11-11 16:26:34,813 v99 INFO === probe_v99 START lid=259671175 vol=2596 part=671 path=/vol2596/part671/259671175/info/ru/card.json ===
+2026-11-11 16:26:36,142 v99 INFO P0a card.wb.ru [chrome124] HTTP 403 in 0.9s body[:200]=
+2026-11-11 16:26:36,992 v99 INFO P0a card.wb.ru [chrome] HTTP 403 in 1.7s body[:200]=
+2026-11-11 16:26:37,964 v99 INFO P0b basket-01.wbbasket.ru -> 404 (1.0s) body[:100]=<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<t
+2026-11-11 16:26:38,927 v99 INFO P0b basket-20.wbbasket.ru -> 404 (1.9s) body[:100]=<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<t
+2026-11-11 16:26:39,742 v99 INFO P0b basket-40.wbbasket.ru -> 404 (2.7s) body[:100]=<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<t
+2026-11-11 16:26:40,593 v99 INFO P0c card.wb.ru minimal HTTP 403 in 0.9s body[:200]=
+2026-11-11 16:26:40,633 v99 INFO P1 Config: 0.0s db=C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\r52.sqlite3 exists=True
+2026-11-11 16:26:40,873 r52.sources INFO Sources: зарегистрировано 4 сборщиков
+2026-11-11 16:26:40,899 v99 INFO P1 App: 0.3s
+2026-11-11 16:26:40,899 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\collectors\proxies.json не найден, режим direct
+2026-11-11 16:26:40,900 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 16:26:40,900 v99 INFO P2 Collector: 0.0s cffi=yes
+2026-11-11 16:26:50,071 v99 INFO P3 basket: scanned 10/60, last=basket-10.wbbasket.ru->404 (9s elapsed)
+2026-11-11 16:26:59,032 v99 INFO P3 basket: scanned 20/60, last=basket-20.wbbasket.ru->404 (18s elapsed)
+2026-11-11 16:27:08,273 v99 INFO P3 basket: scanned 30/60, last=basket-30.wbbasket.ru->404 (27s elapsed)
+2026-11-11 16:27:17,809 v99 INFO P3 basket: scanned 40/60, last=basket-40.wbbasket.ru->404 (37s elapsed)
+2026-11-11 16:27:27,543 v99 INFO P3 basket: scanned 50/60, last=basket-50.wbbasket.ru->404 (47s elapsed)
+2026-11-11 16:27:37,334 v99 INFO P3 basket: scanned 60/60, last=basket-60.wbbasket.ru->404 (56s elapsed)
+2026-11-11 16:27:37,335 v99 INFO P3 Basket scan: 56s host=None card_data=no
+2026-11-11 16:27:38,183 v99 INFO P4 Price [v2_full] -> 403 (0.8s)
+2026-11-11 16:27:40,019 v99 INFO P4 Price [v2_min] -> 403 (0.8s)
+2026-11-11 16:27:41,857 v99 INFO P4 Price [v1_full] -> 403 (0.8s)
+2026-11-11 16:27:43,678 v99 INFO P4 Price [v4_full] -> 403 (0.8s)
+2026-11-11 16:27:45,550 v99 INFO P4 Price [v5_full] -> 403 (0.9s)
+2026-11-11 16:27:47,381 v99 INFO P4 Price [web_api] -> 498 (0.8s)
+2026-11-11 16:27:48,382 v99 INFO P4 Price total: 11s data=no
+2026-11-11 16:27:49,191 v99 INFO P5 HTML: 498 (0.8s)
+2026-11-11 16:27:49,191 v99 INFO P6 title=WB-259671175 method=FALLBACK
+2026-11-11 16:27:49,191 v99 INFO P6 Merge: 0.0s status=DEGRADED title=WB-259671175 prices=0 media=0 avail=UNKNOWN
+2026-11-11 16:27:49,193 r52.collectors INFO WB: записан jarvis-eye-wb-31469fb6.json
+2026-11-11 16:27:49,193 v99 INFO P7 Written: ['jarvis-eye-wb-31469fb6.json'] (0.0s)
+2026-11-11 16:27:49,209 r52.intake INFO Во входящие добавлен файл jarvis-eye-wb-31469fb6.json: PENDING 
+2026-11-11 16:27:49,209 v99 INFO P8 Staged: id=3 status=PENDING err=None
+2026-11-11 16:27:49,220 v99 INFO P8 Accepted: pid=1 obs=True
+2026-11-11 16:27:49,221 v99 INFO P8 Inbox: 0.0s
+2026-11-11 16:27:49,224 v99 INFO P9 DB: 1 products, 0 pps (0.0s)
+2026-11-11 16:27:49,225 v99 INFO P9  P: id=1 title=WB-259671175 reg=None avail=UNKNOWN obs=3
+2026-11-11 16:27:49,225 v99 INFO VERDICT: PASS_FBT_NOP (total 74s)
+2026-11-11 16:27:49,229 r52.service INFO Ядро R-52 остановлено
+2026-11-11 16:27:49,229 v99 INFO === probe_v99 DONE ===

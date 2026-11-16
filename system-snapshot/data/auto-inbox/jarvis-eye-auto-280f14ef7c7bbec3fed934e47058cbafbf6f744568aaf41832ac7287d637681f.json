@@ -1,0 +1,278 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шоколад кондитерский молочный в каплях 1 кг 30% какао",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Мистер Чокер",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Шоколад кондитерский бренда Мистер Чокер (Мистер Чо) 1 кг — это идеальный выбор для тех, кто ценит качество, вкус и универсальность продукта. Благодаря высокой концентрации масла какао, этот натуральный ингредиент обеспечивает изысканную текстуру и насыщенный вкус, которые необходимы для создания потрясающих десертов и сложных кулинарных решений. Продукт представлен в удобных формах — капли, что делает его идеальным для темперирования, работы с фондю и использования в фонтанах. Такой формат гарантирует быстрое и равномерное плавление, что особенно важно для профессиональной выпечки и домашнего творчества.\n\nВыпечка приобретает новый уровень благодаря молочному вкусу и нежной структуре. Используйте дропсы для приготовления ганаша, глазури, начинки для торта или топпинга для пирожных — результат будет неизменно превосходным. В каплях и каллетах продукт удобно дозировать и плавить, что значительно ускоряет процесс приготовления. Натуральный состав и наличие бельгийских традиций в производстве позволяют получить аутентичный вкус и аромат, который по достоинству оценят даже самые взыскательные гурманы.\n\nМолочный шоколад в дропсах подходит для профессиональных кондитеров и домашних мастеров. Он отлично работает в качестве основы для шоколадных фигур, украшений, заливки тортов, а также прекрасно подходит для фондю или шоколадного фонтана на праздниках. Благодаря оптимальному содержанию масла какао, продукт сохраняет пластичность после темперирования, не теряя блеска и однородности. Это идеальный ингредиент для создания изысканных ганашей, муссов и других кремовых начинок.\n\nКаллеты легко смешиваются с другими компонентами, обеспечивая равномерное распределение вкуса и цвета,  а также позволяя создавать необычные сочетания в тортах и выпечке, делая каждый десерт особенным. Капли можно использовать для декора, добавления в тесто или приготовления шоколадного соуса для мороженого и других лакомств. Содержание какао - 30%. Ваш идеальный выбор для подарка на любой праздник! Не содержит глютена, орехов, ГМО",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Продукты > Шоколад кондитерский",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 660500,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "6605.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 112200,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1122.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/itemCounter-component.5140b735835198fe.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/manualQuantityInput-component.44a3f391bace13ae.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/catalogCard-component.225314dfb1bdd980.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/68848.6ccd0a495ece9b0e.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/12589.65deab12c6baab88.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/19921.53c25b7ac4868fa5.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/10781.98a603a07010e7a0.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/16243.38ade4de04b7a4f2.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/recommendations-slot.21c50124f7b9c435.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/7567.d22fd063ab5a2dd2.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/6467.89503b1a5292989c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/7189.d59e29bcba3aa86f.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/9395.b157417796d5bbe9.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lottery-service.cb54e5fab8db32dd.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/suppliersService.16d9b28a099ea3c6.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/5530.6a5e47992a4560cf.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/c246x328/12.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/big/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/big/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/big/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/big/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/big/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/big/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-15.wbbasket.ru/vol2220/part222002/222002219/images/big/8.webp",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Продукты > Шоколад кондитерский",
+    "source": "WB",
+    "id": "222002219",
+    "url": "https://www.wildberries.ru/catalog/222002219/detail.aspx",
+    "observed_at": "2026-11-16T17:30:18.913541+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

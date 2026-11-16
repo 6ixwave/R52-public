@@ -1,0 +1,84 @@
+﻿Status: 200
+Final URL: https://www.farpost.ru/dir?query=%D1%82%D0%B5%D1%81%D1%82&page=1
+Content-Type: text/html; charset=windows-1251
+HTML length: 185202
+Saved HTML to C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\farpost_search_raw.html
+
+Bulletin links found: 48
+
+============================================================
+BLOCK 1 id=137008403 len=2748
+============================================================
+<a  class="bulletinLink bull-item__self-link auto-shy" data-role="bulletin-link" href="/vladivostok/zapchasti/mufta-vvti-vq25dd-vq30dd-vq25det-skyline-cedric-stagea-test-137008403.html">Муфта VVTI VQ25DD, VQ30DD, VQ25DET. Skyline, Cedric, Stagea. Тест.</a></div><div class="bull-item__annotation"><div class="bull-item__annotation-row manufacturer">Nissan</div></div></div><div class="bull-item__bull-info-container"><div class="bull-item-info"><div class="bull-item-info__content"><div class="bull-item-info__row ellipsis-text"><div class="ellipsis-text__right-side"><div class="bull-item-info__value"><div class="date">23 июля</div></div><div class="bull-item-info__value"><span  class="views nano-eye-text" title="Количество просмотров"><svg  width="16" height="16" class="nano-eye-text__icon"><use  href="/resources/img/svg/sprites/brief.svg?1#Eye-24" xlink:href="/resources/img/svg/sprites/brief.svg?1#Eye-24"></use></svg>112</span></div></div><div class="ellipsis-text__left-side">ООО «Авто-Влад»</div></div></div></div></div><button class="map-highlight" data-geo="43.157493, 131.938605" style="display: none;"></button></div><div class="bull-item__cell bull-item__right-additional-block"><div
+...
+  [p1] data-bulletin-price: None
+  [p2] text RUB: None
+  [p3] class=price: &#8381;
+  [p4] >num< RUB: None
+  [p5] itemprop=price: None
+  [p6] itemprop price content: None
+  [p7] JSON price: None
+  [p8] num+RUB: None
+  [p9] span num: None
+
+============================================================
+BLOCK 2 id=137008550 len=2742
+============================================================
+<a  class="bulletinLink bull-item__self-link auto-shy" data-role="bulletin-link" href="/vladivostok/zapchasti/mufta-vvti-vq25dd-vq30dd-vq25det-skyline-cedric-stagea-test-137008550.html">Муфта VVTI VQ25DD, VQ30DD, VQ25DET. Skyline, Cedric, Stagea. Тест.</a></div><div class="bull-item__annotation"><div class="bull-item__annotation-row manufacturer">Nissan</div></div></div><div class="bull-item__bull-info-container"><div class="bull-item-info"><div class="bull-item-info__content"><div class="bull-item-info__row ellipsis-text"><div class="ellipsis-text__right-side"><div class="bull-item-info__value"><div class="date">23 июля</div></div><div class="bull-item-info__value"><span  class="views nano-eye-text" title="Количество просмотров"><svg  width="16" height="16" class="nano-eye-text__icon"><use  href="/resources/img/svg/sprites/brief.svg?1#Eye-24" xlink:href="/resources/img/svg/sprites/brief.svg?1#Eye-24"></use></svg>33</span></div></div><div class="ellipsis-text__left-side">ООО «Авто-Влад»</div></div></div></div></div><button class="map-highlight" data-geo="43.157493, 131.938605" style="display: none;"></button></div><div class="bull-item__cell bull-item__right-additional-block"><div 
+...
+  [p1] data-bulletin-price: None
+  [p2] text RUB: None
+  [p3] class=price: &#8381;
+  [p4] >num< RUB: None
+  [p5] itemprop=price: None
+  [p6] itemprop price content: None
+  [p7] JSON price: None
+  [p8] num+RUB: None
+  [p9] span num: None
+
+============================================================
+BLOCK 3 id=22100 len=2736
+============================================================
+<a  class="bulletinLink bull-item__self-link auto-shy" data-role="bulletin-link" href="/vladivostok/zapchasti/tnvd-1kz-1kzte-22100-67100-test-1000kg-japonija-exkljuziv-115731584.html">ТНВД 1KZ, 1KZTE 22100-67100. Тест 1000кг. Япония. Эксклюзив!</a></div><div class="bull-item__annotation"><div class="bull-item__annotation-row manufacturer">Toyota</div></div></div><div class="bull-item__bull-info-container"><div class="bull-item-info"><div class="bull-item-info__content"><div class="bull-item-info__row ellipsis-text"><div class="ellipsis-text__right-side"><div class="bull-item-info__value"><div class="date">9 сентября</div></div><div class="bull-item-info__value"><span  class="views nano-eye-text" title="Количество просмотров"><svg  width="16" height="16" class="nano-eye-text__icon"><use  href="/resources/img/svg/sprites/brief.svg?1#Eye-24" xlink:href="/resources/img/svg/sprites/brief.svg?1#Eye-24"></use></svg>2271</span></div></div><div class="ellipsis-text__left-side">ООО «Авто-Влад»</div></div></div></div></div><button class="map-highlight" data-geo="43.157493, 131.938605" style="display: none;"></button></div><div class="bull-item__cell bull-item__right-additional-block"><div cla
+...
+  [p1] data-bulletin-price: None
+  [p2] text RUB: None
+  [p3] class=price: &#8381;
+  [p4] >num< RUB: None
+  [p5] itemprop=price: None
+  [p6] itemprop price content: None
+  [p7] JSON price: None
+  [p8] num+RUB: None
+  [p9] span num: None
+
+============================================================
+BLOCK 4 id=64703623 len=2530
+============================================================
+<a  class="bulletinLink bull-item__self-link auto-shy" data-role="bulletin-link" href="/vladivostok/zapchasti/turbina-cd20-vnw30-kvnc23-serena-largo-nissan-japonija-test-64703623.html">Турбина CD20 VNW30, KVNC23 Serena, Largo Nissan. Япония. Тест.</a></div><div class="bull-item__annotation"><div class="bull-item__annotation-row manufacturer">Nissan</div></div></div><div class="bull-item__bull-info-container"><div class="bull-item-info"><div class="bull-item-info__content"><div class="bull-item-info__row ellipsis-text"><div class="ellipsis-text__right-side"><div class="bull-item-info__value"><div class="date">3 июня</div></div><div class="bull-item-info__value"><span  class="views nano-eye-text" title="Количество просмотров"><svg  width="16" height="16" class="nano-eye-text__icon"><use  href="/resources/img/svg/sprites/brief.svg?1#Eye-24" xlink:href="/resources/img/svg/sprites/brief.svg?1#Eye-24"></use></svg>2482</span></div></div><div class="ellipsis-text__left-side">ООО «Авто-Влад»</div></div></div></div></div><button class="map-highlight" data-geo="43.157493, 131.938605" style="display: none;"></button></div><div class="bull-item__cell bull-item__right-additional-block"><div clas
+...
+  [p1] data-bulletin-price: None
+  [p2] text RUB: None
+  [p3] class=price: &#8381;
+  [p4] >num< RUB: None
+  [p5] itemprop=price: None
+  [p6] itemprop price content: None
+  [p7] JSON price: None
+  [p8] num+RUB: None
+  [p9] span num: None
+
+============================================================
+BLOCK 5 id=128926007 len=2439
+============================================================
+<a  class="bulletinLink bull-item__self-link auto-shy" data-role="bulletin-link" href="/vladivostok/business/equipment/testomes-gorizontalnyj-dlja-krutogo-testa-na-vybor-spisok-vnutri-128926007.html">Тестомес горизонтальный для крутого теста (на выбор, список внутри)</a></div></div><div class="bull-item__bull-info-container"><div class="bull-item-info"><div class="bull-item-info__content"><div class="bull-item-info__row ellipsis-text"><div class="ellipsis-text__right-side"><div class="bull-item-info__value"><div class="date">26 октября</div></div><div class="bull-item-info__value"><span  class="views nano-eye-text" title="Количество просмотров"><svg  width="16" height="16" class="nano-eye-text__icon"><use  href="/resources/img/svg/sprites/brief.svg?1#Eye-24" xlink:href="/resources/img/svg/sprites/brief.svg?1#Eye-24"></use></svg>134</span></div></div><div class="ellipsis-text__left-side">Техноторг</div></div></div></div></div><button class="map-highlight" data-geo="43.101444, 131.924301" style="display: none;"></button></div><div class="bull-item__cell bull-item__right-additional-block"><div class="bull-item__additional-info-cell"></div><div class="bull-item__action-cell"></div></di
+...
+  [p1] data-bulletin-price: None
+  [p2] text RUB: None
+  [p3] class=price: &#8381;
+  [p4] >num< RUB: None
+  [p5] itemprop=price: None
+  [p6] itemprop price content: None
+  [p7] JSON price: None
+  [p8] num+RUB: None
+  [p9] span num: None
+
+Done.

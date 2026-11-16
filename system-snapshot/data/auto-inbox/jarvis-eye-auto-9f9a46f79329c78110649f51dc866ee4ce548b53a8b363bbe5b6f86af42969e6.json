@@ -1,0 +1,84 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Кассеты женские Breeze 3 лезвия с гелевыми подушечками",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "VENUS",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "81760619",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Легкое скольжение и ягодная свежесть: сменные кассеты для бритья женские Venus ComfortGlide Breeze, 4 шт., 3 лезвия, гелевые подушечки с ароматом фрезии насадки на станок Venus  gillette\nСменные лезвия для бритвы Venus ComfortGlide Breeze созданы для максимально комфортного бритья: специальные гелевые подушечки с ароматом фрезии при контакте с водой превращаются в нежную пену. Эти кассеты для бритья подходят для любой бритвенной ручки Venus, кроме Simply Venus и Venus для зоны бикини.\nКлючевые особенности насадок для бритвы Venus ComfortGlide Breeze:\nТри плавающих лезвия Venus – подвижно адаптируются к изгибам тела, обеспечивая равномерное прилегание и чистое бритье одним движением.\nГелевые подушечки с ароматом фрезии – расположены вокруг лезвий, активируются при контакте с водой. Они превращаются в насыщенную пену, которая смазывает кожу маслами, дарит свежий аромат фрезии и обеспечивает плавное скольжение при каждом движении.\nУвлажнение и защита – гелевые подушечки содержат ухаживающие компоненты, которые смягчают кожу, предотвращают сухость и снижают риск раздражения во время бритья.\nЛёгкая промывка – открытая конструкция сменной кассеты Venus позволяет быстро смывать остатки волосков и пены под проточной водой.\nПреимущества кассет для бритья Venus ComfortGlide Breeze:\nБритье без дополнительной пены или геля: гелевые подушечки самостоятельно создают пену, достаточно просто намочить кассету водой.\nПлавное скольжение и комфорт: ароматизированная пена с маслами обеспечивает легкое движение бритвы по коже.\nДолговременная гладкость: три лезвия для бритвы женские Venus срезают волоски у самого корня, результат сохраняется надолго.\nСвежий аромат фрезии: приятный запах делает процесс бритья еще более приятным.\nСовместимость: подходят для большинства бритвенных ручек Venus (кроме Simply Venus и моделей для зоны бикини).",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Красота > Кассеты для бритв",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Количество предметов в упаковке: 4 шт.\nМатериал лезвий: нержавеющая сталь; алмазная сталь; хромированная сталь\nСовместимость: Gillette Venus; Gillette Venus Smooth; Gillette Venus Smooth Sensitive; Gillette Venus Extra Smooth; Gillette Venus Extra Smooth Sensitive; Gillette Venus ComfortGlide; Gillette Venus ComfortGlide Breeze; Gillette Venus ComfortGlide Sugarberry; Gillette Venus Extra Smooth Swirl; Gillette Venus Embrace\nСтрана производства: Польша\nКомплектация: сменные кассеты Venus Breeze - 4 шт, 3 лезвия, с гелевыми подушечками, оригинальные\nПолное наименование товара: Кассеты для бритья женские Venus ComfortGlide Breeze, 3 лезвия, 4 шт",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-01.wbbasket.ru/vol28/part2833/2833871/images/S800/S800.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Красота > Кассеты для бритв",
+    "source": "WB",
+    "id": "2833871",
+    "url": "https://www.wildberries.ru/catalog/2833871/detail.aspx",
+    "observed_at": "2026-11-15T18:22:46.528046+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

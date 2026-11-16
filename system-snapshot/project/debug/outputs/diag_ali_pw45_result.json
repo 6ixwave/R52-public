@@ -1,0 +1,440 @@
+{
+  "ts": "2026-11-12T16:05:38.958342+00:00",
+  "product_id": "1005011813323763",
+  "profile": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\pw_ali_profile_pw45",
+  "phase": "done",
+  "cookies_warm": "[REDACTED_AUTH_SECRET]",
+  "cookies_product": "[REDACTED_AUTH_SECRET]",
+  "final_url": "https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita",
+  "title_tag": "",
+  "tmd": "still_3",
+  "tmd_detail": {
+    "iframe_count": 1,
+    "frame_count": 2,
+    "frame_urls": [
+      "https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg0599d1425d514f25kn0f390671191d0968c609da273cd690041794499556a-1168960602a-1317347523abaxc3eajrecaptcha3",
+      "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg0599d1425d514f25kn0f390671191d0968c609da273cd690041794499556a-1168960602a-"
+    ]
+  },
+  "recaptcha": {
+    "error": "google_frame_not_found"
+  },
+  "captcha_token_preview": null,
+  "captcha_await_ms": 90074,
+  "tmd_post_detected": false,
+  "reload_count": 3,
+  "mtop_intercepted": [
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794499554851&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&timeout=15000&dataType=originaljsonp&callback=mt",
+      "status": 200,
+      "body_preview": "mtopjsonp1({\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg0599d1425d514f25kn0f390671191d0968c609da273cd690041794499556a-1168960602a-1317347523abaxc3eajrecaptcha33be6976523d86fdbbae47b07e83df8f179__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}},\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}})",
+      "has_fail": true,
+      "has_data": false,
+      "body_len": 543
+    },
+    {
+      "url": "https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg0599d1425d514f25kn0f390671191d0968c609da273cd690041794499556a-1168960602a-1317347523abaxc3eajrecaptcha33be6976523d86fdbbae47b07e83df8f179__bx__acs.aliexp",
+      "status": 200,
+      "body_preview": "\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=_3lujER9d38SRSook2UClYF-bmQfYIs8bIj4W-9ZyDxNozmAUbyaGCyWfmt6NRRte5vVwZcD9DRKBMO7Gz3lBoPIwAdTYDuC5p6MvuMYSBEmIcS_OUEPhj0XPsY0JDqTgRg59AT_znSRtiu7YaTdTTCjdsvWbzom3Y3z373tMGqAXmVAjn0559cn2nxNmDLOxI6BjZDzZ4yLwlPlCNy24Yro5wU6pRip0GdUmVFpSM-84gD93hqI2HlVhOLnwiIDj1hJKGyQcvEqqbpeSZ8PDusInv37IKQgF8bSUQTCBLZjHVNVPk86acf3Ev27AVWJQ5YTsc2VsGwXWZ8ExTg-_GrtuWjDlV7EXcBUSVRJ9qbKm_yFjJeNBKDOIC8jlh6RcICh8cdYyn84AwESaGU5gX7t03R_4Wf6I_fmf-7KajTusPyCRdzEH5vCxH212P7_GiZAKkQ2EkUoFqZpmXd3Je3nQQh1uPJcDnMMWTS_mJk\" charset=\"UTF-8\"></script><script charset=\"utf-8\" src=\"//g.alicdn.com/mtb/lib-windvane/3.0.6/windvane.js\" crossorigin></script>\r\n    <script charset=\"utf-8\" async\r\n        src=\"//g.alicdn.com/bsop",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 3000
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg0599d1425d514f25kn0f390671191d0968c609da",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg0599d1425d514f25kn0f390671191d0968c609",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg0599d1425d514f25kn0f390671191d0968c609da273cd690041794499556a-1168960602a-1317347523abaxc3eajrecaptcha33be6976523d86fdbbae47",
+      "status": 200,
+      "body_preview": "\r\n<html><head><meta charset=UTF-8><meta content=width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no name=viewport><script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=rpsXyMAQTrya1BXN5n678FgSRh3PW04kKHPK4gTyTykFlCuq8XIJ-oPbDBibWTQbYDi_NyQSBgXFeoL0IbYMcy5GmAMhVPpUupsddeTCaiRqyRo-35SOT4RK-J5o4L-7IhN6_97_MZ5iWONALFEWR7vpYvTGKv5JKdFCLlz7XeBQ33WRBJtt98ZkR2oJ64MMEIF1y37qY3xdCoeiR3cR3umDieYnjNrF2Qstu4133i-dI5Iar7b41Fy4T3_oDkq6Mpz5eiltJClGfgaFhVga4QQr1F6lPd78pTw0jBWCCS546tJDOU9QsIDtUWLGbop4JhVy_yDX8-c-pPTekCkykm0OtNsLo0UL565G6lGboepX9YYHxWTyNAp3p4Fqel-XUyz8S8M17ID3rBh6LR_ligJa9oBUCReutNhsQ5skZum-vAWJI-zMq3I6r9eATiD98Um5ETcQRXHD_TcbxLhbLbF5BbBZrjmIIDiqBUKeC6ER6L0KopNgV5V832JrVTKDokck0hQ9wkYfYFTG2rmkZrCtt9GyRDxAc4nPYQrOkDQ5tyld2T-Wwy2PtBLjgVUiXI1syXrBOpWO5OnPZP7hkuVpWcgLGV3EYn6yS1tDjod1e9nZ5rbf-XPc06ThC1dp5ukVLyw0trbMRhrwvuy6Wvr8ITQQUyHFluQmuAHV8F4A9c2ZlNH-BCEzDDFcOwmr-Y2H0T8ob7KPI9D_U",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 3000
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p_url=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg0599d1425d514f25kn0f390671",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://epss.alibaba-inc.com/report/web-e?host=acs.aliexpress.com&jf=recaptcha&cv=mm&jv=1&m=init@0f390671191d0968c609da273cd69004",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg0599d1425d514f25kn0f390671191d0968c609da273cd690041794499556a-1168960602a-1317347",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://umdc-global.aliexpress.com/repTw.json?e=2075&sv=1.0&pv=1.0&pn=acs.aliexpress.com&biz=4",
+      "status": 200,
+      "body_preview": "{\"ck\":\"02b0c0c840e0e306f6bab224310ceaaa\",\"dt\":\"cQlm93344aNjZFZz3IKaQaDfON9+bvVPA/Q91wXm8bcd33GAaEXB0DCty5zWHyW2\",\"ec\":200}",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 122
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=%2Fsd%2Fbaxia%2F2.5.37%2FbaxiaCommon.js&pid=baxia-fast&page=https%3A%2F%2Facs.aliexpress.com%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=recaptcha%3D1%26iframe%3D1%26x5step%3D3%26",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://umdc-global.aliexpress.com/repTw.json?e=2075&sv=1.0&pv=1.0&pn=acs.aliexpress.com&biz=4",
+      "status": 200,
+      "body_preview": "{\"ck\":\"02b0c0c840e0e306f6bab224310ceaaa\",\"dt\":\"cQlm93344aNjZFZz3IKaQTHfH8sT7LDr5WlA7WVKCJe5EQH0JOQt1hOG+AsfDzKo\",\"ec\":200}",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 122
+    },
+    {
+      "url": "https://epss.alibaba-inc.com/report/web-e?host=acs.aliexpress.com&jf=recaptcha&cv=mm&jv=1&m=timeout@0f390671191d0968c609da273cd69004",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://epss.alibaba-inc.com/report/web-e?host=acs.aliexpress.com&jf=recaptcha&cv=mm&jv=1&m=loaded@0f390671191d0968c609da273cd69004",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&uuid=0f390671191d0968c609da273cd69004&x5secdata=xg0599d1425d514f25kn0f3906",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794499656889&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&timeout=15000&dataType=originaljsonp&callback=mt",
+      "status": 200,
+      "body_preview": "mtopjsonp1({\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xgb9f74453d4e19aabkm800a59f4bd1eee8c8c7b6dda37789edb1794499658a-1168960602a-1317347523abaxc3eajrecaptcha33b90bc435d62162893c1aaf6767f865d08__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}},\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}})",
+      "has_fail": true,
+      "has_data": false,
+      "body_len": 543
+    },
+    {
+      "url": "https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xgb9f74453d4e19aabkm800a59f4bd1eee8c8c7b6dda37789edb1794499658a-1168960602a-1317347523abaxc3eajrecaptcha33b90bc435d62162893c1aaf6767f865d08__bx__acs.aliexp",
+      "status": 200,
+      "body_preview": "\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=msg0RkZ5bRAGcK4hZChrW97MDlwq3c0vp8uSoCX-R_sv-EcrhW_0cNsn5iezTcQJGt8xCxp1o5CEY3Hvdqom6WZuatOVz6XXPlhSJZi4cPGqrSPvlfw2WL10yeynmWuNftv_6yZ5EJNjF4EWFkBRqYDoi6I9Jtw-v6VwIsD2TIuweauCvFEj--o95gH0g8O_8iIgHdUdUcb1_7s8fwOFL3lCHfgFBvbhBgSRL8yfF7iyNF31-dUZwEA9XeQKibfgKC6xqJ32DHvkdgQHpowhVAoRwYbUSaJf868fwu4CDpUMIzoHGi9tGwVbJswAaQ_X0xUEStju-aUkCZc7_CrCzBg5abfRKLup-i3lL0nEOtS2SFAqIaRCI2xih67NyncgcbAeFCwYqx8joT9phK0he_BPXYPD0RnznJc7q3aCC4u4cHa-OSbsvpX12j4bIV9X_moDEtSm8DX4Sfh5VIxUqmn4lXNG8GW7Hf6dM1AQMM4\" charset=\"UTF-8\"></script><script charset=\"utf-8\" src=\"//g.alicdn.com/mtb/lib-windvane/3.0.6/windvane.js\" crossorigin></script>\r\n    <script charset=\"utf-8\" async\r\n        src=\"//g.alicdn.com/bsop",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 3000
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxgb9f74453d4e19aabkm800a59f4bd1eee8c8c7b6d",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxgb9f74453d4e19aabkm800a59f4bd1eee8c8c7b",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p_url=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxgb9f74453d4e19aabkm800a59f4",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xgb9f74453d4e19aabkm800a59f4bd1eee8c8c7b6dda37789edb1794499658a-1168960602a-1317347523abaxc3eajrecaptcha33b90bc435d62162893c1a",
+      "status": 200,
+      "body_preview": "\r\n<html><head><meta charset=UTF-8><meta content=width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no name=viewport><script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OhEk-0dwJ9E6eN99JfAf7SNzE5stORFgfpWyoOjV8jrsElnl9rh0YSGKRdwxLVnYHIxyBmb3UcajxdxjjYgo1YG72cPSt1-EL1G1vtif9S-FpLf14OyU693_zjNs-gGZuUM7dpek-hhc2xiML4z_OEtTMWRhYxxDk89JgXFDbHWrH6mVchh1p3UR9NdkjqPYPbPozO4ZllpnLGLajEqBy4MzcrkyipvedvpFX_XgzoxT3eR95f0uHDocFqqVgtlP3BB4CJNIsQeYTUlGsFUcP9yqhmu1-WmH_ZF9XEdNcIM11zE6EI30-20vr7FXQyss56Y5XzYrpRf0zwsZzek3Ru-yrNEcaZZ6NnXsakjynjV4PwZJ7O3_12x142D2mpcXrgTOaNmvBJPH2Qil6xdL2Jz1lClBewQLvkM59muIIlhLVPASfZcIAPm8xBmqXO1tNxBIQHy3gZBYHheuMqwGXHTTeHPBinzDZGm2bXiPFMg6UXL1FZJUVL7FUzYRtM6TDQ9ocsUMKH2UsozCo6EzM6KyehF5bWD6LhK8-qjNypKDfsp6p9xnshWxeoKtphlgN5Ei6em4Q_lA-9i_4Gzvmv53JUMVDNv0uNggIyv3BvO5ptXnsUOa0thNDdhHG8Z-c-8H65ipcxQkOpL0OS4jirvQ1TxX79xraDVWj4FJZzlgYm3-u2nG446yn1n2qGJE7NtSRrrXHskG-ZSTx",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 3000
+    },
+    {
+      "url": "https://epss.alibaba-inc.com/report/web-e?host=acs.aliexpress.com&jf=recaptcha&cv=mm&jv=1&m=init@800a59f4bd1eee8c8c7b6dda37789edb",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxgb9f74453d4e19aabkm800a59f4bd1eee8c8c7b6dda37789edb1794499658a-1168960602a-1317347",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://epss.alibaba-inc.com/report/web-e?host=acs.aliexpress.com&jf=recaptcha&cv=mm&jv=1&m=loaded@800a59f4bd1eee8c8c7b6dda37789edb",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&uuid=800a59f4bd1eee8c8c7b6dda37789edb&x5secdata=xgb9f74453d4e19aabkm800a59",
+      "status": 200,
+      "body_preview": "{\"code\":0,\"dt\":\"success\",\"ec\":200,\"result\":{\"code\":0,\"sig\":\"from bx\"},\"success\":true}",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 85
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794499695221&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&timeout=15000&dataType=originaljsonp&callback=mt",
+      "status": 200,
+      "body_preview": "mtopjsonp1({\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg718c994b6610b5a7knb44c066f74dfe96a310f00e9f28eb2d61794499696a-1168960602a-1317347523abaxc3eajrecaptcha33bf69871f5a464ea251fe2c972eee32a9b__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}},\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}})",
+      "has_fail": true,
+      "has_data": false,
+      "body_len": 543
+    },
+    {
+      "url": "https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg718c994b6610b5a7knb44c066f74dfe96a310f00e9f28eb2d61794499696a-1168960602a-1317347523abaxc3eajrecaptcha33bf69871f5a464ea251fe2c972eee32a9b__bx__acs.aliexp",
+      "status": 200,
+      "body_preview": "\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=bX_221NGAjgj3WkroK1W-fCqaXX2028iKSLJVNVe-9wwgRKn0tE_S4e382gljUAzmYwiSgUWZbdlVKlF-nMeN6SwHVFV1df4-gl4mpKiGyzNHhyLAZ8YE__g_fyvyqqAuFOaaxVVGQTYQQ-9qq8jorVhmX7EWu0iBfkYWUvDSbeeW6mIZyvJaNnBcpVlOQQZBII8-09Gyf-65PBcsUG5BvF6qjo2ODkqy1QaExtXfNy0W2Gk5p-rYgFcH8Sd-RdXOvPVIVHWR4-9CZyk3I_vGspPmzbYsfS3XbNPZ1Vf-hJR_r9pF8KeirHWn5TqQEDUNZ4_Ri42D7nfpJ68BrJbg-6cdI68JU0_sXMy4GHbFgjRoPeawQRSv3mxSfkorVdd_VYU2Csacid0B7taZSzCJmw-kd9BD6oyxbtoyfipkU3IScF3HogUF-WyYxDwrWucR1vA9WML3LDg57NFlHq34pvw33h9OpbKBYE8eQoewkM\" charset=\"UTF-8\"></script><script charset=\"utf-8\" src=\"//g.alicdn.com/mtb/lib-windvane/3.0.6/windvane.js\" crossorigin></script>\r\n    <script charset=\"utf-8\" async\r\n        src=\"//g.alicdn.com/bsop",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 3000
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p_url=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg718c994b6610b5a7knb44c066f",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg718c994b6610b5a7knb44c066f74dfe96a310f00",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg718c994b6610b5a7knb44c066f74dfe96a310f",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg718c994b6610b5a7knb44c066f74dfe96a310f00e9f28eb2d61794499696a-1168960602a-1317347523abaxc3eajrecaptcha33bf69871f5a464ea251fe",
+      "status": 200,
+      "body_preview": "\r\n<html><head><meta charset=UTF-8><meta content=width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no name=viewport><script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Zrlb0zTvB94C7wzJ4MxS_GP_0OAUvAFVgpduORpQuToHkgteLIk2JvsrhjF1KGETuo1SDA-bitsy1WTJIP1uIIwn0_C2HjWVttnOm2S3Lf_8WVCOFowfH4-jRZR-gT16mVkCln7sMhUsqa8-hfK9jxheIhqEJvg5__g6ReTXeWZPyBY6PWIBLopTwYH-CflTzBm7QQ0aK2db8tvjSJMKpRRFx-TiLSvpbvTP0ZNsTHvt6OqDAHRt_9IGhJq5CtHApM5UG58r4ysdfiSYDK5Ct89mPAo1F_Du0-ZnOSCXO8SxaNWzSIgKZvnA_it0b7UTVjSAk7yNhC5G7RHXiJg5IvVBy1M2glj8t_8lPQGzP4yJ6Rw3M1nFDZXWXwY-FROL8WS03aZgtjSyo23Aere2gf8J-tuKodStldW4Pud3Qwm-_DVbn7PTKhmZ69dVpQhc7fxGqlJft8DnaYvAl3Ce160bF4eBzAsj3cfIwVNTlzOWlB4UggeWPW5Gjoylz6qCAak4qKSDEZMnHUpzFNPaMiEcH8aiOutqb9ka7Xg_-PXcvh_K3CTDtjwpFPBdXCphumSogF-HyCftPGJwWG-ZSW7fGKHGuZAokNfBz1FWorLOyF1Oo2IQtBHO28i7dpe_1ntPExNGZZ8EzGa4BdYnfyKPlwUbg4SUk9HCVK-j--ciyaGgsrDhMJn54b97tGn1aG-5nxnc4X8zifKKv",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 3000
+    },
+    {
+      "url": "https://epss.alibaba-inc.com/report/web-e?host=acs.aliexpress.com&jf=recaptcha&cv=mm&jv=1&m=init@b44c066f74dfe96a310f00e9f28eb2d6",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg718c994b6610b5a7knb44c066f74dfe96a310f00e9f28eb2d61794499696a-1168960602a-1317347",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://epss.alibaba-inc.com/report/web-e?host=acs.aliexpress.com&jf=recaptcha&cv=mm&jv=1&m=loaded@b44c066f74dfe96a310f00e9f28eb2d6",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&uuid=b44c066f74dfe96a310f00e9f28eb2d6&x5secdata=xg718c994b6610b5a7knb44c06",
+      "status": 200,
+      "body_preview": "{\"code\":0,\"dt\":\"success\",\"ec\":200,\"result\":{\"code\":0,\"sig\":\"from bx\"},\"success\":true}",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 85
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=i%2Cc%3Bv%3A2.5.37&pid=baxia&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg718c994b6610b5a7knb44c066f74dfe96a310f00e9f28eb2d61",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794499733655&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&timeout=15000&dataType=originaljsonp&callback=mt",
+      "status": 200,
+      "body_preview": "mtopjsonp1({\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg02cd243dbc1c01f7kndd9769a5561b87fdddc370bff6df87a71794499734a-1168960602a-1317347523abaxc3eajrecaptcha33b28f8b0f8b83e70dbaf7ff444c8a9a9af__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}},\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}})",
+      "has_fail": true,
+      "has_data": false,
+      "body_len": 543
+    },
+    {
+      "url": "https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg02cd243dbc1c01f7kndd9769a5561b87fdddc370bff6df87a71794499734a-1168960602a-1317347523abaxc3eajrecaptcha33b28f8b0f8b83e70dbaf7ff444c8a9a9af__bx__acs.aliexp",
+      "status": 200,
+      "body_preview": "\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=VKU6AAljdlBzKZk5azS-k2vPgcEcEvLy_iNajtVodRZdfbANjipmnjlKxnCrylwC9F-jS98UYYzYD_87iesVgZ2Fx6mObcRUpXYlG9E1ybeVoAlM53JUZXbnXmjjC062XTp-Wd6odYuzSOQMZTWOKwpyuBGBKwyJD4B5wzfwjP0oRJILbwvE5yN-Hp8-GB3n4T3cBgZ05KGQltM8y3p4wjFNkskVqJXoe_NNJ63W6AgVq2pxdi91rf6aLl18a7-oc4usJIIyUnSa7Y-SUcwbAHfiKou_odt9OuNMWN2tQZNfKPfg1UFBgGjpfwfOKtwFJbqExK1c5XMDI7WpK37X6YxEZyKt7G8kM69g3-zRAdEkjIsP_KAYZ3pcQfT31KpujwQpXNDqOC9Lu5OQdIRnQWDkSxc79Cga0_yOfPQNbs4a4fwFzBudeibtOZgbOaBJowjguWK6U-7QChZsq6fE0R7Iz1DsIUySqXumi06-SdQ\" charset=\"UTF-8\"></script><script charset=\"utf-8\" src=\"//g.alicdn.com/mtb/lib-windvane/3.0.6/windvane.js\" crossorigin></script>\r\n    <script charset=\"utf-8\" async\r\n        src=\"//g.alicdn.com/bsop",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 3000
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p_url=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg02cd243dbc1c01f7kndd9769a5",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg02cd243dbc1c01f7kndd9769a5561b87fdddc370bff6df87a71794499734a-1168960602a-1317347523abaxc3eajrecaptcha33b28f8b0f8b83e70dbaf7",
+      "status": 200,
+      "body_preview": "\r\n<html><head><meta charset=UTF-8><meta content=width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no name=viewport><script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7bIt0Swac3nqDBo3DB-anfM4VQ54L8s-CTmuRBV86eeTemTGqzUG0-mOStszxr2_9RIf43G6Ge5CBC7kYEpOf0aRycgvpVSiQTtigcjE_hnrAkuDnWFm3FwsesPI8tlJj8rlwDDWcIuC7JsXRQ11DZfmh21K3BJY-iR6CSlpNSJ7bPJWgDB9ykVSveeaxK3rgeK9Q5AL3w3OaOTlkoF_tbYhwjjjuEL7gp-YMSCixlOlCYDOYNFnqccIK9mAyHKjKMiUTE5qy5RaiEMrwrugRNX45AjB4T8UXJQVrL3BZClOvMQh33Yoeh3xvll0cBwPd_NCmUNy4wSTAljRclre7jmCTDxTU5tb2699--Mg7LhiE1SllYIctlvfrxUxrzW_zD0cfcg8AFaFvSinRXWZZ_B2luztQYcZvxC93uRLCh22mmDV0N2P57-ZfyX2LZVhcWqKwjmvDiH1Gs4URqJXDKEyHq3Oe7K4RTIXwLcxGg8y699EW1V91MrVx445gKyegPKy_hcmRiP_f5xumJrn1937YtxxasM14KivQNQ92LarTrHnNLZOur0VY5B-Z6SMm8BxljjRJZjzEjsjrRppOPgTt3TOrdPYhkGf8vxFXBwo53_PCCnP5eoIAC4yK4ZoBh1BkWpFLUeI0giHSPHTqkfkekwTQzrORljuNg0V7ZLb8-9OG9oIXZmhrPdd8vNmJo0YV91ekPhjHVt_0",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 3000
+    },
+    {
+      "url": "https://epss.alibaba-inc.com/report/web-e?host=acs.aliexpress.com&jf=recaptcha&cv=mm&jv=1&m=init@dd9769a5561b87fdddc370bff6df87a7",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg02cd243dbc1c01f7kndd9769a5561b87fdddc370",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg02cd243dbc1c01f7kndd9769a5561b87fdddc3",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg02cd243dbc1c01f7kndd9769a5561b87fdddc370bff6df87a71794499734a-1168960602a-1317347",
+      "status": 200,
+      "body_preview": "",
+      "has_fail": false,
+      "has_data": false,
+      "body_len": 0
+    }
+  ],
+  "run_params_raw": "{}",
+  "run_params_len": 2,
+  "prices": [],
+  "dom_prices": [],
+  "stock": null,
+  "category": null,
+  "variants_n": 0,
+  "seller": "",
+  "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_220x220q75.jpg_.avif",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sf826fda986cb463ca56efc2c5dcbdc9af.jpg_220x220q75.jpg_.avif",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S7a80d404b9df494b8c3b251efbac0b64M.jpg_220x220q75.jpg_.avif",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S14bdb58e79a74c9baf6e289cd745f7b5J.jpg_220x220q75.jpg_.avif",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sc254f5113e4a47fe823f9a8831ffaf70y.jpg_220x220q75.jpg_.avif",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S676b26003f3a4bfdbcb5453ce10d19f8R.jpg_220x220q75.jpg_.avif",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_960x960q75.jpg_.avif"
+  ],
+  "json_ld": [],
+  "meta_og_title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+  "meta_og_image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+  "meta_description": "Smarter Shopping, Better Living! Aliexpress.com",
+  "big_resource_size": 0,
+  "big_resource_keys": [],
+  "inline_scripts_summary": [
+    {
+      "len": 179532,
+      "head": "/*! 2026-01-08 15:03:35 v8.15.25 */\n!function(e){function i(n){if(o[n])return o[n].exports;var r=o[n]={exports:{},id:n,loaded:!1};return e[n].call(r.exports,r,r.exports,i),r.loaded=!0,r.exports}var o={};return i.m=e,i.c=o,i.p=\"\",i(0)}([function(e,i){\"use strict\";var o=window,n=document;!function(){v"
+    },
+    {
+      "len": 26989,
+      "head": "\n    !function(){\"use strict\";function e(e,t){if(null==e)return{};var n,o,r=function(e,t){if(null==e)return{};var n,o,r={},i=Object.keys(e);for(o=0;o<i.length;o++)n=i[o],t.indexOf(n)>=0||(r[n]=e[n]);return r}(e,t);if(Object.getOwnPropertySymbols){var i=Object.getOwnPropertySymbols(e);for(o=0;o<i.len"
+    },
+    {
+      "len": 8720,
+      "head": "\n    (function () {\n        try {\n            var isCSR = window._d_c_ && window._d_c_.isCSR;\n            if (isCSR !== true) {\n                window._page_config_ = window._page_config_ || {};\n                window._page_config_.prefetch = {\n                    enable: false\n                };\n  "
+    },
+    {
+      "len": 7645,
+      "head": "\n  !function(){\"use strict\";window.gep_queue=window.gep_queue||[];function n(e,n){return window.gep_queue.push({action:e,arguments:n})}try{var e,r=(null===(e=document.querySelector('meta[name=\"aplus-exinfo\"]'))||void 0===e?void 0:e.getAttribute(\"content\"))||\"\";(null==r?void 0:r.split(\"&\")).forEach(f"
+    },
+    {
+      "len": 4482,
+      "head": "\n(function () {\n    if (/AliApp\\(AE/.test(navigator.userAgent)) { return; }\n    if ('serviceWorker' in navigator) {\n      var MOBILE_UA_REG = /(phone|pad|pod|iPhone|iPod|iPad|ios|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i;\n      if (/"
+    },
+    {
+      "len": 2449,
+      "head": "\n        window.runParams = {\n                    };\n        window._d_c_ = window._d_c_ || {};\n        window._d_c_.viewName = 'newDetail';\n        window._d_c_.isCSR = true;\n                            window._d_c_.DCData = {\"extParams\":{\"foreverRandomToken\":\"[REDACTED_AUTH_SECRET]\",\"sit"
+    },
+    {
+      "len": 1389,
+      "head": "\n!function(){\"use strict\";!function(){try{if(window.performance&&window.MutationObserver){var e=Date.now(),t=document.body||document.documentElement,r=new MutationObserver((function(t){if(Date.now()-e>1e4)r.disconnect();else if(function(){if(document.querySelector(\"[data-TTICheck]\"))return!0;var e,t"
+    },
+    {
+      "len": 1067,
+      "head": "\nwindow._global_header_23_hit_exp_ = true;\nwindow._disable_ru_cookie_async_percent_ = 60;\nwindow._search_preload_page_whitelist_ = window._search_preload_page_whitelist_ || {};\nwindow._search_preload_page_whitelist_.disable = true;\n(function () {\n  if (!window.localStorage || window.innerWidth < 128"
+    }
+  ],
+  "source": "meta_og",
+  "errors": [],
+  "_dida_keys": null,
+  "_pageConfig_keys": null,
+  "_initData_keys": null,
+  "_globalData_keys": null,
+  "_INIT_DATA_keys": null,
+  "_NEXT_DATA_keys": null
+}

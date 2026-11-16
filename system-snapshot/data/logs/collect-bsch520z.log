@@ -1,0 +1,22 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:45:27,615 r52.autocollect.worker INFO phase=worker_start pid=12000
+2026-11-16 04:45:27,641 r52.autocollect.worker INFO source=WB mode=discover phase=initialize
+2026-11-16 04:45:27,641 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 04:45:27,644 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-16 04:45:27,644 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 04:45:27,649 r52.autocollect.worker INFO source=WB phase=search_start page=1 limit=5
+2026-11-16 04:45:28,586 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-16 04:45:31,249 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-16 04:45:31,363 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=113
+2026-11-16 04:45:34,506 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=935
+2026-11-16 04:45:36,440 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-16 04:45:48,642 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 14 bodies, best 259049B from https://www.wildberries.ru/__internal/u-recom/personal/v9/search?ab_testing=fals
+2026-11-16 04:45:48,808 r52.autocollect.worker INFO source=WB phase=write_start returned=5 valid=5 stats={'requests': 4, 'success': 0, 'failed': 0, 'blocked': 2}
+2026-11-16 04:45:48,810 r52.collectors INFO WB: записан jarvis-eye-wb-3f152976.json
+2026-11-16 04:45:48,817 r52.collectors INFO WB: записан jarvis-eye-wb-3b2a0afb.json
+2026-11-16 04:45:48,818 r52.collectors INFO WB: записан jarvis-eye-wb-934897d2.json
+2026-11-16 04:45:48,821 r52.collectors INFO WB: записан jarvis-eye-wb-42a682aa.json
+2026-11-16 04:45:48,823 r52.collectors INFO WB: записан jarvis-eye-wb-0f3662e8.json
+2026-11-16 04:45:48,827 r52.autocollect.worker INFO source=WB phase=write_complete files=5
+2026-11-16 04:45:48,827 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-16 04:45:49,460 r52.autocollect.worker INFO source=WB phase=close_complete

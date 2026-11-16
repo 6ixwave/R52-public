@@ -1,0 +1,84 @@
+{
+  "FP:id_138859452": {
+    "ok": false,
+    "detail": "all 4 urls failed for 138859452",
+    "s": 4.1
+  },
+  "FP:id_138952176": {
+    "ok": false,
+    "detail": "all 4 urls failed for 138952176",
+    "s": 8.9
+  },
+  "FP:full_auto": {
+    "ok": true,
+    "detail": "id=134693091 price=500 title=Вскрытие авто без ключа Открыть маш imgs=1 specs=2 desc=500b",
+    "s": 12.2
+  },
+  "FP:full_home": {
+    "ok": true,
+    "detail": "id=121063385 price=970800 title=Дизельный генератор Incon-R100 с дв imgs=6 specs=7 desc=500b",
+    "s": 15.1
+  },
+  "FP:full_hobby": {
+    "ok": true,
+    "detail": "id=136303743 price=37980 title=Квадрокоптер DJI Flip (GL). Гаранти imgs=8 specs=4 desc=500b",
+    "s": 17.8
+  },
+  "FP:stability": {
+    "ok": false,
+    "detail": "success=3/5",
+    "s": 23.6
+  },
+  "WB:1_session_html": {
+    "ok": false,
+    "detail": "main=498 prod=498 len=1136 head=<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"06104c4ea46875c35f287d2afed9f10f\" d",
+    "s": 26.6
+  },
+  "WB:3_fresh_search": {
+    "ok": false,
+    "detail": "HTTP=403 len=",
+    "s": 27.5
+  },
+  "WB:5_sweep61_100": {
+    "ok": false,
+    "detail": "hosts 61-100 all 404/err",
+    "s": 84.7
+  },
+  "WB:6_cardw_session": {
+    "ok": false,
+    "detail": "HTTP=403 len=",
+    "s": 87.4
+  },
+  "OZ:1_api_noverify": {
+    "ok": false,
+    "detail": "HTTP=403 len=\n\n{\"incidentId\": \"fab_20261112070536_01M77970NZKM2SABSC3H8135S0\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261112070536",
+    "s": 88.4
+  },
+  "OZ:2_mobile": {
+    "ok": false,
+    "detail": "HTTP=403 len=\n\n    \n\n<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Comp",
+    "s": 90.2
+  },
+  "OZ:3_ssr_noverify": {
+    "ok": false,
+    "detail": "HTTP=403 len=\n\n    \n\n<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Comp",
+    "s": 91.1
+  },
+  "OZ:4_pw_mobile": {
+    "ok": false,
+    "detail": "price=None ptitle=Похоже, нет соединения no_conn=True len=3276",
+    "s": 99.2
+  },
+  "AV:1_category": {
+    "ok": false,
+    "detail": "warmup=429 HTTP=429 len=<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n<head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-",
+    "s": 106.4
+  },
+  "AV:3_l10": {
+    "ok": false,
+    "detail": "HTTP=429 len=<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n<head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-",
+    "s": 111.4
+  },
+  "total_s": 111.4,
+  "time": "2026-11-12T17:05:58"
+}

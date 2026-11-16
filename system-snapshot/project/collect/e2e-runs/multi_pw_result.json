@@ -1,0 +1,43 @@
+{
+  "wb": {
+    "error": "Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  },
+  "ozon": {
+    "product_id": "1600562267",
+    "url": "https://www.ozon.ru/product/1600562267/",
+    "html_size": 733096,
+    "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра купить на OZON по низкой цене (1",
+    "widgets": [
+      "webShortCharacteristics",
+      "headerIcon",
+      "webProductHeading",
+      "webGallery",
+      "separator",
+      "bigPromoPDP",
+      "footer",
+      "textBlock",
+      "webStickyProducts",
+      "paginator"
+    ],
+    "jsonld_name": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез ",
+    "prices": [
+      {
+        "source": "json-price",
+        "value": 2295
+      },
+      {
+        "source": "jsonld",
+        "value": 2295.0,
+        "cur": "RUB"
+      }
+    ],
+    "has_price": true
+  },
+  "avito": {
+    "search_url": "https://www.avito.ru/moskva/noutbuki",
+    "search_size": 36455,
+    "search_title": "Доступ ограничен: проблема с IP",
+    "found_ids": [],
+    "error": "No live IDs found in search page"
+  }
+}

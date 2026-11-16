@@ -1,0 +1,112 @@
+================================================================
+DIAG V122: WB IMAGES + PRICE ALT + FARPOST LIVE  (2026-11-12)
+================================================================
+
+================================================================
+PART 1: WB IMAGE CDN PATTERNS
+================================================================
+nm_id=259671175, imt_id=236868886, vol=2596, part=259671
+HTTP client: curl_cffi (impersonate=chrome)
+
+--- 1A: basket-XX.wbbasket.ru ---
+  card.json on basket-16.wbbasket.ru (200, 5041B)
+  → basket host: basket-16
+
+--- 1B: Image patterns on basket CDN ---
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S800/S800.jpg
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S120/S120.jpg
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S100/S100.jpg
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S200/S200.jpg
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S400/S400.jpg
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S800/1.jpg
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S800/2.jpg
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S800/236868886.jpg
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S120/236868886.jpg
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/236868886.jpg
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S800/S800.webp
+  [xx] 404     196B text/html            /vol2596/part259671/259671175/images/S800/S800_1.jpg
+
+--- 1C: ir-XX.wbbasket.ru ---
+  [ER] ir-01.wbbasket.ru: Failed to perform, curl: (6) Could not resolve host: ir-01.w
+  [ER] ir-05.wbbasket.ru: Failed to perform, curl: (6) Could not resolve host: ir-05.w
+  [ER] ir-10.wbbasket.ru: Failed to perform, curl: (6) Could not resolve host: ir-10.w
+  [ER] ir-16.wbbasket.ru: Failed to perform, curl: (6) Could not resolve host: ir-16.w
+  [ER] ir-20.wbbasket.ru: Failed to perform, curl: (6) Could not resolve host: ir-20.w
+  [ER] ir-30.wbbasket.ru: Failed to perform, curl: (6) Could not resolve host: ir-30.w
+  [ER] ir-40.wbbasket.ru: Failed to perform, curl: (6) Could not resolve host: ir-40.w
+  [ER] ir-50.wbbasket.ru: Failed to perform, curl: (6) Could not resolve host: ir-50.w
+  [ER] ir-60.wbbasket.ru: Failed to perform, curl: (6) Could not resolve host: ir-60.w
+
+--- 1D: wbxstatic / wbstatic ---
+  [ER] wbxstatic.ru: Failed to perform, curl: (6) Could not resolve host: wbxstat
+  [ER] static.wbstatic.net: Failed to perform, curl: (35) Recv failure: Connection was r
+  [ER] ir.wbxstatic.ru: Failed to perform, curl: (6) Could not resolve host: ir.wbxs
+  [ER] static1.wbstatic.net: Failed to perform, curl: (6) Could not resolve host: static1
+  [ER] static2.wbstatic.net: Failed to perform, curl: (6) Could not resolve host: static2
+
+--- 1E: WB HTML page (og:image, embedded) ---
+  HTML: 498, 1136B
+  Image URLs in HTML: 0
+  data-price attrs: []
+  og:price:amount: []
+
+--- 1F: Price via search.wb.ru ---
+  [403]      0B text/plain           https://search.wb.ru/exactmatch/ru/common/v5/search?appType=1&curr=rub&dest=-125
+  [403]      0B text/plain           https://search.wb.ru/suggest/v1/search?appType=1&curr=rub&dest=-1257786&query=25
+  [403]      0B text/plain           https://card.wb.ru/cards/v2/detail?curr=rub&nm=259671175
+  [403]      0B text/plain           https://card.wb.ru/cards/detail?curr=rub&nm=259671175
+
+================================================================
+PART 2: FARPOST LIVE LISTING DISCOVERY + PARSE
+================================================================
+
+--- 2A: Warmup ---
+  GET /: 200, 73362B, cookies=[REDACTED_AUTH_SECRET]
+
+--- 2B: Category page (find live listings) ---
+  https://www.farpost.ru/krasnoyarsk/zapchasti/: 200, 231910B
+  Found 50 listings so far
+  Unique listings: 50
+    [data-attr] id=111993913 url=https://www.farpost.ru/bulletin/111993913
+    [data-attr] id=122914221 url=https://www.farpost.ru/bulletin/122914221
+    [data-attr] id=122915926 url=https://www.farpost.ru/bulletin/122915926
+    [data-attr] id=139047977 url=https://www.farpost.ru/bulletin/139047977
+    [data-attr] id=122916969 url=https://www.farpost.ru/bulletin/122916969
+    [data-attr] id=111649369 url=https://www.farpost.ru/bulletin/111649369
+    [data-attr] id=130247489 url=https://www.farpost.ru/bulletin/130247489
+    [data-attr] id=111650940 url=https://www.farpost.ru/bulletin/111650940
+
+--- 2C: Test parse on live listings ---
+
+  [1] https://www.farpost.ru/bulletin/111993913
+      HTTP 404, 13900B
+
+  [2] https://www.farpost.ru/bulletin/122914221
+      HTTP 404, 13900B
+
+  [3] https://www.farpost.ru/bulletin/122915926
+      HTTP 404, 13900B
+
+--- 2D: ?u= redirect with session cookies ---
+  https://www.farpost.ru?u=/bulletin/111993913&f=1
+  → 200, final=https://www.farpost.ru/?u=/bulletin/111993913&f=1
+  Title: Фарпост — Доска объявлений
+  Has price attr: False, Has gallery: False
+
+================================================================
+PART 3: WB PRICE ALTERNATIVES
+================================================================
+  [404]    196B text/html            /vol2596/part259671/259671175/info/ru/price.json
+  [404]    196B text/html            /vol2596/part259671/259671175/info/ru/sizes.json
+  [404]    196B text/html            /vol2596/part259671/259671175/info/ru/stock.json
+  [404]    196B text/html            /vol2596/part259671/259671175/info/ru/seller.json
+
+  --- WB web API (different paths) ---
+  [498]   1136B text/html            og/cards/v1?nm=259671175
+  [498]   1136B text/html            og/product/259671175
+  [498]   1136B text/html            og/cards/v1/detail?nm=259671175&curr=rub
+  [498]   1136B text/html            og/cards/v2?nm=259671175
+
+================================================================
+DIAG V122 DONE
+================================================================

@@ -1,0 +1,116 @@
+{
+  "ts": "2026-11-12T17:25:26.360386+10:00",
+  "wb": {
+    "step1_cookies": "[REDACTED_AUTH_SECRET]",
+    "web_v1": {
+      "status": 498,
+      "len": 1136,
+      "body": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"d531105d71e751d6a4c8c59c63a91e4d\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Dat"
+    },
+    "web_v2": {
+      "status": 498,
+      "len": 1136,
+      "body": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"2aef54471838eaa673e60e8c93d30e74\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Dat"
+    },
+    "web_v4": {
+      "status": 498,
+      "len": 1136,
+      "body": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"4396daea55be57c7f3669c5cc49f210c\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Dat"
+    },
+    "web_search": {
+      "status": 498,
+      "len": 1136,
+      "body": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"11405a62b8b930df5b8043cedcc882e9\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Dat"
+    },
+    "basket_card.json": {
+      "status": 200,
+      "len": 10942,
+      "keys": [
+        "imt_id",
+        "nm_id",
+        "imt_name",
+        "slug",
+        "subj_name",
+        "subj_root_name",
+        "vendor_code",
+        "description",
+        "options",
+        "certificate",
+        "nm_colors_names",
+        "colors",
+        "full_colors",
+        "selling",
+        "media",
+        "data",
+        "grouped_options",
+        "need_kiz",
+        "user_flags",
+        "update_date"
+      ],
+      "sample": "{\"imt_id\": 2227481309, \"nm_id\": 1097975275, \"imt_name\": \"Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)\", \"slug\": \"smartfon-iphone-17-pro-max-256-serebryanyj-esim\", \"subj_name\": \"Смартфоны\", \"subj_root_name\": \"Смартфоны и гаджеты\", \"vendor_code\": \"Смартфон iPhone 17 Pro Max 256 Серебряный\", \"description\": \"Товар в наличии, находится на складе в МО. Смартфон Apple iPhone 17 Pro Max объемом памяти"
+    },
+    "basket_price.json": {
+      "status": 404,
+      "len": 196
+    },
+    "card_wb_v2": {
+      "status": 403,
+      "len": 0
+    }
+  },
+  "ozon": {
+    "comp_v2": {
+      "status": 403,
+      "len": 1081,
+      "body": "\n\n{\"incidentId\": \"fab_20261112072547_01M77ABZ9M8Y43NP0RXKQYSB9P\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261112072547_01M77ABZ9M8Y43NP0RXKQYSB9P&token=[REDACTED_AUTH_SECRET]"
+    },
+    "comp_v1": {
+      "status": 403,
+      "len": 1081,
+      "body": "\n\n{\"incidentId\": \"fab_20261112072549_01M77AC1BX98A55QREQ8M9N716\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261112072549_01M77AC1BX98A55QREQ8M9N716&token=[REDACTED_AUTH_SECRET]"
+    },
+    "pdp_api": {
+      "status": 403,
+      "len": 1055,
+      "body": "\n\n{\"incidentId\": \"fab_20261112072552_01M77AC46VJBG1FCTTC09JF2FW\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261112072552_01M77AC46VJBG1FCTTC09JF2FW&token=[REDACTED_AUTH_SECRET]"
+    },
+    "cffi_html": {
+      "status": 403,
+      "len": 8407,
+      "body_403": "\n\n    \n\n<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1\">\n  <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">\n  <link rel=\"stylesheet\" href=\"https://cdn2.ozone.ru/s3/abt-challenge/incidents/styles_v2/common.css\">\n  <title>Antibot Challenge Page</title>\n  <link rel=\"stylesheet\" href=\"https://cdn2.ozone.ru/s3/abt-challenge/styl"
+    },
+    "cffi_mobile": {
+      "status": 403,
+      "len": 8346
+    }
+  },
+  "avito": {
+    "439_dump": {
+      "status": 429,
+      "len": 35048
+    },
+    "cat_smartfony": {
+      "status": 429,
+      "len": 35048
+    },
+    "cat_telefony": {
+      "status": 429,
+      "len": 35048
+    },
+    "cat_gadzety": {
+      "status": 429,
+      "len": 35048
+    },
+    "cat_search_api": {
+      "status": 429,
+      "len": 35048
+    },
+    "ad_test": {
+      "note": "no ID found"
+    },
+    "api": {
+      "status": 404,
+      "len": 555
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://www.ozon.ru/api/composer-api.bx/_action/setUserCookies",
+    "status": 200,
+    "len": 18,
+    "body": "{\"isSuccess\":true}"
+  },
+  {
+    "url": "https://www.ozon.ru/api/composer-api.bx/_action/summaryV2",
+    "status": 200,
+    "len": 2,
+    "body": "{}"
+  },
+  {
+    "url": "https://www.ozon.ru/api/entrypoint-api.bx/page/json/v2?url=%2Fproduct%2F3481320800%2F%3F__rr%3D1%26abt_att%3D1%26layout_container%3DpdpPage2column%26l",
+    "status": 200,
+    "len": 113995,
+    "body": "{\"layout\":[{\"component\":\"container\",\"params\":\"{}\",\"stateId\":\"container-347912-pdpPage2column-2\",\"version\":1,\"vertical\":\"layout\",\"widgetTrackingInfo\":\"{}\",\"placeholders\":[{\"name\":\"default\",\"widgets\":[{\"component\":\"webPdpGrid\",\"params\":\"{\\\"direction\\\":\\\"column\\\",\\\"wrap\\\":\\\"nowrap\\\",\\\"alignMainAxis\\\":\\\"start\\\",\\\"alignCrossAxis\\\":\\\"stretch\\\",\\\"betweenMargin\\\":\\\"0\\\",\\\"verticalPadding\\\":\\\"0\\\",\\\"horizontalPadding\\\":\\\"0\\\",\\\"backgroundColor\\\":\\\"transparent\\\",\\\"width\\\":\\\"calc(100%)\\\"}\",\"stateId\":\"webPdpGrid-3386021-pdpPage2column-2\",\"version\":1,\"vertical\":\"pdp\",\"widgetTrackingInfo\":\"{}\",\"id\":3386021,\"isStatic\":true},{\"component\":\"row\",\"params\":\"{}\",\"stateId\":\"row-383123-pdpPage2column-2\",\"version\":1,\"vertical\":\"layout\",\"widgetTrackingInfo\":\"{}\",\"placeholders\":[{\"name\":\"default\",\"widgets\":[{\"componen"
+  },
+  {
+    "url": "https://www.ozon.ru/api/entrypoint-api.bx/page/json/v2?url=%2Fproduct%2F3481320800%2F%3F__rr%3D1%26abt_att%3D1%26layout_container%3DpdpReviews%26layou",
+    "status": 200,
+    "len": 23674,
+    "body": "{\"layout\":[{\"component\":\"webReviewTabs\",\"params\":\"{\\\"pdpPageTabsParam\\\":\\\"questions_reviews\\\"}\",\"stateId\":\"webReviewTabs-12252227-pdpReviews-2\",\"version\":1,\"vertical\":\"rpProduct\",\"widgetTrackingInfo\":\"{}\",\"placeholders\":[{\"name\":\"tabs\",\"widgets\":[{\"component\":\"webAsyncContainer\",\"params\":\"{\\\"defaultSubURL\\\":\\\"reviews/pdp-part\\\"}\",\"stateId\":\"webAsyncContainer-12252206-pdpReviews-2\",\"version\":1,\"vertical\":\"rpProduct\",\"widgetTrackingInfo\":\"{}\",\"id\":12252206},{\"component\":\"row\",\"params\":\"{}\",\"stateId\":\"row-12252226-pdpReviews-2\",\"version\":1,\"vertical\":\"layout\",\"widgetTrackingInfo\":\"{}\",\"placeholders\":[{\"name\":\"default\",\"widgets\":[{\"component\":\"column\",\"params\":\"{\\\"basis\\\":7}\",\"stateId\":\"column-12252213-pdpReviews-2\",\"version\":1,\"vertical\":\"layout\",\"widgetTrackingInfo\":\"{\\\"name\\\":\\\"layout.colum"
+  },
+  {
+    "url": "https://www.ozon.ru/api/entrypoint-api.bx/page/json/v2?url=%2Fproduct%2F3481320800%2F%3F__rr%3D1%26abt_att%3D1%26layout_container%3Dpdp-web-second-ana",
+    "status": 200,
+    "len": 59237,
+    "body": "{\"layout\":[{\"component\":\"separator\",\"params\":\"{\\\"height\\\":16}\",\"stateId\":\"separator-14315619-pdp-web-second-analogs-shelf-3\",\"version\":1,\"vertical\":\"cms\",\"widgetTrackingInfo\":\"{\\\"name\\\":\\\"cms.separator\\\",\\\"vertical\\\":\\\"cms\\\",\\\"component\\\":\\\"separator\\\",\\\"version\\\":1,\\\"id\\\":14315619,\\\"revisionId\\\":15022508,\\\"provider\\\":\\\"cms-api\\\"}\",\"etag\":\"0d30de9607699127\",\"widgetToken\":\"[REDACTED_AUTH_SECRET]\",\"name\":\"cms.separator\",\"id\":14315619,\"isTrackingOn\":true,\"isStatic\":true},{\"component\":\"tileScrollDesktop\",\"params\":\"{\\\"title\\\":\\\"Покупают вместе\\\",\\\"tileGrid2ColorPickerTextSelector\\\":\\\"clearLightKey0\\\",\\\"commonHeaderTitleAlignment\\\":\\\"LEADING\\\",\\\"commonHeaderTitleTypography\\\":\\\"tsHeadline600Medium\\\",\\\"commonHeaderBadgeStyleType\\\":\\\"NEUTRAL_PRIMARY\\\",\\\"displaySize\\\":12,\\\"displayTemplateI"
+  }
+]

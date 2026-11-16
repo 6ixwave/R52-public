@@ -1,0 +1,30 @@
+2026-11-11 16:31:27,147 v100 INFO === probe_v100 START ===
+2026-11-11 16:31:27,717 v100 INFO DB: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\r52.sqlite3 exists=True
+2026-11-11 16:31:27,979 r52.sources INFO Sources: зарегистрировано 4 сборщиков
+2026-11-11 16:31:28,012 v100 INFO App opened
+2026-11-11 16:31:28,013 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\collectors\proxies.json не найден, режим direct
+2026-11-11 16:31:28,013 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 16:31:28,017 v100 INFO --- ITEM 1097975275 (NEW) vol=10979 part=1097975 ---
+2026-11-11 16:31:28,017 v100 INFO   basket path: /vol10979/part1097975/1097975275/info/ru/card.json
+2026-11-11 16:31:37,399 v100 INFO   basket: 10/60 scanned, last=basket-10.wbbasket.ru->404
+2026-11-11 16:31:46,878 v100 INFO   basket: 20/60 scanned, last=basket-20.wbbasket.ru->404
+2026-11-11 16:31:56,473 v100 INFO   basket: 30/60 scanned, last=basket-30.wbbasket.ru->404
+2026-11-11 16:32:05,958 v100 INFO   basket: 40/60 scanned, last=basket-40.wbbasket.ru->404
+2026-11-11 16:32:07,805 v100 INFO   basket HIT: basket-42.wbbasket.ru (0.8s, 10942B)
+2026-11-11 16:32:07,805 v100 INFO   basket: 40s host=basket-42.wbbasket.ru card=yes(21 keys)
+2026-11-11 16:32:08,653 v100 INFO   price [v4] -> 403 (0.8s)
+2026-11-11 16:32:09,999 v100 INFO   price [v2] -> 403 (0.8s)
+2026-11-11 16:32:11,321 v100 INFO   price [v1] -> 403 (0.8s)
+2026-11-11 16:32:12,645 v100 INFO   price [web] -> 498 (0.8s)
+2026-11-11 16:32:13,146 v100 INFO   price: 5s data=no
+2026-11-11 16:32:13,972 v100 INFO   html: 498 (0.8s)
+2026-11-11 16:32:13,972 v100 ERROR FATAL
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\probe_v100.py", line 438, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\probe_v100.py", line 352, in main
+    obs_dict = merge_obs(nm_id, card_data, price_data, html_resp, basket_host)
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\probe_v100.py", line 256, in merge_obs
+    n = int(basket_host.split("-")[1])
+ValueError: invalid literal for int() with base 10: '42.wbbasket.ru'

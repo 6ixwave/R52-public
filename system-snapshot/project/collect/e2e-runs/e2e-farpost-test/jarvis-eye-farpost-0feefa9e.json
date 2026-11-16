@@ -1,0 +1,15 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "FARPOST",
+  "observation": {
+    "source": "FARPOST",
+    "id": "130693618",
+    "url": "https://www.farpost.ru/bulletin/130693618",
+    "status": "FAILED",
+    "error": "parse_returned_none",
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

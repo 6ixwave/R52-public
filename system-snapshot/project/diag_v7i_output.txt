@@ -1,0 +1,45 @@
+=== diag_v7i — 2026-11-14 12:54:26 ===
+Query: 'наушники'
+
+── [1] COM wholesale (URL locale params) ──
+  OK: 821951 bytes, 4.5s
+  Locale: IT=0, EN=0, RU=1
+  pdp_npi currencies: {'EUR'}
+  Symbols in first 100KB: $=0, €=0
+  Parsed: 12 products
+  [0] id=1005012417611123
+      title='HIFIMAN Ananda Stealth Magnet Cuffie Hi-Fi Open-Back Over-Ea'
+      price=227.39 EUR
+  [1] id=1005013565057281
+      title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per'
+      price=521.39 EUR
+  [2] id=1005012541094028
+      title='Cuffie Hi-Fi HIFIMAN Edition XS Full-Size Over-Ear Open-Back'
+      price=235.39 EUR
+  [3] id=1005006995878553
+      title='Auricolari wireless Pro 6 TWS con microfono, auricolari Blue'
+      price=3.61 EUR
+  [4] id=1005013100963256
+      title='Cuffie Nothing (1), cancellazione attiva ibrida del rumore, '
+      price=198.77 EUR
+
+── [2] RU search API HTML probe ──
+  HTTP 200, 13830 bytes, 2.7s
+  Content-Type: text/html;charset=utf-8
+  First 500 chars:
+    
+    <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><
+  Last 200 chars:
+    .com/ae-dida/error/0.0.6/js/335.js" defer="" crossorigin="anonymous"></script><script src="https://g.alicdn.com/ae-dida/
+  SPA markers: []
+  --- POST probe ---
+  POST: HTTP 200, 13828B, 2.9s, JSON=False
+    first 200: '<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="follow,index"/><meta name="referrer" content="no-ref'
+
+── [3] RU wholesale (baseline) ──
+  OK: 744403 bytes, 8.7s
+  Parsed: 12 products
+  [0] title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per' price=521.39 EUR
+  collect_by_search: 12 items, 14.8s
+
+=== DONE ===

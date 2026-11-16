@@ -1,0 +1,36 @@
+{
+  "FP:cat_structure": {
+    "ok": false,
+    "detail": "ids=0 p_attr=0 p_cls=0 titles=0 imgs=0 len=89805",
+    "s": 3.1
+  },
+  "FP:pw_card": {
+    "ok": false,
+    "detail": "url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F134693091.html verify=True price=N/A jsonld=False title=Фарпост - доска объявлений len=216559",
+    "s": 21.0
+  },
+  "WB:card_full": {
+    "ok": false,
+    "detail": "HTTP=404",
+    "s": 0.9
+  },
+  "WB:search_v5": {
+    "ok": false,
+    "detail": "HTTP=403 len=0",
+    "s": 1.0
+  },
+  "OZ:pw_wait": {
+    "ok": false,
+    "detail": "title=Похоже, нет соединения jsonlds=0 price=None xhr=0 len=3305",
+    "s": 12.8
+  },
+  "AV:category": {
+    "ok": false,
+    "detail": "all AV category URLs failed (429 or no IDs)",
+    "s": 2.1
+  },
+  "_meta": {
+    "total_s": 40.8,
+    "time": "2026-11-12 17:30:59"
+  }
+}

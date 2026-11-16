@@ -1,0 +1,25 @@
+{
+  "profile": "fresh_us",
+  "products": [
+    {
+      "pid": "1005011813323763",
+      "label": "Товар 1 (тот же, что в pw13)",
+      "mtop": true,
+      "ban": false,
+      "title": "",
+      "price": null,
+      "currency": null,
+      "images": 0
+    },
+    {
+      "pid": "1005006798847852",
+      "label": "Товар 2 (из pw12)",
+      "mtop": true,
+      "ban": false,
+      "title": "",
+      "price": null,
+      "currency": null,
+      "images": 0
+    }
+  ]
+}

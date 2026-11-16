@@ -1,0 +1,73 @@
+{
+  "AVITO": {
+    "source": "AVITO",
+    "id": "1102345678",
+    "elapsed": 1.0,
+    "stats": {
+      "requests": 1,
+      "success": 0,
+      "failed": 1,
+      "blocked": 0
+    },
+    "status": "NO_DATA",
+    "verdict": "DATA_WEAK"
+  },
+  "FARPOST": {
+    "source": "FARPOST",
+    "id": "139122082",
+    "elapsed": 2.8,
+    "stats": {
+      "requests": 1,
+      "success": 1,
+      "failed": 0,
+      "blocked": 0
+    },
+    "status": "PARTIAL_SUCCESS",
+    "title": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красноярске",
+    "price_count": 1,
+    "price_first": {
+      "role": "regular",
+      "amount_minor": 849900,
+      "currency": "RUB",
+      "label": "data-bulletin-price",
+      "amount": "8499.00",
+      "visible_label": "data-bulletin-price"
+    },
+    "media_count": 1,
+    "desc_len": 80,
+    "category": "Авто и мото > Шины и диски > Шины > Шины LingLong GREEN-Max Winter > LingLong GREEN-Max Winter Grip Van 2",
+    "verdict": "DATA_OK"
+  },
+  "OZON": {
+    "source": "OZON",
+    "id": "278346543",
+    "elapsed": 7.9,
+    "stats": {
+      "requests": 0,
+      "success": 0,
+      "failed": 0,
+      "blocked": 0
+    },
+    "status": "NO_DATA",
+    "verdict": "DATA_WEAK"
+  },
+  "WB": {
+    "source": "WB",
+    "id": "100000001",
+    "elapsed": 16.6,
+    "stats": {
+      "requests": 6,
+      "success": 2,
+      "failed": 4,
+      "blocked": 0
+    },
+    "status": "PARTIAL_SUCCESS",
+    "title": "Белизна отбеливатель средство для уборки",
+    "price_count": 0,
+    "price_first": null,
+    "media_count": 1,
+    "desc_len": 1155,
+    "category": "Бытовая химия > Гели для уборки",
+    "verdict": "DATA_OK"
+  }
+}

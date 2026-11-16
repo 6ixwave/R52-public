@@ -1,0 +1,81 @@
+{
+  "FP:card_cffi": {
+    "ok": null,
+    "detail": "HTTP=200 len=198305 jld=0 price=N bull=False",
+    "s": 2.1
+  },
+  "FP:cat_warmup": {
+    "ok": false,
+    "detail": "HTTP=200 len=89123 links=0 prices=0 ids=0 verify=True url=https://www.farpost.ru/verify?u=%2Fvladivostok%2Fauto%2Fmisc",
+    "s": 5.3
+  },
+  "FP:cat_mobile": {
+    "ok": false,
+    "detail": "HTTP=200 len=89084 bull=0 prices=0 scripts=0 verify=True",
+    "s": 7.8
+  },
+  "FP:card_pw": {
+    "ok": false,
+    "detail": "len=94737 jld=0 price=N",
+    "s": 12.5
+  },
+  "FP:cat_pw": {
+    "ok": false,
+    "detail": "len=94477 bull=0 prices=0 verify=True url=https://www.farpost.ru/verify?u=%2Fvladivostok%2Fauto%2Fmisc",
+    "s": 21.0
+  },
+  "OZ:pw_pdp": {
+    "ok": null,
+    "detail": "len=3305 prices=0 jld=0 og_price=N widget=False",
+    "s": 28.6
+  },
+  "OZ:composer_v2": {
+    "ok": false,
+    "detail": "Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to g",
+    "s": 30.1
+  },
+  "OZ:mobile_api": {
+    "ok": false,
+    "detail": "Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to g",
+    "s": 30.8
+  },
+  "OZ:pdp_entry": {
+    "ok": false,
+    "detail": "HTTP=403 len=5975",
+    "s": 31.8
+  },
+  "WB:pw_html": {
+    "ok": false,
+    "detail": "Page.content: Unable to retrieve content because the page is navigating and chan",
+    "s": 37.8
+  },
+  "WB:basket_cdn": {
+    "ok": false,
+    "detail": "vol=10979 part=1097975 all 12 hosts failed",
+    "s": 50.1
+  },
+  "WB:price_v1": {
+    "ok": false,
+    "detail": "HTTP=403 len=0",
+    "s": 51.0
+  },
+  "AV:rss": {
+    "ok": false,
+    "detail": "HTTP=404 items=0 prices=0 len=29907",
+    "s": 52.8
+  },
+  "AV:cat_cffi": {
+    "ok": false,
+    "detail": "HTTP=439 len=14382 offers=0 prices=0 links=0",
+    "s": 53.8
+  },
+  "AV:cat_pw": {
+    "ok": false,
+    "detail": "len=36461 offers=0 prices=0 links=0",
+    "s": 60.5
+  },
+  "_meta": {
+    "total_s": 60.6,
+    "time": "2026-11-12T17:47:04.500717+10:00"
+  }
+}

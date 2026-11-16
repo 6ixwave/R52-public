@@ -1,0 +1,94 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "UPERFECT Monitor Portatile Touch da 15,6 Pollici per Gaming 1920*1080P 300cd/m2 Schermo PC Esteso per TV Laptop Secondo Schermo XBox PS4/5",
+        "method": "PW_META",
+        "evidence": {
+          "method": "PW_META",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S2296bfe03dc343cfaf5ba514779a0abcx.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa2c229c801724a21b8fa5a1fb4586a87u.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sb4cb6cca69fe4da5b04fab27719f410db.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sd813ee5a38884a94a63ba9f4259de8e0s.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf17836749270497499fbd3d0416ec2c7r.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S8e14961accd447aa85985a86d8384f4aO.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf6f013b55c774abbb95ed85d8db3cea2x.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S80bca0a7a46f4f22b235ad6646ca894bR.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S2296bfe03dc343cfaf5ba514779a0abcx.jpg_960x960q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005009813246509",
+    "url": "https://www.aliexpress.com/item/1005009813246509.html",
+    "observed_at": "2026-11-15T20:20:21.822961+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

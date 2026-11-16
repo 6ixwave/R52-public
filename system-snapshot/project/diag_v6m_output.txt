@@ -1,0 +1,73 @@
+=== diag_v6m — 2026-11-14 12:21:56 ===
+Query: 'наушники'
+
+URL: https://ru.aliexpress.com/wholesale?SearchText=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8&page
+HTTP 200, 747408 bytes, 4.4s
+card-list at index: 193652
+Anchors found: 12
+
+============================================================
+CARD [0] href=//it.aliexpress.com/item/1005013565057281.html?algo_pvid=6621fb95-bbaf-4a3e-8f40-2aee6050d2d5&amp;al
+Card HTML length: 5191
+Price-class elements: 1
+  [P0] class area: class="us--price--djLk2B_" aria-label="521,39€"><div class="us--price-sale--2AC5JCI"><span style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);cli
+new--price blocks: 0
+Numbers near currency symbols: ['21', '521,39', '521,39', '685,96', '685,96']
+pdp_npi parts: ['6@dis', 'EUR', '685.96', '521.39', '', '']
+  ── Card HTML (first 2000) ──
+  |<a class="us--container--3TqMHxQ cards--card--3PJxwBm search-card-item" href="//it.aliexpress.com/item/1005013565057281.html?algo_pvid=6621fb95-bbaf-4a3e-8f40-2aee6050d2d5&amp;algo_exp_id=6621fb95-bba
+  |f-4a3e-8f40-2aee6050d2d5-0&amp;pdp_ext_f=%7B%22order%22%3A%22663%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005013565057281%22%2C%22orig_item_id%22%3A%
+  |221005011875769531%22%2C%22fromPage%22%3A%22search%22%7D&amp;pdp_npi=6%40dis%21EUR%21685.96%21521.39%21%21%214938.54%213753.71%21%402103828617946229199367853e0fab%2112000061476975090%21sea%21IT%210%21
+  |X%211%210%21n_tag%3A-29919%3Bd%3Acd1bf78a%3Bm03_new_user%3A-29895&amp;curPageLogUid=9QGRWuJc1Ph9&amp;utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005013565057281%7C_p_origin_prod%3A1005
+  |011875769531" target="_blank" rel="nofollow"><div class="us--image--2Y_0kq8 us--imageGallery--_ZouR-G"><img class="us--img--1hzdDH9 product-img" src="//ae-pic-a1.aliexpress-media.com/kf/Af8fee1506e3a4
+  |107bd9c55d531d19dd27.jpg_480x480q75.jpg_.avif" alt="HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per Audiofili, Versione Stealth Magnets" aria-hidden="true"/><div class="us--imageModal--3-
+  |rTcBo"></div><div class="us--shopCart--1XSLO0S us--shopLtr--3PEmm7a"><div class="image--wrapper--TI9e76Y"><span class="image--icon--10qzBFN"></span></div></div></div><div class="us--content--_szoLpI">
+  |<div title="HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per Audiofili, Versione Stealth Magnets" style="margin-top:8px" class="us--title--1W4lUoB"><img aria-hidden="true" dir="" class="ta
+  |g--imgStyle--T-2Xbt_" src="https://ae-pic-a1.aliexpress-media.com/kf/Sb008eb53e92f463eb0a2c17c539df530h.png" height="16" width="40.5" alt=""/><img aria-hidden="true" dir="" class="tag--imgStyle--T-2Xb
+  |t_" src="https://ae-pic-a1.aliexpress-media.com/kf/Sdea05165d9ea47dabafdc9113b83d7cbE.png" height="16" width="91.25" alt=""/><h3 class="us--titleText--3aHX9ZG">HIFIMAN Arya Cuffie Over-Ear Planar Magn
+
+============================================================
+CARD [1] href=//it.aliexpress.com/item/1005012417611123.html?algo_pvid=6621fb95-bbaf-4a3e-8f40-2aee6050d2d5&amp;al
+Card HTML length: 5714
+Price-class elements: 1
+  [P0] class area: class="us--price--djLk2B_" aria-label="227,39€"><div class="us--price-sale--2AC5JCI"><span style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);cli
+new--price blocks: 0
+Numbers near currency symbols: ['21', '227,39', '227,39', '50,15', '50,15', '277,54', '277,54']
+pdp_npi parts: ['6@dis', 'EUR', '277.54', '227.39', '', '']
+  ── Card HTML (first 2000) ──
+  |<a class="us--container--3TqMHxQ cards--card--3PJxwBm search-card-item" href="//it.aliexpress.com/item/1005012417611123.html?algo_pvid=6621fb95-bbaf-4a3e-8f40-2aee6050d2d5&amp;algo_exp_id=6621fb95-bba
+  |f-4a3e-8f40-2aee6050d2d5-1&amp;pdp_ext_f=%7B%22order%22%3A%22876%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005012417611123%22%2C%22orig_item_id%22%3A%221005011876295201%22%2C%22fromPage%
+  |22%3A%22search%22%7D&amp;pdp_npi=6%40dis%21EUR%21277.54%21227.39%21%21%211998.12%211637.08%21%402103828617946229199367853e0fab%2112000058342870547%21sea%21IT%210%21X%211%210%21n_tag%3A-29919%3Bd%3Acd1
+  |bf78a%3Bm03_new_user%3A-29895&amp;curPageLogUid=UoWhkHrQwO9Z&amp;utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005012417611123%7C_p_origin_prod%3A1005011876295201" target="_blank" rel="f
+  |ollow"><div class="us--image--2Y_0kq8 us--imagesGallery--1tFnlkL"><div class="images--multiImage--2ZwOlcj"><div class="images--hover--3f4_Blm images--isNewAppData--CAylq5J"><div class="images--hoverMo
+  |dal--2UE-q5T"></div><div class="images--imageWindow--1w8hbII" style="transform:translateX(-0%)"><img class="images--item--1beIg7S" src="//ae-pic-a1.aliexpress-media.com/kf/S875adfeec643427691a7ac4d4a6
+  |ebff0N.jpg_480x480q75.jpg_.avif" alt="HIFIMAN Ananda Stealth Magnet Cuffie Hi-Fi Open-Back Over-Ear Full-Size Planar Magnetic" aria-hidden="true"/><div class="lazy-load"></div><div class="lazy-load"><
+  |/div><div class="lazy-load"></div><div class="lazy-load"></div></div></div><div class="images--dotWrapper--38_8izR"><div class="images--dot--1j09zrQ images--active--3Wb5JNa"></div><div class="images--
+  |dot--1j09zrQ"></div><div class="images--dot--1j09zrQ"></div><div class="images--dot--1j09zrQ"></div><div class="images--dot--1j09zrQ"></div></div></div><div class="us--shopCart--1XSLO0S us--shopLtr--3
+  |PEmm7a us--shopCartImage--17uLu7m"><div class="image--wrapper--TI9e76Y"><span class="image--icon--10qzBFN"></span></div></div></div><div class="us--content--_szoLpI"><div title="HIFIMAN Ananda Stealth
+
+============================================================
+CARD [2] href=//it.aliexpress.com/item/1005013569410352.html?algo_pvid=6621fb95-bbaf-4a3e-8f40-2aee6050d2d5&amp;al
+Card HTML length: 5224
+Price-class elements: 1
+  [P0] class area: class="us--price--djLk2B_" aria-label="14,78€"><div class="us--price-sale--2AC5JCI"><span style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);clip
+new--price blocks: 0
+Numbers near currency symbols: ['21', '14,78', '14,78', '25,94', '25,94']
+pdp_npi parts: ['6@dis', 'EUR', '25.94', '14.78', '', '']
+  ── Card HTML (first 2000) ──
+  |<a class="us--container--3TqMHxQ cards--card--3PJxwBm search-card-item" href="//it.aliexpress.com/item/1005013569410352.html?algo_pvid=6621fb95-bbaf-4a3e-8f40-2aee6050d2d5&amp;algo_exp_id=6621fb95-bba
+  |f-4a3e-8f40-2aee6050d2d5-2&amp;pdp_ext_f=%7B%22order%22%3A%22-1%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&amp;pdp_npi=6%40dis%21EUR%2125.94%2114.78%21%21%2125.94%2114.78%21%40210382
+  |8617946229199367853e0fab%2112000061515386122%21sea%21IT%210%21X%211%210%21n_tag%3A-29919%3Bd%3Acd1bf78a%3Bm03_new_user%3A-29895&amp;curPageLogUid=aOQfLTWCU8kP&amp;utparam-url=scene%3Asearch%7Cquery_fr
+  |om%3A%7Cx_object_id%3A1005013569410352%7C_p_origin_prod%3A" target="_blank" rel="nofollow"><div class="us--image--2Y_0kq8 us--imagesGallery--1tFnlkL"><div class="images--multiImage--2ZwOlcj"><div clas
+  |s="images--hover--3f4_Blm images--isNewAppData--CAylq5J"><div class="images--hoverModal--2UE-q5T"></div><div class="images--imageWindow--1w8hbII" style="transform:translateX(-0%)"><img class="images--
+  |item--1beIg7S" src="//ae-pic-a1.aliexpress-media.com/kf/S8d340a92da8d46de8cd13743edd08f73H.jpg_480x480q75.jpg_.avif" alt="Cuffie wireless con archetto, che offrono un suono stereo nitido, supportano l
+  |a connessione via cavo e sono ideali come cuffie professionali per TV, PC, smartphone e apparecchiature audio domestiche." aria-hidden="true"/><div class="lazy-load"></div><div class="lazy-load"></div
+  |><div class="lazy-load"></div><div class="lazy-load"></div><div class="lazy-load"></div><div class="lazy-load"></div></div></div><div class="images--dotWrapper--38_8izR"><div class="images--dot--1j09z
+  |rQ images--active--3Wb5JNa"></div><div class="images--dot--1j09zrQ"></div><div class="images--dot--1j09zrQ"></div><div class="images--dot--1j09zrQ"></div><div class="images--dot--1j09zrQ"></div><div c
+  |lass="images--dot--1j09zrQ"></div><div class="images--dot--1j09zrQ"></div></div></div><div class="us--shopCart--1XSLO0S us--shopLtr--3PEmm7a us--shopCartImage--17uLu7m"><div class="image--wrapper--TI9
+
+__INIT_DATA_STATE__: not found
+data-price attrs: []
+aria-label prices: ['521,39', '227,39', '14,78', '3,61', '31,9', '22,74', '235,39', '26,09', '40,79', '198,77']
+
+=== DONE ===

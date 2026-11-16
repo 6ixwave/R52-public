@@ -1,0 +1,89 @@
+============================================================
+DIAG v54: WB SSR + AVITO SESSION  |  2026-11-11T07:49:27.752177
+============================================================
+
+============================================================
+WILDBERRIES
+============================================================
+
+--- W1: SSR HTML (www.wildberries.ru) ---
+  Main page: HTTP 498, len=1136
+  Cookies: [REDACTED_AUTH_SECRET]
+  SSR nm=199298871: HTTP 498, len=1136
+    WBAAS challenge detected
+    Headers: {'date': 'Tue, 10 Nov 2026 21:49:32 GMT', 'content-type': 'text/html', 'status-no-id': 'PG-01-DL', 'server': 'wbaas', 'x-request-id': '4e2a835f3b8458927dfb87f79be1f20f', 'report-to': '{ "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }'}
+  SSR nm=110835207: HTTP 498, len=1136
+    WBAAS challenge detected
+    Headers: {'date': 'Tue, 10 Nov 2026 21:49:36 GMT', 'content-type': 'text/html', 'status-no-id': 'PG-01-DL', 'server': 'wbaas', 'x-request-id': '081f815ee3c4351ca0c0be8de0da0fb0', 'report-to': '{ "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }'}
+  SSR nm=188497640: HTTP 498, len=1136
+    WBAAS challenge detected
+    Headers: {'date': 'Tue, 10 Nov 2026 21:49:40 GMT', 'content-type': 'text/html', 'status-no-id': 'PG-01-DL', 'server': 'wbaas', 'x-request-id': '6216ed5b0f0d1a9fa0b0a5dd22f8fb0d', 'report-to': '{ "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }'}
+  SSR nm=12736071: HTTP 498, len=1136
+    WBAAS challenge detected
+    Headers: {'date': 'Tue, 10 Nov 2026 21:49:44 GMT', 'content-type': 'text/html', 'status-no-id': 'PG-01-DL', 'server': 'wbaas', 'x-request-id': '9c193c6a46e0d1c41611a61b41f714ba', 'report-to': '{ "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }'}
+
+--- W2: search.wb.ru with session ---
+  search: HTTP 403, len=0
+
+--- W3: static-basket check ---
+  basket nm=199298871: HTTP 404, len=0
+  basket nm=110835207: HTTP 404, len=0
+
+--- W4: catalog.wb.ru with session cookies ---
+  catalog sess nm=199298871: HTTP 403, len=0
+  catalog sess nm=110835207: HTTP 403, len=0
+  catalog sess nm=188497640: HTTP 403, len=0
+
+WB RESULT: ssr_ok=False, saved=False
+
+============================================================
+AVITO
+============================================================
+
+--- A1: Avito main page (session init) ---
+  Main: HTTP 429, len=35048
+  Cookies: [REDACTED_AUTH_SECRET]
+
+--- A2: RSS feeds ---
+  RSS /rss/moscow/telefony: HTTP 404, len=29440
+  RSS /rss/moscow/noutbuki: HTTP 404, len=29440
+  RSS /rss/moscow/avto: HTTP 404, len=29440
+  RSS /rss/moscow: HTTP 404, len=29440
+
+--- A3: Category pages (session, 5s delay) ---
+  cat /moscow/telefony: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    IDs: 0 (p1=0,p2=0,p3=0,p4=0)
+  cat /moscow/noutbuki: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    IDs: 0 (p1=0,p2=0,p3=0,p4=0)
+  cat /moscow/planshety: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    IDs: 0 (p1=0,p2=0,p3=0,p4=0)
+  cat /spb/telefony: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    IDs: 1 (p1=1,p2=0,p3=0,p4=0)
+      200026938
+
+--- A4: Test ad pages ---
+  Testing: ['200026938']
+  id=200026938 /ad/200026938: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False, 404=True
+  id=200026938 /moscow/ad/200026938: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    CAPTCHA=True, JSON-LD=False, 404=False
+
+--- A5: Avito mobile/API ---
+  API offers: HTTP 404, len=48
+
+AVITO RESULT: page_ok=False, ids=['200026938']
+
+============================================================
+SUMMARY
+============================================================
+  WB:    ssr_ok=False, saved=False
+  AVITO: page_ok=False, ids=['200026938']
+  DONE: 2026-11-11T07:51:15.006814
+
+Full log: 73 lines (via shell redirect)

@@ -1,0 +1,40 @@
+{
+  "pid": "1005013496905897",
+  "url": "https://ru.aliexpress.com/item/1005013496905897.html",
+  "ts": "2026-11-12T20:19:30.346392+00:00",
+  "phase": "done",
+  "log": [
+    "[06:19:30] Starting AliExpress.ru collector (domain=ru)...",
+    "[06:19:30] Browser OK (ru locale)",
+    "[06:19:30] Warm: 13 cookies",
+    "[06:19:30] Navigating: https://ru.aliexpress.com/item/1005013496905897.html",
+    "[06:19:31] HTTP 200",
+    "[06:19:32] tick=0: h1=N/A prices=[] cap=captchaclick body=98595",
+    "[06:19:32] Solving captcha: captchaclick",
+    "[06:20:02] Captcha solved: False",
+    "[06:20:02] Extracting DOM...",
+    "[06:20:02] DOM: title=Пройдите проверку prices=[] imgs=2 jsonld=0",
+    "[06:20:02] HTML saved: 832291 bytes",
+    "[06:20:02] Screenshot: C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\diag_ali_ru6_shot.png"
+  ],
+  "rendered": false,
+  "captcha_type": "captchaclick",
+  "mtop_all": [],
+  "dom": {
+    "title": "Пройдите проверку",
+    "prices": [],
+    "images": [
+      "https://img.alicdn.com/tfs/TB17G2dJGmWBuNjy1XaXXXCbXXa-241-41.png",
+      "https://img.alicdn.com/imgextra/i2/O1CN01mynkA41qcNpWQTyVB_!!6000000005516-2-tps-644-832.png"
+    ],
+    "meta": {},
+    "jsonld": [],
+    "bodyLen": 106556
+  },
+  "stats": {
+    "requests": 0,
+    "success": 0,
+    "failed": 0,
+    "blocked": 0
+  }
+}

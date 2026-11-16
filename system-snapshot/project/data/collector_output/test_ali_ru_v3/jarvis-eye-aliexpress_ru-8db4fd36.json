@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Confezione da 3 Hub USB C a 5 Porte USB 3.0 2.0 con USB C 100W USB Pd, Hub Multiporta ad Alta Velocità",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "29.99",
+        "amount_minor": 2999,
+        "currency": "RUB",
+        "visible_label": "29.99 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "26.20",
+        "amount_minor": 2620,
+        "currency": "RUB",
+        "visible_label": "26.20 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S0b7852d57f93452583f95a4ad2708267M.jpeg_480x480q75.jpeg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013119552091",
+    "url": "https://ru.aliexpress.com/item/1005013119552091.html",
+    "observed_at": "2026-11-13T07:48:13.476889+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

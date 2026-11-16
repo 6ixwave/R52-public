@@ -1,0 +1,298 @@
+[
+  {
+    "url": "https://www.farpost.ru/vladivostok/auto/misc/",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/tokens_fp.c06ec41406266fb8356c.css",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/common-critical_dk_fp.90d920a184e204831efc.css",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/bzr-map-critical.bc5c690a16fc7bcbc388.css",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/runtime.4ba9e0e4bfc615c62630.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/js-app-config.22d65e3dec6461fd6ae1.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/swc-helpers.dd8a8309878c8b4f3b9f.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/vendor-utils.af013bd104db16bf893a.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/84636.345f334e5ddb8c952711.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/59635.d26e57f98d0fda58a9bb.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/39773.3c80bf854e280812ae12.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/41052.697ebf06b850173c41fa.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/85716.f97a3c413c4d32373fd9.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/17879.ffdcfe7e49a2cb8514d7.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/5916.d493b3ccabde7f2cf7db.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/common.37cd52b6ce543b55fedb.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/ajae.5b893fe37794e668c0ea.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/ctr-analytics-tracker.96124fb6239dbec984a3.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/62270.cdb01b07fbdd2423354a.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/1839.99ca5c9273002c3b8bc1.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/search-input-utils.d62e9effe713b60c4acc.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/async-viewdir.31eaf72a771fbb24a51a.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/img/ajax-bar.gif",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/img/svg/sprites/farpost.svg?1",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/img/svg/sprites/brief.svg?1",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/img/svg/sprites/viewdir.svg?1",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1774795801568_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1740211914790_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1729733781493_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1694307948814_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1701580391659_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1704511958914_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1687957444503_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1591371719317_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1704511921889_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1789708407750_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1789703712843_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1789713756571_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1729733951408_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1687957442992_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1729993093951_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1687957441586_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1702090848323_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.baza.farpost.ru/v/1687957442647_block",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/common_dk.8963d90201b4517f29a5.css",
+    "method": "GET"
+  },
+  {
+    "url": "https://counter.yadro.ru/hit;farpost?t45.6;r;s1920*1080*24;uhttps%3A//www.farpost.ru/vladivostok/auto/misc/;i%u0416%u0436%u0414%u0440%u0443%u0433%u043",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/ctr/event",
+    "method": "PUT"
+  },
+  {
+    "url": "https://www.farpost.ru/ctr/event",
+    "method": "PUT"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/45435.c07ccc164b196c759f81.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/44767.c7bb1f54b7822b8189cf.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/88211.84769d0de63f46d6d88a.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/30419.324c886816e838dd8073.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/83827.2b5ddb16760db4bd9628.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/mmy.txt?action=firsthit&_=1794468838051&dir=17&city=1&reqsig=d633d09579f7df60a775c847a8ec9936",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/79960.530892da6fd7c20822cd.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/28427.3ea9dde6a2d27a10b237.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/36820.8c77bde13684eea95c45.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/51122.3877c9c10328a93f29ad.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/mmy.txt?action=AnyPage_CityClarificationBlock_Shown&_=1794468838053&dir=17&city=1&reqsig=d633d09579f7df60a775c847a8ec9936",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/18010.3f550f2f71cb90557bad.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/88596.ecc358308faa7664e65d.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/99549.069ed4476d071871d60c.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/mmy.txt?action=viewdir_feed_stat&_=1794468838067&local=50&localUniqSellers=6&reqsig=d633d09579f7df60a775c847a8ec9936&exact=7464",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/40457.0c0cb95e3a99774b936f.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/45152.eee27faff3e7510b35e7.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/mmy.txt?action=viewdir_ppc_good_show__in_1&_=1794468838080&keyName=0__rel_0&dir=17&city=1&reqsig=d633d09579f7df60a775c847a8ec99",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/55143.06d6f1748aea79370f33.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/mmy.txt?action=Viewdir_Directory_View&_=1794468838256&directory=%D0%94%D1%80%D1%83%D0%B3%D0%BE%D0%B5&dir=17&city=1&reqsig=d633d",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/mmy.txt?action=page_clicked&_=1794468838294&keyName=1&dir=17&city=1&reqsig=d633d09579f7df60a775c847a8ec9936",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/img/svg/sprites/topbar.svg?1",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.farpost.ru/resources/assets/city-select-control_dk.aa6478d3f04073150392.css",
+    "method": "GET"
+  },
+  {
+    "url": "https://sw.flavii.ru/hit?loc=https%3A%2F%2Fwww.farpost.ru%2Fvladivostok%2Fauto%2Fmisc%2F&ref=&extend={%22geoc%22:1,%22geor%22:1115,%22geo_type%22:%22b",
+    "method": "GET"
+  },
+  {
+    "url": "https://dante.flavii.ru/api/v1/banners?places[]=79&options={%22geoc%22:1,%22geor%22:1115,%22geo_type%22:%22baza%22,%22url%22:%22https%3A%2F%2Fwww.farp",
+    "method": "GET"
+  },
+  {
+    "url": "https://counter.yadro.ru/hit;farpost?t45.6;r;s1920*1080*24;uhttps%3A//www.farpost.ru/vladivostok/auto/misc/;i%u0416%u0436%u0414%u0440%u0443%u0433%u043",
+    "method": "GET"
+  }
+]

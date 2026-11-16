@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru" data-motion="on">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#07080f">
+<title>R-52</title>
+<link rel="icon" href="/ui/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/ui/css/base.css">
+<link rel="stylesheet" href="/ui/css/components.css">
+<link rel="stylesheet" href="/ui/css/views.css">
+<link rel="stylesheet" href="/ui/css/offers.css">
+<script type="module" src="/ui/js/main.js"></script>
+<link rel="stylesheet" href="/ui/css/radar-gallery.css"><link rel="stylesheet" href="/ui/css/city.css"><link rel="stylesheet" href="/ui/css/urban.css"><link rel="stylesheet" href="/ui/css/city-panels.css"><link rel="stylesheet" href="/ui/css/refined.css"></head>
+<body>
+<div class="backdrop" aria-hidden="true">
+  <div class="aurora"><i class="a1"></i><i class="a2"></i><i class="a3"></i><i class="a4"></i></div>
+  <div class="gridlines"></div>
+  <div class="grain"></div>
+</div>
+<div class="shell" id="shell" hidden>
+  <aside class="side">
+    <a class="brand" href="#/overview" aria-label="R-52, обзор">
+      <span class="orb"><i></i></span>
+      <span class="brand-text"><b>R-52</b><small>ценовой радар</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Разделы"><span class="nav-pill" id="nav-pill"></span></nav>
+    <div class="side-foot" id="core-card"></div>
+  </aside>
+  <main class="main">
+    <header class="top">
+      <div class="top-title"><h1 id="view-title">R-52</h1><p id="view-sub"></p></div>
+      <div class="top-tools" id="top-tools"></div>
+    </header>
+    <section class="view" id="view" tabindex="-1"></section>
+  </main>
+</div>
+<div class="layer" id="layer"></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<div class="boot" id="boot">
+  <div class="boot-orb"><i></i></div>
+  <p id="boot-text">Подключаюсь к ядру</p>
+</div>
+</body>
+</html>

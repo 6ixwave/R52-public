@@ -1,0 +1,109 @@
+{
+  "parse": {
+    "fields": {
+      "title": "Triangle IcelynX TI501, 205/55 R16 94T XL",
+      "description": "Продажа Triangle IcelynX TI501, 205/55 R16 94T XL ! ABИATOPOB 3/4 ! в Красноярске Зимние, Шипованные, Новый, 4 шт",
+      "category": "Авто и мото > Шины и диски > Шины > Шины Triangle > Triangle IcelynX TI501",
+      "brand": "Triangle",
+      "model": "Triangle IcelynX TI501",
+      "specs": {
+        "inSetQuantity": {
+          "label": "Количество шин в неделимом комплекте",
+          "value": "4 шт"
+        },
+        "quantity": {
+          "label": "Всего комплектов",
+          "value": "3&nbsp;шт"
+        },
+        "year": {
+          "label": "Год выпуска шин",
+          "value": "2026"
+        },
+        "wheelSeason": {
+          "label": "Протектор",
+          "value": "Зимние"
+        },
+        "wheelSpike": {
+          "label": "Шиповка",
+          "value": "Шипованные"
+        },
+        "condition": {
+          "label": "Состояние товара",
+          "value": "Новый"
+        },
+        "marking": {
+          "label": "Каркас",
+          "value": "радиальный"
+        },
+        "goodPresentState": {
+          "label": "Наличие товара в Красноярске",
+          "value": "В наличии"
+        },
+        "predestination": {
+          "label": "Тип шины",
+          "value": "Обычная"
+        }
+      },
+      "seller": "TT-auto__дилер TRIANGLE__лучшие цены",
+      "seller_url": "https://www.farpost.ru/user/9437672/",
+      "bulletin_id": "130693618",
+      "availability": "IN_STOCK"
+    },
+    "prices": [
+      {
+        "role": "regular",
+        "amount_minor": 2440000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "24400.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media_count": 5,
+    "availability": "IN_STOCK"
+  },
+  "normalized": {
+    "source": "FARPOST",
+    "listing_id": "130693618",
+    "title": "Triangle IcelynX TI501, 205/55 R16 94T XL",
+    "prices": [
+      {
+        "role": "regular",
+        "role_origin": "SOURCE_ROLE",
+        "source_role": "regular",
+        "amount_minor": 2440000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "variant_association": "UNKNOWN",
+        "evidence": null,
+        "applicability_verified": false
+      }
+    ],
+    "availability": "IN_STOCK",
+    "completeness": {
+      "total": 14,
+      "known": 4,
+      "unknown": [
+        "Модификация",
+        "Отображаемая цена",
+        "Состояние",
+        "Комплект",
+        "Местонахождение продавца",
+        "Доставка",
+        "Гарантия",
+        "Возврат",
+        "Отзывы",
+        "Вопросы покупателей"
+      ],
+      "independently_verified": 0
+    },
+    "brand": "Triangle",
+    "model": "Triangle IcelynX TI501",
+    "media_items": 5
+  },
+  "db": {
+    "product_id": 1,
+    "observation_id": 1,
+    "price_points": 1
+  }
+}

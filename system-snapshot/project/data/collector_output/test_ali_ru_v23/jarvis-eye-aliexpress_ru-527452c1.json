@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie pieghevoli con cavo, modello over-ear, con driver da 40 mm, audio Hi-Fi stereo e microfono integrato, jack AUX da 3,5 mm, cuffie leggere in stile neo vintage per PC, laptop e smartphone.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "28.24",
+        "amount_minor": 2824,
+        "currency": "RUB",
+        "visible_label": "28.24 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "16.05",
+        "amount_minor": 1605,
+        "currency": "RUB",
+        "visible_label": "16.05 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sddeb200e3e0446f1bd9e353e134b5e6et.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013516043530",
+    "url": "https://ru.aliexpress.com/item/1005013516043530.html",
+    "observed_at": "2026-11-13T07:55:54.351609+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

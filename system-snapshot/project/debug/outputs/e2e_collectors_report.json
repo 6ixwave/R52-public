@@ -1,0 +1,218 @@
+{
+  "timestamp": "2026-11-13T19:50:27.730207+10:00",
+  "total": 42,
+  "passed": 26,
+  "failed": 16,
+  "results": [
+    {
+      "test": "registry_all_ready",
+      "status": "PASS",
+      "detail": "6 sources: WB=READY, OZON=READY, AVITO=READY, FARPOST=READY, ALIEXPRESS=READY, ALIEXPRESS_RU=READY"
+    },
+    {
+      "test": "import_all_collectors",
+      "status": "PASS",
+      "detail": "6 classes imported"
+    },
+    {
+      "test": "subprocess_WB",
+      "status": "PASS",
+      "detail": "items=1, collected=1, failed=0, files=1, 164.2s"
+    },
+    {
+      "test": "json_WB_title",
+      "status": "PASS",
+      "detail": "title='Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)'"
+    },
+    {
+      "test": "json_WB_price",
+      "status": "FAIL",
+      "detail": "price='', candidates=0"
+    },
+    {
+      "test": "json_WB_availability",
+      "status": "FAIL",
+      "detail": "avail='UNKNOWN'"
+    },
+    {
+      "test": "json_WB_photos",
+      "status": "PASS",
+      "detail": "photos=1, total_media=1"
+    },
+    {
+      "test": "json_WB_format",
+      "status": "PASS",
+      "detail": "format=JARVIS_BR02_COLLECTOR_AUTONOMOUS"
+    },
+    {
+      "test": "json_WB_status",
+      "status": "PASS",
+      "detail": "status=PARTIAL_SUCCESS"
+    },
+    {
+      "test": "eye_WB_stage",
+      "status": "PASS",
+      "detail": "status=PENDING, created=True, id=1"
+    },
+    {
+      "test": "eye_WB_accept",
+      "status": "PASS",
+      "detail": "product_id=1, obs_created=True"
+    },
+    {
+      "test": "eye_WB_sqlite",
+      "status": "PASS",
+      "detail": "products=1, observations=1"
+    },
+    {
+      "test": "subprocess_OZON",
+      "status": "PASS",
+      "detail": "items=1, collected=0, failed=1, files=1, 112.1s"
+    },
+    {
+      "test": "json_OZON_title",
+      "status": "FAIL",
+      "detail": "title=''"
+    },
+    {
+      "test": "json_OZON_price",
+      "status": "FAIL",
+      "detail": "price='', candidates=0"
+    },
+    {
+      "test": "json_OZON_availability",
+      "status": "FAIL",
+      "detail": "avail=''"
+    },
+    {
+      "test": "json_OZON_photos",
+      "status": "FAIL",
+      "detail": "photos=0, total_media=0"
+    },
+    {
+      "test": "json_OZON_format",
+      "status": "PASS",
+      "detail": "format=JARVIS_BR02_COLLECTOR_AUTONOMOUS"
+    },
+    {
+      "test": "json_OZON_status",
+      "status": "FAIL",
+      "detail": "status=FAILED"
+    },
+    {
+      "test": "eye_OZON_stage",
+      "status": "PASS",
+      "detail": "status=INVALID, created=True, id=2"
+    },
+    {
+      "test": "eye_OZON_accept",
+      "status": "FAIL",
+      "detail": "status=INVALID, err=TITLE_WITH_EVIDENCE_REQUIRED"
+    },
+    {
+      "test": "eye_OZON_sqlite",
+      "status": "FAIL",
+      "detail": "products=0, observations=0"
+    },
+    {
+      "test": "subprocess_FARPOST",
+      "status": "PASS",
+      "detail": "items=1, collected=0, failed=1, files=1, 3.8s"
+    },
+    {
+      "test": "json_FARPOST_title",
+      "status": "FAIL",
+      "detail": "title=''"
+    },
+    {
+      "test": "json_FARPOST_price",
+      "status": "FAIL",
+      "detail": "price='', candidates=0"
+    },
+    {
+      "test": "json_FARPOST_availability",
+      "status": "FAIL",
+      "detail": "avail=''"
+    },
+    {
+      "test": "json_FARPOST_photos",
+      "status": "FAIL",
+      "detail": "photos=0, total_media=0"
+    },
+    {
+      "test": "json_FARPOST_format",
+      "status": "PASS",
+      "detail": "format=JARVIS_BR02_COLLECTOR_AUTONOMOUS"
+    },
+    {
+      "test": "json_FARPOST_status",
+      "status": "FAIL",
+      "detail": "status=FAILED"
+    },
+    {
+      "test": "eye_FARPOST_stage",
+      "status": "PASS",
+      "detail": "status=INVALID, created=True, id=3"
+    },
+    {
+      "test": "eye_FARPOST_accept",
+      "status": "FAIL",
+      "detail": "status=INVALID, err=TITLE_WITH_EVIDENCE_REQUIRED"
+    },
+    {
+      "test": "eye_FARPOST_sqlite",
+      "status": "FAIL",
+      "detail": "products=0, observations=0"
+    },
+    {
+      "test": "subprocess_ALIEXPRESS_RU",
+      "status": "PASS",
+      "detail": "items=12, collected=12, failed=0, files=12, 6.1s"
+    },
+    {
+      "test": "json_ALIEXPRESS_RU_title",
+      "status": "PASS",
+      "detail": "title='2026 NUOVO iPad 17 PRO MAX Tablet Android 24GB+2TB Tablet An'"
+    },
+    {
+      "test": "json_ALIEXPRESS_RU_price",
+      "status": "PASS",
+      "detail": "price='136 EUR', candidates=2"
+    },
+    {
+      "test": "json_ALIEXPRESS_RU_availability",
+      "status": "PASS",
+      "detail": "avail='IN_STOCK'"
+    },
+    {
+      "test": "json_ALIEXPRESS_RU_photos",
+      "status": "PASS",
+      "detail": "photos=1, total_media=1"
+    },
+    {
+      "test": "json_ALIEXPRESS_RU_format",
+      "status": "PASS",
+      "detail": "format=JARVIS_BR02_COLLECTOR_AUTONOMOUS"
+    },
+    {
+      "test": "json_ALIEXPRESS_RU_status",
+      "status": "PASS",
+      "detail": "status=PARTIAL_SUCCESS"
+    },
+    {
+      "test": "eye_ALIEXPRESS_RU_stage",
+      "status": "PASS",
+      "detail": "status=PENDING, created=True, id=4"
+    },
+    {
+      "test": "eye_ALIEXPRESS_RU_accept",
+      "status": "PASS",
+      "detail": "product_id=2, obs_created=True"
+    },
+    {
+      "test": "eye_ALIEXPRESS_RU_sqlite",
+      "status": "PASS",
+      "detail": "products=1, observations=1"
+    }
+  ]
+}

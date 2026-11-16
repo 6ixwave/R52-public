@@ -1,0 +1,32 @@
+23:35:09 Core: port=8423 pid=872
+23:35:09 [01] /healthz: 200 ok=True
+23:35:09 [02] /api/status: 200 v2.12.0 products_health=True
+23:35:09 [03] /api/products: 200 total=19 first=Процессор AMD Ryzen 7 9850X3D 4.7GHz Tur
+23:35:09 [04] POST /api/ui/session: 201 {"code": "gqnkhHekGKPoCIC6Y_OrE6IXAG8XXNCs", "expires_in": 60}
+23:35:09 [04] UI URL: http://127.0.0.1:8423/ui?code=[REDACTED_AUTH_SECRET]
+23:35:09 [05] Edge opened with UI URL
+23:35:09 [06] GET /api/schedules: 200 count=3
+23:35:09      - backup: kind=backup rule=daily enabled=1
+23:35:09      - digest: kind=digest rule=daily enabled=1
+23:35:09      - maintenance: kind=maintenance rule=daily enabled=1
+23:35:09 [07] POST /api/tasks (collect): 400 {"error": {"code": "INVALID_INPUT", "message": "Неверные данные", "detail": {"field": "product_id", "reason": "required"}}, "request_id": "477c4f9955e0"}
+23:35:09 [08] No task id
+23:35:09 [09] POST /api/export: 201 path=C:\Users\aleks\AppData\Local\R52\exports\r52-export-20261113T133509Z.zip size=4127 products=19
+23:35:09 [10] Export file: r52-export-20261113T133509Z.zip (4127 bytes) EXISTS
+23:35:09 [11] POST /api/backups: 202 {"task": {"id": "dda1417ffaa84e54b641f8762b35d931", "kind": "backup", "origin": "USER", "idempotency_key": "auto:07000abca891499f9d7008750286b842", "status": "QUEUED", "attempt": 1, "progress": 0, "cr
+23:35:12 [11b] Backup task: status=COMPLETED
+23:35:12 [12] GET /api/backups: 200 count=13
+23:35:12      - r52-20261113T133509Z-manual.sqlite3 (2072576 bytes) manual
+23:35:12      - r52-20261113T132328Z-manual.sqlite3 (2068480 bytes) manual
+23:35:12      - r52-20261113T131055Z-pre-migrate-v7.sqlite3 (2060288 bytes) pre-migrate-v7
+23:35:12 [13] RESTORE via CLI...
+23:35:13 [13] CLI restore: exit=0
+23:35:14 [14] Post-restore /api/status: 200 ok=True
+23:35:14 [14b] Post-restore products: 200 total=19
+23:35:14 [15] Backup files: [('r52-20261113T133509Z-manual.sqlite3', 2072576), ('r52-20261113T132328Z-manual.sqlite3', 2068480), ('r52-20261113T131055Z-pre-migrate-v7.sqlite3', 2060288)]
+23:35:14 [16] Export files: [('r52-export-20261113T133509Z.zip', 4127), ('r52-export-20261113T133308Z.zip', 4127), ('r52-export-20261113T132328Z.zip', 4127)]
+23:35:14 
+23:35:14 === UI URL (open in Edge): http://127.0.0.1:8423/ui?code=[REDACTED_AUTH_SECRET] ===
+23:35:14 === Core alive 90s for visual check ===
+23:35:14 === VERIFY V2 DONE ===
+23:36:44 Core stopped.

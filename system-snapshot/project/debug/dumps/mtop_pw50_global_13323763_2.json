@@ -1,0 +1,98 @@
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=m_5_a7ngqy6zyK-RrS5xozr93pb3of5dob7FkrWbPYlHClpG5Fz438W6QGoKRnghitvV7mEXsAlR3O33sNGd_Fx73Lu-XM5eNwzNpFes6UOdAOnHh8HQmqPpmU5akwcY5U1KkBdlcgQ87PCntQ8gbUgTeuSvBcbfWikfcfvn9txl8gBjOpEP6PdGwhrFUq8alXh6nStywIfbR8BzlfFc7j2E5nlqvTAcTLDrEAWxlvYiASluzJglJaa3KFdOZK0A35BX2eDz-5QwRMShXiAC7nMMOpPf6SBKHqLO3-G01RR9Dmhg8hIG5lGDMLpNRCBiyh4xhlA43U-FHB8lVdmph4fU1GhpoQ2IxQkTv05Vy1EdWRHiutUgcTAkJhkwMtBMv9eWOvSHhnykFbUDw3imen1SZskpIQ2WVJTs4-9JV6Azs9_tMzZuzpsEq6kh-amlG1Mv09APtvXbHPJkMMTqtzQJKO15OdzuGdFVKFmBRBk" charset="UTF-8"></script><script charset="utf-8" src="//g.alicdn.com/mtb/lib-windvane/3.0.6/windvane.js" crossorigin></script>
+    <script charset="utf-8" async
+        src="//g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/htmltocanvas.min.js"
+        crossorigin></script>
+    <script src="//g.alicdn.com/code/lib/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="//g.alicdn.com/sd/sufei-utils/0.0.3/sufeiUtils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+      	#bx-pu-qrcode-wrap {
+      		max-width: 110px !important;
+      	}
+    </style>
+</head>
+
+<body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=2140fa4817945007549324199e1449&asid=AQAAAACS6PVqnPnhAwAAAACh6e52sJp9Mg==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+    <iframe src="//acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg5d0f8e197bbb5713kn5f1363fb75249c42df26e40a623b81001794500754a-1168960602a-1317347523abaxc3eajrecaptcha33b5a899336ae1a73c46b606424a043b3f3__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&uuid=5f1363fb75249c42df26e40a623b8100&qrcode=XxNj-3UknELfJuQKYjuBAA|avXokg|sXrfPQ_0||1&redirectURL=https%3a%2f%2facs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0%2F_____tmd_____%2Fpage%2Fthird_validate_close_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3D5f1363fb75249c42df26e40a623b8100%26x5secdata%3Dxg5d0f8e197bbb5713kn5f1363fb75249c42df26e40a623b81001794500754a-1168960602a-1317347523abaxc3eajrecaptcha33b5a899336ae1a73c46b606424a043b3f3__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0"
+        style="border:none;height: 100%;" width="100%" height="100%"
+        allow="publickey-credentials-get *"></iframe>
+    <div id="bx-pu-qrcode-wrap">
+        <div id="qrcode"></div>
+        <div id="feedback"></div>
+    </div>
+    <script>
+        window._config_ = {
+            "action": "captcharecaptcha",
+      		"HOST": "acs.aliexpress.com:443",
+            "PATH": "/h5/mtop.aliexpress.pdp.pc.query/1.0",
+            "NCTOKENSTR": "[REDACTED_AUTH_SECRET]",
+            "SECDATA": "xg5d0f8e197bbb5713kn5f1363fb75249c42df26e40a623b81001794500754a-1168960602a-1317347523abaxc3eajrecaptcha33b5a899336ae1a73c46b606424a043b3f3__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0",
+            "url": "//acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg5d0f8e197bbb5713kn5f1363fb75249c42df26e40a623b81001794500754a-1168960602a-1317347523abaxc3eajrecaptcha33b5a899336ae1a73c46b606424a043b3f3__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&uuid=5f1363fb75249c42df26e40a623b8100&qrcode=XxNj-3UknELfJuQKYjuBAA|avXokg|sXrfPQ_0||1&redirectURL=https%3a%2f%2facs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0%2F_____tmd_____%2Fpage%2Fthird_validate_close_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3D5f1363fb75249c42df26e40a623b8100%26x5secdata%3Dxg5d0f8e197bbb5713kn5f1363fb75249c42df26e40a623b81001794500754a-1168960602a-1317347523abaxc3eajrecaptcha33b5a899336ae1a73c46b606424a043b3f3__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0"
+        };
+    </script>
+    <!--rgv587_flag:sm-->
+  	<script>
+      	var custom_config = {"templateName":"AE默认模板"};
+      	var templateName = "";
+      	if (typeof custom_config === "object") {
+      		templateName = custom_config["templateName"] || "";
+      		window._custom_config_ = window._custom_config_ || {};
+      		for (var key in custom_config) {
+      			window._custom_config_[key] = custom_config[key];
+      		}
+      	}
+    </script>
+    <script charset="utf-8" type="text/javascript"
+        src="https://g.alicdn.com/trace/trace/1.3.22/??sdk.js,resourceError-plugin.js,perf-plugin.js"
+        crossorigin></script>
+    <script type="text/javascript">
+      	sufeiUtils.clearX5SecData();
+      	sufeiUtils.initListener();
+
+        // 将二维码渲染至指定父容器
+        sufeiUtils.renderQRCode({
+            id: "qrcode",
+            qrcode: "XxNj-3UknELfJuQKYjuBAA|avXokg|sXrfPQ_0||1"
+        });
+
+        // 将二维码渲染至指定父容器
+        sufeiUtils.renderFeedbackLink({
+            id: "feedback",
+            x5secdata: "xg5d0f8e197bbb5713kn5f1363fb75249c42df26e40a623b81001794500754a-1168960602a-1317347523abaxc3eajrecaptcha33b5a899336ae1a73c46b606424a043b3f3__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0",
+            uuid: "5f1363fb75249c42df26e40a623b8100",
+            type: "thirdValidate"
+        }, true);
+
+        var tracker = TraceSdk({
+            pid: 'punish-page',
+            env: 'prod',
+            plugins: [
+                [TracePerfPlugin, { enableLCP: false }],
+                [TraceResourceErrorPlugin]
+            ]
+        });
+        tracker.install();
+        tracker.log({
+            code: 11,  // 系统自动生成，请勿修改 100%
+            c1: '5f1363fb75249c42df26e40a623b8100',
+            c2: '0.1.130',
+            msg: '三方通用解封页 - ' + window._config_.action,  // 异常信息，推荐传入
+            sampling: 1,  // 目前采样率为 100.00%
+        });
+    </script>
+</body>
+
+</html>

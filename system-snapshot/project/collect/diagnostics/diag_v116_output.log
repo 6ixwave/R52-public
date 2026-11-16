@@ -1,0 +1,119 @@
+
+============================================================
+WB: MEDIA URL PATTERNS (nm_id=199298871, imt_id=158033827)
+============================================================
+
+  --- nm_id base: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/images/ ---
+  [404]      196B text/html            S800.jpg 
+  [404]      196B text/html            S800-1.jpg 
+  [404]      196B text/html            S800-2.jpg 
+  [404]      196B text/html            S120.jpg 
+  [404]      196B text/html            S120-1.jpg 
+  [404]      196B text/html            S120-2.jpg 
+  [404]      196B text/html            S500.jpg 
+  [404]      196B text/html            S500-1.jpg 
+  [404]      196B text/html            S500-2.jpg 
+  [404]      196B text/html            S700.jpg 
+  [404]      196B text/html            S700-1.jpg 
+  [404]      196B text/html            S700-2.jpg 
+  [404]      196B text/html            S1000.jpg 
+  [404]      196B text/html            S1000-1.jpg 
+  [404]      196B text/html            S1000-2.jpg 
+  [404]      196B text/html            S2000.jpg 
+  [404]      196B text/html            S2000-1.jpg 
+  [404]      196B text/html            S2000-2.jpg 
+  [404]      196B text/html            S100.jpg 
+  [404]      196B text/html            S100-1.jpg 
+  [404]      196B text/html            S100-2.jpg 
+
+  --- imt_id base: https://basket-13.wbbasket.ru/vol1992/part199298/158033827/images/ ---
+  [404]      196B text/html            S800.jpg 
+  [404]      196B text/html            S800-1.jpg 
+  [404]      196B text/html            S120.jpg 
+  [404]      196B text/html            S120-1.jpg 
+
+  --- Other colors (nm_ids from card.json) ---
+  color 173121919: not found on tried hosts
+  color 173036660: not found on tried hosts
+  color 199298870: not found on tried hosts
+
+  --- No-size / direct patterns ---
+  [404]      196B text/html            S800.jpg 
+  [404]      196B text/html            S800-1.jpg 
+  [404]      196B text/html            S800/S800.webp 
+  [404]      196B text/html            S800/S800-1.webp 
+  [404]      196B text/html            S800/S800.png 
+  [404]      196B text/html            S800/S800-2.jpg 
+
+============================================================
+WB: PRICE ALTERNATIVES
+============================================================
+  [basket_info] HTTP 200 (9623B)
+    {"imt_id":158033827,"nm_id":199298871,"imt_name":"Овсяный смарт коктейль для похудения без сахара","slug":"ovsyanyj-smart-koktejl-dlya-pokhudeniya-bez-sakhara","subj_name":"Коктейли злаковые","subj_ro
+  [card_v1_nopost] HTTP 403 (0B)
+  [card_v2_nopost] HTTP 403 (0B)
+  [web_api_v2] HTTP 498 (1130B)
+  [web_api_v1] HTTP 498 (1130B)
+  [common_api] HTTP 401 (222B)
+  [common_api2] HTTP 401 (222B)
+
+  --- curl_cffi (impersonate=chrome) ---
+  [basket_info] cffi HTTP 200 (9623B)
+    {"imt_id":158033827,"nm_id":199298871,"imt_name":"Овсяный смарт коктейль для похудения без сахара","slug":"ovsyanyj-smart-koktejl-dlya-pokhudeniya-bez-sakhara","subj_name":"Коктейли злаковые","subj_ro
+  [card_v1_nopost] cffi HTTP 403 (0B)
+  [card_v2_nopost] cffi HTTP 403 (0B)
+  [web_api_v2] cffi HTTP 498 (1130B)
+
+  --- Mobile API ---
+  [m_api] ERROR: HTTPSConnectionPool(host='m.wildberries.ru', port=443): Max retries exceeded with url: /web/api/catalog/cards/v1/detail?nm=199298871 (Caused by NameResolutionError("HTTPSConnection(host='m.wildberries.ru', port=443): Failed to resolve 'm.wildberries.ru' ([Errno 11001] getaddrinfo failed)"))
+  [m_api2] ERROR: HTTPSConnectionPool(host='m.wildberries.ru', port=443): Max retries exceeded with url: /web/api/catalog/cards/v2/detail?nm=199298871 (Caused by NameResolutionError("HTTPSConnection(host='m.wildberries.ru', port=443): Failed to resolve 'm.wildberries.ru' ([Errno 11001] getaddrinfo failed)"))
+
+============================================================
+FARPOST: /bulletin/ REDIRECT TRACE
+============================================================
+  Warmup: HTTP 200, cookies=[REDACTED_AUTH_SECRET]
+  /bulletin/ (no-redirect): HTTP 404, Location=?
+  /bulletin/ unexpected: HTTP 404
+  Body[:200]: <!DOCTYPE html>
+<html lang="ru">
+<head>
+		<title>Страница не найдена</title>
+
+<meta charset="windows-1251" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+<meta http-equiv=
+
+  allow_redirects=True: HTTP 404, len=13900, final_url=https://www.farpost.ru/bulletin/129606872
+  Price: NOT FOUND
+
+  --- ID 130693618 ---
+  HTTP 404, len=14547, final_url=https://www.farpost.ru/bulletin/130693618
+  Price: NOT FOUND
+
+============================================================
+WB: CARD.JSON HIDDEN PRICE FIELDS
+============================================================
+  All price/cost/amount keys:
+
+  data field: {"subject_id": 5237, "subject_root_id": 3109, "chrt_ids": [322571081], "tech_size": "0"}
+  selling: {"brand_name": "Родник Здоровья", "brand_hash": "287D12FB814E0535", "supplier_id": 1302193, "no_return_map": 8191}
+
+  Numeric fields > 100 (potential prices):
+  .imt_id = 158033827
+  .nm_id = 199298871
+  .full_colors[0].nm_id = 173121919
+  .full_colors[1].nm_id = 173036660
+  .full_colors[2].nm_id = 199298871
+  .full_colors[3].nm_id = 199298870
+  .full_colors[4].nm_id = 308060721
+  .full_colors[5].nm_id = 308060716
+  .full_colors[6].nm_id = 201304460
+  .selling.supplier_id = 1302193
+  .selling.no_return_map = 8191
+  .data.subject_id = 5237
+  .data.subject_root_id = 3109
+
+============================================================
+ALL DONE
+============================================================

@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Monitor Portatile Amoudo 15.6 Pollici 1920x1080P, Pannello LCD IPS, Display Estensibile, VESA, USBC, Mini HDMI",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "56.27",
+        "amount_minor": 5627,
+        "currency": "EUR",
+        "visible_label": "56.27 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "64.78",
+        "amount_minor": 6478,
+        "currency": "EUR",
+        "visible_label": "64.78 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sbbde9671f1804732b861a3096a962165c.png_480x480.png_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013031421695",
+    "listing_id": "1005013031421695",
+    "title": "Monitor Portatile Amoudo 15.6 Pollici 1920x1080P, Pannello LCD IPS, Display Estensibile, VESA, USBC, Mini HDMI",
+    "url": "https://ru.aliexpress.com/item/1005013031421695.html",
+    "observed_at": "2026-11-15T02:37:04.918148+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

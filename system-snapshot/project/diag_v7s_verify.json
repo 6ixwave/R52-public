@@ -1,0 +1,264 @@
+[
+  {
+    "url": "https://aliexpress.ru///_____tmd_____/punish?x5secdata=xfGrGQquvWhc-PnPkCnzT1Sm5WJCS2zpn4JQr_j8-ym0fcyw53kJebnJv2z-IaP5lLp7zGM3nxKg7Ga0hYB3EWyNV6N72x1QFfR-bHifbzR_A-84vd-YGHXLXFkGhbWX58tNHitmi_pBRpgdIwGFFvq_axqk43oP-eeulo_wV8G6ptaBPRtzqM0LaBf2yJYmrpK1BH77iZeEG6G-pFsehNTS4R1G604Qw4IQrN3Si0x807l9uPKEF61G0WGb3lNgHhy7ob-j6T9Po0gCpkrM0aarneuimueGqKZwWpi7RUj_hfSAlynQRj24bqOPU0LBMcoUtsJCQZWMTHRXykctULD73iIWVLFuQU9pQbeK-rPWxH84Cjmdnefjk-9nfEwWZajdFV5jav510Lhht9DP7fSIG5f_wZGkTFObnQDaHIoZP6HkGhKuS_VPdoB64H8SMnFRGaeKxizaAmZEKlAK26sXgfwfb7_-kIuj711FoWeBqezAjLgCDLSoW3WxG7G3j5k7Nml7ILlOlzeEJpDMeUMrGBVBgwB6z6uHPf65cqMVcFcV7Bjy66iqEmIOQs_8GuLlO-o2Eyc5kYPF2VNZDd7Cprq6LCdL21AmjBzAseokio7yWUQyEXZLZDnuD-cu26lFuzGzuYyWJPY2s2b6EHlC9J94_ekjNVwIl0KouceOZbl01unn5ZtWEcSWEiwKLY0SwmChr93ROIxa01DSRF11k5ou0uHrBJcn7O26HFMVgdjB4GHsaxN2C6fOq-VTfkQ51erE6azbC_obwEbtVQlq10bS_Zd5TwbniLmBAlDw4dmQLIKAYjqaTbm4F73oxU__bx__aliexpress.ru%2f&x5step=1",
+    "status": 429,
+    "body": "<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <meta name=\"aplus-xplug\" content=\"NONE\">\r\n    <script charset=\"utf-8\" src=\"//g.alicdn.com/mtb/lib-flexible/0.3.2/flexible.js\" crossorigin></script>\r\n    <script charset=\"utf-8\" src=\"//g.alicdn.com/sd/punish/0.0.1/qrcode.min.js\" crossorigin></script>\r\n    <script charset=\"utf-8\" src=\"//g.alicdn.com/mtb/??lib-promise/3.1.3/polyfillB.js,lib-mtop/2.6.3/mtop.js,lib-windvane/3.0.6/windvane.js\" crossorigin></script>\r\n    <script charset=\"utf-8\" src=\"//g.alicdn.com/AWSC/CAPTCHA/0.0.1/awsc.js\" crossorigin></script>\r\n    <script charset=\"utf-8\" async src=\"//g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/htmltocanvas.min.js\" crossorigin></script>\r\n    <link rel=\"stylesheet\" href=\"//g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/main.css\">\r\n<script src=\"https://st.aestatic.net/mixer-storage/baxia/verificationMetricsV1.0.4.js\" crossorigin></script>\n</head>\r\n\r\n<body>\r\n    <punish-component />\r\n  \t<script>\r\n  \t\ttry{!function(){var e=new Uint16Array([83,101,116,79,98,106,101,99,116,103,101,116,80,114,111,116,111,116,121,112,101,79,102,112,114,111,116,111,116,121,112,101,103,101,116,79,119,110,80,114,111,112,101,114,116,121,78,97,109,101,115,108,101,110,103,116,104,115,104,105,102,116,104,97,115,103,101,116,79,119,110,80,114,111,112,101,114,116,121,68,101,115,99,114,105,112,116,111,114,97,100,100,101,110,117,109,101,114,97,98,108,101,110,118,97,108,117,101,100,111,110,101,102,117,110,99,116,105,111,110,83,121,109,98,111,108,115,121,109,98,111,108,105,116,101,114,97,116,111,114,99,111,110,115,116,114,117,99,116,111,114,65,114,114,97,121,117,110,100,101,102,105,110,101,100,64,64,105,116,101,114,97,116,111,114,105,115,65,114,114,97,121,115,101,102,84,121,112,101,69,114,114,111,114,73,110,118,97,108,105,100,32,97,116,116,101,109,112,116,32,116,111,32,105,116,101,114,97,116,101,32,",
+    "headers": {
+      "access-control-allow-credentials": "true",
+      "bxpunish": "1",
+      "bxuuid": "f030b8990960dda63022fdd21489c075",
+      "content-type": "text/html;charset=UTF-8",
+      "date": "Sat, 14 Nov 2026 03:31:01 GMT",
+      "eagleeye-traceid": "2116477e17946270617996783e0f7a",
+      "server": "Tengine"
+    }
+  },
+  {
+    "url": "https://g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/main.css",
+    "status": 200,
+    "body": ".pc .content-inside{width:100%}.pc.captchacappuzzle .bannar,.pc.captchacapslidev2 .bannar,.pc.captchascene .bannar{max-width:338px;width:100%;left:0;right:0}.pc.captchaclick .bannar,.pc.captchaconnect .bannar,.pc.captchadrag .bannar,.pc.captchainfopurchase .bannar{max-width:375px;width:100%;left:0;right:0;height:664.5px}.pc.captchaclick .bx-pu-qrcode-wrap,.pc.captchaconnect .bx-pu-qrcode-wrap,.pc.captchadrag .bx-pu-qrcode-wrap,.pc.captchainfopurchase .bx-pu-qrcode-wrap{margin-top:20px}.pc.captchaclick .copyright,.pc.captchaconnect .copyright,.pc.captchadrag .copyright,.pc.captchainfopurchase .copyright{bottom:24px}.pc.captchaconnect .bannar{height:590.5}.pc.captchavi .bx-pu-qrcode-wrap{bottom:12px}.pc.captchavi .bx-pu-qrcode-wrap .captcha-qrcode{width:80px}.pc.captchavi .bx-pu-qrcode-wrap .hide{top:30px;margin-left:50px}.pc.captchavi .copyright{display:none}.pc .bannar{margin:auto;width:100%;height:408px;display:block;position:absolute;top:0;bottom:0}.pc.captchanlp .qc-title .title,.pc.captchanlp .qc-title .tooltip-text,.pc.captchanlp .token-enc,.pc.captchanlp .warnning-text{display:none}.pc.captchanlp .bannar{margin-top:52px}.pc.captchanlp .copyright{bottom:6px}body .pc .logo,body .pc .logo img{max-height:52px}body .pc .bannar .warnning-text{margin-top:33px;font-size:24px}body .pc .copyright{width:100%;position:absolute;bottom:53px}body .pc .bx-pu-qrcode-wrap{margin-top:53px}@media screen and (max-height:680px){body .pc .bx-pu-qrcode-wrap{margin-top:6px}}body .pc #J_Header{display:block}@media screen and (max-width:588px){body .pc #J_Header img{max-height:22px}}body .pc .nc-container .nc_scale span.nc-lang-cnt b:after{content:\"...\"}@media screen and (max-height:356px){.pc.captchaclick .bx-pu-qrcode-wrap,.pc.captchaconnect .bx-pu-qrcode-wrap,.pc.captchadrag .bx-pu-qrcode-wrap,.pc.captchainfopurchase .bx-pu-qrcode-wrap{left:-81px!important;margin-left:auto!important;bottom:12px}}@media screen and (max-height:302px){.pc.captchaclick .bx-pu-qrcode-wrap,.pc.captchaconne",
+    "headers": {
+      "content-md5": "/evQzaj34IXBkhENVKGkZQ==",
+      "access-control-expose-headers": "FW_IP",
+      "x-oss-storage-class": "Standard",
+      "content-encoding": "gzip",
+      "x-protocol": "HTTP/1.1",
+      "x-oss-object-type": "Normal",
+      "eagleeye-traceid": "210389fe17930932183427802e19a0",
+      "expires": "Thu, 26 Nov 2026 09:26:58 GMT",
+      "alt-svc": "h3=\":443\"; ma=93600,h3-29=\":443\"; ma=93600",
+      "date": "Sat, 14 Nov 2026 03:31:02 GMT",
+      "x-oss-server-time": "2",
+      "content-type": "text/css",
+      "vary": "Accept-Encoding",
+      "network_info": "IT_MILANO_216253",
+      "x-bucket-code": "3",
+      "strict-transport-security": "max-age=0",
+      "fw_ip": "23.41.187.85",
+      "cache-control": "max-age=1058156, s-maxage=86400",
+      "s-brt": "11",
+      "timing-allow-origin": "*",
+      "served-from": "23.220.253.85",
+      "x-oss-hash-crc64ecma": "11719843456761589102",
+      "ups-target-key": "[REDACTED_AUTH_SECRET]",
+      "s-rt": "12",
+      "access-control-allow-origin": "*",
+      "content-length": "5457",
+      "x-oss-request-id": "6AE06E6201FB5535330297D3",
+      "server": "Tengine"
+    }
+  },
+  {
+    "url": "https://g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/punishpage.min.js",
+    "status": 200,
+    "body": "!function(e){var t={};function n(a){if(t[a])return t[a].exports;var i=t[a]={i:a,l:!1,exports:{}};return e[a].call(i.exports,i,i.exports,n),i.l=!0,i.exports}n.m=e,n.c=t,n.d=function(e,t,a){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:a})},n.r=function(e){\"undefined\"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:\"Module\"}),Object.defineProperty(e,\"__esModule\",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&\"object\"==typeof e&&e&&e.__esModule)return e;var a=Object.create(null);if(n.r(a),Object.defineProperty(a,\"default\",{enumerable:!0,value:e}),2&t&&\"string\"!=typeof e)for(var i in e)n.d(a,i,function(t){return e[t]}.bind(null,i));return a},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,\"a\",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p=\"/\",n(n.s=5)}({\"./src/modules/i18n/language.js\":function(e,t,n){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0});var a=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var a in n)Object.prototype.hasOwnProperty.call(n,a)&&(e[a]=n[a])}return e},i={\"captcha-h5-tips\":\"Sorry, we have detected unusual traffic from your network.\",\"captcha-h5-tips-slider\":\"Please slide to verify.\",\"wait-h5-tips\":\"Please try again.\",\"deny-h5-tips\":\"We have detected unusual traffic from your network, please try again later.\",\"wait-pure-tips\":\"The server is busy, please try again later\",\"deny-pure-tips\":\"Unusual traffic detected, please try again later\",\"common-company-name\":\"@2003-Now Alibaba Group\",\"feedback-code\":\"Feedback ID\",\"feedback-link\":\"Click to feedback >\",\"pure-feedback-link\":\"Feedback\",copyright:\"© 1999-Now Alibaba.com Copyright\",\"captcha-title\":\"Captcha Interception\",\"deny-title\":\"Access denied\",\"wait-title\":\"System is busy\",\"previous-page\":\"BACK\",\"upgrade-text\":\"Oops! The version is too old<p>Your hand-tao version has expired, please follow the upd",
+    "headers": {
+      "content-md5": "pyeihkourxYsXxsxeLCRbQ==",
+      "access-control-expose-headers": "FW_IP",
+      "x-oss-storage-class": "Standard",
+      "content-encoding": "gzip",
+      "x-protocol": "HTTP/1.1",
+      "x-oss-object-type": "Normal",
+      "eagleeye-traceid": "211b60d117930932183222958e0fe4",
+      "expires": "Thu, 26 Nov 2026 09:26:58 GMT",
+      "date": "Sat, 14 Nov 2026 03:31:02 GMT",
+      "x-oss-server-time": "4",
+      "content-type": "application/javascript",
+      "vary": "Accept-Encoding",
+      "network_info": "IT_MILANO_216253",
+      "x-bucket-code": "3",
+      "strict-transport-security": "max-age=0",
+      "fw_ip": "23.41.187.85",
+      "cache-control": "max-age=1058156, s-maxage=86400",
+      "s-brt": "13",
+      "timing-allow-origin": "*",
+      "served-from": "23.220.253.77",
+      "x-oss-hash-crc64ecma": "16280955725353625329",
+      "ups-target-key": "[REDACTED_AUTH_SECRET]",
+      "s-rt": "14",
+      "access-control-allow-origin": "*",
+      "content-length": "39024",
+      "x-oss-request-id": "6AE06E62712A583132BA47EC",
+      "server": "Tengine"
+    }
+  },
+  {
+    "url": "https://g.alicdn.com/sd/punish/0.0.1/qrcode.min.js",
+    "status": 200,
+    "body": "var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this.parsedData=[];for(var b=[],d=0,e=this.data.length;e>d;d++){var f=this.data.charCodeAt(d);f>65536?(b[0]=240|(1835008&f)>>>18,b[1]=128|(258048&f)>>>12,b[2]=128|(4032&f)>>>6,b[3]=128|63&f):f>2048?(b[0]=224|(61440&f)>>>12,b[1]=128|(4032&f)>>>6,b[2]=128|63&f):f>128?(b[0]=192|(1984&f)>>>6,b[1]=128|63&f):b[0]=f,this.parsedData=this.parsedData.concat(b)}this.parsedData.length!=this.data.length&&(this.parsedData.unshift(191),this.parsedData.unshift(187),this.parsedData.unshift(239))}function b(a,b){this.typeNumber=a,this.errorCorrectLevel=b,this.modules=null,this.moduleCount=0,this.dataCache=null,this.dataList=[]}function i(a,b){if(void 0==a.length)throw new Error(a.length+\"/\"+b);for(var c=0;c<a.length&&0==a[c];)c++;this.num=new Array(a.length-c+b);for(var d=0;d<a.length-c;d++)this.num[d]=a[d+c]}function j(a,b){this.totalCount=a,this.dataCount=b}function k(){this.buffer=[],this.length=0}function m(){return\"undefined\"!=typeof CanvasRenderingContext2D}function n(){var a=!1,b=navigator.userAgent;return/android/i.test(b)&&(a=!0,aMat=b.toString().match(/android ([0-9]\\.[0-9])/i),aMat&&aMat[1]&&(a=parseFloat(aMat[1]))),a}function r(a,b){for(var c=1,e=s(a),f=0,g=l.length;g>=f;f++){var h=0;switch(b){case d.L:h=l[f][0];break;case d.M:h=l[f][1];break;case d.Q:h=l[f][2];break;case d.H:h=l[f][3]}if(h>=e)break;c++}if(c>l.length)throw new Error(\"Too long data\");return c}function s(a){var b=encodeURI(a).toString().replace(/\\%[0-9a-fA-F]{2}/g,\"a\");return b.length+(b.length!=a?3:0)}a.prototype={getLength:function(){return this.parsedData.length},write:function(a){for(var b=0,c=this.parsedData.length;c>b;b++)a.put(this.parsedData[b],8)}},b.prototype={addData:function(b){var c=new a(b);this.dataList.push(c),this.dataCache=null},isDark:function(a,b){if(0>a||this.moduleCount<=a||0>b||this.moduleCount<=b)throw new Error(a+\",\"+b);return this.modules[a][b]},getModuleCount:function(){return this.moduleCount},make:functi",
+    "headers": {
+      "content-md5": "UXtV02iM6e8QhaPZYyvLlw==",
+      "access-control-expose-headers": "FW_IP",
+      "x-oss-storage-class": "Standard",
+      "content-encoding": "gzip",
+      "x-protocol": "HTTP/1.1",
+      "x-oss-object-type": "Normal",
+      "eagleeye-traceid": "211b82ac17908221951185594e1887",
+      "expires": "Wed, 25 Nov 2026 20:11:26 GMT",
+      "date": "Sat, 14 Nov 2026 03:31:02 GMT",
+      "x-oss-server-time": "14",
+      "content-type": "application/javascript",
+      "vary": "Accept-Encoding",
+      "network_info": "IT_MILANO_216253",
+      "x-bucket-code": "3",
+      "strict-transport-security": "max-age=0",
+      "fw_ip": "23.41.187.85",
+      "cache-control": "max-age=1010424, s-maxage=3600",
+      "s-brt": "22",
+      "timing-allow-origin": "*",
+      "served-from": "23.220.253.77",
+      "x-oss-hash-crc64ecma": "17632674935737242381",
+      "ups-target-key": "[REDACTED_AUTH_SECRET]",
+      "s-rt": "22",
+      "access-control-allow-origin": "*",
+      "content-length": "7007",
+      "x-oss-request-id": "6ABDC733D3D7CB3430C8E439",
+      "server": "Tengine"
+    }
+  },
+  {
+    "url": "https://g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/htmltocanvas.min.js",
+    "status": 200,
+    "body": "!function(A){var e={};function t(r){if(e[r])return e[r].exports;var B=e[r]={i:r,l:!1,exports:{}};return A[r].call(B.exports,B,B.exports,t),B.l=!0,B.exports}t.m=A,t.c=e,t.d=function(A,e,r){t.o(A,e)||Object.defineProperty(A,e,{enumerable:!0,get:r})},t.r=function(A){\"undefined\"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(A,Symbol.toStringTag,{value:\"Module\"}),Object.defineProperty(A,\"__esModule\",{value:!0})},t.t=function(A,e){if(1&e&&(A=t(A)),8&e)return A;if(4&e&&\"object\"==typeof A&&A&&A.__esModule)return A;var r=Object.create(null);if(t.r(r),Object.defineProperty(r,\"default\",{enumerable:!0,value:A}),2&e&&\"string\"!=typeof A)for(var B in A)t.d(r,B,function(e){return A[e]}.bind(null,B));return r},t.n=function(A){var e=A&&A.__esModule?function(){return A.default}:function(){return A};return t.d(e,\"a\",e),e},t.o=function(A,e){return Object.prototype.hasOwnProperty.call(A,e)},t.p=\"/\",t(t.s=2)}({\"./node_modules/html2canvas/dist/html2canvas.js\":function(A,e,t){\n/*!\n * html2canvas 1.4.1 <https://html2canvas.hertzen.com>\n * Copyright (c) 2022 Niklas von Hertzen <https://hertzen.com>\n * Released under MIT License\n */\nA.exports=function(){\"use strict\";\n/*! *****************************************************************************\n    Copyright (c) Microsoft Corporation.\n\n    Permission to use, copy, modify, and/or distribute this software for any\n    purpose with or without fee is hereby granted.\n\n    THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH\n    REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY\n    AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,\n    INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM\n    LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR\n    OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\n    PERFORMANCE OF THIS SOFTWARE.\n    ***********************************************************",
+    "headers": {
+      "content-md5": "nCOX6rV+oQbN7YvwL/erdQ==",
+      "access-control-expose-headers": "FW_IP",
+      "x-oss-storage-class": "Standard",
+      "content-encoding": "gzip",
+      "x-protocol": "HTTP/1.1",
+      "x-oss-object-type": "Normal",
+      "eagleeye-traceid": "0b0fe7ee17930932183526251e0f3d",
+      "expires": "Thu, 26 Nov 2026 09:26:58 GMT",
+      "date": "Sat, 14 Nov 2026 03:31:03 GMT",
+      "x-oss-server-time": "17",
+      "content-type": "application/javascript",
+      "vary": "Accept-Encoding",
+      "network_info": "IT_MILANO_216253",
+      "x-bucket-code": "3",
+      "strict-transport-security": "max-age=0",
+      "fw_ip": "23.41.187.85",
+      "cache-control": "max-age=1058155, s-maxage=86400",
+      "s-brt": "40",
+      "timing-allow-origin": "*",
+      "served-from": "23.220.253.77",
+      "x-oss-hash-crc64ecma": "7872481552312187857",
+      "ups-target-key": "[REDACTED_AUTH_SECRET]",
+      "s-rt": "41",
+      "access-control-allow-origin": "*",
+      "content-length": "46494",
+      "x-oss-request-id": "6AE06E62712A5839391E48EC",
+      "server": "Tengine"
+    }
+  },
+  {
+    "url": "https://aliexpress.ru/_____tmd_____/punishTextFetch?x5secdata=xg2951a61ea350d225klf030b8990960dda63022fdd21489c0751794627061a-388365139a-1142023651abaac3aafclick33b3359f3b708362d09f68b006677ff776f__bx__aliexpress.ru%3A443&language=ru_RU&action=captchaclick&v=03092311756320447",
+    "status": 200,
+    "body": "{\"puzzle-verify-success\":\"Проверка пройдена\",\"drag-verify-deny\":\"Проверка не удалась. Пожалуйста, попробуйте еще раз\",\"click-question-info-short-2\":\"\",\"click-verify-deny\":\"Проверка не удалась. Пожалуйста, попробуйте еще раз\",\"puzzle-verify-success-info\":\"${time} s. вы превзошли ${ratio} пользователей\",\"slider-error\":\"Сетевая аномалия\",\"verify-success\":\"Проверка пройдена\",\"drag-question-info-new\":\"Перетащите <b>все</b> изображения, соответствующие описанию, в указанную область, затем <b>отправьте</b>\",\"click-verify-wait\":\"Операции выполняются слишком часто, повторите попытку позже.\",\"drag-verify-fail\":\"Неправильный выбор!\",\"connect-verify-fast\":\"Слишком быстро двигаете ползунок, попробуйте еще раз\",\"verify-wait-time\":\"Операции выполняются слишком часто, подождите ${time}\",\"connect-verify-success\":\"Проверка пройдена\",\"puzzle-verify-wait\":\"Операции выполняются слишком часто, повторите попытку позже.\",\"drag-other-punish\":\"Проверка не удалась. Пожалуйста, попробуйте еще раз\",\"drag-verify-timeout\":\"Время ожидания истекло. Пожалуйста, попробуйте еще раз\",\"drag-verify-error\":\"Ошибка системы, попробуйте еще раз\",\"puzzle-verify-error\":\"Системное исключение, попробуйте еще раз\",\"drag-question-info-2\":\"в корзину\",\"click-verify-error\":\"Ошибка системы, попробуйте еще раз\",\"drag-question-info-4\":\"Перетащите все изображения, соответствующие описанию\",\"drag-question-info-3\":\" и нажмите “Отправить”\",\"puzzle-other-punish\":\"Проверка не удалась. Пожалуйста, попробуйте еще раз\",\"drag-question-info\":\"Перетащите все\",\"verify-fast\":\"Слишком быстро двигаете ползунок, попробуйте еще раз\",\"question-wait\":\"Пожалуйста, подождите немного и снова нажмите «Обновить».\",\"click-other-punish\":\"Проверка не удалась. Пожалуйста, попробуйте еще раз\",\"connect-verify-deny\":\"Проверка не удалась. Пожалуйста, попробуйте еще раз\",\"slider-wait\":\"Операции выполняются слишком часто, повторите попытку позже.\",\"puzzle-secdata-timeout\":\"Эй, я слишком долго ждал, обновите страницу и повторите попытку.\",\"click-question-",
+    "headers": {
+      "content-encoding": "gzip",
+      "date": "Sat, 14 Nov 2026 03:31:06 GMT",
+      "content-type": "application/json;charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "server": "Tengine",
+      "access-control-allow-credentials": "true",
+      "eagleeye-traceid": "2116477e17946270667956795e0f7a"
+    }
+  },
+  {
+    "url": "https://aliexpress.ru/_____tmd_____/report?x5secdata=xg2951a61ea350d225klf030b8990960dda63022fdd21489c0751794627061a-388365139a-1142023651abaac3aafclick33b3359f3b708362d09f68b006677ff776f__bx__aliexpress.ru%3A443&type=loadPageSuccess&msg=PunishPage%20load%20success%3Bsizes%3D1920*1080&uuid=f030b8990960dda63022fdd21489c075&pageVersion=0.1.130&v=016921673502291623",
+    "status": 200,
+    "body": "{\"code\":0,\"dt\":\"success\",\"ec\":200,\"result\":{\"code\":0,\"message\":\"cookieEnabled\",\"sig\":\"from bx\"},\"success\":true}",
+    "headers": {
+      "content-length": "111",
+      "date": "Sat, 14 Nov 2026 03:31:06 GMT",
+      "content-type": "application/json;charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "server": "Tengine",
+      "access-control-allow-credentials": "true",
+      "eagleeye-traceid": "2116477e17946270668226796e0f7a"
+    }
+  },
+  {
+    "url": "https://g.alicdn.com/sd/punish/0.0.4/program.wasm",
+    "status": 200,
+    "body": "binary"
+  },
+  {
+    "url": "https://aliexpress.ru/_____tmd_____/report?x5secdata=xg2951a61ea350d225klf030b8990960dda63022fdd21489c0751794627061a-388365139a-1142023651abaac3aafclick33b3359f3b708362d09f68b006677ff776f__bx__aliexpress.ru%3A443&type=loadSuccessEt&msg=et.js_load_loaded%3A0&uuid=f030b8990960dda63022fdd21489c075&pageVersion=0.1.130&v=07992522378987429",
+    "status": 200,
+    "body": "{\"code\":0,\"dt\":\"success\",\"ec\":200,\"result\":{\"code\":0,\"sig\":\"from bx\"},\"success\":true}",
+    "headers": {
+      "content-length": "85",
+      "date": "Sat, 14 Nov 2026 03:31:07 GMT",
+      "content-type": "application/json;charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "server": "Tengine",
+      "access-control-allow-credentials": "true",
+      "eagleeye-traceid": "2116477e17946270675846799e0f7a"
+    }
+  },
+  {
+    "url": "https://aliexpress.ru/_____tmd_____/report?x5secdata=xg2951a61ea350d225klf030b8990960dda63022fdd21489c0751794627061a-388365139a-1142023651abaac3aafclick33b3359f3b708362d09f68b006677ff776f__bx__aliexpress.ru%3A443&type=initSuccess&msg=capgrid%20init%20success&uuid=f030b8990960dda63022fdd21489c075&pageVersion=0.1.130&v=05462967630731397",
+    "status": 200,
+    "body": "{\"code\":0,\"dt\":\"success\",\"ec\":200,\"result\":{\"code\":0,\"sig\":\"from bx\"},\"success\":true}",
+    "headers": {
+      "content-length": "85",
+      "date": "Sat, 14 Nov 2026 03:31:07 GMT",
+      "content-type": "application/json;charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "server": "Tengine",
+      "access-control-allow-credentials": "true",
+      "eagleeye-traceid": "2116477e17946270675956800e0f7a"
+    }
+  },
+  {
+    "url": "https://aliexpress.ru/_____tmd_____/report?x5secdata=xg2951a61ea350d225klf030b8990960dda63022fdd21489c0751794627061a-388365139a-1142023651abaac3aafclick33b3359f3b708362d09f68b006677ff776f__bx__aliexpress.ru%3A443&type=loadSuccessRand&uuid=f030b8990960dda63022fdd21489c075&_rand=AAAA1ILALrg-AKSqTU6GOGSzFqXTJvvokrExpo-r0rgBtCRMvoVqY5_gdpvNtLVXKxJpMK1jRGl-ojWRflUZ23DV28VfUuH9wnX5cqzbtnXoDkg8",
+    "status": 200,
+    "body": "binary"
+  },
+  {
+    "url": "https://aliexpress.ru/_____tmd_____/gridClickGet?token=[REDACTED_AUTH_SECRET]",
+    "status": 200,
+    "body": "binary"
+  },
+  {
+    "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=i%2Cc%3Bv%3A0.0.59&pid=scratch-captcha&page=https%3A%2F%2Faliexpress.ru%2F%2F%2F_____tmd_____%2Fpunish&query=x5secdata%3DxfGrGQquvWhc-PnPkCnzT1Sm5WJCS2zpn4JQr_j8-ym0fcyw53kJebnJv2z-IaP5lLp7zGM3nxKg7Ga0hYB3EWyNV6N72x1QFfR-bHifbzR_A-84vd-YGHXLXFkGhbWX58tNHitmi_pBRpgdIwGFFvq_axqk43oP-eeulo_wV8G6ptaBPRtzqM0LaBf2yJYmrpK1BH77iZeEG6G-pFsehNTS4R1G604Qw4IQrN3Si0x807l9uPKEF61G0WGb3lNgHhy7ob-j6T9Po0gCpkrM0aarneuimueGqKZwWpi7RUj_hfSAlynQRj24bqOPU0LBMcoUtsJCQZWMTHRXykctULD73iIWVLFuQU9pQbeK-rPWxH84Cjmdnefjk-9nfEwWZajdFV5jav510Lhht9DP7fSIG5f_wZGkTFObnQDaHIoZP6HkGhKuS_VPdoB64H8SMnFRGaeKxizaAmZEKlAK26sXgfwfb7_-kIuj711FoWeBqezAjLgCDLSoW3WxG7G3j5k7Nml7ILlOlzeEJpDMeUMrGBVBgwB6z6uHPf65cqMVcFcV7Bjy66iqEmIOQs_8GuLlO-o2Eyc5kYPF2VNZDd7Cprq6LCdL21AmjBzAseokio7yWUQyEXZLZDnuD-cu26lFuzGzuYyWJPY2s2b6EHlC9J94_ekjNVwIl0KouceOZbl01unn5ZtWEcSWEiwKLY0SwmChr93ROIxa01DSRF11k5ou0uHrBJcn7O26HFMVgdjB4GHsaxN2C6fOq-VTfkQ51erE6azbC_obwEbtVQlq10bS_Zd5TwbniLmBAlDw4dmQLIKAYjqaTbm4F73oxU__bx__aliexpress.ru%252f%26x5step%3D1&hash=&referrer=undefined&title=undefined&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F125.0.0.0%20Safari%2F537.36&c1=f030b8990960dda63022fdd21489c075",
+    "status": 200,
+    "body": "binary"
+  },
+  {
+    "url": "https://aliexpress.ru/_____tmd_____/report?x5secdata=xg2951a61ea350d225klf030b8990960dda63022fdd21489c0751794627061a-388365139a-1142023651abaac3aafclick33b3359f3b708362d09f68b006677ff776f__bx__aliexpress.ru%3A443&type=loadSuccessFireye&msg=fireye.js_load_success%3A3074&uuid=f030b8990960dda63022fdd21489c075&ua=defaultFY3_fyjs_not_initialized%40%40https%3A%2F%2Faliexpress.ru%2F%2F%2F_____tmd_____%2Fpunish%40%401794627070379&_rand=mD4Id3NSkipHAB1nHOY_wO4wqmhnwwVw3WaATUu149rLjfWJvrTea0zLMiromczsBoFT5J6puQYhkfMop4bYsBNdV5tlANq9fWXNjK87wX-xs_Zx&pageVersion=0.1.130&v=021484347508697277",
+    "status": 200,
+    "body": "binary"
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/login-join-verify-check.js",
+    "status": 200,
+    "body": "(window[\"webpackJsonp-ae-fe/cosmos-1\"]=window[\"webpackJsonp-ae-fe/cosmos-1\"]||[]).push([[27,45],{165:function(e,n,t){\"use strict\";var r;function a(){return null==r&&(r=/(iPhone|Android)/i.test(navigator.userAgent)),r}t.d(n,\"a\",(function(){return a}))},194:function(e,n,t){\"use strict\";t.d(n,\"a\",(function(){return o}));var r=t(88),a=t(13),o=function(){var e=\"__batman_debug\";try{var n,t;if(\"true\"!==(Object(a.a)(e)||(null===(n=Object(a.b)(window.parent.location.search))||void 0===n?void 0:n[e])))return;for(var o=arguments.length,i=new Array(o),u=0;u<o;u++)i[u]=arguments[u];(t=console).log.apply(t,[\"【 batman logger 】\"].concat(i))}catch(e){Object(r.a)(\"errorId_reh\",e.message)}}},217:function(e){e.exports=JSON.parse('{\"a\":\"4.5.27\"}')},332:function(e,n,t){\"use strict\";t.r(n),t.d(n,\"joinVerifyKey\",(function(){return s})),t.d(n,\"joinVerifyCheckShow\",(function(){return d}));var r=t(88),a=t(7),o=t(83),i=t(90),u=t(194),c=t(93),s=\"join_status\",d=function(){if(!Object(o.c)())try{var e=JSON.parse(localStorage.getItem(s)||\"{}\");if(null!=e&&e.status)return Object(u.a)(\"get localstorage ===== \"+(null==e?void 0:e.status)),t(null==e?void 0:e.status),void localStorage.removeItem(s);var n=JSON.parse(a.a.get(s));(n&&null!=n&&n.status||null!=e&&e.status)&&(Object(u.a)(\"get cookie =[REDACTED_AUTH_SECRET]",
+    "headers": {
+      "content-md5": "Q61ZyYMCHAFSY1YFJBKMTw==",
+      "x-oss-storage-class": "Standard",
+      "content-encoding": "gzip",
+      "x-oss-object-type": "Normal",
+      "eagleeye-traceid": "2103018717926607964347084e0ed7",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "date": "Sat, 14 Nov 2026 03:31:13 GMT",
+      "x-oss-server-time": "8",
+      "content-type": "application/javascript",
+      "vary": "Accept-Encoding",
+      "network_info": "IT_MILANO_216253",
+      "x-bucket-code": "3",
+      "cache-control": "max-age=2592000,s-maxage=86400",
+      "timing-allow-origin": "*",
+      "served-from": "2.23.166.87",
+      "x-oss-hash-crc64ecma": "14458634580886030106",
+      "s-rt": "13",
+      "quic-version": "0x00000001",
+      "access-control-allow-origin": "*",
+      "content-length": "2308",
+      "x-oss-request-id": "6AD9D53CA2BA913236C2AFB0",
+      "x-net-p-aserver": "h:0,b:1,w:0,c:0,s:0,t:12,r:0,f:13",
+      "server": "Tengine"
+    }
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Scheda grafica SOYO AMD Radeon RX580 8G Memoria GDDR5 Scheda GPU a 256 bit PCIe 3.0 x16 DVI compatibile con HDMI per componenti del computer",
+        "method": "PW_META",
+        "evidence": {
+          "method": "PW_META",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S387110d3816c4a818999f5c011eddfc0Z.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S17df108098be4ad9b3668704d910dde4V.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Se73b1c51439b4a44a7d3bd9cd1be1f26t.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf14e818d0f374cd9b652e2a5e394dee6d.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S7194c8d8ebd34f8cb8b8af36c0895ca1f.jpg_220x220q75.jpg_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S387110d3816c4a818999f5c011eddfc0Z.jpg_960x960q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005012269147011",
+    "url": "https://www.aliexpress.com/item/1005012269147011.html",
+    "observed_at": "2026-11-15T20:18:36.721716+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

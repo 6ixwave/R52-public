@@ -1,0 +1,10 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:18:35,032 r52.autocollect.worker INFO phase=worker_start pid=8712
+2026-11-16 04:18:35,057 r52.autocollect.worker INFO source=OZON mode=refresh phase=initialize
+2026-11-16 04:18:35,058 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 04:18:35,059 r52.autocollect.worker INFO source=OZON proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 04:18:35,059 r52.autocollect.worker INFO source=OZON listing=2748584093 phase=collect_product_start
+2026-11-16 04:18:36,788 r52.collectors.ozon INFO OZON 2748584093: v2 -> HTTP 403
+2026-11-16 04:18:49,888 r52.collectors.ozon INFO OZON 2748584093: 2748584093 -> HTTP 403
+2026-11-16 04:18:58,563 r52.collectors.ozon INFO OZON 2748584093: v2 -> HTTP 403
+2026-11-16 04:19:00,323 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)

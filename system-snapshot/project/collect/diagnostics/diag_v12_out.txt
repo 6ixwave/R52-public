@@ -1,0 +1,24 @@
+2026-11-12 19:10:47,727 INFO === V12 START ===
+2026-11-12 19:10:47,950 INFO --- WB ---
+2026-11-12 19:10:49,034 INFO WB basket-01: HTTP 404
+2026-11-12 19:10:50,085 INFO WB basket-10: HTTP 404
+2026-11-12 19:10:51,129 INFO WB static-basket-01: HTTP 404
+2026-11-12 19:10:52,019 INFO WB price_v2: {'http': 403, 'len': 0, 't': 0.9}
+2026-11-12 19:10:52,868 INFO WB price_v1: {'http': 403, 'len': 0, 't': 0.8}
+2026-11-12 19:10:54,362 INFO WB html: {'http': 498, 'len': 1136, 't': 0.1, 'note': '498 = WB anti-bot challenge'}
+2026-11-12 19:10:54,362 INFO --- FARPOST ---
+2026-11-12 19:10:57,404 INFO FP card: {'http': 200, 'len': 40192, 'url': 'https://www.farpost.ru/krasnoyarsk/auto/wheel/tire/shiny-139122082.html', 'verify': False, 't': 0.6}
+2026-11-12 19:10:57,405 INFO FP parsed: ld=2 price=8499 photos=5
+2026-11-12 19:10:59,039 INFO FP mobile: {'http': 200, 'len': 40192, 'verify': False, 't': 1.6}
+2026-11-12 19:10:59,508 INFO FP cat: {'http': 200, 'len': 189634, 'verify': False, 't': 0.5, 'n_prices': 0, 'first_prices': []}
+2026-11-12 19:10:59,509 INFO --- OZON ---
+2026-11-12 19:11:00,513 INFO OZ home: {'http': 403, 'len': 8286, 'cookies': ['__Secure-ETC', 'abt_data'], 't': 1.0}
+2026-11-12 19:11:01,638 INFO OZ ssr: {'http': 403, 'len': 8342, 't': 0.1, 'body_200': '\n\n    \n\n<!DOCTYPE html><html lang="ru"><head>\n  <meta charset="UTF-8">\n  <meta http-equiv="X-UA-Compatible" content="IE=edge">\n  <meta name="viewport" content="width=device-width,initial-scale=1,minim'}
+2026-11-12 19:11:03,140 INFO OZ composer: {'http': 403, 'len': 1081, 't': 1.5}
+2026-11-12 19:11:03,262 INFO OZ entrypoint: {'http': 403, 'len': 6087, 't': 0.1}
+2026-11-12 19:11:03,262 INFO --- AVITO ---
+2026-11-12 19:11:04,306 INFO AV home: {'http': 429, 'len': 34116, 'cookies': ['srv_id', '_adcc', 'gMltIuegZN2COuSe', '_avisc'], 't': 1.0}
+2026-11-12 19:11:05,484 INFO AV search: {'http': 439, 'len': 14382, 't': 0.2, 'blocked': True, 'captcha': False, 'antibot': False, 'scripts': []}
+2026-11-12 19:11:05,627 INFO AV card: {'http': 404, 'len': 29440, 't': 0.1}
+2026-11-12 19:11:05,630 INFO === V12 DONE t=17.9s ===
+2026-11-12 19:11:05,630 INFO → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_v12_results.json

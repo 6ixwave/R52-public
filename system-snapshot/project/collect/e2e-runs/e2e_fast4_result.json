@@ -1,0 +1,250 @@
+{
+  "ts": "2026-11-12T10:36:59.093442+10:00",
+  "s": 23.5,
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "partial": 0,
+  "d": {
+    "WB": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "inbox": null
+    },
+    "OZON": {
+      "verdict": "E2E_PASS",
+      "sqlite": {
+        "products": [
+          {
+            "id": 1,
+            "source": "OZON",
+            "listing_id": "2984707012",
+            "title": "Apple Смартфон iPhone 17 256 ГБ, Nano-SIM, eSIM, черный",
+            "url": "https://www.ozon.ru/product/2984707012/"
+          }
+        ],
+        "observations": [
+          {
+            "id": 1,
+            "product_id": 1,
+            "observed_at": "2026-11-12T00:36:48.140+00:00",
+            "availability": "UNKNOWN"
+          }
+        ],
+        "price_points": [
+          {
+            "id": 1,
+            "observation_id": 1,
+            "role": "regular",
+            "amount_minor": 9957500,
+            "currency": "RUB"
+          }
+        ],
+        "product_count": 1,
+        "observation_count": 1,
+        "price_point_count": 1
+      },
+      "inbox": {
+        "id": 1,
+        "content_sha256": "376de3bb78d96c4d47d26585fc484267a7825fb28eeca02ba03826b180ef7c3a",
+        "filename": "fast4-OZON-376de3bb.json",
+        "origin": "FAST4_OZON",
+        "received_at": "2026-11-12T00:36:48.160+00:00",
+        "status": "ACCEPTED",
+        "error_code": null,
+        "decided_at": "2026-11-12T00:36:48.166+00:00",
+        "observation_id": 1,
+        "preview": {
+          "source": "OZON",
+          "listing_id": "2984707012",
+          "url": "https://www.ozon.ru/product/2984707012/",
+          "title": "Apple Смартфон iPhone 17 256 ГБ, Nano-SIM, eSIM, черный",
+          "observed_at": "2026-11-12T00:36:48.140+00:00",
+          "price_text": "99 575 ₽",
+          "currency": "RUB",
+          "regular_minor": 9957500,
+          "lowest_minor": 9957500,
+          "lowest_role": "regular",
+          "old_minor": null,
+          "conditional": false,
+          "prices": [
+            {
+              "role": "regular",
+              "role_label": "обычная",
+              "amount_minor": 9957500,
+              "currency": "RUB",
+              "label": null
+            }
+          ],
+          "availability": "UNKNOWN",
+          "completeness": {
+            "total": 14,
+            "known": 2,
+            "unknown": [
+              "Модель",
+              "Модификация",
+              "Отображаемая цена",
+              "Состояние",
+              "Комплект",
+              "Местонахождение продавца",
+              "Наличие",
+              "Доставка",
+              "Гарантия",
+              "Возврат",
+              "Отзывы",
+              "Вопросы покупателей"
+            ],
+            "independently_verified": 0
+          },
+          "conflicts": [],
+          "checks": [
+            {
+              "code": "VERIFY_TOTAL",
+              "text": "Уточнить применимую цену, наличие, доставку во Владивосток и все обязательные расходы."
+            },
+            {
+              "code": "VERIFY_VARIANT",
+              "text": "Сверить точный MPN по фото или маркировке и фактическую модификацию."
+            },
+            {
+              "code": "VERIFY_CONDITION_WARRANTY",
+              "text": "Уточнить состояние, историю обслуживания, комплект, гарантию и возможность проверки."
+            }
+          ],
+          "photo_count": 1,
+          "video_count": 0
+        },
+        "error_message": null,
+        "product_id": 1,
+        "observation_created": true,
+        "events": []
+      }
+    },
+    "AVITO": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "inbox": null
+    },
+    "FARPOST": {
+      "verdict": "E2E_PASS",
+      "sqlite": {
+        "products": [
+          {
+            "id": 2,
+            "source": "FARPOST",
+            "listing_id": "138975631",
+            "title": "Apple iPhone 17 256Gb Green Sage (зеленый) eSim! Без RuStore! Уценка ИОН",
+            "url": "https://www.farpost.ru/vladivostok/138975631.html"
+          }
+        ],
+        "observations": [
+          {
+            "id": 2,
+            "product_id": 2,
+            "observed_at": "2026-11-12T00:36:57.078+00:00",
+            "availability": "UNKNOWN"
+          }
+        ],
+        "price_points": [
+          {
+            "id": 2,
+            "observation_id": 2,
+            "role": "regular",
+            "amount_minor": 6500000,
+            "currency": "RUB"
+          }
+        ],
+        "product_count": 1,
+        "observation_count": 1,
+        "price_point_count": 1
+      },
+      "inbox": {
+        "id": 2,
+        "content_sha256": "83d27c865643bdc34fad4d02ca4e902f59f6facff31e03258b7d1476cad7c74c",
+        "filename": "fast4-FARPOST-83d27c86.json",
+        "origin": "FAST4_FARPOST",
+        "received_at": "2026-11-12T00:36:57.080+00:00",
+        "status": "ACCEPTED",
+        "error_code": null,
+        "decided_at": "2026-11-12T00:36:57.084+00:00",
+        "observation_id": 2,
+        "preview": {
+          "source": "FARPOST",
+          "listing_id": "138975631",
+          "url": "https://www.farpost.ru/vladivostok/138975631.html",
+          "title": "Apple iPhone 17 256Gb Green Sage (зеленый) eSim! Без RuStore! Уценка ИОН",
+          "observed_at": "2026-11-12T00:36:57.078+00:00",
+          "price_text": "65 000 ₽",
+          "currency": "RUB",
+          "regular_minor": 6500000,
+          "lowest_minor": 6500000,
+          "lowest_role": "regular",
+          "old_minor": null,
+          "conditional": false,
+          "prices": [
+            {
+              "role": "regular",
+              "role_label": "обычная",
+              "amount_minor": 6500000,
+              "currency": "RUB",
+              "label": null
+            }
+          ],
+          "availability": "UNKNOWN",
+          "completeness": {
+            "total": 14,
+            "known": 2,
+            "unknown": [
+              "Модель",
+              "Модификация",
+              "Отображаемая цена",
+              "Состояние",
+              "Комплект",
+              "Местонахождение продавца",
+              "Наличие",
+              "Доставка",
+              "Гарантия",
+              "Возврат",
+              "Отзывы",
+              "Вопросы покупателей"
+            ],
+            "independently_verified": 0
+          },
+          "conflicts": [],
+          "checks": [
+            {
+              "code": "VERIFY_TOTAL",
+              "text": "Уточнить применимую цену, наличие, доставку во Владивосток и все обязательные расходы."
+            },
+            {
+              "code": "VERIFY_VARIANT",
+              "text": "Сверить точный MPN по фото или маркировке и фактическую модификацию."
+            },
+            {
+              "code": "VERIFY_CONDITION_WARRANTY",
+              "text": "Уточнить состояние, историю обслуживания, комплект, гарантию и возможность проверки."
+            }
+          ],
+          "photo_count": 5,
+          "video_count": 0
+        },
+        "error_message": null,
+        "product_id": 2,
+        "observation_created": true,
+        "events": []
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Креатин моногидрат (Creatine monohydrate), порошок",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "PWR ultimate power",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 64000,
+        "amount": "640.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 200000,
+        "amount": "2000.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-10.wbbasket.ru/vol1369/part136906/136906466/images/big/1.webp"
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "source": "WB",
+    "id": "136906466",
+    "listing_id": "136906466",
+    "title": "Креатин моногидрат (Creatine monohydrate), порошок",
+    "url": "https://www.wildberries.ru/catalog/136906466/detail.aspx",
+    "observed_at": "2026-11-16T15:06:01.311916+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

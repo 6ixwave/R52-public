@@ -1,0 +1,90 @@
+2026-11-12 02:57:38,833 r52.sources INFO Sources: зарегистрировано 4 сборщиков
+2026-11-12 02:57:38,839 e2e-intake-wb-oz-av INFO === E2E WB + Ozon + Avito Intake (fresh home) ===
+2026-11-12 02:57:38,863 e2e-intake-wb-oz-av INFO Home: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-fresh-home-2
+2026-11-12 02:57:38,863 e2e-intake-wb-oz-av INFO DB: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-fresh-home-2\data\r52.sqlite3
+2026-11-12 02:57:38,863 e2e-intake-wb-oz-av INFO Intake folders: (WindowsPath('C:/Users/aleks/Downloads'),)
+2026-11-12 02:57:38,872 r52.db INFO Миграция 1 (initial) применена
+2026-11-12 02:57:38,874 r52.db INFO Миграция 2 (product_media) применена
+2026-11-12 02:57:38,875 r52.db INFO Миграция 3 (product_gallery) применена
+2026-11-12 02:57:38,879 r52.service INFO Применены миграции базы: [1, 2, 3]
+2026-11-12 02:57:38,885 e2e-intake-wb-oz-av INFO App открыт. Миграции применены.
+2026-11-12 02:57:38,887 e2e-intake-wb-oz-av INFO WB: 2 файлов из e2e-wb-v1
+2026-11-12 02:57:38,887 e2e-intake-wb-oz-av INFO OZON: 1 файлов из test-intake-e2e-ozon
+2026-11-12 02:57:38,888 e2e-intake-wb-oz-av INFO AVITO: 2 файлов из e2e-avito-v1
+2026-11-12 02:57:38,888 e2e-intake-wb-oz-av INFO Всего файлов для приёма: 5
+2026-11-12 02:57:38,888 e2e-intake-wb-oz-av INFO   [WB] jarvis-eye-wb-056e75a5.json (3590 байт)
+2026-11-12 02:57:38,888 e2e-intake-wb-oz-av INFO   [WB] jarvis-eye-wb-d278551a.json (6991 байт)
+2026-11-12 02:57:38,888 e2e-intake-wb-oz-av INFO   [OZON] jarvis-eye-ozon-1600562267.json (14043 байт)
+2026-11-12 02:57:38,888 e2e-intake-wb-oz-av INFO   [AVITO] jarvis-eye-avito-e356e498.json (418 байт)
+2026-11-12 02:57:38,888 e2e-intake-wb-oz-av INFO   [AVITO] jarvis-eye-avito-test-valid.json (2891 байт)
+2026-11-12 02:57:38,888 e2e-intake-wb-oz-av INFO 
+--- [WB] Stage: jarvis-eye-wb-056e75a5.json ---
+2026-11-12 02:57:38,894 r52.intake INFO Во входящие добавлен файл jarvis-eye-wb-056e75a5.json: PENDING 
+2026-11-12 02:57:38,894 e2e-intake-wb-oz-av INFO   status=PENDING created=True elapsed=0.01s
+2026-11-12 02:57:38,894 e2e-intake-wb-oz-av INFO   error_code=None
+2026-11-12 02:57:38,894 e2e-intake-wb-oz-av INFO   -> Accept item_id=1
+2026-11-12 02:57:38,900 e2e-intake-wb-oz-av INFO   accepted: product_id=1 obs_created=True events=[] elapsed=0.01s
+2026-11-12 02:57:38,900 e2e-intake-wb-oz-av INFO 
+--- [WB] Stage: jarvis-eye-wb-d278551a.json ---
+2026-11-12 02:57:38,906 r52.intake INFO Во входящие добавлен файл jarvis-eye-wb-d278551a.json: PENDING 
+2026-11-12 02:57:38,906 e2e-intake-wb-oz-av INFO   status=PENDING created=True elapsed=0.01s
+2026-11-12 02:57:38,906 e2e-intake-wb-oz-av INFO   error_code=None
+2026-11-12 02:57:38,906 e2e-intake-wb-oz-av INFO   -> Accept item_id=2
+2026-11-12 02:57:38,912 e2e-intake-wb-oz-av INFO   accepted: product_id=2 obs_created=True events=[] elapsed=0.01s
+2026-11-12 02:57:38,912 e2e-intake-wb-oz-av INFO 
+--- [OZON] Stage: jarvis-eye-ozon-1600562267.json ---
+2026-11-12 02:57:38,918 r52.intake INFO Во входящие добавлен файл jarvis-eye-ozon-1600562267.json: PENDING 
+2026-11-12 02:57:38,919 e2e-intake-wb-oz-av INFO   status=PENDING created=True elapsed=0.01s
+2026-11-12 02:57:38,919 e2e-intake-wb-oz-av INFO   error_code=None
+2026-11-12 02:57:38,919 e2e-intake-wb-oz-av INFO   -> Accept item_id=3
+2026-11-12 02:57:38,927 e2e-intake-wb-oz-av INFO   accepted: product_id=3 obs_created=True events=[] elapsed=0.01s
+2026-11-12 02:57:38,927 e2e-intake-wb-oz-av INFO 
+--- [AVITO] Stage: jarvis-eye-avito-e356e498.json ---
+2026-11-12 02:57:38,932 r52.intake INFO Во входящие добавлен файл jarvis-eye-avito-e356e498.json: INVALID CARD_IDENTITY_NOT_CONFIRMED
+2026-11-12 02:57:38,932 e2e-intake-wb-oz-av INFO   status=INVALID created=True elapsed=0.00s
+2026-11-12 02:57:38,932 e2e-intake-wb-oz-av INFO   error_code=CARD_IDENTITY_NOT_CONFIRMED
+2026-11-12 02:57:38,933 e2e-intake-wb-oz-av WARNING   -> INVALID: CARD_IDENTITY_NOT_CONFIRMED
+2026-11-12 02:57:38,933 e2e-intake-wb-oz-av INFO 
+--- [AVITO] Stage: jarvis-eye-avito-test-valid.json ---
+2026-11-12 02:57:38,937 r52.intake INFO Во входящие добавлен файл jarvis-eye-avito-test-valid.json: INVALID CARD_IDENTITY_NOT_CONFIRMED
+2026-11-12 02:57:38,938 e2e-intake-wb-oz-av INFO   status=INVALID created=True elapsed=0.00s
+2026-11-12 02:57:38,938 e2e-intake-wb-oz-av INFO   error_code=CARD_IDENTITY_NOT_CONFIRMED
+2026-11-12 02:57:38,938 e2e-intake-wb-oz-av WARNING   -> INVALID: CARD_IDENTITY_NOT_CONFIRMED
+2026-11-12 02:57:38,938 e2e-intake-wb-oz-av INFO 
+=== Проверка SQLite ===
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO Products: 3
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #1 WB/138278567 | Утюг BBK ISE-2404 | brand=None | origin=EYE
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #2 WB/145567890 | Жидкость Maxwells Salt для вейпа под систем HYBRID 20мг 30мл | brand=Максвелс | origin=EYE
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #3 OZON/1600562267 | Ткань для обивки мебели, Велюр с абстрактным принтом, отрез  | brand=Айхал | origin=EYE
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO Observations: 3
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #1 product=1 | EYE | COLLECTOR_AUTONOMOUS_HTTP | avail=UNKNOWN | fp=0eab5d6c25b09555...
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #2 product=2 | EYE | COLLECTOR_AUTONOMOUS_HTTP | avail=UNKNOWN | fp=2968748ce4f72810...
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #3 product=3 | EYE | COLLECTOR_AUTONOMOUS_HTTP | avail=IN_STOCK | fp=fa71eec58336e6bf...
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO Price points: 1
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #1 obs=3 product=3 | regular 229500 RUB | label=JSON-LD price | 2026-11-10T21:18:33.953+00:00
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO Product summary:
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #1 WB/138278567 | reg=None low=None | avail=UNKNOWN | obs_count=1
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #2 WB/145567890 | reg=None low=None | avail=UNKNOWN | obs_count=1
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #3 OZON/1600562267 | reg=229500 low=229500 | avail=IN_STOCK | obs_count=1
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO Inbox items: 5
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #1 jarvis-eye-wb-056e75a5.json | ACCEPTED | FOLDER | obs_id=1
+2026-11-12 02:57:38,940 e2e-intake-wb-oz-av INFO   #2 jarvis-eye-wb-d278551a.json | ACCEPTED | FOLDER | obs_id=2
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO   #3 jarvis-eye-ozon-1600562267.json | ACCEPTED | FOLDER | obs_id=3
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO   #4 jarvis-eye-avito-e356e498.json | INVALID | FOLDER | obs_id=None
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO   #5 jarvis-eye-avito-test-valid.json | INVALID | FOLDER | obs_id=None
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO 
+=== ИТОГ E2E по площадкам ===
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO   WB: всего=2 принято=2 invalid=0
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO   OZON: всего=1 принято=1 invalid=0
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO   AVITO: всего=2 принято=0 invalid=2
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO 
+Файлов обработано: 5
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO Успешно принято: 3
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO Invalid: 2
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO Products в БД: 3
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO Observations в БД: 3
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO Price points в БД: 1
+2026-11-12 02:57:38,941 e2e-intake-wb-oz-av INFO E2E STATUS: PARTIAL/FAIL
+2026-11-12 02:57:38,942 e2e-intake-wb-oz-av INFO Результат: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-intake-wb-oz-av-result.json
+2026-11-12 02:57:38,944 r52.service INFO Ядро R-52 остановлено
+2026-11-12 02:57:38,944 e2e-intake-wb-oz-av INFO === Done ===

@@ -1,0 +1,64 @@
+
+=== WB ===
+URL: https://www.wildberries.ru/catalog/0/ru/?search=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%
+WB: bodies=29 best_bytes=200748 status=200 (15.5s)
+   body 40432B  https://www.wildberries.ru/catalog/0/ru/?search=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%
+   body 276B  https://www.wildberries.ru/__internal/antibot/api/v1/find-frontend-settings
+   body 52589B  https://www.wildberries.ru/__internal/antibot/statics/behavior-tracker_v1.0.3.js
+   body 186586B  https://www.wildberries.ru/__internal/catalog/menu/v12/api?appType=1&dest=1259570991&id=131289&lang=
+   body 0B  https://a.wb.ru/e/user_id?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%25
+   body 0B  https://a.wb.ru/e/session_start?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch
+   body 0B  https://a.wb.ru/e/Alert_S?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%25
+   body 0B  https://a.wb.ru/e/pageview?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%2
+   body 360476B  https://www.wildberries.ru/__internal/catalog/menu/v12/api?appType=1&dest=1259570991&id=131776&lang=
+   body 2012B  https://www.wildberries.ru/__internal/catalog/menu/v12/api?appType=1&lang=ru&locale=ru&site=5&dest=1
+   body 0B  https://a.wb.ru/e/AB_Test_Splitter_Request?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%
+   body 0B  https://a.wb.ru/e/Footer_S?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%2
+   body 0B  https://a.wb.ru/e/Banner_SI?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%
+   body 0B  https://a.wb.ru/e/Banner_SI?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%
+   body 0B  https://a.wb.ru/e/Banner_SI?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%
+   body 0B  https://a.wb.ru/e/Banner_SI?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%
+   body 200748B  https://www.wildberries.ru/__internal/u-recom/personal/v9/search?ab_testing=false&appType=1&curr=rub
+   body 0B  https://a.wb.ru/e/Banner_SI?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%
+   body 0B  https://a.wb.ru/e/Banner_SI?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%
+   body 0B  https://a.wb.ru/e/Banner_SI?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%
+   body 0B  https://a.wb.ru/e/Banner_N?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%2
+   body 0B  https://a.wb.ru/e/Banner_S?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%2
+   body 0B  https://a.wb.ru/e/Carousel_S?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D
+   body 0B  https://a.wb.ru/e/ec?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%25D0%25
+   body 0B  https://a.wb.ru/e/ec?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%25D0%25
+   body 0B  https://a.wb.ru/e/ec?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%25D0%25
+   body 0B  https://a.wb.ru/e/ec?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%25D0%25
+   body 0B  https://a.wb.ru/e/ec?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%25D0%25
+   body 0B  https://a.wb.ru/e/ec?t=&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fru%2F%3Fsearch%3D%25D0%25
+WB: PRODUCTS=100
+
+=== OZON ===
+URL: https://www.ozon.ru/search/?text=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D1%8B&from_g
+OZON: bodies=24 best_bytes=316324 status=200 (10.7s)
+   body 316324B  https://www.ozon.ru/search/?text=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D1%8B&from_g
+   body 73495B  https://st.ozone.ru/s3/assets-66613/4e2816c3/microfront/catalog-search.js
+   body 18B  https://www.ozon.ru/api/composer-api.bx/_action/setUserCookies
+   body 2B  https://www.ozon.ru/api/composer-api.bx/_action/summaryV2
+   body 1909B  https://st.ozone.ru/s3/shared-deps/%40bx-fe/common-component-composer-link/1.6.0/index.js
+   body 2631B  https://st.ozone.ru/s3/assets-66613/4e2816c3/catalog-desktop-search-results-sort-v2.js
+   body 7487B  https://st.ozone.ru/s3/assets-66613/4e2816c3/catalog-all-search-results-filters-active.js
+   body 141005B  https://st.ozone.ru/s3/assets-66613/4e2816c3/search-desktop-search-bar-desktop.js
+   body 46305B  https://www.ozon.ru/api/entrypoint-api.bx/page/json/v2?url=%2Fcategory%2Fvideokarty-15721%2F%3F__rr%
+   body 15539B  https://st.ozone.ru/assets/970a82e5/detached/navi/autosplit-teams_navi_molecules_tile-add-to-cart-bu
+   body 3754B  https://st.ozone.ru/assets/970a82e5/detached/navi/autosplit-teams_navi_components_tile-top-right-but
+   body 38338B  https://st.ozone.ru/assets/970a82e5/detached/navi/autosplit-teams_navi_components_tile-grid-item_ind
+   body 34803B  https://st.ozone.ru/assets/970a82e5/detached/navi/products-desktop-tile-grid-desktop.js
+   body 1878B  https://st.ozone.ru/s3/shared-deps/%40bx-fe/common-component-composer-link/1.5.10/index.js
+   body 738B  https://st.ozone.ru/s3/fe-icons/1.69.0/ic_m_catalog_tile_filled.js
+   body 0B  https://www.ozon.ru/api/composer-api.bx/_action/registerSearchEvent
+   body 2650B  https://www.ozon.ru/api/composer-api.bx/_action/v2/shellHorizontalMenuGetChildV1?menuId=168
+   body 518B  https://www.ozon.ru/api/composer-api.bx/widget/json/v2?widgetStateId=orderInfo-7278501-default-1
+   body 2072B  https://www.ozon.ru/api/composer-api.bx/_action/v2/getSearchTapTags
+   body 15574B  https://www.ozon.ru/api/entrypoint-api.bx/page/json/v2?url=%2FsearchSuggestions%2Fsearch%2F%3Ftext%3
+   body 44429B  https://www.ozon.ru/api/entrypoint-api.bx/page/json/v2?url=%2Fcategory%2Fvideokarty-15721%2F%3F__rr%
+   body 53B  https://xapi.ozon.ru/api/logs-gateway/input
+   body 4720B  https://www.ozon.ru/api/entrypoint-api.bx/page/json/v2?url=https%3A%2F%2Fozon.ru%2Fnotification%2Fco
+   body 1637B  https://www.ozon.ru/api/composer-api.bx/_action/v2/addressBookBarTooltip?prv=category&set_sm=1
+
+DIAG_XHR_DONE

@@ -1,0 +1,64 @@
+2026-11-12 05:11:29,825 INFO E2E FAST START 2026-11-12T05:11:29.825542+10:00
+2026-11-12 05:11:29,843 INFO ── FARPOST ──
+2026-11-12 05:11:29,985 INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-fast-home\collectors\proxies.json не найден, режим direct
+2026-11-12 05:11:29,985 INFO FP: scraping catalog...
+2026-11-12 05:11:32,051 INFO FP: catalog HTTP 200, 198875B
+2026-11-12 05:11:32,053 INFO FP: found 0 bulletin IDs: []
+2026-11-12 05:11:32,053 WARNING FP: no IDs from catalog, trying universal redirect
+2026-11-12 05:11:32,053 INFO FP: fetching https://www.farpost.ru/vladivostok/139122082.html
+2026-11-12 05:11:32,226 INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 05:11:33,882 INFO FARPOST: /verify page (resp.url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F139122082.html), retry in 5s
+2026-11-12 05:11:55,402 WARNING FARPOST: retry still /verify or None
+2026-11-12 05:11:55,415 WARNING FARPOST 139122082: /verify soft-block detected (generic title, no data)
+2026-11-12 05:11:55,415 WARNING FP: parse returned None
+2026-11-12 05:11:55,417 INFO ── WB ──
+2026-11-12 05:11:55,417 INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-fast-home\collectors\proxies.json не найден, режим direct
+2026-11-12 05:11:55,583 INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-12 05:11:55,583 INFO WB: nm_id=158565532
+2026-11-12 05:12:20,519 INFO WB: vol=1585 -> basket-10.wbbasket.ru (nm_id=158565532)
+2026-11-12 05:12:23,679 INFO WB 158565532: card.json OK (15 keys, 3487B)
+2026-11-12 05:12:23,679 INFO WB: card.json OK title=Поддон для горшка и цветов PLATO
+2026-11-12 05:12:27,146 INFO WB 158565532: price card_v1 -> 403
+2026-11-12 05:12:30,058 INFO WB 158565532: price card_v2 -> 403
+2026-11-12 05:12:34,039 INFO WB 158565532: price card_v4 -> 403
+2026-11-12 05:12:37,177 INFO WB 158565532: price card_v5 -> 403
+2026-11-12 05:12:40,325 INFO WB 158565532: price catalog_v1 -> 403
+2026-11-12 05:12:42,340 INFO WB 158565532: price catalog_v2 -> 403
+2026-11-12 05:12:45,869 INFO WB 158565532: price web_api -> 498
+2026-11-12 05:12:45,869 INFO WB 158565532: price — все эндпоинты не дали данных
+2026-11-12 05:12:45,869 WARNING WB: price failed
+2026-11-12 05:12:45,869 INFO WB 158565532: photo_count=3, found=1
+2026-11-12 05:12:45,869 INFO WB: title=Поддон для горшка и цветов PLATO prices=0 media=1
+2026-11-12 05:12:45,882 ERROR WB error: no such table: inbox_item
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e_fast.py", line 347, in main
+    try: results["WB"] = test_wb()
+                         ~~~~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e_fast.py", line 215, in test_wb
+    r = inbox_process(obs_wrapped, "WB", str(nm_id))
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e_fast.py", line 59, in inbox_process
+    staged, created = inbox.stage_bytes(data, filename=fname, origin="E2E_FAST")
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\intake\eye.py", line 100, in stage_bytes
+    existing = conn.execute("SELECT * FROM inbox_item WHERE content_sha256 = ?", (digest,)).fetchone()
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: inbox_item
+2026-11-12 05:12:46,456 INFO PwFetcher: browser started (headless=True)
+2026-11-12 05:12:46,456 INFO PW started
+2026-11-12 05:12:46,456 INFO ── OZON ──
+2026-11-12 05:12:46,456 INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-fast-home\collectors\proxies.json не найден, режим direct
+2026-11-12 05:12:46,456 INFO OZON: https://www.ozon.ru/product/1681720398/
+2026-11-12 05:12:50,404 WARNING PwFetcher: https://www.ozon.ru/product/1681720398/ -> 403 (3307B, 3.9s)
+2026-11-12 05:12:50,408 WARNING OZON: PW status=403 len=3307
+2026-11-12 05:12:50,408 INFO ── AVITO ──
+2026-11-12 05:12:50,408 INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-fast-home\collectors\proxies.json не найден, режим direct
+2026-11-12 05:12:50,408 INFO AVITO: https://www.avito.ru/ad/1287654321
+2026-11-12 05:12:54,292 WARNING PwFetcher: https://www.avito.ru/ad/1287654321 -> 404 (29378B, 3.9s)
+2026-11-12 05:12:54,295 INFO AVITO: status=404 len=29378 title=Ошибка 404. Страница не найдена
+2026-11-12 05:12:54,295 WARNING AVITO: bad response
+2026-11-12 05:12:54,400 INFO ═══ RESULTS ═══
+2026-11-12 05:12:54,400 INFO   FARPOST: DATA=NO
+2026-11-12 05:12:54,400 INFO   WB: DATA=NO
+2026-11-12 05:12:54,400 INFO   OZON: DATA=NO
+2026-11-12 05:12:54,400 INFO   AVITO: DATA=NO
+2026-11-12 05:12:54,401 INFO E2E FAST DONE

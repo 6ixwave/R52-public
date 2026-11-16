@@ -1,0 +1,39 @@
+=== diag_v7a — 2026-11-14 12:26:54 ===
+Query: 'наушники', page_size=8
+
+── [1/6] ALIEXPRESS COM ──
+  p1: 8 items 109.8s
+  [0] id=1005013565057281 title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Ful' price=NONE avail=
+  [1] id=1005013569410352 title='Cuffie wireless con archetto, che offrono un suono' price=NONE avail=
+  [2] id=1005013582572287 title='Cuffie wireless con archetto, cuscinetti auricolar' price=NONE avail=
+  Stats: {'requests': 9, 'success': 9, 'failed': 0, 'blocked': 0}
+
+── [2/6] ALIEXPRESS_RU ──
+  p1: 12 items 4.5s
+  [0] id=1005012417611123 title='HIFIMAN Ananda Stealth Magnet Cuffie Hi-Fi Open-Ba' price=EUR 1.00 avail=IN_STOCK
+  [1] id=1005012541094028 title='Cuffie Hi-Fi HIFIMAN Edition XS Full-Size Over-Ear' price=EUR 1.00 avail=IN_STOCK
+  [2] id=1005013565057281 title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Ful' price=EUR 1.00 avail=IN_STOCK
+  Stats: {'requests': 1, 'success': 1, 'failed': 0, 'blocked': 0}
+
+── [3/6] WB ──
+  p1: ERR SearchError: SEARCH_HTTP_403 (23.5s)
+
+── [4/6] OZON ──
+  p1: 0 items 45.8s
+  Stats: {'requests': 4, 'success': 1, 'failed': 0, 'blocked': 0}
+
+── [5/6] AVITO ──
+  p1: ERR SearchError: SEARCH_ACCESS_CHALLENGE (15.8s)
+
+── [6/6] FARPOST ──
+  p1: ERR SearchError: SEARCH_ACCESS_CHALLENGE (4.0s)
+
+=== SUMMARY ===
+  ALIEXPRESS      → OK 8 items 109.8s
+  ALIEXPRESS_RU   → OK 12 items 4.5s
+  WB              → ERR SearchError: SEARCH_HTTP_403
+  OZON            → OK 0 items 45.8s
+  AVITO           → ERR SearchError: SEARCH_ACCESS_CHALLENGE
+  FARPOST         → ERR SearchError: SEARCH_ACCESS_CHALLENGE
+
+=== DONE ===

@@ -1,0 +1,139 @@
+DIAG WB + AVITO via curl_cffi
+Time: 2026-11-11 07:21:53
+curl_cffi: ok
+
+============================================================
+WB: https://www.wildberries.ru/catalog/110835207/detail.aspx
+============================================================
+  HTTP: 498, len: 1136
+  <title>: ...
+  <h1>: 
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_wb_110835207.html (1136 B)
+  wbbasket imgs: 0
+  WARNING: very short HTML — possible SPA shell or redirect
+
+============================================================
+WB: https://www.wildberries.ru/catalog/128686583/detail.aspx
+============================================================
+  HTTP: 498, len: 1136
+  <title>: ...
+  <h1>: 
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_wb_128686583.html (1136 B)
+  wbbasket imgs: 0
+  WARNING: very short HTML — possible SPA shell or redirect
+
+============================================================
+WB: https://www.wildberries.ru/catalog/145321987/detail.aspx
+============================================================
+  HTTP: 498, len: 1136
+  <title>: ...
+  <h1>: 
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_wb_145321987.html (1136 B)
+  wbbasket imgs: 0
+  WARNING: very short HTML — possible SPA shell or redirect
+
+============================================================
+WB: https://www.wildberries.ru/catalog/160000001/detail.aspx
+============================================================
+  HTTP: 498, len: 1136
+  <title>: ...
+  <h1>: 
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_wb_160000001.html (1136 B)
+  wbbasket imgs: 0
+  WARNING: very short HTML — possible SPA shell or redirect
+
+============================================================
+WB: https://www.wildberries.ru/catalog/175000002/detail.aspx
+============================================================
+  HTTP: 498, len: 1136
+  <title>: ...
+  <h1>: 
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_wb_175000002.html (1136 B)
+  wbbasket imgs: 0
+  WARNING: very short HTML — possible SPA shell or redirect
+
+============================================================
+AVITO: https://www.avito.ru/ad/1154321987
+============================================================
+  HTTP: 404, len: 29440
+  <title>: Ошибка 404. Страница не найдена
+  <h1>: Такой страницы нe существует
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_avito_1154321987_404.html (30316 B)
+  avito.st imgs: 0
+  CAPTCHA: False
+
+============================================================
+AVITO: https://m.avito.ru/ad/1154321987
+============================================================
+  HTTP: 404, len: 18752
+  <title>: Авито — Объявления на сайте Авито
+  <h1>: Такой страницы не существует
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_avito_1154321987_404.html (19028 B)
+  avito.st imgs: 0
+  CAPTCHA: False
+
+============================================================
+AVITO: https://www.avito.ru/ad/1204567890
+============================================================
+  HTTP: 404, len: 29440
+  <title>: Ошибка 404. Страница не найдена
+  <h1>: Такой страницы нe существует
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_avito_1204567890_404.html (30316 B)
+  avito.st imgs: 0
+  CAPTCHA: False
+
+============================================================
+AVITO: https://m.avito.ru/ad/1204567890
+============================================================
+  HTTP: 404, len: 18752
+  <title>: Авито — Объявления на сайте Авито
+  <h1>: Такой страницы не существует
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_avito_1204567890_404.html (19028 B)
+  avito.st imgs: 0
+  CAPTCHA: False
+
+============================================================
+AVITO: https://www.avito.ru/ad/1187654321
+============================================================
+  HTTP: 404, len: 29440
+  <title>: Ошибка 404. Страница не найдена
+  <h1>: Такой страницы нe существует
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_avito_1187654321_404.html (30316 B)
+  avito.st imgs: 0
+  CAPTCHA: False
+
+============================================================
+AVITO: https://m.avito.ru/ad/1187654321
+============================================================
+  HTTP: 404, len: 18752
+  <title>: Авито — Объявления на сайте Авито
+  <h1>: Такой страницы не существует
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  Saved: diag_avito_1187654321_404.html (19028 B)
+  avito.st imgs: 0
+  CAPTCHA: False
+
+============================================================
+RESULT: WB=FAIL, AVITO=FAIL
+DONE

@@ -1,0 +1,81 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Болгарка на аккумуляторе бесщеточная 125 мм",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "HORDER",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 490900,
+        "amount": "4909.00",
+        "currency": "RUB",
+        "visible_label": "4909.00 руб.",
+        "variant_id": "",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 490900,
+          "listing_id": "1537082855",
+          "variant_id": ""
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 1543900,
+        "amount": "15439.00",
+        "currency": "RUB",
+        "visible_label": "15439.00 руб.",
+        "variant_id": "",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 1543900,
+          "listing_id": "1537082855",
+          "variant_id": ""
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "1537082855",
+    "listing_id": "1537082855",
+    "title": "Болгарка на аккумуляторе бесщеточная 125 мм",
+    "url": "https://www.wildberries.ru/catalog/1537082855/detail.aspx",
+    "observed_at": "2026-11-15T21:59:47.925899+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

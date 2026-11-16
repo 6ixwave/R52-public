@@ -1,0 +1,615 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:11:50,222 r52.autocollect.worker INFO phase=worker_start pid=14068
+2026-11-16 04:11:50,244 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-16 04:11:50,245 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 04:11:50,246 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-16 04:11:50,246 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 04:11:50,250 r52.autocollect.worker INFO source=WB listing=207509051 phase=collect_product_start
+2026-11-16 04:11:51,181 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-16 04:11:53,760 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-16 04:11:55,910 r52.collectors.wb INFO WB 207509051: basket=14 (vol=2075) ms=2149
+2026-11-16 04:11:56,947 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=7566 ms=1036 url=https://basket-14.wbbasket.ru/vol2075/part207509/207509051/info/ru/card.json
+2026-11-16 04:11:56,947 r52.collectors.wb INFO WB 207509051: card.json OK (30 keys, 7566B)
+2026-11-16 04:12:00,602 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=986 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=207509051
+2026-11-16 04:12:00,602 r52.collectors.wb INFO WB 207509051: price card_v4 -> 403
+2026-11-16 04:12:02,807 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=122 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=207509051
+2026-11-16 04:12:02,807 r52.collectors.wb INFO WB 207509051: price catalog_v4 -> 403
+2026-11-16 04:12:06,491 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=373 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=207509051
+2026-11-16 04:12:06,492 r52.collectors.wb INFO WB 207509051: price web_api -> 498
+2026-11-16 04:12:09,754 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=940 url=https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=207509051
+2026-11-16 04:12:09,754 r52.collectors.wb INFO WB 207509051: price search_wb -> 403
+2026-11-16 04:12:09,754 r52.collectors.wb INFO WB 207509051: price — все эндпоинты не дали данных
+2026-11-16 04:12:15,874 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=118 url=https://www.wildberries.ru/catalog/207509051/detail.aspx
+2026-11-16 04:12:15,874 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-16 04:12:15,874 r52.collectors.wb INFO WB 207509051: photo_count=22, found=1
+2026-11-16 04:12:15,875 r52.collectors.wb INFO WB 207509051: has_video=true, видео не найдено
+2026-11-16 04:12:15,875 r52.autocollect.worker INFO source=WB listing=207509051 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:12:15,875 r52.autocollect.worker INFO source=WB listing=120477816 phase=collect_product_start
+2026-11-16 04:12:16,800 r52.collectors.wb INFO WB 120477816: basket=9 (vol=1204) ms=925
+2026-11-16 04:12:19,139 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=7047 ms=918 url=https://basket-09.wbbasket.ru/vol1204/part120477/120477816/info/ru/card.json
+2026-11-16 04:12:19,140 r52.collectors.wb INFO WB 120477816: card.json OK (28 keys, 7047B)
+2026-11-16 04:12:21,099 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=124 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=120477816
+2026-11-16 04:12:21,100 r52.collectors.wb INFO WB 120477816: price card_v4 -> 403
+2026-11-16 04:12:24,886 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=216 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=120477816
+2026-11-16 04:12:24,886 r52.collectors.wb INFO WB 120477816: price catalog_v4 -> 403
+2026-11-16 04:12:28,250 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=121 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=120477816
+2026-11-16 04:12:28,251 r52.collectors.wb INFO WB 120477816: price web_api -> 498
+2026-11-16 04:12:31,090 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=122 url=https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=120477816
+2026-11-16 04:12:31,090 r52.collectors.wb INFO WB 120477816: price search_wb -> 403
+2026-11-16 04:12:31,090 r52.collectors.wb INFO WB 120477816: price — все эндпоинты не дали данных
+2026-11-16 04:12:49,028 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=120 url=https://www.wildberries.ru/catalog/120477816/detail.aspx
+2026-11-16 04:12:49,028 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-16 04:12:49,028 r52.collectors.wb INFO WB 120477816: photo_count=14, found=1
+2026-11-16 04:12:49,028 r52.collectors.wb INFO WB 120477816: has_video=true, видео не найдено
+2026-11-16 04:12:49,029 r52.autocollect.worker INFO source=WB listing=120477816 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:12:49,029 r52.autocollect.worker INFO source=WB listing=584804611 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x000037e4 [ThreadPoolExecutor-2_9] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1165 in read
+  File "C:\Python315\Lib\ssl.py", line 1366 in recv_into
+  File "C:\Python315\Lib\socket.py", line 738 in readinto
+  File "C:\Python315\Lib\http\client.py", line 306 in _read_status
+  File "C:\Python315\Lib\http\client.py", line 350 in begin
+  File "C:\Python315\Lib\http\client.py", line 1490 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 638 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 540 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004a00 [ThreadPoolExecutor-2_8] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1165 in read
+  File "C:\Python315\Lib\ssl.py", line 1366 in recv_into
+  File "C:\Python315\Lib\socket.py", line 738 in readinto
+  File "C:\Python315\Lib\http\client.py", line 306 in _read_status
+  File "C:\Python315\Lib\http\client.py", line 350 in begin
+  File "C:\Python315\Lib\http\client.py", line 1490 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 638 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 540 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00007f7c [ThreadPoolExecutor-2_7] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1165 in read
+  File "C:\Python315\Lib\ssl.py", line 1366 in recv_into
+  File "C:\Python315\Lib\socket.py", line 738 in readinto
+  File "C:\Python315\Lib\http\client.py", line 306 in _read_status
+  File "C:\Python315\Lib\http\client.py", line 350 in begin
+  File "C:\Python315\Lib\http\client.py", line 1490 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 638 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 540 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00000f5c [ThreadPoolExecutor-2_6] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00002320 [ThreadPoolExecutor-2_5] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1165 in read
+  File "C:\Python315\Lib\ssl.py", line 1366 in recv_into
+  File "C:\Python315\Lib\socket.py", line 738 in readinto
+  File "C:\Python315\Lib\http\client.py", line 306 in _read_status
+  File "C:\Python315\Lib\http\client.py", line 350 in begin
+  File "C:\Python315\Lib\http\client.py", line 1490 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 638 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 540 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000076f8 [ThreadPoolExecutor-2_4] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1165 in read
+  File "C:\Python315\Lib\ssl.py", line 1366 in recv_into
+  File "C:\Python315\Lib\socket.py", line 738 in readinto
+  File "C:\Python315\Lib\http\client.py", line 306 in _read_status
+  File "C:\Python315\Lib\http\client.py", line 350 in begin
+  File "C:\Python315\Lib\http\client.py", line 1490 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 638 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 540 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000057bc [ThreadPoolExecutor-2_3] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000037d4 [ThreadPoolExecutor-2_2] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1165 in read
+  File "C:\Python315\Lib\ssl.py", line 1366 in recv_into
+  File "C:\Python315\Lib\socket.py", line 738 in readinto
+  File "C:\Python315\Lib\http\client.py", line 306 in _read_status
+  File "C:\Python315\Lib\http\client.py", line 350 in begin
+  File "C:\Python315\Lib\http\client.py", line 1490 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 638 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 540 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000015f8 [ThreadPoolExecutor-2_1] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1165 in read
+  File "C:\Python315\Lib\ssl.py", line 1366 in recv_into
+  File "C:\Python315\Lib\socket.py", line 738 in readinto
+  File "C:\Python315\Lib\http\client.py", line 306 in _read_status
+  File "C:\Python315\Lib\http\client.py", line 350 in begin
+  File "C:\Python315\Lib\http\client.py", line 1490 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 638 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 540 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00007e3c [ThreadPoolExecutor-2_0] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1165 in read
+  File "C:\Python315\Lib\ssl.py", line 1366 in recv_into
+  File "C:\Python315\Lib\socket.py", line 738 in readinto
+  File "C:\Python315\Lib\http\client.py", line 306 in _read_status
+  File "C:\Python315\Lib\http\client.py", line 350 in begin
+  File "C:\Python315\Lib\http\client.py", line 1490 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 638 in getresponse
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 540 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00007020 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000001d8 (most recent call first):
+  File "C:\Python315\Lib\threading.py", line 363 in wait
+  File "C:\Python315\Lib\threading.py", line 665 in wait
+  File "C:\Python315\Lib\concurrent\futures\_base.py", line 237 in as_completed
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 372 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 309 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 251 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 04:13:01,957 r52.collectors.wb INFO WB 584804611: basket=30 (vol=5848) ms=12928
+2026-11-16 04:13:03,045 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=5602 ms=1087 url=https://basket-30.wbbasket.ru/vol5848/part584804/584804611/info/ru/card.json
+2026-11-16 04:13:03,047 r52.collectors.wb INFO WB 584804611: card.json OK (30 keys, 5602B)
+2026-11-16 04:13:06,270 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=1064 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=584804611
+2026-11-16 04:13:06,270 r52.collectors.wb INFO WB 584804611: price card_v4 -> 403
+2026-11-16 04:13:08,836 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=981 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=584804611
+2026-11-16 04:13:08,836 r52.collectors.wb INFO WB 584804611: price catalog_v4 -> 403
+2026-11-16 04:13:11,814 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=119 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=584804611
+2026-11-16 04:13:11,814 r52.collectors.wb INFO WB 584804611: price web_api -> 498
+2026-11-16 04:13:14,766 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=1011 url=https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=584804611
+2026-11-16 04:13:14,766 r52.collectors.wb INFO WB 584804611: price search_wb -> 403
+2026-11-16 04:13:14,766 r52.collectors.wb INFO WB 584804611: price — все эндпоинты не дали данных
+2026-11-16 04:13:23,227 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=119 url=https://www.wildberries.ru/catalog/584804611/detail.aspx
+2026-11-16 04:13:23,227 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-16 04:13:23,227 r52.collectors.wb INFO WB 584804611: photo_count=16, found=1
+2026-11-16 04:13:23,227 r52.autocollect.worker INFO source=WB listing=584804611 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:13:23,227 r52.autocollect.worker INFO source=WB listing=278827800 phase=collect_product_start
+2026-11-16 04:13:24,559 r52.collectors.wb INFO WB 278827800: basket=17 (vol=2788) ms=1331
+2026-11-16 04:13:27,815 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=3895 ms=1083 url=https://basket-17.wbbasket.ru/vol2788/part278827/278827800/info/ru/card.json
+2026-11-16 04:13:27,815 r52.collectors.wb INFO WB 278827800: card.json OK (28 keys, 3895B)
+2026-11-16 04:13:28,947 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=117 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=278827800
+2026-11-16 04:13:28,948 r52.collectors.wb INFO WB 278827800: price card_v4 -> 403
+2026-11-16 04:13:31,044 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=125 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=278827800
+2026-11-16 04:13:31,044 r52.collectors.wb INFO WB 278827800: price catalog_v4 -> 403
+2026-11-16 04:13:34,765 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=119 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=278827800
+2026-11-16 04:13:34,765 r52.collectors.wb INFO WB 278827800: price web_api -> 498
+2026-11-16 04:13:38,280 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=122 url=https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=278827800
+2026-11-16 04:13:38,280 r52.collectors.wb INFO WB 278827800: price search_wb -> 403
+2026-11-16 04:13:38,280 r52.collectors.wb INFO WB 278827800: price — все эндпоинты не дали данных
+2026-11-16 04:13:50,163 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=118 url=https://www.wildberries.ru/catalog/278827800/detail.aspx
+2026-11-16 04:13:50,164 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-16 04:13:50,164 r52.collectors.wb INFO WB 278827800: photo_count=17, found=1
+2026-11-16 04:13:50,164 r52.collectors.wb INFO WB 278827800: has_video=true, видео не найдено
+2026-11-16 04:13:50,164 r52.autocollect.worker INFO source=WB listing=278827800 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:13:50,164 r52.autocollect.worker INFO source=WB listing=458256457 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x000073d4 [ThreadPoolExecutor-4_9] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00005628 [ThreadPoolExecutor-4_8] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000045c8 [ThreadPoolExecutor-4_7] (most recent call first):
+  File "C:\Python315\Lib\socket.py", line 998 in getaddrinfo
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\connection.py", line 60 in create_connection
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 239 in _new_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 827 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004404 [ThreadPoolExecutor-4_6] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x0000724c [ThreadPoolExecutor-4_5] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000049f0 [ThreadPoolExecutor-4_4] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00002dc4 [ThreadPoolExecutor-4_3] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00004580 [ThreadPoolExecutor-4_2] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000073d8 [ThreadPoolExecutor-4_1] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00001a20 [ThreadPoolExecutor-4_0] (most recent call first):
+  File "C:\Python315\Lib\ssl.py", line 1434 in do_handshake
+  File "C:\Python315\Lib\ssl.py", line 1103 in _create
+  File "C:\Python315\Lib\ssl.py", line 469 in wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 481 in _ssl_wrap_socket_impl
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\ssl_.py", line 437 in ssl_wrap_socket
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 1080 in _ssl_wrap_socket_and_match_hostname
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 878 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00007020 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000001d8 (most recent call first):
+  File "C:\Python315\Lib\threading.py", line 363 in wait
+  File "C:\Python315\Lib\threading.py", line 665 in wait
+  File "C:\Python315\Lib\concurrent\futures\_base.py", line 237 in as_completed
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 372 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 309 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 251 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 04:14:03,041 r52.collectors.wb INFO WB 458256457: basket=26 (vol=4582) ms=12876
+2026-11-16 04:14:04,270 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=7139 ms=1228 url=https://basket-26.wbbasket.ru/vol4582/part458256/458256457/info/ru/card.json
+2026-11-16 04:14:04,271 r52.collectors.wb INFO WB 458256457: card.json OK (26 keys, 7139B)
+2026-11-16 04:14:06,719 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=955 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=458256457
+2026-11-16 04:14:06,719 r52.collectors.wb INFO WB 458256457: price card_v4 -> 403
+2026-11-16 04:14:08,722 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=821 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=458256457
+2026-11-16 04:14:08,722 r52.collectors.wb INFO WB 458256457: price catalog_v4 -> 403
+2026-11-16 04:14:11,055 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=121 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=458256457
+2026-11-16 04:14:11,055 r52.collectors.wb INFO WB 458256457: price web_api -> 498
+2026-11-16 04:14:14,025 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=868 url=https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=458256457
+2026-11-16 04:14:14,026 r52.collectors.wb INFO WB 458256457: price search_wb -> 403
+2026-11-16 04:14:14,026 r52.collectors.wb INFO WB 458256457: price — все эндпоинты не дали данных
+2026-11-16 04:14:27,218 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=382 url=https://www.wildberries.ru/catalog/458256457/detail.aspx
+2026-11-16 04:14:27,218 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-16 04:14:27,219 r52.collectors.wb INFO WB 458256457: photo_count=14, found=1
+2026-11-16 04:14:27,219 r52.collectors.wb INFO WB 458256457: has_video=true, видео не найдено
+2026-11-16 04:14:27,219 r52.autocollect.worker INFO source=WB listing=458256457 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:14:27,219 r52.autocollect.worker INFO source=WB phase=write_start returned=5 valid=5 stats={'requests': 32, 'success': 5, 'failed': 0, 'blocked': 25}
+2026-11-16 04:14:27,221 r52.collectors INFO WB: записан jarvis-eye-wb-c0adc70d.json
+2026-11-16 04:14:27,226 r52.collectors INFO WB: записан jarvis-eye-wb-6f24740f.json
+2026-11-16 04:14:27,226 r52.collectors INFO WB: записан jarvis-eye-wb-b7b3576f.json
+2026-11-16 04:14:27,227 r52.collectors INFO WB: записан jarvis-eye-wb-c2b18f35.json
+2026-11-16 04:14:27,228 r52.collectors INFO WB: записан jarvis-eye-wb-e4a2eb40.json
+2026-11-16 04:14:27,230 r52.autocollect.worker INFO source=WB phase=write_complete files=5
+2026-11-16 04:14:27,230 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-16 04:14:27,231 r52.autocollect.worker INFO source=WB phase=close_complete

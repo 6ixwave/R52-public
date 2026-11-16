@@ -1,0 +1,269 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Трусы женские набор 7 штук",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "TM LIMITED A",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Трусы женские набор 9 штук Velissima 991056121 купить за 443 ₽ в интернет‑магазине Wildberries. Бесплатная доставка и постоянные скидки!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 219600,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "2196.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 70500,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "705.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/questionsService.b119274672a8e75f.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c246x328/12.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/12.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://content-05.wbbasket.ru/8d87ee5f-d585-41d5-8214-4df715799363/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056126/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056122/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol10188/part1018875/1018875788/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056166/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056125/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol10188/part1018876/1018876711/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol10243/part1024378/1024378754/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10607/part1060762/1060762912/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol11106/part1110674/1110674047/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/app-store.webp",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "991056121",
+    "url": "https://www.wildberries.ru/catalog/991056121/detail.aspx",
+    "observed_at": "2026-11-16T17:12:14.035335+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

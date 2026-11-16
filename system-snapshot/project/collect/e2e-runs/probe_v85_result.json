@@ -1,0 +1,45 @@
+{
+  "WB": {
+    "html": {
+      "status": 498,
+      "body_head": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"25e1bf06c2a22e1f3722474aeb13a7e0\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Dat"
+    },
+    "api_v1": {
+      "status": 403
+    }
+  },
+  "OZON": {
+    "chrome124": {
+      "status": 403,
+      "markers": [
+        "challenge",
+        "captcha",
+        "waf",
+        "bot"
+      ]
+    },
+    "safari": {
+      "error": "Impersonating safari17_5 is not supported"
+    },
+    "firefox": {
+      "status": 403
+    },
+    "mobile": {
+      "status": 403
+    }
+  },
+  "AVITO": {
+    "m_telefony": {
+      "status": 429
+    },
+    "m_noutbuki": {
+      "status": 439
+    },
+    "m_tv": {
+      "status": 439
+    }
+  },
+  "FARPOST": {
+    "error": "unsupported operand type(s) for /: 'str' and 'str'"
+  }
+}

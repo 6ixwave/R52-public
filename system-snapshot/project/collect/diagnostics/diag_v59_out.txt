@@ -1,0 +1,102 @@
+============================================================
+PART 1: WB BASKET CDN — FULL JSON DUMP
+============================================================
+
+--- BASKET nm=199298871 ---
+  host=basket-13.wbbasket.ru, HTTP 200, 6356 bytes
+  saved: diag_v59_wb_199298871.json
+  KEYS (24): ['certificate', 'colors', 'compositions', 'contents', 'create_date', 'data', 'description', 'full_colors', 'grouped_options', 'has_tnvd_okpd', 'imt_id', 'imt_name', 'media', 'need_kiz', 'nm_id', 'options', 'properties', 'selling', 'slug', 'subj_name', 'subj_root_name', 'update_date', 'user_flags', 'vendor_code']
+  imt_id = 158033827
+  nm_id = 199298871
+  imt_name = 'Овсяный смарт коктейль для похудения без сахара'
+  slug = 'ovsyanyj-smart-koktejl-dlya-pokhudeniya-bez-sakhara'
+  vendor_code = 'овсяный2'
+  subj_name = 'Коктейли злаковые'
+  subj_root_name = 'Продукты'
+  certificate = {'verified': True}
+  colors = [173121919, 173036660, 199298871, 199298870, 308060721, 308060716, 201304460]
+  description: 2245 chars
+  options: 18 items
+    option[0] keys: ['name', 'value', 'charc_type']
+    ?: Вес с упаковкой (кг) = 0.8 кг
+    ?: Ширина упаковки = 16 см
+    ?: Высота упаковки = 5 см
+    ?: Длина упаковки = 22 см
+    ?: Состав = дигидрокверцетин, стевия, пшеничные отруби, арабиногалактан,
+  media: 2 items
+  PARSE ERROR: 0
+  first 300: {"imt_id":158033827,"nm_id":199298871,"imt_name":"Овсяный смарт коктейль для похудения без сахара","slug":"ovsyanyj-smart-koktejl-dlya-pokhudeniya-bez-sakhara","subj_name":"Коктейли злаковые","subj_root_name":"Продукты","vendor_code":"овсяный2","description":"ОВСЯНЫЙ СМАРТ-КОКТЕЙЛЬ\nкоторый придется
+
+--- BASKET nm=1097975275 ---
+  host=basket-42.wbbasket.ru, HTTP 200, 7989 bytes
+  saved: diag_v59_wb_1097975275.json
+  KEYS (21): ['certificate', 'colors', 'create_date', 'data', 'description', 'full_colors', 'grouped_options', 'imt_id', 'imt_name', 'media', 'need_kiz', 'nm_colors_names', 'nm_id', 'options', 'selling', 'slug', 'subj_name', 'subj_root_name', 'update_date', 'user_flags', 'vendor_code']
+  imt_id = 2227481309
+  nm_id = 1097975275
+  imt_name = 'Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)'
+  slug = 'smartfon-iphone-17-pro-max-256-serebryanyj-esim'
+  vendor_code = 'Смартфон iPhone 17 Pro Max 256 Серебряный'
+  subj_name = 'Смартфоны'
+  subj_root_name = 'Смартфоны и гаджеты'
+  certificate = {}
+  colors = [1097975273, 1097975275, 1097975274]
+  description: 1545 chars
+  options: 36 items
+    option[0] keys: ['name', 'value']
+    ?: Длина упаковки = 25 см
+    ?: Ширина упаковки = 13 см
+    ?: Высота упаковки = 6 см
+    ?: Вес с упаковкой (кг) = 0.4 кг
+    ?: Цвет = серебро; серебристый
+  media: 1 items
+  PARSE ERROR: 0
+  first 300: {"imt_id":2227481309,"nm_id":1097975275,"imt_name":"Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)","slug":"smartfon-iphone-17-pro-max-256-serebryanyj-esim","subj_name":"Смартфоны","subj_root_name":"Смартфоны и гаджеты","vendor_code":"Смартфон iPhone 17 Pro Max 256 Серебряный","description":"Товар
+
+============================================================
+PART 2: WB PRICE SOURCES
+============================================================
+
+--- Card API v4 ---
+  URL: https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871
+  HTTP 403, len=0
+
+--- Card API v2 ---
+  URL: https://card.wb.ru/cards/v2/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871
+  HTTP 403, len=0
+
+--- Search API ---
+  HTTP 403, len=0
+
+============================================================
+PART 3: AVITO DESKTOP (Playwright)
+============================================================
+
+--- CATEGORY: https://www.avito.ru/moskva/telefony ---
+  HTTP 429, len=36447, title=Доступ ограничен: проблема с IP
+  VERDICT: CAPTCHA/BLOCK
+
+--- CATEGORY: https://www.avito.ru/moskva/kvartiry/prodam ---
+  HTTP 302, len=36451, title=Доступ ограничен: проблема с IP
+  VERDICT: CAPTCHA/BLOCK
+
+--- DIRECT AVITO URLS (desktop) ---
+
+  URL: https://www.avito.ru/moskva/telefony/iphone_14_128_gb_8341658309
+  HTTP 439, len=36451, title=Доступ ограничен: проблема с IP
+  VERDICT: PAGE (check content)
+  JSON-LD: 0
+  prices: []
+
+  URL: https://www.avito.ru/novosemeykino/zemelnye_uchastki/uchastok_494_ga_promnaznacheniya_7764972140
+  HTTP 429, len=36451, title=Доступ ограничен: проблема с IP
+  VERDICT: PAGE (check content)
+  JSON-LD: 0
+  prices: []
+  Playwright done
+
+============================================================
+SUMMARY v59
+============================================================
+  curl_cffi: YES
+  WB basket hosts: {1992: 13, 10979: 42}
+DONE

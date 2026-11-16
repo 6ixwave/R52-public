@@ -1,0 +1,54 @@
+2026-11-11 13:51:40,975 v92 INFO probe_v92 starting — 2026-11-11T13:51:40.975326+10:00
+2026-11-11 13:51:40,995 v92 INFO SQLite BEFORE: {'product': 7, 'observation': 23, 'price_point': 12, 'source': 6, 'inbox_item': 5, 'intake_file': 0}
+2026-11-11 13:51:41,379 r52.sources INFO Sources: зарегистрировано 4 сборщиков
+2026-11-11 13:51:41,393 v92 INFO === FARPOST ===
+2026-11-11 13:51:41,394 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\collectors\proxies.json не найден, режим direct
+2026-11-11 13:51:41,394 v92 INFO FP 138080119: https://www.farpost.ru/vladivostok/tech/communication/cellphones/iphone-18-pro-max-512gb-t
+2026-11-11 13:51:42,679 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-11 13:51:43,905 v92 INFO FP 138080119: collector OK, title='IPhone 18 Pro Max 512Gb. Trade-IN. Кредит. Гарантия 1 год'
+2026-11-11 13:51:43,907 v92 WARNING stage_bytes error: '_App' object has no attribute 'clock'
+2026-11-11 13:51:45,908 v92 INFO FP 138078491: https://www.farpost.ru/vladivostok/tech/communication/cellphones/iphone-18-pro-1tb-trade-i
+2026-11-11 13:51:59,589 v92 INFO FP 138078491: collector OK, title='IPhone 18 Pro 1Tb. Trade-IN. Кредит. Гарантия 1 год'
+2026-11-11 13:51:59,589 v92 WARNING stage_bytes error: '_App' object has no attribute 'clock'
+2026-11-11 13:52:01,590 v92 INFO FP 125270259: https://www.farpost.ru/vladivostok/tech/communication/cellphones/iphone-18-pro-max-256gb-t
+2026-11-11 13:52:18,153 v92 INFO FP 125270259: collector OK, title='IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год'
+2026-11-11 13:52:18,154 v92 WARNING stage_bytes error: '_App' object has no attribute 'clock'
+2026-11-11 13:52:20,155 v92 INFO FARPOST done in 38.8s (accepted=0)
+2026-11-11 13:52:20,158 v92 INFO === WB ===
+2026-11-11 13:52:20,158 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\collectors\proxies.json не найден, режим direct
+2026-11-11 13:52:20,434 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 13:52:20,434 v92 INFO WB 259671175: https://www.wildberries.ru/catalog/259671175/detail.aspx
+2026-11-11 13:55:16,991 r52.collectors.wb WARNING WB 259671175: basket host не найден для vol=2596
+2026-11-11 13:55:16,991 r52.collectors.wb WARNING WB 259671175: basket host не найден
+2026-11-11 13:55:20,244 r52.collectors.wb INFO WB 259671175: price card_v1 -> 403
+2026-11-11 13:55:22,621 r52.collectors.wb INFO WB 259671175: price card_v2 -> 403
+2026-11-11 13:55:25,021 r52.collectors.wb INFO WB 259671175: price card_v4 -> 403
+2026-11-11 13:55:27,066 r52.collectors.wb INFO WB 259671175: price card_v5 -> 403
+2026-11-11 13:55:30,442 r52.collectors.wb INFO WB 259671175: price web_api -> 498
+2026-11-11 13:55:30,442 r52.collectors.wb INFO WB 259671175: price — все эндпоинты не дали данных
+2026-11-11 13:55:40,884 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-11 13:55:40,884 v92 INFO WB 259671175: synthetic title, post-parse 498 body
+2026-11-11 13:55:51,457 v92 INFO WB 259671175: body 1136 bytes (HTTP 498)
+2026-11-11 13:55:51,458 v92 INFO WB 259671175: <title>='...'
+2026-11-11 13:55:51,458 v92 WARNING stage_bytes error: '_App' object has no attribute 'clock'
+2026-11-11 13:55:54,458 v92 INFO WB 387715226: https://www.wildberries.ru/catalog/387715226/detail.aspx
+2026-11-11 13:58:52,677 r52.collectors.wb WARNING WB 387715226: basket host не найден для vol=3877
+2026-11-11 13:58:52,678 r52.collectors.wb WARNING WB 387715226: basket host не найден
+2026-11-11 13:58:55,585 r52.collectors.wb INFO WB 387715226: price card_v1 -> 403
+2026-11-11 13:58:58,524 r52.collectors.wb INFO WB 387715226: price card_v2 -> 403
+2026-11-11 13:59:01,230 r52.collectors.wb INFO WB 387715226: price card_v4 -> 403
+2026-11-11 13:59:04,569 r52.collectors.wb INFO WB 387715226: price card_v5 -> 403
+2026-11-11 13:59:07,417 r52.collectors.wb INFO WB 387715226: price web_api -> 498
+2026-11-11 13:59:07,417 r52.collectors.wb INFO WB 387715226: price — все эндпоинты не дали данных
+2026-11-11 13:59:25,665 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-11 13:59:25,665 v92 INFO WB 387715226: synthetic title, post-parse 498 body
+2026-11-11 13:59:39,431 v92 INFO WB 387715226: body 1136 bytes (HTTP 498)
+2026-11-11 13:59:39,431 v92 INFO WB 387715226: <title>='...'
+2026-11-11 13:59:39,431 v92 WARNING stage_bytes error: '_App' object has no attribute 'clock'
+2026-11-11 13:59:42,432 v92 INFO WB done in 442.0s (accepted=0)
+2026-11-11 13:59:42,432 v92 INFO === OZON ===
+2026-11-11 13:59:42,433 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\collectors\proxies.json не найден, режим direct
+2026-11-11 13:59:42,433 v92 INFO OZON 479010389: 4 strategies
+2026-11-11 13:59:43,982 r52.collectors INFO OZON: HTTP 403, retry 1/3 через 14с
+2026-11-11 13:59:58,605 r52.collectors INFO OZON: HTTP 403, retry 2/3 через 21с
+2026-11-11 14:00:19,971 r52.collectors INFO OZON: HTTP 403, retry 3/3 через 44с

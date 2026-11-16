@@ -1,0 +1,72 @@
+[
+  {
+    "id": "199298871",
+    "method": "card_v2_session",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "card_v2_session",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "mobile",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "mobile",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "wbx_content",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "wbx_content",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "card_safari",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "card_edge",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "card_firefox",
+    "status": "FAIL"
+  },
+  {
+    "id": "catalog",
+    "method": "catalog_v1",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "wb_api_detail",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "wb_api_detail",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "card_json_accept",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "card_json_accept",
+    "status": "FAIL"
+  }
+]

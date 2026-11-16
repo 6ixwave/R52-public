@@ -1,0 +1,92 @@
+2026-11-11 13:25:08,643 v91 INFO probe_v91 starting — 2026-11-11T13:25:08.643734
+2026-11-11 13:25:08,649 v91 INFO SQLite BEFORE: {'product': 6, 'observation': 21, 'price_point': 12, 'source': 6, 'inbox_item': 3}
+2026-11-11 13:25:08,659 v91 INFO ================================================== WB
+2026-11-11 13:25:09,061 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 13:25:09,461 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 13:25:09,462 v91 INFO WB 199298871: https://www.wildberries.ru/catalog/199298871/detail.aspx
+2026-11-11 13:28:11,640 r52.collectors.wb WARNING WB cffi error https://basket-58.wbbasket.ru/vol1992/part298/199298871/info/ru/card.json: Failed to perform, curl: (28) Resolving timed out after 8012 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 13:28:15,885 r52.collectors.wb WARNING WB 199298871: basket host не найден для vol=1992
+2026-11-11 13:28:15,886 r52.collectors.wb WARNING WB 199298871: basket host не найден
+2026-11-11 13:28:19,489 r52.collectors.wb INFO WB 199298871: price card_v1 -> 403
+2026-11-11 13:28:22,029 r52.collectors.wb INFO WB 199298871: price card_v2 -> 403
+2026-11-11 13:28:24,173 r52.collectors.wb INFO WB 199298871: price card_v4 -> 403
+2026-11-11 13:28:26,247 r52.collectors.wb INFO WB 199298871: price card_v5 -> 403
+2026-11-11 13:28:29,104 r52.collectors.wb INFO WB 199298871: price web_api -> 498
+2026-11-11 13:28:29,104 r52.collectors.wb INFO WB 199298871: price — все эндпоинты не дали данных
+2026-11-11 13:28:45,541 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-11 13:28:45,568 r52.intake INFO Во входящие добавлен файл jarvis-eye-wb-199298871-fc9444.json: PENDING 
+2026-11-11 13:28:45,569 v91 INFO WB 199298871: inbox → PENDING
+2026-11-11 13:28:45,582 v91 INFO WB 199298871: ACCEPTED product_id=3 obs_created=True
+2026-11-11 13:28:45,582 v91 INFO WB 199298871: done in 216.1s
+2026-11-11 13:28:45,583 v91 INFO WB 314337853: https://www.wildberries.ru/catalog/314337853/detail.aspx
+2026-11-11 13:31:44,537 r52.collectors.wb WARNING WB 314337853: basket host не найден для vol=3143
+2026-11-11 13:31:44,537 r52.collectors.wb WARNING WB 314337853: basket host не найден
+2026-11-11 13:31:46,877 r52.collectors.wb INFO WB 314337853: price card_v1 -> 403
+2026-11-11 13:31:49,713 r52.collectors.wb INFO WB 314337853: price card_v2 -> 403
+2026-11-11 13:31:51,896 r52.collectors.wb INFO WB 314337853: price card_v4 -> 403
+2026-11-11 13:31:54,088 r52.collectors.wb INFO WB 314337853: price card_v5 -> 403
+2026-11-11 13:31:57,669 r52.collectors.wb INFO WB 314337853: price web_api -> 498
+2026-11-11 13:31:57,669 r52.collectors.wb INFO WB 314337853: price — все эндпоинты не дали данных
+2026-11-11 13:32:12,532 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-11 13:32:12,538 r52.intake INFO Во входящие добавлен файл jarvis-eye-wb-314337853-053a89.json: PENDING 
+2026-11-11 13:32:12,538 v91 INFO WB 314337853: inbox → PENDING
+2026-11-11 13:32:12,544 v91 INFO WB 314337853: ACCEPTED product_id=7 obs_created=True
+2026-11-11 13:32:12,545 v91 INFO WB 314337853: done in 206.9s
+2026-11-11 13:32:12,545 v91 INFO WB done in 423.9s (accepted=2)
+2026-11-11 13:32:13,545 v91 INFO ================================================== OZON
+2026-11-11 13:32:22,149 v91 INFO OZON 479010389: desktop chrome124 → HTTP 403 (10492 bytes)
+2026-11-11 13:32:23,082 v91 INFO OZON 479010389: desktop chrome131 → HTTP 403 (10460 bytes)
+2026-11-11 13:32:24,025 v91 INFO OZON 479010389: desktop safari17_0 → HTTP 403 (9892 bytes)
+2026-11-11 13:32:24,934 v91 INFO OZON 479010389: desktop chrome120 → HTTP 403 (10548 bytes)
+2026-11-11 13:32:32,022 v91 INFO OZON 1600562267: desktop chrome124 → HTTP 403 (10468 bytes)
+2026-11-11 13:32:32,940 v91 INFO OZON 1600562267: desktop chrome131 → HTTP 403 (10432 bytes)
+2026-11-11 13:32:33,873 v91 INFO OZON 1600562267: desktop safari17_0 → HTTP 403 (9808 bytes)
+2026-11-11 13:32:34,797 v91 INFO OZON 1600562267: desktop chrome120 → HTTP 403 (10492 bytes)
+2026-11-11 13:32:34,798 v91 INFO OZON done in 21.3s (accepted=0)
+2026-11-11 13:32:35,798 v91 INFO ================================================== AVITO
+2026-11-11 13:32:36,636 v91 INFO AVITO 1154321987: https://www.avito.ru/ad/1154321987 → 404
+2026-11-11 13:32:37,462 v91 INFO AVITO 1154321987: https://www.avito.ru/ad/1154321987 → 404
+2026-11-11 13:32:38,312 v91 INFO AVITO 1154321987: https://www.avito.ru/ad/1154321987 → 404
+2026-11-11 13:32:39,158 v91 INFO AVITO 1154321987: https://m.avito.ru/ad/1154321987 → 404
+2026-11-11 13:32:39,966 v91 INFO AVITO 1154321987: https://m.avito.ru/ad/1154321987 → 404
+2026-11-11 13:32:40,805 v91 INFO AVITO 1154321987: https://m.avito.ru/ad/1154321987 → 404
+2026-11-11 13:32:42,424 v91 INFO AVITO 1154321987: https://avito.ru/ad/1154321987 → 404
+2026-11-11 13:32:44,137 v91 INFO AVITO 1154321987: https://avito.ru/ad/1154321987 → 404
+2026-11-11 13:32:45,763 v91 INFO AVITO 1154321987: https://avito.ru/ad/1154321987 → 404
+2026-11-11 13:32:46,584 v91 INFO AVITO 8341658309: https://www.avito.ru/ad/8341658309 → 404
+2026-11-11 13:32:47,440 v91 INFO AVITO 8341658309: https://www.avito.ru/ad/8341658309 → 404
+2026-11-11 13:32:48,260 v91 INFO AVITO 8341658309: https://www.avito.ru/ad/8341658309 → 404
+2026-11-11 13:32:49,082 v91 INFO AVITO 8341658309: https://m.avito.ru/ad/8341658309 → 404
+2026-11-11 13:32:49,886 v91 INFO AVITO 8341658309: https://m.avito.ru/ad/8341658309 → 404
+2026-11-11 13:32:50,729 v91 INFO AVITO 8341658309: https://m.avito.ru/ad/8341658309 → 404
+2026-11-11 13:32:52,386 v91 INFO AVITO 8341658309: https://avito.ru/ad/8341658309 → 404
+2026-11-11 13:32:54,009 v91 INFO AVITO 8341658309: https://avito.ru/ad/8341658309 → 404
+2026-11-11 13:32:55,645 v91 INFO AVITO 8341658309: https://avito.ru/ad/8341658309 → 404
+2026-11-11 13:32:55,645 v91 INFO AVITO done in 19.8s (accepted=0)
+2026-11-11 13:32:56,646 v91 INFO ================================================== FARPOST
+2026-11-11 13:32:56,647 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 13:32:56,647 v91 INFO FP 127622540: https://www.farpost.ru/bulletin/127622540
+2026-11-11 13:32:57,749 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-11 13:32:59,820 v91 INFO FP 127622540: direct chrome124 → 404
+2026-11-11 13:33:00,652 v91 INFO FP 127622540: direct chrome131 → 404
+2026-11-11 13:33:00,652 v91 INFO FP 130693618: https://www.farpost.ru/bulletin/130693618
+2026-11-11 13:33:16,737 v91 INFO FP 130693618: direct chrome124 → 404
+2026-11-11 13:33:17,902 v91 INFO FP 130693618: direct chrome131 → 404
+2026-11-11 13:33:17,909 v91 INFO FARPOST done in 21.3s (accepted=0)
+2026-11-11 13:33:18,913 v91 INFO Results → C:\Users\aleks\Downloads\R52-2.12\R52-2.12\probe_v91_result.json
+2026-11-11 13:33:18,913 v91 INFO ==================================================
+2026-11-11 13:33:18,913 v91 INFO SUMMARY v91:
+2026-11-11 13:33:18,913 v91 INFO   WB      : 2 accepted, 2 items
+2026-11-11 13:33:18,913 v91 INFO     {"nm_id": 199298871, "product_id": 3, "title": "WB-199298871"}
+2026-11-11 13:33:18,913 v91 INFO     {"nm_id": 314337853, "product_id": 7, "title": "WB-314337853"}
+2026-11-11 13:33:18,913 v91 INFO   OZON    : 0 accepted, 2 items
+2026-11-11 13:33:18,913 v91 INFO     {"lid": "479010389", "status": "NO_DATA"}
+2026-11-11 13:33:18,913 v91 INFO     {"lid": "1600562267", "status": "NO_DATA"}
+2026-11-11 13:33:18,913 v91 INFO   AVITO   : 0 accepted, 2 items
+2026-11-11 13:33:18,913 v91 INFO     {"lid": "1154321987", "status": "NO_DATA"}
+2026-11-11 13:33:18,913 v91 INFO     {"lid": "8341658309", "status": "NO_DATA"}
+2026-11-11 13:33:18,913 v91 INFO   FARPOST : 0 accepted, 2 items
+2026-11-11 13:33:18,913 v91 INFO     {"lid": "127622540", "status": "NO_DATA"}
+2026-11-11 13:33:18,913 v91 INFO     {"lid": "130693618", "status": "NO_DATA"}
+2026-11-11 13:33:18,913 v91 INFO   Delta: {'product': 1, 'observation': 2, 'price_point': 0, 'source': 0, 'inbox_item': 2}
+2026-11-11 13:33:18,913 v91 INFO   Total: 490.3s

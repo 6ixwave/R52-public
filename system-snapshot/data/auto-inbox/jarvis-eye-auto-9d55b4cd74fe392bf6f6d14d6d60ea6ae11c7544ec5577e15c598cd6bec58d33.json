@@ -1,0 +1,62 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Снуд флисовый зимний",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "KIVVI WEAR",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 43800,
+        "amount": "438.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 100000,
+        "amount": "1000.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "source": "WB",
+    "id": "551495804",
+    "listing_id": "551495804",
+    "title": "Снуд флисовый зимний",
+    "url": "https://www.wildberries.ru/catalog/551495804/detail.aspx",
+    "observed_at": "2026-11-17T02:17:29.374920+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "OZ:full": {
+    "ok": true,
+    "detail": "len=1082672 jld=1 jld_types=['Product'] jld_price=284 html_price=284 name='Маленький Принц и лис: набор добрых летних открыток для пос brand=Станислав Миков rating=5.0 reviews=352 all_prices=['284']",
+    "s": 13.6,
+    "data": {
+      "html_len": 1082672,
+      "jsonld_full": [
+        {
+          "@context": "http://schema.org",
+          "@type": "Product",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "352"
+          },
+          "brand": "Станислав Миков",
+          "description": "Набор открыток Маленький принц с лисом — комплект из 5 авторских открыток формата 10×15 см с тёплыми вдохновляющими иллюстрациями и философскими фразами. Открытки посвящены дружбе, поддержке, пути и внутреннему свету, подойдут для подарка, посткроссинга и душевных поздравлений близким людям.Открытки Маленький принц для посткроссинга напечатаны на плотном картоне 300 г/м² с яркой и чистой печатью. Изображения хорошо читаются, цвета мягкие и гармоничные, открытки не мнутся при пересылке и долго сохраняют аккуратный вид.Набор открыток с цитатами и сказочными иллюстрациями подходит для поддержки в трудный момент, тёплых слов без повода, писем друзьям, оформления альбомов и хранения на память. Универсальный размер 10×15 см подходит для рамок, конвертов и почтовых отправлений.Подарочные открытки с Маленьким принцем и лисом станут символичным знаком внимания для тех, кто ценит смысл, доброту и атмосферу спокойствия. Такой набор легко дарить детям и взрослым, он подходит для дней рождения, личных посланий и просто тёплых жестов без повода.",
+          "image": "https://ir.ozone.ru/s3/multimedia-1-t/15375452357.jpg",
+          "name": "Маленький Принц и лис: набор добрых летних открыток для посткроссинга, поздравлений и мотивации (5 шт.)",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.ozon.ru/product/malenkiy-prints-i-lis-nabor-dobryh-letnih-otkrytok-dlya-postkrossinga-pozdravleniy-i-motivatsii-3481320800/",
+            "availability": "http://schema.org/InStock",
+            "price": "284",
+            "priceCurrency": "RUB"
+          },
+          "sku": "3481320800"
+        }
+      ],
+      "product_price_jld": "284",
+      "product_price_html": "284",
+      "all_prices_first10": [
+        "284"
+      ],
+      "name_jld": "Маленький Принц и лис: набор добрых летних открыток для посткроссинга, поздравлений и мотивации (5 шт.)",
+      "name_h1": "Маленький Принц и лис: набор добрых летних открыток для посткроссинга, поздравлений и мотивации (5 шт.)",
+      "brand": "Станислав Миков",
+      "rating": "5.0",
+      "reviews": "352",
+      "sku": "3481320800"
+    }
+  },
+  "FP:mobile_fix": {
+    "ok": true,
+    "detail": "cards=2 bulls=0 cat_prices=0",
+    "s": 21.8,
+    "data": {
+      "cards": [
+        {
+          "id": "134693091",
+          "encoding": "windows-1251",
+          "charset_decl": "windows-1251",
+          "len": 50506,
+          "jsonld": [
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Фарпост Владивосток",
+                  "item": "https://www.farpost.ru/vladivostok/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Авто и мото",
+                  "item": "https://www.farpost.ru/vladivostok/auto/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Другие авто-мото предложения",
+                  "item": "https://www.farpost.ru/vladivostok/auto/misc/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "134693091"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org/",
+              "@type": "WebSite",
+              "name": "FarPost.ru",
+              "url": "https://www.farpost.ru"
+            }
+          ],
+          "prices": [],
+          "prices_json": [
+            "1",
+            "1"
+          ],
+          "meta_price": [],
+          "title": "134693091 другие авто-мото предложения во Владивостоке",
+          "h1": "<span class=\"geo-title__text\">134693091</span>\n\t\n<noscript>\n\t<a href=\"/geo/nav/city?return=%2Fauto%2",
+          "metas": [
+            [
+              "SKYPE_TOOLBAR",
+              "SKYPE_TOOLBAR_PARSER_COMPATIBLE"
+            ],
+            [
+              "description",
+              "134693091. Другое. Владивосток"
+            ],
+            [
+              "keywords",
+              "134693091"
+            ],
+            [
+              "candy.config",
+              "{&quot;geoc&quot;:1,&quot;geor&quot;:1115}"
+            ],
+            [
+              "format-detection",
+              "telephone=no"
+            ],
+            [
+              "viewport",
+              "width=device-width, initial-scale=1, viewport-fit=cover"
+            ],
+            [
+              "robots",
+              "noindex, nofollow"
+            ],
+            [
+              "og:title",
+              "134693091 другие авто-мото предложения во Владивостоке"
+            ],
+            [
+              "og:description",
+              "134693091. Другое. Владивосток"
+            ],
+            [
+              "og:url",
+              "https://www.farpost.ru/vladivostok/auto/misc/?query=134693091"
+            ],
+            [
+              "og:site_name",
+              "FarPost.ru"
+            ],
+            [
+              "og:image",
+              "https://www.farpost.ru/resources/img/apple-touch-icon/apple-touch-icon.png"
+            ],
+            [
+              "og:image:secure_url",
+              "https://www.farpost.ru/resources/img/apple-touch-icon/apple-touch-icon.png"
+            ],
+            [
+              "twitter:image",
+              "https://www.farpost.ru/resources/img/apple-touch-icon/apple-touch-icon.png"
+            ],
+            [
+              "og:type",
+              "website"
+            ],
+            [
+              "apple-itunes-app",
+              "app-id=972532371, app-argument=https://www.farpost.ru/vladivostok/auto/misc/?query=134693091, affiliate-data=ct=site-banner-mb"
+            ]
+          ],
+          "interesting_scripts": [
+            "\n\t\tif (!window.ajae) {\n\t\t\tvar ajae = {};\n\t\t}\n\n\t\tif(function(o){var a=\"ajae\",e=0;window.onerror=function(n,w,r,i,t){window.console&&console.error(n,w,r,i,t),void 0!==o&&(o.setItem(a,++e),o.setItem(a+e,[n,w,r,i,t&&t.stack||\"\"].join(\" #! \"))),window.ajaeData||(window.ajaeData=[]),window.ajaeData[window.ajaeData.length]=[n,w,r,i,t]}}(window.localStorage),window.bazaDomReady||window.baza){if(!window.on",
+            "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n        {\n            \"@type\": \"ListItem\",\n            \"position\": 1,\n            \"name\": \"\\u0424\\u0430\\u0440\\u043f\\u043e\\u0441\\u0442 \\u0412\\u043b\\u0430\\u0434\\u0438\\u0432\\u043e\\u0441\\u0442\\u043e\\u043a\",\n            \"item\": \"https://www.farpost.ru/vladivostok/\"\n        },\n        {\n            \"@type\": \"",
+            "$(function () { try { !function(){try{var e=\"undefined\"!=typeof window?window:\"undefined\"!=typeof global?global:\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]=\"8a893387-fe95-4740-b447-26cdbe70e283\",e._sentryDebugIdIdentifier=\"sentry-dbid-8a893387-fe95-4740-b447-26cdbe70e283\")}catch(e)"
+          ]
+        },
+        {
+          "id": "121063385",
+          "encoding": "windows-1251",
+          "charset_decl": "windows-1251",
+          "len": 48149,
+          "jsonld": [
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Фарпост Владивосток",
+                  "item": "https://www.farpost.ru/vladivostok/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Авто и мото",
+                  "item": "https://www.farpost.ru/vladivostok/auto/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Другие авто-мото предложения",
+                  "item": "https://www.farpost.ru/vladivostok/auto/misc/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "121063385"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org/",
+              "@type": "WebSite",
+              "name": "FarPost.ru",
+              "url": "https://www.farpost.ru"
+            }
+          ],
+          "prices": [],
+          "prices_json": [
+            "1",
+            "1"
+          ],
+          "meta_price": [],
+          "title": "121063385 другие авто-мото предложения во Владивостоке",
+          "h1": "<span class=\"geo-title__text\">121063385</span>\n\t\n<noscript>\n\t<a href=\"/geo/nav/city?return=%2Fauto%2",
+          "metas": [
+            [
+              "SKYPE_TOOLBAR",
+              "SKYPE_TOOLBAR_PARSER_COMPATIBLE"
+            ],
+            [
+              "description",
+              "121063385. Другое. Владивосток"
+            ],
+            [
+              "keywords",
+              "121063385"
+            ],
+            [
+              "candy.config",
+              "{&quot;geoc&quot;:1,&quot;geor&quot;:1115}"
+            ],
+            [
+              "format-detection",
+              "telephone=no"
+            ],
+            [
+              "viewport",
+              "width=device-width, initial-scale=1, viewport-fit=cover"
+            ],
+            [
+              "robots",
+              "noindex, nofollow"
+            ],
+            [
+              "og:title",
+              "121063385 другие авто-мото предложения во Владивостоке"
+            ],
+            [
+              "og:description",
+              "121063385. Другое. Владивосток"
+            ],
+            [
+              "og:url",
+              "https://www.farpost.ru/vladivostok/auto/misc/?query=121063385"
+            ],
+            [
+              "og:site_name",
+              "FarPost.ru"
+            ],
+            [
+              "og:image",
+              "https://www.farpost.ru/resources/img/apple-touch-icon/apple-touch-icon.png"
+            ],
+            [
+              "og:image:secure_url",
+              "https://www.farpost.ru/resources/img/apple-touch-icon/apple-touch-icon.png"
+            ],
+            [
+              "twitter:image",
+              "https://www.farpost.ru/resources/img/apple-touch-icon/apple-touch-icon.png"
+            ],
+            [
+              "og:type",
+              "website"
+            ],
+            [
+              "apple-itunes-app",
+              "app-id=972532371, app-argument=https://www.farpost.ru/vladivostok/auto/misc/?query=121063385, affiliate-data=ct=site-banner-mb"
+            ]
+          ],
+          "interesting_scripts": [
+            "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n        {\n            \"@type\": \"ListItem\",\n            \"position\": 1,\n            \"name\": \"\\u0424\\u0430\\u0440\\u043f\\u043e\\u0441\\u0442 \\u0412\\u043b\\u0430\\u0434\\u0438\\u0432\\u043e\\u0441\\u0442\\u043e\\u043a\",\n            \"item\": \"https://www.farpost.ru/vladivostok/\"\n        },\n        {\n            \"@type\": \"",
+            "$(function () { try { !function(){try{var e=\"undefined\"!=typeof window?window:\"undefined\"!=typeof global?global:\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]=\"8a893387-fe95-4740-b447-26cdbe70e283\",e._sentryDebugIdIdentifier=\"sentry-dbid-8a893387-fe95-4740-b447-26cdbe70e283\")}catch(e)",
+            "{\"chain\":[],\"dirInfo\":{\"filters\":[{\"name\":\"sortBy\",\"title\":\"\\u0421\\u043e\\u0440\\u0442\\u0438\\u0440\\u043e\\u0432\\u043a\\u0430 \\u043f\\u043e \\u0446\\u0435\\u043d\\u0435\",\"type\":\"priceSort\",\"nonTab\":true,\"props\":{\"keyMap\":{\"pricea\":\"sell.priceNum:asc\",\"priced\":\"sell.priceNum:desc\"},\"uniqId\":\"price_sort\",\"effectiveOptionsCount\":1},\"opts\":[{\"name\":\"\\u041f\\u043e \\u0430\\u043a\\u0442\\u0443\\u0430\\u043b\\u044c\\u043d\\"
+          ]
+        }
+      ],
+      "category": {
+        "enc": "windows-1251",
+        "len": 316946,
+        "bull_ids": [],
+        "bull_ids2": [],
+        "prices": [],
+        "jld": [
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Фарпост Владивосток",
+                "item": "https://www.farpost.ru/vladivostok/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Авто и мото",
+                "item": "https://www.farpost.ru/vladivostok/auto/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Другие авто-мото предложения",
+                "item": "https://www.farpost.ru/vladivostok/auto/misc/"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Другие авто-мото предложения",
+            "description": "Прочие предложения автомобильной и мото тематики. Владивосток",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.3,
+              "ratingCount": 153
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "RUB",
+              "lowPrice": 700,
+              "highPrice": 2000000,
+              "offerCount": 7464
+            }
+          },
+          {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "FarPost.ru",
+            "url": "https://www.farpost.ru"
+          }
+        ],
+        "item_blocks": [
+          "class=\"groupItem js-view-dir-filter fi_condition\"",
+          "class=\"items\"",
+          "class=\"itemsTableCol1\"",
+          "class=\"item\"",
+          "class=\"item\"",
+          "class=\"groupItem js-view-dir-filter fi_goodPresentState\"",
+          "class=\"items\"",
+          "class=\"itemsTableCol1\"",
+          "class=\"item\"",
+          "class=\"item\""
+        ]
+      }
+    }
+  },
+  "WB:fast": {
+    "ok": false,
+    "detail": "tried=20+2 hits=0",
+    "s": 93.7
+  },
+  "_meta": {
+    "total_s": 93.7,
+    "time": "2026-11-12T18:01:13+1000"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "CHUWI MiniBook X U300 / N150 Laptop 10,51 Pollici 16GB RAM 512GB SSD 2-in-1 Modalità Yoga Intel Notebook Windows 11 360 °   WiFi 6 ribaltabile - AliExpress 7",
+        "method": "OPEN_GRAPH",
+        "evidence": {
+          "method": "OPEN_GRAPH",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "OUT_OF_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sd1a44c27951b4a4198e09efa6538b560Y.png",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "OUT_OF_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005010604232754",
+    "url": "https://ru.aliexpress.com/item/1005010604232754.html",
+    "observed_at": "2026-11-14T03:07:30.231954+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

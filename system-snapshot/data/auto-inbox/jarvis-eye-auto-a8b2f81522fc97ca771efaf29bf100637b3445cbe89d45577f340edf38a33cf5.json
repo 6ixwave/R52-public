@@ -1,0 +1,81 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Одеяло 1.5 спальное всесезонное",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Guten Morgen",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 113200,
+        "amount": "1132.00",
+        "currency": "RUB",
+        "visible_label": "1132.00 руб.",
+        "variant_id": "",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 113200,
+          "listing_id": "14747538",
+          "variant_id": ""
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 227400,
+        "amount": "2274.00",
+        "currency": "RUB",
+        "visible_label": "2274.00 руб.",
+        "variant_id": "",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 227400,
+          "listing_id": "14747538",
+          "variant_id": ""
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "14747538",
+    "listing_id": "14747538",
+    "title": "Одеяло 1.5 спальное всесезонное",
+    "url": "https://www.wildberries.ru/catalog/14747538/detail.aspx",
+    "observed_at": "2026-11-16T04:20:10.937852+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

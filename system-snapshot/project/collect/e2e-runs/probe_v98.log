@@ -1,0 +1,42 @@
+2026-11-11 16:23:49,956 v98 INFO === probe_v98 START source=WB lid=259671175 ===
+2026-11-11 16:23:49,956 v98 INFO P0: Testing connectivity to card.wb.ru ...
+2026-11-11 16:23:51,179 v98 INFO P0: card.wb.ru HTTP 403 in 1.2s, body[:300]=
+2026-11-11 16:23:51,210 v98 INFO P1 Config: 0.0s db=C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\r52.sqlite3 exists=True intake=(WindowsPath('C:/Users/aleks/Downloads'),)
+2026-11-11 16:23:51,210 v98 INFO P1 Alt DB: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\r52.sqlite3 exists=True
+2026-11-11 16:23:51,400 r52.sources INFO Sources: зарегистрировано 4 сборщиков
+2026-11-11 16:23:51,428 v98 INFO P2 App: 0.2s
+2026-11-11 16:23:51,428 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\collectors\proxies.json не найден, режим direct
+2026-11-11 16:23:51,428 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 16:23:51,429 v98 INFO P3 Collector: 0.0s cffi=yes
+2026-11-11 16:23:51,429 v98 INFO P4 URL: https://www.wildberries.ru/catalog/259671175/detail.aspx
+2026-11-11 16:23:52,416 v98 INFO P3 basket: basket-01.wbbasket.ru -> 404 (1.0s)
+2026-11-11 16:23:53,604 v98 INFO P3 basket: basket-02.wbbasket.ru -> 404 (1.2s)
+2026-11-11 16:23:55,209 v98 INFO P3 basket: basket-03.wbbasket.ru -> 404 (1.6s)
+2026-11-11 16:23:56,718 v98 INFO P3 basket: basket-04.wbbasket.ru -> 404 (1.5s)
+2026-11-11 16:23:58,440 v98 INFO P3 basket: basket-05.wbbasket.ru -> 404 (1.7s)
+2026-11-11 16:23:59,548 v98 INFO P3 basket: basket-06.wbbasket.ru -> 404 (1.1s)
+2026-11-11 16:24:01,502 v98 INFO P3 basket: basket-07.wbbasket.ru -> 404 (2.0s)
+2026-11-11 16:24:03,431 v98 INFO P3 basket: basket-08.wbbasket.ru -> 404 (1.9s)
+2026-11-11 16:24:05,028 v98 INFO P3 basket: basket-09.wbbasket.ru -> 404 (1.6s)
+2026-11-11 16:24:06,714 v98 INFO P3 basket: basket-10.wbbasket.ru -> 404 (1.7s)
+2026-11-11 16:24:06,714 v98 WARNING P3 basket: no host in 1-10 for vol=2596
+2026-11-11 16:24:06,715 r52.collectors.wb WARNING WB 259671175: basket host не найден
+2026-11-11 16:24:07,793 r52.collectors.wb INFO WB 259671175: price card_v1 -> 403
+2026-11-11 16:24:08,853 r52.collectors.wb INFO WB 259671175: price card_v2 -> 403
+2026-11-11 16:24:10,083 r52.collectors.wb INFO WB 259671175: price card_v4 -> 403
+2026-11-11 16:24:11,824 r52.collectors.wb INFO WB 259671175: price card_v5 -> 403
+2026-11-11 16:24:12,850 r52.collectors.wb INFO WB 259671175: price web_api -> 498
+2026-11-11 16:24:12,851 r52.collectors.wb INFO WB 259671175: price — все эндпоинты не дали данных
+2026-11-11 16:24:16,971 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-11 16:24:16,972 v98 INFO P4 Collect: 25.5s result=yes stats={'requests': 16, 'success': 0, 'failed': 10, 'blocked': 6}
+2026-11-11 16:24:16,977 r52.collectors INFO WB: записан jarvis-eye-wb-93ec63cc.json
+2026-11-11 16:24:16,977 v98 INFO P5 Written: ['jarvis-eye-wb-93ec63cc.json'] (0.0s)
+2026-11-11 16:24:16,987 r52.intake INFO Во входящие добавлен файл jarvis-eye-wb-93ec63cc.json: PENDING 
+2026-11-11 16:24:16,987 v98 INFO P6 Staged: id=2 status=PENDING err=None
+2026-11-11 16:24:16,997 v98 INFO P6 Accepted: pid=1 obs=True
+2026-11-11 16:24:16,997 v98 INFO P6 Inbox: 0.0s
+2026-11-11 16:24:17,001 v98 INFO P7 DB: 1 products, 0 pps (0.0s)
+2026-11-11 16:24:17,001 v98 INFO P7  P: id=1 title=WB-259671175 reg=None avail=UNKNOWN obs=2
+2026-11-11 16:24:17,001 v98 INFO VERDICT: PASS_FBT_NOP (total 27.0s)
+2026-11-11 16:24:17,006 r52.service INFO Ядро R-52 остановлено
+2026-11-11 16:24:17,006 v98 INFO === probe_v98 DONE ===

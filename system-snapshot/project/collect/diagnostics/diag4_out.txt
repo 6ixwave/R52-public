@@ -1,0 +1,109 @@
+﻿python : 2026-11-12 16:27:00,711 INFO === FARPOST ===
+строка:1 знак:36
++ $ErrorActionPreference='Continue'; python diag_multi4.py 2>&1 | Out-F ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 16:2...=== FARPOST ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 16:27:00,714 INFO FP-1: encoding=cp1251 cyr_cp=1169 cyr_utf=742 len=199470
+2026-11-12 16:27:00,724 INFO FAIL FP:cp1251_saved: enc=cp1251 prices=[] title=None bid=None verify=False content=False
+2026-11-12 16:27:03,751 INFO FAIL FP:live_cp1251: HTTP=200 len=89001 prices=[] bid=? url=https://www.farpost.ru/verify?
+u=%2Fvladivostok%2F138952176.h
+2026-11-12 16:27:08,593 INFO FAIL FP:json_api: 138952176=404
+2026-11-12 16:27:08,593 INFO === WILDBERRIES ===
+2026-11-12 16:27:09,466 INFO FAIL WB:card_price: keys=21 selling=['brand_name', 'brand_hash', 'supplier_id', 'no_return
+_map'] price_keys=[] size_prices=[] nm=1097975275
+2026-11-12 16:27:19,268 INFO FAIL WB:price_multi:  ru.json=404 price.json=404 detail=403 detail=403 detail=403 detail=4
+98 detail=498
+2026-11-12 16:27:19,865 INFO FAIL WB:mobile: err=Failed to perform, curl: (6) Could not resolve host: m.wildberries.ru 
+(Domain name not found). See https://curl.se/l
+2026-11-12 16:27:20,781 INFO FAIL WB:search_api: HTTP=403
+2026-11-12 16:27:20,781 INFO === OZON ===
+2026-11-12 16:27:22,182 INFO FAIL OZ:composer_v2: err=Failed to perform, curl: (60) SSL certificate OpenSSL verify resu
+lt: unable to get local issuer certificate (20). Se
+2026-11-12 16:27:23,156 INFO FAIL OZ:mobile_ua: HTTP=403 len=8377 prices=[] og=?
+2026-11-12 16:27:23,891 INFO FAIL OZ:pdp_api: err=Failed to perform, curl: (60) SSL certificate OpenSSL verify result: 
+unable to get local issuer certificate (20). Se
+2026-11-12 16:27:25,299 INFO FAIL OZ:search_api: err=Failed to perform, curl: (60) SSL certificate OpenSSL verify resul
+t: unable to get local issuer certificate (20). Se
+2026-11-12 16:27:25,299 INFO === AVITO ===
+2026-11-12 16:27:26,175 INFO FAIL AV:mobile: HTTP=403 len=8601 prices=[] ld=False
+2026-11-12 16:27:30,457 INFO FAIL AV:session_desktop: HTTP=429 len=34116 prices=[]
+2026-11-12 16:27:33,119 INFO FAIL AV:api:  offers=404 offers=404 offers=404
+2026-11-12 16:27:33,119 INFO Saved to C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag4_results.json
+{
+  "time": "2026-11-12T16:27:33.119156+10:00",
+  "total_s": 32.4,
+  "results": {
+    "FP:cp1251_saved": {
+      "ok": false,
+      "detail": "enc=cp1251 prices=[] title=None bid=None verify=False content=False",
+      "s": 0.0
+    },
+    "FP:live_cp1251": {
+      "ok": null,
+      "detail": "HTTP=200 len=89001 prices=[] bid=? url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F138952176.h",
+      "s": 3.0
+    },
+    "FP:json_api": {
+      "ok": false,
+      "detail": "138952176=404",
+      "s": 4.8
+    },
+    "WB:card_price": {
+      "ok": false,
+      "detail": "keys=21 selling=['brand_name', 'brand_hash', 'supplier_id', 'no_return_map'] price_keys=[] size_prices=[] nm=1097975275",
+      "s": 0.9
+    },
+    "WB:price_multi": {
+      "ok": false,
+      "detail": " ru.json=404 price.json=404 detail=403 detail=403 detail=403 detail=498 detail=498",
+      "s": 9.8
+    },
+    "WB:mobile": {
+      "ok": false,
+      "detail": "err=Failed to perform, curl: (6) Could not resolve host: m.wildberries.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "s": 0.6
+    },
+    "WB:search_api": {
+      "ok": false,
+      "detail": "HTTP=403",
+      "s": 0.9
+    },
+    "OZ:composer_v2": {
+      "ok": false,
+      "detail": "err=Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "s": 1.4
+    },
+    "OZ:mobile_ua": {
+      "ok": false,
+      "detail": "HTTP=403 len=8377 prices=[] og=?",
+      "s": 1.0
+    },
+    "OZ:pdp_api": {
+      "ok": false,
+      "detail": "err=Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "s": 0.7
+    },
+    "OZ:search_api": {
+      "ok": false,
+      "detail": "err=Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "s": 1.4
+    },
+    "AV:mobile": {
+      "ok": false,
+      "detail": "HTTP=403 len=8601 prices=[] ld=False",
+      "s": 0.9
+    },
+    "AV:session_desktop": {
+      "ok": false,
+      "detail": "HTTP=429 len=34116 prices=[]",
+      "s": 4.3
+    },
+    "AV:api": {
+      "ok": false,
+      "detail": " offers=404 offers=404 offers=404",
+      "s": 2.7
+    }
+  }
+}

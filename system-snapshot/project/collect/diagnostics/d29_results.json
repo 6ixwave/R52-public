@@ -1,0 +1,68 @@
+{
+  "OZ:pw_mobile": {
+    "ok": false,
+    "detail": "len=3336 jld=0 prices=0 p2=0 p3=0 name=None og=N skel=False prod_json=0",
+    "s": 9.5,
+    "extract": {
+      "html_len": 3336,
+      "jsonld": [],
+      "prices_regex": [],
+      "prices_json": [],
+      "prices_data": [],
+      "name": null,
+      "og_title": null,
+      "skeleton": false,
+      "prod_json_count": 0
+    }
+  },
+  "OZ:composer": {
+    "ok": false,
+    "detail": "main_page_fail: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+    "s": 23.8
+  },
+  "WB:basket_full": {
+    "ok": false,
+    "detail": "all_basket_hosts_failed",
+    "s": 59.8
+  },
+  "WB:catalog_warmup": {
+    "ok": false,
+    "detail": "catalog_all_failed",
+    "s": 63.5
+  },
+  "FP:card_state": {
+    "ok": true,
+    "detail": "len=42735 states=[] prices=['\\t'] bulls=[] subj=['\\n\\t\\t\\t\\t\\t\\n\\t\\t\\t'] challenge=N",
+    "s": 65.8,
+    "extract": {
+      "states": {},
+      "prices": [
+        "\t"
+      ],
+      "bull_ids": [],
+      "subjects": [
+        "\n\t\t\t\t\t\n\t\t\t"
+      ],
+      "challenge": null
+    }
+  },
+  "FP:mobile": {
+    "ok": true,
+    "detail": "m.farpost.ru: HTTP=200 len=48149 prices=0 jld=2 verify=False",
+    "s": 73.8
+  },
+  "AV:mobile": {
+    "ok": false,
+    "detail": "avito_mobile_failed",
+    "s": 76.4
+  },
+  "AV:sitemap": {
+    "ok": true,
+    "detail": "robots.txt: HTTP=200 len=14860",
+    "s": 77.4
+  },
+  "_meta": {
+    "total_s": 77.4,
+    "time": "2026-11-12T17:53:40+1000"
+  }
+}

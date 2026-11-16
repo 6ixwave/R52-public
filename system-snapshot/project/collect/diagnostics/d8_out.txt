@@ -1,0 +1,21 @@
+﻿python : 2026-11-12 16:36:46,981 INFO === FARPOST ===
+строка:1 знак:36
++ $ErrorActionPreference='Continue'; python diag_multi8.py 2>&1 | Out-F ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 16:3...=== FARPOST ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 16:36:51,418 INFO FP warmup cookies: [REDACTED_AUTH_SECRET]
+2026-11-12 16:36:59,382 INFO   -> FP:playwright: ok=False len=216506 title=Фарпост - доска объявлений prices=[] markers
+={'bulletinText': False, 'price_block': False, 'data-price': False, 'jsonld': False, 'og_price': False} xhr=[]
+2026-11-12 16:37:00,880 INFO   -> FP:requests_verify: ok=False HTTP=200 url=https://www.farpost.ru/verify?u=%2Fvladivos
+tok%2F138952176.html len=197844 title=Фарпост - доска объявлений prices=[] verify=True home=True
+2026-11-12 16:37:00,880 INFO === WILDBERRIES ===
+2026-11-12 16:37:07,606 INFO   -> WB:playwright: ok=[] len=7590 prices=[] data_price=[] sale=[] basic=[] state=no
+2026-11-12 16:37:12,382 INFO   -> WB:basket_scan: ok=False all 404
+2026-11-12 16:37:13,163 INFO   -> WB:card_v1: ok=False HTTP=403 first50=
+2026-11-12 16:37:13,164 INFO === AVITO ===
+2026-11-12 16:37:20,804 INFO   -> AV:playwright_v2: ok=[] len=36447 prices=[] pats={'data-price': [], 'meta-og': [], 'p
+rice-block': [], 'json-state': False, 'captcha': True} xhr=[]
+2026-11-12 16:37:20,890 INFO Saved to C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\d8_results.json
+2026-11-12 16:37:20,890 INFO TOTAL: 33.9s

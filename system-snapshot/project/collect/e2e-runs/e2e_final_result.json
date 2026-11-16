@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-11-12T07:02:26.319302+10:00",
+  "total_seconds": 313.1,
+  "passed": 0,
+  "partial": 1,
+  "total": 4,
+  "verdict": "PASS=0 PARTIAL=1/4",
+  "details": {
+    "WB": {
+      "source": "WB",
+      "ids": [
+        "1097975275"
+      ],
+      "steps": {
+        "collector": {
+          "files": [
+            "jarvis-eye-wb-5cd4b856.json"
+          ],
+          "file_count": 1
+        },
+        "inbox": [
+          {
+            "file": "jarvis-eye-wb-5cd4b856.json",
+            "status": "ACCEPTED"
+          }
+        ],
+        "sqlite": {
+          "db_exists": true,
+          "products": [
+            {
+              "id": 1,
+              "source": "WB",
+              "listing_id": "1097975275",
+              "title": "Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)",
+              "url": "https://www.wildberries.ru/catalog/1097975275/detail.aspx"
+            }
+          ],
+          "observations": [
+            {
+              "id": 1,
+              "product_id": 1,
+              "observed_at": "2026-11-11T21:00:02.257+00:00",
+              "availability": "UNKNOWN"
+            }
+          ],
+          "price_points": [],
+          "product_count": 1,
+          "observation_count": 1,
+          "price_point_count": 0
+        }
+      },
+      "verdict": "E2E_PARTIAL",
+      "elapsed": 169.2
+    },
+    "OZON": {
+      "source": "OZON",
+      "ids": [
+        "562267"
+      ],
+      "steps": {
+        "collector": {
+          "files": [
+            "jarvis-eye-ozon-cc9ac7ff.json"
+          ],
+          "file_count": 1
+        },
+        "inbox": [
+          {
+            "file": "jarvis-eye-ozon-cc9ac7ff.json",
+            "status": "INVALID",
+            "error": "TITLE_WITH_EVIDENCE_REQUIRED"
+          }
+        ],
+        "sqlite": {
+          "db_exists": true,
+          "products": [],
+          "observations": [],
+          "price_points": [],
+          "product_count": 0,
+          "observation_count": 0,
+          "price_point_count": 0
+        }
+      },
+      "verdict": "E2E_FAIL",
+      "elapsed": 106.7
+    },
+    "AVITO": {
+      "source": "AVITO",
+      "ids": [
+        "7494308705"
+      ],
+      "steps": {
+        "collector": {
+          "files": [
+            "jarvis-eye-avito-26c05f60.json"
+          ],
+          "file_count": 1
+        },
+        "inbox": [
+          {
+            "file": "jarvis-eye-avito-26c05f60.json",
+            "status": "INVALID",
+            "error": "TITLE_WITH_EVIDENCE_REQUIRED"
+          }
+        ],
+        "sqlite": {
+          "db_exists": true,
+          "products": [],
+          "observations": [],
+          "price_points": [],
+          "product_count": 0,
+          "observation_count": 0,
+          "price_point_count": 0
+        }
+      },
+      "verdict": "E2E_FAIL",
+      "elapsed": 26.5
+    },
+    "FARPOST": {
+      "source": "FARPOST",
+      "ids": [
+        "1154321987"
+      ],
+      "steps": {
+        "collector": {
+          "files": [
+            "jarvis-eye-farpost-9d22bba7.json"
+          ],
+          "file_count": 1
+        },
+        "inbox": [
+          {
+            "file": "jarvis-eye-farpost-9d22bba7.json",
+            "status": "INVALID",
+            "error": "TITLE_WITH_EVIDENCE_REQUIRED"
+          }
+        ],
+        "sqlite": {
+          "db_exists": true,
+          "products": [],
+          "observations": [],
+          "price_points": [],
+          "product_count": 0,
+          "observation_count": 0,
+          "price_point_count": 0
+        }
+      },
+      "verdict": "E2E_FAIL",
+      "elapsed": 2.7
+    }
+  }
+}

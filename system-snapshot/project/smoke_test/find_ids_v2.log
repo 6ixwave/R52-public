@@ -1,0 +1,26 @@
+=== FIND IDS V2 at 21:50:20 ===
+
+=== FARPOST ===
+Fetch: https://www.farpost.ru/vladivostok/tech/communication/cellphones/
+HTTP 200, 198795 bytes
+  [full-path /.../ID.html]: 0 IDs, first=[]
+  [/vladivostok/ID.html]: 0 IDs, first=[]
+  [/ID.html]: 0 IDs, first=[]
+  [data-id]: 0 IDs, first=[]
+  [item_id]: 0 IDs, first=[]
+  [json id]: 0 IDs, first=[]
+  [cellphones/ID]: 0 IDs, first=[]
+  [all hrefs with ID]: 0, first=[]
+
+  Verifying top 0 candidates:
+
+=== AVITO ===
+Fetch: https://www.avito.ru/moskva_i_mo/tech/phone/?f=AS
+HTTP 429, 34382 bytes
+Fetch: https://www.avito.ru/all/telefony/?f=AS
+HTTP 439, 14230 bytes
+
+=== RESULT ===
+FARPOST alive: []
+AVITO alive: []
+=== END ===

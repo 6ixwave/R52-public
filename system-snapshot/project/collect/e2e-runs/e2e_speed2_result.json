@@ -1,0 +1,60 @@
+{
+  "WB": {
+    "source": "WB",
+    "id": "100000001",
+    "status": "TIMEOUT",
+    "verdict": "UNKNOWN"
+  },
+  "OZON": {
+    "source": "OZON",
+    "id": "278346543",
+    "status": "NO_DATA",
+    "elapsed": 27.6,
+    "stats": {
+      "requests": 1,
+      "success": 0,
+      "failed": 1,
+      "blocked": 1
+    },
+    "verdict": "DATA_WEAK"
+  },
+  "AVITO": {
+    "source": "AVITO",
+    "id": "1102345678",
+    "status": "NO_DATA",
+    "elapsed": 0.8,
+    "stats": {
+      "requests": 1,
+      "success": 0,
+      "failed": 1,
+      "blocked": 0
+    },
+    "verdict": "DATA_WEAK"
+  },
+  "FARPOST": {
+    "source": "FARPOST",
+    "id": "139122082",
+    "status": "PARTIAL_SUCCESS",
+    "elapsed": 2.6,
+    "stats": {
+      "requests": 1,
+      "success": 1,
+      "failed": 0,
+      "blocked": 0
+    },
+    "title": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красноярске",
+    "price_count": 1,
+    "price_first": {
+      "role": "regular",
+      "amount_minor": 849900,
+      "currency": "RUB",
+      "label": "data-bulletin-price",
+      "amount": "8499.00",
+      "visible_label": "data-bulletin-price"
+    },
+    "media_count": 1,
+    "desc_len": 80,
+    "category": "Авто и мото > Шины и диски > Шины > Шины LingLong GREEN-Max Winter > LingLong GREEN-Max Winter Grip Van 2",
+    "verdict": "DATA_OK"
+  }
+}

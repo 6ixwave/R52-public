@@ -1,0 +1,30 @@
+=== diag_v7c — 2026-11-14 12:35:59 ===
+Query: 'наушники'
+
+── ALIEXPRESS_RU ──
+  p1: 12 items 4.5s
+  No-price: 0/12
+  Bad-price (<=1.00): 0/12
+  [0] id=1005012519559118
+      title='Cuffie cablate da 3,5 mm/Type-C Over-Ear HiFi con controllo '
+      price=current EUR 2.13 | original EUR 2.14
+      images=1
+  [1] id=1005009045264533
+      title='Auricolari Sportivi Wireless BT con Ganci per Orecchie, Cuff'
+      price=current EUR 8.76 | original EUR 9.85
+      images=1
+  [2] id=1005013271404950
+      title='Cuffie wireless over-ear Woox Mx0224 con Bluetooth 5.4 |    '
+      price=current EUR 35.75 | original EUR 47.20
+      images=1
+  [3] id=1005006995878553
+      title='Auricolari wireless Pro 6 TWS con microfono, auricolari Blue'
+      price=current EUR 3.61
+      images=1
+  [4] id=1005008490098233
+      title='QCY H3 ANC Cuffie wireless Audio ad alta risoluzione Cuffie '
+      price=current EUR 38.29 | original EUR 41.85
+      images=1
+  Stats: {'requests': 1, 'success': 1, 'failed': 0, 'blocked': 0}
+
+=== DONE ===

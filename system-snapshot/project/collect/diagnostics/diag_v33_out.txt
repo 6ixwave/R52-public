@@ -1,0 +1,88 @@
+2026-11-10 23:06:24,927 INFO === DIAG V33: Proxy test for WB / Ozon / Avito ===
+2026-11-10 23:06:24,927 INFO Time: 2026-11-10 23:06:24
+2026-11-10 23:06:24,928 INFO === 1. PROXY CONNECTIVITY ===
+2026-11-10 23:06:24,928 INFO Connectivity test: [REDACTED_AUTH_SECRET]
+2026-11-10 23:06:36,938 WARNING   FAIL: Timeout: Failed to perform, curl: (28) Connection timed out after 12008 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-10 23:06:38,938 INFO Connectivity test: [REDACTED_AUTH_SECRET]
+2026-11-10 23:06:40,433 INFO   OK -> 204 (1.49s)
+2026-11-10 23:06:42,438 INFO === 2. proxy_A: SKIP (dead) ===
+2026-11-10 23:06:42,438 INFO === 2. VIA proxy_B ([REDACTED_AUTH_SECRET]) ===
+2026-11-10 23:06:42,438 INFO [proxy_B_WB_main] https://www.wildberries.ru/ imp=chrome proxy=[REDACTED_AUTH_SECRET] | WB main via proxy_B
+2026-11-10 23:06:43,635 INFO   Saved 1134B -> v33_proxy_B_WB_main.html
+2026-11-10 23:06:43,635 INFO   => BLOCKED_498 | 1134B | 1.20s | JSONLD=False State=False CAP=True
+2026-11-10 23:06:49,636 INFO [proxy_B_WB_card_api] https://card.wb.ru/cards/v2/detail?nm=199298871 imp=chrome proxy=[REDACTED_AUTH_SECRET] | WB card_api via proxy_B
+2026-11-10 23:06:51,557 INFO   => BLOCKED_403 | 0B | 1.92s | JSONLD=False State=False CAP=False
+2026-11-10 23:06:57,558 INFO [proxy_B_WB_search_api] https://search.wb.ru/exactmatch/ru/common/v9/search?query=%D imp=chrome proxy=[REDACTED_AUTH_SECRET] | WB search_api via proxy_B
+2026-11-10 23:06:58,959 INFO   => BLOCKED_403 | 0B | 1.40s | JSONLD=False State=False CAP=False
+2026-11-10 23:07:04,960 INFO [proxy_B_OZON_product] https://www.ozon.ru/product/1600562267/ imp=chrome proxy=[REDACTED_AUTH_SECRET] | OZON product via proxy_B
+2026-11-10 23:07:06,622 INFO   Saved 5148B -> v33_proxy_B_OZON_product.html
+2026-11-10 23:07:06,622 INFO   => BLOCKED_403 | 5148B | 1.66s | JSONLD=False State=False CAP=True
+2026-11-10 23:07:12,623 INFO [proxy_B_OZON_composer] https://api.ozon.ru/composer-api.bx/page/json/v2?url=/produc imp=chrome proxy=[REDACTED_AUTH_SECRET] | OZON composer via proxy_B
+2026-11-10 23:07:14,315 INFO   Saved 1081B -> v33_proxy_B_OZON_composer.html
+2026-11-10 23:07:14,315 INFO   => BLOCKED_403 | 1081B | 1.69s | JSONLD=False State=False CAP=False
+2026-11-10 23:07:20,316 INFO [proxy_B_OZON_search] https://www.ozon.ru/search/?text=%D1%88%D0%B8%D0%BD%D0%B0+22 imp=chrome proxy=[REDACTED_AUTH_SECRET] | OZON search via proxy_B
+2026-11-10 23:07:21,831 INFO   Saved 5155B -> v33_proxy_B_OZON_search.html
+2026-11-10 23:07:21,831 INFO   => BLOCKED_403 | 5155B | 1.51s | JSONLD=False State=False CAP=True
+2026-11-10 23:07:27,832 INFO [proxy_B_AVITO_main] https://www.avito.ru/ imp=chrome proxy=[REDACTED_AUTH_SECRET] | AVITO main via proxy_B
+2026-11-10 23:07:29,526 INFO   Saved 14382B -> v33_proxy_B_AVITO_main.html
+2026-11-10 23:07:29,526 INFO   => HTTP_439 | 14382B | 1.69s | JSONLD=False State=False CAP=False
+2026-11-10 23:07:35,527 INFO [proxy_B_AVITO_search] https://www.avito.ru/search?q=%D1%88%D0%B8%D0%BD%D0%B0+225%2 imp=chrome proxy=[REDACTED_AUTH_SECRET] | AVITO search via proxy_B
+2026-11-10 23:07:36,178 INFO   Saved 14382B -> v33_proxy_B_AVITO_search.html
+2026-11-10 23:07:36,178 INFO   => HTTP_439 | 14382B | 0.65s | JSONLD=False State=False CAP=False
+2026-11-10 23:07:42,179 INFO [proxy_B_AVITO_ad] https://www.avito.ru/ad/1096783029 imp=chrome proxy=[REDACTED_AUTH_SECRET] | AVITO ad via proxy_B
+2026-11-10 23:07:42,619 INFO   Saved 29440B -> v33_proxy_B_AVITO_ad.html
+2026-11-10 23:07:42,619 INFO   => 404_PAGE | 29440B | 0.44s | JSONLD=False State=False CAP=False
+2026-11-10 23:07:48,619 INFO === 3. DIRECT chrome120 ===
+2026-11-10 23:07:48,620 INFO [DIR_chrome120_WB_main] https://www.wildberries.ru/ imp=chrome120 proxy=DIRECT | WB main chrome120
+2026-11-10 23:07:49,416 INFO   Saved 1136B -> v33_DIR_chrome120_WB_main.html
+2026-11-10 23:07:49,416 INFO   => BLOCKED_498 | 1136B | 0.79s | JSONLD=False State=False CAP=True
+2026-11-10 23:07:54,416 INFO [DIR_chrome120_OZON_product] https://www.ozon.ru/product/1600562267/ imp=chrome120 proxy=DIRECT | OZON product chrome120
+2026-11-10 23:07:55,360 INFO   Saved 9920B -> v33_DIR_chrome120_OZON_product.html
+2026-11-10 23:07:55,361 INFO   => BLOCKED_403 | 9920B | 0.94s | JSONLD=False State=False CAP=True
+2026-11-10 23:08:00,361 INFO [DIR_chrome120_AVITO_main] https://www.avito.ru/ imp=chrome120 proxy=DIRECT | AVITO main chrome120
+2026-11-10 23:08:01,988 INFO   Saved 14382B -> v33_DIR_chrome120_AVITO_main.html
+2026-11-10 23:08:01,989 INFO   => HTTP_439 | 14382B | 1.63s | JSONLD=False State=False CAP=False
+2026-11-10 23:08:06,990 INFO === 3. DIRECT chrome131 ===
+2026-11-10 23:08:06,990 INFO [DIR_chrome131_WB_main] https://www.wildberries.ru/ imp=chrome131 proxy=DIRECT | WB main chrome131
+2026-11-10 23:08:07,796 INFO   Saved 1136B -> v33_DIR_chrome131_WB_main.html
+2026-11-10 23:08:07,797 INFO   => BLOCKED_498 | 1136B | 0.81s | JSONLD=False State=False CAP=True
+2026-11-10 23:08:12,797 INFO [DIR_chrome131_OZON_product] https://www.ozon.ru/product/1600562267/ imp=chrome131 proxy=DIRECT | OZON product chrome131
+2026-11-10 23:08:14,345 INFO   Saved 10456B -> v33_DIR_chrome131_OZON_product.html
+2026-11-10 23:08:14,345 INFO   => BLOCKED_403 | 10456B | 1.55s | JSONLD=False State=False CAP=True
+2026-11-10 23:08:19,345 INFO [DIR_chrome131_AVITO_main] https://www.avito.ru/ imp=chrome131 proxy=DIRECT | AVITO main chrome131
+2026-11-10 23:08:20,356 INFO   Saved 14382B -> v33_DIR_chrome131_AVITO_main.html
+2026-11-10 23:08:20,356 INFO   => HTTP_439 | 14382B | 1.01s | JSONLD=False State=False CAP=False
+2026-11-10 23:08:25,357 INFO === 4. WB cookie-flow (direct chrome) ===
+2026-11-10 23:08:25,357 INFO [WB_cf_main] https://www.wildberries.ru/ imp=chrome proxy=DIRECT | WB main for cookies
+2026-11-10 23:08:26,169 INFO   Saved 1136B -> v33_WB_cf_main.html
+2026-11-10 23:08:26,170 INFO   => BLOCKED_498 | 1136B | 0.81s | JSONLD=False State=False CAP=True
+2026-11-10 23:08:30,170 INFO [WB_cf_card] https://card.wb.ru/cards/v2/detail?nm=199298871 imp=chrome proxy=DIRECT | WB card API with session cookies
+2026-11-10 23:08:30,995 INFO   => BLOCKED_403 | 0B | 0.82s | JSONLD=False State=False CAP=False
+2026-11-10 23:08:34,995 INFO === 5. Ozon cookie-flow (direct chrome) ===
+2026-11-10 23:08:34,996 INFO [OZON_cf_product] https://www.ozon.ru/product/1600562267/ imp=chrome proxy=DIRECT | Ozon product for cookies
+2026-11-10 23:08:35,918 INFO   Saved 8257B -> v33_OZON_cf_product.html
+2026-11-10 23:08:35,918 INFO   => BLOCKED_403 | 8257B | 0.92s | JSONLD=False State=False CAP=True
+2026-11-10 23:08:39,919 INFO [OZON_cf_composer] https://api.ozon.ru/composer-api.bx/page/json/v2?url=/produc imp=chrome proxy=DIRECT | Ozon composer with cookies
+2026-11-10 23:08:41,394 INFO   Saved 1081B -> v33_OZON_cf_composer.html
+2026-11-10 23:08:41,394 INFO   => BLOCKED_403 | 1081B | 1.47s | JSONLD=False State=False CAP=False
+2026-11-10 23:08:41,395 INFO === DONE: 21 entries -> diag_v33_results.json ===
+2026-11-10 23:08:41,395 INFO --- SUMMARY ---
+2026-11-10 23:08:41,395 INFO   ❌ proxy_B_WB_main                     BLOCKED_498         1134B  http://4.144.146.21:
+2026-11-10 23:08:41,395 INFO   ❌ proxy_B_WB_card_api                 BLOCKED_403            0B  http://4.144.146.21:
+2026-11-10 23:08:41,395 INFO   ❌ proxy_B_WB_search_api               BLOCKED_403            0B  http://4.144.146.21:
+2026-11-10 23:08:41,395 INFO   ❌ proxy_B_OZON_product                BLOCKED_403         5148B  http://4.144.146.21:
+2026-11-10 23:08:41,395 INFO   ❌ proxy_B_OZON_composer               BLOCKED_403         1081B  http://4.144.146.21:
+2026-11-10 23:08:41,395 INFO   ❌ proxy_B_OZON_search                 BLOCKED_403         5155B  http://4.144.146.21:
+2026-11-10 23:08:41,395 INFO   ❌ proxy_B_AVITO_main                  HTTP_439           14382B  http://4.144.146.21:
+2026-11-10 23:08:41,395 INFO   ❌ proxy_B_AVITO_search                HTTP_439           14382B  http://4.144.146.21:
+2026-11-10 23:08:41,395 INFO   ❌ proxy_B_AVITO_ad                    404_PAGE           29440B  http://4.144.146.21:
+2026-11-10 23:08:41,395 INFO   ❌ DIR_chrome120_WB_main               BLOCKED_498         1136B  DIRECT
+2026-11-10 23:08:41,395 INFO   ❌ DIR_chrome120_OZON_product          BLOCKED_403         9920B  DIRECT
+2026-11-10 23:08:41,395 INFO   ❌ DIR_chrome120_AVITO_main            HTTP_439           14382B  DIRECT
+2026-11-10 23:08:41,395 INFO   ❌ DIR_chrome131_WB_main               BLOCKED_498         1136B  DIRECT
+2026-11-10 23:08:41,395 INFO   ❌ DIR_chrome131_OZON_product          BLOCKED_403        10456B  DIRECT
+2026-11-10 23:08:41,395 INFO   ❌ DIR_chrome131_AVITO_main            HTTP_439           14382B  DIRECT
+2026-11-10 23:08:41,395 INFO   ❌ WB_cf_main                          BLOCKED_498         1136B  DIRECT
+2026-11-10 23:08:41,396 INFO   ❌ WB_cf_card                          BLOCKED_403            0B  DIRECT
+2026-11-10 23:08:41,396 INFO   ❌ OZON_cf_product                     BLOCKED_403         8257B  DIRECT
+2026-11-10 23:08:41,396 INFO   ❌ OZON_cf_composer                    BLOCKED_403         1081B  DIRECT

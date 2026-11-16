@@ -1,0 +1,35 @@
+C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag23.py:96: SyntaxWarning: "\d" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\d"? A raw string is also an option.
+  if (/^\d[\d\s\u00a0\u2009\u202f]*\d\s*₽$/.test(t) && t.length < 30) {
+C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag23.py:415: SyntaxWarning: "\d" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\d"? A raw string is also an option.
+  if (/^\d[\d\s\u00a0]*\d\s*₽$/.test(t) && t.length < 20) {
+2026-11-12 13:02:57,951 [diag23] ============================================================
+2026-11-12 13:02:57,955 [diag23] OZON: full LD + DOM + HTML price scan
+2026-11-12 13:02:57,955 [diag23] ============================================================
+2026-11-12 13:03:08,272 [diag23] OZON LD[0] OFFERS: {"@type": "Offer", "url": "https://www.ozon.ru/product/palit-videokarta-geforce-rtx-5060-ti-pa-rtx5060ti-dual-8-gb-ne7506t019p1-gb2062d-2067947177/", "availability": "http://schema.org/InStock", "price": "64265", "priceCurrency": "RUB"}
+2026-11-12 13:03:08,272 [diag23] OZON: 1 LD blocks
+2026-11-12 13:03:08,281 [diag23] OZON price_dom keys: ['price_texts']
+2026-11-12 13:03:08,281 [diag23] OZON price_texts: [{"tag": "DIV", "class": "pdp_bi5 pdp_bi4", "text": "57 838 ₽"}, {"tag": "SPAN", "class": "tsHeadline600Large", "text": "57 838 ₽"}, {"tag": "SPAN", "class": "pdp_j2b tsHeadline500Medium", "text": "64 265 ₽"}, {"tag": "SPAN", "class": "pdp_jb2 pdp_b3j pdp_j1b tsBody400Small", "text": "116 349 ₽"}, {"tag": "SPAN", "class": "c35_6_4-a1 tsHeadline500Medium c35_6_4-b4 c35_6_4-a6", "text": "47 519 ₽"}]
+2026-11-12 13:03:08,402 [diag23] OZON html_prices: {"\"price\"\\s*:\\s*\"?(\\d+[\\d.]*)\"?": ["64265"]}
+2026-11-12 13:03:08,406 [diag23] OZON state keys: ['nuxt']
+2026-11-12 13:03:08,555 [diag23] ============================================================
+2026-11-12 13:03:08,555 [diag23] WB: Playwright 20s + intercept + basket
+2026-11-12 13:03:08,555 [diag23] ============================================================
+2026-11-12 13:03:09,169 [diag23] WB: goto https://www.wildberries.ru/catalog/1097975275/detail.aspx
+2026-11-12 13:03:09,865 [diag23] WB: waiting 20s for WBAAS...
+2026-11-12 13:03:29,945 [diag23] WB content err: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+2026-11-12 13:03:29,946 [diag23] WB: 1 API calls captured
+2026-11-12 13:03:30,071 [diag23] WB: basket CDN fallback (multiple subdomains)
+2026-11-12 13:03:31,349 [diag23] WB basket [basket-42]: HTTP 200, len=7989
+2026-11-12 13:03:31,350 [diag23]   keys=['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'options', 'certificate'], price_keys=[]
+2026-11-12 13:03:31,350 [diag23] ============================================================
+2026-11-12 13:03:31,350 [diag23] AVITO: cooldown 15s + mobile + search
+2026-11-12 13:03:31,350 [diag23] ============================================================
+2026-11-12 13:03:31,350 [diag23] AVITO: cooldown 15s...
+2026-11-12 13:03:46,962 [diag23] AVITO: trying mobile search
+2026-11-12 13:03:53,098 [diag23] AVITO mobile: title=Доступ ограничен: проблема с IP, body=36443
+2026-11-12 13:03:53,102 [diag23] AVITO mobile: 0 IDs, sample=[]
+2026-11-12 13:03:53,102 [diag23] AVITO: mobile failed, trying desktop search
+2026-11-12 13:04:05,280 [diag23] AVITO desktop: title=Доступ ограничен: проблема с IP, body=36451
+2026-11-12 13:04:05,285 [diag23] AVITO desktop: 0 IDs, sample=[]
+2026-11-12 13:04:05,407 [diag23] Result -> C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag23_result.json
+2026-11-12 13:04:05,408 [diag23] DONE

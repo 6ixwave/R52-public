@@ -1,0 +1,48 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Smartphone HONOR 600 Pro 5G Versione EU Snapdragon 8 Elite Display AMOLED da 6,57” 6400mAh 80W SuperCharge 50W Wireless 12GB+512GB 200MP AI Ultra Night Design unibody in metallo eSIM Pulsante AI NFC - AliExpress 509",
+        "method": "OPEN_GRAPH",
+        "evidence": {
+          "method": "OPEN_GRAPH",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "OUT_OF_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S4cd183b79e384aada06dfa4940c1b895e.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "OUT_OF_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005012910483472",
+    "url": "https://ru.aliexpress.com/item/1005012910483472.html",
+    "observed_at": "2026-11-14T03:01:47.429459+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

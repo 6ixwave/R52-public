@@ -1,0 +1,49 @@
+{
+  "FP:1_category": {
+    "ok": false,
+    "detail": "HTTP=404 len=13770",
+    "s": 1.2
+  },
+  "WB:1_card_v2": {
+    "ok": false,
+    "detail": "HTTP=403 len=0",
+    "s": 2.1
+  },
+  "WB:2_basket_n": {
+    "ok": false,
+    "detail": "all basket hosts 404",
+    "s": 5.0
+  },
+  "WB:3_selling": {
+    "ok": false,
+    "detail": "HTTP=403",
+    "s": 6.0
+  },
+  "WB:4_web_card": {
+    "ok": false,
+    "detail": "HTTP=498 len=1136",
+    "s": 6.8
+  },
+  "OZ:2_product": {
+    "ok": false,
+    "detail": "HTTP_ok title= price=None page_title=Похоже, нет соединения len=3306",
+    "s": 17.4
+  },
+  "OZ:3_composer_fetch": {
+    "ok": false,
+    "detail": "status=403 body=\n\n{\"incidentId\": \"fab_chlg_20261112065535_01M778MNMNW1NEPP3WMJTTNF34\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=caZNDdfMSxmYWJfY2hsZ18yMDI2MTExMjA2NTUzNV8wMU03NzhNTk1OVzFORVBQM1dN",
+    "s": 17.6
+  },
+  "AV:1_category": {
+    "ok": false,
+    "detail": "len=36451 offers=0 sample=[]",
+    "s": 23.3
+  },
+  "AV:2_offer": {
+    "ok": false,
+    "detail": "no offers found",
+    "s": 23.3
+  },
+  "total_s": 23.4,
+  "time": "2026-11-12T16:55:40"
+}

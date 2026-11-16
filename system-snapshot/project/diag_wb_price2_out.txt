@@ -1,0 +1,48 @@
+2026-11-13 22:20:39,121 wb_p2 INFO TRY cdn_price: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/price/ru/price.json
+2026-11-13 22:20:40,004 wb_p2 INFO   -> 404, 196B
+2026-11-13 22:20:40,004 wb_p2 INFO   (404 — path doesn't exist)
+2026-11-13 22:20:40,305 wb_p2 INFO TRY cdn_price2: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/price/price.json
+2026-11-13 22:20:41,342 wb_p2 INFO   -> 404, 196B
+2026-11-13 22:20:41,343 wb_p2 INFO   (404 — path doesn't exist)
+2026-11-13 22:20:41,643 wb_p2 INFO TRY cdn_info_price: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/info/ru/price.json
+2026-11-13 22:20:42,487 wb_p2 INFO   -> 404, 196B
+2026-11-13 22:20:42,487 wb_p2 INFO   (404 — path doesn't exist)
+2026-11-13 22:20:42,787 wb_p2 INFO TRY cdn_card_alt: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/info/ru/card_price.json
+2026-11-13 22:20:43,685 wb_p2 INFO   -> 404, 196B
+2026-11-13 22:20:43,685 wb_p2 INFO   (404 — path doesn't exist)
+2026-11-13 22:20:43,985 wb_p2 INFO TRY cdn_data: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/data/ru/data.json
+2026-11-13 22:20:44,859 wb_p2 INFO   -> 404, 196B
+2026-11-13 22:20:44,859 wb_p2 INFO   (404 — path doesn't exist)
+2026-11-13 22:20:45,160 wb_p2 INFO TRY cdn_meta: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/meta/ru/meta.json
+2026-11-13 22:20:46,037 wb_p2 INFO   -> 404, 196B
+2026-11-13 22:20:46,037 wb_p2 INFO   (404 — path doesn't exist)
+2026-11-13 22:20:46,338 wb_p2 INFO TRY cdn_img_test: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/img/S800/1.jpg
+2026-11-13 22:20:47,225 wb_p2 INFO   -> 404, 196B
+2026-11-13 22:20:47,225 wb_p2 INFO   (404 — path doesn't exist)
+2026-11-13 22:20:48,122 wb_p2 INFO Loading https://www.wildberries.ru/catalog/199298871/detail.aspx ...
+2026-11-13 22:21:00,313 wb_p2 INFO Page loaded in 12.2s, title=...
+2026-11-13 22:21:00,365 wb_p2 WARNING No price found via Playwright. Body[:500]=Что-то не так...
+
+Подозрительная активность. Пожалуйста, подождите.
+
+ID: 70859c0bf4356367549d396c506b812d
+
+IP: 82.162.122.156
+
+Новая попытка через 00:59
+
+Что делать:
+
+Подождите, страница обновится автоматически.
+Если не помогло — очистите кэш и cookie в браузере, потом перезагрузите страницу.
+Ошибка не исчезла? Пишите в поддержку: 
+captcha-support@rwb.ru
+=== WB PRICE v2 (nm=199298871, host=basket-13.wbbasket.ru) ===
+
+--- Phase 1: Basket CDN ---
+
+--- Phase 2: Playwright ---
+
+=== PLAYWRIGHT DONE ===
+
+=== ALL DONE ===

@@ -1,0 +1,61 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:07:32,712 r52.autocollect.worker INFO phase=worker_start pid=30868
+2026-11-16 04:07:32,734 r52.autocollect.worker INFO source=AVITO mode=discover phase=initialize
+2026-11-16 04:07:32,737 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-16 04:07:32,738 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-16 04:07:32,738 r52.autocollect.worker INFO source=AVITO proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-16 04:07:32,742 r52.autocollect.worker INFO source=AVITO phase=search_start page=1 limit=5
+2026-11-16 04:07:34,566 r52.collectors.avito INFO AVITO warmup m.avito.ru failed: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:07:36,412 r52.collectors.avito INFO AVITO warmup www.avito.ru failed: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:07:36,412 r52.collectors.avito INFO AVITO warmup failed: cannot access local variable 'resp' where it is not associated with a value
+2026-11-16 04:07:45,413 r52.collectors.avito WARNING AVITO search: error: ConnectionError
+2026-11-16 04:07:45,413 r52.autocollect.worker INFO source=AVITO phase=close_start
+2026-11-16 04:07:45,413 r52.autocollect.worker INFO source=AVITO phase=close_complete
+2026-11-16 04:07:45,414 root ERROR phase=worker_failed code=SEARCH_REQUEST_FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043, in _request_once
+    c.perform()
+    ~~~~~~~~~^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 633, in perform
+    self._check_error(ret, "perform")
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 353, in _check_error
+    raise error
+curl_cffi.curl.CurlError: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\avito.py", line 559, in collect_by_search
+    resp = self._cffi.get(url, impersonate="chrome", timeout=(15, 30),
+                          headers=headers, proxies=proxies)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 154, in get
+    return request(method="GET", url=url, **kwargs)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 146, in request
+    return s.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117, in request
+    return self._request_once(
+           ~~~~~~~~~~~~~~~~~~^
+        method=method,
+        ^^^^^^^^^^^^^^
+    ...<35 lines>...
+        discard_cookies=discard_cookies,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1050, in _request_once
+    raise error(str(e), e.code, rsp) from e
+curl_cffi.requests.exceptions.ConnectionError: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98, in main
+    run(json.loads((folder / "request").read_text("utf-8")), folder)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 80, in run
+    rows = collector.collect_by_search(params["value"], page=params["page"], page_size=params["limit"])
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\avito.py", line 631, in collect_by_search
+    raise SearchError("SEARCH_REQUEST_FAILED") from e
+r52.collectors.discovery.SearchError: SEARCH_REQUEST_FAILED

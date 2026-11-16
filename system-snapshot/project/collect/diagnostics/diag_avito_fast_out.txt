@@ -1,0 +1,17 @@
+﻿============================================================
+AVITO FAST DIAG
+============================================================
+
+[1] Finding live listing...
+    search: 439 (14889B)
+    [WARN] No ID from search, trying direct...
+    [FAIL] No live listing found. Using 7494308705 (may 404)
+
+[2] Testing listing: 7494308705
+    HTTP 404 (29907B)
+    [WARN] 404 — listing might be gone
+    moskva: 429
+    spb: 404
+    ekaterinburg: 429
+    [FAIL] Still 404, trying more IDs...
+    [ABORT] No live listing available

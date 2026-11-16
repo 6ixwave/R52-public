@@ -1,0 +1,30 @@
+06:28:04 diag_ali_ru11: V11 live test starting...
+06:28:04 r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+06:28:04 r52.collectors.aliexpress: ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile
+06:28:04 diag_ali_ru11: Browser OK
+06:28:04 r52.collectors.aliexpress: ALI PW: session already warm (12 cookies)
+06:28:04 diag_ali_ru11: Warm: 12 cookies
+06:28:05 diag_ali_ru11: HTTP 200
+06:28:06 diag_ali_ru11: tick=0: {'cap': 'click', 'body': 98629}
+06:28:06 diag_ali_ru11: Captcha found, extracting images...
+06:28:09 diag_ali_ru11: Images: Q=38259b, Grid=9/9
+06:28:09 diag_ali_ru11: Running V10 comparison...
+06:28:09 diag_ali_ru11: Q: 356x49, 40 windows
+06:28:09 diag_ali_ru11: Scores: [(6, 0.366), (7, 0.386), (5, 0.396), (0, 0.402), (2, 0.404), (1, 0.424), (4, 0.427), (3, 0.454), (8, 0.522)]
+06:28:09 diag_ali_ru11: Attempt 1: clicking [6]
+06:28:10 diag_ali_ru11:   Submitted (attempt 1)
+06:28:11 diag_ali_ru11:   result[0]: {'onCap': True, 'msg': ''}
+06:28:12 diag_ali_ru11:   result[1]: {'onCap': True, 'msg': ''}
+06:28:13 diag_ali_ru11:   result[2]: {'onCap': True, 'msg': ''}
+06:28:14 diag_ali_ru11:   result[3]: {'onCap': True, 'msg': ''}
+06:28:15 diag_ali_ru11:   result[4]: {'onCap': True, 'msg': ''}
+06:28:17 diag_ali_ru11:   result[5]: {'onCap': True, 'msg': ''}
+06:28:18 diag_ali_ru11:   result[6]: {'onCap': True, 'msg': ''}
+06:28:19 diag_ali_ru11:   result[7]: {'onCap': True, 'msg': ''}
+06:28:20 diag_ali_ru11:   result[8]: {'onCap': True, 'msg': ''}
+06:28:21 diag_ali_ru11:   result[9]: {'onCap': True, 'msg': ''}
+06:28:22 diag_ali_ru11:   result[10]: {'onCap': True, 'msg': ''}
+06:28:23 diag_ali_ru11:   result[11]: {'onCap': True, 'msg': ''}
+06:28:23 diag_ali_ru11:   Timeout waiting for result
+06:28:23 diag_ali_ru11: Saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru11_result.json
+06:28:23 diag_ali_ru11: PHASE=done solved=False

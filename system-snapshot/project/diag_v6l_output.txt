@@ -1,0 +1,30 @@
+=== diag_v6l — 2026-11-14 12:23:05 ===
+Query: 'наушники'
+
+── ALIEXPRESS_RU ──
+  Init: OK
+  p1: OK 12 items 4.4s
+  p2: OK 12 items 20.0s
+  ── Quality (24 items total) ──
+  None-ID: 0/24
+  Empty-title: 0/24
+  No-price: 0/24
+  No-image: 0/24
+  ── First 3 items ──
+  [0] id=1005013565057281
+      title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per Audiofili'
+      price=EUR 1.00
+      url=https://ru.aliexpress.com/item/1005013565057281.html
+  [1] id=1005013569410352
+      title='Cuffie wireless con archetto, che offrono un suono stereo nitido, supp'
+      price=EUR 1.00
+      url=https://ru.aliexpress.com/item/1005013569410352.html
+  [2] id=1005013564277066
+      title='Cuffie da gaming UNICO HP2570 con audio surround 7.1 e illuminazione R'
+      price=EUR 1.00
+      url=https://ru.aliexpress.com/item/1005013564277066.html
+  ── Pagination ──
+  p1: 10 IDs, p2: 13 IDs, overlap: 0
+  Stats: {'requests': 2, 'success': 2, 'failed': 0, 'blocked': 0}
+
+=== DONE ===

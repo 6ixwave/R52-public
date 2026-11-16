@@ -1,0 +1,261 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Влажные полотенца большого размера XXL 60х10шт",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Aura",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Большие влажные полотенца AURA Family созданы для всей семьи для ежедневного использования. Гипоаллергенные полотенца деликатно очищают и подходят для самой чувствительной кожи. Большие влажные салфетки размером xxl безопасны для кожи детей, в составе лосьона присутсвуют экстракт череды и ромашки, которые оказывают противовоспалительный эффект. Также в составе содержится витамин Е, способствующий восстановлению кожи, и сок листьев алоэ, увлажняющий и защищающий от агрессивного воздействия солнечных лучей. Полотенца пригодятся в роддоме и в поездках за город, при отсутствии воды,  а также подойдут лежачим больным. Влажные полотенца не содержат в составе этиловый спирт и микробиологически протестированы. Благодаря большому размеру подходят, как влажные салфетки  для лежачих больных. Бережное очищение кожи для детей и взрослых. Большая коробка влажных полотенец 10 упаковок по 60 штук, в сумме 600 штук больших влажных салфеток. Размер одной салфетки 17х27 см.\n",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Красота > Влажные салфетки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/itemCounter-component.5140b735835198fe.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/manualQuantityInput-component.44a3f391bace13ae.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/catalogCard-component.225314dfb1bdd980.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/68848.6ccd0a495ece9b0e.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/12589.65deab12c6baab88.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/19921.53c25b7ac4868fa5.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/10781.98a603a07010e7a0.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/16243.38ade4de04b7a4f2.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/recommendations-slot.21c50124f7b9c435.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/7567.d22fd063ab5a2dd2.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/6467.89503b1a5292989c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/7189.d59e29bcba3aa86f.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/9395.b157417796d5bbe9.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lottery-service.cb54e5fab8db32dd.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c246x328/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c246x328/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c246x328/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c246x328/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c246x328/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c246x328/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c246x328/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c246x328/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c246x328/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/big/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/big/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/big/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/big/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/big/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/big/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/big/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/big/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol2041/part204102/204102059/images/big/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/app-store.webp",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Красота > Влажные салфетки",
+    "source": "WB",
+    "id": "204102059",
+    "url": "https://www.wildberries.ru/catalog/204102059/detail.aspx",
+    "observed_at": "2026-11-16T17:30:07.645556+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

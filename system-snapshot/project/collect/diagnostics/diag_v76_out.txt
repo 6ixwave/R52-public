@@ -1,0 +1,130 @@
+2026-11-11 11:01:37,971 v76 INFO === DB INIT ===
+2026-11-11 11:01:37,999 v76 INFO БД: r52.db, applied=[], version=3
+2026-11-11 11:01:38,000 v76 INFO ДО: {'product': 3, 'observation': 10, 'price_point': 6, 'source': 6}
+2026-11-11 11:01:38,190 v76 INFO === 1. FARPOST ===
+2026-11-11 11:01:38,254 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 11:01:38,254 v76 INFO FARPOST: fetching https://www.farpost.ru/bulletin/130693618 (curl_cffi)
+2026-11-11 11:01:39,547 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-11 11:01:42,384 v76 INFO FARPOST: HTTP 404, 12941 bytes
+2026-11-11 11:01:42,384 v76 ERROR FARPOST FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v76_e2e_all.py", line 118, in <module>
+    raise RuntimeError(f"FARPOST: HTTP {resp_cffi.status_code}, {len(resp_cffi.text)} bytes")
+RuntimeError: FARPOST: HTTP 404, 12941 bytes
+2026-11-11 11:01:42,404 v76 INFO === 2. OZON ===
+2026-11-11 11:01:42,404 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 11:01:42,405 v76 INFO OZON: fetching https://www.ozon.ru/product/1600562267/ (curl_cffi)
+2026-11-11 11:01:43,331 v76 INFO OZON: HTTP 403, 8228 bytes
+2026-11-11 11:01:49,892 v76 INFO OZON retry: HTTP 403, 8316 bytes
+2026-11-11 11:01:49,892 v76 ERROR OZON FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v76_e2e_all.py", line 171, in <module>
+    raise RuntimeError(f"OZON: HTTP {resp_cffi.status_code}, {len(resp_cffi.text)} bytes")
+RuntimeError: OZON: HTTP 403, 8316 bytes
+2026-11-11 11:01:49,893 v76 INFO === 3. WILDBERRIES ===
+2026-11-11 11:01:49,893 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 11:01:49,893 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 11:02:28,063 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-11 11:02:31,321 r52.collectors.wb INFO WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-11 11:02:31,321 v76 INFO WB: basket CDN OK (24 keys)
+2026-11-11 11:02:32,106 v76 INFO WB price card_v1: HTTP 403
+2026-11-11 11:02:33,900 v76 INFO WB price card_v2: HTTP 403
+2026-11-11 11:02:35,706 v76 INFO WB price card_v4: HTTP 403
+2026-11-11 11:02:37,495 v76 INFO WB price card_v5: HTTP 403
+2026-11-11 11:02:39,316 v76 INFO WB price catalog: HTTP 403
+2026-11-11 11:02:40,634 v76 WARNING WB price static-basket error: Failed to perform, curl: (6) Could not resolve host: static-basket-13.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 11:02:41,431 v76 INFO WB HTML: HTTP 498, 1136 bytes
+2026-11-11 11:02:41,432 r52.collectors.wb INFO WB 199298871: photo_count=6, found=1
+2026-11-11 11:02:41,432 r52.collectors.wb INFO WB 199298871: has_video=true, видео не найдено
+2026-11-11 11:02:41,442 v76 INFO WB: pid=3 prices=0 avail=UNKNOWN basket=True price_api=False(?) html=False
+2026-11-11 11:02:41,442 v76 INFO === 4. AVITO ===
+2026-11-11 11:02:41,442 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 11:02:41,442 v76 INFO AVITO: strategy A - desktop category
+2026-11-11 11:02:42,350 v76 INFO AVITO category: HTTP 439, 14382 bytes
+2026-11-11 11:02:42,350 v76 INFO AVITO: strategy B - mobile category
+2026-11-11 11:02:43,312 v76 INFO AVITO m-category: HTTP 429, 34116 bytes
+2026-11-11 11:02:43,312 v76 INFO AVITO: strategy C - known IDs
+2026-11-11 11:02:44,156 v76 INFO AVITO test 8341658309: HTTP 404, 29440 bytes
+2026-11-11 11:02:44,940 v76 INFO AVITO test 1045236789: HTTP 404, 29440 bytes
+2026-11-11 11:02:45,772 v76 INFO AVITO test 1154321987: HTTP 404, 29440 bytes
+2026-11-11 11:02:46,578 v76 INFO AVITO test 8500000001: HTTP 404, 29440 bytes
+2026-11-11 11:02:47,431 v76 INFO AVITO test 8500000002: HTTP 404, 29440 bytes
+2026-11-11 11:02:47,431 v76 INFO AVITO: strategy D - search API
+2026-11-11 11:02:48,226 v76 INFO AVITO search API: HTTP 404, 555 bytes
+2026-11-11 11:02:48,226 v76 ERROR AVITO FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v76_e2e_all.py", line 441, in <module>
+    raise RuntimeError("AVITO: не найдено живое объявление (все 4 стратегии)")
+RuntimeError: AVITO: не найдено живое объявление (все 4 стратегии)
+2026-11-11 11:02:48,228 v76 INFO === 5. VERIFICATION ===
+2026-11-11 11:02:48,230 v76 INFO ПОСЛЕ: {'product': 3, 'observation': 11, 'price_point': 6, 'source': 6}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: not all arguments converted during string formatting (required 8, got 9)
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v76_e2e_all.py", line 520, in <module>
+    log.info("  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s",
+Message: '  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s'
+Arguments: ('FARPOST', 1, '130693618', 'Triangle IcelynX TI501, 205/55 R16 94T X', 2440000, 'RUB', 'IN_STOCK', 3, '2026-11-11T00:39:00.246+00:00')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: not all arguments converted during string formatting (required 8, got 9)
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v76_e2e_all.py", line 520, in <module>
+    log.info("  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s",
+Message: '  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s'
+Arguments: ('OZON', 2, '1600562267', 'Ткань для обивки мебели, Велюр с абстрак', 229500, 'RUB', 'IN_STOCK', 3, '2026-11-11T00:39:00.972+00:00')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: not all arguments converted during string formatting (required 8, got 9)
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v76_e2e_all.py", line 520, in <module>
+    log.info("  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s",
+Message: '  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s'
+Arguments: ('WB', 3, '199298871', 'Овсяный смарт коктейль для похудения без', None, None, 'UNKNOWN', 5, '2026-11-11T01:02:41.432+00:00')
+2026-11-11 11:02:48,235 v76 INFO   PP [FARPOST]: count=3 range=2440000..2440000
+2026-11-11 11:02:48,235 v76 INFO   PP [OZON]: count=3 range=229500..229500
+
+============================================================
+V76 E2E ALL: PARTIAL
+  ✗ FARPOST: prices=0 avail=?
+  ✗ OZON: prices=0 avail=?
+  ✓ WB: prices=0 avail=UNKNOWN basket=True api=False(None) | Овсяный смарт коктейль для похудения без
+  ✗ AVITO: prices=0 avail=? ad=?
+  DB: {'product': 3, 'observation': 10, 'price_point': 6, 'source': 6} → {'product': 3, 'observation': 11, 'price_point': 6, 'source': 6}
+============================================================
+
+DONE

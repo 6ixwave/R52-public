@@ -1,0 +1,46 @@
+{
+  "time": "2026-11-12T16:42:12.373793",
+  "total_s": 97.6,
+  "results": {
+    "WB:cffi_html": {
+      "ok": false,
+      "detail": "HTTP=498 len=1136 prices=[] og=None basic=[]",
+      "s": 1.1
+    },
+    "WB:cffi_card_v2": {
+      "ok": false,
+      "detail": "HTTP=403 first80=",
+      "s": 2.0
+    },
+    "WB:playwright_10s": {
+      "ok": [],
+      "detail": "len=7590 title=... prices=[] dom=[] xhr=[]",
+      "s": 13.3
+    },
+    "WB:basket_cdn": {
+      "ok": true,
+      "detail": "host=basket-42.wbbasket.ru vol=10979 part=1097975 title=Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM) keys=21",
+      "s": 57.2
+    },
+    "FP:playwright": {
+      "ok": [],
+      "detail": "ID=138952176 url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F138952176.html len=216616 title=Фарпост - доска объявлений prices=[] pats={'data-price': [], 'price-class': [], 'json-ld': False, 'og-price': [], 'rub-symbol': []}",
+      "s": 78.5
+    },
+    "FP:cffi_direct": {
+      "ok": false,
+      "detail": "ID=138952176 HTTP=200 len=198068 title=Фарпост - доска объявлений prices=[] home=True",
+      "s": 80.2
+    },
+    "AV:playwright_8s": {
+      "ok": [],
+      "detail": "len=311095 prices=[] pats={'data-price': [], 'meta-og': [], 'price-el': [], 'json-state': False, 'captcha': True, 'rub': []} xhr=[]",
+      "s": 89.8
+    },
+    "AV:playwright_m": {
+      "ok": [],
+      "detail": "len=36439 prices=[] pats={'data-price': [], 'rub': [], 'captcha': True}",
+      "s": 97.6
+    }
+  }
+}

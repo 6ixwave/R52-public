@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Monitor da gioco KTC H27T7P-2 Fast IPS da 27 pollici 2560×1440 QHD 200Hz fino a 210Hz Tempo di risposta MPRT di 1 ms Sincronizzazione adattiva avanzata e HDR400",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "194.32",
+        "amount_minor": 19432,
+        "currency": "EUR",
+        "visible_label": "194.32 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "228.08",
+        "amount_minor": 22808,
+        "currency": "EUR",
+        "visible_label": "228.08 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S9e17aafc959b4b33b6e0cf27e128ce9bN.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005012258539556",
+    "listing_id": "1005012258539556",
+    "title": "Monitor da gioco KTC H27T7P-2 Fast IPS da 27 pollici 2560×1440 QHD 200Hz fino a 210Hz Tempo di risposta MPRT di 1 ms Sincronizzazione adattiva avanzata e HDR400",
+    "url": "https://www.aliexpress.com/item/1005012258539556.html",
+    "observed_at": "2026-11-15T02:37:52.094374+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

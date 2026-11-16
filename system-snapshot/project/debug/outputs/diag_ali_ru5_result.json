@@ -1,0 +1,72 @@
+{
+  "pid": "1005013496905897",
+  "url": "https://ru.aliexpress.com/item/1005013496905897.html",
+  "ts": "2026-11-12T20:07:14.568313+00:00",
+  "phase": "done",
+  "log": [
+    "[06:07:15] Browser OK (ru locale)",
+    "[06:07:15] Warming session...",
+    "[06:07:28] Warm: 47 cookies",
+    "[06:07:28] Navigating: https://ru.aliexpress.com/item/1005013496905897.html",
+    "[06:07:29] HTTP 200",
+    "[06:07:35] tick=0: h1= prices=[] ifr=0 body=99770",
+    "[06:07:36] tick=1: h1= prices=[] ifr=0 body=99770",
+    "[06:07:37] tick=2: h1= prices=[] ifr=0 body=99770",
+    "[06:07:38] tick=3: h1= prices=[] ifr=0 body=99770",
+    "[06:07:39] tick=4: h1= prices=[] ifr=0 body=99770",
+    "[06:07:40] tick=5: h1= prices=[] ifr=0 body=99770",
+    "[06:07:41] tick=6: h1= prices=[] ifr=0 body=99770",
+    "[06:07:42] tick=7: h1= prices=[] ifr=0 body=99770",
+    "[06:07:43] tick=8: h1= prices=[] ifr=0 body=99770",
+    "[06:07:44] tick=9: h1= prices=[] ifr=0 body=99770",
+    "[06:07:45] tick=10: h1= prices=[] ifr=0 body=99770",
+    "[06:07:46] tick=11: h1= prices=[] ifr=0 body=99770",
+    "[06:07:47] tick=12: h1= prices=[] ifr=0 body=99770",
+    "[06:07:48] tick=13: h1= prices=[] ifr=0 body=99770",
+    "[06:07:49] tick=14: h1= prices=[] ifr=0 body=99770",
+    "[06:07:49] Direct MTOP API call...",
+    "[06:07:51] MTOP direct: status=200 len=531",
+    "[06:07:51] MTOP direct body[:200]={\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg46f630b76300236",
+    "[06:07:51] Extracting SSR state...",
+    "[06:07:51] MTOP intercept: 531b status=200",
+    "[06:07:51] SSR: initState=N runParams=N scripts=0",
+    "[06:07:51] Full DOM extraction...",
+    "[06:07:51] DOM: title=Пройдите проверку prices=[] imgs=2 jsonld=0",
+    "[06:07:51] HTML saved: 825505 bytes",
+    "[06:07:51] Screenshot saved",
+    "[06:07:51] DONE: rendered=False tmd=False tmd_solved=False mtop=1"
+  ],
+  "mtop_all": [
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794514069516&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&dataType=json&data=%7B%22productId%22%3A%221005013496905897%22%7D",
+      "status": 200,
+      "len": 531,
+      "body": "{\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg46f630b763002364knb3defdfd1dbef83bd943e2f829cc20ae1794514072a-1168960602a-1317347523abaxc3eajrecaptcha33b82172c9bd06282a9a4bf0ed00391c498__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}},\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}}"
+    }
+  ],
+  "mtop_direct": {
+    "status": 200,
+    "len": 531,
+    "body": "{\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg46f630b763002364knb3defdfd1dbef83bd943e2f829cc20ae1794514072a-1168960602a-1317347523abaxc3eajrecaptcha33b82172c9bd06282a9a4bf0ed00391c498__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}},\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}}"
+  },
+  "ssr_state": {
+    "scripts": []
+  },
+  "dom": {
+    "title": "Пройдите проверку",
+    "meta": {},
+    "prices": [],
+    "images": [
+      "https://img.alicdn.com/tfs/TB17G2dJGmWBuNjy1XaXXXCbXXa-241-41.png",
+      "https://img.alicdn.com/imgextra/i2/O1CN01mynkA41qcNpWQTyVB_!!6000000005516-2-tps-644-832.png"
+    ],
+    "jsonld": [],
+    "availability": null,
+    "category": null,
+    "bodyLen": 99770
+  },
+  "rendered": false,
+  "tmd_found": false,
+  "tmd_solved": false,
+  "tmd_punish_url": null
+}

@@ -1,0 +1,58 @@
+{
+  "before": {
+    "product": -1,
+    "observation": -1,
+    "price_point": -1
+  },
+  "ozon": {
+    "ok": false,
+    "http": 403,
+    "len": 8342,
+    "t": 1.7,
+    "mobile": {
+      "http": 403,
+      "len": 8286,
+      "t": 1.6
+    }
+  },
+  "farpost_live": {
+    "ok": true,
+    "http": 200,
+    "len": 197980,
+    "t": 0.8,
+    "verify": true,
+    "jsonld": false,
+    "ld_price": null,
+    "attr_price": null,
+    "title": ""
+  },
+  "wb_basket": {
+    "ok": false,
+    "host": null,
+    "title": null,
+    "prices": []
+  },
+  "intake": {
+    "jarvis-eye-wb-056e75a5.json": {
+      "error": "'Paths' object has no attribute 'tz'"
+    },
+    "jarvis-eye-wb-d278551a.json": {
+      "error": "'Paths' object has no attribute 'tz'"
+    },
+    "jarvis-eye-farpost-65c1950c.json": {
+      "error": "'Paths' object has no attribute 'tz'"
+    },
+    "jarvis-eye-farpost-b9b6aaed.json": {
+      "error": "'Paths' object has no attribute 'tz'"
+    }
+  },
+  "after": {
+    "product": -1,
+    "observation": -1,
+    "price_point": -1
+  },
+  "delta": {},
+  "by_source": "'_GeneratorContextManager' object has no attribute 'execute'",
+  "total_s": 41.6,
+  "time": "2026-11-12T18:50:18.002394+10:00"
+}

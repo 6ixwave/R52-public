@@ -1,0 +1,18 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 19:13:28,631 r52.autocollect.worker INFO phase=worker_start pid=24724
+2026-11-15 19:13:28,643 r52.autocollect.worker INFO source=ALIEXPRESS mode=discover phase=initialize
+2026-11-15 19:13:28,644 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-15 19:13:28,645 r52.autocollect.worker INFO source=ALIEXPRESS proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-15 19:13:28,645 r52.autocollect.worker INFO source=ALIEXPRESS phase=search_start page=1 limit=5
+2026-11-15 19:13:43,653 r52.collectors.aliexpress WARNING ALI_COM: wholesale HTML error: Failed to perform, curl: (28) Connection timed out after 15001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 19:13:49,326 r52.collectors.aliexpress INFO ALI_COM: curl_cffi 200 but short (1987 bytes), trying PW
+2026-11-15 19:13:50,134 r52.collectors.aliexpress INFO ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile, domain=com
+2026-11-15 19:13:50,139 r52.collectors.aliexpress INFO ALI PW: session already warm (20 cookies)
+2026-11-15 19:13:52,300 r52.collectors.aliexpress WARNING ALI PW: fetch error: Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.aliexpress.com/wholesale?SearchText=%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0&page=1
+Call log:
+  - navigating to "https://www.aliexpress.com/wholesale?SearchText=%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0&page=1", waiting until "domcontentloaded"
+
+2026-11-15 19:13:59,180 r52.autocollect.worker INFO source=ALIEXPRESS phase=write_start returned=0 valid=0 stats={'requests': 4, 'success': 1, 'failed': 1, 'blocked': 0}
+2026-11-15 19:13:59,181 r52.autocollect.worker INFO source=ALIEXPRESS phase=write_complete files=0
+2026-11-15 19:13:59,181 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_start
+2026-11-15 19:13:59,525 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_complete

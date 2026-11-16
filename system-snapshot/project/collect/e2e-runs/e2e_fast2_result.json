@@ -1,0 +1,137 @@
+{
+  "ts": "2026-11-12T08:10:35.198527+10:00",
+  "s": 10.4,
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "partial": 1,
+  "d": {
+    "WB": {
+      "verdict": "E2E_PARTIAL",
+      "sqlite": {
+        "products": [
+          {
+            "id": 1,
+            "source": "WB",
+            "listing_id": "1097975275",
+            "title": "Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)",
+            "url": "https://www.wildberries.ru/catalog/1097975275/detail.aspx"
+          }
+        ],
+        "observations": [
+          {
+            "id": 1,
+            "product_id": 1,
+            "observed_at": "2026-11-11T22:10:26.731+00:00",
+            "availability": "UNKNOWN"
+          }
+        ],
+        "price_points": [],
+        "product_count": 1,
+        "observation_count": 1,
+        "price_point_count": 0
+      },
+      "inbox": {
+        "id": 1,
+        "content_sha256": "793ae2bc7e12d6b47d555703eecf639e4e9854bd32f8ed50c1ca1b04f7dae042",
+        "filename": "fast2-WB-793ae2bc.json",
+        "origin": "FAST2_WB",
+        "received_at": "2026-11-11T22:10:26.753+00:00",
+        "status": "ACCEPTED",
+        "error_code": null,
+        "decided_at": "2026-11-11T22:10:26.758+00:00",
+        "observation_id": 1,
+        "preview": {
+          "source": "WB",
+          "listing_id": "1097975275",
+          "url": "https://www.wildberries.ru/catalog/1097975275/detail.aspx",
+          "title": "Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)",
+          "observed_at": "2026-11-11T22:10:26.731+00:00",
+          "price_text": "Цена неизвестна",
+          "currency": null,
+          "regular_minor": null,
+          "lowest_minor": null,
+          "lowest_role": null,
+          "old_minor": null,
+          "conditional": false,
+          "prices": [],
+          "availability": "UNKNOWN",
+          "completeness": {
+            "total": 14,
+            "known": 2,
+            "unknown": [
+              "Модификация",
+              "Отображаемая цена",
+              "Условия цены",
+              "Состояние",
+              "Комплект",
+              "Местонахождение продавца",
+              "Наличие",
+              "Доставка",
+              "Гарантия",
+              "Возврат",
+              "Отзывы",
+              "Вопросы покупателей"
+            ],
+            "independently_verified": 0
+          },
+          "conflicts": [],
+          "checks": [
+            {
+              "code": "VERIFY_TOTAL",
+              "text": "Уточнить применимую цену, наличие, доставку во Владивосток и все обязательные расходы."
+            },
+            {
+              "code": "VERIFY_VARIANT",
+              "text": "Сверить точный MPN по фото или маркировке и фактическую модификацию."
+            },
+            {
+              "code": "VERIFY_CONDITION_WARRANTY",
+              "text": "Уточнить состояние, историю обслуживания, комплект, гарантию и возможность проверки."
+            }
+          ],
+          "photo_count": 1,
+          "video_count": 0
+        },
+        "error_message": null,
+        "product_id": 1,
+        "observation_created": true,
+        "events": []
+      }
+    },
+    "OZON": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "inbox": null
+    },
+    "AVITO": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "inbox": null
+    },
+    "FARPOST": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "inbox": null
+    }
+  }
+}

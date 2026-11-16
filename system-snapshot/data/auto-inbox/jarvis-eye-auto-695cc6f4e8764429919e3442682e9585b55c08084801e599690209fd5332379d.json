@@ -1,0 +1,64 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Полотенца банные махровые в наборе 3шт 70х140,50х90,30х60см",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Letto",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 63900,
+        "amount": "639.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 181700,
+        "amount": "1817.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "source": "WB",
+    "id": "18638345",
+    "listing_id": "18638345",
+    "title": "Полотенца банные махровые в наборе 3шт 70х140,50х90,30х60см",
+    "url": "https://www.wildberries.ru/catalog/18638345/detail.aspx",
+    "observed_at": "2026-11-16T04:45:48.807354+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

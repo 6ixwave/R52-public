@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Средство для очистки труб от засоров, 10 шт",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Expel",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Инновационное решение для мгновенного устранения засоров в вашем доме! С набором от EXPEL проблемы с трубами и канализацией уйдут в прошлое. Всего несколько минут, и ваши трубы будут свободны от нежелательных преград.\n\nСаше Волосогон - мощный инструмент против волосенных засоров. Он быстро и эффективно растворяет волосы, предотвращая образование пробок в трубах ванной или душа. И Жирогон специально разработан для борьбы с жировыми отложениями, активно действуя даже в стоячей воде раковины на кухне.\n\nБезопасность при использовании гарантирована – средства работают без хлора, не оставляя неприятного запаха.\n\n\nПрименение продуктов просто и удобно. Гранулы необходимо высыпать из пакетика, они начинают действовать мгновенно, обеспечивая результат уже через 5-15 минут. Порошок эффективен в борьбе со всеми типами канализационных проблем, в ванной, кухне или раковине.\n\nВ набор входят 6 саше Волосогон по 50 гр и 4 саше Жирогон по 50 гр. Комплексное решение от EXPEL – это оптимальный выбор для тех, кто ценит чистоту, комфорт и быстроту действия. Откройте для себя невиданные ранее возможности в уходе за канализационной системой вашего дома, выбрав набор средств от засоров от проверенного производителя хозяйственных товаров. Ваш дом заслуживает лучшего, и EXPEL готов предоставить это качество!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Бытовая химия > Средства для прочистки труб",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 47000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "470.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 26900,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "269.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Бытовая химия > Средства для прочистки труб",
+    "source": "WB",
+    "id": "41128682",
+    "url": "https://www.wildberries.ru/catalog/41128682/detail.aspx",
+    "observed_at": "2026-11-16T17:33:29.535507+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

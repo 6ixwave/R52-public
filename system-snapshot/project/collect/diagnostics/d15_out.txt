@@ -1,0 +1,22 @@
+﻿=== diag_multi15 START 16:56:22 ===
+[WB:1_card_json] FAIL | HTTP=404 len=196 url=https://basket-42.wbbasket.ru/vol22274/part81309/2227481309/card.json
+[WB:2_selling] FAIL | HTTP=403 len=0
+[WB:3_cardw_v2] FAIL | HTTP=403 len=0
+[WB:4_basket_s] FAIL | HTTP=404 len=196
+[FP:1_main] PASS | HTTP=200 len=78072 cats=['auto', 'rabota', 'realty', 'service', 'zapchasti', 'water', 'wedding', 'business', 'food', 'gifts', 'home', 'rest', 'sport', 'hobby', 'clothes']
+[FP:2_category] PASS | cat=auto HTTP=200 len=186608 anns=35 sample=[('/vladivostok/auto/misc/vskrytie-avto-bez-kljucha-otkryt-mashinu-vskryt-avtomobil-bagazhnik-24ch-134693091.html', 'vskrytie-avto-bez-kljucha-otkryt-mashinu-vskryt-avtomobil-bagazhnik-24ch-', '134693091'), ('/vladivostok/service/shipping/manipuljator-vorovajka-130705806.html', 'manipuljator-vorovajka-', '130705806'), ('/vladivostok/service/auto/rent/fit-v-arendu-ot-900-rublej-18001555.html', 'fit-v-arendu-ot-900-rublej-', '18001555')]
+[FP:3_ann] PASS | id=134693091 url=https://www.farpost.ru/vladivostok/auto/misc/vskrytie-avto-b price=500 title=Вскрытие авто без ключа Открыть машину Вскрыть автомобиль Багажник 24ч, новый, в len=40930
+[OZ:1_product] FAIL | price=None title=Похоже, нет соединения page_title=Похоже, нет соединения len=3305
+[AV:1_category] FAIL | len=36447 offers=0 sample=[] title=Доступ ограничен: проблема с IP
+
+=== SUMMARY (24.4s) ===
+  FAIL WB:1_card_json: HTTP=404 len=196 url=https://basket-42.wbbasket.ru/vol22274/part81309/2227481309/card.json
+  FAIL WB:2_selling: HTTP=403 len=0
+  FAIL WB:3_cardw_v2: HTTP=403 len=0
+  FAIL WB:4_basket_s: HTTP=404 len=196
+  PASS FP:1_main: HTTP=200 len=78072 cats=['auto', 'rabota', 'realty', 'service', 'zapchasti', 'water', 'wedding', 'business', 'food', 'gi
+  PASS FP:2_category: cat=auto HTTP=200 len=186608 anns=35 sample=[('/vladivostok/auto/misc/vskrytie-avto-bez-kljucha-otkryt-mashinu-vskryt-av
+  PASS FP:3_ann: id=134693091 url=https://www.farpost.ru/vladivostok/auto/misc/vskrytie-avto-b price=500 title=Вскрытие авто без ключа От
+  FAIL OZ:1_product: price=None title=Похоже, нет соединения page_title=Похоже, нет соединения len=3305
+  FAIL AV:1_category: len=36447 offers=0 sample=[] title=Доступ ограничен: проблема с IP
+EXIT=0

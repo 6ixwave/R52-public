@@ -1,0 +1,33 @@
+[OK] curl_cffi available
+
+======================================================================
+1. FARPOST — cffi + immediate challenge  [0.1s] rem=150s
+======================================================================
+  [FP page] 200 | 89842B [1.9s]
+  Cookies: [REDACTED_AUTH_SECRET]
+  challengeurl: ?r=1&u=%2Fgeo%2Fmoskva%2Fl%2Ftelefony%2F&f=2&a=1794308085897
+  [Challenge fetch] 404 | 14060B | CT=text/html; charset=windows-1251 [0.16s after page]
+  Body[:300]: <!DOCTYPE html>
+<html lang="ru">
+<head>
+		<title>Страница не найдена</title>
+
+<meta charset="windows-1251" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+<meta http-equiv="x-dns-prefetch-control" content="on">
+
+	<link rel="dns-prefetch" href="https://static.baza.farpost.
+  Alt paths in page: []
+  [ww.farpost.ru/altcha/challenge] 404 | 13896B
+  [u/geo/moskva/l/telefony/altcha] 404 | 13926B
+  [ww.farpost.ru/verify/challenge] 404 | 9B
+  Reloading page for fresh challenge... [2.5s]
+  Farpost unlocked: False
+
+======================================================================
+2. WILDBERRIES — CDN optimized + search  [2.7s] rem=147s
+======================================================================
+  [Search v5] 403 | 0B [3.1s]
+
+  --- CDN (parallel baskets) --- [3.1s]

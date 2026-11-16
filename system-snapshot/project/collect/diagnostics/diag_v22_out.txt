@@ -1,0 +1,69 @@
+======================================================================
+1. WILDBERRIES [rem=199s]
+======================================================================
+  [card_v2] 403 | 0B
+  --- CDN scan (basket) ---
+    basket-1990.wbbasket.ru             -> -1 | 0B 
+    basket-1991.wbbasket.ru             -> -1 | 0B 
+    basket-1992.wbbasket.ru             -> -1 | 0B 
+    basket-1993.wbbasket.ru             -> -1 | 0B 
+    basket-1994.wbbasket.ru             -> -1 | 0B 
+    basket-1995.wbbasket.ru             -> -1 | 0B 
+    basket-1996.wbbasket.ru             -> -1 | 0B 
+    basket-1997.wbbasket.ru             -> -1 | 0B 
+    basket-1998.wbbasket.ru             -> -1 | 0B 
+    basket-1999.wbbasket.ru             -> -1 | 0B 
+  --- CDN scan (static-basket) ---
+    static-basket-1990.wbbasket.ru      -> -1 | 0B 
+    static-basket-1991.wbbasket.ru      -> -1 | 0B 
+    static-basket-1992.wbbasket.ru      -> -1 | 0B 
+    static-basket-1993.wbbasket.ru      -> -1 | 0B 
+    static-basket-1994.wbbasket.ru      -> -1 | 0B 
+    static-basket-1995.wbbasket.ru      -> -1 | 0B 
+  --- CDN alt product 142770354 (vol=142, part=142770) ---
+  WB: 185.6s
+======================================================================
+2. OZON [rem=14s]
+======================================================================
+  [home] 403 | 8493B | ck=['__Secure-ETC', 'abt_data']
+  [product] 403 | 10103B | JSONLD=False OG=False
+  [composer] 403 | 6871B
+  [api.ozon.ru] -1 | 0B
+  [cffi_product] 403 | 8405B | JSONLD=False
+  [mobile] 403 | 5285B
+  OZON: 6.7s
+======================================================================
+3. AVITO [rem=7s]
+======================================================================
+  [home] 439 | 14889B | ck=['srv_id', 'gMltIuegZN2COuSe', '_avisc', 'pow_challenge']
+  PoW: 1
+  [search] 200 | 314829B
+  [search_links] 0 found
+  [cffi_ad] 404 | 29907B
+  AVITO: 2.9s
+======================================================================
+4. FARPOST [rem=4s]
+======================================================================
+  [home] 200 | 73362B | ck=['ring', 'ring_session']
+  [cat_for_item] 404 | 13892B (not 200 or small)
+  FARPOST: 1.5s
+======================================================================
+5. PROXY [rem=3s]
+======================================================================
+  [monosans_http] 200 | 672 proxies
+  [proxyscrape] 200 | 55 lines | 5 proxies
+  Total unique: 55
+  PROXY: 2.3s
+
+======================================================================
+SUMMARY [199.5s]
+======================================================================
+  WB: 17 tests, 0 x 200
+  OZON: 6 tests, 0 x 200
+  AVITO: 3 tests, 1 x 200
+    OK search: 314829B
+  FARPOST: 1 tests, 1 x 200
+    OK home: 73362B
+  PROXY working: 0
+
+DONE diag_v22 [199.5s]

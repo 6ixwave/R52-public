@@ -1,0 +1,203 @@
+{
+  "FP:cat_items": {
+    "ok": true,
+    "detail": "enc=windows-1251 len=316946 items=697 dbull=50 did=0 bhrefs=0 pspans=51 jblobs=7 idprice=0 fpitems=0 dqa=0 dtest=0",
+    "s": 2.9,
+    "data": {
+      "encoding": "windows-1251",
+      "html_len": 316946,
+      "item_blocks_count": 697,
+      "data_bull_ids": [
+        "134693091",
+        "123571809",
+        "123801100",
+        "115197809",
+        "115363107",
+        "116706095",
+        "116952843",
+        "83297434",
+        "116706084",
+        "138053633",
+        "138051731",
+        "138058109",
+        "123801127",
+        "116705777",
+        "123873469",
+        "131244214",
+        "111690466",
+        "116530155",
+        "116530178",
+        "116568839"
+      ],
+      "data_ids": [],
+      "bull_hrefs_sample": [],
+      "price_spans": [
+        "\t",
+        "500",
+        "3 000",
+        "5 000",
+        "3 000",
+        "1 500",
+        "3 000",
+        "3 000",
+        "6 000",
+        "5 000",
+        "5 000",
+        "5 000",
+        "3 000",
+        "1 000",
+        "6 000",
+        "5 000",
+        "6 000",
+        "1 000",
+        "3 000",
+        "1 000"
+      ],
+      "json_blobs_keys": [
+        [
+          "@context",
+          "@type",
+          "itemListElement"
+        ],
+        [
+          "offset",
+          "exactFeedCount",
+          "directory",
+          "city",
+          "site",
+          "url",
+          "reqsig",
+          "referrerReqsig",
+          "viewdirType"
+        ],
+        [
+          "@context",
+          "@type",
+          "name",
+          "description",
+          "aggregateRating",
+          "offers"
+        ],
+        [
+          "@context",
+          "@type",
+          "name",
+          "url"
+        ],
+        [
+          "unreadNotifications",
+          "unreadDialogs"
+        ]
+      ],
+      "id_price_pairs": [],
+      "fp_items_sample": [],
+      "sample_blocks": [
+        "<div class=\"items\"><div class=\"options\"><table class=\"itemsTableCol1\"><tr><td class=\"col1\"><div class=\"item\"><a  class=\"option\" href=\"https://www.farpost.ru/vladivostok/auto/misc/?condition%5B%5D=new\" data-value=\"new\">Новый</a><small>3111</small></div><div class=\"item\"><a  class=\"option\" href=\"https://www.farpost.ru/vladivostok/auto/misc/?condition%5B%5D=used\" data-value=\"used\">Б/у</a><small>4351</small></div></td></tr></table></div></div></div>\t</div>\n\t\n\t<div class=\"groupItem js-view-dir-filter fi_goodPresentState\">\n\t\t\t\t\t<h4>Наличие</h4>\n\t\t\t\t<noindex><div  name=\"goodPresentState\" class=\"treeSelectControl js-viewdir-options-select-control\" data-multi-select=\"yes\" id=\"goodPresentState\" data-name=\"goodPresentState\"><div class=\"items\"><div class=\"options\"><table class=\"itemsTableCol1\"><tr><td",
+        "<div class=\"item\"><a  class=\"option\" href=\"https://www.farpost.ru/vladivostok/auto/misc/?condition%5B%5D=new\" data-value=\"new\">Новый</a><small>3111</small></div><div class=\"item\"><a  class=\"option\" href=\"https://www.farpost.ru/vladivostok/auto/misc/?condition%5B%5D=used\" data-value=\"used\">Б/у</a><small>4351</small></div></td></tr></table></div></div></div>\t</div>\n\t\n\t<div class=\"groupItem js-view-dir-filter fi_goodPresentState\">\n\t\t\t\t\t<h4>Наличие</h4>\n\t\t\t\t<noindex><div  name=\"goodPresentState\" class=\"treeSelectControl js-viewdir-options-select-control\" data-multi-select=\"yes\" id=\"goodPresentState\" data-name=\"goodPresentState\"><div class=\"items\"><div class=\"options\"><table class=\"itemsTableCol1\"><tr><td class=\"col1\"><div class=\"item\"><a  class=\"option\" href=\"https://www.farpost.ru/vladivostok",
+        "<div class=\"item\"><a  class=\"option\" href=\"https://www.farpost.ru/vladivostok/auto/misc/?condition%5B%5D=used\" data-value=\"used\">Б/у</a><small>4351</small></div></td></tr></table></div></div></div>\t</div>\n\t\n\t<div class=\"groupItem js-view-dir-filter fi_goodPresentState\">\n\t\t\t\t\t<h4>Наличие</h4>\n\t\t\t\t<noindex><div  name=\"goodPresentState\" class=\"treeSelectControl js-viewdir-options-select-control\" data-multi-select=\"yes\" id=\"goodPresentState\" data-name=\"goodPresentState\"><div class=\"items\"><div class=\"options\"><table class=\"itemsTableCol1\"><tr><td class=\"col1\"><div class=\"item\"><a  class=\"option\" href=\"https://www.farpost.ru/vladivostok/auto/misc/?goodPresentState%5B%5D=present\" rel=\"nofollow\" data-value=\"present\">В наличии во Владивостоке</a><small>5837</small></div><div class=\"item\"><a  class"
+      ],
+      "data_qa_sample": []
+    }
+  },
+  "FP:query": {
+    "ok": true,
+    "detail": "cards=2",
+    "s": 4.5,
+    "data": [
+      {
+        "query": "134693091",
+        "http": 200,
+        "enc": "windows-1251",
+        "len": 42735,
+        "jld_count": 2,
+        "jld_types": [
+          "BreadcrumbList",
+          "WebSite"
+        ],
+        "prices": [],
+        "h1": "134693091",
+        "bull_data": [],
+        "price_data": []
+      },
+      {
+        "query": "121063385",
+        "http": 200,
+        "enc": "windows-1251",
+        "len": 42735,
+        "jld_count": 2,
+        "jld_types": [
+          "BreadcrumbList",
+          "WebSite"
+        ],
+        "prices": [],
+        "h1": "121063385",
+        "bull_data": [],
+        "price_data": []
+      }
+    ]
+  },
+  "OZ:quick": {
+    "ok": true,
+    "detail": "len=1082130 jld=1 price=284 name='Маленький Принц и лис: набор добрых летних открыток для посткроссинга, поздравле'",
+    "s": 16.8,
+    "data": {
+      "price": "284",
+      "name": "Маленький Принц и лис: набор добрых летних открыток для посткроссинга, поздравле",
+      "html_len": 1082130,
+      "jsonld": {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "352"
+        },
+        "brand": "Станислав Миков",
+        "description": "Набор открыток Маленький принц с лисом — комплект из 5 авторских открыток формата 10×15 см с тёплыми вдохновляющими иллюстрациями и философскими фразами. Открытки посвящены дружбе, поддержке, пути и внутреннему свету, подойдут для подарка, посткроссинга и душевных поздравлений близким людям.Открытки Маленький принц для посткроссинга напечатаны на плотном картоне 300 г/м² с яркой и чистой печатью. Изображения хорошо читаются, цвета мягкие и гармоничные, открытки не мнутся при пересылке и долго сохраняют аккуратный вид.Набор открыток с цитатами и сказочными иллюстрациями подходит для поддержки в трудный момент, тёплых слов без повода, писем друзьям, оформления альбомов и хранения на память. Универсальный размер 10×15 см подходит для рамок, конвертов и почтовых отправлений.Подарочные открытки с Маленьким принцем и лисом станут символичным знаком внимания для тех, кто ценит смысл, доброту и атмосферу спокойствия. Такой набор легко дарить детям и взрослым, он подходит для дней рождения, личных посланий и просто тёплых жестов без повода.",
+        "image": "https://ir.ozone.ru/s3/multimedia-1-t/15375452357.jpg",
+        "name": "Маленький Принц и лис: набор добрых летних открыток для посткроссинга, поздравлений и мотивации (5 шт.)",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.ozon.ru/product/malenkiy-prints-i-lis-nabor-dobryh-letnih-otkrytok-dlya-postkrossinga-pozdravleniy-i-motivatsii-3481320800/",
+          "availability": "http://schema.org/InStock",
+          "price": "284",
+          "priceCurrency": "RUB"
+        },
+        "sku": "3481320800"
+      }
+    }
+  },
+  "WB:pw": {
+    "ok": false,
+    "detail": "len=7590 jld=0 prices=0 name='Что-то не так...' api=3 next=False",
+    "s": 28.5,
+    "data": {
+      "html_len": 7590,
+      "jld": [],
+      "prices": [],
+      "name": "Что-то не так...",
+      "api_responses": [
+        {
+          "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/find-frontend-settings",
+          "len": 276,
+          "preview": "{\"solverPath\":\"/statics/challenge-solver_v1.0.8.js\",\"analytics\":{\"path\":\"/statics/behavior-tracker_v1.0.3.js\",\"feat\":[\"pm\",\"te\",\"cl\",\"mc\",\"cm\",\"kb\",\"cb\",\"sc\",\"fc\",\"oh\"],\"throttleMs\":25,\"maxPoints\":300,\"autoStart\":false,\"reportMs\":10000},\"solverConfig\":{\"metricsEnabled\":true}}"
+        },
+        {
+          "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/find-frontend-settings",
+          "len": 276,
+          "preview": "{\"solverPath\":\"/statics/challenge-solver_v1.0.8.js\",\"analytics\":{\"path\":\"/statics/behavior-tracker_v1.0.3.js\",\"feat\":[\"pm\",\"te\",\"cl\",\"mc\",\"cm\",\"kb\",\"cb\",\"sc\",\"fc\",\"oh\"],\"throttleMs\":25,\"maxPoints\":300,\"autoStart\":false,\"reportMs\":10000},\"solverConfig\":{\"metricsEnabled\":true}}"
+        },
+        {
+          "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/find-frontend-settings",
+          "len": 276,
+          "preview": "{\"solverPath\":\"/statics/challenge-solver_v1.0.8.js\",\"analytics\":{\"path\":\"/statics/behavior-tracker_v1.0.3.js\",\"feat\":[\"pm\",\"te\",\"cl\",\"mc\",\"cm\",\"kb\",\"cb\",\"sc\",\"fc\",\"oh\"],\"throttleMs\":25,\"maxPoints\":300,\"autoStart\":false,\"reportMs\":10000},\"solverConfig\":{\"metricsEnabled\":true}}"
+        }
+      ],
+      "has_next_data": false
+    }
+  },
+  "_meta": {
+    "total_s": 28.5,
+    "time": "2026-11-12T18:02:57+1000"
+  }
+}

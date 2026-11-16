@@ -1,0 +1,90 @@
+============================================================
+WB PRICE ENDPOINT SCAN — nm_id=199298871
+============================================================
+
+--- card.wb.ru v1 ---
+  URL: https://card.wb.ru/cards/v1/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871
+  403, 0B, 0.81s
+  body: 
+
+--- card.wb.ru v2 ---
+  URL: https://card.wb.ru/cards/v2/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871
+  403, 0B, 0.79s
+  body: 
+
+--- card.wb.ru v4 ---
+  URL: https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871
+  403, 0B, 0.79s
+  body: 
+
+--- card.wb.ru v5 ---
+  URL: https://card.wb.ru/cards/v5/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871
+  403, 0B, 0.79s
+  body: 
+
+--- common.wb.ru price ---
+  URL: https://common.wb.ru/api/catalog/v1/price?nm=199298871
+  ERROR: Failed to perform, curl: (6) Could not resolve host: common.wb.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+--- common.wb.ru price2 ---
+  URL: https://common.wb.ru/api/v1/price?nm=199298871
+  ERROR: Failed to perform, curl: (6) Could not resolve host: common.wb.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+--- www.wb.ru web api ---
+  URL: https://www.wildberries.ru/web/api/catalog/v1/price?nm=199298871
+  498, 1136B, 0.79s
+  body: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="ea012ec82554c7c71903030d64b31c40" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-
+
+--- basket price.json ---
+  URL: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/info/ru/price.json
+  404, 196B, 0.94s
+  body: <!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>404 Not Found</title>
+</head>
+<body>
+<center><h1>404 Not Found</h1></center>
+</body></html>
+
+--- basket price.json2 ---
+  URL: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/info/ru/price
+  404, 196B, 0.78s
+  body: <!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>404 Not Found</title>
+</head>
+<body>
+<center><h1>404 Not Found</h1></center>
+</body></html>
+
+--- static-basket price ---
+  URL: https://static-basket-1992.wbbasket.ru/vol1992/part199298/199298871/info/ru/price.json
+  ERROR: Failed to perform, curl: (6) Could not resolve host: static-basket-1992.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+--- card.wb.ru batch ---
+  URL: https://card.wb.ru/cards/v1/batch?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871
+  403, 0B, 0.80s
+  body: 
+
+--- card.wb.ru v1 no-params ---
+  URL: https://card.wb.ru/cards/v1/detail?nm=199298871
+  403, 0B, 0.81s
+  body: 
+
+--- card.wb.ru v1 (req) ---
+  URL: https://card.wb.ru/cards/v1/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871
+  403, 0B, 0.40s
+  body: 
+
+--- common.wb.ru (req) ---
+  URL: https://common.wb.ru/api/catalog/v1/price?nm=199298871
+  ERROR: HTTPSConnectionPool(host='common.wb.ru', port=443): Max retries exceeded with url: /api/catalog/v1/price?nm=199298871 (Caused by NameResolutionError("HTTPSConnection(host='common.wb.ru', port=443): Failed to resolve 'common.wb.ru' ([Errno 11001] getaddrinfo failed)"))
+
+--- card.json price fields check ---
+  top-level keys: ['certificate', 'colors', 'compositions', 'contents', 'create_date', 'data', 'description', 'full_colors', 'grouped_options', 'has_tnvd_okpd', 'imt_id', 'imt_name', 'media', 'need_kiz', 'nm_id', 'options', 'properties', 'selling', 'slug', 'subj_name', 'subj_root_name', 'update_date', 'user_flags', 'vendor_code']
+
+Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_wb_price_out.txt

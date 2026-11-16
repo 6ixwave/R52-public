@@ -1,0 +1,121 @@
+{
+  "LingLong (1 фото, нет Product JSON-LD)": {
+    "http_status": 200,
+    "html_size": 41619,
+    "title": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красноярске",
+    "title_method": "HTML",
+    "price": {
+      "role": "regular",
+      "amount_minor": 849900,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    "price_count": 1,
+    "photos_count": 1,
+    "photos_sample": [
+      "https://static.baza.farpost.ru/farpost_catalog/1669597715957_bulletin"
+    ],
+    "videos_count": 0,
+    "videos_sample": [],
+    "description": "Автошина LINGLONG 205/75 R16C G-M Winter Grip Van 2 8 PR универсальная зима ШИПЫ",
+    "category": "Авто и мото > Шины и диски > Шины > Шины LingLong GREEN-Max Winter > LingLong GREEN-Max Winter Grip Van 2",
+    "brand": "",
+    "model": "LingLong GREEN-Max Winter Grip Van 2",
+    "specs_count": 9,
+    "specs_sample": {
+      "inSetQuantity": "1 шт",
+      "quantity": "100&nbsp;шт",
+      "year": "2026",
+      "wheelSeason": "Зимние",
+      "wheelSpike": "Шипованные",
+      "condition": "Новый",
+      "marking": "радиальный",
+      "goodPresentState": "В наличии"
+    },
+    "seller": "ООО &quot;БарШина&quot;",
+    "availability": "IN_STOCK",
+    "bulletin_id": "139122082"
+  },
+  "Michelin (18 фото, Product JSON-LD)": {
+    "http_status": 200,
+    "html_size": 62754,
+    "title": "Шины Michelin X-Ice snow SUV 275/50R21",
+    "title_method": "JSONLD",
+    "price": {
+      "role": "regular",
+      "amount_minor": 4000000,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    "price_count": 1,
+    "photos_count": 18,
+    "photos_sample": [
+      "https://static.baza.farpost.ru/v/1790733422803_bulletin",
+      "https://static.baza.farpost.ru/v/1788239487782_bulletin",
+      "https://static.baza.farpost.ru/v/1788239426475_bulletin",
+      "https://static.baza.farpost.ru/v/1788239505459_bulletin",
+      "https://static.baza.farpost.ru/v/1788239474303_bulletin"
+    ],
+    "videos_count": 0,
+    "videos_sample": [],
+    "description": "Продажа Michelin X-Ice Snow SUV, 275/50 R21 в Хабаровске Зимние, Без шипов, Новый, 1 шт",
+    "category": "Авто и мото > Шины и диски > Шины > Шины Michelin X-Ice > Michelin X-Ice Snow SUV",
+    "brand": "Michelin",
+    "model": "Michelin X-Ice Snow SUV",
+    "specs_count": 9,
+    "specs_sample": {
+      "inSetQuantity": "1 шт",
+      "quantity": "4&nbsp;шт",
+      "year": "2025",
+      "wheelSeason": "Зимние",
+      "wheelSpike": "Без шипов",
+      "condition": "Новый",
+      "marking": "радиальный",
+      "goodPresentState": "В наличии"
+    },
+    "seller": "",
+    "availability": "IN_STOCK",
+    "bulletin_id": "137723592"
+  },
+  "Long March (7 фото, Product JSON-LD)": {
+    "http_status": 200,
+    "html_size": 55065,
+    "title": "Грузовая шина Long March LM777 425/85R21 24PR 173C",
+    "title_method": "JSONLD",
+    "price": {
+      "role": "regular",
+      "amount_minor": 5805000,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    "price_count": 1,
+    "photos_count": 7,
+    "photos_sample": [
+      "https://static.baza.farpost.ru/v/1786928237600_bulletin?ni=yes",
+      "https://static.baza.farpost.ru/v/1786928237854_bulletin?ni=yes",
+      "https://static.baza.farpost.ru/v/1786928238500_bulletin?ni=yes",
+      "https://static.baza.farpost.ru/v/1786928239351_bulletin?ni=yes",
+      "https://static.baza.farpost.ru/v/1786928239973_bulletin?ni=yes"
+    ],
+    "videos_count": 0,
+    "videos_sample": [],
+    "description": "Продажа Long March LM777, C 425/85 R21 24PR в Хабаровске Всесезонные, Без шипов, Новый, 1 шт",
+    "category": "Авто и мото > Шины и диски > Шины > Шины Long March > Long March LM777",
+    "brand": "Long March",
+    "model": "Long March LM777",
+    "specs_count": 8,
+    "specs_sample": {
+      "inSetQuantity": "1 шт",
+      "quantity": "74&nbsp;шт",
+      "year": "2026",
+      "wheelSeason": "Всесезонные",
+      "condition": "Новый",
+      "marking": "радиальный",
+      "goodPresentState": "В наличии",
+      "predestination": "Для спецтехники"
+    },
+    "seller": "ООО «ХТК» - Амуршина - Грузовые шины",
+    "availability": "IN_STOCK",
+    "bulletin_id": "137440009"
+  }
+}

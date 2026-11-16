@@ -1,0 +1,45 @@
+2026-11-15 00:48:07,258 diag.r2 INFO === FARPOST price test ===
+2026-11-15 00:48:07,557 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 00:48:07,557 r52.collectors.farpost INFO FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-15 00:48:08,964 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-15 00:48:11,701 r52.collectors.farpost INFO FARPOST search: 48 bulletin links found
+2026-11-15 00:48:11,702 r52.collectors.farpost INFO FARPOST: collect_by_search 'тест' → 5 products
+2026-11-15 00:48:11,702 diag.r2 INFO FARPOST: 5 rows, 5 prices
+2026-11-15 00:48:11,702 diag.r2 INFO   137008403: 14000.00 RUB
+2026-11-15 00:48:11,702 diag.r2 INFO   137008550: 14000.00 RUB
+2026-11-15 00:48:11,702 diag.r2 INFO   22100: 55000.00 RUB
+2026-11-15 00:48:11,704 diag.r2 INFO === AVITO HTML dump ===
+2026-11-15 00:48:11,705 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 00:48:11,705 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-15 00:48:12,685 r52.collectors.avito INFO AVITO warmup m.avito.ru: HTTP 439
+2026-11-15 00:48:13,672 r52.collectors.avito INFO AVITO warmup www.avito.ru: HTTP 439
+2026-11-15 00:48:13,672 r52.collectors.avito INFO AVITO warmup: HTTP 439
+2026-11-15 00:48:30,893 r52.collectors.avito WARNING AVITO search: CAPTCHA/blocked (439) for 'тест'
+2026-11-15 00:48:30,894 r52.collectors.avito INFO AVITO: 439 → trying www.avito.ru desktop fallback
+2026-11-15 00:48:32,110 r52.collectors.avito INFO AVITO: mobile fallback OK (374952 bytes)
+2026-11-15 00:48:32,110 r52.collectors.avito INFO AVITO: mobile fallback succeeded, proceeding to parse
+2026-11-15 00:48:32,112 r52.collectors.avito INFO AVITO search: 3 ad links found
+2026-11-15 00:48:32,113 r52.collectors.avito INFO AVITO: collect_by_search 'тест' → 3 products
+2026-11-15 00:48:33,253 diag.r2 INFO AVITO desktop: HTTP 439, 13723 bytes
+2026-11-15 00:48:33,254 diag.r2 INFO Saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\avito_desktop_raw.html
+2026-11-15 00:48:33,255 diag.r2 INFO   data-price        : NONE
+2026-11-15 00:48:33,255 diag.r2 INFO   class_price       : NONE
+2026-11-15 00:48:33,255 diag.r2 INFO   text_rub          : NONE
+2026-11-15 00:48:33,255 diag.r2 INFO   jsonld_price      : NONE
+2026-11-15 00:48:33,255 diag.r2 INFO   itemprop          : NONE
+2026-11-15 00:48:33,256 diag.r2 INFO   ad links: 0
+2026-11-15 00:48:33,256 diag.r2 INFO === WB advanced test ===
+2026-11-15 00:48:33,256 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 00:48:33,256 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-15 00:48:34,235 diag.r2 INFO   WB search.wb.ru: HTTP 403 (0 bytes)
+2026-11-15 00:48:37,173 diag.r2 INFO   WB catalog.wb.ru: HTTP 403 (0 bytes)
+2026-11-15 00:48:40,123 diag.r2 INFO   WB card.wb.ru: HTTP 403 (0 bytes)
+2026-11-15 00:48:42,123 diag.r2 INFO   Trying cookie flow...
+2026-11-15 00:48:42,978 diag.r2 INFO   Homepage: HTTP 498
+2026-11-15 00:48:42,978 diag.r2 INFO   Cookies: [REDACTED_AUTH_SECRET]
+2026-11-15 00:48:43,911 diag.r2 INFO   Search with cookies: [REDACTED_AUTH_SECRET]
+2026-11-15 00:48:43,911 diag.r2 INFO === SUMMARY ===
+2026-11-15 00:48:43,911 diag.r2 INFO   FARPOST      PASS rows=5 prices=5 (4.4s)
+2026-11-15 00:48:43,911 diag.r2 INFO   AVITO        PASS rows=3 prices=0 (21.6s)
+2026-11-15 00:48:43,911 diag.r2 INFO   WB           FAIL err=? (10.7s)
+2026-11-15 00:48:43,911 diag.r2 INFO Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\diag_round2_report.json

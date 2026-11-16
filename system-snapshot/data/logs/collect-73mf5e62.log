@@ -1,0 +1,24 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 13:41:11,773 r52.autocollect.worker INFO phase=worker_start pid=25276
+2026-11-15 13:41:11,784 r52.autocollect.worker INFO source=AVITO mode=discover phase=initialize
+2026-11-15 13:41:11,786 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-15 13:41:11,787 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-15 13:41:11,787 r52.autocollect.worker INFO source=AVITO proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-15 13:41:11,789 r52.autocollect.worker INFO source=AVITO phase=search_start page=1 limit=5
+2026-11-15 13:41:13,955 r52.collectors.avito INFO AVITO warmup m.avito.ru: HTTP 439
+2026-11-15 13:41:16,882 r52.collectors.avito INFO AVITO warmup www.avito.ru: HTTP 200
+2026-11-15 13:41:16,882 r52.collectors.avito INFO AVITO warmup: HTTP 200
+2026-11-15 13:41:27,856 r52.collectors.avito WARNING AVITO search: CAPTCHA/blocked (439) for 'видеокарты'
+2026-11-15 13:41:27,857 r52.collectors.avito INFO AVITO: 439 → trying www.avito.ru desktop fallback
+2026-11-15 13:41:31,226 r52.autocollect.worker INFO source=AVITO phase=close_start
+2026-11-15 13:41:31,226 r52.autocollect.worker INFO source=AVITO phase=close_complete
+2026-11-15 13:41:31,227 root ERROR phase=worker_failed code=SEARCH_ACCESS_CHALLENGE
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98, in main
+    run(json.loads((folder / "request").read_text("utf-8")), folder)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 80, in run
+    rows = collector.collect_by_search(params["value"], page=params["page"], page_size=params["limit"])
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\avito.py", line 604, in collect_by_search
+    raise SearchError("SEARCH_ACCESS_CHALLENGE")
+r52.collectors.discovery.SearchError: SEARCH_ACCESS_CHALLENGE

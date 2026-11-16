@@ -1,0 +1,31 @@
+﻿python : 2026-11-12 16:32:27,469 INFO === FARPOST ===
+строка:1 знак:36
++ $ErrorActionPreference='Continue'; python diag_multi6.py 2>&1 | Out-F ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 16:3...=== FARPOST ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 16:32:30,326 INFO   -> FP:html_full: ok=False HTTP=200 len=197869 prices=[] ld=False og=False data=False cls
+=False
+2026-11-12 16:32:32,158 INFO   -> FP:api_v1: ok=False HTTP=404 price=None keys=[]
+2026-11-12 16:32:32,663 INFO   -> FP:ajax: ok=False HTTP=404 len=13912 prices=[]
+2026-11-12 16:32:34,406 INFO   -> FP:cffi: ok=False HTTP=200 len=89311 prices=[]
+2026-11-12 16:32:34,406 INFO === WILDBERRIES ===
+2026-11-12 16:32:35,320 INFO   -> WB:card_v2: ok=False err=Expecting value: line 1 column 1 (char 0)
+2026-11-12 16:32:36,190 INFO   -> WB:basket_42: ok=False HTTP=404
+2026-11-12 16:32:37,220 INFO   -> WB:basket_10: ok=False HTTP=404
+2026-11-12 16:32:38,272 INFO   -> WB:basket_20: ok=False HTTP=404
+2026-11-12 16:32:39,129 INFO   -> WB:basket_30: ok=False HTTP=404
+2026-11-12 16:33:26,637 INFO   -> WB:html_ssr: ok=False HTTP=498 len=1136 prices=[]
+2026-11-12 16:33:26,637 INFO === OZON ===
+2026-11-12 16:33:28,522 INFO   -> OZ:html: ok=False HTTP=403 len=10225 prices=[] ld=False
+2026-11-12 16:33:29,277 INFO   -> OZ:composer_www: ok=False HTTP=403 len=1081
+2026-11-12 16:33:30,246 INFO   -> OZ:cffi_html: ok=False HTTP=403 len=8454 prices=[]
+2026-11-12 16:33:31,883 INFO   -> OZ:cffi_composer: ok=False HTTP=403
+2026-11-12 16:33:31,883 INFO === AVITO ===
+2026-11-12 16:33:32,936 INFO   -> AV:mobile: ok=False HTTP=429 len=34116 prices=[]
+2026-11-12 16:33:33,308 INFO   -> AV:api_offer: ok=False HTTP=404
+2026-11-12 16:33:34,353 INFO   -> AV:cffi_desktop: ok=False HTTP=429 len=34116 prices=[]
+2026-11-12 16:33:34,727 INFO   -> AV:search_api: ok=False HTTP=404
+2026-11-12 16:33:34,728 INFO Saved to C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\d6_results.json
+2026-11-12 16:33:34,728 INFO TOTAL: 67.3s

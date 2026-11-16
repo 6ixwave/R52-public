@@ -1,0 +1,87 @@
+DB path: C:\Users\aleks\AppData\Local\R52\data\r52.sqlite3
+Exists: True
+
+=== schema_migrations ===
+  v1 | initial | checksum=94eb210a7b93bba9... | 2026-11-08T19:26:46.088+00:00
+  v2 | product_media | checksum=a4a172a9b9c64e10... | 2026-11-09T08:02:07.699+00:00
+  v3 | product_gallery | checksum=09206272c889650e... | 2026-11-09T08:56:17.187+00:00
+  v4 | assistant_openrouter | checksum=9cbd5fd432b73bbc... | 2026-11-10T16:59:23.842+00:00
+  v5 | assistant_readonly_analysis | checksum=05d2787a881f1411... | 2026-11-10T17:43:21.970+00:00
+  v6 | analysis_history | checksum=c6169f9020425d20... | 2026-11-10T18:49:20.256+00:00
+
+=== Tables ===
+  assistant_action
+  assistant_analysis_request
+  assistant_llm_call
+  assistant_request
+  chat_message
+  chat_session
+  compare_group
+  compare_item
+  event
+  favorite
+  import_run
+  inbox_item
+  intake_file
+  notification
+  observation
+  price_point
+  product
+  schedule
+  schema_migrations
+  setting
+  source
+  sqlite_stat1
+  task
+  task_transition
+  watch
+
+=== Indexes (non-auto) ===
+  assistant_analysis_scope_time
+  chat_message_session
+  event_created
+  inbox_status
+  notification_status
+  observation_imported
+  observation_product
+  price_point_product
+  product_updated
+  task_status
+  task_transition_task
+
+=== Counts ===
+  product: 7
+  observation: 15
+  price_point: 35
+  inbox_item: 16
+  intake_file: 16
+  source: 6
+
+=== Products ===
+  #1 OZON/2067947177 | Palit Видеокарта GeForce RTX 5060 Ti PA-RTX5060TI  | None | EYE
+  #2 OZON/2981756238 | Куртка Columbia Новые модели 2025 года | Columbia | EYE
+  #3 OZON/2080175880 | Palit Видеокарта GeForce RTX 5060 Ti DUAL 8 ГБ (NE | Palit | EYE
+  #4 OZON/4967472276 | Palit Видеокарта GeForce RTX 5060 Ti NE7506T019P1- | None | EYE
+  #5 OZON/3857979344 | Palit Видеокарта GeForce RTX 5060 Ti NE7506T019P1- | None | EYE
+  #6 OZON/2748584093 | Palit Видеокарта GeForce RTX 5060 Ti Dual OC 8 ГБ  | None | EYE
+  #7 OZON/3690613958 | Palit Видеокарта GeForce RTX 5060 8 ГБ (GeForce RT | None | EYE
+
+=== Inbox items ===
+  #1 jarvis-eye-BR02 (1).json | ACCEPTED | FOLDER | obs=15 | err=None
+  #2 jarvis-eye-BR02 (10).json | ACCEPTED | FOLDER | obs=14 | err=None
+  #3 jarvis-eye-BR02 (11).json | ACCEPTED | FOLDER | obs=13 | err=None
+  #4 jarvis-eye-BR02 (12).json | ACCEPTED | FOLDER | obs=12 | err=None
+  #5 jarvis-eye-BR02 (13).json | ACCEPTED | FOLDER | obs=11 | err=None
+  #6 jarvis-eye-BR02 (2).json | ACCEPTED | FOLDER | obs=9 | err=None
+  #7 jarvis-eye-BR02 (3).json | ACCEPTED | FOLDER | obs=10 | err=None
+  #8 jarvis-eye-BR02 (4).json | ACCEPTED | FOLDER | obs=8 | err=None
+  #9 jarvis-eye-BR02 (5).json | ACCEPTED | FOLDER | obs=7 | err=None
+  #10 jarvis-eye-BR02 (6).json | ACCEPTED | FOLDER | obs=6 | err=None
+  #11 jarvis-eye-BR02 (7).json | ACCEPTED | FOLDER | obs=5 | err=None
+  #12 jarvis-eye-BR02 (8).json | ACCEPTED | FOLDER | obs=4 | err=None
+  #13 jarvis-eye-BR02 (9).json | ACCEPTED | FOLDER | obs=3 | err=None
+  #14 jarvis-eye-BR02.json | ACCEPTED | FOLDER | obs=2 | err=None
+  #15 jarvis-eye-review (1).json | INVALID | FOLDER | obs=None | err=PUBLIC_SOURCE_URL_REQUIRED
+  #16 jarvis-eye-review.json | ACCEPTED | FOLDER | obs=1 | err=None
+
+Done.

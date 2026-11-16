@@ -1,0 +1,18 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:23:52,589 r52.autocollect.worker INFO phase=worker_start pid=17176
+2026-11-16 04:23:52,610 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-16 04:23:52,610 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 04:23:52,612 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-16 04:23:52,612 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 04:23:52,616 r52.autocollect.worker INFO source=WB listing=204102059 phase=collect_product_start
+2026-11-16 04:23:53,528 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-16 04:23:56,639 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-16 04:23:58,280 r52.collectors.wb INFO WB 204102059: basket=13 (vol=2041) ms=1640
+2026-11-16 04:23:59,168 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=6348 ms=888 url=https://basket-13.wbbasket.ru/vol2041/part204102/204102059/info/ru/card.json
+2026-11-16 04:23:59,168 r52.collectors.wb INFO WB 204102059: card.json OK (28 keys, 6348B)
+2026-11-16 04:24:01,978 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=945 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=204102059
+2026-11-16 04:24:01,978 r52.collectors.wb INFO WB 204102059: price card_v4 -> 403
+2026-11-16 04:24:04,819 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=116 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=204102059
+2026-11-16 04:24:04,819 r52.collectors.wb INFO WB 204102059: price catalog_v4 -> 403
+2026-11-16 04:24:08,975 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=391 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=204102059
+2026-11-16 04:24:08,975 r52.collectors.wb INFO WB 204102059: price web_api -> 498

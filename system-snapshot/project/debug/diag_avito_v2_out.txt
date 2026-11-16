@@ -1,0 +1,13 @@
+2026-11-15 01:17:42,286 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 01:17:42,286 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-15 01:17:42,286 diag.avito2 INFO === PHASE 1: collect_by_search ===
+2026-11-15 01:17:43,297 r52.collectors.avito INFO AVITO warmup m.avito.ru: HTTP 439
+2026-11-15 01:17:44,296 r52.collectors.avito INFO AVITO warmup www.avito.ru: HTTP 439
+2026-11-15 01:17:44,296 r52.collectors.avito INFO AVITO warmup: HTTP 439
+2026-11-15 01:17:55,340 r52.collectors.avito WARNING AVITO search: CAPTCHA/blocked (439) for 'тест'
+2026-11-15 01:17:55,340 r52.collectors.avito INFO AVITO: 439 → trying www.avito.ru desktop fallback
+2026-11-15 01:17:56,332 diag.avito2 WARNING collect_by_search SearchError: SEARCH_ACCESS_CHALLENGE
+2026-11-15 01:17:56,332 diag.avito2 INFO === PHASE 2: Fetch ad page for price structure ===
+2026-11-15 01:17:56,332 diag.avito2 WARNING No ad_id found, skipping phase 2
+2026-11-15 01:17:56,333 diag.avito2 INFO Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\diag_avito_v2_report.json
+2026-11-15 01:17:56,333 diag.avito2 INFO === DONE ===

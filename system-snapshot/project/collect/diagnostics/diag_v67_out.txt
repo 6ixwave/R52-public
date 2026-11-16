@@ -1,0 +1,76 @@
+SCRIPT START
+2026-11-11 10:24:39,119 persist_all INFO Постоянная БД: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\r52.db, миграции: []
+2026-11-11 10:24:39,122 persist_all INFO ДО: {'source': 6, 'product': 0, 'observation': 0, 'price_point': 0}
+2026-11-11 10:24:39,122 persist_all INFO === FARPOST ===
+2026-11-11 10:24:39,153 persist_all INFO FP HTML: 52072 байт, enc=utf-8(replace)
+2026-11-11 10:24:39,623 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 10:24:39,633 persist_all INFO FP: product=1 created=True obs=1
+2026-11-11 10:24:39,633 persist_all INFO === WILDBERRIES ===
+2026-11-11 10:24:39,634 persist_all INFO WB card: id=199298871 title=Овсяный смарт коктейль для похудения без brand=Родник Здоровья media=6
+2026-11-11 10:24:40,452 persist_all WARNING WB price API: HTTP 403
+2026-11-11 10:24:40,452 persist_all WARNING WB: цены не получены, ставим UNKNOWN
+2026-11-11 10:24:40,453 persist_all ERROR WB FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v67_persist_all.py", line 265, in <module>
+    normalized, cleaned = normalize_eye(wb_wrapper["observation"])
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\domain\normalize.py", line 435, in normalize_eye
+    raise AppError("TITLE_WITH_EVIDENCE_REQUIRED")
+r52.errors.AppError: TITLE_WITH_EVIDENCE_REQUIRED
+2026-11-11 10:24:40,472 persist_all INFO === OZON ===
+2026-11-11 10:24:40,475 persist_all INFO OZON HTML: 1088241 байт, enc=utf-8
+2026-11-11 10:24:40,475 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 10:24:40,645 persist_all INFO OZON: product=2 created=True obs=2
+2026-11-11 10:24:40,646 persist_all INFO === VERIFICATION ===
+2026-11-11 10:24:40,649 persist_all INFO ПОСЛЕ: {'source': 6, 'product': 2, 'observation': 2, 'price_point': 2}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: format argument 7: %d requires a real number, not str
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v67_persist_all.py", line 389, in <module>
+    log.info("  P%d [%s] %s | %s | %s %s | obs=%d | %s",
+Message: '  P%d [%s] %s | %s | %s %s | obs=%d | %s'
+Arguments: (1, 'FARPOST', '130693618', 'Triangle IcelynX TI501, 205/55 R16 94T XL', 2440000, 'RUB', 'IN_STOCK', 1, '2026-11-11T00:24:39.627+00:00')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: format argument 7: %d requires a real number, not str
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v67_persist_all.py", line 389, in <module>
+    log.info("  P%d [%s] %s | %s | %s %s | obs=%d | %s",
+Message: '  P%d [%s] %s | %s | %s %s | obs=%d | %s'
+Arguments: (2, 'OZON', '1600562267', 'Ткань для обивки мебели, Велюр с абстрактным принт', 229500, 'RUB', 'IN_STOCK', 1, '2026-11-11T00:24:40.639+00:00')
+2026-11-11 10:24:40,654 persist_all INFO   OBS FARPOST: id=1 prod=1 origin=PERSIST_FP avail=IN_STOCK pp=1 fp=bf817f110567e25e...
+2026-11-11 10:24:40,654 persist_all INFO   OBS OZON: id=2 prod=2 origin=PERSIST_OZON avail=IN_STOCK pp=1 fp=d576571aaf572fdd...
+
+============================================================
+PERSIST ALL: PARTIAL
+  ✓ FARPOST: OK  title=Triangle IcelynX TI501, 205/55 R16 94T XL  prices=1
+  ✗ WB: ERROR  title=?  prices=0
+  ✓ OZON: OK  title=Ткань для обивки мебели, Велюр с абстрактным принт  prices=1
+  DB counts: {'source': 6, 'product': 0, 'observation': 0, 'price_point': 0} → {'source': 6, 'product': 2, 'observation': 2, 'price_point': 2}
+============================================================
+JSON: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v67_result.json
+
+DONE

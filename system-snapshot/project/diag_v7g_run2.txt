@@ -1,0 +1,66 @@
+﻿=== diag_v7g — 2026-11-14 12:50:45 ===
+Query: 'наушники'
+
+── [A] COM _fetch_wholesale_html ──
+python : 2026-11-14 12:50:45,826 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\prox
+ies.json не найден, режим direct
+строка:2 знак:1
++ python -u diag_v7g.py 2>&1 | Out-File -FilePath diag_v7g_run2.txt -En ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 12:5...н, режим direct:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 12:50:50,017 INFO r52.collectors.aliexpress: ALI_COM: wholesale HTML OK, 748451 bytes, 4.2s
+  OK: 748451 bytes, 4.2s
+  Locale: IT=0, EN=0, RU=1
+  pdp_npi currencies (first 20): {'EUR'}
+2026-11-14 12:50:50,021 INFO r52.collectors.aliexpress: ALI: 12 card anchors found
+  Parsed: 12 products in 0.00s
+  [0] id=1005012296880178 title='EDIFIER W800BT SE Cuffie Wireless Over-Ear Bluetooth 5.4 con'
+      price=31.19 EUR
+2026-11-14 12:50:59,190 INFO r52.collectors.aliexpress: ALI_COM: wholesale HTML OK, 745684 bytes, 4.4s
+2026-11-14 12:50:59,191 INFO r52.collectors.aliexpress: ALI: 12 card anchors found
+2026-11-14 12:50:59,193 INFO r52.collectors.aliexpress: ALI_COM: wholesale HTML → 8 items
+  collect_by_search: 8 items, 9.2s
+  first: id=1005013565057281 pc=2 title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Ful'
+
+── [B] RU _fetch_wholesale_html ──
+2026-11-14 12:50:59,193 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json 
+не найден, режим direct
+2026-11-14 12:51:03,842 INFO r52.collectors.aliexpress: ALI_RU: wholesale HTML OK, 736843 bytes, 4.6s
+  OK: 736843 bytes, 4.6s
+  Locale: IT=0, EN=0, RU=1
+  pdp_npi currencies (first 20): {'EUR'}
+2026-11-14 12:51:03,846 INFO r52.collectors.aliexpress: ALI_RU: 12 card anchors found
+  Parsed: 12 products in 0.00s
+  [0] id=1005013565057281 title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per'
+      price=521.39 EUR
+2026-11-14 12:51:24,381 INFO r52.collectors.aliexpress: ALI_RU: wholesale HTML OK, 815965 bytes, 4.7s
+2026-11-14 12:51:24,381 INFO r52.collectors.aliexpress: ALI_RU: 12 card anchors found
+2026-11-14 12:51:24,383 INFO r52.collectors.aliexpress: ALI_RU: HTML search found 12 products
+2026-11-14 12:51:24,383 INFO r52.collectors.aliexpress: ALI_RU: collect_by_search 'наушники' → 12 products
+  collect_by_search: 12 items, 20.5s
+  first: id=1005013423878416 pc=2 title='Nuove Cuffie Wireless Over-Ear 5-in-1, Radio TV RF'
+
+── [C] COM Playwright state ──
+2026-11-14 12:51:24,384 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json 
+не найден, режим direct
+  _pw_failed=False
+  _page=None
+  _session_warm=False
+2026-11-14 12:51:24,428 DEBUG asyncio: Using proactor: IocpProactor
+2026-11-14 12:51:24,999 INFO r52.collectors.aliexpress: ALI PW: browser started, profile=C:\Users\aleks\.local\share\r5
+2\aliexpress_pw_profile, domain=com
+  _ensure_browser: True in 0.6s
+  _page=<Page url='about:blank'>
+  _ctx=<BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=C:\Users\aleks\AppData\Local\ms-playwright\chromium-1248\chrome-win64\chrome.exe> version=156.0.8078.4>>
+
+── [D] RU _fetch_search_api ──
+2026-11-14 12:51:25,117 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json 
+не найден, режим direct
+2026-11-14 12:51:28,139 WARNING r52.collectors.aliexpress: ALI_RU: search API returned HTML (404 page?), len=13828
+  None returned in 3.0s
+
+=== DONE ===
+2026-11-14 12:51:28,140 INFO diag_v7g: diag_v7g complete
+EXIT=0

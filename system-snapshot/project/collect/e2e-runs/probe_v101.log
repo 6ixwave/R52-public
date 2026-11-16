@@ -1,0 +1,64 @@
+2026-11-11 16:34:24,129 v101 INFO === probe_v101 START ===
+2026-11-11 16:34:24,745 v101 INFO DB: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\r52.sqlite3 exists=True
+2026-11-11 16:34:25,020 r52.sources INFO Sources: зарегистрировано 4 сборщиков
+2026-11-11 16:34:25,050 v101 INFO App opened
+2026-11-11 16:34:25,051 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\collectors\proxies.json не найден, режим direct
+2026-11-11 16:34:25,052 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 16:34:25,056 v101 INFO --- ITEM 1097975275 (NEW) vol=10979 part=1097975 ---
+2026-11-11 16:34:25,056 v101 INFO   basket path: /vol10979/part1097975/1097975275/info/ru/card.json
+2026-11-11 16:34:34,397 v101 INFO   basket: 10/60, last=basket-10.wbbasket.ru->404
+2026-11-11 16:34:43,700 v101 INFO   basket: 20/60, last=basket-20.wbbasket.ru->404
+2026-11-11 16:34:52,964 v101 INFO   basket: 30/60, last=basket-30.wbbasket.ru->404
+2026-11-11 16:35:02,165 v101 INFO   basket: 40/60, last=basket-40.wbbasket.ru->404
+2026-11-11 16:35:04,165 v101 INFO   basket HIT: basket-42.wbbasket.ru (1.0s, 10942B)
+2026-11-11 16:35:04,166 v101 INFO   basket: 39s host=basket-42.wbbasket.ru card=yes(21 keys)
+2026-11-11 16:35:04,167 v101 INFO   card keys: ['certificate', 'colors', 'create_date', 'data', 'description', 'full_colors', 'grouped_options', 'imt_id', 'imt_name', 'media', 'need_kiz', 'nm_colors_names', 'nm_id', 'options', 'selling', 'slug', 'subj_name', 'subj_root_name', 'update_date', 'user_flags', 'vendor_code']
+2026-11-11 16:35:04,167 v101 INFO   card imt_name: Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)
+2026-11-11 16:35:04,167 v101 INFO   card subj: Смартфоны и гаджеты / Смартфоны
+2026-11-11 16:35:04,167 v101 INFO   card data keys: ['subject_id', 'subject_root_id', 'chrt_ids', 'tech_size']
+2026-11-11 16:35:04,168 v101 INFO   card media: type=dict len=1 sample={"photo_count": 5}
+2026-11-11 16:35:04,174 v101 INFO   card dumped: card_1097975275.json (15492B)
+2026-11-11 16:35:08,037 v101 INFO   price [v4_min_chrome124] -> 403 body= (0.9s)
+2026-11-11 16:35:09,870 v101 INFO   price [v4_full_chrome124] -> 403 body= (0.8s)
+2026-11-11 16:35:11,706 v101 INFO   price [v4_min_chrome] -> 403 body= (0.8s)
+2026-11-11 16:35:13,551 v101 INFO   price [v4_full_chrome] -> 403 body= (0.8s)
+2026-11-11 16:35:15,406 v101 INFO   price [v4_safari] -> 403 body= (0.9s)
+2026-11-11 16:35:16,407 v101 INFO   price: 9s data=no
+2026-11-11 16:35:16,408 v101 INFO   merge: status=PARTIAL_SUCCESS title=Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM) prices=0 media=1 avail=UNKNOWN
+2026-11-11 16:35:16,411 r52.collectors INFO WB: записан jarvis-eye-wb-a16381f0.json
+2026-11-11 16:35:16,411 v101 INFO   written: ['jarvis-eye-wb-a16381f0.json']
+2026-11-11 16:35:16,432 r52.intake INFO Во входящие добавлен файл jarvis-eye-wb-a16381f0.json: PENDING 
+2026-11-11 16:35:16,432 v101 INFO   inbox: id=4 status=PENDING
+2026-11-11 16:35:16,448 v101 INFO   accepted: pid=2 obs=True
+2026-11-11 16:35:16,452 v101 INFO   db: 1 products, 0 pps
+2026-11-11 16:35:16,452 v101 INFO     P: id=2 title=Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM) reg=None avail=UNKNOWN obs=1
+2026-11-11 16:35:16,452 v101 INFO   VERDICT NEW: PASS_TITLE_NOP (51s)
+2026-11-11 16:35:16,452 v101 INFO --- ITEM 259671175 (OLD) vol=2596 part=259671 ---
+2026-11-11 16:35:16,452 v101 INFO   basket path: /vol2596/part259671/259671175/info/ru/card.json
+2026-11-11 16:35:25,458 v101 INFO   basket: 10/60, last=basket-10.wbbasket.ru->404
+2026-11-11 16:35:30,884 v101 INFO   basket HIT: basket-16.wbbasket.ru (0.9s, 5041B)
+2026-11-11 16:35:30,884 v101 INFO   basket: 14s host=basket-16.wbbasket.ru card=yes(23 keys)
+2026-11-11 16:35:30,884 v101 INFO   card keys: ['certificate', 'colors', 'contents', 'create_date', 'data', 'description', 'full_colors', 'grouped_options', 'has_tnvd_okpd', 'imt_id', 'imt_name', 'media', 'need_kiz', 'nm_id', 'options', 'properties', 'selling', 'slug', 'subj_name', 'subj_root_name', 'update_date', 'user_flags', 'vendor_code']
+2026-11-11 16:35:30,884 v101 INFO   card imt_name: Набор фильтров Haval H9 2.0T Хавал H9
+2026-11-11 16:35:30,885 v101 INFO   card subj: Автозапчасти / Комплекты фильтров
+2026-11-11 16:35:30,885 v101 INFO   card data keys: ['subject_id', 'subject_root_id', 'chrt_ids', 'tech_size']
+2026-11-11 16:35:30,885 v101 INFO   card media: type=dict len=2 sample={"has_video": true, "photo_count": 15}
+2026-11-11 16:35:30,887 v101 INFO   card dumped: card_259671175.json (6471B)
+2026-11-11 16:35:34,715 v101 INFO   price [v4_min_chrome124] -> 403 body= (0.8s)
+2026-11-11 16:35:36,566 v101 INFO   price [v4_full_chrome124] -> 403 body= (0.9s)
+2026-11-11 16:35:38,419 v101 INFO   price [v4_min_chrome] -> 403 body= (0.9s)
+2026-11-11 16:35:40,280 v101 INFO   price [v4_full_chrome] -> 403 body= (0.9s)
+2026-11-11 16:35:42,121 v101 INFO   price [v4_safari] -> 403 body= (0.8s)
+2026-11-11 16:35:43,122 v101 INFO   price: 9s data=no
+2026-11-11 16:35:43,123 v101 INFO   merge: status=PARTIAL_SUCCESS title=Набор фильтров Haval H9 2.0T Хавал H9 prices=0 media=1 avail=UNKNOWN
+2026-11-11 16:35:43,125 r52.collectors INFO WB: записан jarvis-eye-wb-d9171e39.json
+2026-11-11 16:35:43,125 v101 INFO   written: ['jarvis-eye-wb-d9171e39.json']
+2026-11-11 16:35:43,141 r52.intake INFO Во входящие добавлен файл jarvis-eye-wb-d9171e39.json: PENDING 
+2026-11-11 16:35:43,141 v101 INFO   inbox: id=5 status=PENDING
+2026-11-11 16:35:43,154 v101 INFO   accepted: pid=1 obs=True
+2026-11-11 16:35:43,159 v101 INFO   db: 1 products, 0 pps
+2026-11-11 16:35:43,159 v101 INFO     P: id=1 title=Набор фильтров Haval H9 2.0T Хавал H9 reg=None avail=UNKNOWN obs=4
+2026-11-11 16:35:43,159 v101 INFO   VERDICT OLD: PASS_TITLE_NOP (27s)
+2026-11-11 16:35:43,159 v101 INFO === SUMMARY: {'NEW': 'PASS_TITLE_NOP', 'OLD': 'PASS_TITLE_NOP'} ===
+2026-11-11 16:35:43,164 r52.service INFO Ядро R-52 остановлено
+2026-11-11 16:35:43,164 v101 INFO === probe_v101 DONE (79s) ===

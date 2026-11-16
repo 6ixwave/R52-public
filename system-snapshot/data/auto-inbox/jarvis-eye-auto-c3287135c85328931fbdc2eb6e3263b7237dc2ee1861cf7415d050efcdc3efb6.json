@@ -1,0 +1,67 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Постельное белье 1.5 спальное на молнии, наволочка 50х70 1шт",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Letto",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 69600,
+        "amount": "696.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 103100,
+        "amount": "1031.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-24.wbbasket.ru/vol4138/part413862/413862099/images/big/1.webp"
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "source": "WB",
+    "id": "413862099",
+    "listing_id": "413862099",
+    "title": "Постельное белье 1.5 спальное на молнии, наволочка 50х70 1шт",
+    "url": "https://www.wildberries.ru/catalog/413862099/detail.aspx",
+    "observed_at": "2026-11-16T05:52:50.506162+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

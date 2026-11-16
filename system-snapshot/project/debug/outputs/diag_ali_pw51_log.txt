@@ -1,0 +1,79 @@
+[02:29:59] === pw51: AliExpress TMD bypass + MTOP PDP ===
+[02:29:59] Product: 1005011813323763
+[02:29:59] URL: https://www.aliexpress.com/item/1005011813323763.html
+[02:29:59] Profile: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\pw_ali_profile_pw51
+[02:30:00] === Phase 1: Warm-up cookies =[REDACTED_AUTH_SECRET]
+[02:30:12]   MTOP: 200 len=? https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/mtop.js
+[02:30:12]   MTOP: 200 len=? https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.7.5&appKey=12574478&t=1794501009376
+[02:30:12]   MTOP: 200 len=? https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.7.5&appKey=12574478&t=1794501009606
+[02:30:12]   MTOP: 200 len=? https://acs.aliexpress.com/h5/mtop.aliexpress.address.addressinfo.get/1.0/?jsv=2.7.5&appKey=12574478&t=1794501009858&sig
+[02:30:12]   MTOP: 200 len=? https://acs.aliexpress.com/h5/mtop.aliexpress.trade.cart.count/1.0/?jsv=2.7.5&appKey=12574478&t=1794501009857&sign=[REDACTED_AUTH_SECRET]
+[02:30:12]   MTOP: 200 len=? https://acs.aliexpress.com/h5/mtop.ae.cookie.render/1.0/?jsv=2.7.5&appKey=12574478&t=1794501009902&sign=[REDACTED_AUTH_SECRET]
+[02:30:12]   MTOP: 200 len=? https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.7.5&appKey=24815441&
+[02:30:12]   MTOP: 200 len=? https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.7.5&appKey=24815441&
+[02:30:12]   MTOP: 200 len=? https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.7.5&appKey=12574478&
+[02:30:12]   MTOP: 200 len=? https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.7.5&appKey=12574478&
+[02:30:12]   MTOP: 200 len=? https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?x5sec
+[02:30:12]   MTOP: 200 len=? https://acs.aliexpress.com/h5/mtop.aliexpress.address.addressinfo.get/1.0/?jsv=2.7.5&appKey=12574478&t=1794501011886&sig
+[02:30:12]   Cookies after warm-up: 9
+[02:30:12] === Phase 2: Load product page ===
+[02:30:13]   MTOP: 200 len=? https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794501013516&sign=[REDACTED_AUTH_SECRET]
+[02:30:19]   MTOP: 200 len=? https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg3e629a8a54896940kjb5820
+[02:30:19]   MTOP: 200 len=? https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secd
+[02:30:19]   MTOP: 200 len=? https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%
+[02:30:19]   MTOP: 200 len=? https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p_url=https%3A%2F%2Fa
+[02:30:19]   MTOP: 200 len=? https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.co
+[02:30:19]   MTOP: 200 len=? https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.quer
+[02:30:20]   Page title: 
+[02:30:20]   MTOP so far: 7
+[02:30:20] === Phase 3: TMD / reCAPTCHA detection ===
+[02:30:20]   TMD iframes found: 1
+[02:30:20]     [0] https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg3e629a8a54896940kjb5820c11a37ad71687c3aa43c59c583
+[02:30:20]   → TMD active, attempting reCAPTCHA bypass...
+[02:30:20] === Phase 4: reCAPTCHA bypass ===
+[02:30:20]   Total frames: 7
+[02:30:20]     frame: https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita
+[02:30:20]     frame: about:srcdoc
+[02:30:20]     frame: https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg3e629a8a54896940kjb5820
+[02:30:20]   → Selected frame: https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg3e629a8a54896940kjb5820
+[02:30:20]     frame: https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secd
+[02:30:20]   → Selected frame: https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secd
+[02:30:20]     frame: about:srcdoc
+[02:30:20]     frame: https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LeKU1AnAAAAANDF_Hx4z4OgLH1CJRwTO4IQ0Rfa&co=aHR0cHM6Ly9hY3MuYW
+[02:30:20]   → Selected frame: https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LeKU1AnAAAAANDF_Hx4z4OgLH1CJRwTO4IQ0Rfa&co=aHR0cHM6Ly9hY3MuYW
+[02:30:20]     frame: https://it.aliexpress.com/wp.html
+[02:30:20]   reCAPTCHA frame found, waiting for widget...
+[02:30:22]   → Clicked: #recaptcha-anchor
+[02:30:22]   Waiting for reCAPTCHA resolution (30s)...
+[02:30:37]   MTOP: 200 len=? https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBN
+[02:30:37]   sessionStorage token: [REDACTED_AUTH_SECRET]
+[02:30:37]   After redirect URL: https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita
+[02:30:37]   reCAPTCHA: clicked and waited
+[02:30:37] === Phase 5: Capture PDP MTOP ===
+[02:30:42]   PDP MTOP success: https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=17945010
+[02:30:42]   PDP MTOP success: https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg3e6
+[02:30:42]   PDP MTOP success: https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&ifra
+[02:30:42]   PDP MTOP success: https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2
+[02:30:42]   PDP MTOP success: https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p
+[02:30:42]   PDP MTOP success: https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F
+[02:30:42]   PDP MTOP success: https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.al
+[02:30:42]   PDP MTOP success: https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt7
+[02:30:42]   Best PDP: len=? https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=17945010
+[02:30:42]   Best PDP: len=? https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg3e6
+[02:30:42]   Best PDP: len=? https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&ifra
+[02:30:42]   Best PDP: len=? https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2
+[02:30:42]   Best PDP: len=? https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p
+[02:30:42]   Best PDP: len=? https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F
+[02:30:42]   Best PDP: len=? https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.al
+[02:30:42]   Best PDP: len=? https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt7
+[02:30:42] === Phase 6: DOM extraction ===
+[02:30:42]   DOM: title=Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Dis, price=none, imgs=11
+[02:30:42] === DONE ===
+[02:30:42]   MTOP total: 8
+[02:30:42]   TMD handled: True
+[02:30:42]   reCAPTCHA solved: True
+[02:30:42]   PDP data keys: empty
+[02:30:42]   DOM title: Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a
+[02:30:42]   DOM price: none
+[02:30:42]   Errors: []
+[02:30:43] Result saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_pw51_result.json (4431 bytes)

@@ -1,0 +1,32 @@
+{
+  "ALIEXPRESS_RU (search)": {
+    "ok": true,
+    "elapsed": 2.8,
+    "detail": "0 products (API empty)"
+  },
+  "ALIEXPRESS (global)": {
+    "ok": true,
+    "elapsed": 15.4,
+    "detail": "None (page not parsed)"
+  },
+  "WB": {
+    "ok": false,
+    "elapsed": 80.0,
+    "error": "'WBCollector' object has no attribute 'close'"
+  },
+  "OZON": {
+    "ok": true,
+    "elapsed": 103.7,
+    "detail": "None"
+  },
+  "AVITO": {
+    "ok": false,
+    "elapsed": 22.9,
+    "error": "'AvitoCollector' object has no attribute 'close'"
+  },
+  "FARPOST": {
+    "ok": false,
+    "elapsed": 2.2,
+    "error": "'FarpostCollector' object has no attribute 'close'"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "version": "v80",
+  "timestamp": "2026-11-11T01:42:22.584+00:00",
+  "pre": {
+    "product": 3,
+    "observation": 14,
+    "price_point": 7,
+    "source": 6
+  },
+  "post": {
+    "product": 4,
+    "observation": 15,
+    "price_point": 8,
+    "source": 6
+  },
+  "results": {
+    "FARPOST": {
+      "status": "HTTP_ERROR",
+      "code": 404
+    },
+    "OZON": {
+      "status": "OK",
+      "product_id": 4,
+      "product_created": true,
+      "observation_id": 15,
+      "obs_created": true,
+      "prices_count": 1,
+      "price_minor": 31000,
+      "availability": "UNKNOWN",
+      "strategy": "curl_cffi_safari17"
+    },
+    "WB": {
+      "status": "NO_DATA",
+      "note": "no title obtained"
+    },
+    "AVITO": {
+      "status": "NO_LIVE_LISTING",
+      "note": "no live listing found"
+    }
+  },
+  "overall": "PARTIAL"
+}

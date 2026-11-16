@@ -1,0 +1,30 @@
+2026-11-12 19:12:13,885 INFO === V13 START ===
+2026-11-12 19:12:14,100 INFO --- WB ---
+2026-11-12 19:12:14,100 INFO WB: nm=1097975275 vol=10979 part=1097975 shard=5
+2026-11-12 19:12:15,204 INFO WB static-basket-05: HTTP 404 len=0
+2026-11-12 19:12:16,239 INFO WB basket-05: HTTP 404 len=196
+2026-11-12 19:12:16,893 INFO WB static-basket-5: Failed to perform, curl: (6) Could not resolve hos
+2026-11-12 19:12:16,893 INFO WB: scanning shards 0-9...
+2026-11-12 19:12:29,493 INFO WB shard scan: {0: 'Failed to perform, curl: (6) C', 1: 404, 2: 404, 3: 404, 4: 'Failed to perform, curl: (6) C', 5: 404, 6: 'Failed to perform, curl: (6) C', 7: 404, 8: 404, 9: 404}
+2026-11-12 19:12:30,372 INFO WB main: HTTP=498 cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 19:12:30,991 INFO WB 498: len=1136 title=...
+2026-11-12 19:12:31,892 INFO WB sess_api: {'http': 403, 'len': 0, 't': 0.9}
+2026-11-12 19:12:31,892 INFO --- FARPOST ---
+2026-11-12 19:12:32,932 INFO FP warm: t=1.0s cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 19:12:34,819 INFO FP card1: {'url': 'https://www.farpost.ru/krasnoyarsk/auto/wheel/tire/shiny-139122082.html', 'len': 40192, 'n_ld': 2, 'attr_price': 8499, 'og_title': 'LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C - Купить шины в Красноярске на', 'og_price': None, 'og_image': 'https://static.baza.farpost.ru/farpost_catalog/1669597715957_bulletin', 'title_tag': 'LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C - Купить шины в Красноярске на', 'h1': 'Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красноярске', 'n_photos': 5, 'n_specs': 19, 'bulletin_id': '139122082', 'category': None, 'http': 200, 't': 0.4}
+2026-11-12 19:12:36,353 INFO FP cat: HTTP=200 len=189634
+2026-11-12 19:12:36,354 INFO FP cat: links=30 prices=0 titles=0
+2026-11-12 19:12:36,607 INFO FP card2: {'url': 'https://www.farpost.ru/vladivostok/tech/electronics/umnyj-dom-vkonnektu-88005649', 'len': 62153, 'n_ld': 3, 'ld_name': 'Умный Дом "VkonnektU"', 'ld_desc': 'Прочая электроника. Цена: 9 999&#8381;. Новый. В наличии. Внимание! Снижение цен на всё оборудование', 'ld_price': 9999, 'ld_currency': 'RUB', 'ld_availability': 'https://schema.org/InStock', 'ld_imgs': [], 'n_ld_imgs': 0, 'attr_price': 9999, 'og_title': 'Умный Дом &quot;VkonnektU&quot;, новый, в наличии. Цена: 9 999&#8381; во Владиво', 'og_price': None, 'og_image': 'https://static.baza.farpost.ru/v/1606801042499_bulletin', 'title_tag': 'Умный Дом &quot;VkonnektU&quot;, новый, в наличии. Цена: 9 999&#8381; во Владиво', 'h1': 'Умный Дом &quot;VkonnektU&quot; во Владивостоке', 'n_photos': 52, 'n_specs': 8, 'bulletin_id': '88005649', 'category': None, 'http': 200, 't': 0.3}
+2026-11-12 19:12:36,609 INFO FP card saved: 40192 bytes
+2026-11-12 19:12:36,609 INFO --- OZON ---
+2026-11-12 19:12:37,611 INFO OZ firefox: {'http': 403, 'len': 8185, 't': 1.0}
+2026-11-12 19:12:38,592 INFO OZ safari: {'http': 403, 'len': 9866, 't': 1.0}
+2026-11-12 19:12:40,761 INFO OZ sess: home=403 product=403
+2026-11-12 19:12:42,740 INFO OZ no_slash: 403, search: 403
+2026-11-12 19:12:42,740 INFO --- AVITO ---
+2026-11-12 19:12:46,744 INFO AV home: {'http': 439, 'len': 14382, 'cookies': ['srv_id', 'gMltIuegZN2COuSe', '_avisc', 'pow_challenge'], 't': 1.0}
+2026-11-12 19:12:50,006 INFO AV search: {'http': 429, 'len': 34116, 't': 0.3, 'blocked': True, 'has_iframe': False, 'has_form': True, 'title': 'Доступ ограничен: проблема с IP'}
+2026-11-12 19:12:52,229 INFO AV cat2: {'http': 429, 'len': 34116, 't': 0.2}
+2026-11-12 19:12:53,360 INFO AV api: {'http': 404, 'len': 555, 't': 0.1}
+2026-11-12 19:12:53,361 INFO === V13 DONE t=39.5s ===
+2026-11-12 19:12:53,361 INFO → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_v13_results.json

@@ -1,0 +1,383 @@
+{
+  "wb_main": {
+    "label": "WB main",
+    "url": "https://www.wildberries.ru/",
+    "method": "GET",
+    "params": null,
+    "status": 498,
+    "size": 1136,
+    "elapsed": 0.88,
+    "error": null,
+    "captcha_hints": [
+      "antibot",
+      "challenge"
+    ],
+    "content_type": "text/html",
+    "final_url": "https://www.wildberries.ru/"
+  },
+  "wb_search": {
+    "label": "WB search",
+    "url": "https://www.wildberries.ru/search",
+    "method": "GET",
+    "params": {
+      "query": "наушники"
+    },
+    "status": 498,
+    "size": 1136,
+    "elapsed": 0.87,
+    "error": null,
+    "captcha_hints": [
+      "antibot",
+      "challenge"
+    ],
+    "content_type": "text/html",
+    "final_url": "https://www.wildberries.ru/search?query=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8"
+  },
+  "wb_search_old": {
+    "label": "WB search old",
+    "url": "https://search.wildberries.ru/",
+    "method": "GET",
+    "params": {
+      "query": "наушники"
+    },
+    "status": null,
+    "size": 0,
+    "elapsed": 0.58,
+    "error": "DNSError: Failed to perform, curl: (6) Could not resolve host: search.wildberries.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "captcha_hints": [],
+    "content_type": "",
+    "final_url": ""
+  },
+  "wb_basket": {
+    "label": "WB basket CDN",
+    "url": "https://basket-01.wbbasket.ru/vol0/part0/0.json",
+    "method": "GET",
+    "params": null,
+    "status": 404,
+    "size": 196,
+    "elapsed": 1.0,
+    "error": null,
+    "captcha_hints": [],
+    "content_type": "text/html",
+    "final_url": "https://basket-01.wbbasket.ru/vol0/part0/0.json"
+  },
+  "wb_price_api": {
+    "label": "WB price API",
+    "url": "https://card.wb.ru/cards/v2/detail.json",
+    "method": "GET",
+    "params": {
+      "nm": "123456789"
+    },
+    "status": 403,
+    "size": 0,
+    "elapsed": 0.93,
+    "error": null,
+    "captcha_hints": [
+      "HTTP_403"
+    ],
+    "content_type": "text/plain",
+    "final_url": "https://card.wb.ru/cards/v2/detail.json?nm=123456789"
+  },
+  "wb_card": {
+    "label": "WB card",
+    "url": "https://www.wildberries.ru/catalog/123456789/detail.aspx",
+    "method": "GET",
+    "params": null,
+    "status": 498,
+    "size": 1136,
+    "elapsed": 0.84,
+    "error": null,
+    "captcha_hints": [
+      "antibot",
+      "challenge"
+    ],
+    "content_type": "text/html",
+    "final_url": "https://www.wildberries.ru/catalog/123456789/detail.aspx"
+  },
+  "ozon_main": {
+    "label": "Ozon main",
+    "url": "https://www.ozon.ru/",
+    "method": "GET",
+    "params": null,
+    "status": 403,
+    "size": 8719,
+    "elapsed": 1.64,
+    "error": null,
+    "captcha_hints": [
+      "antibot",
+      "challenge",
+      "HTTP_403"
+    ],
+    "content_type": "text/html",
+    "final_url": "https://www.ozon.ru/?__rr=1"
+  },
+  "ozon_search": {
+    "label": "Ozon search",
+    "url": "https://www.ozon.ru/search/",
+    "method": "GET",
+    "params": {
+      "text": "наушники",
+      "from": "global"
+    },
+    "status": 403,
+    "size": 8838,
+    "elapsed": 1.01,
+    "error": null,
+    "captcha_hints": [
+      "antibot",
+      "challenge",
+      "HTTP_403"
+    ],
+    "content_type": "text/html",
+    "final_url": "https://www.ozon.ru/search/?text=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8&from=global&__rr=1"
+  },
+  "ozon_search_p2": {
+    "label": "Ozon search p2",
+    "url": "https://www.ozon.ru/search/",
+    "method": "GET",
+    "params": {
+      "text": "наушники",
+      "from": "global",
+      "page": "2"
+    },
+    "status": 200,
+    "size": 315923,
+    "elapsed": 1.78,
+    "error": null,
+    "captcha_hints": [],
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://www.ozon.ru/search/?text=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8&from=global&page=2&__rr=1"
+  },
+  "ozon_card": {
+    "label": "Ozon card",
+    "url": "https://www.ozon.ru/product/1234567890/",
+    "method": "GET",
+    "params": null,
+    "status": 403,
+    "size": 8747,
+    "elapsed": 0.99,
+    "error": null,
+    "captcha_hints": [
+      "antibot",
+      "challenge",
+      "HTTP_403"
+    ],
+    "content_type": "text/html",
+    "final_url": "https://www.ozon.ru/product/1234567890/?__rr=1"
+  },
+  "avito_main": {
+    "label": "Avito main",
+    "url": "https://www.avito.ru/",
+    "method": "GET",
+    "params": null,
+    "status": 439,
+    "size": 14230,
+    "elapsed": 0.97,
+    "error": null,
+    "captcha_hints": [
+      "проверка"
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.avito.ru/"
+  },
+  "avito_search_lis": {
+    "label": "Avito /lis?query",
+    "url": "https://www.avito.ru/lis?query=наушники",
+    "method": "GET",
+    "params": null,
+    "status": 404,
+    "size": 30548,
+    "elapsed": 0.91,
+    "error": null,
+    "captcha_hints": [],
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.avito.ru/lis?query=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8"
+  },
+  "avito_search_new": {
+    "label": "Avito /search",
+    "url": "https://www.avito.ru/search?query=наушники",
+    "method": "GET",
+    "params": null,
+    "status": 439,
+    "size": 14230,
+    "elapsed": 1.07,
+    "error": null,
+    "captcha_hints": [
+      "проверка"
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.avito.ru/vladivostok"
+  },
+  "avito_m_main": {
+    "label": "Avito m.main",
+    "url": "https://m.avito.ru/",
+    "method": "GET",
+    "params": null,
+    "status": 439,
+    "size": 14230,
+    "elapsed": 1.91,
+    "error": null,
+    "captcha_hints": [
+      "проверка"
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.avito.ru/"
+  },
+  "avito_card": {
+    "label": "Avito card",
+    "url": "https://www.avito.ru/moskva/elektronika/1234567890",
+    "method": "GET",
+    "params": null,
+    "status": 439,
+    "size": 14230,
+    "elapsed": 0.99,
+    "error": null,
+    "captcha_hints": [
+      "проверка"
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.avito.ru/moskva/elektronika/1234567890"
+  },
+  "farpost_main": {
+    "label": "Farpost main",
+    "url": "https://www.farpost.ru/",
+    "method": "GET",
+    "params": null,
+    "status": 200,
+    "size": 73362,
+    "elapsed": 1.22,
+    "error": null,
+    "captcha_hints": [],
+    "content_type": "text/html; charset=windows-1251",
+    "final_url": "https://www.farpost.ru/"
+  },
+  "farpost_dir": {
+    "label": "Farpost /dir",
+    "url": "https://www.farpost.ru/dir",
+    "method": "GET",
+    "params": {
+      "query": "наушники"
+    },
+    "status": 200,
+    "size": 254867,
+    "elapsed": 1.46,
+    "error": null,
+    "captcha_hints": [],
+    "content_type": "text/html; charset=windows-1251",
+    "final_url": "https://www.farpost.ru/tech/audio_video/earphones/?_suggest=1&query=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8"
+  },
+  "farpost_search": {
+    "label": "Farpost /search",
+    "url": "https://www.farpost.ru/search",
+    "method": "GET",
+    "params": {
+      "q": "наушники"
+    },
+    "status": 404,
+    "size": 13053,
+    "elapsed": 1.04,
+    "error": null,
+    "captcha_hints": [],
+    "content_type": "text/html; charset=windows-1251",
+    "final_url": "https://www.farpost.ru/search?q=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8"
+  },
+  "farpost_card": {
+    "label": "Farpost card",
+    "url": "https://www.farpost.ru/moskva/elektronika/test-1234567890.html",
+    "method": "GET",
+    "params": null,
+    "status": 404,
+    "size": 13209,
+    "elapsed": 0.93,
+    "error": null,
+    "captcha_hints": [],
+    "content_type": "text/html; charset=windows-1251",
+    "final_url": "https://www.farpost.ru/moskva/elektronika/test-1234567890.html"
+  },
+  "ali_main": {
+    "label": "Ali main",
+    "url": "https://www.aliexpress.com/",
+    "method": "GET",
+    "params": null,
+    "status": 200,
+    "size": 485706,
+    "elapsed": 3.26,
+    "error": null,
+    "captcha_hints": [],
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://it.aliexpress.com/?gatewayAdapt=glo2ita"
+  },
+  "ali_search": {
+    "label": "Ali search",
+    "url": "https://www.aliexpress.com/wholesale?SearchText=earbuds",
+    "method": "GET",
+    "params": null,
+    "status": 200,
+    "size": 807265,
+    "elapsed": 4.66,
+    "error": null,
+    "captcha_hints": [
+      "akamai"
+    ],
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://it.aliexpress.com/w/wholesale-earbuds.html"
+  },
+  "ali_search_p2": {
+    "label": "Ali search p2",
+    "url": "https://www.aliexpress.com/wholesale?SearchText=earbuds&page=2",
+    "method": "GET",
+    "params": null,
+    "status": 200,
+    "size": 798249,
+    "elapsed": 4.4,
+    "error": null,
+    "captcha_hints": [
+      "akamai"
+    ],
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://it.aliexpress.com/w/wholesale-earbuds.html?page=2"
+  },
+  "ali_card": {
+    "label": "Ali card",
+    "url": "https://www.aliexpress.com/item/1005001234567890.html",
+    "method": "GET",
+    "params": null,
+    "status": 200,
+    "size": 74600,
+    "elapsed": 2.66,
+    "error": null,
+    "captcha_hints": [
+      "akamai"
+    ],
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://it.aliexpress.com/item/1005001234567890.html?gatewayAdapt=glo2ita"
+  },
+  "ali_ru_main": {
+    "label": "Ali RU main",
+    "url": "https://ru.aliexpress.com/",
+    "method": "GET",
+    "params": null,
+    "status": 200,
+    "size": 452862,
+    "elapsed": 4.13,
+    "error": null,
+    "captcha_hints": [],
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://aliexpress.ru/"
+  },
+  "ali_ru_search": {
+    "label": "Ali RU search",
+    "url": "https://ru.aliexpress.com/wholesale?SearchText=наушники",
+    "method": "GET",
+    "params": null,
+    "status": 200,
+    "size": 770544,
+    "elapsed": 5.0,
+    "error": null,
+    "captcha_hints": [
+      "akamai"
+    ],
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://it.aliexpress.com/w/wholesale-%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8.html"
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "timestamp": "2026-11-12T14:58:51.079293+00:00",
+  "script": "diag_ali_pw26",
+  "step1": {
+    "http_status": 200,
+    "html_len": 76267,
+    "elapsed": 3.31,
+    "final_url": "https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita",
+    "script_count": 21,
+    "scripts": [
+      {
+        "idx": 0,
+        "len": 2425,
+        "keywords": [
+          "runParams"
+        ],
+        "head": "window.runParams = {\n                    };\n        window._d_c_ = window._d_c_ || {};\n        window._d_c_.viewName = 'newDetail';\n        window._d_"
+      },
+      {
+        "idx": 1,
+        "len": 41,
+        "keywords": [],
+        "head": "window._global_header_23_hit_exp_ = true;"
+      },
+      {
+        "idx": 2,
+        "len": 127,
+        "keywords": [],
+        "head": "window._global_header_23_config_ = window._global_header_23_config_ || {};\n    window._global_header_23_config_.isFixed = true;"
+      },
+      {
+        "idx": 3,
+        "len": 7641,
+        "keywords": [
+          "INIT_DATA"
+        ],
+        "head": "!function(){\"use strict\";window.gep_queue=window.gep_queue||[];function n(e,n){return window.gep_queue.push({action:e,arguments:n})}try{var e,r=(null="
+      },
+      {
+        "idx": 4,
+        "len": 1387,
+        "keywords": [
+          "title",
+          "product"
+        ],
+        "head": "!function(){\"use strict\";!function(){try{if(window.performance&&window.MutationObserver){var e=Date.now(),t=document.body||document.documentElement,r="
+      },
+      {
+        "idx": 5,
+        "len": 329,
+        "keywords": [],
+        "head": "!function(){\"use strict\";var s,o;s=window.goldlog_queue||(window.goldlog_queue=[]),o=\"aplus.aliexpress.com\",/aliexpress.us$/.test(window.location.host"
+      },
+      {
+        "idx": 6,
+        "len": 465,
+        "keywords": [],
+        "head": "with(document)with(body)with(insertBefore(createElement(\"script\"),firstChild))setAttribute(\"exparams\",\"userid=&aplus&ali_beacon_id=&ali_apache_id=11%2"
+      },
+      {
+        "idx": 7,
+        "len": 113,
+        "keywords": [],
+        "head": "window._is_close_global_abtest = true;\n    window._ae_pic_a1_on_ = true;\n    window._disable_header_gdpr_ = true;"
+      },
+      {
+        "idx": 11,
+        "len": 8714,
+        "keywords": [
+          "product",
+          "INIT_DATA",
+          "pdp",
+          "mtop",
+          "GLOBAL_DATA"
+        ],
+        "head": "(function () {\n        try {\n            var isCSR = window._d_c_ && window._d_c_.isCSR;\n            if (isCSR !== true) {\n                window._pag"
+      },
+      {
+        "idx": 12,
+        "len": 26983,
+        "keywords": [
+          "INIT_DATA",
+          "mtop"
+        ],
+        "head": "!function(){\"use strict\";function e(e,t){if(null==e)return{};var n,o,r=function(e,t){if(null==e)return{};var n,o,r={},i=Object.keys(e);for(o=0;o<i.len"
+      },
+      {
+        "idx": 13,
+        "len": 1065,
+        "keywords": [
+          "product"
+        ],
+        "head": "window._global_header_23_hit_exp_ = true;\nwindow._disable_ru_cookie_async_percent_ = 60;\nwindow._search_preload_page_whitelist_ = window._search_prelo"
+      },
+      {
+        "idx": 14,
+        "len": 39,
+        "keywords": [],
+        "head": "window._new_image_search_upload_ = 100;"
+      },
+      {
+        "idx": 17,
+        "len": 438,
+        "keywords": [],
+        "head": "/* <![CDATA[ */\n  try{\n    (function() {\n        var url = window.location.href,search = window.location.search,regx1 = /isdl=y/,regx4 = /aff_short_ke"
+      },
+      {
+        "idx": 18,
+        "len": 861,
+        "keywords": [
+          "Product"
+        ],
+        "head": "if (!window.recentlyviewedi18n) {\n        window.recentlyviewedi18n = {};\n    }\n\n    window.recentlyviewedi18n.recentlyviewedContent = \"Recently Viewe"
+      },
+      {
+        "idx": 20,
+        "len": 4480,
+        "keywords": [],
+        "head": "(function () {\n    if (/AliApp\\(AE/.test(navigator.userAgent)) { return; }\n    if ('serviceWorker' in navigator) {\n      var MOBILE_UA_REG = /(phone|p"
+      }
+    ],
+    "price_hits": [],
+    "title_hits": [
+      "ItemDetailResp"
+    ],
+    "data_attrs": [],
+    "window_vars": [
+      "runParams",
+      "_d_c_",
+      "_global_header_23_hit_exp_",
+      "_global_header_23_config_",
+      "gep_queue",
+      "goldlog_queue",
+      "dmtrack_pageid",
+      "_page_config_",
+      "__INIT_DATA_CALLBACK__",
+      "GepTrackerPerfQueue",
+      "_is_close_global_abtest",
+      "_ae_pic_a1_on_",
+      "_disable_header_gdpr_",
+      "ctrl",
+      "lib",
+      "_disable_ru_cookie_async_percent_",
+      "_search_preload_page_whitelist_",
+      "_new_image_search_upload_",
+      "recentlyviewedi18n",
+      "aeplusi18n"
+    ],
+    "metas": {
+      "data-spm": "a2g0o",
+      "aplus-waiting": "MAN",
+      "aplus-auto-exp-visible": "0.2",
+      "aplus-auto-exp-duration": "200",
+      "aplus-auto-exp": "[{",
+      "aplus-auto-clk": "[{",
+      "og:url": "//it.aliexpress.com/item/1005011813323763.html?src=ibdm_d03p0558e02r02&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=&aff_short_key=",
+      "og:title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress",
+      "og:type": "product",
+      "og:image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+      "og:description": "Smarter Shopping, Better Living! Aliexpress.com",
+      "og:site_name": "aliexpress.",
+      "fb:admins": "100001353684210,644984273",
+      "fb:page_id": "335963307560",
+      "fb:app_id": "176044105761845",
+      "al:android:url": "aliexpress://product/detail?productId=1005011813323763&fbsrc=fbapplink_www_detail_android&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=&aff_short_k",
+      "al:android:package": "com.alibaba.aliexpresshd",
+      "al:android:app_name": "AliExpress",
+      "al:iphone:url": "aliexpress://product/detail?productId=1005011813323763&fbsrc=fbapplink_www_detail_ios&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=&aff_short_key=",
+      "al:iphone:app_store_id": "436672029",
+      "al:iphone:app_name": "AliExpress",
+      "description": "",
+      "keywords": "",
+      "robots": "",
+      "viewport": "width=device-width, initial-scale=1.0",
+      "aplus-plugin-aefront-ignore-force-set-meta": "true",
+      "aplus-rhost-v": "ae.mmstat.com/g.gif",
+      "aplus-rhost-g": "ae.mmstat.com"
+    }
+  },
+  "step2": [
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.7.2&appKey=24568372&t=1794495536619&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&v=1.0&type=originaljson&dataType=json&timeou",
+      "status": 200,
+      "len": 531,
+      "head": "{\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg5b7fa6464b535eb4kjcd9f9b0a1ae93b0873e3cb9fe8027a921794495538a-1168960602a-1317347523abaxc3eajrecaptcha33b2d41062aa4dddb91c4c00f917f0639ce__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}},\"dialogSize\":{\"wi",
+      "parsed": true,
+      "ret": [
+        "FAIL_SYS_USER_VALIDATE",
+        "RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试"
+      ],
+      "data_keys": [
+        "url",
+        "dialogSize"
+      ]
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.detail.pc.query/1.0/?jsv=2.7.2&appKey=24568372&t=1794495536619&api=mtop.aliexpress.detail.pc.query&v=1.0&type=originaljson&dataType=json&timeout=20000&dat",
+      "status": 200,
+      "len": 106,
+      "head": "{\"api\":\"mtop.aliexpress.detail.pc.query\",\"data\":{},\"ret\":[\"FAIL_SYS_API_NOT_FOUNDED::请求API不存在\"],\"v\":\"1.0\"}",
+      "parsed": true,
+      "ret": [
+        "FAIL_SYS_API_NOT_FOUNDED::请求API不存在"
+      ],
+      "data_keys": []
+    }
+  ],
+  "step3": {}
+}

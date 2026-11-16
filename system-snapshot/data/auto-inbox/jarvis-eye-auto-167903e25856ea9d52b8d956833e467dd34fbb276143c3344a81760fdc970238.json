@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Кофемашина автоматическая Magnifica Start ECAM220.21.WW",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "DeLonghi",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Автоматическая кофемашина DeLonghi Magnifica Start ECAM220.21.WW — это идеальное решение для ценителей настоящего зернового кофе. В отличие от капсульных кофеварок, эта модель позволяет наслаждаться богатым ароматом и вкусом свежемолотого кофе, который вы можете приготовить в домашних условиях.\n\nМощная жерновая кофемолка с 13 степенями помола позволит подобрать оптимальный вариант для вашего вкуса, а давление помпы 15 бар гарантирует идеальную экстракцию. Кофемашина оснащена вместительным контейнером для зерен на 250 г, что позволит вам наслаждаться любимым напитком без необходимости частой загрузки. \n\nИнтуитивно понятная панель управления с индикацией включения, готовности к работе и готовности кофе делает процесс приготовления максимально простым и удобным.  Благодаря ручному капучинатору вы сможете приготовить не только ароматный эспрессо, но и молочные кофейные напитки с пышной пенкой. Корпус из прочного пластика придает кофемашине стильный и современный вид, который впишется в любой интерьер. ",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Техника для кухни > Кофемашины",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 6398000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "63980.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 2735100,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "27351.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Техника для кухни > Кофемашины",
+    "source": "WB",
+    "id": "371599551",
+    "url": "https://www.wildberries.ru/catalog/371599551/detail.aspx",
+    "observed_at": "2026-11-17T01:20:31.214234+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

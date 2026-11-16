@@ -1,0 +1,51 @@
+2026-11-12 06:13:08,816 e2e3 INFO === E2E v3 PARALLEL START 2026-11-12T06:13:08.816565+10:00 ===
+2026-11-12 06:13:08,816 e2e3 INFO IDs: {'WB': '100000001', 'OZON': '278346543', 'AVITO': '1102345678', 'FARPOST': '139122082'}
+2026-11-12 06:13:08,960 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 06:13:08,961 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 06:13:08,961 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 06:13:08,961 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 06:13:08,962 e2e3 INFO AVITO URL: https://www.avito.ru/ad/1102345678
+2026-11-12 06:13:09,098 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-12 06:13:09,790 e2e3 INFO AVITO: fetch=None (404/blocked)
+2026-11-12 06:13:10,221 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 06:13:10,672 e2e3 INFO OZON S1 cffi: HTTP 403 (8401B)
+2026-11-12 06:13:11,975 e2e3 INFO OZON S2 error: Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-12 06:13:12,609 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True)
+2026-11-12 06:13:16,594 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/278346543/ -> 403 (3307B, 4.0s)
+2026-11-12 06:13:16,598 e2e3 INFO OZON S3 PW: status=403 len=3307
+2026-11-12 06:13:22,521 r52.collectors.wb INFO WB: vol=1000 -> basket-05.wbbasket.ru (nm_id=100000001)
+2026-11-12 06:13:25,397 r52.collectors.wb INFO WB 100000001: card.json OK (17 keys, 5066B)
+2026-11-12 06:13:25,397 r52.collectors.wb INFO WB 100000001: photo_count=3, found=1
+2026-11-12 06:13:25,398 e2e3 INFO === E2E v3 DONE in 16.6s ===
+2026-11-12 06:13:25,398 e2e3 INFO SUMMARY:
+{
+  "AVITO": {
+    "verdict": "DATA_WEAK",
+    "title": "",
+    "prices": 0,
+    "media": 0,
+    "elapsed": 1.0
+  },
+  "FARPOST": {
+    "verdict": "DATA_OK",
+    "title": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красн",
+    "prices": 1,
+    "media": 1,
+    "elapsed": 2.8
+  },
+  "OZON": {
+    "verdict": "DATA_WEAK",
+    "title": "",
+    "prices": 0,
+    "media": 0,
+    "elapsed": 7.9
+  },
+  "WB": {
+    "verdict": "DATA_OK",
+    "title": "Белизна отбеливатель средство для уборки",
+    "prices": 0,
+    "media": 1,
+    "elapsed": 16.6
+  }
+}
+2026-11-12 06:13:25,399 e2e3 INFO === VERDICT: 2/4 ===

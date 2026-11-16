@@ -1,0 +1,122 @@
+C:\Users\aleks\Downloads\R52-2.12\R52-2.12\test_fp_diag.py:10: SyntaxWarning: "\P" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\P"? A raw string is also an option.
+  cmd /c "C:\Python315\python.exe -u test_fp_diag.py > test_fp_diag_out.log 2>&1 & echo EXIT=%ERRORLEVEL%"
+
+============================================================
+TEST 1: requests.Session
+============================================================
+01:42:17 [fp_diag] INFO: Warm-up: GET https://www.farpost.ru/
+01:42:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.farpost.ru:443
+01:42:18 [urllib3.connectionpool] DEBUG: https://www.farpost.ru:443 "GET / HTTP/1.1" 200 None
+01:42:18 [fp_diag] INFO: Warm-up: 200, 73362B, cookies=[REDACTED_AUTH_SECRET]
+01:42:19 [fp_diag] INFO: 
+--- Bulletin 130693618 (Triangle IcelynX TI501 205/55 R16) ---
+01:42:19 [fp_diag] INFO: URL: https://www.farpost.ru/bulletin/130693618
+01:42:19 [urllib3.connectionpool] DEBUG: https://www.farpost.ru:443 "GET /bulletin/130693618 HTTP/1.1" 404 None
+01:42:19 [fp_diag] INFO: Status: 404, 13900B
+01:42:19 [fp_diag] INFO: Final URL: https://www.farpost.ru/bulletin/130693618
+01:42:19 [fp_diag] INFO: History: []
+01:42:19 [fp_diag] INFO: Cookies after: ['ring', 'ring_session']
+01:42:19 [fp_diag] WARNING: Non-200: 404
+01:42:19 [fp_diag] WARNING: Body[:200]: <!DOCTYPE html>
+<html lang="ru">
+<head>
+		<title>Страница не найдена</title>
+
+<meta charset="windows-1251" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+<meta http-equiv=
+01:42:21 [fp_diag] INFO: 
+--- Bulletin 136342005 (Комплект дисков Rays G25 R17) ---
+01:42:21 [fp_diag] INFO: URL: https://www.farpost.ru/bulletin/136342005
+01:42:22 [urllib3.connectionpool] DEBUG: https://www.farpost.ru:443 "GET /bulletin/136342005 HTTP/1.1" 404 None
+01:42:22 [fp_diag] INFO: Status: 404, 13900B
+01:42:22 [fp_diag] INFO: Final URL: https://www.farpost.ru/bulletin/136342005
+01:42:22 [fp_diag] INFO: History: []
+01:42:22 [fp_diag] INFO: Cookies after: ['ring', 'ring_session']
+01:42:22 [fp_diag] WARNING: Non-200: 404
+01:42:22 [fp_diag] WARNING: Body[:200]: <!DOCTYPE html>
+<html lang="ru">
+<head>
+		<title>Страница не найдена</title>
+
+<meta charset="windows-1251" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+<meta http-equiv=
+01:42:24 [fp_diag] INFO: 
+--- Bulletin 98836529 (Поршни 4D35 Mitsubishi Canter) ---
+01:42:24 [fp_diag] INFO: URL: https://www.farpost.ru/bulletin/98836529
+01:42:24 [urllib3.connectionpool] DEBUG: https://www.farpost.ru:443 "GET /bulletin/98836529 HTTP/1.1" 404 None
+01:42:24 [fp_diag] INFO: Status: 404, 13898B
+01:42:24 [fp_diag] INFO: Final URL: https://www.farpost.ru/bulletin/98836529
+01:42:24 [fp_diag] INFO: History: []
+01:42:24 [fp_diag] INFO: Cookies after: ['ring', 'ring_session']
+01:42:24 [fp_diag] WARNING: Non-200: 404
+01:42:24 [fp_diag] WARNING: Body[:200]: <!DOCTYPE html>
+<html lang="ru">
+<head>
+		<title>Страница не найдена</title>
+
+<meta charset="windows-1251" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+<meta http-equiv=
+
+============================================================
+TEST 2: curl_cffi
+============================================================
+01:42:26 [fp_diag] INFO: Warm-up: GET https://www.farpost.ru/ (cffi)
+01:42:27 [fp_diag] INFO: Warm-up: 200, 73362B, cookies=[REDACTED_AUTH_SECRET]
+01:42:28 [fp_diag] INFO: 
+--- Bulletin 130693618 (Triangle IcelynX TI501 205/55 R16) ---
+01:42:29 [fp_diag] INFO: Status: 404, 12941B
+01:42:29 [fp_diag] INFO: Final URL: https://www.farpost.ru/bulletin/130693618
+01:42:29 [fp_diag] WARNING: Body[:200]: <!DOCTYPE html>
+<html lang="ru">
+<head>
+		<title>Страница не найдена</title>
+
+<meta charset="windows-1251" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+<meta http-equiv=
+01:42:31 [fp_diag] INFO: 
+--- Bulletin 136342005 (Комплект дисков Rays G25 R17) ---
+01:42:32 [fp_diag] INFO: Status: 404, 12941B
+01:42:32 [fp_diag] INFO: Final URL: https://www.farpost.ru/bulletin/136342005
+01:42:32 [fp_diag] WARNING: Body[:200]: <!DOCTYPE html>
+<html lang="ru">
+<head>
+		<title>Страница не найдена</title>
+
+<meta charset="windows-1251" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+<meta http-equiv=
+
+============================================================
+TEST 3: FarpostCollector.collect_product
+============================================================
+01:42:34 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+01:42:34 [fp_diag] INFO: 
+--- Collector: 130693618 (Triangle IcelynX TI501 205/55 R16) ---
+01:42:34 [fp_diag] INFO: URL: https://www.farpost.ru/bulletin/130693618
+01:42:34 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.farpost.ru:443
+01:42:34 [urllib3.connectionpool] DEBUG: https://www.farpost.ru:443 "GET / HTTP/1.1" 200 None
+01:42:34 [r52.collectors.farpost] INFO: FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+01:42:35 [fp_diag] INFO: After warmup: warmed=True, cookies=[REDACTED_AUTH_SECRET]
+01:42:35 [urllib3.connectionpool] DEBUG: https://www.farpost.ru:443 "GET /bulletin/130693618 HTTP/1.1" 404 None
+01:42:35 [fp_diag] WARNING: fetch() returned None in 0.1s
+01:42:35 [fp_diag] WARNING: Stats: {'requests': 1, 'success': 0, 'failed': 1, 'blocked': 0}
+01:42:36 [fp_diag] INFO: 
+--- Collector: 136342005 (Комплект дисков Rays G25 R17) ---
+01:42:36 [fp_diag] INFO: URL: https://www.farpost.ru/bulletin/136342005
+01:42:36 [fp_diag] INFO: After warmup: warmed=True, cookies=[REDACTED_AUTH_SECRET]
+01:42:37 [urllib3.connectionpool] DEBUG: https://www.farpost.ru:443 "GET /bulletin/136342005 HTTP/1.1" 404 None
+01:42:37 [fp_diag] WARNING: fetch() returned None in 1.0s
+01:42:37 [fp_diag] WARNING: Stats: {'requests': 2, 'success': 0, 'failed': 2, 'blocked': 0}
+01:42:38 [fp_diag] INFO: 
+Collector stats: {'requests': 2, 'success': 0, 'failed': 2, 'blocked': 0}
+
+FP DIAG DONE (22s)

@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Hub USB-C 5 in 1, versione 3.1 Gen2, 10 Gbps, con 2 porte USB 3.0, lettore di schede SD/TF e ricarica rapida, compatibile con MacBook, laptop e tablet.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "34.33",
+        "amount_minor": 3433,
+        "currency": "RUB",
+        "visible_label": "34.33 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "20.26",
+        "amount_minor": 2026,
+        "currency": "RUB",
+        "visible_label": "20.26 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd0c73d171c04ac1ba61fa39224d48f4Y.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013465076688",
+    "url": "https://ru.aliexpress.com/item/1005013465076688.html",
+    "observed_at": "2026-11-13T07:48:13.476874+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

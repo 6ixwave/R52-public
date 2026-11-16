@@ -1,0 +1,57 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "KAMRUI LX15PRO AMD Ryzen 5 7430U Laptop da Gaming 15.6 Pollici FHD LPS 16GB DDR 4 512Gb M.2 SSD Windows 11 Pro 180 °   Notebook da Ufficio con Wifi6 e Bt5",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "404.56",
+        "amount_minor": 40456,
+        "currency": "EUR",
+        "visible_label": "404.56 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "399.76",
+        "amount_minor": 39976,
+        "currency": "EUR",
+        "visible_label": "399.76 EUR"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005012842083149",
+    "url": "https://ru.aliexpress.com/item/1005012842083149.html",
+    "observed_at": "2026-11-14T03:06:08.935208+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

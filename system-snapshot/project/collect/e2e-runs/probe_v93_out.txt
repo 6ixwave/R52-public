@@ -1,0 +1,91 @@
+﻿python : 2026-11-11 15:01:46,060 v93 INFO probe_v93 starting — 2026-11-11T15:01:46.060727+10:00
+строка:1 знак:38
++ $ErrorActionPreference = 'Continue'; python probe_v93.py 2>&1 | Out-F ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-11 15:0...46.060727+10:00:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-11 15:01:46,078 v93 INFO SQLite BEFORE: {'product': 10, 'observation': 26, 'price_point': 15, 'source': 6, 'inb
+ox_item': 8, 'intake_file': 0}
+2026-11-11 15:01:46,213 v93 INFO App ready: db=r52.db
+2026-11-11 15:01:46,255 v93 INFO === FARPOST ===
+2026-11-11 15:01:46,549 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\colle
+ctors\proxies.json не найден, режим direct
+2026-11-11 15:01:46,550 v93 INFO FP 138080119: https://www.farpost.ru/vladivostok/tech/communication/cellphones/iphone-
+18-pro-max-512gb-t
+2026-11-11 15:01:47,607 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-11 15:01:48,892 v93 INFO FP 138080119: collector OK, title='IPhone 18 Pro Max 512Gb. Trade-IN. Кредит. Гарантия
+ 1 год'
+2026-11-11 15:01:48,908 r52.intake INFO Во входящие добавлен файл None: PENDING 
+2026-11-11 15:01:48,925 v93 INFO FP 138080119: ACCEPTED product_id=8 title='IPhone 18 Pro Max 512Gb. Trade-IN. Кредит. 
+Гарантия 1 год' prices=[{'role': 'regular', 'amount_minor': 14199900, 'currency': 'RUB', 'label': 'data-bulletin-price'
+, 'amount': '141999.00', 'visible_label': 'data-bulletin-price'}]
+2026-11-11 15:01:50,926 v93 INFO FP 138078491: https://www.farpost.ru/vladivostok/tech/communication/cellphones/iphone-
+18-pro-1tb-trade-i
+2026-11-11 15:01:57,331 v93 INFO FP 138078491: collector OK, title='IPhone 18 Pro 1Tb. Trade-IN. Кредит. Гарантия 1 год
+'
+2026-11-11 15:01:57,345 r52.intake INFO Во входящие добавлен файл None: PENDING 
+2026-11-11 15:01:57,359 v93 INFO FP 138078491: ACCEPTED product_id=9 title='IPhone 18 Pro 1Tb. Trade-IN. Кредит. Гарант
+ия 1 год' prices=[{'role': 'regular', 'amount_minor': 15999900, 'currency': 'RUB', 'label': 'data-bulletin-price', 'amo
+unt': '159999.00', 'visible_label': 'data-bulletin-price'}]
+2026-11-11 15:01:59,359 v93 INFO FP 125270259: https://www.farpost.ru/vladivostok/tech/communication/cellphones/iphone-
+18-pro-max-256gb-t
+2026-11-11 15:02:14,583 v93 INFO FP 125270259: collector OK, title='IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия
+ 1 год'
+2026-11-11 15:02:14,599 r52.intake INFO Во входящие добавлен файл None: PENDING 
+2026-11-11 15:02:14,609 v93 INFO FP 125270259: ACCEPTED product_id=10 title='IPhone 18 Pro Max 256Gb. Trade-IN. Кредит.
+ Гарантия 1 год' prices=[{'role': 'regular', 'amount_minor': 12099900, 'currency': 'RUB', 'label': 'data-bulletin-price
+', 'amount': '120999.00', 'visible_label': 'data-bulletin-price'}]
+2026-11-11 15:02:16,610 v93 INFO FARPOST done in 30.1s (accepted=3)
+2026-11-11 15:02:16,612 v93 INFO === WB ===
+2026-11-11 15:02:16,612 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\colle
+ctors\proxies.json не найден, режим direct
+2026-11-11 15:02:16,947 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 15:02:16,947 v93 INFO WB 259671175: https://www.wildberries.ru/catalog/259671175/detail.aspx
+2026-11-11 15:05:19,097 r52.collectors.wb WARNING WB 259671175: basket host не найден для vol=2596
+2026-11-11 15:05:19,098 r52.collectors.wb WARNING WB 259671175: basket host не найден
+2026-11-11 15:05:20,893 r52.collectors.wb INFO WB 259671175: price card_v1 -> 403
+2026-11-11 15:05:24,318 r52.collectors.wb INFO WB 259671175: price card_v2 -> 403
+2026-11-11 15:05:26,800 r52.collectors.wb INFO WB 259671175: price card_v4 -> 403
+2026-11-11 15:05:30,790 r52.collectors.wb INFO WB 259671175: price card_v5 -> 403
+2026-11-11 15:05:32,815 r52.collectors.wb INFO WB 259671175: price web_api -> 498
+2026-11-11 15:05:32,816 r52.collectors.wb INFO WB 259671175: price — все эндпоинты не дали данных
+2026-11-11 15:05:42,642 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-11 15:05:42,642 v93 INFO WB 259671175: S1 collector OK, title='WB-259671175'
+2026-11-11 15:05:47,605 r52.intake INFO Во входящие добавлен файл None: PENDING 
+2026-11-11 15:05:47,619 v93 INFO WB 259671175: ACCEPTED product_id=11 title='WB-259671175'
+2026-11-11 15:05:50,620 v93 INFO WB 387715226: https://www.wildberries.ru/catalog/387715226/detail.aspx
+2026-11-11 15:08:54,554 r52.collectors.wb WARNING WB 387715226: basket host не найден для vol=3877
+2026-11-11 15:08:54,554 r52.collectors.wb WARNING WB 387715226: basket host не найден
+2026-11-11 15:08:56,945 r52.collectors.wb INFO WB 387715226: price card_v1 -> 403
+2026-11-11 15:09:00,543 r52.collectors.wb INFO WB 387715226: price card_v2 -> 403
+2026-11-11 15:09:02,959 r52.collectors.wb INFO WB 387715226: price card_v4 -> 403
+2026-11-11 15:09:06,202 r52.collectors.wb INFO WB 387715226: price card_v5 -> 403
+2026-11-11 15:09:08,554 r52.collectors.wb INFO WB 387715226: price web_api -> 498
+2026-11-11 15:09:08,554 r52.collectors.wb INFO WB 387715226: price — все эндпоинты не дали данных
+2026-11-11 15:09:23,732 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-11 15:09:23,732 v93 INFO WB 387715226: S1 collector OK, title='WB-387715226'
+2026-11-11 15:09:29,839 r52.intake INFO Во входящие добавлен файл None: PENDING 
+2026-11-11 15:09:29,851 v93 INFO WB 387715226: ACCEPTED product_id=12 title='WB-387715226'
+2026-11-11 15:09:32,855 v93 INFO WB done in 435.9s (accepted=2)
+2026-11-11 15:09:32,857 v93 INFO === OZON ===
+2026-11-11 15:09:32,858 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\colle
+ctors\proxies.json не найден, режим direct
+2026-11-11 15:09:32,859 v93 INFO OZON 479010389: strategies
+2026-11-11 15:09:34,430 r52.collectors INFO OZON: HTTP 403, retry 1/3 через 11с
+2026-11-11 15:09:45,947 r52.collectors INFO OZON: HTTP 403, retry 2/3 через 21с
+2026-11-11 15:10:06,634 r52.collectors INFO OZON: HTTP 403, retry 3/3 через 41с
+2026-11-11 15:10:48,823 v93 INFO OZON 479010389: S2 mobile
+2026-11-11 15:10:48,824 v93 WARNING OZON 479010389: S2 error: BaseCollector.fetch() got an unexpected keyword argument 
+'headers'
+2026-11-11 15:10:48,824 v93 INFO OZON 479010389: S3 composer API
+2026-11-11 15:10:48,824 v93 WARNING OZON 479010389: S3 error: BaseCollector.fetch() got an unexpected keyword argument 
+'headers'
+2026-11-11 15:10:48,824 v93 INFO OZON 479010389: S4 cffi
+2026-11-11 15:10:49,760 v93 INFO OZON 479010389: S4 chrome -> 403 (8436B)
+2026-11-11 15:10:52,760 v93 INFO OZON 479010389: S4 firefox -> 403 (8307B)
+2026-11-11 15:10:55,701 v93 INFO OZON 479010389: S4 safari -> 403 (9973B)
+2026-11-11 15:11:00,702 v93 INFO OZON 1600562267: strategies
+2026-11-11 15:11:00,826 r52.collectors INFO OZON: HTTP 403, retry 1/3 через 13с
+2026-11-11 15:11:15,976 r52.collectors INFO OZON: HTTP 403, retry 2/3 через 23с
+2026-11-11 15:11:38,927 r52.collectors INFO OZON: HTTP 403, retry 3/3 через 44с

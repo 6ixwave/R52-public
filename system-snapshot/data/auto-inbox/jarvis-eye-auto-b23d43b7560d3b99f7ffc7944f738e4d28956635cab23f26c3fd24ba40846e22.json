@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Худи укороченное оверсайз с капюшоном и начесом",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "ТЕЛОДВИЖЕНИЯ",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Базовое короткое худи с большим капюшоном и карманом кенгуру — стильная оверсайз кофта для женщин, девушек и подростков, созданная брендом Телодвижения в соответствии с трендами 2026.\n\nОднотонное трикотажное худи на затяжках свободного кроя выполнена из плотного футера 3х нитки с мягким начесом: теплый материал держит форму, остается комфортным осенью и весной, подходит для демисезонных тренировок, фитнеса, танцев, бега и домашней носки.\n\nУтепленный темный худи с утеплителем создает выразительный современный силуэт оверсайз. Небольшой эффект необработанного края подчеркивает хип хоп настроение. Толстовку легко сочетать с лосинами, под джинсы, любой спортивный и молодежный низ.\n\nБрендовое зимнее худи отличается качественным кроем и продуманными деталями: манжеты с резинкой, аккуратные линии, широкий фасон без молнии создают уверенный брендовый образ. Женское укороченное худи легко адаптируется под повседневный casual или хип-хоп стиль и станет стильным дополнением гардероба для школы, офиса или активного дня на природе.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Худи",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.4-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/MainFooter.b0ff762ba6c112bc.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/default-settings-ru.22f317172ab6ff43648c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lang-ru.c209555236b82e9e.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-vendors.88d8eda9c1885eea.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-app.f39d9a378793d996.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/index-spa.71cf448da12faff3.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/entry.92d454f76b230caf.js",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Одежда > Худи",
+    "source": "WB",
+    "id": "307065932",
+    "url": "https://www.wildberries.ru/catalog/307065932/detail.aspx",
+    "observed_at": "2026-11-17T01:43:12.768693+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

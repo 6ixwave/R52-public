@@ -1,0 +1,22 @@
+[04:16:34] MULTI-V2 START (curl_cffi=True)
+[04:16:34] === WB START ===
+[04:16:34] === OZON START ===
+[04:16:34] === AVITO START ===
+[04:16:34] === FARPOST START ===
+[04:16:43] Farpost 18530297982: 200! price=?
+[04:16:43] === OZON DONE ===
+[04:16:45] Farpost 139122082: 200! price=?
+[04:16:45] === AVITO DONE ===
+[04:16:47] Farpost 18000000000: 200! price=?
+[04:16:48] Farpost 17500000000: 200! price=?
+[04:16:50] Farpost 16000000000: 200! price=?
+[04:16:54] WB basket: none returned 200
+[04:16:59] === FARPOST DONE ===
+[04:17:09] === WB DONE ===
+[04:17:09] MULTI-V2 DONE in 34.9s
+[04:17:09] Saved: diag_multi_v2_result.json
+[04:17:09] --- SUMMARY ---
+[04:17:09]   WB: 0/35 OK → []
+[04:17:09]   OZON: 0/8 OK → []
+[04:17:09]   AVITO: 0/8 OK → []
+[04:17:09]   FARPOST: 12/13 OK → ['main-vlad', 'cat-stok/telefony/', 'cat-stok/elektronika/']

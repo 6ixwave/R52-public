@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Scheda grafica SOYO AMD Radeon RX580 8G Memoria GDDR5 Scheda GPU a 256 bit PCIe 3.0 x16 DVI compatibile con HDMI per componenti del computer",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "121.02",
+        "amount_minor": 12102,
+        "currency": "EUR",
+        "visible_label": "121.02 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "142.92",
+        "amount_minor": 14292,
+        "currency": "EUR",
+        "visible_label": "142.92 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S387110d3816c4a818999f5c011eddfc0Z.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005012269147011",
+    "listing_id": "1005012269147011",
+    "title": "Scheda grafica SOYO AMD Radeon RX580 8G Memoria GDDR5 Scheda GPU a 256 bit PCIe 3.0 x16 DVI compatibile con HDMI per componenti del computer",
+    "url": "https://www.aliexpress.com/item/1005012269147011.html",
+    "observed_at": "2026-11-15T02:19:00.317945+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

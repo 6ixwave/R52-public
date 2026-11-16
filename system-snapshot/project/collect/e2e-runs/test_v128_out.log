@@ -1,0 +1,67 @@
+01:55:49 [v128] INFO: v128 started, budget=115s
+01:55:49 [v128] INFO: ============================================================
+01:55:49 [v128] INFO: WILDBERRIES (media + price from card.json)
+01:55:49 [v128] INFO: ============================================================
+01:55:50 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+01:55:50 [r52.collectors.wb] INFO: WB: curl_cffi доступен (impersonate=chrome)
+01:55:50 [v128] INFO: 
+--- WB 199298871 ---
+01:56:26 [r52.collectors.wb] INFO: WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+01:56:26 [v128] INFO:   card_url: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/info/ru/card.json
+01:56:29 [v128] INFO:   card.json: 24 keys, 9623B
+01:56:29 [v128] INFO:   media: photo_count=6 has_video=True
+01:56:29 [v128] INFO:   card.json keys: ['certificate', 'colors', 'compositions', 'contents', 'create_date', 'data', 'description', 'full_colors', 'grouped_options', 'has_tnvd_okpd', 'imt_id', 'imt_name', 'media', 'need_kiz', 'nm_id', 'options', 'properties', 'selling', 'slug', 'subj_name', 'subj_root_name', 'update_date', 'user_flags', 'vendor_code']
+01:56:29 [v128] INFO:   PRICES in card.json: NONE (need API or HTML)
+01:56:29 [v128] INFO:   trying catalog.wb.ru...
+01:56:32 [v128] INFO:   catalog.wb.ru -> HTTP 403
+01:56:32 [v128] INFO:   catalog.wb.ru: no price
+01:56:32 [v128] INFO:   media gallery: 3 URLs built
+01:56:34 [r52.collectors.wb] INFO: WB 199298871: card.json OK (24 keys, 9623B)
+01:56:37 [r52.collectors.wb] INFO: WB 199298871: price card_v1 -> 403
+01:56:40 [r52.collectors.wb] INFO: WB 199298871: price card_v2 -> 403
+01:56:43 [r52.collectors.wb] INFO: WB 199298871: price card_v4 -> 403
+01:56:45 [r52.collectors.wb] INFO: WB 199298871: price card_v5 -> 403
+01:56:48 [r52.collectors.wb] INFO: WB 199298871: price web_api -> 498
+01:56:48 [r52.collectors.wb] INFO: WB 199298871: price — все эндпоинты не дали данных
+01:57:01 [r52.collectors.wb] INFO: WB HTML: HTTP 498
+01:57:01 [r52.collectors.wb] INFO: WB 199298871: photo_count=6, found=1
+01:57:01 [r52.collectors.wb] INFO: WB 199298871: has_video=true, видео не найдено
+01:57:01 [v128] INFO:   [70.9s] status=PARTIAL_SUCCESS title=Овсяный смарт коктейль для похудения без сахара
+01:57:01 [v128] INFO:   prices=0 media=1 avail=UNKNOWN
+01:57:01 [v128] INFO:   saved -> v128_wb_199298871.json
+01:57:01 [v128] INFO: 
+--- WB 259671175 ---
+01:57:54 [r52.collectors.wb] INFO: WB: vol=2596 -> basket-16.wbbasket.ru (nm_id=259671175)
+01:57:54 [v128] INFO:   card_url: https://basket-16.wbbasket.ru/vol2596/part259671/259671175/info/ru/card.json
+01:57:57 [v128] INFO:   card.json: 23 keys, 5041B
+01:57:57 [v128] INFO:   media: photo_count=15 has_video=True
+01:57:57 [v128] INFO:   card.json keys: ['certificate', 'colors', 'contents', 'create_date', 'data', 'description', 'full_colors', 'grouped_options', 'has_tnvd_okpd', 'imt_id', 'imt_name', 'media', 'need_kiz', 'nm_id', 'options', 'properties', 'selling', 'slug', 'subj_name', 'subj_root_name', 'update_date', 'user_flags', 'vendor_code']
+01:57:57 [v128] INFO:   PRICES in card.json: NONE (need API or HTML)
+01:57:57 [v128] INFO:   trying catalog.wb.ru...
+01:58:00 [v128] INFO:   catalog.wb.ru -> HTTP 403
+01:58:00 [v128] INFO:   catalog.wb.ru: no price
+01:58:00 [v128] INFO:   media gallery: 3 URLs built
+01:58:02 [r52.collectors.wb] INFO: WB 259671175: card.json OK (23 keys, 5041B)
+01:58:04 [r52.collectors.wb] INFO: WB 259671175: price card_v1 -> 403
+01:58:07 [r52.collectors.wb] INFO: WB 259671175: price card_v2 -> 403
+01:58:11 [r52.collectors.wb] INFO: WB 259671175: price card_v4 -> 403
+01:58:14 [r52.collectors.wb] INFO: WB 259671175: price card_v5 -> 403
+01:58:16 [r52.collectors.wb] INFO: WB 259671175: price web_api -> 498
+01:58:16 [r52.collectors.wb] INFO: WB 259671175: price — все эндпоинты не дали данных
+01:58:33 [r52.collectors.wb] INFO: WB HTML: HTTP 498
+01:58:33 [r52.collectors.wb] INFO: WB 259671175: photo_count=15, found=1
+01:58:33 [r52.collectors.wb] INFO: WB 259671175: has_video=true, видео не найдено
+01:58:33 [v128] INFO:   [92.2s] status=PARTIAL_SUCCESS title=Набор фильтров Haval H9 2.0T Хавал H9
+01:58:33 [v128] INFO:   prices=0 media=1 avail=UNKNOWN
+01:58:33 [v128] INFO:   saved -> v128_wb_259671175.json
+01:58:33 [v128] INFO:   time budget low, stopping WB
+01:58:33 [v128] INFO: 
+WB results: [{'id': '199298871', 'status': 'PARTIAL_SUCCESS', 'prices': 0, 'media': 1}, {'id': '259671175', 'status': 'PARTIAL_SUCCESS', 'prices': 0, 'media': 1}]
+01:58:33 [v128] INFO: WB stats: {'requests': 47, 'success': 6, 'failed': 27, 'blocked': 14}
+01:58:33 [v128] INFO: Skipping FP (time budget)
+01:58:33 [v128] INFO: 
+============================================================
+01:58:33 [v128] INFO: v128 DONE in 163.4s
+01:58:33 [v128] INFO: WB: [{'id': '199298871', 'status': 'PARTIAL_SUCCESS', 'prices': 0, 'media': 1}, {'id': '259671175', 'status': 'PARTIAL_SUCCESS', 'prices': 0, 'media': 1}]
+01:58:33 [v128] INFO: FP: []
+01:58:33 [v128] INFO: ============================================================

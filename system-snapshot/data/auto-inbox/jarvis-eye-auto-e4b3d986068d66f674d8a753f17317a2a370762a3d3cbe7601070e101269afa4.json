@@ -1,0 +1,106 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шоколад кондитерский белый в каплях 1 кг 27% какао",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Мистер Чокер",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Откройте мир профессиональной кондитерской магии с белым бельгийским кондитерским шоколадом в дропсах (каллетах) бренда Мистер Чокер (Мистер Чо) 1 кг! Этот натуральный продукт, созданный на основе отборного какао‑масла, станет вашим надёжным помощником в создании безупречных десертов. Благодаря продуманной форме выпуска — шоколадным каплям — работать с продуктом невероятно удобно: они легко дозируются, быстро плавятся и идеально подходят для темперирования, гарантируя превосходный результат даже начинающим кондитерам.\n\nБелый бельгийский шоколад раскроет весь свой потенциал в ваших руках. Используйте его для приготовления изысканного ганаша, который станет нежной прослойкой для торта или элегантным покрытием для пирожных. Создайте незабываемое фондю для романтического вечера или организуйте эффектный шоколадный фонтан на празднике — продукт демонстрирует превосходную текучесть и стабильность при нагревании. Шоколадные капли прекрасно дополнят любую выпечку: добавьте их в тесто для получения аппетитных вкраплений или используйте для декора готовых изделий, создавая неповторимые узоры и акценты.\n\nПремиальное качество производства подтверждается каждым граммом этого удивительного продукта. Натуральный состав шоколада в каплях без искусственных добавок, сбалансированная рецептура на основе какао‑масла и строгий контроль производства обеспечивают насыщенный сливочный вкус и безупречную текстуру. Удобная фасовка ...кг позволяет всегда иметь под рукой достаточное количество шоколада для реализации любых творческих замыслов — от ежедневной выпечки до сложных многоярусных тортов.\n\nСделайте шаг навстречу профессиональному кондитерскому искусству — закажите белый бельгийский кондитерский шоколад прямо сейчас! С этим продуктом каждая ваша выпечка превратится в шедевр, а десерты будут вызывать восхищение у гостей и близких. Порадуйте себя и окружающих безупречным вкусом настоящего бельгийского шоколада! Содержание какао-масла - 27%. Ваш идеальный выбор для подарка на любой праздник! Не содержит глютена, орехов, ГМО",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Продукты > Шоколад кондитерский",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/default-settings-ru.22f317172ab6ff43648c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lang-ru.0e2a353ea6bc7a37.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-vendors.88d8eda9c1885eea.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-app.f39d9a378793d996.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/index-spa.71cf448da12faff3.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/entry.d5d5ccc6a8b295e2.js",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Продукты > Шоколад кондитерский",
+    "source": "WB",
+    "id": "177630236",
+    "url": "https://www.wildberries.ru/catalog/177630236/detail.aspx",
+    "observed_at": "2026-11-16T17:29:56.548113+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

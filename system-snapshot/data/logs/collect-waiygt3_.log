@@ -1,0 +1,200 @@
+<frozen runpy>:130: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-17 01:16:26,633 r52.autocollect.worker INFO phase=worker_start pid=16160
+2026-11-17 01:16:26,650 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-17 01:16:26,650 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-17 01:16:26,651 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-17 01:16:26,651 r52.autocollect.worker INFO source=WB listing=1046149972 phase=collect_product_start
+2026-11-17 01:16:46,014 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-17 01:16:54,412 r52.collectors.pw_fetch WARNING PwFetcher.get_xhr: no matching XHR captured
+2026-11-17 01:16:57,009 r52.collectors.pw_fetch WARNING PwFetcher: https://www.wildberries.ru/catalog/1046149972/detail.aspx -> 498 (1650B, 2.6s)
+2026-11-17 01:16:57,020 r52.autocollect.worker INFO source=WB listing=1046149972 phase=collect_product_return status=DEGRADED
+2026-11-17 01:16:57,020 r52.autocollect.worker INFO source=WB listing=1097975275 phase=collect_product_start
+2026-11-17 01:17:20,040 r52.collectors.pw_fetch WARNING PwFetcher.get_xhr: no matching XHR captured
+Timeout (0:01:00)!
+Thread 0x00004450 [Thread-1 (watch)] (most recent call first):
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e54 (most recent call first):
+  File "C:\Python314\Lib\asyncio\windows_events.py", line 775 in _poll
+  File "C:\Python314\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\Python314\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\Python314\Lib\asyncio\base_events.py", line 677 in run_forever
+  File "C:\Python314\Lib\asyncio\base_events.py", line 706 in run_until_complete
+  File "C:\Python314\Lib\site-packages\playwright\sync_api\_context_manager.py", line 55 in greenlet_main
+2026-11-17 01:17:31,980 r52.collectors.pw_fetch WARNING PwFetcher: https://www.wildberries.ru/catalog/1097975275/detail.aspx -> 498 (7590B, 11.9s)
+2026-11-17 01:17:31,985 r52.autocollect.worker INFO source=WB listing=1097975275 phase=collect_product_return status=DEGRADED
+2026-11-17 01:17:31,985 r52.autocollect.worker INFO source=WB listing=619204389 phase=collect_product_start
+2026-11-17 01:17:55,509 r52.collectors.pw_fetch WARNING PwFetcher.get_xhr: no matching XHR captured
+2026-11-17 01:18:07,298 r52.collectors.pw_fetch WARNING PwFetcher: https://www.wildberries.ru/catalog/619204389/detail.aspx -> 498 (1905B, 11.8s)
+2026-11-17 01:18:07,302 r52.autocollect.worker INFO source=WB listing=619204389 phase=collect_product_return status=DEGRADED
+2026-11-17 01:18:07,302 r52.autocollect.worker INFO source=WB listing=181599806 phase=collect_product_start
+2026-11-17 01:18:15,450 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 9 bodies, best 635201B from https://static-basket-01.wbbasket.ru/vol2/site/app/c/entry.92d454f76b230caf.js
+Timeout (0:01:00)!
+Thread 0x00004450 [Thread-1 (watch)] (most recent call first):
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e54 (most recent call first):
+  File "C:\Python314\Lib\asyncio\windows_events.py", line 775 in _poll
+  File "C:\Python314\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\Python314\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\Python314\Lib\asyncio\base_events.py", line 677 in run_forever
+  File "C:\Python314\Lib\asyncio\base_events.py", line 706 in run_until_complete
+  File "C:\Python314\Lib\site-packages\playwright\sync_api\_context_manager.py", line 55 in greenlet_main
+2026-11-17 01:18:32,134 r52.collectors.pw_fetch INFO PwFetcher: https://www.wildberries.ru/catalog/181599806/detail.aspx -> 200 (1822650B, 16.7s)
+2026-11-17 01:18:32,261 r52.autocollect.worker INFO source=WB listing=181599806 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:18:32,261 r52.autocollect.worker INFO source=WB listing=177630236 phase=collect_product_start
+2026-11-17 01:18:39,049 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 162 bodies, best 1878B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-17 01:18:52,882 r52.autocollect.worker INFO source=WB listing=177630236 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:18:52,882 r52.autocollect.worker INFO source=WB listing=204102059 phase=collect_product_start
+2026-11-17 01:19:00,154 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 178 bodies, best 1684B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-17 01:19:12,281 r52.autocollect.worker INFO source=WB listing=204102059 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:19:12,281 r52.autocollect.worker INFO source=WB listing=504984812 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x00004450 [Thread-1 (watch)] (most recent call first):
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e54 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 106 in _http_get
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 118 in _fetch_card_json
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 190 in collect_product
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\R52\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\R52\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 203 in _run_module_as_main
+2026-11-17 01:19:32,562 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 165 bodies, best 1918B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-17 01:19:47,409 r52.autocollect.worker INFO source=WB listing=504984812 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:19:47,409 r52.autocollect.worker INFO source=WB listing=776038804 phase=collect_product_start
+2026-11-17 01:20:05,678 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 149 bodies, best 1695B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-17 01:20:17,204 r52.autocollect.worker INFO source=WB listing=776038804 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:20:17,204 r52.autocollect.worker INFO source=WB listing=371599551 phase=collect_product_start
+2026-11-17 01:20:25,165 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 163 bodies, best 2141B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+Timeout (0:01:00)!
+Thread 0x00004450 [Thread-1 (watch)] (most recent call first):
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e54 (most recent call first):
+  File "C:\R52\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 99 in _http_get
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 234 in _fetch_html
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 201 in collect_product
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\R52\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\R52\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 203 in _run_module_as_main
+2026-11-17 01:20:31,214 r52.autocollect.worker INFO source=WB listing=371599551 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:20:31,214 r52.autocollect.worker INFO source=WB listing=450917092 phase=collect_product_start
+2026-11-17 01:20:51,134 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 164 bodies, best 5922B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-17 01:20:55,369 r52.autocollect.worker INFO source=WB listing=450917092 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:20:55,369 r52.autocollect.worker INFO source=WB listing=413862099 phase=collect_product_start
+2026-11-17 01:21:14,943 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 158 bodies, best 1859B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-17 01:21:19,780 r52.autocollect.worker INFO source=WB listing=413862099 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:21:19,780 r52.autocollect.worker INFO source=WB listing=446653020 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x00002514 [ThreadPoolExecutor-11_5] (most recent call first):
+  File "C:\Python314\Lib\socket.py", line 987 in getaddrinfo
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\util\connection.py", line 60 in create_connection
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\connection.py", line 239 in _new_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\connection.py", line 827 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\requests\api.py", line 87 in get
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 135 in probe
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00004450 [Thread-1 (watch)] (most recent call first):
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e54 (most recent call first):
+  File "C:\Python314\Lib\threading.py", line 1133 in join
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 273 in shutdown
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 667 in __exit__
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 141 in _find_basket_host
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 116 in _fetch_card_json
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 190 in collect_product
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\R52\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\R52\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 203 in _run_module_as_main
+2026-11-17 01:21:38,809 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 159 bodies, best 1598B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-17 01:21:50,770 r52.autocollect.worker INFO source=WB listing=446653020 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:21:50,770 r52.autocollect.worker INFO source=WB listing=829829020 phase=collect_product_start
+2026-11-17 01:22:08,294 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 164 bodies, best 10419B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-17 01:22:16,638 r52.autocollect.worker INFO source=WB listing=829829020 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:22:16,638 r52.autocollect.worker INFO source=WB listing=278827800 phase=collect_product_start
+2026-11-17 01:22:25,630 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 173 bodies, best 1867B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+Timeout (0:01:00)!
+Thread 0x00004450 [Thread-1 (watch)] (most recent call first):
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e54 (most recent call first):
+  File "C:\R52\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 99 in _http_get
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 234 in _fetch_html
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 201 in collect_product
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\R52\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\R52\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 203 in _run_module_as_main
+2026-11-17 01:22:39,868 r52.autocollect.worker INFO source=WB listing=278827800 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:22:39,868 r52.autocollect.worker INFO source=WB listing=776430014 phase=collect_product_start
+2026-11-17 01:22:58,877 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 165 bodies, best 2181B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-17 01:23:02,006 r52.autocollect.worker INFO source=WB listing=776430014 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-17 01:23:02,006 r52.autocollect.worker INFO source=WB phase=write_start returned=15 valid=15 stats={'requests': 0, 'success': 0, 'failed': 0, 'blocked': 0}
+2026-11-17 01:23:02,007 r52.collectors INFO WB: записан jarvis-eye-wb-8c53a707.json
+2026-11-17 01:23:02,009 r52.collectors INFO WB: записан jarvis-eye-wb-83a6e0ec.json
+2026-11-17 01:23:02,010 r52.collectors INFO WB: записан jarvis-eye-wb-d1907b62.json
+2026-11-17 01:23:02,011 r52.collectors INFO WB: записан jarvis-eye-wb-a4805c42.json
+2026-11-17 01:23:02,011 r52.collectors INFO WB: записан jarvis-eye-wb-c192e139.json
+2026-11-17 01:23:02,012 r52.collectors INFO WB: записан jarvis-eye-wb-da5325ce.json
+2026-11-17 01:23:02,013 r52.collectors INFO WB: записан jarvis-eye-wb-575fa55f.json
+2026-11-17 01:23:02,013 r52.collectors INFO WB: записан jarvis-eye-wb-7f02360e.json
+2026-11-17 01:23:02,014 r52.collectors INFO WB: записан jarvis-eye-wb-eda3e735.json
+2026-11-17 01:23:02,015 r52.collectors INFO WB: записан jarvis-eye-wb-3bfdc085.json
+2026-11-17 01:23:02,015 r52.collectors INFO WB: записан jarvis-eye-wb-83279bd6.json
+2026-11-17 01:23:02,016 r52.collectors INFO WB: записан jarvis-eye-wb-4b9ee76f.json
+2026-11-17 01:23:02,017 r52.collectors INFO WB: записан jarvis-eye-wb-412e006f.json
+2026-11-17 01:23:02,017 r52.collectors INFO WB: записан jarvis-eye-wb-827b38ec.json
+2026-11-17 01:23:02,018 r52.collectors INFO WB: записан jarvis-eye-wb-21ff3563.json
+2026-11-17 01:23:02,018 r52.autocollect.worker INFO source=WB phase=write_complete files=15
+2026-11-17 01:23:02,018 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-17 01:23:02,255 r52.autocollect.worker INFO source=WB phase=close_complete

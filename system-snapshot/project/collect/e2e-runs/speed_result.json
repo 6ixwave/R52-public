@@ -1,0 +1,12 @@
+{
+  "FARPOST": [],
+  "WB": [],
+  "OZON": [],
+  "AVITO": [
+    {
+      "s": "ad-pattern",
+      "code": 404,
+      "size": 29907
+    }
+  ]
+}

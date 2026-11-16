@@ -1,0 +1,26 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:17:39,661 r52.autocollect.worker INFO phase=worker_start pid=8280
+2026-11-16 04:17:39,684 r52.autocollect.worker INFO source=OZON mode=discover phase=initialize
+2026-11-16 04:17:39,685 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 04:17:39,688 r52.autocollect.worker INFO source=OZON proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 04:17:39,688 r52.autocollect.worker INFO source=OZON phase=search_start page=1 limit=5
+2026-11-16 04:17:41,373 r52.collectors.ozon INFO OZON warmup: HTTP 403
+2026-11-16 04:17:59,384 r52.collectors.ozon INFO OZON search: HTTP 403, retrying in 3s
+2026-11-16 04:18:02,655 r52.collectors.ozon INFO OZON search: HTTP 403, retrying in 3s
+2026-11-16 04:18:05,792 r52.collectors.ozon WARNING OZON search: HTTP 403 for 'мебель'
+2026-11-16 04:18:08,062 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-16 04:18:08,063 r52.collectors.ozon INFO OZON search: HTTP 403 → PwFetcher (direct)
+2026-11-16 04:18:33,044 r52.collectors.pw_fetch INFO PwFetcher: https://www.ozon.ru/search/?text=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C&from_globa -> 200 (770683B, 25.0s)
+2026-11-16 04:18:33,065 r52.collectors.ozon INFO OZON search: PwFetcher p2 OK (770683 bytes)
+2026-11-16 04:18:33,065 r52.collectors.ozon INFO OZON search: PW HTML ready (770683 bytes), proceeding to tile parse
+2026-11-16 04:18:33,075 r52.collectors.ozon INFO OZON search: 65 product links found (pattern 0 slug)
+2026-11-16 04:18:33,077 r52.collectors.ozon INFO OZON: collect_by_search 'мебель' → 5 products
+2026-11-16 04:18:33,077 r52.autocollect.worker INFO source=OZON phase=write_start returned=5 valid=5 stats={'requests': 5, 'success': 1, 'failed': 0, 'blocked': 0}
+2026-11-16 04:18:33,080 r52.collectors INFO OZON: записан jarvis-eye-ozon-0d4a401e.json
+2026-11-16 04:18:33,086 r52.collectors INFO OZON: записан jarvis-eye-ozon-acdf3bb0.json
+2026-11-16 04:18:33,089 r52.collectors INFO OZON: записан jarvis-eye-ozon-7d29417d.json
+2026-11-16 04:18:33,090 r52.collectors INFO OZON: записан jarvis-eye-ozon-2316d267.json
+2026-11-16 04:18:33,091 r52.collectors INFO OZON: записан jarvis-eye-ozon-54689bc9.json
+2026-11-16 04:18:33,095 r52.autocollect.worker INFO source=OZON phase=write_complete files=5
+2026-11-16 04:18:33,095 r52.autocollect.worker INFO source=OZON phase=close_start
+2026-11-16 04:18:33,740 r52.autocollect.worker INFO source=OZON phase=close_complete

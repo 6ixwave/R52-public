@@ -1,0 +1,46 @@
+[12:27:21] e2e_fix15 start, TZ=UTC+10
+[12:27:21] === WB: Playwright product page ===
+[12:27:23]   WB: warm-up main page...
+[12:27:26]   WB: goto https://www.wildberries.ru/catalog/1097975275/detail.aspx
+[12:27:30]   WB page: len=7590
+[12:27:30]   WB price: None src=
+[12:27:30]   WB: trying card.wb.ru via Playwright request...
+[12:27:34]   WB card.wb.ru err: APIRequestContext.get: Parse Error: Expected HTTP/, RTSP/ or ICE/
+Call log:
+  - → GET https://card.wb.ru/cards/v2/detail?nm=1097975275
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+  - ← 403 Forbidden
+    - date: Thu, 12 Nov 2026 02:27:34 GMT
+    - content-type: text/plain
+    - connection: keep-alive
+    - status-no-id: PG-41-XC
+    - server: wbaas
+    - x-request-id: 3fe53c5f367d132dff7a7eaec6a16c2a
+    - report-to: { "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }
+    - nel: { "report_to": "nel", "max_age": 604800, "include_subdomains": false, "success_fraction": 0.0, "failure_fraction": 1.0 }
+    - strict-transport-security: max-age=31536000; preload; always
+    - x-content-type-options: nosniff
+    - x-frame-options: DENY always
+    - access-control-allow-methods: *
+    - access-control-allow-headers: *
+    - content-length: 0
+
+[12:27:34]   WB VERDICT: E2E_FAIL
+[12:27:34] === AVITO: Multi-city Playwright ===
+[12:27:34]   AVITO [vladivostok]: https://www.avito.ru/vladivostok/smartfony-i-telefony
+[12:27:40]     len=36447
+[12:27:40]     → IP block, next city
+[12:27:40]   AVITO [spb]: https://www.avito.ru/spb/smartfony-i-telefony
+[12:27:46]     len=29378
+[12:27:46]     → 0 IDs: []
+[12:27:46]   AVITO [ekb]: https://www.avito.ru/ekb/smartfony-i-telefony
+[12:27:51]     len=29378
+[12:27:51]     → 0 IDs: []
+[12:27:51]   AVITO [moskva]: https://www.avito.ru/moskva/smartfony-i-telefony
+[12:27:57]     len=36451
+[12:27:57]     → IP block, next city
+[12:27:57]   AVITO VERDICT: E2E_FAIL (no ad IDs from any city)
+[12:27:57] e2e_fix15 done in 36.5s
+[12:27:57] Result → C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e_fix15_result.json

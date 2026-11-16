@@ -1,0 +1,36 @@
+{
+  "ts": "2026-11-15T01:40:32+1000",
+  "results": {
+    "A1: m.wb v4": {
+      "error": "Failed to perform, curl: (6) Could not resolve host: m.wildberries.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    },
+    "B1: search.wb v5 + Origin": {
+      "status": 403,
+      "bytes": 0
+    },
+    "C1: catalog v4 clean": {
+      "status": 403,
+      "bytes": 0
+    },
+    "D1: search v4 firefox": {
+      "status": 403,
+      "bytes": 0
+    },
+    "E1: search v4 safari": {
+      "status": 403,
+      "bytes": 0
+    },
+    "F1: HTML page": {
+      "status": 498,
+      "bytes": 1136
+    },
+    "G1: card v2 query": {
+      "status": 403,
+      "bytes": 0
+    },
+    "H1: XHR style": {
+      "status": 403,
+      "bytes": 0
+    }
+  }
+}

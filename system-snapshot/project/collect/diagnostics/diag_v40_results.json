@@ -1,0 +1,198 @@
+{
+  "OZON": {
+    "1600562267": {
+      "url": "https://www.ozon.ru/product/1600562267/",
+      "bytes": 739516,
+      "elapsed": 14.5,
+      "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра купить на OZON по низкой цене (1",
+      "has_jsonld": false,
+      "has_state": false,
+      "status": "PARSED",
+      "fields": {
+        "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра",
+        "description": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра – покупайте на OZON по выгодным ",
+        "category": "Хобби и творчество > Рукоделие > Шитье > Ткани, подкладочные материалы и дублерин > Айхал",
+        "model": "7",
+        "rating": "4.9",
+        "reviews_count": "12980",
+        "characteristics": "О товаре | Тип | Ткань | Вид ткани | Плотность, г/м2 | 300 | Материал | Микровелюр, | Длина, м",
+        "brand": "Айхал"
+      },
+      "prices": [
+        {
+          "role": "regular",
+          "amount_minor": 229500,
+          "currency": "RUB",
+          "label": "JSON-LD price"
+        }
+      ],
+      "media_count": 49,
+      "media_types": {
+        "images": 48,
+        "videos": 1,
+        "other": 0
+      },
+      "availability": "IN_STOCK",
+      "category_path": "Хобби и творчество > Рукоделие > Шитье > Ткани, подкладочные материалы и дублерин > Айхал"
+    },
+    "229225961": {
+      "url": "https://www.ozon.ru/product/229225961/",
+      "bytes": 1059916,
+      "elapsed": 5.5,
+      "title": "Карта желаний 2026-2027, набор женский купить на OZON по низкой цене (229225961)",
+      "has_jsonld": false,
+      "has_state": false,
+      "status": "PARSED",
+      "fields": {
+        "title": "Карта желаний 2026-2027, набор женский",
+        "description": "Карта желаний 2026-2027, набор женский – покупайте на OZON по выгодным ценам! Быстрая и бесплатная д",
+        "category": "Дом и сад > Сувениры и подарки > Сувениры > Время мечтать",
+        "model": "1",
+        "rating": "4.9",
+        "reviews_count": "3279",
+        "characteristics": "О товаре | Тип | Карта желаний | Количество в упаковке, шт | Длина, см | Материал | Картон, | Бумага",
+        "brand": "Время мечтать"
+      },
+      "prices": [
+        {
+          "role": "regular",
+          "amount_minor": 98100,
+          "currency": "RUB",
+          "label": "HTML text"
+        },
+        {
+          "role": "regular",
+          "amount_minor": 109000,
+          "currency": "RUB",
+          "label": "JSON-LD price"
+        }
+      ],
+      "media_count": 60,
+      "media_types": {
+        "images": 60,
+        "videos": 0,
+        "other": 0
+      },
+      "availability": "IN_STOCK",
+      "category_path": "Дом и сад > Сувениры и подарки > Сувениры > Время мечтать"
+    }
+  },
+  "WB": {
+    "api_199298871": {
+      "url": "https://card.wb.ru/cards/v2/detail?nm=199298871",
+      "http_code": 403,
+      "bytes": 0,
+      "elapsed": 0.4,
+      "status": "HTTP_403",
+      "snippet": ""
+    },
+    "html_199298871": {
+      "url": "https://www.wildberries.ru/catalog/199298871/detail.aspx",
+      "bytes": 7590,
+      "elapsed": 6.5,
+      "title": "...",
+      "is_challenge": true,
+      "has_jsonld": false,
+      "status": "CHALLENGE"
+    },
+    "api_1252522762": {
+      "url": "https://card.wb.ru/cards/v2/detail?nm=1252522762",
+      "http_code": 403,
+      "bytes": 0,
+      "elapsed": 0.8,
+      "status": "HTTP_403",
+      "snippet": ""
+    },
+    "html_1252522762": {
+      "url": "https://www.wildberries.ru/catalog/1252522762/detail.aspx",
+      "bytes": 7590,
+      "elapsed": 5.2,
+      "title": "...",
+      "is_challenge": true,
+      "has_jsonld": false,
+      "status": "CHALLENGE"
+    }
+  },
+  "AVITO": {
+    "disc_0": {
+      "url": "https://www.avito.ru/moskva/tech/notebooks",
+      "bytes": 36450,
+      "elapsed": 7.0,
+      "title": "Доступ ограничен: проблема с IP",
+      "is_blocked": true,
+      "status": "BLOCKED",
+      "ids_found": []
+    },
+    "disc_1": {
+      "url": "https://m.avito.ru/moskva/tech/notebooks",
+      "bytes": 36442,
+      "elapsed": 7.0,
+      "title": "Доступ ограничен: проблема с IP",
+      "is_blocked": true,
+      "status": "BLOCKED",
+      "ids_found": []
+    },
+    "note": "No real IDs discovered from search",
+    "1096783029": {
+      "url": "https://www.avito.ru/ad/1096783029",
+      "bytes": 29378,
+      "elapsed": 6.2,
+      "title": "Ошибка 404. Страница не найдена",
+      "is_blocked": false,
+      "is_404": true,
+      "has_jsonld": false,
+      "has_preloaded": false,
+      "status": "404"
+    }
+  },
+  "FARPOST": {
+    "137440009": {
+      "url": "https://www.farpost.ru/bulletin/137440009",
+      "bytes": 12891,
+      "elapsed": 5.4,
+      "title": "Страница не найдена",
+      "is_404": true,
+      "has_jsonld": true,
+      "status": "404"
+    },
+    "137723592": {
+      "url": "https://www.farpost.ru/bulletin/137723592",
+      "bytes": 13849,
+      "elapsed": 4.3,
+      "title": "Страница не найдена",
+      "is_404": true,
+      "has_jsonld": true,
+      "status": "404"
+    },
+    "139122082": {
+      "url": "https://www.farpost.ru/bulletin/139122082",
+      "bytes": 13849,
+      "elapsed": 4.2,
+      "title": "Страница не найдена",
+      "is_404": true,
+      "has_jsonld": true,
+      "status": "404"
+    }
+  },
+  "_meta": {
+    "version": "v40",
+    "elapsed_sec": 103.2,
+    "timestamp": "2026-11-11T05:30:03.024626+10:00",
+    "engine": "playwright",
+    "ids": {
+      "OZON": [
+        "1600562267",
+        "229225961"
+      ],
+      "WB": [
+        "199298871",
+        "1252522762"
+      ],
+      "FARPOST": [
+        "137440009",
+        "137723592",
+        "139122082"
+      ]
+    }
+  }
+}

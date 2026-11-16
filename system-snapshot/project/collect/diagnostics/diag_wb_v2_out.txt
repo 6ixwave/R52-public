@@ -1,0 +1,204 @@
+curl_cffi available
+
+============================================================
+[WB card v2 batch] https://card.wb.ru/cards/v2/detail
+  params: {'nm': '199298871,314337853'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: 
+
+============================================================
+[WB card v2 single 199298871] https://card.wb.ru/cards/v2/detail
+  params: {'nm': '199298871'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: 
+
+============================================================
+[WB card v2 single 314337853] https://card.wb.ru/cards/v2/detail
+  params: {'nm': '314337853'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: 
+
+============================================================
+[WB catalog search] https://catalog.wb.ru/v1/search
+  params: {'query': 'lynxauto датчик', 'resultset': 'popular', 'sort': 'popular', 'spp': 30, 'nm': '199298871'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: 
+
+============================================================
+[WB HTML 199298871] https://www.wildberries.ru/catalog/199298871/detail.aspx
+  Status: 498, 1136 bytes, 0.8s, CT=text/html
+  Body: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="519ceb707675ba04544bb29ea5109f92" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Dat
+
+============================================================
+[WB HTML 314337853] https://www.wildberries.ru/catalog/314337853/detail.aspx
+  Status: 498, 1136 bytes, 0.8s, CT=text/html
+  Body: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="0d01dffca64ea68c70dc09f50dced8d1" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Dat
+
+============================================================
+[WB basket 199298871] https://basket.wb.ru/cards/v2/detail
+  params: {'nm': '199298871'}
+  ERROR (1.5s): DNSError: Failed to perform, curl: (6) Could not resolve host: basket.wb.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Traceback (most recent call last):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043, in _request_once
+    c.perform()
+    ~~~~~~~~~^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 633, in perform
+    self._check_error(ret, "perform")
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 353, in _check_error
+    raise error
+curl_cffi.curl.CurlError: Failed to perform, curl: (6) Could not resolve host: basket.wb.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_wb_v2.py", line 31, in probe_cffi
+    r = cffi_requests.get(url, headers=headers, impersonate=impersonate, timeout=15, params=params)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 154, in get
+    return request(method="GET", url=url, **kwargs)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 146, in request
+    return s.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117, in request
+    return self._request_once(
+           ~~~~~~~~~~~~~~~~~~^
+        method=method,
+        ^^^^^^^^^^^^^^
+    ...<35 lines>...
+        discard_cookies=discard_cookies,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1050, in _request_once
+    raise error(str(e), e.code, rsp) from e
+curl_cffi.requests.exceptions.DNSError: Failed to perform, curl: (6) Could not resolve host: basket.wb.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+============================================================
+[WB basket 314337853] https://basket.wb.ru/cards/v2/detail
+  params: {'nm': '314337853'}
+  ERROR (0.5s): DNSError: Failed to perform, curl: (6) Could not resolve host: basket.wb.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Traceback (most recent call last):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043, in _request_once
+    c.perform()
+    ~~~~~~~~~^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 633, in perform
+    self._check_error(ret, "perform")
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 353, in _check_error
+    raise error
+curl_cffi.curl.CurlError: Failed to perform, curl: (6) Could not resolve host: basket.wb.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_wb_v2.py", line 31, in probe_cffi
+    r = cffi_requests.get(url, headers=headers, impersonate=impersonate, timeout=15, params=params)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 154, in get
+    return request(method="GET", url=url, **kwargs)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 146, in request
+    return s.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117, in request
+    return self._request_once(
+           ~~~~~~~~~~~~~~~~~~^
+        method=method,
+        ^^^^^^^^^^^^^^
+    ...<35 lines>...
+        discard_cookies=discard_cookies,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1050, in _request_once
+    raise error(str(e), e.code, rsp) from e
+curl_cffi.requests.exceptions.DNSError: Failed to perform, curl: (6) Could not resolve host: basket.wb.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+============================================================
+[WB static-basket 199298871] https://static-basket-01.wbbox.ru/image/199298871
+  ERROR (0.9s): CertificateVerifyError: Failed to perform, curl: (60) SSL: no alternative certificate subject name matches target hostname 'static-basket-01.wbbox.ru'. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Traceback (most recent call last):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043, in _request_once
+    c.perform()
+    ~~~~~~~~~^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 633, in perform
+    self._check_error(ret, "perform")
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 353, in _check_error
+    raise error
+curl_cffi.curl.CurlError: Failed to perform, curl: (60) SSL: no alternative certificate subject name matches target hostname 'static-basket-01.wbbox.ru'. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_wb_v2.py", line 31, in probe_cffi
+    r = cffi_requests.get(url, headers=headers, impersonate=impersonate, timeout=15, params=params)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 154, in get
+    return request(method="GET", url=url, **kwargs)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 146, in request
+    return s.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117, in request
+    return self._request_once(
+           ~~~~~~~~~~~~~~~~~~^
+        method=method,
+        ^^^^^^^^^^^^^^
+    ...<35 lines>...
+        discard_cookies=discard_cookies,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1050, in _request_once
+    raise error(str(e), e.code, rsp) from e
+curl_cffi.requests.exceptions.CertificateVerifyError: Failed to perform, curl: (60) SSL: no alternative certificate subject name matches target hostname 'static-basket-01.wbbox.ru'. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+============================================================
+[WB static-basket 314337853] https://static-basket-01.wbbox.ru/image/314337853
+  ERROR (0.7s): CertificateVerifyError: Failed to perform, curl: (60) SSL: no alternative certificate subject name matches target hostname 'static-basket-01.wbbox.ru'. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Traceback (most recent call last):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043, in _request_once
+    c.perform()
+    ~~~~~~~~~^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 633, in perform
+    self._check_error(ret, "perform")
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 353, in _check_error
+    raise error
+curl_cffi.curl.CurlError: Failed to perform, curl: (60) SSL: no alternative certificate subject name matches target hostname 'static-basket-01.wbbox.ru'. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_wb_v2.py", line 31, in probe_cffi
+    r = cffi_requests.get(url, headers=headers, impersonate=impersonate, timeout=15, params=params)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 154, in get
+    return request(method="GET", url=url, **kwargs)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 146, in request
+    return s.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117, in request
+    return self._request_once(
+           ~~~~~~~~~~~~~~~~~~^
+        method=method,
+        ^^^^^^^^^^^^^^
+    ...<35 lines>...
+        discard_cookies=discard_cookies,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1050, in _request_once
+    raise error(str(e), e.code, rsp) from e
+curl_cffi.requests.exceptions.CertificateVerifyError: Failed to perform, curl: (60) SSL: no alternative certificate subject name matches target hostname 'static-basket-01.wbbox.ru'. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+============================================================
+WB v2 PROBE SUMMARY:
+  {'id': '199298871,314337853', 'method': 'card_v2_batch', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'card_v2_single', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'card_v2_single', 'status': 'FAIL'}
+  {'id': 'search', 'method': 'catalog_v1', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'html_cffi', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'html_cffi', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'basket_v2', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'basket_v2', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'static_image', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'static_image', 'status': 'FAIL'}
+
+Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_wb_v2_results.json

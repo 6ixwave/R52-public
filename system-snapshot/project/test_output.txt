@@ -1,0 +1,183 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.15.2, pytest-9.2.0, pluggy-1.7.0 -- C:\Python315\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12
+plugins: anyio-4.16.0
+collecting ... collected 30 items
+
+r52/collectors/test_collectors.py::TestBaseCollector::test_extract_json_ld PASSED [  3%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_find_product_jsonld PASSED [  6%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_find_product_jsonld_in_graph PASSED [ 10%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_parse_price_text PASSED [ 13%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_parse_price_text_decimal PASSED [ 16%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_parse_price_text_no_match PASSED [ 20%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_safe_media_url_avito PASSED [ 23%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_safe_media_url_farpost PASSED [ 26%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_safe_media_url_http_reject PASSED [ 30%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_safe_media_url_ozon PASSED [ 33%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_safe_media_url_reject_foreign PASSED [ 36%]
+r52/collectors/test_collectors.py::TestBaseCollector::test_safe_media_url_wb PASSED [ 40%]
+r52/collectors/test_collectors.py::TestWBCollector::test_build_url PASSED [ 43%]
+r52/collectors/test_collectors.py::TestWBCollector::test_normalize_wb_image_url PASSED [ 46%]
+r52/collectors/test_collectors.py::TestWBCollector::test_parse_page_html_fallback PASSED [ 50%]
+r52/collectors/test_collectors.py::TestWBCollector::test_parse_page_jsonld FAILED [ 53%]
+r52/collectors/test_collectors.py::TestOzonCollector::test_build_url PASSED [ 56%]
+r52/collectors/test_collectors.py::TestOzonCollector::test_parse_page_jsonld FAILED [ 60%]
+r52/collectors/test_collectors.py::TestAvitoCollector::test_build_url PASSED [ 63%]
+r52/collectors/test_collectors.py::TestAvitoCollector::test_captcha_detection PASSED [ 66%]
+r52/collectors/test_collectors.py::TestAvitoCollector::test_parse_page_jsonld PASSED [ 70%]
+r52/collectors/test_collectors.py::TestFarpostCollector::test_build_url FAILED [ 73%]
+r52/collectors/test_collectors.py::TestFarpostCollector::test_parse_page_html FAILED [ 76%]
+r52/collectors/test_collectors.py::TestProxyPool::test_empty_pool_direct PASSED [ 80%]
+r52/collectors/test_collectors.py::TestProxyPool::test_pool_mark_failure PASSED [ 83%]
+r52/collectors/test_collectors.py::TestProxyPool::test_pool_rotation PASSED [ 86%]
+r52/collectors/test_collectors.py::TestProxyPool::test_pool_stats PASSED [ 90%]
+r52/collectors/test_collectors.py::TestProxyPool::test_pool_with_proxies PASSED [ 93%]
+r52/collectors/test_collectors.py::TestSourcesRegistry::test_all_collectors_registered PASSED [ 96%]
+r52/collectors/test_collectors.py::TestSourcesRegistry::test_collector_for PASSED [100%]
+
+================================== FAILURES ===================================
+___________________ TestWBCollector.test_parse_page_jsonld ____________________
+
+self = <r52.collectors.test_collectors.TestWBCollector testMethod=test_parse_page_jsonld>
+
+    def test_parse_page_jsonld(self):
+        html = '''
+        <html><head>
+        <meta property="og:title" content="Тестовый товар WB" />
+        <meta property="og:image" content="https://basket-1.wbbasket.ru/vol1/part1/123/images/S800.jpg" />
+        <script type="application/ld+json">
+        {
+            "@type": "Product",
+            "name": "Тестовый товар WB",
+            "image": "https://basket-1.wbbasket.ru/vol1/part1/123/images/S800.jpg",
+            "description": "Описание товара",
+            "offers": {
+                "@type": "Offer",
+                "price": "1499.00",
+                "priceCurrency": "RUB",
+                "availability": "https://schema.org/InStock"
+            }
+        }
+        </script>
+        </head><body>
+        <img src="https://basket-2.wbbasket.ru/vol1/part1/123/images/S400.jpg" />
+        <img src="https://basket-3.wbbasket.ru/vol1/part1/123/images/S400.jpg" />
+        <video src="https://basket-1.wbbasket.ru/vol1/part1/123/video.mp4"></video>
+        </body></html>
+        '''
+        mock_resp = MagicMock()
+        mock_resp.text = html
+    
+        result = self.collector.parse_page(mock_resp, "12345", "https://www.wildberries.ru/catalog/12345/detail.aspx", "")
+        self.assertIsNotNone(result)
+    
+        # Title
+        self.assertEqual(result["fields"]["title"]["value"], "Тестовый товар WB")
+    
+        # Price
+        prices = result["price_candidates"]
+>       self.assertTrue(len(prices) > 0)
+E       AssertionError: False is not true
+
+r52\collectors\test_collectors.py:153: AssertionError
+__________________ TestOzonCollector.test_parse_page_jsonld ___________________
+
+self = <r52.collectors.test_collectors.TestOzonCollector testMethod=test_parse_page_jsonld>
+
+    def test_parse_page_jsonld(self):
+        html = '''
+        <html><head>
+        <meta property="og:title" content="Товар Ozon" />
+        <meta property="og:image" content="https://ir-220.ozoncdn.net/111/222.jpg" />
+        <script type="application/ld+json">
+        {
+            "@type": "Product",
+            "name": "Товар Ozon",
+            "image": ["https://ir-220.ozoncdn.net/111/222.jpg", "https://ir-220.ozoncdn.net/111/333.jpg"],
+            "description": "Описание Ozon",
+            "brand": {"@type": "Brand", "name": "TestBrand"},
+            "sku": "SKU-001",
+            "offers": {
+                "@type": "Offer",
+                "price": "2999.00",
+                "priceCurrency": "RUB",
+                "availability": "https://schema.org/InStock"
+            }
+        }
+        </script>
+        </head><body>
+        <img src="https://ir-220.ozoncdn.net/111/444.jpg" />
+        <video src="https://ir-220.ozoncdn.net/111/video.mp4"></video>
+        </body></html>
+        '''
+        mock_resp = MagicMock()
+        mock_resp.text = html
+    
+        result = self.collector.parse_page(mock_resp, "67890", "https://www.ozon.ru/product/67890/", "")
+        self.assertIsNotNone(result)
+        self.assertEqual(result["fields"]["title"]["value"], "Товар Ozon")
+        self.assertTrue(any(p["amount_minor"] == 299900 for p in result["price_candidates"]))
+        self.assertEqual(result["fields"]["brand"]["value"], "TestBrand")
+>       self.assertEqual(result["fields"]["model"]["value"], "SKU-001")
+E       AssertionError: '0' != 'SKU-001'
+E       - 0
+E       + SKU-001
+
+r52\collectors\test_collectors.py:236: AssertionError
+_____________________ TestFarpostCollector.test_build_url _____________________
+
+self = <r52.collectors.test_collectors.TestFarpostCollector testMethod=test_build_url>
+
+    def test_build_url(self):
+        url = self.collector.build_url("778899")
+>       self.assertEqual(url, "https://www.farpost.ru/item/778899")
+E       AssertionError: 'https://www.farpost.ru/vladivostok/778899.html' != 'https://www.farpost.ru/item/778899'
+E       - https://www.farpost.ru/vladivostok/778899.html
+E       ?                        ---- --- ^^       -----
+E       + https://www.farpost.ru/item/778899
+E       ?                          ^^
+
+r52\collectors\test_collectors.py:307: AssertionError
+__________________ TestFarpostCollector.test_parse_page_html __________________
+
+self = <r52.collectors.test_collectors.TestFarpostCollector testMethod=test_parse_page_html>
+
+    def test_parse_page_html(self):
+        html = '''
+        <html><head>
+        <title>Товар Farpost - Farpost</title>
+        <meta property="og:image" content="https://www.farpost.ru/upload/items/778.jpg" />
+        <meta property="og:price:amount" content="1500.00" />
+        </head><body>
+        <div class="price">1 500 ₽</div>
+        <img src="https://www.farpost.ru/upload/items/778a.jpg" />
+        <img src="/upload/items/778b.jpg" />
+        <div class="description">Описание товара Farpost. Хороший товар.</div>
+        </body></html>
+        '''
+        mock_resp = MagicMock()
+        mock_resp.text = html
+    
+        result = self.collector.parse_page(mock_resp, "778899", "https://www.farpost.ru/item/778899", "")
+        self.assertIsNotNone(result)
+>       self.assertEqual(result["fields"]["title"]["value"], "Товар Farpost")
+E       AssertionError: 'Товар Farpost - Farpost' != 'Товар Farpost'
+E       - Товар Farpost - Farpost
+E       + Товар Farpost
+
+r52\collectors\test_collectors.py:327: AssertionError
+=========================== short test summary info ===========================
+FAILED r52/collectors/test_collectors.py::TestWBCollector::test_parse_page_jsonld - AssertionError: False is not true
+FAILED r52/collectors/test_collectors.py::TestOzonCollector::test_parse_page_jsonld - AssertionError: '0' != 'SKU-001'
+- 0
++ SKU-001
+FAILED r52/collectors/test_collectors.py::TestFarpostCollector::test_build_url - AssertionError: 'https://www.farpost.ru/vladivostok/778899.html' != 'https://www.farpost.ru/item/778899'
+- https://www.farpost.ru/vladivostok/778899.html
+?                        ---- --- ^^       -----
++ https://www.farpost.ru/item/778899
+?                          ^^
+FAILED r52/collectors/test_collectors.py::TestFarpostCollector::test_parse_page_html - AssertionError: 'Товар Farpost - Farpost' != 'Товар Farpost'
+- Товар Farpost - Farpost
++ Товар Farpost
+======================== 4 failed, 26 passed in 0.30s =========================

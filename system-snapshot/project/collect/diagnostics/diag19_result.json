@@ -1,0 +1,240 @@
+{
+  "ts": "2026-11-12T12:54:58.934893+10:00",
+  "wb": {
+    "card_json_dump": {
+      "imt_id": {
+        "type": "int",
+        "val": 2227481309
+      },
+      "nm_id": {
+        "type": "int",
+        "val": 1097975275
+      },
+      "imt_name": {
+        "type": "str",
+        "len": 48,
+        "val": "Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)"
+      },
+      "slug": {
+        "type": "str",
+        "len": 47,
+        "val": "smartfon-iphone-17-pro-max-256-serebryanyj-esim"
+      },
+      "subj_name": {
+        "type": "str",
+        "len": 9,
+        "val": "Смартфоны"
+      },
+      "subj_root_name": {
+        "type": "str",
+        "len": 19,
+        "val": "Смартфоны и гаджеты"
+      },
+      "vendor_code": {
+        "type": "str",
+        "len": 41,
+        "val": "Смартфон iPhone 17 Pro Max 256 Серебряный"
+      },
+      "description": {
+        "type": "str",
+        "len": 1545,
+        "val": "Товар в наличии, находится на складе в МО. Смартфон Apple iPhone 17 Pro Max объемом памяти 256 ГБ - максимум экрана и возможностей в линейке. Огромная диагональ с почти незаметными рамками, высокая яр"
+      },
+      "options": {
+        "type": "list",
+        "len": 36,
+        "first": "{'name': 'Длина упаковки', 'value': '[REDACTED_AUTH_SECRET]'}"
+      },
+      "certificate": {
+        "type": "dict",
+        "keys": [],
+        "sample": "{}"
+      },
+      "nm_colors_names": {
+        "type": "str",
+        "len": 20,
+        "val": "серебро, серебристый"
+      },
+      "colors": {
+        "type": "list",
+        "len": 3,
+        "first": "1097975273"
+      },
+      "full_colors": {
+        "type": "list",
+        "len": 3,
+        "first": "{'nm_id': 1097975273}"
+      },
+      "selling": {
+        "type": "dict",
+        "keys": [
+          "brand_name",
+          "brand_hash",
+          "supplier_id",
+          "no_return_map"
+        ],
+        "sample": "{'brand_name': 'Apple', 'brand_hash': '6F8A1C9991FE5BC9', 'supplier_id': 250148991, 'no_return_map': 4351}"
+      },
+      "media": {
+        "type": "dict",
+        "keys": [
+          "photo_count"
+        ],
+        "sample": "{'photo_count': 5}"
+      },
+      "data": {
+        "type": "dict",
+        "keys": [
+          "subject_id",
+          "subject_root_id",
+          "chrt_ids",
+          "tech_size"
+        ],
+        "sample": "{'subject_id': 515, 'subject_root_id': 6258, 'chrt_ids': [1625597378], 'tech_size': '0'}"
+      },
+      "grouped_options": {
+        "type": "list",
+        "len": 11,
+        "first": "{'group_name': 'Основная информация', 'options': [{'name': 'Цвет', 'value': '[REDACTED_AUTH_SECRET]', 'charc_type': 1, 'is_variable': True, 'variable_values': ['серебро', 'серебристый'], 'variable_value_IDs': [25613442, 20214638]}, {'name': 'Обязательное предустановленное российское ПО', 'value': 'нет"
+      },
+      "need_kiz": {
+        "type": "bool",
+        "val": false
+      },
+      "user_flags": {
+        "type": "int",
+        "val": 0
+      },
+      "update_date": {
+        "type": "str",
+        "len": 27,
+        "val": "2026-06-15T07:22:07.230212Z"
+      },
+      "create_date": {
+        "type": "str",
+        "len": 27,
+        "val": "2026-05-28T08:55:33.618289Z"
+      }
+    },
+    "numeric_fields_gt_100": [
+      {
+        "path": "imt_id",
+        "val": 2227481309
+      },
+      {
+        "path": "nm_id",
+        "val": 1097975275
+      },
+      {
+        "path": "options[4].variable_value_IDs[0]",
+        "val": 25613442
+      },
+      {
+        "path": "options[4].variable_value_IDs[1]",
+        "val": 20214638
+      },
+      {
+        "path": "colors[0]",
+        "val": 1097975273
+      },
+      {
+        "path": "colors[1]",
+        "val": 1097975275
+      },
+      {
+        "path": "colors[2]",
+        "val": 1097975274
+      },
+      {
+        "path": "full_colors[0].nm_id",
+        "val": 1097975273
+      },
+      {
+        "path": "full_colors[1].nm_id",
+        "val": 1097975275
+      },
+      {
+        "path": "full_colors[2].nm_id",
+        "val": 1097975274
+      },
+      {
+        "path": "selling.supplier_id",
+        "val": 250148991
+      },
+      {
+        "path": "selling.no_return_map",
+        "val": 4351
+      },
+      {
+        "path": "data.subject_id",
+        "val": 515
+      },
+      {
+        "path": "data.subject_root_id",
+        "val": 6258
+      },
+      {
+        "path": "data.chrt_ids[0]",
+        "val": 1625597378
+      },
+      {
+        "path": "grouped_options[0].options[0].variable_value_IDs[0]",
+        "val": 25613442
+      },
+      {
+        "path": "grouped_options[0].options[0].variable_value_IDs[1]",
+        "val": 20214638
+      },
+      {
+        "path": "grouped_options[2].options[0].variable_value_IDs[0]",
+        "val": 25425
+      }
+    ]
+  },
+  "ozon": {
+    "desktop": {
+      "status": 403,
+      "len": 10105,
+      "url": "https://www.ozon.ru/product/2067947177/?__rr=1"
+    },
+    "mobile": {
+      "status": 403,
+      "len": 5249,
+      "url": "https://m.ozon.ru/product/2067947177/"
+    },
+    "desktop2": {
+      "status": 403,
+      "len": 10281,
+      "url": "https://www.ozon.ru/product/2067947177"
+    },
+    "composer_req": {
+      "error": "HTTPSConnectionPool(host='api.ozon.ru', port=443): Max retries exceeded with url: /composer-api.bx/page/json/v2?url=/product/2067947177/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)')))"
+    },
+    "alt_product": {
+      "status": 403,
+      "len": 10281
+    }
+  },
+  "avito": {
+    "cat_smartfony-i-telefony": {
+      "status": 404,
+      "len": 29440
+    },
+    "cat_noutbuki-i-ulegkie-pc": {
+      "status": 429,
+      "len": 34116
+    },
+    "ad_1097975275": {
+      "status": 404,
+      "len": 29440
+    },
+    "ad_1234567890": {
+      "status": 404,
+      "len": 29440
+    },
+    "mobile_cffi": {
+      "status": 439,
+      "len": 14382
+    }
+  }
+}

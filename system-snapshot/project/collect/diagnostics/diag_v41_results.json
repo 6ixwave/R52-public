@@ -1,0 +1,115 @@
+{
+  "WB": {
+    "api_199298871": {
+      "url": "https://card.wb.ru/cards/v2/detail?nm=199298871",
+      "status": "ERROR: APIRequestContext.get: Parse Error: Expected HTTP/, RTSP/ or ICE/\nCall log:\n  - → GET https://card.wb.ru/cards/v2/detail?nm=199298871\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\n    - accept: application/json, text/plain, */*\n    - accept-encoding: gzip,deflate,br\n    - Accept-Language: ru-RU,ru;q=0.9,en;q=0.8\n    - Referer: https://www.wildberries.ru/\n  - ← 403 Forbidden\n    - date: Tue, 10 Nov 2026 19:31:39 GMT\n    - content-type: text/plain\n    - connection: keep-alive\n    - status-no-id: PG-43-XC\n    - server: wbaas\n    - x-request-id: 8dca51c08f3b456402c67f89f14c0746\n    - report-to: { \"group\": \"nel\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/reports\"}] }, { \"group\": \"csp\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/csp\"}] }\n    - nel: { \"report_to\": \"nel\", \"max_age\": 604800, \"include_subdomains\": false, \"success_fraction\": 0.0, \"failure_fraction\": 1.0 }\n    - strict-transport-security: max-age=31536000; preload; always\n    - x-content-type-options: nosniff\n    - x-frame-options: DENY always\n    - access-control-allow-methods: *\n    - access-control-allow-headers: *\n    - content-length: 0\n",
+      "elapsed": 0.5
+    },
+    "api_1252522762": {
+      "url": "https://card.wb.ru/cards/v2/detail?nm=1252522762",
+      "status": "ERROR: APIRequestContext.get: Parse Error: Expected HTTP/, RTSP/ or ICE/\nCall log:\n  - → GET https://card.wb.ru/cards/v2/detail?nm=1252522762\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\n    - accept: application/json, text/plain, */*\n    - accept-encoding: gzip,deflate,br\n    - Accept-Language: ru-RU,ru;q=0.9,en;q=0.8\n    - Referer: https://www.wildberries.ru/\n  - ← 403 Forbidden\n    - date: Tue, 10 Nov 2026 19:31:42 GMT\n    - content-type: text/plain\n    - connection: keep-alive\n    - status-no-id: PG-41-XC\n    - server: wbaas\n    - x-request-id: 7a8d563074cbd6b80bb685ffac24ebe9\n    - report-to: { \"group\": \"nel\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/reports\"}] }, { \"group\": \"csp\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/csp\"}] }\n    - nel: { \"report_to\": \"nel\", \"max_age\": 604800, \"include_subdomains\": false, \"success_fraction\": 0.0, \"failure_fraction\": 1.0 }\n    - strict-transport-security: max-age=31536000; preload; always\n    - x-content-type-options: nosniff\n    - x-frame-options: DENY always\n    - access-control-allow-methods: *\n    - access-control-allow-headers: *\n    - content-length: 0\n",
+      "elapsed": 0.4
+    },
+    "html_199298871": {
+      "url": "https://www.wildberries.ru/catalog/199298871/detail.aspx",
+      "bytes": 7590,
+      "elapsed": 20.2,
+      "title": "...",
+      "is_challenge": true,
+      "has_jsonld": false,
+      "status": "CHALLENGE"
+    },
+    "html_1252522762": {
+      "url": "https://www.wildberries.ru/catalog/1252522762/detail.aspx",
+      "bytes": 7590,
+      "elapsed": 20.2,
+      "title": "...",
+      "is_challenge": true,
+      "has_jsonld": false,
+      "status": "CHALLENGE"
+    }
+  },
+  "AVITO": {
+    "disc_desktop": {
+      "url": "https://www.avito.ru/moskva/tech/notebooks",
+      "bytes": 36446,
+      "elapsed": 8.0,
+      "title": "Доступ ограничен: проблема с IP",
+      "is_blocked": true,
+      "status": "BLOCKED",
+      "ids_found": []
+    },
+    "disc_mobile": {
+      "url": "https://m.avito.ru/moskva/tech/notebooks",
+      "bytes": 8172,
+      "elapsed": 7.9,
+      "title": "Доска объявлений от частных лиц и компаний на Авито",
+      "is_blocked": false,
+      "status": "OK",
+      "ids_found": []
+    },
+    "api_search": {
+      "url": "https://www.avito.ru/api/v3/items/search?query=iphone&locationId=1&limit=10",
+      "http_code": 404,
+      "bytes": 555,
+      "elapsed": 0.4,
+      "status": "HTTP_404",
+      "snippet": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.6</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a paddin"
+    },
+    "api_mobile": {
+      "url": "https://m.avito.ru/api/v3/items/search?query=iphone&limit=5",
+      "http_code": 404,
+      "bytes": 555,
+      "elapsed": 0.4,
+      "status": "HTTP_404",
+      "snippet": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.6</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a paddin"
+    },
+    "note": "No IDs, using fallback 1096783029",
+    "1096783029": {
+      "url": "https://www.avito.ru/ad/1096783029",
+      "bytes": 29378,
+      "elapsed": 7.2,
+      "title": "Ошибка 404. Страница не найдена",
+      "is_blocked": false,
+      "is_404": true,
+      "has_jsonld": false,
+      "has_preloaded": false,
+      "status": "404"
+    }
+  },
+  "FARPOST": {
+    "cat_telefony": {
+      "url": "https://www.farpost.ru/telefony",
+      "bytes": 12869,
+      "elapsed": 6.6,
+      "title": "Страница не найдена",
+      "ids_found": [],
+      "status": "NO_IDS"
+    },
+    "cat_obshchie": {
+      "url": "https://www.farpost.ru/obshchie",
+      "bytes": 13827,
+      "elapsed": 5.3,
+      "title": "Страница не найдена",
+      "ids_found": [],
+      "status": "NO_IDS"
+    },
+    "note": "No IDs discovered from categories",
+    "137440009": {
+      "url": "https://www.farpost.ru/bulletin/137440009",
+      "bytes": 13849,
+      "elapsed": 5.2,
+      "title": "Страница не найдена",
+      "is_404": true,
+      "has_jsonld": true,
+      "status": "404"
+    }
+  },
+  "_meta": {
+    "version": "v41",
+    "elapsed_sec": 124.2,
+    "timestamp": "2026-11-11T05:33:33.806950+10:00",
+    "engine": "playwright",
+    "note": "Ozon done in v40 (PARSED). This run: WB, Avito, Farpost."
+  }
+}

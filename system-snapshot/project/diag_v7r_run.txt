@@ -1,0 +1,73 @@
+﻿python : 2026-11-14 13:28:20,127 INFO diag_v7r: === diag_v7r — 2026-11-14 13:28:20 ===
+строка:2 знак:1
++ python -u diag_v7r.py 2>&1 | Out-File -FilePath diag_v7r_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 13:2...14 13:28:20 ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 13:28:20,127 INFO diag_v7r: Cooldown 15s...
+2026-11-14 13:28:35,957 INFO diag_v7r: ── [1] Warm-up ──
+2026-11-14 13:28:44,713 INFO diag_v7r:   Cookies: [REDACTED_AUTH_SECRET]
+2026-11-14 13:28:44,713 INFO diag_v7r:   aep_usuc_f: b_locale=ru_RU&c_tp=RUB&region=RU&site=rus&province=91748082000000
+0000&city=917480828676000000
+2026-11-14 13:28:44,714 INFO diag_v7r: ── [2] Search ──
+2026-11-14 13:28:48,520 INFO diag_v7r:   URL: https://ru.aliexpress.com//wholesale/_____tmd_____/punish?x5secdata=xfQaW
+obUdmAT0827bEy6jfXdsK3DyGUd8cUfLcykrQm9Vz-H2x8a
+2026-11-14 13:28:48,520 INFO diag_v7r: ── [3] TMD: solving via slider ──
+2026-11-14 13:28:51,553 INFO diag_v7r:   TMD page: 231564B
+2026-11-14 13:28:51,567 INFO diag_v7r:   noCaptcha container found
+2026-11-14 13:28:51,580 INFO diag_v7r:   [slider] Found handle: #nc_1_n1z
+2026-11-14 13:28:51,582 INFO diag_v7r:   [slider] Handle box: x=812 y=705 w=42 h=30
+2026-11-14 13:28:51,588 INFO diag_v7r:   [slider] Track width: 300
+2026-11-14 13:28:51,588 INFO diag_v7r:   [slider] Drag: (833,720) → (1091,720) [track=300]
+2026-11-14 13:28:54,315 INFO diag_v7r:   [slider] Drag complete, waiting for result...
+2026-11-14 13:28:59,316 INFO diag_v7r:   After drag: URL=https://ru.aliexpress.com//wholesale/_____tmd_____/punish?x5se
+cdata=xfQaWobUdmAT0827bEy6jfXdsK3DyGUd8cUfLcykrQm9Vz-H2x8a
+2026-11-14 13:28:59,330 INFO diag_v7r:   After drag: content=231333B
+2026-11-14 13:28:59,330 INFO diag_v7r:   Still on TMD. Trying reload...
+2026-11-14 13:29:03,833 INFO diag_v7r:   Reload: URL=https://ru.aliexpress.com//wholesale/_____tmd_____/punish?x5secdat
+a=xfQaWobUdmAT0827bEy6jfXdsK3DyGUd, 232349B
+2026-11-14 13:29:03,833 INFO diag_v7r:   ✗ Still TMD after reload
+2026-11-14 13:29:03,833 INFO diag_v7r: ── [3b] Second slider attempt ──
+2026-11-14 13:29:05,917 INFO diag_v7r:   Slider element re-found, dragging again...
+2026-11-14 13:29:05,934 INFO diag_v7r:   [slider] Found handle: #nc_1_n1z
+2026-11-14 13:29:05,936 INFO diag_v7r:   [slider] Handle box: x=812 y=705 w=42 h=30
+2026-11-14 13:29:05,942 INFO diag_v7r:   [slider] Track width: 300
+2026-11-14 13:29:05,942 INFO diag_v7r:   [slider] Drag: (833,720) → (1091,720) [track=300]
+2026-11-14 13:29:08,535 INFO diag_v7r:   [slider] Drag complete, waiting for result...
+2026-11-14 13:29:14,642 INFO diag_v7r:   After 2nd drag: URL=https://ru.aliexpress.com//wholesale/_____tmd_____/punish?
+x5secdata=xfQaWobUdmAT0827bEy6jfXdsK3DyGUd, 1148303B
+2026-11-14 13:29:14,646 INFO diag_v7r:   Cookies saved: 22 → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.
+12\diag_v7r_cookies.json
+2026-11-14 13:29:14,788 INFO diag_v7r: ── [6] API fallback (curl_cffi + RU cookies) ──
+2026-11-14 13:29:14,905 INFO diag_v7r:   Cookies set: 22
+2026-11-14 13:29:17,905 INFO diag_v7r:   [search-pc] GET https://ru.aliexpress.com/fn/search-pc/index?SearchText=%D0%BD
+%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D
+2026-11-14 13:29:20,181 INFO diag_v7r:   [search-pc] HTTP 200, 0B
+2026-11-14 13:29:20,181 INFO diag_v7r:   [search-pc] Small response: 
+2026-11-14 13:29:22,181 INFO diag_v7r:   [aer-webapi] POST https://aer-webapi.aliexpress.com/fn/search-pc/index
+2026-11-14 13:29:25,028 INFO diag_v7r:   [aer-webapi] HTTP 200, 13874B
+2026-11-14 13:29:25,029 INFO diag_v7r:   [aer-webapi] Body[:500]: 
+
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="follow,index"/><meta name="referrer" content="no-referrer-when-downgrade"/><meta name="dat
+a-spm" content="a2g0o"/><link rel="alternate" href="android-app://com.alibaba.aliexpresshd/aliexpress/deeplink/list/msi
+te/en//main"/><link rel="alternate" hrefLang="en" href="https://www.aliexpress.com/"/><link rel="alternate" hrefLang="r
+u" href="https://aliex
+2026-11-14 13:29:27,029 INFO diag_v7r:   [search-api-v1] GET https://ru.aliexpress.com/aer-webapi/v1/search?SearchText=
+%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA
+2026-11-14 13:29:27,615 INFO diag_v7r:   [search-api-v1] HTTP 200, 13874B
+2026-11-14 13:29:27,615 INFO diag_v7r:   [search-api-v1] Body[:500]: 
+
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="follow,index"/><meta name="referrer" content="no-referrer-when-downgrade"/><meta name="dat
+a-spm" content="a2g0o"/><link rel="alternate" href="android-app://com.alibaba.aliexpresshd/aliexpress/deeplink/list/msi
+te/en//main"/><link rel="alternate" hrefLang="en" href="https://www.aliexpress.com/"/><link rel="alternate" hrefLang="r
+u" href="https://aliex
+2026-11-14 13:29:29,616 INFO diag_v7r: ── Summary ──
+2026-11-14 13:29:29,616 INFO diag_v7r:   TMD solved (slider): False
+2026-11-14 13:29:29,616 INFO diag_v7r:   Results HTML: 0B
+2026-11-14 13:29:29,616 INFO diag_v7r:   Cookies: [REDACTED_AUTH_SECRET]
+2026-11-14 13:29:29,616 INFO diag_v7r: === DONE ===
+2026-11-14 13:29:29,616 INFO diag_v7r: diag_v7r complete
+EXIT=0

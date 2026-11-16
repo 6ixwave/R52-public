@@ -1,0 +1,98 @@
+﻿[OK] curl_cffi доступен
+======================================================================
+WB PRICE DIAGNOSTIC v3 — deep search
+======================================================================
+
+============================================================
+NM_ID = 138278567
+============================================================
+  Host: basket-10.wbbasket.ru  size=2267B
+
+  --- Recursive price search ---
+  No price-like fields in card.json
+
+  --- Options ---
+    [0] Длина упаковки = 30 см (type=?, unifying=False)
+    [1] Высота упаковки = 15 см (type=?, unifying=False)
+    [2] Ширина упаковки = 12 см (type=?, unifying=False)
+
+  --- Grouped options ---
+    [0] ? (0 items)
+
+  --- Selling ---
+    {"no_return_map": 4111, "supplier_id": 461381}
+
+  --- Media ---
+    photo_count = 1
+    items: 0
+
+  --- Basket CDN alt paths ---
+    /vol1382/part138278/138278567/info/ru/price.json -> 404 (196B)
+    /vol1382/part138278/138278567/price.json -> 404 (196B)
+    /vol1382/part138278/138278567/info/price.json -> 404 (196B)
+
+  --- Price API (enhanced) ---
+    [card_v2_d0] 403 (0B)
+    [card_v1_s1] 403 (0B)
+    [cat_v2_s1] 403 (0B)
+    [wbx_v1] ERR Failed to perform, curl: (6) Could not resolve host: wbx-content-v1.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+  --- HTML (mobile UA) ---
+    HTML: 498 (1136B)
+    body[:200]: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="e61cf9604d994c226c297223dd7f3035" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-
+
+============================================================
+NM_ID = 145567890
+============================================================
+  Host: basket-10.wbbasket.ru  size=6830B
+
+  --- Recursive price search ---
+  No price-like fields in card.json
+
+  --- Options ---
+    [0] Назначение товара = для электронных сигарет; вайпов; под систем (type=?, unifying=False)
+    [1] Ограничение = 18+ (type=?, unifying=False)
+    [2] Ширина предмета = 3 см (type=?, unifying=False)
+    [3] Повод = 23 февраля; 8 марта; 14 Февраля (type=?, unifying=False)
+    [4] Высота предмета = 3 см (type=?, unifying=False)
+    [5] Транспортировка = не опасный груз (type=?, unifying=False)
+    [6] Ширина упаковки = 4 см (type=?, unifying=False)
+    [7] Вес товара с упаковкой (г) = 36 г (type=?, unifying=False)
+    [8] Длина упаковки = 9 см (type=?, unifying=False)
+    [9] Высота упаковки = 4 см (type=?, unifying=False)
+    [10] Назначение подарка = брату; другу; любимой (type=?, unifying=False)
+    [11] Объем (мл) = 30 мл (type=?, unifying=False)
+    [12] Модель = Maxwells HYBRID 20 мг (type=?, unifying=False)
+    [13] Вес товара без упаковки (г) = 30 г (type=?, unifying=False)
+    [14] Страна производства = Россия (type=?, unifying=False)
+    [15] Глубина предмета = 8 см (type=?, unifying=False)
+
+  --- Grouped options ---
+    [0] ? (0 items)
+    [1] ? (0 items)
+    [2] ? (0 items)
+
+  --- Selling ---
+    {"no_return_map": 4351, "brand_name": "Максвелс", "supplier_id": 380150}
+
+  --- Media ---
+    items: 0
+
+  --- Basket CDN alt paths ---
+    /vol1455/part145567/145567890/info/ru/price.json -> 404 (196B)
+    /vol1455/part145567/145567890/price.json -> 404 (196B)
+    /vol1455/part145567/145567890/info/price.json -> 404 (196B)
+
+  --- Price API (enhanced) ---
+    [card_v2_d0] 403 (0B)
+    [card_v1_s1] 403 (0B)
+    [cat_v2_s1] 403 (0B)
+    [wbx_v1] ERR Failed to perform, curl: (6) Could not resolve host: wbx-content-v1.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+  --- HTML (mobile UA) ---
+    HTML: 498 (1136B)
+    body[:200]: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="b941c7e737f5d29ede35cda5cc4050a4" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-
+
+======================================================================
+DONE
+======================================================================

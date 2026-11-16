@@ -1,0 +1,31 @@
+=== FARPOST DIAG at 21:42:58 ===
+URL: https://www.farpost.ru/vladivostok/18530297982.html
+Fetch: HTTP 404, 14011 bytes (1.2s)
+Content-Type: text/html; charset=windows-1251
+HTML saved: diag_farpost_page.html
+Decoded as windows-1251
+HTML length: 14011 chars
+
+--- PATTERN SEARCH ---
+<title>: Страница не найдена
+<h1>: NOT FOUND
+JSON-LD blocks: 2
+  LD[0] type=BreadcrumbList name=
+  LD[1] type=WebSite name=FarPost.ru
+og:title: Страница не найдена
+  [class*=price]: 0 matches, first=—
+  [data-field=price]: 0 matches, first=—
+  [itemprop=price]: 0 matches, first=—
+  [json price]: 0 matches, first=—
+  [N руб]: 0 matches, first=—
+
+--- COLLECTOR PARSE_PAGE ---
+parse_page → OK (0.0s)
+  fields: ['title', 'description', 'category']
+    title: Страница не найдена
+    description: Подать объявление во Владивостоке. Частные объявления и предложения организаций 
+    category: vladivostok > 18530297982.html
+  prices: 0
+  availability: UNKNOWN
+
+=== END at 21:42:59 ===

@@ -1,0 +1,54 @@
+2026-11-15 01:21:55,445 diag.v3 INFO === PHASE A: AVITO search (retry up to 5 attempts) ===
+2026-11-15 01:21:55,445 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 01:21:55,445 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-15 01:21:56,349 r52.collectors.avito INFO AVITO warmup m.avito.ru: HTTP 403
+2026-11-15 01:21:57,386 r52.collectors.avito INFO AVITO warmup www.avito.ru: HTTP 439
+2026-11-15 01:21:57,386 r52.collectors.avito INFO AVITO warmup: HTTP 439
+2026-11-15 01:21:57,387 diag.v3 INFO --- Attempt 1 ---
+2026-11-15 01:22:03,421 diag.v3 INFO   m.avito.ru: HTTP 439, 13723 bytes
+2026-11-15 01:22:06,385 diag.v3 INFO   www.avito.ru: HTTP 439, 13723 bytes
+2026-11-15 01:22:06,385 diag.v3 INFO   Waiting 11s before next attempt...
+2026-11-15 01:22:16,902 diag.v3 INFO --- Attempt 2 ---
+2026-11-15 01:22:21,702 diag.v3 INFO   m.avito.ru: HTTP 439, 13723 bytes
+2026-11-15 01:22:24,956 diag.v3 INFO   www.avito.ru: HTTP 200, 374926 bytes
+2026-11-15 01:22:24,956 diag.v3 INFO GOT REAL PAGE: 374926 bytes from https://www.avito.ru/rossiya?q=тест&p=1 (HTTP 200)
+2026-11-15 01:22:24,958 diag.v3 INFO Saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\avito_real_search.html
+2026-11-15 01:22:24,959 diag.v3 INFO Ad links found: 3
+2026-11-15 01:22:24,959 diag.v3 INFO --- Ad #1: id=101350475 ---
+2026-11-15 01:22:24,959 diag.v3 INFO   NO PRICE — dumping block snippet:
+2026-11-15 01:22:24,960 diag.v3 INFO   Numbers in block: ['9579', '671', '000000', '898', '1934', '568', '92459', '3301', '2283249', '582', '536', '7423', '704813', '64812', '0010', '46445', '29244', '9579', '671', '000000']
+2026-11-15 01:22:24,960 diag.v3 INFO   Block[500:1500]: <a class="_898fd1934f568c0e" href="https://appgallery.huawei.ru/app/C101350475" target="_blank" data-type="appGallery" rel="noopener noreferrer"><div role="img" class="b92459c45aaf3301 _234b807785ecbfa2" aria-label="Загрузите в AppGallery"></div><div class="_536e67c29e85f19d"><p class="_6a7423df6c704813 c88d64812f78ce16 _07ee83ac20ac0010 _46445b29244ebe19 _08c9579d9c5df671" style="color:#000000">AppGallery</p></div></a><a class="_898fd1934f568c0e" href="https://global.app.mi.com/details?lo=RU&am
+2026-11-15 01:22:24,960 diag.v3 INFO --- Ad #2: id=200026938 ---
+2026-11-15 01:22:24,960 diag.v3 INFO   NO PRICE — dumping block snippet:
+2026-11-15 01:22:24,960 diag.v3 INFO   Numbers in block: ['026', '865', '8154', '6224005', '861', '6007355', '47376', '323', '8596', '740', '865', '8154', '6224005', '861', '6007355', '47376', '323', '8596', '200026938', '865']
+2026-11-15 01:22:24,960 diag.v3 INFO   Block[500:1500]: <a href="https://support.avito.ru/articles/200026938" class="_52bb865cd8154cdf _6224005a2ef00e51 _861abc6007355ec1 _34b72c5e0f47376b"><span class="_34cd323a8596a6b6">оферту</span></a>.<br class="_74d0b4e2aa740b10"/> <!-- -->Авито использует <a href="https://www.avito.ru/legal/rules/rec-technologies/" class="_52bb865cd8154cdf _6224005a2ef00e51 _861abc6007355ec1 _34b72c5e0f47376b"><span class="_34cd323a8596a6b6">рекомендательные технологии</span></a>.</p></div><div class="_205f77ba383d992c _754672
+2026-11-15 01:22:24,960 diag.v3 INFO --- Ad #3: id=24896637 ---
+2026-11-15 01:22:24,960 diag.v3 INFO   NO PRICE — dumping block snippet:
+2026-11-15 01:22:24,960 diag.v3 INFO   Numbers in block: ['673905346', '3720459488854', '117', '6600', '809', '7110', '745', '744451', '205', '383', '992', '83876', '98808', '287792', '10787', '24896637', '8761', '8964', '597', '2010673905346']
+2026-11-15 01:22:24,960 diag.v3 INFO   Block[500:1500]: <a href="https://rutube.ru/channel/24896637" target="_blank" rel="noopener noreferrer" class="_8761af61d40d8964 _597dfbb3baec23ad aa84cf9c7d8a59d1 _2010673905346a68 _8d3720459488854d f02cb117f6600a41"><span class="_809f8afb2d1ed6bf"><span class="cee5d92ea7110cf8 _98d8c96df7f0ee81"><svg aria-hidden="true" class="_2e0d745a744451c9" style="--ds-icon-mask-url:url(https://www.avito.st/static/ims/design-system-icons_r_square_common.svg);--module-icon-size:24px" data-icon-name="r" data-icon-set="zna4ki
+2026-11-15 01:22:24,960 diag.v3 INFO === Global 'руб/₽' context scan ===
+2026-11-15 01:22:25,126 diag.v3 INFO Total руб/₽ occurrences: 0
+2026-11-15 01:22:25,127 diag.v3 INFO === PHASE B: WB alternative approaches ===
+2026-11-15 01:22:25,127 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 01:22:25,128 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-15 01:22:25,986 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-15 01:22:28,936 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-15 01:22:28,936 diag.v3 INFO --- WB Approach 1: Mobile app headers ---
+2026-11-15 01:22:37,669 diag.v3 INFO   v5 mobile: HTTP 403, 0 bytes
+2026-11-15 01:22:37,669 diag.v3 INFO --- WB Approach 2: v5 endpoint ---
+2026-11-15 01:22:37,669 diag.v3 WARNING   v5 search error: 'WBCollector' object has no attribute 'JSON_HEADERS'
+2026-11-15 01:22:37,669 diag.v3 INFO --- WB Approach 3: card.wb.ru batch ---
+2026-11-15 01:22:37,669 diag.v3 WARNING   card batch error: 'WBCollector' object has no attribute 'JSON_HEADERS'
+2026-11-15 01:22:37,669 diag.v3 WARNING   card batch error: 'WBCollector' object has no attribute 'JSON_HEADERS'
+2026-11-15 01:22:37,669 diag.v3 INFO --- WB Approach 4: HTML with Safari UA ---
+2026-11-15 01:22:51,354 diag.v3 INFO   HTML Safari: HTTP 498, 1136 bytes
+2026-11-15 01:22:51,354 diag.v3 INFO --- WB Approach 5: Known product card ---
+2026-11-15 01:22:51,354 diag.v3 WARNING   card 123456789 error: 'WBCollector' object has no attribute 'JSON_HEADERS'
+2026-11-15 01:22:51,355 diag.v3 WARNING   card 987654321 error: 'WBCollector' object has no attribute 'JSON_HEADERS'
+2026-11-15 01:22:51,355 diag.v3 WARNING   card 111111111 error: 'WBCollector' object has no attribute 'JSON_HEADERS'
+2026-11-15 01:22:51,355 diag.v3 INFO === SUMMARY ===
+2026-11-15 01:22:51,355 diag.v3 INFO AVITO: OK
+2026-11-15 01:22:51,355 diag.v3 INFO   bytes=374926, ads=3
+2026-11-15 01:22:51,355 diag.v3 INFO WB: see approaches above
+2026-11-15 01:22:51,357 diag.v3 INFO Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\diag_v3_report.json
+2026-11-15 01:22:51,357 diag.v3 INFO === DONE ===

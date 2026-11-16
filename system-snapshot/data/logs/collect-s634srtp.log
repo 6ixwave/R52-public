@@ -1,0 +1,21 @@
+<frozen runpy>:130: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-17 03:44:24,710 r52.autocollect.worker INFO phase=worker_start pid=21224
+2026-11-17 03:44:24,733 r52.autocollect.worker INFO source=WB mode=discover phase=initialize
+2026-11-17 03:44:24,733 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-17 03:44:24,734 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-17 03:44:24,734 r52.autocollect.worker INFO source=WB phase=search_start page=1 limit=5
+2026-11-17 03:44:28,815 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-17 03:44:54,977 r52.collectors.pw_fetch WARNING PwFetcher.get_xhr: no matching XHR captured
+2026-11-17 03:44:54,984 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-17 03:44:55,247 r52.autocollect.worker INFO source=WB phase=close_complete
+2026-11-17 03:44:55,248 root ERROR phase=worker_failed code=SEARCH_HTTP_403
+Traceback (most recent call last):
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 98, in main
+    run(json.loads((folder / "request").read_text("utf-8")), folder)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 80, in run
+    rows = collector.collect_by_search(params["value"], page=params["page"], page_size=params["limit"])
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 374, in collect_by_search
+    if data is None: raise SearchError(f"SEARCH_HTTP_{last_status}" if last_status else "SEARCH_HTTP_UNAVAILABLE")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+r52.collectors.discovery.SearchError: SEARCH_HTTP_403

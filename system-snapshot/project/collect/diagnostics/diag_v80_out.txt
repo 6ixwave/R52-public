@@ -1,0 +1,37 @@
+2026-11-11 11:42:22,584 v80 INFO === V80 E2E ALL ===
+2026-11-11 11:42:22,592 v80 INFO DB migrate: {'applied': [], 'version': 3}
+2026-11-11 11:42:22,595 v80 INFO schema_version: 3
+2026-11-11 11:42:22,597 v80 INFO PRE: {'product': 3, 'observation': 14, 'price_point': 7, 'source': 6}
+2026-11-11 11:42:22,598 v80 INFO === 1. FARPOST ===
+2026-11-11 11:42:23,958 v80 INFO FARPOST: HTTP 404, 13131B
+2026-11-11 11:42:23,958 v80 INFO === 2. OZON ===
+2026-11-11 11:42:24,159 v80 INFO OZON A: curl_cffi chrome124, short URL
+2026-11-11 11:42:25,096 v80 INFO OZON A short: HTTP 403, 10547B
+2026-11-11 11:42:26,633 v80 INFO OZON A full: HTTP 403, 10687B
+2026-11-11 11:42:26,636 v80 INFO OZON B: curl_cffi safari17_0
+2026-11-11 11:42:28,400 v80 INFO OZON B: HTTP 200, 547652B
+2026-11-11 11:42:28,418 v80 INFO OZON PERSIST: {'product_id': 4, 'product_created': True, 'observation_id': 15, 'obs_created': True, 'prices_count': 1} (strategy=curl_cffi_safari17)
+2026-11-11 11:42:28,418 v80 INFO === 3. WILDBERRIES ===
+2026-11-11 11:42:28,418 v80 INFO WB 1: basket CDN card.json
+2026-11-11 11:44:23,826 v80 INFO WB basket: all h tried, no card
+2026-11-11 11:44:23,826 v80 INFO WB 2: basket options/1.json
+2026-11-11 11:46:19,262 v80 INFO WB 3: HTML page
+2026-11-11 11:46:20,055 v80 INFO WB HTML: HTTP 498, 1136B
+2026-11-11 11:46:20,055 v80 INFO WB 4: card.wb.ru API
+2026-11-11 11:46:20,850 v80 INFO WB card v2: HTTP 403, 0B
+2026-11-11 11:46:21,628 v80 INFO WB card v1: HTTP 403, 0B
+2026-11-11 11:46:21,628 v80 INFO === 4. AVITO ===
+2026-11-11 11:46:21,628 v80 INFO AVITO cat: https://www.avito.ru/krasnoyarsk/telefony
+2026-11-11 11:46:22,613 v80 INFO AVITO cat: HTTP 429, 35048B
+2026-11-11 11:46:22,613 v80 INFO AVITO cat: https://www.avito.ru/krasnoyarsk/noutbuki
+2026-11-11 11:46:23,149 v80 INFO AVITO cat: HTTP 429, 35048B
+2026-11-11 11:46:23,150 v80 INFO AVITO cat: https://www.avito.ru/krasnoyarsk/avtozapchasti
+2026-11-11 11:46:23,655 v80 INFO AVITO cat: HTTP 439, 14889B
+2026-11-11 11:46:23,655 v80 INFO AVITO: trying known IDs
+2026-11-11 11:46:24,208 v80 INFO AVITO known 8341658309: HTTP 429, 35048B
+2026-11-11 11:46:24,728 v80 INFO AVITO known 1154321987: HTTP 429, 35048B
+2026-11-11 11:46:25,241 v80 INFO AVITO known 1045236789: HTTP 439, 14889B
+2026-11-11 11:46:25,244 v80 INFO POST: {'product': 4, 'observation': 15, 'price_point': 8, 'source': 6}
+2026-11-11 11:46:25,244 v80 INFO DELTA: product=1 obs=1 pp=1 src=0
+2026-11-11 11:46:25,245 v80 INFO === V80 DONE: PARTIAL ===
+2026-11-11 11:46:25,245 v80 INFO Result: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v80_result.json

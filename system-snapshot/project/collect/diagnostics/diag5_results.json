@@ -1,0 +1,81 @@
+{
+  "time": "2026-11-12T16:30:06.741749+10:00",
+  "total_s": 53.8,
+  "results": {
+    "FP:deep_saved": {
+      "ok": true,
+      "detail": "title=Р¤Р°СЂРїРѕСЃС‚ - РґРѕСЃРєР° РѕР±СЉСЏРІР»РµРЅРёР№ h1=? big_nums=['80000', '1114', '200', '100', '700'] classes=[] data_f=[] rub=[] markers={'viewbull': False, 'bulletinText': False, 'subject': False, 'bulletinId': False, 'lightbox': False, 'jsonld': False, 'og:': True, 'company': False, 'field_container': False} ld=[] divs=[]",
+      "s": 0.1
+    },
+    "FP:live_v2": {
+      "ok": false,
+      "detail": "HTTP=200 verify=True len=89123 url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F138952176.h nums=['80000', '1114', '7189', '7189', '66303'] data_fields=[]",
+      "s": 4.7
+    },
+    "FP:cffi": {
+      "ok": false,
+      "detail": "HTTP=200 verify=True len=198101 nums=['80000', '1114', '7189', '7189', '66303']",
+      "s": 1.6
+    },
+    "WB:card_deep": {
+      "ok": false,
+      "detail": "keys=['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'options', 'certificate', 'nm_colors_names', 'colors', 'full_colors', 'selling', 'media', 'data', 'grouped_options', 'need_kiz', 'user_flags', 'update_date', 'create_date'] selling={\"brand_name\": \"Apple\", \"brand_hash\": \"6F8A1C9991FE5BC9\", \"supplier_id\": 250148991, \"no_return_map\": size0=none price_occ=0 ctx=[]",
+      "s": 0.9
+    },
+    "WB:basket_paths": {
+      "ok": false,
+      "detail": "suppliers.json=404 price.json=404 ru.json=404 options.json=404 feedbacks.json=404 sizes.json=404",
+      "s": 7.2
+    },
+    "WB:card_dest": {
+      "ok": false,
+      "detail": "dest=0:403 dest=-1:403 dest=-1257786:403 dest=-1257787:403",
+      "s": 5.6
+    },
+    "WB:file_scan": {
+      "ok": true,
+      "detail": "card.json=200 photos.json=404 feedbacks.json=404 options.json=404 sizes.json=404 suppliers.json=404 price.json=404 info.json=404 meta.json=404 seo.json=404",
+      "s": 10.6
+    },
+    "OZ:composer_req": {
+      "ok": false,
+      "detail": "err=HTTPSConnectionPool(host='api.ozon.ru', port=443): Max retries exceeded with url: /composer-api.bx/page/json/v2?url=/product/259671175/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)')))",
+      "s": 0.8
+    },
+    "OZ:html_req": {
+      "ok": false,
+      "detail": "HTTP=403 len=10049 prices=[] og=? widgets=[]",
+      "s": 1.0
+    },
+    "OZ:pdp_req": {
+      "ok": false,
+      "detail": "err=HTTPSConnectionPool(host='api.ozon.ru', port=443): Max retries exceeded with url: /api/entrypoint/pdp/259671175 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)')))",
+      "s": 0.3
+    },
+    "OZ:cffi_noverify": {
+      "ok": false,
+      "detail": "HTTP=403",
+      "s": 1.0
+    },
+    "AV:m_avito": {
+      "ok": false,
+      "detail": "HTTP=403 len=8601 prices=[] ld=False",
+      "s": 0.9
+    },
+    "AV:city_path": {
+      "ok": false,
+      "detail": "HTTP=429 len=34116 prices=[] url=https://www.avito.ru/vladivostok/1154321987",
+      "s": 6.2
+    },
+    "AV:api_v2": {
+      "ok": false,
+      "detail": "offers=404 1154321987=404 offers=404 offers=404 1154321987=403",
+      "s": 7.8
+    },
+    "AV:cffi_session": {
+      "ok": false,
+      "detail": "HTTP=429 len=34116 prices=[]",
+      "s": 5.1
+    }
+  }
+}

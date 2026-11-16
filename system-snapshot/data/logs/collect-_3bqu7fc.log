@@ -1,0 +1,178 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 13:33:57,897 r52.autocollect.worker INFO phase=worker_start pid=14644
+2026-11-15 13:33:57,907 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-15 13:33:57,908 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-15 13:33:57,908 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-15 13:33:57,908 r52.autocollect.worker INFO source=WB proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-15 13:33:57,909 r52.autocollect.worker INFO source=WB listing=1097975275 phase=collect_product_start
+2026-11-15 13:33:59,908 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-15 13:34:04,923 r52.collectors.wb INFO WB warmup catalog.wb.ru failed: Failed to perform, curl: (28) Connection timed out after 456 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:34:15,669 r52.collectors.wb WARNING WB cffi error https://basket-04.wbbasket.ru/vol10979/part1097975/1097975275/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 503. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:34:32,494 r52.collectors.wb WARNING WB cffi error https://basket-07.wbbasket.ru/vol10979/part1097975/1097975275/info/ru/card.json: Failed to perform, curl: (28) Connection timed out after 8010 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:34:43,329 r52.collectors.wb WARNING WB cffi error https://basket-09.wbbasket.ru/vol10979/part1097975/1097975275/info/ru/card.json: Failed to perform, curl: (28) Connection timed out after 8003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00006374 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000067d4 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 146 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 154 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 144 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 290 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 257 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 191 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 13:35:38,185 r52.collectors.wb WARNING WB cffi error https://basket-27.wbbasket.ru/vol10979/part1097975/1097975275/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 503. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:35:49,073 r52.collectors.wb WARNING WB cffi error https://basket-31.wbbasket.ru/vol10979/part1097975/1097975275/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 503. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00006374 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000067d4 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 146 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 154 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 144 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 290 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 257 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 191 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 13:36:20,416 r52.collectors.wb INFO WB: vol=10979 -> basket-42.wbbasket.ru (nm_id=1097975275)
+2026-11-15 13:36:23,560 r52.collectors.wb INFO WB 1097975275: card.json OK (21 keys, 10942B)
+2026-11-15 13:36:26,427 r52.collectors.wb INFO WB 1097975275: price card_v4 -> 403
+2026-11-15 13:36:28,583 r52.collectors.wb WARNING WB cffi error https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm: Failed to perform, curl: (7) CONNECT tunnel failed, response 503. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:36:31,182 r52.collectors.wb INFO WB 1097975275: price web_api -> 498
+2026-11-15 13:36:34,949 r52.collectors.wb INFO WB 1097975275: price search_wb -> 403
+2026-11-15 13:36:34,949 r52.collectors.wb INFO WB 1097975275: price — все эндпоинты не дали данных
+2026-11-15 13:36:49,239 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-15 13:36:49,239 r52.collectors.wb INFO WB 1097975275: photo_count=5, found=1
+2026-11-15 13:36:49,239 r52.autocollect.worker INFO source=WB listing=1097975275 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-15 13:36:49,239 r52.autocollect.worker INFO source=WB listing=776430014 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x00006374 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000067d4 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 123 in _fast_throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 130 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 290 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 257 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 191 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 13:37:00,966 r52.collectors.wb WARNING WB cffi error https://basket-04.wbbasket.ru/vol7764/part776430/776430014/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 503. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:37:48,335 r52.collectors.wb WARNING WB cffi error https://basket-19.wbbasket.ru/vol7764/part776430/776430014/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 503. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00006374 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000067d4 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 123 in _fast_throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 130 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 290 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 257 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 191 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 13:38:04,317 r52.collectors.wb WARNING WB cffi error https://basket-24.wbbasket.ru/vol7764/part776430/776430014/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 503. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:38:20,471 r52.collectors.wb WARNING WB cffi error https://basket-29.wbbasket.ru/vol7764/part776430/776430014/info/ru/card.json: Failed to perform, curl: (7) CONNECT tunnel failed, response 503. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:38:41,309 r52.collectors.wb INFO WB: vol=7764 -> basket-36.wbbasket.ru (nm_id=776430014)
+2026-11-15 13:38:43,764 r52.collectors.wb INFO WB 776430014: card.json OK (30 keys, 8360B)
+2026-11-15 13:38:47,071 r52.collectors.wb INFO WB 776430014: price card_v4 -> 403
+2026-11-15 13:38:49,201 r52.collectors.wb INFO WB 776430014: price catalog_v4 -> 403
+2026-11-15 13:38:52,038 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=776430014: Failed to perform, curl: (7) CONNECT tunnel failed, response 503. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 13:38:55,905 r52.collectors.wb INFO WB 776430014: price search_wb -> 403
+2026-11-15 13:38:55,905 r52.collectors.wb INFO WB 776430014: price — все эндпоинты не дали данных
+Timeout (0:01:00)!
+Thread 0x00006374 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000067d4 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 132 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 376 in _fetch_html
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 198 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 13:39:08,709 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-15 13:39:08,709 r52.collectors.wb INFO WB 776430014: photo_count=6, found=1
+2026-11-15 13:39:08,709 r52.autocollect.worker INFO source=WB listing=776430014 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-15 13:39:08,709 r52.autocollect.worker INFO source=WB listing=446653020 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x00006374 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000067d4 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 123 in _fast_throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 130 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 290 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 257 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 191 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 13:40:26,764 r52.collectors.wb INFO WB: vol=4466 -> basket-25.wbbasket.ru (nm_id=446653020)
+2026-11-15 13:40:29,894 r52.collectors.wb INFO WB 446653020: card.json OK (23 keys, 11866B)
+2026-11-15 13:40:32,676 r52.collectors.wb INFO WB 446653020: price card_v4 -> 403
+2026-11-15 13:40:36,860 r52.collectors.wb INFO WB 446653020: price catalog_v4 -> 403
+2026-11-15 13:40:38,859 r52.collectors.wb INFO WB 446653020: price web_api -> 498
+2026-11-15 13:40:41,854 r52.collectors.wb INFO WB 446653020: price search_wb -> 403
+2026-11-15 13:40:41,854 r52.collectors.wb INFO WB 446653020: price — все эндпоинты не дали данных
+2026-11-15 13:40:51,035 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-15 13:40:51,035 r52.collectors.wb INFO WB 446653020: photo_count=10, found=1
+2026-11-15 13:40:51,035 r52.autocollect.worker INFO source=WB listing=446653020 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-15 13:40:51,035 r52.autocollect.worker INFO source=WB phase=write_start returned=3 valid=3 stats={'requests': 122, 'success': 6, 'failed': 102, 'blocked': 13}
+2026-11-15 13:40:51,036 r52.collectors INFO WB: записан jarvis-eye-wb-b4c6906f.json
+2026-11-15 13:40:51,037 r52.collectors INFO WB: записан jarvis-eye-wb-23cdd170.json
+2026-11-15 13:40:51,037 r52.collectors INFO WB: записан jarvis-eye-wb-fd73cc8b.json
+2026-11-15 13:40:51,038 r52.autocollect.worker INFO source=WB phase=write_complete files=3
+2026-11-15 13:40:51,038 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-15 13:40:51,038 r52.autocollect.worker INFO source=WB phase=close_complete

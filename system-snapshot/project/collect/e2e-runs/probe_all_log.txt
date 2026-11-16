@@ -1,0 +1,18 @@
+2026-11-12 16:07:47,574 PROBE        INFO  === OZON ===
+2026-11-12 16:07:49,515 PROBE        WARNING OZON Composer: Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-12 16:07:51,170 PROBE        INFO  OZON SSR: HTTP 403 len=8286
+2026-11-12 16:07:51,170 PROBE        INFO  === WB ===
+2026-11-12 16:07:52,168 PROBE        INFO  WB card.json: HTTP 200 len=7989
+2026-11-12 16:07:52,168 PROBE        INFO  WB card: nm_id=1097975275 name=Смартфон iPhone 17 Pro Max 256 Серебряны
+2026-11-12 16:07:53,027 PROBE        INFO  WB HTML: HTTP 498 len=1136
+2026-11-12 16:07:53,918 PROBE        INFO  WB price v2: HTTP 403 len=0
+2026-11-12 16:07:53,918 PROBE        INFO  === FARPOST ===
+2026-11-12 16:07:57,179 PROBE        INFO  FP 138859452: HTTP 200 len=19102 url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F138859452.h
+2026-11-12 16:07:57,179 PROBE        INFO  FP 138859452: attr=None jsonld=None
+2026-11-12 16:07:59,819 PROBE        INFO  FP 138952176: HTTP 200 len=89090 url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F138952176.h
+2026-11-12 16:07:59,819 PROBE        INFO  FP 138952176: attr=None jsonld=None
+2026-11-12 16:08:01,821 PROBE        INFO  === AVITO ===
+2026-11-12 16:08:02,692 PROBE        INFO  AV www.avito.ru: HTTP 404 len=29440
+2026-11-12 16:08:05,588 PROBE        INFO  AV m.avito.ru: HTTP 404 len=18752
+2026-11-12 16:08:07,589 PROBE        INFO  === DONE 20.0s ===
+2026-11-12 16:08:07,590 PROBE        INFO  Saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\probe_all_results.json

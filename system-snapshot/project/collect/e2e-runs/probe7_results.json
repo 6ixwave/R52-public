@@ -1,0 +1,74 @@
+{
+  "WB:card_sizes": {
+    "ok": false,
+    "detail": "no sizes, top_prices={}"
+  },
+  "WB:static_data": {
+    "ok": false,
+    "detail": "Failed to perform, curl: (6) Could not resolve host: static-"
+  },
+  "WB:search_detail_v1": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:search_detail_v2": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:search_detail_v5": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:static_prices": {
+    "ok": false,
+    "detail": "Failed to perform, curl: (6) Could not resolve host: static-"
+  },
+  "WB:card_nospp_dest0": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:card_nospp_dest-1": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:card_nospp_dest-1257786": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "OZON:playwright_full": {
+    "ok": false,
+    "detail": "102.7s result=None"
+  },
+  "OZON:pw_direct": {
+    "ok": false,
+    "detail": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API in"
+  },
+  "AVITO:cat_telefony-i-smartfony": {
+    "ok": false,
+    "detail": "HTTP 429 len=34116"
+  },
+  "AVITO:cat_telefony": {
+    "ok": false,
+    "detail": "HTTP 429 len=34116"
+  },
+  "AVITO:try_1100000001": {
+    "ok": false,
+    "detail": "HTTP 404"
+  },
+  "AVITO:try_1099999999": {
+    "ok": false,
+    "detail": "HTTP 404"
+  },
+  "AVITO:try_1150000001": {
+    "ok": false,
+    "detail": "HTTP 404"
+  },
+  "AVITO:try_1120000001": {
+    "ok": false,
+    "detail": "HTTP 404"
+  },
+  "AVITO:find": {
+    "ok": false,
+    "detail": "no listing found"
+  }
+}

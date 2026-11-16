@@ -1,0 +1,18 @@
+{
+  "ts": "2026-11-12 13:46:19",
+  "baseline": {
+    "product": 0,
+    "observation": 0,
+    "price_point": 0,
+    "product_by_src": {},
+    "observation_by_src": {},
+    "price_point_by_src": {},
+    "listings": {}
+  },
+  "results": {
+    "OZON": "PARTIAL",
+    "WB": "PARTIAL",
+    "FARPOST": "SKIPPED",
+    "AVITO": "SKIPPED"
+  }
+}

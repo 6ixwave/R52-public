@@ -1,0 +1,9 @@
+DIAG START
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_fetch.py", line 164, in <module>
+    fetch_wb_card("1097975275")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_fetch.py", line 100, in fetch_wb_card
+    part = nm_id // 1000
+           ~~~~~~^^~~~~~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'

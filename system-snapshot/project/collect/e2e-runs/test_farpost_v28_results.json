@@ -1,0 +1,158 @@
+{
+  "LingLong": {
+    "status": "FAIL",
+    "photos": 0,
+    "videos": 0,
+    "title": "Фарпост - доска объявлений",
+    "price": null,
+    "specs_count": 0,
+    "category": "",
+    "checks": {
+      "photos_count": {
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      "metadata_present": {
+        "expected": "optional",
+        "actual": false,
+        "pass": true
+      },
+      "is_main_count": {
+        "expected": 0,
+        "actual": 0,
+        "pass": true
+      },
+      "price": {
+        "expected": "present",
+        "actual": "missing",
+        "pass": false
+      },
+      "title": {
+        "expected": "non-empty",
+        "actual": "Фарпост - доска объявлений",
+        "pass": true
+      },
+      "specs": {
+        "expected": ">=5",
+        "actual": 0,
+        "pass": false
+      },
+      "category": {
+        "expected": "non-empty",
+        "actual": "empty",
+        "pass": false
+      },
+      "videos": {
+        "expected": 0,
+        "actual": 0,
+        "pass": true
+      }
+    },
+    "photos_detail": []
+  },
+  "Michelin": {
+    "status": "FAIL",
+    "photos": 0,
+    "videos": 0,
+    "title": "Фарпост - доска объявлений",
+    "price": null,
+    "specs_count": 0,
+    "category": "",
+    "checks": {
+      "photos_count": {
+        "expected": 18,
+        "actual": 0,
+        "pass": false
+      },
+      "metadata_present": {
+        "expected": "optional",
+        "actual": false,
+        "pass": true
+      },
+      "is_main_count": {
+        "expected": 0,
+        "actual": 0,
+        "pass": true
+      },
+      "price": {
+        "expected": "present",
+        "actual": "missing",
+        "pass": false
+      },
+      "title": {
+        "expected": "non-empty",
+        "actual": "Фарпост - доска объявлений",
+        "pass": true
+      },
+      "specs": {
+        "expected": ">=5",
+        "actual": 0,
+        "pass": false
+      },
+      "category": {
+        "expected": "non-empty",
+        "actual": "empty",
+        "pass": false
+      },
+      "videos": {
+        "expected": 0,
+        "actual": 0,
+        "pass": true
+      }
+    },
+    "photos_detail": []
+  },
+  "LongMarch": {
+    "status": "FAIL",
+    "photos": 0,
+    "videos": 0,
+    "title": "Фарпост - доска объявлений",
+    "price": null,
+    "specs_count": 0,
+    "category": "",
+    "checks": {
+      "photos_count": {
+        "expected": 7,
+        "actual": 0,
+        "pass": false
+      },
+      "metadata_present": {
+        "expected": "optional",
+        "actual": false,
+        "pass": true
+      },
+      "is_main_count": {
+        "expected": 0,
+        "actual": 0,
+        "pass": true
+      },
+      "price": {
+        "expected": "present",
+        "actual": "missing",
+        "pass": false
+      },
+      "title": {
+        "expected": "non-empty",
+        "actual": "Фарпост - доска объявлений",
+        "pass": true
+      },
+      "specs": {
+        "expected": ">=5",
+        "actual": 0,
+        "pass": false
+      },
+      "category": {
+        "expected": "non-empty",
+        "actual": "empty",
+        "pass": false
+      },
+      "videos": {
+        "expected": 0,
+        "actual": 0,
+        "pass": true
+      }
+    },
+    "photos_detail": []
+  }
+}

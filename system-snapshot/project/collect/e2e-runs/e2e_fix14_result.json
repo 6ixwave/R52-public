@@ -1,0 +1,157 @@
+{
+  "ts": "2026-11-12T12:22:36.186070+10:00",
+  "s": 73.2,
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "d": {
+    "WB": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "reason": "title=True price=None src="
+    },
+    "FARPOST": {
+      "verdict": "E2E_PASS",
+      "sqlite": {
+        "products": [
+          {
+            "id": 1,
+            "source": "FARPOST",
+            "listing_id": "138975631",
+            "url": "https://www.farpost.ru/vladivostok/tech/communication/cellphones/apple-iphone-17-256gb-green-sage-zelenyj-esim-bez-rustore-ucenka-ion-138975631.html",
+            "title": "Apple iPhone 17 256Gb Green Sage (зеленый) eSim! Без RuStore! Уценка ИОН, 6.30&quot;, моноблок, б/у, в наличии. Цена: 65 000&#8381; во Владивостоке",
+            "brand": null,
+            "model": null,
+            "origin": "EYE",
+            "search_text": "apple iphone 17 256gb green sage (зеленый) esim! без rustore! уценка ион, 6.30&quot;, моноблок, б/у, в наличии. цена: 65 000&#8381; во владивостоке 138975631",
+            "created_at": "2026-11-12T02:21:34.806+00:00",
+            "updated_at": "2026-11-12T02:21:34.806+00:00",
+            "last_observation_id": 1,
+            "last_seen_at": "2026-11-12T02:21:34.771+00:00",
+            "last_currency": "RUB",
+            "last_regular_minor": 6500000,
+            "last_lowest_minor": 6500000,
+            "last_lowest_role": "regular",
+            "last_availability": "UNKNOWN",
+            "observation_count": 1,
+            "image_data": null,
+            "image_source_url": null,
+            "image_observed_at": null,
+            "category_path": null,
+            "gallery_json": null
+          }
+        ],
+        "observations": [
+          {
+            "id": 1,
+            "product_id": 1,
+            "observed_at": "2026-11-12T02:21:34.771+00:00",
+            "imported_at": "2026-11-12T02:21:34.806+00:00",
+            "origin": "EYE",
+            "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+            "availability": "UNKNOWN",
+            "fingerprint": "f21c477d01be7bbca48bedd3043c333a42ee162a0bc89d985c94dc08bd66107f",
+            "normalized_json": "{\"media\": null, \"category_path\": \"\", \"version\": \"R52_NORMALIZED_3\", \"scope\": \"USER_EYE_EXPORT\", \"source\": \"FARPOST\", \"listing_id\": \"138975631\", \"url\": \"https://www.farpost.ru/vladivostok/tech/communication/cellphones/apple-iphone-17-256gb-green-sage-zelenyj-esim-bez-rustore-ucenka-ion-138975631.html\", \"observed_at\": \"2026-11-12T02:21:34.771+00:00\", \"title\": \"Apple iPhone 17 256Gb Green Sage (зеленый) eSim! Без RuStore! Уценка ИОН, 6.30&quot;, моноблок, б/у, в наличии. Цена: 65 000&#8381; во Владивостоке\", \"brand\": null, \"model\": null, \"fields\": {\"title\": {\"state\": \"OBSERVED\", \"value\": \"Apple iPhone 17 256Gb Green Sage (зеленый) eSim! Без RuStore! Уценка ИОН, 6.30&quot;, моноблок, б/у, в наличии. Цена: 65 000&#8381; во Владивостоке\", \"method\": \"HTTP\", \"evidence\": {\"method\": \"HTTP\", \"source\": \"FARPOST\"}, \"independently_verified\": false}, \"model\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"variant\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"displayed_price\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"price_conditions\": {\"state\": \"OBSERVED\", \"value\": [\"65 000 ₽\"], \"method\": \"PRICE_CANDIDATES\", \"evidence\": null, \"independently_verified\": false}, \"condition\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"bundle\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"seller_location\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"availability\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"delivery\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"warranty\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"returns\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"reviews\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"questions\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}}, \"prices\": [{\"role\": \"regular\", \"role_origin\": \"SOURCE_ROLE\", \"source_role\": \"regular\", \"amount_minor\": 6500000, \"currency\": \"RUB\", \"label\": null, \"variant_association\": \"UNKNOWN\", \"evidence\": null, \"applicability_verified\": false}], \"characteristics\": [], \"description_hints\": [], \"condition\": {\"code\": \"UNKNOWN\", \"origin\": null, \"independently_verified\": false}, \"availability\": \"UNKNOWN\", \"delivery\": {\"requested_destination\": \"Владивосток\", \"destination_mentioned\": false, \"destination_confirmed\": false, \"terms\": null, \"terms_state\": \"UNKNOWN\", \"cost_minor\": null, \"cost_state\": \"UNKNOWN\"}, \"page_region\": null, \"conflicts\": [], \"checks\": [{\"code\": \"VERIFY_TOTAL\", \"text\": \"Уточнить применимую цену, наличие, доставку во Владивосток и все обязательные расходы.\"}, {\"code\": \"VERIFY_VARIANT\", \"text\": \"Сверить точный MPN по фото или маркировке и фактическую модификацию.\"}, {\"code\": \"VERIFY_CONDITION_WARRANTY\", \"text\": \"Уточнить состояние, историю обслуживания, комплект, гарантию и возможность проверки.\"}], \"full_cost_blockers\": [\"price_applicability\", \"exact_physical_variant\", \"availability_confirmed\", \"delivery_to_Vladivostok\", \"delivery_cost\", \"mandatory_additional_costs\"], \"completeness\": {\"total\": 14, \"known\": 2, \"unknown\": [\"Модель\", \"Модификация\", \"Отображаемая цена\", \"Состояние\", \"Комплект\", \"Местонахождение продавца\", \"Наличие\", \"Доставка\", \"Гарантия\", \"Возврат\", \"Отзывы\", \"Вопросы покупателей\"], \"independently_verified\": 0}, \"eye\": {\"status\": \"PARTIAL_SUCCESS\", \"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTTP\", \"http_status\": 200}}",
+            "raw_json": "{\"fields\": {\"title\": {\"status\": \"KNOWN\", \"value\": \"Apple iPhone 17 256Gb Green Sage (зеленый) eSim! Без RuStore! Уценка ИОН, 6.30&quot;, моноблок, б/у, в наличии. Цена: 65 000&#8381; во Владивостоке\", \"method\": \"HTTP\", \"evidence\": {\"method\": \"HTTP\", \"source\": \"FARPOST\"}}}, \"price_candidates\": [{\"role\": \"regular\", \"amount_minor\": 6500000, \"currency\": \"RUB\", \"label\": \"Cena\"}], \"availability\": \"UNKNOWN\", \"category_path\": \"\", \"source\": \"FARPOST\", \"id\": \"138975631\", \"url\": \"https://www.farpost.ru/vladivostok/tech/communication/cellphones/apple-iphone-17-256gb-green-sage-zelenyj-esim-bez-rustore-ucenka-ion-138975631.html\", \"observed_at\": \"2026-11-12T12:21:34.771382+10:00\", \"status\": \"PARTIAL_SUCCESS\", \"product_content\": true, \"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTTP\", \"http_status\": 200}"
+          }
+        ],
+        "price_points": [
+          {
+            "id": 1,
+            "observation_id": 1,
+            "product_id": 1,
+            "role": "regular",
+            "amount_minor": 6500000,
+            "currency": "RUB",
+            "label": null,
+            "observed_at": "2026-11-12T02:21:34.771+00:00"
+          }
+        ],
+        "product_count": 1,
+        "observation_count": 1,
+        "price_point_count": 1
+      },
+      "price": 6500000
+    },
+    "OZON": {
+      "verdict": "E2E_PASS",
+      "sqlite": {
+        "products": [
+          {
+            "id": 2,
+            "source": "OZON",
+            "listing_id": "2984707012",
+            "url": "https://www.ozon.ru/product/2984707012/",
+            "title": "Apple Смартфон iPhone 17 256 ГБ, Nano-SIM, eSIM, черный",
+            "brand": null,
+            "model": null,
+            "origin": "EYE",
+            "search_text": "apple смартфон iphone 17 256 гб, nano-sim, esim, черный 2984707012",
+            "created_at": "2026-11-12T02:21:57.768+00:00",
+            "updated_at": "2026-11-12T02:21:57.768+00:00",
+            "last_observation_id": 2,
+            "last_seen_at": "2026-11-12T02:21:57.757+00:00",
+            "last_currency": "RUB",
+            "last_regular_minor": 9957500,
+            "last_lowest_minor": 9957500,
+            "last_lowest_role": "regular",
+            "last_availability": "UNKNOWN",
+            "observation_count": 1,
+            "image_data": null,
+            "image_source_url": null,
+            "image_observed_at": null,
+            "category_path": null,
+            "gallery_json": null
+          }
+        ],
+        "observations": [
+          {
+            "id": 2,
+            "product_id": 2,
+            "observed_at": "2026-11-12T02:21:57.757+00:00",
+            "imported_at": "2026-11-12T02:21:57.768+00:00",
+            "origin": "EYE",
+            "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+            "availability": "UNKNOWN",
+            "fingerprint": "14ebd07624bc88f3608c8104e4d579c37e77c5b977255a0cb3839a69cd6b8c1b",
+            "normalized_json": "{\"media\": null, \"category_path\": \"\", \"version\": \"R52_NORMALIZED_3\", \"scope\": \"USER_EYE_EXPORT\", \"source\": \"OZON\", \"listing_id\": \"2984707012\", \"url\": \"https://www.ozon.ru/product/2984707012/\", \"observed_at\": \"2026-11-12T02:21:57.757+00:00\", \"title\": \"Apple Смартфон iPhone 17 256 ГБ, Nano-SIM, eSIM, черный\", \"brand\": null, \"model\": null, \"fields\": {\"title\": {\"state\": \"OBSERVED\", \"value\": \"Apple Смартфон iPhone 17 256 ГБ, Nano-SIM, eSIM, черный\", \"method\": \"HTTP\", \"evidence\": {\"method\": \"HTTP\", \"source\": \"OZON\"}, \"independently_verified\": false}, \"model\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"variant\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"displayed_price\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"price_conditions\": {\"state\": \"OBSERVED\", \"value\": [\"99 575 ₽\"], \"method\": \"PRICE_CANDIDATES\", \"evidence\": null, \"independently_verified\": false}, \"condition\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"bundle\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"seller_location\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"availability\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"delivery\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"warranty\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"returns\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"reviews\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"questions\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}}, \"prices\": [{\"role\": \"regular\", \"role_origin\": \"SOURCE_ROLE\", \"source_role\": \"regular\", \"amount_minor\": 9957500, \"currency\": \"RUB\", \"label\": null, \"variant_association\": \"UNKNOWN\", \"evidence\": null, \"applicability_verified\": false}], \"characteristics\": [], \"description_hints\": [], \"condition\": {\"code\": \"UNKNOWN\", \"origin\": null, \"independently_verified\": false}, \"availability\": \"UNKNOWN\", \"delivery\": {\"requested_destination\": \"Владивосток\", \"destination_mentioned\": false, \"destination_confirmed\": false, \"terms\": null, \"terms_state\": \"UNKNOWN\", \"cost_minor\": null, \"cost_state\": \"UNKNOWN\"}, \"page_region\": null, \"conflicts\": [], \"checks\": [{\"code\": \"VERIFY_TOTAL\", \"text\": \"Уточнить применимую цену, наличие, доставку во Владивосток и все обязательные расходы.\"}, {\"code\": \"VERIFY_VARIANT\", \"text\": \"Сверить точный MPN по фото или маркировке и фактическую модификацию.\"}, {\"code\": \"VERIFY_CONDITION_WARRANTY\", \"text\": \"Уточнить состояние, историю обслуживания, комплект, гарантию и возможность проверки.\"}], \"full_cost_blockers\": [\"price_applicability\", \"exact_physical_variant\", \"availability_confirmed\", \"delivery_to_Vladivostok\", \"delivery_cost\", \"mandatory_additional_costs\"], \"completeness\": {\"total\": 14, \"known\": 2, \"unknown\": [\"Модель\", \"Модификация\", \"Отображаемая цена\", \"Состояние\", \"Комплект\", \"Местонахождение продавца\", \"Наличие\", \"Доставка\", \"Гарантия\", \"Возврат\", \"Отзывы\", \"Вопросы покупателей\"], \"independently_verified\": 0}, \"eye\": {\"status\": \"PARTIAL_SUCCESS\", \"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTTP\", \"http_status\": 200}}",
+            "raw_json": "{\"fields\": {\"title\": {\"status\": \"KNOWN\", \"value\": \"Apple Смартфон iPhone 17 256 ГБ, Nano-SIM, eSIM, черный\", \"method\": \"HTTP\", \"evidence\": {\"method\": \"HTTP\", \"source\": \"OZON\"}}}, \"price_candidates\": [{\"role\": \"regular\", \"amount_minor\": 9957500, \"currency\": \"RUB\", \"label\": \"Cena\"}], \"availability\": \"UNKNOWN\", \"category_path\": \"\", \"source\": \"OZON\", \"id\": \"2984707012\", \"url\": \"https://www.ozon.ru/product/2984707012/\", \"observed_at\": \"2026-11-12T12:21:57.757337+10:00\", \"status\": \"PARTIAL_SUCCESS\", \"product_content\": true, \"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTTP\", \"http_status\": 200}"
+          }
+        ],
+        "price_points": [
+          {
+            "id": 2,
+            "observation_id": 2,
+            "product_id": 2,
+            "role": "regular",
+            "amount_minor": 9957500,
+            "currency": "RUB",
+            "label": null,
+            "observed_at": "2026-11-12T02:21:57.757+00:00"
+          }
+        ],
+        "product_count": 1,
+        "observation_count": 1,
+        "price_point_count": 1
+      },
+      "price": 9957500
+    },
+    "AVITO": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "reason": "no ad data"
+    }
+  }
+}

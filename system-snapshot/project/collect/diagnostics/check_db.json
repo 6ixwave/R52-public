@@ -1,0 +1,916 @@
+{
+  "log": [
+    "[22:10:22] DB: C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\r52\\data\\r52.db",
+    "[22:10:22] Таблицы (22): ['_migration', 'assistant_action', 'chat_message', 'chat_session', 'compare_group', 'compare_item', 'event', 'favorite', 'import_run', 'inbox_item', 'intake_file', 'notification', 'observation', 'price_point', 'product', 'schedule', 'schema_migrations', 'setting', 'source', 'task', 'task_transition', 'watch']",
+    "[22:10:22] Товаров: 13",
+    "[22:10:22]   #1 [FARPOST] 130693618 | Triangle IcelynX TI501, 205/55 R16 94T XL | price=2440000 | obs=4",
+    "[22:10:22]   #2 [OZON] 1600562267 | Ткань для обивки мебели, Велюр с абстрактным принтом, отрез  | price=229500 | obs=3",
+    "[22:10:22]   #3 [WB] 199298871 | WB-199298871 | price=None | obs=9",
+    "[22:10:22]   #4 [OZON] 479010389 | Кардамон зеленый молотый приправа 100 г , Универсальные прип | price=31000 | obs=1",
+    "[22:10:22]   #5 [FARPOST] 127622540 | Шины | price=1800000 | obs=4",
+    "[22:10:22]   #6 [WB] 1285331379 | WB-1285331379 | price=None | obs=1",
+    "[22:10:22]   #7 [WB] 314337853 | WB-314337853 | price=None | obs=1",
+    "[22:10:22]   #8 [FARPOST] 138080119 | IPhone 18 Pro Max 512Gb. Trade-IN. Кредит. Гарантия 1 год | price=14199900 | obs=2",
+    "[22:10:22]   #9 [FARPOST] 138078491 | IPhone 18 Pro 1Tb. Trade-IN. Кредит. Гарантия 1 год | price=15999900 | obs=2",
+    "[22:10:22]   #10 [FARPOST] 125270259 | IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год | price=12099900 | obs=2",
+    "[22:10:22]   #11 [WB] 259671175 | WB-259671175 | price=None | obs=1",
+    "[22:10:22]   #12 [WB] 387715226 | WB-387715226 | price=None | obs=1",
+    "[22:10:22]   #13 [FARPOST] 29958239 | IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год | price=None | obs=1",
+    "[22:10:22] Наблюдений: 32",
+    "[22:10:22]   obs#1 prod=1 2026-11-11T00:24:39.627+00:00 PERSIST_FP COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=bf817f110567...",
+    "[22:10:22]   obs#2 prod=2 2026-11-11T00:24:40.639+00:00 PERSIST_OZON COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=d576571aaf57...",
+    "[22:10:22]   obs#3 prod=1 2026-11-11T00:35:20.012+00:00 PERSIST_FP COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=124e785b5eb9...",
+    "[22:10:22]   obs#4 prod=3 2026-11-11T00:35:21.050+00:00 PERSIST_WB COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=c2d0b3ccf88e...",
+    "[22:10:22]   obs#5 prod=2 2026-11-11T00:35:21.223+00:00 PERSIST_OZON COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=2dbbba099824...",
+    "[22:10:22]   obs#6 prod=1 2026-11-11T00:39:00.246+00:00 PERSIST_FP COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=f9eadfde5ed1...",
+    "[22:10:22]   obs#7 prod=3 2026-11-11T00:39:00.780+00:00 PERSIST_WB COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=9a184d96a5a5...",
+    "[22:10:22]   obs#8 prod=2 2026-11-11T00:39:00.972+00:00 PERSIST_OZON COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=768b1a097fc0...",
+    "[22:10:22]   obs#9 prod=3 2026-11-11T00:42:50.330+00:00 PERSIST_WB_V73 COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=26f501ce698f...",
+    "[22:10:22]   obs#10 prod=3 2026-11-11T00:57:21.350+00:00 PERSIST_WB_V75 COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=879dbfb61326...",
+    "[22:10:22]   obs#11 prod=3 2026-11-11T01:02:41.432+00:00 PERSIST_WB_V76 COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=508104cc19e1...",
+    "[22:10:22]   obs#12 prod=3 2026-11-11T01:13:17.129+00:00 PERSIST_WB_V77 COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=07d88680092c...",
+    "[22:10:22]   obs#13 prod=1 2026-11-11T01:16:11.255+00:00 PERSIST_FP_V78 COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=0c8a85c0a563...",
+    "[22:10:22]   obs#14 prod=3 2026-11-11T01:17:44.271+00:00 PERSIST_WB_V78 COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=754f85cfb9a0...",
+    "[22:10:22]   obs#15 prod=4 2026-11-11T01:42:22.584+00:00 COLLECTOR_OZON COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=dcd6bf3dfe5d...",
+    "[22:10:22]   obs#16 prod=5 2026-11-11T02:07:34.829+00:00 COLLECTOR_FARPOST COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=438529197cfd...",
+    "[22:10:22]   obs#17 prod=5 2026-11-11T02:15:46.813+00:00 COLLECTOR_FARPOST COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=7618d15d5730...",
+    "[22:10:22]   obs#18 prod=5 2026-11-11T02:20:02.739+00:00 COLLECTOR_FARPOST COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=95da89bd6f36...",
+    "[22:10:22]   obs#19 prod=5 2026-11-11T02:47:03.440+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=eb4273bccb27...",
+    "[22:10:22]   obs#20 prod=3 2026-11-11T03:16:36.109+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=ca7be8b38f80...",
+    "[22:10:22]   obs#21 prod=6 2026-11-11T03:19:56.125+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=a6091eba05ae...",
+    "[22:10:22]   obs#22 prod=3 2026-11-11T03:28:45.541+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=72babbbaeaf1...",
+    "[22:10:22]   obs#23 prod=7 2026-11-11T03:32:12.532+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=479f22dbd84d...",
+    "[22:10:22]   obs#24 prod=8 2026-11-11T04:59:05.336+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=f9761d261b6d...",
+    "[22:10:22]   obs#25 prod=9 2026-11-11T04:59:23.603+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=cb84a141b405...",
+    "[22:10:22]   obs#26 prod=10 2026-11-11T04:59:33.278+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=7aaccd6cee53...",
+    "[22:10:22]   obs#27 prod=8 2026-11-11T05:01:48.891+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=6d1ef89c2910...",
+    "[22:10:22]   obs#28 prod=9 2026-11-11T05:01:57.330+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=c97b9f7b9d62...",
+    "[22:10:22]   obs#29 prod=10 2026-11-11T05:02:14.582+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=8719c119f3ea...",
+    "[22:10:22]   obs#30 prod=11 2026-11-11T05:05:42.642+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=9ef5be52fb8d...",
+    "[22:10:22]   obs#31 prod=12 2026-11-11T05:09:23.732+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP UNKNOWN fp=16a2586507b7...",
+    "[22:10:22]   obs#32 prod=13 2026-11-12T12:01:42.091397+00:00 REAL_USER_CAPTURED COLLECTOR_AUTONOMOUS_HTTP IN_STOCK fp=692389e4d53a...",
+    "[22:10:22] Точек цен: 19",
+    "[22:10:22]   pp#1 obs=1 regular 2440000 RUB data-bulletin-price",
+    "[22:10:22]   pp#2 obs=2 regular 229500 RUB JSON-LD price",
+    "[22:10:22]   pp#3 obs=3 regular 2440000 RUB data-bulletin-price",
+    "[22:10:22]   pp#4 obs=5 regular 229500 RUB JSON-LD price",
+    "[22:10:22]   pp#5 obs=6 regular 2440000 RUB data-bulletin-price",
+    "[22:10:22]   pp#6 obs=8 regular 229500 RUB JSON-LD price",
+    "[22:10:22]   pp#7 obs=13 regular 2440000 RUB data-bulletin-price",
+    "[22:10:22]   pp#8 obs=15 regular 31000 RUB page_price",
+    "[22:10:22]   pp#9 obs=16 regular 1800000 RUB page",
+    "[22:10:22]   pp#10 obs=17 regular 1800000 RUB page",
+    "[22:10:22]   pp#11 obs=18 regular 1800000 RUB page",
+    "[22:10:22]   pp#12 obs=19 regular 1800000 RUB data-bulletin-price",
+    "[22:10:22]   pp#13 obs=24 regular 14199900 RUB data-bulletin-price",
+    "[22:10:22]   pp#14 obs=25 regular 15999900 RUB data-bulletin-price",
+    "[22:10:22]   pp#15 obs=26 regular 12099900 RUB data-bulletin-price",
+    "[22:10:22]   pp#16 obs=27 regular 14199900 RUB data-bulletin-price",
+    "[22:10:22]   pp#17 obs=28 regular 15999900 RUB data-bulletin-price",
+    "[22:10:22]   pp#18 obs=29 regular 12099900 RUB data-bulletin-price",
+    "[22:10:22]   pp#19 obs=32 regular 12099900 RUB data-bulletin-price",
+    "[22:10:22] Входящих: 13",
+    "[22:10:22]   inbox#1 jarvis-eye-farpost-18bde9c4.json COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#2 jarvis-eye-wb-199298871.json COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#3 jarvis-eye-wb-1285331379.json COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#4 jarvis-eye-wb-199298871-fc9444.json COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#5 jarvis-eye-wb-314337853-053a89.json COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#6 None COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#7 None COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#8 None COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#9 None COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#10 None COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#11 None COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#12 None COLLECTOR ACCEPTED ",
+    "[22:10:22]   inbox#13 None COLLECTOR ACCEPTED ",
+    "[22:10:22] Источники: [{'key': 'ALIEXPRESS', 'name': 'AliExpress', 'kind': 'marketplace', 'collector': 'NOT_IMPLEMENTED'}, {'key': 'AVITO', 'name': 'Авито', 'kind': 'marketplace', 'collector': 'NOT_IMPLEMENTED'}, {'key': 'FARPOST', 'name': 'Фарпост', 'kind': 'marketplace', 'collector': 'NOT_IMPLEMENTED'}, {'key': 'MANUAL', 'name': 'Вручную', 'kind': 'manual', 'collector': 'NOT_IMPLEMENTED'}, {'key': 'OZON', 'name': 'Ozon', 'kind': 'marketplace', 'collector': 'NOT_IMPLEMENTED'}, {'key': 'WB', 'name': 'Wildberries', 'kind': 'marketplace', 'collector': 'NOT_IMPLEMENTED'}]",
+    "[22:10:22] Дубликаты товаров: 0",
+    "[22:10:22] Дубликаты наблюдений: 0",
+    "[22:10:22] ИТОГ: {\"products\": 13, \"observations\": 32, \"price_points\": 19, \"inbox_items\": 13, \"dup_products\": 0, \"dup_obs\": 0}"
+  ],
+  "tables": [
+    "_migration",
+    "assistant_action",
+    "chat_message",
+    "chat_session",
+    "compare_group",
+    "compare_item",
+    "event",
+    "favorite",
+    "import_run",
+    "inbox_item",
+    "intake_file",
+    "notification",
+    "observation",
+    "price_point",
+    "product",
+    "schedule",
+    "schema_migrations",
+    "setting",
+    "source",
+    "task",
+    "task_transition",
+    "watch"
+  ],
+  "products": [
+    {
+      "id": 1,
+      "source": "FARPOST",
+      "listing_id": "130693618",
+      "title": "Triangle IcelynX TI501, 205/55 R16 94T XL",
+      "brand": "Triangle",
+      "model": "Triangle IcelynX TI501",
+      "origin": "PERSIST_FP",
+      "last_regular_minor": 2440000,
+      "last_lowest_minor": 2440000,
+      "last_availability": "IN_STOCK",
+      "observation_count": 4,
+      "last_seen_at": "2026-11-11T01:16:11.255+00:00"
+    },
+    {
+      "id": 2,
+      "source": "OZON",
+      "listing_id": "1600562267",
+      "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра",
+      "brand": "Айхал",
+      "model": "7",
+      "origin": "PERSIST_OZON",
+      "last_regular_minor": 229500,
+      "last_lowest_minor": 229500,
+      "last_availability": "IN_STOCK",
+      "observation_count": 3,
+      "last_seen_at": "2026-11-11T00:39:00.972+00:00"
+    },
+    {
+      "id": 3,
+      "source": "WB",
+      "listing_id": "199298871",
+      "title": "WB-199298871",
+      "brand": "Родник Здоровья",
+      "model": "овсяный2",
+      "origin": "PERSIST_WB",
+      "last_regular_minor": null,
+      "last_lowest_minor": null,
+      "last_availability": "UNKNOWN",
+      "observation_count": 9,
+      "last_seen_at": "2026-11-11T03:28:45.541+00:00"
+    },
+    {
+      "id": 4,
+      "source": "OZON",
+      "listing_id": "479010389",
+      "title": "Кардамон зеленый молотый приправа 100 г , Универсальные приправы и специи",
+      "brand": null,
+      "model": "479010389",
+      "origin": "PERSIST_OZON",
+      "last_regular_minor": 31000,
+      "last_lowest_minor": 31000,
+      "last_availability": "UNKNOWN",
+      "observation_count": 1,
+      "last_seen_at": "2026-11-11T01:42:22.584+00:00"
+    },
+    {
+      "id": 5,
+      "source": "FARPOST",
+      "listing_id": "127622540",
+      "title": "Шины",
+      "brand": "Boto",
+      "model": "Boto WD69",
+      "origin": "PERSIST_FARPOST",
+      "last_regular_minor": 1800000,
+      "last_lowest_minor": 1800000,
+      "last_availability": "IN_STOCK",
+      "observation_count": 4,
+      "last_seen_at": "2026-11-11T02:47:03.440+00:00"
+    },
+    {
+      "id": 6,
+      "source": "WB",
+      "listing_id": "1285331379",
+      "title": "WB-1285331379",
+      "brand": null,
+      "model": null,
+      "origin": "EYE",
+      "last_regular_minor": null,
+      "last_lowest_minor": null,
+      "last_availability": "UNKNOWN",
+      "observation_count": 1,
+      "last_seen_at": "2026-11-11T03:19:56.125+00:00"
+    },
+    {
+      "id": 7,
+      "source": "WB",
+      "listing_id": "314337853",
+      "title": "WB-314337853",
+      "brand": null,
+      "model": null,
+      "origin": "EYE",
+      "last_regular_minor": null,
+      "last_lowest_minor": null,
+      "last_availability": "UNKNOWN",
+      "observation_count": 1,
+      "last_seen_at": "2026-11-11T03:32:12.532+00:00"
+    },
+    {
+      "id": 8,
+      "source": "FARPOST",
+      "listing_id": "138080119",
+      "title": "IPhone 18 Pro Max 512Gb. Trade-IN. Кредит. Гарантия 1 год",
+      "brand": "Apple iPhone",
+      "model": null,
+      "origin": "EYE",
+      "last_regular_minor": 14199900,
+      "last_lowest_minor": 14199900,
+      "last_availability": "IN_STOCK",
+      "observation_count": 2,
+      "last_seen_at": "2026-11-11T05:01:48.891+00:00"
+    },
+    {
+      "id": 9,
+      "source": "FARPOST",
+      "listing_id": "138078491",
+      "title": "IPhone 18 Pro 1Tb. Trade-IN. Кредит. Гарантия 1 год",
+      "brand": "Apple iPhone",
+      "model": null,
+      "origin": "EYE",
+      "last_regular_minor": 15999900,
+      "last_lowest_minor": 15999900,
+      "last_availability": "IN_STOCK",
+      "observation_count": 2,
+      "last_seen_at": "2026-11-11T05:01:57.330+00:00"
+    },
+    {
+      "id": 10,
+      "source": "FARPOST",
+      "listing_id": "125270259",
+      "title": "IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год",
+      "brand": "Apple iPhone",
+      "model": null,
+      "origin": "EYE",
+      "last_regular_minor": 12099900,
+      "last_lowest_minor": 12099900,
+      "last_availability": "IN_STOCK",
+      "observation_count": 2,
+      "last_seen_at": "2026-11-11T05:02:14.582+00:00"
+    },
+    {
+      "id": 11,
+      "source": "WB",
+      "listing_id": "259671175",
+      "title": "WB-259671175",
+      "brand": null,
+      "model": null,
+      "origin": "EYE",
+      "last_regular_minor": null,
+      "last_lowest_minor": null,
+      "last_availability": "UNKNOWN",
+      "observation_count": 1,
+      "last_seen_at": "2026-11-11T05:05:42.642+00:00"
+    },
+    {
+      "id": 12,
+      "source": "WB",
+      "listing_id": "387715226",
+      "title": "WB-387715226",
+      "brand": null,
+      "model": null,
+      "origin": "EYE",
+      "last_regular_minor": null,
+      "last_lowest_minor": null,
+      "last_availability": "UNKNOWN",
+      "observation_count": 1,
+      "last_seen_at": "2026-11-11T05:09:23.732+00:00"
+    },
+    {
+      "id": 13,
+      "source": "FARPOST",
+      "listing_id": "29958239",
+      "title": "IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год",
+      "brand": "Apple iPhone",
+      "model": "Apple iPhone 18 Pro Max",
+      "origin": "REAL_USER_CAPTURED",
+      "last_regular_minor": null,
+      "last_lowest_minor": null,
+      "last_availability": "IN_STOCK",
+      "observation_count": 1,
+      "last_seen_at": "2026-11-12T12:01:42.091397+00:00"
+    }
+  ],
+  "observations": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "observed_at": "2026-11-11T00:24:39.627+00:00",
+      "origin": "PERSIST_FP",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "bf817f110567e25e58c53c241596bacb89de2655b8e8997df3211ab3c336399b"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "observed_at": "2026-11-11T00:24:40.639+00:00",
+      "origin": "PERSIST_OZON",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "d576571aaf572fdd97d73804a3cc9b075540c81a5f857a27e6f2331bf02e9d6b"
+    },
+    {
+      "id": 3,
+      "product_id": 1,
+      "observed_at": "2026-11-11T00:35:20.012+00:00",
+      "origin": "PERSIST_FP",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "124e785b5eb93b558b7d2b2ce04a7f99c72624aba317729c63349a9ca802d522"
+    },
+    {
+      "id": 4,
+      "product_id": 3,
+      "observed_at": "2026-11-11T00:35:21.050+00:00",
+      "origin": "PERSIST_WB",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "c2d0b3ccf88eaab44a30f23f3e8655009476929b2d78aeb16cf10d5e81f5980e"
+    },
+    {
+      "id": 5,
+      "product_id": 2,
+      "observed_at": "2026-11-11T00:35:21.223+00:00",
+      "origin": "PERSIST_OZON",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "2dbbba099824ea554d459ff1b83275850f284434eb2156fcbf5888fb5da6aa6c"
+    },
+    {
+      "id": 6,
+      "product_id": 1,
+      "observed_at": "2026-11-11T00:39:00.246+00:00",
+      "origin": "PERSIST_FP",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "f9eadfde5ed1c93a94aa4bf9adb708162562f08581f6886cbf8168a6450b8cef"
+    },
+    {
+      "id": 7,
+      "product_id": 3,
+      "observed_at": "2026-11-11T00:39:00.780+00:00",
+      "origin": "PERSIST_WB",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "9a184d96a5a5ed7aa229633a387fb63f70886b305246ebb320d87df6aea431f6"
+    },
+    {
+      "id": 8,
+      "product_id": 2,
+      "observed_at": "2026-11-11T00:39:00.972+00:00",
+      "origin": "PERSIST_OZON",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "768b1a097fc0b9154ca4984aa31443ff8cd23859317c1175e37c72ef1b5424ff"
+    },
+    {
+      "id": 9,
+      "product_id": 3,
+      "observed_at": "2026-11-11T00:42:50.330+00:00",
+      "origin": "PERSIST_WB_V73",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "26f501ce698fd788d510e2a3087dd7e591153f195f015fa6c470239e67aa9a72"
+    },
+    {
+      "id": 10,
+      "product_id": 3,
+      "observed_at": "2026-11-11T00:57:21.350+00:00",
+      "origin": "PERSIST_WB_V75",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "879dbfb6132658f2036d418fc730ab96e945d26de8729f03bf687ea992cabb0d"
+    },
+    {
+      "id": 11,
+      "product_id": 3,
+      "observed_at": "2026-11-11T01:02:41.432+00:00",
+      "origin": "PERSIST_WB_V76",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "508104cc19e1f9063e0c972abe18f089c78dec033de9dfebfa1433f73110e15e"
+    },
+    {
+      "id": 12,
+      "product_id": 3,
+      "observed_at": "2026-11-11T01:13:17.129+00:00",
+      "origin": "PERSIST_WB_V77",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "07d88680092c7a847b5b38381baa05c2f0733af377139ac5b1dcc6e54cc3608a"
+    },
+    {
+      "id": 13,
+      "product_id": 1,
+      "observed_at": "2026-11-11T01:16:11.255+00:00",
+      "origin": "PERSIST_FP_V78",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "0c8a85c0a5630988b43297cad6fa4fff24decd82d0cd3c3a6915e5b9d6f4cfe8"
+    },
+    {
+      "id": 14,
+      "product_id": 3,
+      "observed_at": "2026-11-11T01:17:44.271+00:00",
+      "origin": "PERSIST_WB_V78",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "754f85cfb9a0c9c036ffb5cbf1f92d6559710690cbaded50454fe3eb30fbb92a"
+    },
+    {
+      "id": 15,
+      "product_id": 4,
+      "observed_at": "2026-11-11T01:42:22.584+00:00",
+      "origin": "COLLECTOR_OZON",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "dcd6bf3dfe5df4f053a9b7c16fab05e2fc8d52ea0ea95bba7ef2272836e024fd"
+    },
+    {
+      "id": 16,
+      "product_id": 5,
+      "observed_at": "2026-11-11T02:07:34.829+00:00",
+      "origin": "COLLECTOR_FARPOST",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "438529197cfd57e7bd75d8c1adbde25585d74f4d8f9933a8deec38dc21a6bb1c"
+    },
+    {
+      "id": 17,
+      "product_id": 5,
+      "observed_at": "2026-11-11T02:15:46.813+00:00",
+      "origin": "COLLECTOR_FARPOST",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "7618d15d5730771ee80d4ecf12d515a175e4e0d039f6366b202a451b1e126824"
+    },
+    {
+      "id": 18,
+      "product_id": 5,
+      "observed_at": "2026-11-11T02:20:02.739+00:00",
+      "origin": "COLLECTOR_FARPOST",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "95da89bd6f36bfed90eb321425467a9b5f8dd9f129344b6be1e48fecb43ee7bb"
+    },
+    {
+      "id": 19,
+      "product_id": 5,
+      "observed_at": "2026-11-11T02:47:03.440+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "eb4273bccb2762ca553fdd0aa8fc9828a906b3a2f90b95afdbc1abcaeb543d35"
+    },
+    {
+      "id": 20,
+      "product_id": 3,
+      "observed_at": "2026-11-11T03:16:36.109+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "ca7be8b38f80e2edb6ade1694d9cf92175956476ea170dcaf5cce88fc4077641"
+    },
+    {
+      "id": 21,
+      "product_id": 6,
+      "observed_at": "2026-11-11T03:19:56.125+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "a6091eba05aee5b8e9cb292c831a3389f8b7f5ef1091b4e0ea1e9c9d3fde29d5"
+    },
+    {
+      "id": 22,
+      "product_id": 3,
+      "observed_at": "2026-11-11T03:28:45.541+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "72babbbaeaf1e5de78e1da9eda19338d505e77802efc54a8d203b1564d419eac"
+    },
+    {
+      "id": 23,
+      "product_id": 7,
+      "observed_at": "2026-11-11T03:32:12.532+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "479f22dbd84d19a4164dd4c9504a29eb40a4dd1e352232bf6070671358feba91"
+    },
+    {
+      "id": 24,
+      "product_id": 8,
+      "observed_at": "2026-11-11T04:59:05.336+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "f9761d261b6d2d6e68622356c63149989afcd67fc6b9d1875d3fe99c8a1a8534"
+    },
+    {
+      "id": 25,
+      "product_id": 9,
+      "observed_at": "2026-11-11T04:59:23.603+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "cb84a141b405fb585b98adc4ed6b2bdcfba99120b6f3ddb0546916396a8373d3"
+    },
+    {
+      "id": 26,
+      "product_id": 10,
+      "observed_at": "2026-11-11T04:59:33.278+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "7aaccd6cee533c31dc81b18c24ce1827d83d7564d4effd9e797dbfb907e604cb"
+    },
+    {
+      "id": 27,
+      "product_id": 8,
+      "observed_at": "2026-11-11T05:01:48.891+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "6d1ef89c29106e6dc4c4e86f976caaa79883f6edec4185b479b04f1220682c36"
+    },
+    {
+      "id": 28,
+      "product_id": 9,
+      "observed_at": "2026-11-11T05:01:57.330+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "c97b9f7b9d62ab761311475622d63c4224c13dbea0961d058257cf833fee4336"
+    },
+    {
+      "id": 29,
+      "product_id": 10,
+      "observed_at": "2026-11-11T05:02:14.582+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "8719c119f3ea27213d9ce1014654930c69b27dd4575b9eba689bf8207df2d7b3"
+    },
+    {
+      "id": 30,
+      "product_id": 11,
+      "observed_at": "2026-11-11T05:05:42.642+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "9ef5be52fb8d28fc2b9290869332484507ffb45d98436fc4b973e4d1d2baeaa2"
+    },
+    {
+      "id": 31,
+      "product_id": 12,
+      "observed_at": "2026-11-11T05:09:23.732+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "16a2586507b7b1d7203cc57cee9bdec103a5f1f0b29ad29e7c71c09d82eaf6c7"
+    },
+    {
+      "id": 32,
+      "product_id": 13,
+      "observed_at": "2026-11-12T12:01:42.091397+00:00",
+      "origin": "REAL_USER_CAPTURED",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "692389e4d53a982938649c266b1379fd0f6791e5e42af5904c68e39bf2965493"
+    }
+  ],
+  "price_points": [
+    {
+      "id": 1,
+      "observation_id": 1,
+      "product_id": 1,
+      "role": "regular",
+      "amount_minor": 2440000,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 2,
+      "observation_id": 2,
+      "product_id": 2,
+      "role": "regular",
+      "amount_minor": 229500,
+      "currency": "RUB",
+      "label": "JSON-LD price"
+    },
+    {
+      "id": 3,
+      "observation_id": 3,
+      "product_id": 1,
+      "role": "regular",
+      "amount_minor": 2440000,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 4,
+      "observation_id": 5,
+      "product_id": 2,
+      "role": "regular",
+      "amount_minor": 229500,
+      "currency": "RUB",
+      "label": "JSON-LD price"
+    },
+    {
+      "id": 5,
+      "observation_id": 6,
+      "product_id": 1,
+      "role": "regular",
+      "amount_minor": 2440000,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 6,
+      "observation_id": 8,
+      "product_id": 2,
+      "role": "regular",
+      "amount_minor": 229500,
+      "currency": "RUB",
+      "label": "JSON-LD price"
+    },
+    {
+      "id": 7,
+      "observation_id": 13,
+      "product_id": 1,
+      "role": "regular",
+      "amount_minor": 2440000,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 8,
+      "observation_id": 15,
+      "product_id": 4,
+      "role": "regular",
+      "amount_minor": 31000,
+      "currency": "RUB",
+      "label": "page_price"
+    },
+    {
+      "id": 9,
+      "observation_id": 16,
+      "product_id": 5,
+      "role": "regular",
+      "amount_minor": 1800000,
+      "currency": "RUB",
+      "label": "page"
+    },
+    {
+      "id": 10,
+      "observation_id": 17,
+      "product_id": 5,
+      "role": "regular",
+      "amount_minor": 1800000,
+      "currency": "RUB",
+      "label": "page"
+    },
+    {
+      "id": 11,
+      "observation_id": 18,
+      "product_id": 5,
+      "role": "regular",
+      "amount_minor": 1800000,
+      "currency": "RUB",
+      "label": "page"
+    },
+    {
+      "id": 12,
+      "observation_id": 19,
+      "product_id": 5,
+      "role": "regular",
+      "amount_minor": 1800000,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 13,
+      "observation_id": 24,
+      "product_id": 8,
+      "role": "regular",
+      "amount_minor": 14199900,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 14,
+      "observation_id": 25,
+      "product_id": 9,
+      "role": "regular",
+      "amount_minor": 15999900,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 15,
+      "observation_id": 26,
+      "product_id": 10,
+      "role": "regular",
+      "amount_minor": 12099900,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 16,
+      "observation_id": 27,
+      "product_id": 8,
+      "role": "regular",
+      "amount_minor": 14199900,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 17,
+      "observation_id": 28,
+      "product_id": 9,
+      "role": "regular",
+      "amount_minor": 15999900,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 18,
+      "observation_id": 29,
+      "product_id": 10,
+      "role": "regular",
+      "amount_minor": 12099900,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    {
+      "id": 19,
+      "observation_id": 32,
+      "product_id": 13,
+      "role": "regular",
+      "amount_minor": 12099900,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    }
+  ],
+  "inbox": [
+    {
+      "id": 1,
+      "filename": "jarvis-eye-farpost-18bde9c4.json",
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T02:47:03.445+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 2,
+      "filename": "jarvis-eye-wb-199298871.json",
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T03:16:36.109+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 3,
+      "filename": "jarvis-eye-wb-1285331379.json",
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T03:19:56.125+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 4,
+      "filename": "jarvis-eye-wb-199298871-fc9444.json",
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T03:28:45.546+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 5,
+      "filename": "jarvis-eye-wb-314337853-053a89.json",
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T03:32:12.532+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 6,
+      "filename": null,
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T04:59:05.355+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 7,
+      "filename": null,
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T04:59:23.605+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 8,
+      "filename": null,
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T04:59:33.281+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 9,
+      "filename": null,
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T05:01:48.894+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 10,
+      "filename": null,
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T05:01:57.332+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 11,
+      "filename": null,
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T05:02:14.584+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 12,
+      "filename": null,
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T05:05:47.596+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    },
+    {
+      "id": 13,
+      "filename": null,
+      "origin": "COLLECTOR",
+      "received_at": "2026-11-11T05:09:29.822+00:00",
+      "status": "ACCEPTED",
+      "error_code": null
+    }
+  ],
+  "sources": [
+    {
+      "key": "ALIEXPRESS",
+      "name": "AliExpress",
+      "kind": "marketplace",
+      "collector": "NOT_IMPLEMENTED"
+    },
+    {
+      "key": "AVITO",
+      "name": "Авито",
+      "kind": "marketplace",
+      "collector": "NOT_IMPLEMENTED"
+    },
+    {
+      "key": "FARPOST",
+      "name": "Фарпост",
+      "kind": "marketplace",
+      "collector": "NOT_IMPLEMENTED"
+    },
+    {
+      "key": "MANUAL",
+      "name": "Вручную",
+      "kind": "manual",
+      "collector": "NOT_IMPLEMENTED"
+    },
+    {
+      "key": "OZON",
+      "name": "Ozon",
+      "kind": "marketplace",
+      "collector": "NOT_IMPLEMENTED"
+    },
+    {
+      "key": "WB",
+      "name": "Wildberries",
+      "kind": "marketplace",
+      "collector": "NOT_IMPLEMENTED"
+    }
+  ],
+  "dup_products": [],
+  "dup_obs": [],
+  "summary": {
+    "products": 13,
+    "observations": 32,
+    "price_points": 19,
+    "inbox_items": 13,
+    "dup_products": 0,
+    "dup_obs": 0
+  }
+}

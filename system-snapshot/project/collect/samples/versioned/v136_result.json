@@ -1,0 +1,27 @@
+{
+  "nm": 199298871,
+  "playwright": {
+    "price": null,
+    "title": "Что-то не так...",
+    "images": [],
+    "videos": [],
+    "html_size": 7590,
+    "xhr_count": 11,
+    "state_json": null
+  },
+  "api": {},
+  "xhr_endpoints": [
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token",
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/find-frontend-settings",
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token",
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token",
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token",
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/find-frontend-settings",
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token",
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/frontend-analytics",
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/find-frontend-settings",
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token",
+    "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/report"
+  ],
+  "total_time": 68.9
+}

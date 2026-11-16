@@ -1,0 +1,154 @@
+{
+  "steps": {
+    "html": {
+      "ok": true,
+      "bytes": 61923
+    },
+    "parse": {
+      "ok": true,
+      "elapsed": 0.004,
+      "title": "IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год",
+      "prices": 1,
+      "media_count": 4,
+      "availability": "IN_STOCK"
+    },
+    "wrapper": {
+      "ok": true,
+      "file": "C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\e2e-final-work\\intake_inbox\\jarvis-eye-farpost-a1f84272.json",
+      "size": 7821
+    },
+    "stage": {
+      "ok": true,
+      "status": "PENDING",
+      "created": true,
+      "item_id": 14,
+      "error_code": null,
+      "preview_title": "IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год"
+    },
+    "accept": {
+      "ok": true,
+      "status": "ACCEPTED",
+      "product_id": 13,
+      "observation_created": true,
+      "events": []
+    },
+    "sqlite_product": {
+      "ok": true,
+      "row": {
+        "id": 13,
+        "source": "FARPOST",
+        "listing_id": "29958239",
+        "title": "IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год",
+        "brand": "Apple iPhone",
+        "model": "Apple iPhone 18 Pro Max",
+        "origin": "REAL_USER_CAPTURED",
+        "last_regular_minor": 12099900,
+        "last_lowest_minor": 12099900,
+        "last_availability": "IN_STOCK",
+        "observation_count": 2
+      }
+    },
+    "sqlite_obs": {
+      "ok": true,
+      "count": 2,
+      "rows": [
+        {
+          "id": 33,
+          "product_id": 13,
+          "observed_at": "2026-11-12T12:10:23.208+00:00",
+          "origin": "EYE",
+          "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+          "availability": "IN_STOCK",
+          "fingerprint": "a76a49cd454e4d85b35d07cd209881b9096ebb9072b38bc3778f7d31e6663527"
+        },
+        {
+          "id": 32,
+          "product_id": 13,
+          "observed_at": "2026-11-12T12:01:42.091397+00:00",
+          "origin": "REAL_USER_CAPTURED",
+          "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+          "availability": "IN_STOCK",
+          "fingerprint": "692389e4d53a982938649c266b1379fd0f6791e5e42af5904c68e39bf2965493"
+        }
+      ]
+    },
+    "sqlite_prices": {
+      "ok": true,
+      "count": 2,
+      "rows": [
+        {
+          "role": "regular",
+          "amount_minor": 12099900,
+          "currency": "RUB",
+          "label": "data-bulletin-price"
+        },
+        {
+          "role": "regular",
+          "amount_minor": 12099900,
+          "currency": "RUB",
+          "label": "data-bulletin-price"
+        }
+      ]
+    },
+    "sqlite_gallery": {
+      "ok": true,
+      "count": 4
+    },
+    "dedup": {
+      "ok": true,
+      "created": false,
+      "status": "ACCEPTED"
+    }
+  },
+  "origin_check": {
+    "product_origin": "REAL_USER_CAPTURED",
+    "expected": "EYE",
+    "match": false
+  },
+  "all_ok": true,
+  "summary": {
+    "all_ok": true,
+    "product_id": 13,
+    "title": "IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год",
+    "price_lowest": 12099900,
+    "availability": "IN_STOCK",
+    "obs_count": 2,
+    "price_points": 2,
+    "gallery": 4,
+    "origin": "REAL_USER_CAPTURED"
+  },
+  "log": [
+    "[22:10:22] === ШАГ 1: Чтение HTML ===",
+    "[22:10:22] HTML: 61923 байт",
+    "[22:10:22] === ШАГ 2: Парсинг ===",
+    "[22:10:23] За 0.004s: title=IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гаранти... prices=1 media=4 avail=IN_STOCK",
+    "[22:10:23] === ШАГ 3: Обёртка в формат intake ===",
+    "[22:10:23] format=JARVIS_BR02_EYE_USER_CAPTURE",
+    "[22:10:23] capture_action=EXPLICIT_POPUP_CLICK",
+    "[22:10:23] fully_autonomous=False",
+    "[22:10:23] observation keys: ['fields', 'price_candidates', 'media', 'availability', 'category_path', 'source', 'id', 'listing_id', 'url', 'observed_at']...",
+    "[22:10:23] Файл: C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\e2e-final-work\\intake_inbox\\jarvis-eye-farpost-a1f84272.json (7821 байт)",
+    "[22:10:23] === ШАГ 4: Inbox.stage_bytes() ===",
+    "[22:10:23] stage_bytes: status=PENDING created=True id=14",
+    "[22:10:23]   error_code=None",
+    "[22:10:23]   preview={\"source\": \"FARPOST\", \"listing_id\": \"29958239\", \"url\": \"https://www.farpost.ru/vladivostok/tech/communication/cellphones/iphone-18-pro-max-256gb-trade-in-kredit-garantija-1-god-29958239.html\", \"title\"",
+    "[22:10:23] === ШАГ 5: Inbox.accept() ===",
+    "[22:10:23] accept: status=ACCEPTED product_id=13 obs_created=True",
+    "[22:10:23]   events=[]",
+    "[22:10:23] === ШАГ 6: Проверка SQLite ===",
+    "[22:10:23] Product #13: [FARPOST] 29958239 | IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год",
+    "[22:10:23]   price_lowest=12099900 avail=IN_STOCK obs_count=2",
+    "[22:10:23] Наблюдений товара: 2",
+    "[22:10:23]   obs#33 2026-11-12T12:10:23.208+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP IN_STOCK",
+    "[22:10:23]   obs#32 2026-11-12T12:01:42.091397+00:00 REAL_USER_CAPTURED COLLECTOR_AUTONOMOUS_HTTP IN_STOCK",
+    "[22:10:23] Точек цен: 2",
+    "[22:10:23]   regular 12099900 RUB data-bulletin-price",
+    "[22:10:23]   regular 12099900 RUB data-bulletin-price",
+    "[22:10:23] Галерея: 4 медиа",
+    "[22:10:23] Origin товара: REAL_USER_CAPTURED",
+    "[22:10:23] === ШАГ 7: Дедупликация ===",
+    "[22:10:23] Повторный stage: created=False status=ACCEPTED",
+    "[22:10:23] === ИТОГ ===",
+    "[22:10:23] {\n  \"all_ok\": true,\n  \"product_id\": 13,\n  \"title\": \"IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год\",\n  \"price_lowest\": 12099900,\n  \"availability\": \"IN_STOCK\",\n  \"obs_count\": 2,\n  \"price_points\": 2,\n  \"gallery\": 4,\n  \"origin\": \"REAL_USER_CAPTURED\"\n}"
+  ]
+}

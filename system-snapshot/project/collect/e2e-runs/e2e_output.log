@@ -1,0 +1,50 @@
+2026-11-11 18:22:10,353 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+
+============================================================
+TEST: FARPOST  ID=130693618
+============================================================
+URL: https://www.farpost.ru/bulletin/130693618
+2026-11-11 18:22:11,391 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+RESULT: None (2.2s)
+Stats: {'requests': 1, 'success': 0, 'failed': 1, 'blocked': 0}
+2026-11-11 18:22:12,575 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 18:22:12,717 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+
+============================================================
+TEST: WB  ID=199298871
+============================================================
+URL: https://www.wildberries.ru/catalog/199298871/detail.aspx
+2026-11-11 18:22:52,121 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-11 18:22:54,922 r52.collectors.wb INFO WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-11 18:22:57,274 r52.collectors.wb INFO WB 199298871: price card_v1 -> 403
+2026-11-11 18:22:59,402 r52.collectors.wb INFO WB 199298871: price card_v2 -> 403
+2026-11-11 18:23:02,552 r52.collectors.wb INFO WB 199298871: price card_v4 -> 403
+2026-11-11 18:23:05,614 r52.collectors.wb INFO WB 199298871: price card_v5 -> 403
+2026-11-11 18:23:08,355 r52.collectors.wb INFO WB 199298871: price web_api -> 498
+2026-11-11 18:23:08,355 r52.collectors.wb INFO WB 199298871: price — все эндпоинты не дали данных
+2026-11-11 18:23:23,244 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-11 18:23:23,244 r52.collectors.wb INFO WB 199298871: photo_count=6, found=1
+2026-11-11 18:23:23,244 r52.collectors.wb INFO WB 199298871: has_video=true, видео не найдено
+Status:       PARTIAL_SUCCESS
+Title:        Овсяный смарт коктейль для похудения без сахара
+Title method: CARD_JSON
+Prices (0):
+Media: 1 items (1 photos, 0 videos)
+  image: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg
+Availability: UNKNOWN
+Category:     Продукты > Коктейли злаковые
+Fields:       ['title', 'brand', 'model', 'description', 'category', 'options']
+  brand       : Родник Здоровья
+  model       : овсяный2
+  description : ОВСЯНЫЙ СМАРТ-КОКТЕЙЛЬ
+который придется по вкусу каждому человеку, который забот
+  options     : Вес с упаковкой (кг): 0.8 кг
+Ширина упаковки: 16 см
+Высота упаковки: 5 см
+Длина 
+Elapsed: 70.5s
+Stats:   {'requests': 20, 'success': 2, 'failed': 12, 'blocked': 6}
+
+============================================================
+DONE
+============================================================

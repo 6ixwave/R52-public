@@ -1,0 +1,61 @@
+﻿=== diag_v7n — 2026-11-14 13:03:56 ===
+python : 2026-11-14 13:03:56,355 INFO diag_v7n: Phase 0: Cooldown 300s (5 min)...
+строка:2 знак:1
++ python -u diag_v7n.py 2>&1 | Out-File -FilePath diag_v7n_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 13:0...300s (5 min)...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 13:08:56,356 INFO diag_v7n: Cooldown done: 13:08:56
+2026-11-14 13:08:56,356 INFO diag_v7n: ── [1] TMD solve (RU) ──
+2026-11-14 13:08:56,570 INFO diag_v7n:   TMD step1: GET https://ru.aliexpress.com/wholesale?SearchText=%D0%BD%D0%B0%D1%
+83%D1%88%D0%BD%D0
+2026-11-14 13:08:57,913 INFO diag_v7n:   TMD step1: HTTP 200, 1705B
+2026-11-14 13:08:57,913 INFO diag_v7n:   TMD: x5secdata=xfArxWtPw7GEyUA8azLEgOvqwwleYCf6mEt_xcea (len=677)
+2026-11-14 13:08:57,913 INFO diag_v7n:   TMD step2: GET https://ru.aliexpress.com//wholesale/_____tmd_____/punish?x5sec
+data=xfArxWtPw7GEyUA8azLEgOvqwwleYCf6
+2026-11-14 13:09:00,349 INFO diag_v7n:   TMD step2: HTTP 200, 84719B, Location=none
+2026-11-14 13:09:00,349 INFO diag_v7n:   TMD step2 Set-Cookie: 
+[REDACTED_AUTH_SECRET]
+2026-11-14 13:09:02,350 INFO diag_v7n:   TMD step3: re-fetch with solved cookies
+2026-11-14 13:09:03,875 INFO diag_v7n:   TMD step3: HTTP 200, 1705B
+2026-11-14 13:09:03,875 WARNING diag_v7n:   TMD: still 1705B — may need JS execution
+2026-11-14 13:09:03,876 INFO diag_v7n:   TMD result: ok=False, info=still_challenge_1705B
+2026-11-14 13:09:06,876 INFO diag_v7n: ── [2] RU p1 ──
+2026-11-14 13:09:08,304 INFO diag_v7n:   HTTP 200, 1705B, 1.4s
+2026-11-14 13:09:08,304 WARNING diag_v7n:   ⚠ RU p1 small (1705B) — still challenge
+2026-11-14 13:09:08,304 INFO diag_v7n:   First 200: <script>sessionStorage.x5referer = window.location.href;var url = w
+indow.location.protocol + "//ru.aliexpress.com//wholesale/_____tmd_____/punish?x5secdata=xfrLKSGYCxSNH2UDTpjYjkvqcufSye
+Nqzcr0AR3MmDcP
+2026-11-14 13:09:11,305 INFO diag_v7n: ── [3] RU p2 ──
+2026-11-14 13:09:12,543 INFO diag_v7n:   HTTP 200, 1705B, 1.2s
+2026-11-14 13:09:12,543 WARNING diag_v7n:   ⚠ RU p2 small (1705B)
+2026-11-14 13:09:12,543 INFO diag_v7n:   Pagination: P1=0, P2=0, overlap=0, new=0
+2026-11-14 13:09:12,543 WARNING diag_v7n:   ⚠ P2 empty
+2026-11-14 13:09:15,544 INFO diag_v7n: ── [4] COM p1 ──
+2026-11-14 13:09:15,544 INFO diag_v7n:   TMD step1: GET https://www.aliexpress.com/wholesale?SearchText=headphones&page
+=1&_lang=en_US&_c
+2026-11-14 13:09:17,067 INFO diag_v7n:   TMD step1: HTTP 200, 2137B
+2026-11-14 13:09:17,067 INFO diag_v7n:   TMD: x5secdata=xftz9pKbVfqGpUBPtRz2kvcdqIEVLbuPwKIbwen0 (len=892)
+2026-11-14 13:09:17,067 INFO diag_v7n:   TMD step2: GET https://www.aliexpress.com//wholesale/_____tmd_____/punish?x5se
+cdata=xftz9pKbVfqGpUBPtRz2kvcdqIEVLbu
+2026-11-14 13:09:18,400 INFO diag_v7n:   TMD step2: HTTP 200, 84722B, Location=none
+2026-11-14 13:09:18,400 INFO diag_v7n:   TMD step2 Set-Cookie: 
+[REDACTED_AUTH_SECRET]
+2026-11-14 13:09:20,401 INFO diag_v7n:   TMD step3: re-fetch with solved cookies
+2026-11-14 13:09:21,584 INFO diag_v7n:   TMD step3: HTTP 200, 2137B
+2026-11-14 13:09:21,584 WARNING diag_v7n:   TMD: still 2137B — may need JS execution
+2026-11-14 13:09:21,584 INFO diag_v7n:   COM TMD: ok=False, info=still_challenge_2137B
+2026-11-14 13:09:24,882 INFO diag_v7n:   HTTP 200, 2093B, 1.3s
+2026-11-14 13:09:24,883 WARNING diag_v7n:   ⚠ COM small (2093B)
+2026-11-14 13:09:24,883 INFO diag_v7n: ── [5] Summary ──
+2026-11-14 13:09:24,883 INFO diag_v7n:   RU: p1=0, p2=0, total=0
+2026-11-14 13:09:24,883 INFO diag_v7n:   COM: 0
+2026-11-14 13:09:24,883 INFO diag_v7n:   RU currencies: {}
+2026-11-14 13:09:24,883 INFO diag_v7n:   COM currencies: {}
+2026-11-14 13:09:24,883 INFO diag_v7n:   RU titles: IT=0, EN=0 / 0
+2026-11-14 13:09:24,883 INFO diag_v7n:   COM titles: IT=0, EN=0 / 0
+2026-11-14 13:09:24,883 INFO diag_v7n: ── [6] Intake structure ──
+=== DONE ===
+2026-11-14 13:09:24,883 INFO diag_v7n: diag_v7n complete
+EXIT=0

@@ -1,0 +1,24 @@
+﻿=== diag_multi16 START 16:57:36 ===
+[FP:1_id_138859452] FAIL | all urls failed for 138859452
+[FP:1_id_138952176] FAIL | all urls failed for 138952176
+[FP:2_full_extract] PASS | price=500 title=Вскрытие авто без ключа Открыть машину Вскрыть авт imgs=1 specs=2 desc=1272b
+[WB:1_sweep] FAIL | hosts 01-30 all 404/err
+[WB:2_v1_detail] FAIL | HTTP=403 len=0
+[WB:3_v2_detail] FAIL | HTTP=403
+[WB:4_basket_c] FAIL | c.json all 404
+[OZ:2_product] FAIL | price=None title= ptitle=Похоже, нет соединения len=3305
+[AV:1_mobile] FAIL | len=36443 offers=0 ptitle=Доступ ограничен: проблема с IP
+[AV:2_www] FAIL | len=36446 offers=0 ip_blocked=True ptitle=Доступ ограничен: проблема с IP
+
+=== SUMMARY (76.7s) ===
+  FAIL FP:1_id_138859452: all urls failed for 138859452
+  FAIL FP:1_id_138952176: all urls failed for 138952176
+  PASS FP:2_full_extract: price=500 title=Вскрытие авто без ключа Открыть машину Вскрыть авт imgs=1 specs=2 desc=1272b
+  FAIL WB:1_sweep: hosts 01-30 all 404/err
+  FAIL WB:2_v1_detail: HTTP=403 len=0
+  FAIL WB:3_v2_detail: HTTP=403
+  FAIL WB:4_basket_c: c.json all 404
+  FAIL OZ:2_product: price=None title= ptitle=Похоже, нет соединения len=3305
+  FAIL AV:1_mobile: len=36443 offers=0 ptitle=Доступ ограничен: проблема с IP
+  FAIL AV:2_www: len=36446 offers=0 ip_blocked=True ptitle=Доступ ограничен: проблема с IP
+EXIT=0

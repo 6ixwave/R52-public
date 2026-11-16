@@ -1,0 +1,33 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "OZON",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Похоже, нет соединения",
+        "method": "HTTP",
+        "evidence": {
+          "method": "HTTP",
+          "source": "OZON"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "",
+    "source": "OZON",
+    "id": "2984707012",
+    "url": "https://www.ozon.ru/product/2984707012/",
+    "observed_at": "2026-11-12T10:50:16.024109+10:00",
+    "status": "DEGRADED",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Диффузор для дома с палочками Шоколад и сливки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Permegi",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Диффузор для дома Permegi (Пермеджи) «Шоколад и сливки»: сладкая нега в каждом уголке\n\nИщете стильный домашний диффузор, который наполнит дом приятным ароматом? Ароматизатор для дома Permegi с палочками «Шоколад и сливки» — идеальное решение для создания обволакивающей атмосферы в гостиной, столовой или уютном кресле для чтения. Интерьерный аромадиффузор с ароматическими палочками раскрывает насыщенный гурманский аккорд. Наслаждайтесь ароматом без лишних усилий — достаточно периодически переворачивать палочки.\n\nЗакройте глаза и представьте: воскресное утро на залитой солнцем кухне, вы завариваете крепкий кофе — и вас встречает густой аромат растопленного темного шоколада, щедро разбавленного теплыми деревенскими сливками и щепоткой натуральной ванили. Он согревает душу, дарит чувство абсолютной безопасности и возвращает в беззаботное детство.\n\nПодарите себе моменты наслаждения — пусть каждый вечер будет таким же сладким, тягучим и нежным!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Декор интерьера > Парфюм для дома",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 178400,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "1784.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 136500,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1365.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-48.wbbasket.ru/vol15244/part1524406/1524406193/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-48.wbbasket.ru/vol15244/part1524406/1524406193/images/big/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-48.wbbasket.ru/vol15244/part1524406/1524406193/images/big/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-48.wbbasket.ru/vol15244/part1524406/1524406193/images/big/4.webp",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Декор интерьера > Парфюм для дома",
+    "source": "WB",
+    "id": "1524406193",
+    "url": "https://www.wildberries.ru/catalog/1524406193/detail.aspx",
+    "observed_at": "2026-11-16T05:55:12.545066+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

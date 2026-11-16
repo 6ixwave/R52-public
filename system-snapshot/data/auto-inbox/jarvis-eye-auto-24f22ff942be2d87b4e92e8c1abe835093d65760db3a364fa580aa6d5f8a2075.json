@@ -1,0 +1,41 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "AVITO",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Загрузите в AppGallery",
+        "method": "SEARCH_HTML",
+        "evidence": {
+          "method": "SEARCH_HTML",
+          "source": "AVITO"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://www.avito.st/static/ims/design-system-icons_expandmore_m_inline_v1_common.svg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "AVITO",
+    "id": "101350475",
+    "listing_id": "101350475",
+    "title": "Загрузите в AppGallery",
+    "url": "https://www.avito.ru/ad/101350475",
+    "observed_at": "2026-11-15T02:35:23.716497+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

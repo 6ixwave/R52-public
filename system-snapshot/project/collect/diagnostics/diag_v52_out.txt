@@ -1,0 +1,67 @@
+============================================================
+DIAG v52: AVITO  |  2026-11-11T07:39:43.841440
+============================================================
+
+--- A1: curl_cffi safari ---
+  safari id=1154321987: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False
+  safari id=1045236789: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False
+
+--- A2: curl_cffi chrome120 ---
+  chrome120 id=1154321987: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False
+
+--- A3: requests minimal headers ---
+  minimal id=1154321987: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False
+
+--- A4: requests with session (cookie jar) ---
+  Main page: HTTP 429, cookies=[REDACTED_AUTH_SECRET]
+    cookie: [REDACTED_AUTH_SECRET]
+    cookie: [REDACTED_AUTH_SECRET]
+  session id=1154321987: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False
+
+--- A5: m.avito.ru curl_cffi ---
+  m.avito id=1154321987: HTTP 404, len=18752
+    Title: Авито — Объявления на сайте Авито
+    CAPTCHA=False, JSON-LD=False
+  m.avito id=1045236789: HTTP 404, len=18752
+    Title: Авито — Объявления на сайте Авито
+    CAPTCHA=False, JSON-LD=False
+
+--- A6: HTTP/1.1 forced ---
+  h11 id=1154321987: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False
+
+--- A7: X-Real-IP local ---
+  xreal id=1154321987: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False
+
+--- A8: api.avito.ru ---
+  api id=1154321987 /ads/1154321987: HTTP 404, len=48
+  api id=1154321987 /v1/ads/1154321987: HTTP 404, len=48
+  api id=1154321987 /ads/1154321987/full: HTTP 404, len=48
+
+--- A9: Sec-Fetch headers ---
+  secfetch id=1154321987: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False
+
+AVITO RESULT: ok=True, ids=[]
+
+============================================================
+SUMMARY
+============================================================
+  AVITO: ok=True
+  DONE: 2026-11-11T07:40:31.949005
+
+Full log: 54 lines (via shell redirect)

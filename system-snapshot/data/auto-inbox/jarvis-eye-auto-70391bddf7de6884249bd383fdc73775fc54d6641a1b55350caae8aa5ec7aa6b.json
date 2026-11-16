@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Креатин моногидрат (Creatine monohydrate), порошок",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "PWR ultimate power",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Креатин моногидрат от бренда PWR ultimate power стимулирует рост мышц и способствует усилению энергии, необходим для достижения максимальных результатов в спорте.\nКреатин задерживает жидкость в саркоплазме, что придает объем мышцам и способствует безопасному набору мышечной массы.\nСпециально разработанная формула в сочетании с регулярными силовыми тренировками обеспечивает:\nповышение вашей работоспособности и выносливости;\nснижение времени восстановления после тренировок и интенсивных нагрузок;\nулучшение физической формы и достижение желаемых результатов в бодибилдинге и фитнесе.\nCreatine Monohydrate Powder без вкуса в удобной упаковке для мужчин и для женщин 300 грамм хватит на 60 порций, или 2 месяца.\nСухой порошок высокой концентрации лучше усваивается организмом и удобен в употреблении.\nЗдоровое спортивное тело вместе с PWR!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Спортивное питание и косметика > Креатины",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 1000000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "10000.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 320000,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "3200.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Спортивное питание и косметика > Креатины",
+    "source": "WB",
+    "id": "136906466",
+    "url": "https://www.wildberries.ru/catalog/136906466/detail.aspx",
+    "observed_at": "2026-11-16T17:36:27.315254+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

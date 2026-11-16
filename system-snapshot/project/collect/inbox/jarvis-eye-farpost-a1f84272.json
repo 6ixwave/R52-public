@@ -1,0 +1,198 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Смартфоны и сотовые телефоны. Цена: 120 999&#8381;. Apple iPhone 18 Pro Max. 256 Гб. 6.90&quot;. Моноблок. Синий. 3G, 4G LTE, 5G, Защищенный, NFC, eSIM. Новый. В наличии. УЧАСТНИКАМ СВО И ВЕТЕРАНАМ БОЕВЫХ ДЕЙСТВИЙ ОСОБЫЕ СКИДКИ! ИНВАЛИДАМ ОСОБЫЕ СКИДКИ! СКИДКА СЕМЬЯМ С 2 И БОЛЕЕ ДЕТЬМИ (Многодетным семьям) ! СКИДКА 1.000 рублей или бронепленка в подарок в День Рождения при покупке от 20.000р Выросло количество РЕФРЕШЕЙ и ПОДДЕЛОК!!! Покупайте только у проверенного продавца! Если вам нужна помощь в проверке телеф... Владивосток",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Техника > Телефоны и связь > Смартфоны и сотовые телефоны > Телефоны Apple iPhone",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Apple iPhone",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "Apple iPhone 18 Pro Max",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "РќР°Р»РёС‡РёРµ С‚РѕРІР°СЂР° РІРѕ Р’Р»Р°РґРёРІРѕСЃС‚РѕРєРµ",
+            "value": "Р’ РЅР°Р»РёС‡РёРё"
+          },
+          "model": {
+            "label": "РњРѕРґРµР»СЊ С‚РµР»РµС„РѕРЅР°",
+            "value": "Apple iPhone 18 Pro Max"
+          },
+          "internalMemory": {
+            "label": "Р’СЃС‚СЂРѕРµРЅРЅР°СЏ РїР°РјСЏС‚СЊ",
+            "value": "256 Р“Р±"
+          },
+          "diagonal": {
+            "label": "Р”РёР°РіРѕРЅР°Р»СЊ",
+            "value": "6.90&nbsp;РґСЋР№РјРѕРІ (18&nbsp;СЃРј)"
+          },
+          "formFactor": {
+            "label": "РўРёРї РєРѕСЂРїСѓСЃР°",
+            "value": "РњРѕРЅРѕР±Р»РѕРє"
+          },
+          "color": {
+            "label": "Р¦РІРµС‚",
+            "value": "РЎРёРЅРёР№"
+          },
+          "function": {
+            "label": "Р¤СѓРЅРєС†РёРё",
+            "value": "3G, 4G LTE, 5G, Р—Р°С‰РёС‰РµРЅРЅС‹Р№, NFC, eSIM"
+          },
+          "condition": {
+            "label": "РЎРѕСЃС‚РѕСЏРЅРёРµ С‚РѕРІР°СЂР°",
+            "value": "РќРѕРІС‹Р№"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller": {
+        "status": "KNOWN",
+        "value": "РўРµС…РЅРѕРЎРµС‚СЊ - Р¦РёС„СЂРѕРІРѕР№ Р”РёСЃРєР°СѓРЅС‚РµСЂ",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller_url": {
+        "status": "KNOWN",
+        "value": "https://www.farpost.ru/company/TehnoSet/",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "29958239",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 12099900,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "120999.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789089227938_bulletin",
+          "image_data": null,
+          "alt": "Apple iPhone 18 Pro Max. РќРѕРІС‹Р№, 256 Р“Р±, РЎРёРЅРёР№, 3G, 4G LTE, 5G, Р—Р°С‰РёС‰РµРЅРЅС‹Р№, NFC, eSIM С„РѕС‚Рѕ",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 985
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789089227927_bulletin",
+          "image_data": null,
+          "alt": "Apple iPhone 18 Pro Max. РќРѕРІС‹Р№, 256 Р“Р±, РЎРёРЅРёР№, 3G, 4G LTE, 5G, Р—Р°С‰РёС‰РµРЅРЅС‹Р№, NFC, eSIM С„РѕС‚Рѕ",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 1076
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789089228568_bulletin",
+          "image_data": null,
+          "alt": "Apple iPhone 18 Pro Max. РќРѕРІС‹Р№, 256 Р“Р±, РЎРёРЅРёР№, 3G, 4G LTE, 5G, Р—Р°С‰РёС‰РµРЅРЅС‹Р№, NFC, eSIM С„РѕС‚Рѕ",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 817
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789089243829_bulletin",
+          "image_data": null,
+          "alt": "Apple iPhone 18 Pro Max. РќРѕРІС‹Р№, 256 Р“Р±, РЎРёРЅРёР№, 3G, 4G LTE, 5G, Р—Р°С‰РёС‰РµРЅРЅС‹Р№, NFC, eSIM С„РѕС‚Рѕ",
+          "label": "",
+          "is_main": true,
+          "width": 1160,
+          "height": 819
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Техника > Телефоны и связь > Смартфоны и сотовые телефоны > Телефоны Apple iPhone",
+    "source": "FARPOST",
+    "id": "29958239",
+    "listing_id": "29958239",
+    "url": "https://www.farpost.ru/vladivostok/tech/communication/cellphones/iphone-18-pro-max-256gb-trade-in-kredit-garantija-1-god-29958239.html",
+    "observed_at": "2026-11-12T22:10:23.208096+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

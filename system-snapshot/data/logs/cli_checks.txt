@@ -1,0 +1,20 @@
+﻿========== STATUS ==========
+EXIT=0
+
+========== SCHEDULES (API) ==========
+NO RUNTIME
+
+========== EXPORT ==========
+EXIT=0
+
+========== BACKUP ==========
+EXIT=0
+
+========== BACKUPS LIST ==========
+EXIT=0
+
+========== DOCTOR ==========
+EXIT=0
+
+========== MIGRATE ==========
+EXIT=0

@@ -1,0 +1,43 @@
+{
+  "ozon_2198727557": {
+    "http": 403,
+    "bytes": 10133,
+    "final": "https://www.ozon.ru/product/2198727557/?__rr=1",
+    "note": "blocked"
+  },
+  "ozon_1162442743": {
+    "http": 403,
+    "bytes": 10221,
+    "final": "https://www.ozon.ru/product/1162442743/",
+    "note": "blocked"
+  },
+  "ozon_2652786521": {
+    "http": 403,
+    "bytes": 10301,
+    "final": "https://www.ozon.ru/product/2652786521/",
+    "note": "blocked"
+  },
+  "avito_1050000000": {
+    "http": 404,
+    "bytes": 29907,
+    "final": "https://www.avito.ru/ad/1050000000",
+    "body200": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>Ошибка 404. Страница не най"
+  },
+  "avito_1123456789": {
+    "http": 404,
+    "bytes": 29907,
+    "final": "https://www.avito.ru/ad/1123456789",
+    "body200": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>Ошибка 404. Страница не най"
+  },
+  "avito_1000000001": {
+    "http": 404,
+    "bytes": 29907,
+    "final": "https://www.avito.ru/ad/1000000001",
+    "body200": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>Ошибка 404. Страница не най"
+  },
+  "fp_search": {
+    "http": 404,
+    "ids": []
+  },
+  "wb_error": "Expecting value: line 1 column 1 (char 0)"
+}

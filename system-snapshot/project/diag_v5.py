@@ -1,0 +1,270 @@
+"""Диагностика v5: in-process, весь вывод в файл, BaseException, тайминги."""
+import json, os, sqlite3, subprocess, sys, time, traceback, urllib.request
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+OUT = ROOT / "diag_v5_report.txt"
+HOME = Path(os.environ.get("R52_HOME", Path(os.environ.get("LOCALAPPDATA", "")) / "R52"))
+DB = HOME / "data" / "r52.sqlite3"
+RUN_DIR = HOME / "run"
+LOGS_DIR = HOME / "logs"
+PORT = 8423
+
+lines = []
+def log(msg=""):
+    lines.append(msg)
+    print(msg, flush=True)
+
+def check(name, ok, detail=""):
+    s = "PASS" if ok else "FAIL"
+    log(f"[{s}] {name}" + (f" — {detail}" if detail else ""))
+    return ok
+
+# ═══ Подготовка ═══
+t0 = time.time()
+log(f"=== R-52 DIAG V5 — {time.strftime('%H:%M:%S')} ===")
+log(f"ROOT={ROOT}")
+log(f"HOME={HOME}")
+log(f"DB={DB} exists={DB.exists()}")
+log(f"Python={sys.version}")
+
+sys.path.insert(0, str(ROOT))
+os.environ["R52_HOME"] = str(HOME)
+
+# Lock cleanup
+for lp in [HOME / "data" / "core.lock", RUN_DIR / "core.lock"]:
+    if lp.exists():
+        lp.unlink()
+        log(f"  Lock removed: {lp}")
+
+# WAL
+if DB.exists():
+    c = sqlite3.connect(str(DB))
+    c.execute("PRAGMA wal_checkpoint(TRUNCATE);")
+    c.close()
+    log("  WAL checkpoint OK")
+
+# core.log size before
+core_log = LOGS_DIR / "core.log"
+log_before = core_log.stat().st_size if core_log.exists() else 0
+
+app = None
+port_actual = PORT
+
+try:
+    # 1. Config
+    log(f"\n[1] load_config... t={time.time()-t0:.1f}s")
+    from r52.config import load_config
+    config = load_config()
+    log(f"    port={config.api_port}, home={config.paths.home}, tz={config.timezone}")
+    log(f"    intake_folders={config.intake_folders}")
+
+    # 2. Logging
+    log(f"\n[2] setup_logging... t={time.time()-t0:.1f}s")
+    from r52.log import setup_logging
+    setup_logging(config.paths.logs_dir, "DEBUG", console=True)
+    log("    OK")
+
+    # 3. App
+    log(f"\n[3] App(config)... t={time.time()-t0:.1f}s")
+    from r52.service import App
+    app = App(config)
+    log(f"    instance={app.instance[:12]}")
+
+    # 4. open
+    log(f"\n[4] app.open()... t={time.time()-t0:.1f}s")
+    app.open()
+    log(f"    opened. db={app.paths.db_file}")
+
+    # 5. start
+    log(f"\n[5] app.start(port={PORT})... t={time.time()-t0:.1f}s")
+    app.start(port=PORT)
+    port_actual = app.port
+    log(f"    started. actual_port={port_actual}")
+
+    # 6. Wait + HTTP
+    log(f"\n[6] HTTP check... t={time.time()-t0:.1f}s")
+    time.sleep(2)
+    req = urllib.request.urlopen(f"http://127.0.0.1:{port_actual}/api/status", timeout=5)
+    status = json.loads(req.read())
+    log(f"    status={json.dumps(status, ensure_ascii=False)[:200]}")
+    check("Ядро запущено", True, f"port={port_actual}, ver={status.get('version','?')}")
+
+except BaseException as e:
+    log(f"\n[EXCEPTION] {type(e).__name__}: {e}")
+    log(traceback.format_exc())
+    check("Ядро запущено", False, f"{type(e).__name__}: {e}")
+
+    # Core.log tail
+    if core_log.exists():
+        with open(core_log, "r", encoding="utf-8", errors="replace") as f:
+            f.seek(log_before)
+            tail = f.read()
+        log(f"\n--- core.log (new, {len(tail)}B) ---")
+        log(tail[-2000:])
+
+    log(f"\nИТОГ (early): {sum(1 for l in lines if '[PASS]' in l)} PASS / {sum(1 for l in lines if '[FAIL]' in l)} FAIL")
+    with open(OUT, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    sys.exit(1)
+
+# ═══ UI ═══
+log(f"\n[7] UI... t={time.time()-t0:.1f}s")
+try:
+    req = urllib.request.urlopen(f"http://127.0.0.1:{port_actual}/", timeout=5)
+    html = req.read().decode("utf-8", errors="replace")
+    check("UI HTML", "<!DOCTYPE" in html or "<html" in html.lower(), f"len={len(html)}B")
+except Exception as e:
+    check("UI HTML", False, str(e))
+
+try:
+    req = urllib.request.urlopen(f"http://127.0.0.1:{port_actual}/api/products", timeout=5)
+    prods = json.loads(req.read())
+    pc = len(prods) if isinstance(prods, list) else "?"
+    check("API /api/products", True, f"count={pc}")
+except Exception as e:
+    check("API /api/products", False, str(e))
+
+try:
+    req = urllib.request.urlopen(f"http://127.0.0.1:{port_actual}/api/inbox", timeout=5)
+    inbox = json.loads(req.read())
+    ic = len(inbox) if isinstance(inbox, list) else "?"
+    check("API /api/inbox", True, f"items={ic}")
+except Exception as e:
+    check("API /api/inbox", False, str(e))
+
+# Edge
+edge = Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
+if edge.exists():
+    subprocess.Popen([str(edge), f"http://127.0.0.1:{port_actual}/"], creationflags=0x00000008)
+    check("Edge → UI", True, f"http://127.0.0.1:{port_actual}/")
+    time.sleep(2)
+else:
+    check("Edge → UI", False, "msedge.exe not found")
+
+# ═══ Scheduler ═══
+log(f"\n[8] Scheduler... t={time.time()-t0:.1f}s")
+try:
+    req = urllib.request.urlopen(f"http://127.0.0.1:{port_actual}/api/schedules", timeout=5)
+    scheds = json.loads(req.read())
+    sl = scheds if isinstance(scheds, list) else scheds.get("schedules", [])
+    check("Schedules", True, f"count={len(sl)}")
+    for s in sl[:5]:
+        log(f"    {s.get('key','?')}: rule={s.get('rule','?')}, enabled={s.get('enabled','?')}, next={s.get('next_due_at','?')}")
+except Exception as e:
+    check("Schedules", False, str(e))
+
+try:
+    req = urllib.request.urlopen(f"http://127.0.0.1:{port_actual}/api/tasks?limit=10", timeout=5)
+    tasks = json.loads(req.read())
+    tl = tasks if isinstance(tasks, list) else tasks.get("tasks", [])
+    check("Tasks", True, f"recent={len(tl)}")
+    for t in tl[:5]:
+        log(f"    {str(t.get('id','?'))[:12]}: {t.get('kind','?')} → {t.get('status','?')}")
+except Exception as e:
+    check("Tasks", False, str(e))
+
+# ═══ Export ═══
+log(f"\n[9] Export... t={time.time()-t0:.1f}s")
+export_out = ROOT / "diag_v5_export.csv"
+if export_out.exists():
+    export_out.unlink()
+try:
+    env = os.environ.copy()
+    env["R52_HOME"] = str(HOME)
+    r = subprocess.run(
+        [sys.executable, "-m", "r52.cli", "export", "--format", "csv", "--out", str(export_out)],
+        cwd=str(ROOT), env=env, capture_output=True, text=True,
+        encoding="utf-8", errors="replace", timeout=30,
+    )
+    ok = r.returncode == 0 and export_out.exists()
+    sz = export_out.stat().st_size if export_out.exists() else 0
+    d = f"exit={r.returncode}, size={sz}B"
+    if not ok:
+        d += f" | out={(r.stdout or '')[-150:]} | err={(r.stderr or '')[-150:]}"
+    check("Export CSV", ok, d)
+except Exception as e:
+    check("Export CSV", False, str(e))
+
+# ═══ Backup / Restore ═══
+log(f"\n[10] Backup/Restore... t={time.time()-t0:.1f}s")
+backup_dir = HOME / "backups"
+backup_dir.mkdir(parents=True, exist_ok=True)
+
+try:
+    env = os.environ.copy()
+    env["R52_HOME"] = str(HOME)
+    r = subprocess.run(
+        [sys.executable, "-m", "r52.cli", "backup"],
+        cwd=str(ROOT), env=env, capture_output=True, text=True,
+        encoding="utf-8", errors="replace", timeout=30,
+    )
+    d = f"exit={r.returncode}"
+    d += f" | {(r.stdout or '').strip()[-120:]}" if r.returncode == 0 else f" | {(r.stderr or '')[-120:]}"
+    check("Backup", r.returncode == 0, d)
+except Exception as e:
+    check("Backup", False, str(e))
+
+backups = sorted(backup_dir.glob("*.sqlite3"), key=lambda p: p.stat().st_mtime, reverse=True)
+if backups:
+    latest = backups[0]
+    log(f"    Backup: {latest.name} ({latest.stat().st_size}B)")
+    try:
+        env = os.environ.copy()
+        env["R52_HOME"] = str(HOME)
+        r = subprocess.run(
+            [sys.executable, "-m", "r52.cli", "restore", "--from", str(latest)],
+            cwd=str(ROOT), env=env, capture_output=True, text=True,
+            encoding="utf-8", errors="replace", timeout=30,
+        )
+        d = f"exit={r.returncode}"
+        d += f" | {(r.stdout or '').strip()[-120:]}" if r.returncode == 0 else f" | {(r.stderr or '')[-120:]}"
+        check("Restore", r.returncode == 0, d)
+    except Exception as e:
+        check("Restore", False, str(e))
+else:
+    check("Restore", False, "no backups")
+
+# DB after restore
+try:
+    c2 = sqlite3.connect(str(DB))
+    c2.row_factory = sqlite3.Row
+    t2 = {r[0] for r in c2.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'")}
+    p2 = c2.execute("SELECT COUNT(*) as c FROM product").fetchone()["c"]
+    o2 = c2.execute("SELECT COUNT(*) as c FROM observation").fetchone()["c"]
+    check("DB after restore", len(t2) >= 20, f"tables={len(t2)}, prod={p2}, obs={o2}")
+    c2.close()
+except Exception as e:
+    check("DB after restore", False, str(e))
+
+# ═══ Итог ═══
+log(f"\n{'='*55}")
+p = sum(1 for l in lines if "[PASS]" in l)
+f = sum(1 for l in lines if "[FAIL]" in l)
+log(f"ИТОГ: {p} PASS / {f} FAIL | total_time={time.time()-t0:.1f}s")
+for l in lines:
+    if "[PASS]" in l or "[FAIL]" in l:
+        log(f"  {l}")
+
+# Core.log tail (final)
+if core_log.exists():
+    with open(core_log, "r", encoding="utf-8", errors="replace") as f:
+        f.seek(log_before)
+        tail = f.read()
+    log(f"\n--- core.log tail ({len(tail)}B) ---")
+    log(tail[-1500:])
+
+# Stop
+log("\nStopping core...")
+try:
+    app.stop()
+    log("  stopped OK")
+except Exception as e:
+    log(f"  stop error: {e}")
+
+log(f"\nDONE. t={time.time()-t0:.1f}s")
+
+# Write report
+with open(OUT, "w", encoding="utf-8") as f:
+    f.write("\n".join(lines))
+log(f"Report: {OUT}")

@@ -1,0 +1,47 @@
+=== WB CARD.JSON FULL DUMP ===
+URL: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/info/ru/card.json
+Status: 200, Size: 9623B
+
+Total keys: 24
+ALL KEYS: ['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'options', 'compositions', 'certificate', 'colors', 'contents', 'full_colors', 'selling', 'media', 'data', 'grouped_options', 'need_kiz', 'has_tnvd_okpd', 'user_flags', 'properties', 'update_date', 'create_date']
+
+  imt_id: 158033827
+  nm_id: 199298871
+  imt_name: 'Овсяный смарт коктейль для похудения без сахара'
+  slug: 'ovsyanyj-smart-koktejl-dlya-pokhudeniya-bez-sakhara'
+  subj_name: 'Коктейли злаковые'
+  subj_root_name: 'Продукты'
+  vendor_code: 'овсяный2'
+  description: 'ОВСЯНЫЙ СМАРТ-КОКТЕЙЛЬ\nкоторый придется по вкусу каждому человеку, который заботится о своем здоровье\n\nДля производс
+  options (list, len=18): [{"name": "Вес с упаковкой (кг)", "value": "[REDACTED_AUTH_SECRET]", "charc_type": 4}, {"name": "Ширина упаковки", "value": "[REDACTED_AUTH_SECRET]"}, {"name": "Высота упаковки", "value": "[REDACTED_AUTH_SECRET]"}, {"name": "Длина упаковки", "value": 
+  compositions (list, len=1): [{"name": "дигидрокверцетин, стевия, пшеничные отруби, арабиногалактан, амарант, зерно овса цельное"}]
+  certificate (dict, len=1): {"verified": true}
+  colors (list, len=7): [173121919, 173036660, 199298871, 199298870, 308060721, 308060716, 201304460]
+  contents: 'овсяный коктейль; Коктейль для похудения; Питательный коктейль'
+  full_colors (list, len=7): [{"nm_id": 173121919}, {"nm_id": 173036660}, {"nm_id": 199298871}, {"nm_id": 199298870}, {"nm_id": 308060721}, {"nm_id": 308060716}, {"nm_id": 201304460}]
+  selling (dict, len=4): {"brand_name": "Родник Здоровья", "brand_hash": "287D12FB814E0535", "supplier_id": 1302193, "no_return_map": 8191}
+  media (dict, len=2): {"has_video": true, "photo_count": 6}
+  data (dict, len=4): {"subject_id": 5237, "subject_root_id": 3109, "chrt_ids": [322571081], "tech_size": "0"}
+  grouped_options (list, len=4): [{"group_name": "Основная информация", "options": [{"name": "Состав", "value": "[REDACTED_AUTH_SECRET]", "charc_type": 1}]}, {"group_n
+  need_kiz: False
+  has_tnvd_okpd: True
+  user_flags: 0
+  properties: 0
+  update_date: '2026-10-20T23:43:38.802977Z'
+  create_date: '2024-01-04T23:09:59.96323Z'
+
+--- PRICE SEARCH ---
+
+--- OPTIONS (18 items) ---
+  [0]: {"name": "Вес с упаковкой (кг)", "value": "[REDACTED_AUTH_SECRET]", "charc_type": 4}
+  [1]: {"name": "Ширина упаковки", "value": "[REDACTED_AUTH_SECRET]"}
+  [2]: {"name": "Высота упаковки", "value": "[REDACTED_AUTH_SECRET]"}
+  [3]: {"name": "Длина упаковки", "value": "[REDACTED_AUTH_SECRET]"}
+  [4]: {"name": "Состав", "value": "[REDACTED_AUTH_SECRET]", "charc_type": 1}
+
+--- SELLING ---
+  {"brand_name": "Родник Здоровья", "brand_hash": "287D12FB814E0535", "supplier_id": 1302193, "no_return_map": 8191}
+
+Saved to wb_card_full.json
+
+=== DONE ===

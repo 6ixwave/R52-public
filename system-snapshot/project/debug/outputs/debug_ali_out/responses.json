@@ -1,0 +1,562 @@
+[
+  {
+    "url": "https://www.aliexpress.com/item/1005013496905897.html",
+    "status": 302
+  },
+  {
+    "url": "https://it.aliexpress.com/item/1005013496905897.html?gatewayAdapt=glo2ita",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/css/index.css",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/index.css",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/lzd_sec/LWSC-G/index.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/global/0.0.3/index.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/index.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/page-header-ui/0.0.97/css/index.css",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/code/npm/@alife/nano-cross-page-loader/0.0.53/_cross_page_loader_.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/alilog/??aplus_plugin_aefront/index.js,mlog/aplus_v2.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/page-header-ui/0.0.97/js/index.js",
+    "status": 200,
+    "body_len": 285736,
+    "body_preview": ".comet-v2-fade-appear,.comet-v2-fade-enter,.comet-v2-fade-exit{-webkit-animation-duration:.2s;animation-duration:.2s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-play-state:paused;animation-play-state:paused}.comet-v2-fade-appear.comet-v2-fade-appear-active,.comet-v2-fade-enter.comet-v2-fade-enter-active{-webkit-animation-name:cometFadeIn;animation-name:cometFadeIn;-webkit-animation-play-state:running;animation-play-state:running}.comet-v2-fade-exit.comet-v2-fade-e"
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/js/index.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/login-channel-update.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/login-join-verify-check.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/lzd_sec/epssw/0.0.66/epssw.js",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_220x220q75.jpg_.avif",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg_220x220q75.jpg_.avif",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg_220x220q75.jpg_.avif",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg_220x220q75.jpg_.avif",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg_220x220q75.jpg_.avif",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg_220x220q75.jpeg_.avif",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg_220x220q75.jpg_.avif",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg_220x220q75.jpg_.avif",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_960x960q75.jpg_.avif",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/static-ui/tt-norms-pro/Bold.woff2",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/static-ui/tt-norms-pro/Normal.woff2",
+    "status": 200,
+    "body_len": 1307571,
+    "body_preview": "(function(){var __webpack_modules__={94411:function(e,t,n){\"use strict\";n.d(t,{Z:function(){return h}});var r=n(4942),o=n(45987),i=n(87363),a=n.n(i),c=\"\\n.comet-icon {\\n  display: inline-block;\\n  color: inherit;\\n  font-style: normal;\\n  line-height: 0;\\n  text-align: center;\\n  text-transform: none;\\n  vertical-align: -0.125em;\\n  text-rendering: optimizeLegibility;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n}\\n\\n.comet-icon * {\\n  line-height: 1;\\n}\\n\\n.co"
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/static-ui/open-sans/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sb900db0ad7604a83b297a51d9222905bm/624x160.png",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sd009085ccf48438b9b54a63259a3936bf/48x48.png",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/S8d121267bdda479fb5c0b40cdfde3d94r.png",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/static-ui/tt-norms-pro/Medium.woff2",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+    "status": 200
+  },
+  {
+    "url": "https://ae-pic-a1.aliexpress-media.com/kf/Saac98d6e0eb1476ca25ec46a6265fc452/150x150.gif",
+    "status": 200
+  },
+  {
+    "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/loader~login.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/loader.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/gdpr.css",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/comet-pro-shipto-bLCM2~login~ship-to-setting.css",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/comet-pro-shipto-bLCM2~maddress~ship-to-setting.css",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/comet-pro-shipto-bLCM2~ship-to-setting.css",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/ship-to-setting.css",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/alilog/??s/8.15.25/plugin/aplus_client.js,aplus_cplugin/0.7.12/toolkit.js,aplus_cplugin/0.7.12/monitor.js,s/8.15.25/plugin/aplus_ae.js,s/8.15.25/plugin/aplus_ac.js,s/8.15.25/aplus_std.js,s/8.15.25/plugin/aplus_spmact.js,aplus_plugin_ae/0.0.9/index.js?v=20260728193427",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/gep-sdk.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/gdpr.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/0.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/comet-pro-shipto-bLCM2~login~ship-to-setting.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/comet-pro-shipto-bLCM2~maddress~ship-to-setting.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/ship-to-setting.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/local-data.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/comet-pro-shipto-bLCM2~ship-to-setting.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/referral-insights.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/pop-layer.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/pop-layer~service-E5p6Y.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/AWSC/AWSC/awsc.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/AWSC/et/1.83.41/et_f.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/a227ca/61F4nKXFqoL/0.0.4/a4cff78229e56fde5f28d1999679a1d1.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/AWSC/uab/1.140.1/collina.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/a227ca/61F4nKXFqoL/0.0.4/f4e643dc9d425543fc645b3a01b9e0fa.js",
+    "status": 200
+  },
+  {
+    "url": "https://o.alicdn.com/gcom/ug-member-config/config.json",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/gcom/ug-comp-assets/1.1.80/batman.css",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/gcom/ug-comp-assets/1.1.80/batman.js",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/ae.pc_ctr.statweb_ae_ctr",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/ae.pc_ctr.statweb_ae_ctr",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/ae.pc_ctr.statweb_ae_ctr",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/ae.pc_ctr.statweb_ae_ctr",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/ae.pc_click.statweb_ae_click",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/ae.pc_click.statweb_ae_click",
+    "status": 200
+  },
+  {
+    "url": "https://us.ynuf.aliapp.org/service/um.json",
+    "status": 200
+  },
+  {
+    "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794512168201&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&timeout=15000&dataType=originaljsonp&callback=mtopjsonp1&data=%7B%22productId%22%3A%22100501349690",
+    "status": 200,
+    "body_len": 543,
+    "body_preview": "mtopjsonp1({\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xgd4993f1f7409c9d4kjcbcd1a3d1cccd4c64a0e565b4c5f3b3e1794512170a-1168960602a-1317347523abaxc3eajrecaptcha33b0f080c0a945e2464f83191752a59e98e__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}},\"dialo"
+  },
+  {
+    "url": "https://aplus.aliexpress.com/aes.1.1",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/ae.exp.aeia_wv_page_exposure",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/aes.1.1",
+    "status": 200
+  },
+  {
+    "url": "https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xgd4993f1f7409c9d4kjcbcd1a3d1cccd4c64a0e565b4c5f3b3e1794512170a-1168960602a-1317347523abaxc3eajrecaptcha33b0f080c0a945e2464f83191752a59e98e__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x",
+    "status": 200,
+    "body_len": 5674,
+    "body_preview": "\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <script charset=\"utf-8\" src=\"//g.alicdn.com/mtb/lib-windvane/3.0.6/windvane.js\" crossorigin></script>\r\n    <script charset=\"utf-8\" async\r\n        src=\"//g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/htmltocanvas.min.js\"\r\n        crossorigin></script>\r\n    <script src=\"//g.alicdn.com/code/lib/qrcodejs/1.0.0/q"
+  },
+  {
+    "url": "https://g.alicdn.com/mtb/lib-windvane/3.0.6/windvane.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/code/lib/qrcodejs/1.0.0/qrcode.min.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/sd/sufei-utils/0.0.3/sufeiUtils.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/htmltocanvas.min.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/alilog/mlog/aplus_v2.js",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/aes.1.1",
+    "status": 200
+  },
+  {
+    "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xgd4993f1f7409c9d4kjcbcd1a3d1cccd4c64a0e565b4c5f3b3e1794512170a-1168960602a-1317347523abaxc3eajrecaptcha33b0f080c0a945e2464f83191752a59e98e__bx__acs.aliexpress.com:443/h5/mtop.",
+    "status": 200,
+    "body_len": 6971,
+    "body_preview": "\r\n<html><head><meta charset=UTF-8><meta content=width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no name=viewport><style>.container{width:304px;margin:1%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.logo{width:50%;transform:translate(50%)}.loading{border:5px solid #f3f3f3;border-top:5px solid #555;border-radius:50%;width:40px;height:40px;-webkit-animation:rotate 1s linear infinite;animation:rotate 1s linear infinite}@-webkit-keyframes r"
+  },
+  {
+    "url": "https://s.alicdn.com/@img/imgextra/i4/O1CN017al83Q1Eb36uTislt_!!6000000000369-2-tps-270-270.png",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/recaptcha/enterprise.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/??mtb/lib-flexible/0.3.2/flexible.js,mtb/lib-windvane/3.0.6/windvane.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/lzd_sec/LWSC-G/index.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/alilog/mlog/aplus_v2.js",
+    "status": 200
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__it.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/lzd_sec/epssw/0.0.66/epssw.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/??bsop-static/sufei-punish/0.1.65/build/htmltocanvas.min.js,sd/sufei-utils/0.0.3/sufeiUtils.js",
+    "status": 200
+  },
+  {
+    "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+    "status": 200
+  },
+  {
+    "url": "https://33amdn.tdum.alibaba.com/dss.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/trace/trace/1.3.22/??sdk.js,resourceError-plugin.js,perf-plugin.js",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LcsZOwpAAAAAFfDsdu7pUv7GeN-Asc1Lzeo5LYP&co=aHR0cHM6Ly9hY3MuYWxpZXhwcmVzcy5jb206NDQz&hl=it&v=0lEGiwO4Qwx5R9ArxUy0mBpf&size=normal&sa=AT%2F_3qcHtFNSLGIP2aujowWb0MfShHYrzuzdK1UhPMCz&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=67kj1oxucw64",
+    "status": 200
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/styles__ltr.css",
+    "status": 200
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__it.js",
+    "status": 200
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+    "status": 200
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=it&v=0lEGiwO4Qwx5R9ArxUy0mBpf",
+    "status": 200
+  },
+  {
+    "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1920x1080&_p_url=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxgd4993f1f7409c9d4kjcbcd1a3d1cccd4c64a0e565b4c5f3b3e1794512170a-1168960602a-1",
+    "status": 200
+  },
+  {
+    "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxgd4993f1f7409c9d4kjcbcd1a3d1cccd4c64a0e565b4c5f3b3e1794512170a-1168960602a-1317347523abaxc3eajrecaptcha33b0f080c0a945e2464f83191752a",
+    "status": 200
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__it.js",
+    "status": 200
+  },
+  {
+    "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&uuid=cbcd1a3d1cccd4c64a0e565b4c5f3b3e&x5secdata=xgd4993f1f7409c9d4kjcbcd1a3d1cccd4c64a0e565b4c5f3b3e1794512170a-1168960602a-",
+    "status": 200
+  },
+  {
+    "url": "https://epss.alibaba-inc.com/report/web-e?host=acs.aliexpress.com&jf=recaptcha&cv=mm&jv=1&m=init@cbcd1a3d1cccd4c64a0e565b4c5f3b3e",
+    "status": 200
+  },
+  {
+    "url": "https://epss.alibaba-inc.com/report/web-e?host=acs.aliexpress.com&jf=recaptcha&cv=mm&jv=1&m=loaded@cbcd1a3d1cccd4c64a0e565b4c5f3b3e",
+    "status": 200,
+    "body_len": 85,
+    "body_preview": "{\"code\":0,\"dt\":\"success\",\"ec\":200,\"result\":{\"code\":0,\"sig\":\"from bx\"},\"success\":true}"
+  },
+  {
+    "url": "https://www.google.com/recaptcha/enterprise/bframe?hl=it&v=0lEGiwO4Qwx5R9ArxUy0mBpf&k=6LcsZOwpAAAAAFfDsdu7pUv7GeN-Asc1Lzeo5LYP&bft=0dAFcWeA6X6RdM6qSi3eu2kzdCWEOhxFr8MFzjuHnvSRr_9jGfG39njXmTXFHVuvuBbCxJvXuN4wHLtEQZxMuROP5eiK3jDZeMzA",
+    "status": 200
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/styles__ltr.css",
+    "status": 200
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__it.js",
+    "status": 200
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/webpush-ui.css",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/webpush-ui.js",
+    "status": 200
+  },
+  {
+    "url": "https://it.aliexpress.com/wp.html",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/gfe-ug/web-push-client2/0.0.9/iframeRecorder.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/alilog/mlog/aplus_v2.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/alilog/??s/8.15.25/plugin/aplus_client.js,aplus_cplugin/0.7.12/toolkit.js,aplus_cplugin/0.7.12/monitor.js,s/8.15.25/aplus_std.js,s/8.15.25/plugin/aplus_spmact.js?v=20260728193427",
+    "status": 200
+  },
+  {
+    "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxgd4993f1f7409c9d4kjcbcd1a3d1cccd4c64a0e565b4c5f3b3e1794512170a-1168960602a-1317347523abaxc3",
+    "status": 200
+  },
+  {
+    "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxgd4993f1f7409c9d4kjcbcd1a3d1cccd4c64a0e565b4c5f3b3e1794512170a-1168960602a-1317347523abax",
+    "status": 200
+  },
+  {
+    "url": "https://o.alicdn.com/baxia/baxia-entry-gray/index.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/AWSC/AWSC/awsc.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/sd/baxia/2.5.37/baxiaCommon.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/AWSC/et/1.83.41/et_f.js",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/ae.pc_click.statweb_ae_click",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/g.gif?logtype=0&title=WebPush%20Permission&pre=https%3A%2F%2Fit.aliexpress.com%2Fitem%2F1005013496905897.html%3FgatewayAdapt%3Dglo2ita&scr=1920x1080&_p_url=https%3A%2F%2Fit.aliexpress.com%2Fwp.html&cna=[REDACTED_AUTH_SECRET]&spm-cnt=0.0.0.0.6a045f8dLDke1I&category=&apl",
+    "status": 200
+  },
+  {
+    "url": "https://o.alicdn.com/baxia/baxia-entry-gray/index.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/AWSC/AWSC/awsc.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/AWSC/et/1.83.41/et_f.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/sd/baxia/2.5.37/baxiaCommon.js",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/aes.1.1",
+    "status": 200
+  },
+  {
+    "url": "https://s-gm.mmstat.com/arms.1.1",
+    "status": 200
+  },
+  {
+    "url": "https://o.alicdn.com/baxia/baxia-entry-gray/index.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/AWSC/AWSC/awsc.js",
+    "status": 200
+  },
+  {
+    "url": "https://g.alicdn.com/sd/baxia/2.5.37/baxiaCommon.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.aliexpress-media.com/g/AWSC/et/1.83.41/et_f.js",
+    "status": 200
+  },
+  {
+    "url": "https://s-gm.mmstat.com/arms.1.2",
+    "status": 200
+  },
+  {
+    "url": "https://o.alicdn.com/baxia/baxia-entry-gray/index.js",
+    "status": 200
+  },
+  {
+    "url": "https://assets.alicdn.com/g/sd/baxia/2.5.37/baxiaCommon.js",
+    "status": 200
+  },
+  {
+    "url": "https://aplus.aliexpress.com/aes.1.1",
+    "status": 200
+  }
+]

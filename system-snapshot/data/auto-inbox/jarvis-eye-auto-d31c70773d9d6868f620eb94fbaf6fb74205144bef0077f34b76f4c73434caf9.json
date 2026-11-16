@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Фиксирующий гель для бровей PUSY Lamination, 5 мл",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "PUSY",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Фиксирующий гель для бровей Lamination — эффект ламинирования в удобном формате на каждый день. Когда нужно уложить брови один раз и больше к ним не возвращаться.\n\nГель Ламинейшн прижимает волоски и задаёт направление, помогая собрать форму и сохранить аккуратный результат без салонных процедур. \nЭкстра-стойкость до 48 часов делает его надёжным выбором для длинных дней и активных планов.\n\nМиниатюрная щёточка с коротким упругим ворсом позволяет точно контролировать укладку — от естественной формы до более графичного результата. Формула геля для бровей Пуси быстро схватывается, не склеивает волоски и не оставляет белого налёта.\n\nВ составе — полимеры для стойкости и глицерин, который помогает сохранить гладкость бровей.\nГель-фиксатор подходит для всех типов бровей, остаётся незаметным и не требует поправок в течение дня.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Красота > Гели для бровей",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 45000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "450.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 13000,
+        "currency": "RUB",
+        "label": "price_api.logistics",
+        "amount": "130.00",
+        "visible_label": "price_api.logistics"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Красота > Гели для бровей",
+    "source": "WB",
+    "id": "755406779",
+    "url": "https://www.wildberries.ru/catalog/755406779/detail.aspx",
+    "observed_at": "2026-11-17T01:46:04.855766+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

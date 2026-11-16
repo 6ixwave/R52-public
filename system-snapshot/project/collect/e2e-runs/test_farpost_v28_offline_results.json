@@ -1,0 +1,384 @@
+{
+  "LingLong": {
+    "status": "PASS",
+    "photos": 1,
+    "videos": 0,
+    "title": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красноярске",
+    "price": {
+      "role": "regular",
+      "amount_minor": 849900,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    "specs_count": 9,
+    "category": "Авто и мото > Шины и диски > Шины > Шины LingLong GREEN-Max Winter > LingLong GREEN-Max Winter Grip Van 2",
+    "checks": {
+      "photos_count": {
+        "expected": 1,
+        "actual": 1,
+        "pass": true
+      },
+      "metadata_present": {
+        "expected": "optional",
+        "actual": false,
+        "pass": true
+      },
+      "is_main_count": {
+        "expected": 0,
+        "actual": 0,
+        "pass": true
+      },
+      "price": {
+        "expected": "present",
+        "actual": "8499 RUB",
+        "pass": true
+      },
+      "title": {
+        "expected": "non-empty, not landing",
+        "actual": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R",
+        "pass": true
+      },
+      "specs": {
+        "expected": ">=5",
+        "actual": 9,
+        "pass": true
+      },
+      "category": {
+        "expected": "non-empty",
+        "actual": "Авто и мото > Шины и диски > Шины > Шины LingLong ",
+        "pass": true
+      },
+      "videos": {
+        "expected": 0,
+        "actual": 0,
+        "pass": true
+      }
+    },
+    "photos_detail": [
+      {
+        "url": "https://static.baza.farpost.ru/farpost_catalog/1669597715957_bulletin",
+        "alt": "",
+        "label": "",
+        "is_main": false,
+        "width": 0,
+        "height": 0
+      }
+    ]
+  },
+  "Michelin": {
+    "status": "PASS",
+    "photos": 18,
+    "videos": 0,
+    "title": "Шины Michelin X-Ice snow SUV 275/50R21",
+    "price": {
+      "role": "regular",
+      "amount_minor": 4000000,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    "specs_count": 9,
+    "category": "Авто и мото > Шины и диски > Шины > Шины Michelin X-Ice > Michelin X-Ice Snow SUV",
+    "checks": {
+      "photos_count": {
+        "expected": 18,
+        "actual": 18,
+        "pass": true
+      },
+      "metadata_present": {
+        "expected": "required",
+        "actual": true,
+        "pass": true
+      },
+      "is_main_count": {
+        "expected": 1,
+        "actual": 1,
+        "pass": true
+      },
+      "price": {
+        "expected": "present",
+        "actual": "40000 RUB",
+        "pass": true
+      },
+      "title": {
+        "expected": "non-empty, not landing",
+        "actual": "Шины Michelin X-Ice snow SUV 275/50R21",
+        "pass": true
+      },
+      "specs": {
+        "expected": ">=5",
+        "actual": 9,
+        "pass": true
+      },
+      "category": {
+        "expected": "non-empty",
+        "actual": "Авто и мото > Шины и диски > Шины > Шины Michelin ",
+        "pass": true
+      },
+      "videos": {
+        "expected": 0,
+        "actual": 0,
+        "pass": true
+      }
+    },
+    "photos_detail": [
+      {
+        "url": "https://static.baza.farpost.ru/v/1790733422803_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": true,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239487782_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239426475_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239505459_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239474303_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239519818_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239489726_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239491802_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239519111_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239535808_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239520717_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239521400_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239522051_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239536714_bulletin",
+        "alt": "Michelin X-Ice Snow SUV. зимние, без шипов, 2025 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239538751_bulletin",
+        "alt": "",
+        "label": "",
+        "is_main": false,
+        "width": 0,
+        "height": 0
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239540871_bulletin",
+        "alt": "",
+        "label": "",
+        "is_main": false,
+        "width": 0,
+        "height": 0
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239541749_bulletin",
+        "alt": "",
+        "label": "",
+        "is_main": false,
+        "width": 0,
+        "height": 0
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1788239547117_bulletin",
+        "alt": "",
+        "label": "",
+        "is_main": false,
+        "width": 0,
+        "height": 0
+      }
+    ]
+  },
+  "LongMarch": {
+    "status": "PASS",
+    "photos": 7,
+    "videos": 0,
+    "title": "Грузовая шина Long March LM777 425/85R21 24PR 173C",
+    "price": {
+      "role": "regular",
+      "amount_minor": 5805000,
+      "currency": "RUB",
+      "label": "data-bulletin-price"
+    },
+    "specs_count": 8,
+    "category": "Авто и мото > Шины и диски > Шины > Шины Long March > Long March LM777",
+    "checks": {
+      "photos_count": {
+        "expected": 7,
+        "actual": 7,
+        "pass": true
+      },
+      "metadata_present": {
+        "expected": "required",
+        "actual": true,
+        "pass": true
+      },
+      "is_main_count": {
+        "expected": 1,
+        "actual": 1,
+        "pass": true
+      },
+      "price": {
+        "expected": "present",
+        "actual": "58050 RUB",
+        "pass": true
+      },
+      "title": {
+        "expected": "non-empty, not landing",
+        "actual": "Грузовая шина Long March LM777 425/85R21 24PR 173C",
+        "pass": true
+      },
+      "specs": {
+        "expected": ">=5",
+        "actual": 8,
+        "pass": true
+      },
+      "category": {
+        "expected": "non-empty",
+        "actual": "Авто и мото > Шины и диски > Шины > Шины Long Marc",
+        "pass": true
+      },
+      "videos": {
+        "expected": 0,
+        "actual": 0,
+        "pass": true
+      }
+    },
+    "photos_detail": [
+      {
+        "url": "https://static.baza.farpost.ru/v/1786928237600_bulletin?ni=yes",
+        "alt": "Long March LM777. всесезонные, 2026 год, новый. Протектор фото",
+        "label": "Протектор",
+        "is_main": true,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1786928237854_bulletin?ni=yes",
+        "alt": "Long March LM777. всесезонные, 2026 год, новый. Протектор фото",
+        "label": "Протектор",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1786928238500_bulletin?ni=yes",
+        "alt": "Long March LM777. всесезонные, 2026 год, новый. Протектор фото",
+        "label": "Протектор",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1786928239351_bulletin?ni=yes",
+        "alt": "Long March LM777. всесезонные, 2026 год, новый. Маркировка (размер) фото",
+        "label": "Маркировка (размер)",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1786928239973_bulletin?ni=yes",
+        "alt": "Long March LM777. всесезонные, 2026 год, новый. Название модели фото",
+        "label": "Название модели",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1786928240613_bulletin?ni=yes",
+        "alt": "Long March LM777. всесезонные, 2026 год, новый. Маркировка (размер) фото",
+        "label": "Маркировка (размер)",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://static.baza.farpost.ru/v/1786928241137_bulletin?ni=yes",
+        "alt": "Long March LM777. всесезонные, 2026 год, новый фото",
+        "label": "",
+        "is_main": false,
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  }
+}

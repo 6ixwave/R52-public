@@ -1,0 +1,57 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per Audiofili, Versione Stealth Magnets",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "683.49",
+        "amount_minor": 68349,
+        "currency": "RUB",
+        "visible_label": "683.49 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "539.39",
+        "amount_minor": 53939,
+        "currency": "RUB",
+        "visible_label": "539.39 RUB"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013565057281",
+    "url": "https://ru.aliexpress.com/item/1005013565057281.html",
+    "observed_at": "2026-11-13T07:55:54.351616+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

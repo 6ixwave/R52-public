@@ -1,0 +1,29 @@
+2026-11-12 02:30:51,103 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 02:30:51,103 v137 INFO Collector создан. use_proxies=False, pool.stats={'total': 0, 'alive': 0, 'use_proxies': False}
+2026-11-12 02:30:51,103 v137 INFO [130693618] STAGE 1: fetch
+2026-11-12 02:30:51,107 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.farpost.ru:443
+2026-11-12 02:30:52,432 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET / HTTP/1.1" 200 None
+2026-11-12 02:30:52,434 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 02:31:08,494 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET /vladivostok/130693618.html HTTP/1.1" 301 None
+2026-11-12 02:31:08,768 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET /krasnoyarsk/auto/wheel/tire/triangle-icelynx-ti501-205-55-r16-94t-xl-130693618.html HTTP/1.1" 200 None
+2026-11-12 02:31:08,773 v137 INFO [130693618] HTTP 200, 51560 bytes, CT=text/html; charset=windows-1251
+2026-11-12 02:31:08,773 v137 INFO [130693618] HTML сохранён: v137_html_130693618.html (51560 bytes)
+2026-11-12 02:31:08,774 v137 INFO [130693618] STAGE 2: parse_page
+2026-11-12 02:31:08,774 v137 INFO [130693618] HTML decoded: 51560 chars, encoding path: cp1251
+2026-11-12 02:31:08,780 v137 INFO [130693618] PARSE OK: title='Triangle IcelynX TI501, 205/55 R16 94T XL', prices=1, media=5, fields=['title', 'description', 'category', 'brand', 'model', 'specs', 'seller', 'seller_url', 'bulletin_id']
+2026-11-12 02:31:11,781 v137 INFO [129606872] STAGE 1: fetch
+2026-11-12 02:31:27,398 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET /vladivostok/129606872.html HTTP/1.1" 301 None
+2026-11-12 02:31:27,632 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET /krasnoyarsk/zapchasti/kontraktnyj-dvigatel-1zz-fe-cena-s-navesnym-129606872.html HTTP/1.1" 200 None
+2026-11-12 02:31:27,636 v137 INFO [129606872] HTTP 200, 48929 bytes, CT=text/html; charset=windows-1251
+2026-11-12 02:31:27,637 v137 INFO [129606872] HTML сохранён: v137_html_129606872.html (48929 bytes)
+2026-11-12 02:31:27,637 v137 INFO [129606872] STAGE 2: parse_page
+2026-11-12 02:31:27,638 v137 INFO [129606872] HTML decoded: 48929 chars, encoding path: cp1251
+2026-11-12 02:31:27,644 v137 INFO [129606872] PARSE OK: title='Контрактный двигатель 1ZZ-FE цена с навесным!', prices=1, media=2, fields=['title', 'description', 'category', 'brand', 'specs', 'seller', 'seller_url', 'bulletin_id']
+2026-11-12 02:31:30,648 v137 INFO [98836529] STAGE 1: fetch
+2026-11-12 02:31:39,142 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET /vladivostok/98836529.html HTTP/1.1" 302 138
+2026-11-12 02:31:39,383 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET /verify?u=%2Fvladivostok%2F98836529.html HTTP/1.1" 200 None
+2026-11-12 02:31:39,499 v137 INFO [98836529] HTTP 200, 198656 bytes, CT=text/html;charset=utf-8
+2026-11-12 02:31:39,501 v137 INFO [98836529] HTML сохранён: v137_html_98836529.html (198656 bytes)
+2026-11-12 02:31:39,501 v137 INFO [98836529] STAGE 2: parse_page
+2026-11-12 02:31:39,501 v137 INFO [98836529] HTML decoded: 197914 chars, encoding path: resp.text
+2026-11-12 02:31:39,543 v137 INFO [98836529] PARSE OK: title='Фарпост - доска объявлений', prices=0, media=0, fields=['title']

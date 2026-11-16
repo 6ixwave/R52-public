@@ -1,0 +1,61 @@
+23:53:19 Core started: port=8423 pid=21892
+23:53:19 
+--- 1. UI в Edge ---
+23:53:19   [PASS] UI session: code=201
+23:53:19   [PASS] UI HTML: status=200 len=1969
+23:53:19   [PASS] Edge opened: http://127.0.0.1:8423/ui?code=[REDACTED_AUTH_SECRET]
+23:53:19 
+--- 2. Scheduler ---
+23:53:19   [PASS] Schedules list: count=3
+23:53:19     backup: kind=backup enabled=1
+23:53:19     digest: kind=digest enabled=1
+23:53:19     maintenance: kind=maintenance enabled=1
+23:53:19   [PASS] Task maintenance: id=601580b5ef1b
+23:53:24   [PASS] Maintenance result: status=COMPLETED
+23:53:24   [PASS] Task digest: id=991588c94f5e
+23:53:28   [PASS] Digest result: status=COMPLETED
+23:53:38   [PASS] Collect (bonus, AVITO pid=19): status=COMPLETED
+23:53:38 
+--- 3. Export ---
+23:53:38   [PASS] Export trigger: file=r52-export-20261113T135338Z.zip size=4127 products=19
+23:53:38 
+--- 4. Backup ---
+23:53:38   [PASS] Backup trigger: task=89b52ca8e16b
+23:53:42   [PASS] Backup task: status=COMPLETED
+23:53:42   [PASS] Backups list: count=13 latest=r52-20261113T135338Z-manual.sqlite3
+23:53:42 
+--- 5. Restore (CLI) ---
+23:53:42   [PASS] CLI restore: exit=0 out=
+23:53:43   [PASS] Post-restore status: ok=True
+23:53:43   [PASS] Post-restore products: total=19
+23:53:43 
+--- 6. Files ---
+23:53:43     export: r52-export-20261113T135338Z.zip (4127 B)
+23:53:43     export: r52-export-20261113T134737Z.zip (4127 B)
+23:53:43     backup: r52-20261113T135338Z-manual.sqlite3 (2084864 B)
+23:53:43     backup: r52-20261113T134737Z-manual.sqlite3 (2080768 B)
+23:53:43 
+==================================================
+23:53:43 ИТОГ:
+23:53:43   ✅ UI session
+23:53:43   ✅ UI HTML
+23:53:43   ✅ Edge opened
+23:53:43   ✅ Schedules list
+23:53:43   ✅ Task maintenance
+23:53:43   ✅ Maintenance result
+23:53:43   ✅ Task digest
+23:53:43   ✅ Digest result
+23:53:43   ✅ Collect (bonus, AVITO pid=19)
+23:53:43   ✅ Export trigger
+23:53:43   ✅ Backup trigger
+23:53:43   ✅ Backup task
+23:53:43   ✅ Backups list
+23:53:43   ✅ CLI restore
+23:53:43   ✅ Post-restore status
+23:53:43   ✅ Post-restore products
+23:53:43 
+  Всего: 16 PASS / 0 FAIL
+23:53:43   UI URL: http://127.0.0.1:8423/ui?code=[REDACTED_AUTH_SECRET]
+23:53:43 ==================================================
+23:53:43 === CORE ALIVE 90s ===
+23:55:14 Core stopped.

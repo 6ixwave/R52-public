@@ -1,0 +1,61 @@
+============================================================
+PART 1: DNS RESOLUTION — wbxstatic.ru
+============================================================
+  [XX] ir-1.wbxstatic.ru                   -> [Errno 11001] getaddrinfo failed
+  [XX] ir-2.wbxstatic.ru                   -> [Errno 11001] getaddrinfo failed
+  [XX] ir-3.wbxstatic.ru                   -> [Errno 11001] getaddrinfo failed
+  [OK] basket-13.wbbasket.ru               -> 213.184.155.36
+  [OK] static.baza.farpost.ru              -> 195.88.224.74
+
+============================================================
+PART 2: WB IMAGE URL VERIFICATION (nm=199298871)
+============================================================
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ir-2.wbxstatic.ru/1000x0/199298871.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ir-2.wbxstatic.ru/1000x0/199298871_2.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ir-2.wbxstatic.ru/1000x0/199298871_3.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ir-2.wbxstatic.ru/120x120/199298871.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ir-2.wbxstatic.ru/video/199298871.mp4
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ir-1.wbxstatic.ru/1000x0/199298871.jpg
+  [ERR] Failed to perform, curl: (6) Could not resolve hos ir-2.wbxstatic.ru/1000x0/158033827.jpg
+
+============================================================
+PART 3: WB HTML PAGE (nm=199298871)
+============================================================
+  URL: https://www.wildberries.ru/catalog/199298871/detail.aspx
+  HTTP 498, 1130B
+
+============================================================
+PART 4: WB CARD.JSON PRICE (nm=199298871)
+============================================================
+  HTTP 200, 9623B
+  data.sizes: 0 entries
+  brand: Родник Здоровья
+  vendor_code: ?
+  media: {'has_video': True, 'photo_count': 6}
+
+============================================================
+PART 5: FARPOST LIVE VERIFICATION
+============================================================
+  [Warmup] HTTP 200, cookies=[REDACTED_AUTH_SECRET]
+  [Page] HTTP 200, 89923B
+  Title: ?
+  data-bulletin-price: NOT FOUND
+  old price: N/A
+  Photos (data-full): 0
+  Videos: 0
+  Specs: 0
+  Seller: ?
+  Availability: ?
+  -> farpost_v119.html (89267 chars)
+
+============================================================
+PART 6: FARPOST CDN IMAGE VERIFICATION
+============================================================
+  [xx ]??? 404        0B                                v/129606872_1_bulletin.jpg
+  [xx ]??? 404        0B                                v/129606872_1_default.jpg
+  [xx ]??? 404        0B                                v/129606872_2_bulletin.jpg
+  [xx ]??? 404        0B                                v/129606872_video.mp4
+
+============================================================
+DIAG V119 DONE
+============================================================

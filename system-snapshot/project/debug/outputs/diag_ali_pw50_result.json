@@ -1,0 +1,193 @@
+{
+  "ts": "2026-11-12T16:25:36.724350+00:00",
+  "product_id": "1005011813323763",
+  "product_id2": "1005007597544632",
+  "phase": "done",
+  "regions": {
+    "global_p1": {
+      "dom": {
+        "final_url": "https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita",
+        "title": "",
+        "html_len": 280929,
+        "h1": "",
+        "prices": [],
+        "images_count": 11,
+        "tmd_iframes": 2
+      },
+      "mtop": [
+        {
+          "raw_len": 543,
+          "parsed": true,
+          "data": {
+            "bigBossBan": false,
+            "errorCode": "",
+            "banTip": "",
+            "result_keys": [
+              "url",
+              "dialogSize"
+            ],
+            "prices_found": [],
+            "sku_found": [],
+            "title": ""
+          },
+          "api": "",
+          "ret": [
+            "FAIL_SYS_USER_VALIDATE",
+            "RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试"
+          ],
+          "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794500753032&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&timeout=15000&dataType=originaljsonp&callback=mtopjsonp1&data=%7B%22productId%22%3A%221005011813323763%22%2C%22_lang%22%3A%22it_IT%22%2C%22_currency%22%3A%22EUR%22%2C%22country%22%3A%22IT%22%2C%22province%22%3A%22%22%2C%22city%22%3A%22%22%2C%22channel%22%3A%22%22%2C%22pdp_ext_f%22%3A%22%22%2C%22pd",
+          "status": 200
+        },
+        {
+          "raw_len": 6301,
+          "parsed": false,
+          "data": {},
+          "parse_error": "Expecting value: line 2 column 1 (char 2)",
+          "raw_preview": "\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=m_5_a7ngqy6zyK-RrS5xozr93pb3of5dob7FkrWbPYlHClpG5Fz438W6QGoKRnghitvV7mEXsAlR3O33sNGd_Fx73Lu-XM5eNwzNpFes6UOdAOnHh8HQmqPpmU5akwcY5U1KkBdlcgQ87PCntQ8gbUgTeuSvBcbfWikfcfvn9txl8gBjOpEP6PdGwhrF",
+          "url": "https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg5d0f8e197bbb5713kn5f1363fb75249c42df26e40a623b81001794500754a-1168960602a-1317347523abaxc3eajrecaptcha33b5a899336ae1a73c46b606424a043b3f3__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=",
+          "status": 200
+        },
+        {
+          "raw_len": 8363,
+          "parsed": false,
+          "data": {},
+          "parse_error": "Expecting value: line 2 column 1 (char 2)",
+          "raw_preview": "\r\n<html><head><meta charset=UTF-8><meta content=width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no name=viewport><script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fBeY_DXqH58O6frDmoeHo2YphkXR9T3n5JXgZroru870Y4JNHEu_1eEQF_j3d0LCC-l9EVpdGj6DsRfgFIidHXqLplET8ejfGp0WienG3Se30wgl1mTrCXWO7eHg-QztXYTLBBGC-jUYP17DoZ3c5Aec9793qbndwZ8ZwE7UY1Guu7c-JV2kibQbRSTWd6Q89_LPclCK9f8rLdEYc7kVv6yHXYITf",
+          "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg5d0f8e197bbb5713kn5f1363fb75249c42df26e40a623b81001794500754a-1168960602a-1317347523abaxc3eajrecaptcha33b5a899336ae1a73c46b606424a043b3f3__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&uuid=5f1363fb75249c42df26e40a623b8100&qrcode=XxNj-3UknELfJuQKYjuBAA|avXokg|sXrfPQ_0||1&redirectURL=https%3a%2f%2facs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0%",
+          "status": 200
+        },
+        {
+          "raw_len": 85,
+          "parsed": true,
+          "data": {
+            "bigBossBan": false,
+            "errorCode": "",
+            "banTip": "",
+            "result_keys": [],
+            "prices_found": [],
+            "sku_found": [],
+            "title": ""
+          },
+          "api": "",
+          "ret": [],
+          "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&uuid=5f1363fb75249c42df26e40a623b8100&x5secdata=xg5d0f8e197bbb5713kn5f1363fb75249c42df26e40a623b81001794500754a-1168960602a-1317347523abaxc3eajrecaptcha33b5a899336ae1a73c46b606424a043b3f3__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&type=initSuccess&msg=recaptchaInitSuccess",
+          "status": 200
+        }
+      ],
+      "mtop_count": 4
+    },
+    "us_p1": {
+      "dom": {
+        "final_url": "https://us.aliexpress.com/item/1005011813323763.html",
+        "title": "Обнаружена проблема при проверке сертификата",
+        "html_len": 198943,
+        "h1": "Остановлен переход на недоверенный сайт",
+        "prices": [],
+        "images_count": 0,
+        "tmd_iframes": 0
+      },
+      "mtop": [],
+      "mtop_count": 0
+    },
+    "it_p1": {
+      "dom": {
+        "final_url": "https://it.aliexpress.com/item/1005011813323763.html",
+        "title": "",
+        "html_len": 280826,
+        "h1": "",
+        "prices": [],
+        "images_count": 11,
+        "tmd_iframes": 2
+      },
+      "mtop": [
+        {
+          "raw_len": 543,
+          "parsed": true,
+          "data": {
+            "bigBossBan": false,
+            "errorCode": "",
+            "banTip": "",
+            "result_keys": [
+              "url",
+              "dialogSize"
+            ],
+            "prices_found": [],
+            "sku_found": [],
+            "title": ""
+          },
+          "api": "",
+          "ret": [
+            "FAIL_SYS_USER_VALIDATE",
+            "RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试"
+          ],
+          "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794500797598&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&timeout=15000&dataType=originaljsonp&callback=mtopjsonp1&data=%7B%22productId%22%3A%221005011813323763%22%2C%22_lang%22%3A%22it_IT%22%2C%22_currency%22%3A%22EUR%22%2C%22country%22%3A%22IT%22%2C%22province%22%3A%22%22%2C%22city%22%3A%22%22%2C%22channel%22%3A%22%22%2C%22pdp_ext_f%22%3A%22%22%2C%22pd",
+          "status": 200
+        },
+        {
+          "raw_len": 6301,
+          "parsed": false,
+          "data": {},
+          "parse_error": "Expecting value: line 2 column 1 (char 2)",
+          "raw_preview": "\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=h139ULN45a_BVfkMfMAr--VSj1Bdx3hjjJdsgCn2I0HWco1V7rV153Uz-oVYy3VPSoSpS-h6OuVDNFDgqF8tN_x2GTgUEnI1EYbw8w1MOxfqB58AGgI9NCcoJS7G6vxyaHEJlxoRwIz-KrIsjT3tIh-nt3hhuCZvHy0tuXyba-dGLDbS45IXuegvQ6Ly",
+          "url": "https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg6e175221fa95bb67km7b019a39fa26be1e1b7e1870754632aa1794500798a-1168960602a-1317347523abaxc3eajrecaptcha33b0e0c7b482402ed8744d774f9f38dd886__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=",
+          "status": 200
+        },
+        {
+          "raw_len": 8363,
+          "parsed": false,
+          "data": {},
+          "parse_error": "Expecting value: line 2 column 1 (char 2)",
+          "raw_preview": "\r\n<html><head><meta charset=UTF-8><meta content=width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no name=viewport><script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ke7L3-7AfAT_QkmI4FRazhXh4WWiVQjhzSe4QeO-6nKwjIZcV-MmyngESbL_6zq1EphwtZV32iI9QGqf33uDsGDAjHoHAa6mRah2RST1HBGEI9NkU64ZtUNALgUGRIQyywIBW__XbKYawvS0BJOrKrn6yYdLh2tcaH9SYDiMkpGJV7yugwOxoZsuhD5TBHnRu1Vv4CqbeQ-5yFK_F17Yh_K2pQOad",
+          "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg6e175221fa95bb67km7b019a39fa26be1e1b7e1870754632aa1794500798a-1168960602a-1317347523abaxc3eajrecaptcha33b0e0c7b482402ed8744d774f9f38dd886__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&uuid=7b019a39fa26be1e1b7e1870754632aa&qrcode=ewGaOfomvh4bfhhwdUYyqg|avXovg|sXrfPQ_0||1&redirectURL=https%3a%2f%2facs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0%",
+          "status": 200
+        },
+        {
+          "raw_len": 85,
+          "parsed": true,
+          "data": {
+            "bigBossBan": false,
+            "errorCode": "",
+            "banTip": "",
+            "result_keys": [],
+            "prices_found": [],
+            "sku_found": [],
+            "title": ""
+          },
+          "api": "",
+          "ret": [],
+          "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&uuid=7b019a39fa26be1e1b7e1870754632aa&x5secdata=xg6e175221fa95bb67km7b019a39fa26be1e1b7e1870754632aa1794500798a-1168960602a-1317347523abaxc3eajrecaptcha33b0e0c7b482402ed8744d774f9f38dd886__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&type=initSuccess&msg=recaptchaInitSuccess",
+          "status": 200
+        }
+      ],
+      "mtop_count": 4
+    },
+    "us_p2": {
+      "dom": {
+        "final_url": "https://us.aliexpress.com/item/1005007597544632.html",
+        "title": "Обнаружена проблема при проверке сертификата",
+        "html_len": 198943,
+        "h1": "Остановлен переход на недоверенный сайт",
+        "prices": [],
+        "images_count": 0,
+        "tmd_iframes": 0
+      },
+      "mtop": [],
+      "mtop_count": 0
+    }
+  },
+  "final_data": {
+    "title": "Остановлен переход на недоверенный сайт",
+    "price": "",
+    "currency": "",
+    "stock": "",
+    "category": "",
+    "seller": "",
+    "images": [],
+    "sku_count": 0,
+    "source": "dom_us_p1",
+    "region": "",
+    "mtop_ban": false,
+    "ban_tip": ""
+  },
+  "errors": []
+}

@@ -1,0 +1,122 @@
+{
+  "WB": {
+    "source": "WB",
+    "query": "наушники",
+    "page": 1,
+    "page_size": 5,
+    "status": "ERROR",
+    "count": 0,
+    "ids": [],
+    "titles": [],
+    "prices": [],
+    "elapsed": 44.1,
+    "error": "SEARCH_HTTP_403",
+    "error_type": "SearchError"
+  },
+  "OZON": {
+    "source": "OZON",
+    "query": "наушники",
+    "page": 1,
+    "page_size": 5,
+    "status": "ERROR",
+    "count": 0,
+    "ids": [],
+    "titles": [],
+    "prices": [],
+    "elapsed": 20.1,
+    "error": "SEARCH_HTTP_403",
+    "error_type": "SearchError"
+  },
+  "AVITO": {
+    "source": "AVITO",
+    "query": "наушники",
+    "page": 1,
+    "page_size": 5,
+    "status": "ERROR",
+    "count": 0,
+    "ids": [],
+    "titles": [],
+    "prices": [],
+    "elapsed": 19.9,
+    "error": "SEARCH_ACCESS_CHALLENGE",
+    "error_type": "SearchError"
+  },
+  "FARPOST": {
+    "source": "FARPOST",
+    "query": "наушники",
+    "page": 1,
+    "page_size": 5,
+    "status": "OK",
+    "count": 5,
+    "ids": [
+      "106868678",
+      "130591556",
+      "138088942",
+      "122744064",
+      "109845405"
+    ],
+    "titles": [
+      "Наушники Apple AirPods Pro 2 (2 поколение) Premium Copy",
+      "Наушники AirPods MAX 2 (2024) Версия 1:1 Оригинал Самая Лучш",
+      "Наушники Apple AirPods 5 USB-C 2026. Trade-IN. Кредит. Гаран",
+      "Наушники беспроводные Apple AirPods Max 2024 Starlight Гаран",
+      "Наушники AirPods / Бесплатная доставка / гарантия"
+    ],
+    "prices": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "elapsed": 4.0,
+    "error": null,
+    "error_type": null
+  },
+  "ALIEXPRESS": {
+    "source": "ALIEXPRESS",
+    "query": "наушники",
+    "page": 1,
+    "page_size": 5,
+    "status": "ERROR",
+    "count": 0,
+    "ids": [],
+    "titles": [],
+    "prices": [],
+    "elapsed": 4.4,
+    "error": "UNEXPECTED_REDIRECT",
+    "error_type": "ValueError"
+  },
+  "ALIEXPRESS_RU": {
+    "source": "ALIEXPRESS_RU",
+    "query": "наушники",
+    "page": 1,
+    "page_size": 5,
+    "status": "OK",
+    "count": 9,
+    "ids": [
+      "None",
+      "1005013286107490",
+      "1005013559555650",
+      "1005013516366610",
+      "1005013550229774"
+    ],
+    "titles": [
+      "Cuffie Wireless Bluetooth 5.4 QCY H3 ANC Hi-Res Audio Over-E",
+      "Cuffie professionali per monitor da studio per ingegneri del",
+      "Apple AirPods Max Cuffie wireless over-ear, Cancellazione at",
+      "Cuffie cablate retrò, tendenze hip hop, cuffie con connessio",
+      "Cuffie da gaming S350 RGB nere, con cavo e jack da 3,5 mm, d"
+    ],
+    "prices": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "elapsed": 4.8,
+    "error": null,
+    "error_type": null
+  }
+}

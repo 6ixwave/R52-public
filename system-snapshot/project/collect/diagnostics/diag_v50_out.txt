@@ -1,0 +1,82 @@
+============================================================
+DIAG v50: WB + AVITO  |  2026-11-11T07:29:11.073233
+============================================================
+
+============================================================
+WILDBERRIES
+============================================================
+
+--- WB Strategy 1: catalog.wb.ru/cards/v1/detail ---
+  nm=199298871: HTTP 403, len=0
+  nm=110835207: HTTP 403, len=0
+  nm=188497640: HTTP 403, len=0
+  nm=12736071: HTTP 403, len=0
+
+--- WB Strategy 2: curl_cffi Chrome impersonation ---
+  nm=199298871: HTTP 498, len=1136
+    WBAAS=True, JSON-LD=False, State=False
+    WBAAS challenge detected, len=1136
+  nm=110835207: HTTP 498, len=1136
+    WBAAS=True, JSON-LD=False, State=False
+    WBAAS challenge detected, len=1136
+
+--- WB Strategy 3: web/api catalog ---
+  web/api nm=199298871: HTTP 498, len=1136
+  web/api nm=110835207: HTTP 498, len=1136
+
+--- WB Strategy 4: alternate API endpoints ---
+  https://catalog.wb.ru/cards/detail?nm=199298871: HTTP 403, len=0
+  https://www.wildberries.ru/web/api/catalog/product/199298871/info: HTTP 498, len=1136
+  https://card.wb.ru/cards/detail?nm=199298871: HTTP 403, len=0
+
+WB RESULT: api_ok=False, cffi_ok=False
+
+============================================================
+AVITO
+============================================================
+
+--- AVITO Strategy 1: Sitemap ---
+  Sitemap https://www.avito.ru/sitemap.xml: HTTP 404, len=29907
+  Sitemap https://www.avito.ru/moscow/sitemap.xml: HTTP 429, len=35048
+
+--- AVITO Strategy 2: curl_cffi on ad pages ---
+  id=1154321987 url=https://www.avito.ru/ad/1154321987: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False
+  id=1154321987 url=https://www.avito.ru/all/1154321987: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    CAPTCHA=True, JSON-LD=False
+  id=1045236789 url=https://www.avito.ru/ad/1045236789: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False
+  id=1045236789 url=https://www.avito.ru/all/1045236789: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    CAPTCHA=True, JSON-LD=False
+  id=987654321 url=https://www.avito.ru/ad/987654321: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False
+  id=987654321 url=https://www.avito.ru/all/987654321: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    CAPTCHA=True, JSON-LD=False
+
+--- AVITO Strategy 3: API endpoints ---
+  https://www.avito.ru/api/ads/1154321987: HTTP 404, len=153
+  https://api.avito.ru/ads/1154321987: HTTP 404, len=48
+  https://www.avito.ru/mobile/api/ads/1154321987: HTTP 404, len=153
+
+--- AVITO Strategy 4: Category page via curl_cffi ---
+  https://www.avito.ru/moscow/noutbuki: HTTP 429, len=34116
+    Ad IDs found: 0
+  https://www.avito.ru/spb/telefony-i-smm: HTTP 404, len=29440
+    Ad IDs found: 0
+  https://www.avito.ru/moscow/avto-zapchasti: HTTP 429, len=34116
+    Ad IDs found: 0
+
+AVITO RESULT: cffi_ok=False, api_ok=False, ids_found=0
+
+============================================================
+SUMMARY
+============================================================
+  WB:   api=False, cffi=False
+  AVITO: cffi=False, api=False, ids=[]
+  DONE: 2026-11-11T07:30:16.538574

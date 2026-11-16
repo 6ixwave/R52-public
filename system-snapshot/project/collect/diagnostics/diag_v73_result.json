@@ -1,0 +1,32 @@
+{
+  "db": "C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\r52\\data\\r52.db",
+  "pre": {
+    "product": 3,
+    "observation": 8,
+    "price_point": 6
+  },
+  "post": {
+    "product": 3,
+    "observation": 9,
+    "price_point": 6
+  },
+  "platforms": {
+    "WB": {
+      "status": "OK",
+      "product_id": 3,
+      "created": false,
+      "observation_id": 9,
+      "observation_created": true,
+      "title": "Овсяный смарт коктейль для похудения без сахара",
+      "prices": 0,
+      "availability": "UNKNOWN",
+      "html_fetched": false,
+      "html_bytes": 0
+    },
+    "AVITO": {
+      "status": "ERROR",
+      "error": "AVITO: все 4 стратегии не дали HTML. Последняя ошибка см. в логе"
+    }
+  },
+  "timestamp": "2026-11-11T00:42:48.477145+00:00"
+}

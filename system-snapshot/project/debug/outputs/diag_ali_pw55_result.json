@@ -1,0 +1,27 @@
+{
+  "product_id": "1005011813323763",
+  "url": "https://www.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2usa",
+  "region": "US (via cookie + gatewayAdapt)",
+  "profile": "pw53 (reused)",
+  "timestamp": "2026-11-13T02:40:37.350585",
+  "phase": "done",
+  "mtop_responses": [],
+  "pdp_raw_len": 0,
+  "pdp_parsed": {},
+  "dom_data": {
+    "og:title": "",
+    "og:image": "",
+    "title_tag": "",
+    "img_count": 0,
+    "images": []
+  },
+  "js_state": {
+    "jsonld": []
+  },
+  "tmd_handled": true,
+  "recaptcha_solved": true,
+  "big_boss_ban": false,
+  "errors": [
+    "pdp: no data captured"
+  ]
+}

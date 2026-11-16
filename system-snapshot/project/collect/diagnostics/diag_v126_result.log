@@ -1,0 +1,105 @@
+======================================================================
+DIAG V126: WB CATALOG API + FARPOST CITY/ID (2026-11-12)
+======================================================================
+
+======================================================================
+PART 1: WB catalog.wb.ru/cards/v1/detail
+======================================================================
+
+  --- nm=259671175 ---
+  [log.wb.ru/cards/v1/detail] 403 0B
+  [log.wb.ru/cards/v2/detail] 403 0B
+
+  --- nm=199298871 ---
+  [log.wb.ru/cards/v1/detail] 403 0B
+  [log.wb.ru/cards/v2/detail] 403 0B
+
+  --- nm=1097975275 ---
+  [log.wb.ru/cards/v1/detail] 403 0B
+  [log.wb.ru/cards/v2/detail] 403 0B
+
+======================================================================
+PART 2: WB basket card.json — ALL FIELDS SCAN
+======================================================================
+
+  card.json: 404 196B
+
+======================================================================
+PART 3: WB HTML via curl_cffi
+======================================================================
+
+  [cffi detail.aspx] 498 1136B
+  (WBAAS antibot challenge)
+
+======================================================================
+PART 4: FARPOST /vladivostok/{id}.html
+======================================================================
+
+  Warmup: 200 73362B cookies=[REDACTED_AUTH_SECRET]
+
+  --- bulletin 130693618 ---
+  [130693618] 200 50899B final=uto/wheel/tire/triangle-icelynx-ti501-205-55-r16-94t-xl-130693618.html
+    saved → v126_fp_130693618.html
+    title: Triangle IcelynX TI501, 205/55 R16 94T XL в Красноярске
+    price: 24400 RUB
+    JSON-LD: type=Product name=Triangle IcelynX TI501, 205/55 R16 94T XL
+      price=24400 currency=RUB
+      avail=https://schema.org/InStock
+    data-image-info: 5 photos
+    first photo keys: ['src', 'alt', 'label', 'isUnavailable', 'private', 'height', 'width', 'isMain']
+    first photo msrc: https://static.baza.farpost.ru/v/1695007185239_bulletin?ni=yes
+    specs: 12 pairs
+      Количество шин в неделимом комплекте: 4 шт
+      Всего комплектов: 3&nbsp;шт
+      Год выпуска шин: 2026
+      Протектор: Зимние
+      Шиповка: Шипованные
+    seller: TT-auto__дилер TRIANGLE__лучшие цены (/user/9437672/)
+    og:image: https://static.baza.farpost.ru/v/1792832094048_bulletin
+    farpost CDN imgs: 0
+
+  --- bulletin 136342005 ---
+  [136342005] 200 57276B final=/disc/komplekt-diskov-rays-g25-r17-7.5-j-et35-5-100-450-136342005.html
+    saved → v126_fp_136342005.html
+    title: Комплект дисков Rays G25 R17 7.5J ET35 5*100 (450) во Владивостоке
+    price: 38000 RUB
+    JSON-LD: type=Product name=Комплект дисков Rays G25 R17 7.5J ET35 5*100 (450)
+      price=38000 currency=RUB
+      avail=https://schema.org/InStock
+    data-image-info: 10 photos
+    first photo keys: ['src', 'alt', 'label', 'isUnavailable', 'msrc', 'private', 'height', 'width', 'isMain']
+    first photo msrc: https://static.baza.farpost.ru/v/1781657753834_bulletin
+    specs: 9 pairs
+      Количество дисков в комплекте: 4 шт
+      Количество комплектов: 1&nbsp;шт
+      Состояние товара: Новый
+      Диаметр: 17"
+      Масса диска: 7,6&nbsp;кг.
+    seller: wheelsdisk (/user/wheelsdisk/)
+    og:image: https://static.baza.farpost.ru/v/1781657753941_bulletin
+    farpost CDN imgs: 0
+
+  --- bulletin 98836529 ---
+  [98836529] 200 51469B final=vostok/zapchasti/porshni-4d35-mitsubishi-canter-me018825-98836529.html
+    saved → v126_fp_98836529.html
+    title: Поршни 4D35 Mitsubishi Canter ME018825 во Владивостоке
+    price: 27500 RUB
+    JSON-LD: type=Product name=Поршни 4D35 Mitsubishi Canter ME018825
+      price=27500 currency=RUB
+      avail=https://schema.org/InStock
+    data-image-info: 3 photos
+    first photo keys: ['src', 'alt', 'label', 'isUnavailable', 'msrc', 'private', 'height', 'width', 'isMain']
+    first photo msrc: https://static.baza.farpost.ru/v/1644381040560_bulletin?ni=yes
+    specs: 4 pairs
+      Наличие товара во Владивостоке: В наличии
+      Состояние: Новый
+      Оригинальность: Оригинал
+      Производитель: Mitsubishi
+    seller: DR.DIESEL (/user/DoctorDiezel/)
+    og:image: https://static.baza.farpost.ru/v/1644381040560_bulletin
+    farpost CDN imgs: 0
+
+======================================================================
+SUMMARY
+======================================================================
+DIAG V126 DONE

@@ -1,0 +1,108 @@
+[02:19:33] Warmup: homepage
+[02:19:43]   NET: 200 len=25493 https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/mtop.js
+[02:19:46]   NET: 200 len=166 https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.5.1&appKey=1257
+[02:19:46]   NET: 200 len=41330 https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.5.1&appKey=1257
+[02:19:47]   cookies: [REDACTED_AUTH_SECRET]
+[02:19:47] Warmup: category
+[02:19:48]   NET: 200 len=19 https://acs.aliexpress.com/h5/mtop.ae.cookie.render/1.0/?jsv=2.5.1&appKey=12574478&t=1794500386297&s
+[02:19:48]   NET: 200 len=19 https://acs.aliexpress.com/h5/mtop.aliexpress.trade.cart.count/1.0/?jsv=2.5.1&appKey=12574478&t=1794
+[02:19:48]   NET: 200 len=19 https://acs.aliexpress.com/h5/mtop.ae.cookie.render/1.0/?jsv=2.5.1&appKey=12574478&t=1794500386297&s
+[02:19:48]   NET: 200 len=19 https://acs.aliexpress.com/h5/mtop.aliexpress.address.addressinfo.get/1.0/?jsv=2.5.1&appKey=12574478
+[02:19:48]   NET: 200 len=19 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:19:48]   NET: 200 len=19 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:19:48]   NET: 200 len=19 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:19:48]   NET: 200 len=19 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:19:48]   NET: 200 len=19 https://acs.aliexpress.com/h5/mtop.aliexpress.address.addressinfo.get/1.0/?jsv=2.5.1&appKey=12574478
+[02:19:48]   NET: 200 len=19 https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____t
+[02:19:48]   NET: 200 len=111569 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-runtime/1.0.4/index.umd.es5.production.
+[02:19:48]   NET: 200 len=141294 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-react/1.0.0/index.umd.es5.production.js
+[02:19:49]   NET: 200 len=905917 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-header/1.0.9/pc/index.umd.es5.pr
+[02:19:49]   NET: 200 len=2844 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-detail/1.0.0/index.umd.es5.produ
+[02:19:49]   NET: 200 len=4100 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-rcmd/1.1.2/index.umd.es5.product
+[02:19:49]   NET: 200 len=15452 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-affiliate-tracker/1.0.1/index.um
+[02:19:49]   NET: 200 len=303059 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-footer/1.0.5/pc/index.umd.es5.pr
+[02:19:49]   NET: 200 len=96095 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-header/1.0.9/pc/index.umd.es5.pr
+[02:19:49]   NET: 200 len=2542 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-footer/1.0.5/pc/index.umd.es5.pr
+[02:19:49]   NET: 200 len=175843 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-tags/1.0.1/index.umd.es5.product
+[02:19:49]   NET: 200 len=110922 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-gep/1.0.0/index.umd.es5.producti
+[02:19:49]   NET: 200 len=208888 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-cookie-banner/1.0.7/index.umd.es
+[02:19:50]   NET: 200 len=3070459 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-batman/1.0.5/pc/index.umd.es5.pr
+[02:19:50]   NET: 200 len=36813 https://acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.7.5&ap
+[02:19:50]   NET: 200 len=14193 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-cookie-banner/1.0.7/index.umd.es
+[02:19:50]   NET: 200 len=1195 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:19:50]   NET: 200 len=155 https://acs.aliexpress.com/h5/mtop.aliexpress.trade.cart.count/1.0/?jsv=2.7.5&appKey=24815441&t=1794
+[02:19:50]   NET: 200 len=41326 https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.7.5&appKey=2481
+[02:19:50]   NET: 200 len=161005 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:19:50]   NET: 200 len=203897 https://assets.aliexpress-media.com/g/code/npm/@ali/aec-base-plugin-batman/1.0.5/pc/index.umd.es5.pr
+[02:19:50]   NET: 200 len=376 https://acs.aliexpress.com/h5/mtop.ae.cookie.render/1.0/?jsv=2.7.5&appKey=24815441&t=1794500390283&s
+[02:19:50]   NET: 200 len=3475 https://acs.aliexpress.com/h5/mtop.aliexpress.address.addressinfo.get/1.0/?jsv=2.7.5&appKey=24815441
+[02:19:50]   NET: 200 len=1098 https://acs.aliexpress.com/h5/mtop.aliexpress.address.addressinfo.get/1.0/?jsv=2.7.5&appKey=24815441
+[02:19:52]   NET: 200 len=4241 https://acs.aliexpress.com/h5/mtop.aliexpress.account.login.loginconfigs.get/1.0/?jsv=2.7.5&appKey=2
+[02:19:54]   cookies: [REDACTED_AUTH_SECRET]
+[02:19:54] Product: https://www.aliexpress.com/item/1005011813323763.html
+[02:19:55]   NET: 200 len=285736 https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/css/index.css
+[02:19:55]   NET: 200 len=1307571 https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/js/index.js
+[02:19:55]   NET: 200 len=18846 https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=17945003
+[02:19:56] Waiting 20s for CSR render…
+[02:19:56]   NET: 200 len=589 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:19:56]   NET: 200 len=19 https://aplus.aliexpress.com/g.gif?logtype=1&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F%3Fgateway
+[02:19:56]   NET: 200 len=1195 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:19:56]   NET: 200 len=155 https://acs.aliexpress.com/h5/mtop.aliexpress.trade.cart.count/1.0/?jsv=2.5.1&appKey=12574478&t=1794
+[02:19:57]   NET: 200 len=36833 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:19:57]   NET: 200 len=6722 https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____t
+[02:19:57]   NET: 200 len=160542 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:19:57]   NET: 200 len=376 https://acs.aliexpress.com/h5/mtop.ae.cookie.render/1.0/?jsv=2.5.1&appKey=12574478&t=1794500396896&s
+[02:19:57]   NET: 200 len=18308 https://assets.alicdn.com/g/ae-affiliate-fe/detail-plugin/0.0.19/loader.js
+[02:19:57]   NET: 200 len=8533 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tm
+[02:19:59]   NET: 200 len=166 https://acs.aliexpress.com/h5/mtop.aliexpress.usertouch.poplayer.get/2.0/?jsv=2.5.1&appKey=24815441&
+[02:19:59]   NET: 200 len=19 https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x768&_p
+[02:19:59]   NET: 200 len=19 https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fm
+[02:20:00]   NET: 200 len=19 https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2
+[02:20:00]   NET: 200 len=19 https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F
+[02:20:02]   NET: 200 len=396625 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:20:02]   NET: 200 len=19 https://aplus.aliexpress.com/Product.Exposure.Event?gmkey=EXP&gokey=exp_page%3Ddetail_page%26exp_typ
+[02:20:02]   NET: 200 len=19 https://aplus.aliexpress.com/Product.Exposure.Event?gmkey=EXP&gokey=exp_page%3Ddetail_page%26exp_typ
+[02:20:07]   NET: 200 len=85 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tm
+[02:20:16]   url: https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita
+[02:20:16]   title: ''
+[02:20:16]   cookies: [REDACTED_AUTH_SECRET]
+[02:20:16] Track 1: DOM extraction (post-render)
+[02:20:17]   DOM(post-render): html=400239, h1='', prices=0, imgs=16, tmd=1
+[02:20:17] Track 2: JS state
+[02:20:17] Track 3: reCAPTCHA Enterprise
+[02:20:17]   TMD frame: https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?x5sec
+[02:20:17]   TMD frame: https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?recapt
+[02:20:17]   Google frame: https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LeKU1AnAAAAANDF_Hx4z4OgLH1CJRwTO4IQ0Rfa&co=aHR0cHM6Ly9yZWNvbS
+[02:20:17]   Google frame: https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf&k=6LeKU1AnAAAAANDF_Hx4z4OgLH1CJRwTO4
+[02:20:17]   Waiting 8s for reCAPTCHA to fully load…
+[02:20:25]   Polling for token (30s)…
+[02:20:55] Track 4: Post-reCAPTCHA DOM
+[02:20:55]   DOM(post-recaptcha): html=400303, h1='', prices=0, imgs=16, tmd=1
+[02:20:55] Track 5: Mobile URL
+[02:20:58]   NET: 200 len=285736 https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/css/index.css
+[02:20:58]   NET: 200 len=1307571 https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/js/index.js
+[02:20:58]   NET: 200 len=18846 https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=17945004
+[02:20:58]   NET: 200 len=155 https://acs.aliexpress.com/h5/mtop.aliexpress.trade.cart.count/1.0/?jsv=2.5.1&appKey=12574478&t=1794
+[02:20:58]   NET: 200 len=1195 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:20:59]   NET: 200 len=36813 https://acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&ap
+[02:20:59]   NET: 200 len=376 https://acs.aliexpress.com/h5/mtop.ae.cookie.render/1.0/?jsv=2.5.1&appKey=12574478&t=1794500458685&s
+[02:20:59]   NET: 200 len=166 https://acs.aliexpress.com/h5/mtop.aliexpress.usertouch.poplayer.get/2.0/?jsv=2.5.1&appKey=24815441&
+[02:20:59]   NET: 200 len=160585 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:20:59]   NET: 200 len=19 https://aplus.aliexpress.com/g.gif?logtype=1&title=&pre=https%3A%2F%2Fwww.aliexpress.com%2Fs%2Ferror
+[02:20:59]   NET: 200 len=18308 https://assets.alicdn.com/g/ae-affiliate-fe/detail-plugin/0.0.19/loader.js
+[02:20:59]   NET: 200 len=89219 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:21:00]   NET: 200 len=392615 https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.
+[02:21:00]   NET: 200 len=19 https://aplus.aliexpress.com/Product.Exposure.Event?gmkey=EXP&gokey=exp_page%3Ddetail_page%26exp_typ
+[02:21:00]   NET: 200 len=19 https://aplus.aliexpress.com/Product.Exposure.Event?gmkey=EXP&gokey=exp_page%3Ddetail_page%26exp_typ
+[02:21:08]   DOM(mobile): html=400578, h1='', prices=0, imgs=16, tmd=0
+[02:21:08] Merging final data…
+[02:21:08] Saved → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_pw48_result.json (46897 bytes)
+[02:21:08] === FINAL ===
+[02:21:08]   title:    Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Dur
+[02:21:08]   price:     
+[02:21:08]   stock:    
+[02:21:08]   images:   13
+[02:21:08]   category: 
+[02:21:08]   seller:   
+[02:21:08]   source:   dom
+[02:21:08]   net_hits: 15, mtop: False

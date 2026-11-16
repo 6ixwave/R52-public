@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {buildTopology,categoryFor,hexSlots,contextIds,contextPrompt} from '../r52/web/js/city-model.js';
+test('saved hierarchy takes precedence over title heuristics',()=>assert.deepEqual(categoryFor({title:'RTX',category_path:' Работа > Архив '}),['Работа','Архив']));
+test('heuristics and honest fallback',()=>{assert.deepEqual(categoryFor({title:'RTX 4060'}),['Техника','Видеокарты']);assert.deepEqual(categoryFor({title:'unknown'}),['Прочее']);});
+test('empty database creates no offers',()=>{const m=buildTopology([]);assert.equal(m.total,0);assert.equal(m.products.length,0);assert.equal(m.root.children.length,0);});
+test('duplicate product IDs are not replicated',()=>{const m=buildTopology([{id:1,title:'A'},{id:1,title:'A'}]);assert.equal(m.total,1);assert.equal(m.products.length,1);});
+test('layout is deterministic and finite',()=>{assert.deepEqual(hexSlots(17),hexSlots(17));assert(hexSlots(17).every(p=>Number.isFinite(p.x)&&Number.isFinite(p.z)));});
+test('nested quarters stay inside their district',()=>{const m=buildTopology(Array.from({length:50},(_,i)=>({id:i+1,title:'Record '+i,category_path:`Group ${i%4} > Quarter ${i%9} > Leaf ${i%3}`})));for(const n of m.nodes.filter(n=>n.kind==='area'&&n.parent.kind==='area'))assert(Math.hypot(n.position.x-n.parent.position.x,n.position.z-n.parent.position.z)+n.radius<=n.parent.radius+.01);});
+test('product buildings stay on their leaf platform',()=>{const m=buildTopology(Array.from({length:24},(_,i)=>({id:i+1,title:'Item '+i,category_path:'A > B'})));for(const p of m.products){assert(Math.hypot(p.position.x-p.parent.position.x,p.position.z-p.parent.position.z)<p.parent.radius*.87);assert(p.cardScale>0);}});
+test('geometry limit does not fabricate or lose database totals',()=>{const m=buildTopology(Array.from({length:100},(_,i)=>({id:i+1,title:'Real '+i,category_path:'A'})));assert.equal(m.products.length,48);assert.equal(m.total,100);assert.equal(m.root.children[0].hiddenCount,52);assert(m.products.every(p=>p.product.title==='Real '+(p.product.id-1)));});
+test('assistant context carries only selected real IDs',()=>{const m=buildTopology(Array.from({length:20},(_,i)=>({id:i+1,title:'Real '+i})));assert.deepEqual(contextIds(m.products[3]),[4]);assert.equal(contextIds(m.root).length,12);assert(contextPrompt(m.root).includes('12 из 20'));});
+test('context prompt fits the existing 500-character limit',()=>{const m=buildTopology([{id:1,title:'Название '.repeat(100),category_path:'Категория '.repeat(100)}]);assert(contextPrompt(m.products[0],{source:'WB'}).length<=490);assert(!contextPrompt(m.products[0]).includes('undefined'));});

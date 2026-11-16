@@ -1,0 +1,61 @@
+{
+  "source": "mtop_pw53_pdp_323763.json",
+  "raw_bytes": 18846,
+  "api": "mtop.aliexpress.pdp.pc.query",
+  "v": "1.0",
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "structure_sample": [
+    "api: mtop.aliexpress.pdp.pc.query",
+    "data: [dict, 1 keys]",
+    "  data.result: [dict, 1 keys]",
+    "    data.result.GLOBAL_DATA: [dict, 1 keys]",
+    "      data.result.GLOBAL_DATA.globalData: [dict, 4 keys]",
+    "ret: [list, 1 items]",
+    "traceId: 21613a6017945013150577282e0d0c",
+    "v: 1.0"
+  ],
+  "extracted_fields": {
+    "globalData": {
+      "bigBossBan": true,
+      "errorCode": "SITEM_BAN_NO_AVAIL_SKU",
+      "bigBossBanTip": "Siamo spiacenti, questo prodotto non è attualmente disponibile nella tua località."
+    },
+    "images": {
+      "count": 0,
+      "first_3": []
+    },
+    "price": {
+      "salePriceString": null,
+      "originalPrice": null,
+      "monthlyLowestPrice": null,
+      "salePriceLocal": null,
+      "currency": null
+    },
+    "sku": {
+      "keys": [],
+      "paths_count": 0
+    },
+    "category": {
+      "categoryPath": null,
+      "category1": null,
+      "category3": null
+    },
+    "delivery": {
+      "count": 0,
+      "first": null
+    },
+    "buyerProtection": {
+      "keys": []
+    },
+    "title": null,
+    "productId": null,
+    "_all_result_keys": [
+      "GLOBAL_DATA"
+    ]
+  },
+  "all_result_keys": [
+    "GLOBAL_DATA"
+  ]
+}

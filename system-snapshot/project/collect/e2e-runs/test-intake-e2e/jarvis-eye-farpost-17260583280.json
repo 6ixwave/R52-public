@@ -1,0 +1,124 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Фильтр топливный LYNXauto, арт. LF-1073M",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Фильтр топливный LYNXauto, арт. LF-1073M во Владивостоке. Стоимость: 8 399&#8381;. Смотрите все товары из категории «фильтр топливный, сепаратор» на FarPost.",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Авто и мото > Автозапчасти > Фильтр",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "LYNXauto",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          },
+          "condition": {
+            "label": "Состояние",
+            "value": "Новый"
+          },
+          "manufacturer": {
+            "label": "Производитель",
+            "value": "LYNXauto"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller": {
+        "status": "KNOWN",
+        "value": "Гиперавто — подлинные запчасти",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller_url": {
+        "status": "KNOWN",
+        "value": "https://www.farpost.ru/user/hyperauto/",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 839900,
+        "currency": "RUB",
+        "label": "JSON-LD price",
+        "amount": "8399.00",
+        "visible_label": "JSON-LD price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1790276738304_bulletin",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Авто и мото > Автозапчасти > Фильтр",
+    "source": "FARPOST",
+    "id": "17260583280",
+    "url": "https://www.farpost.ru/vladivostok/zapchasti/zaпчасти-na-auto-g17260583280.html",
+    "observed_at": "2026-11-11T06:30:04.247677+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

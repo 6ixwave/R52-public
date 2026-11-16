@@ -1,0 +1,21 @@
+2026-11-11 05:43:34,084 [INFO] diag_v44: === diag_v44 START | cffi=True ===
+2026-11-11 05:43:34,084 [INFO] diag_v44: === WB ===
+2026-11-11 05:43:34,863 [INFO] diag_v44: WB v4 nm=199298871: HTTP_403 (0.8s)
+2026-11-11 05:43:38,700 [INFO] diag_v44: WB v4 nm=314337853: HTTP_403 (0.8s)
+2026-11-11 05:43:42,497 [INFO] diag_v44: WB HTML nm=199298871: HTTP_498 (0.8s)
+2026-11-11 05:43:42,497 [INFO] diag_v44: === OZON (cooldown 20s) ===
+2026-11-11 05:44:04,098 [INFO] diag_v44: OZON 1600562267: HTTP_403 (1.6s)
+2026-11-11 05:44:10,015 [INFO] diag_v44: OZON 1317678381: HTTP_403 (0.9s)
+2026-11-11 05:44:15,016 [INFO] diag_v44: === AVITO ===
+2026-11-11 05:44:15,999 [INFO] diag_v44: AVITO home: HTTP 429
+2026-11-11 05:44:21,798 [INFO] diag_v44: AVITO API: HTTP_429
+2026-11-11 05:44:27,636 [INFO] diag_v44: AVITO ad 1004567890: HTTP_404
+2026-11-11 05:44:27,636 [INFO] diag_v44: === FARPOST ===
+2026-11-11 05:44:29,220 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:44:29,245 [INFO] diag_v44: FARPOST 125103161: PARSED (1.5s)
+2026-11-11 05:44:34,165 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:44:34,168 [INFO] diag_v44: FARPOST 16879823067: PARSED (0.9s)
+2026-11-11 05:44:39,055 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:44:39,060 [INFO] diag_v44: FARPOST 17260583280: PARSED (0.9s)
+2026-11-11 05:44:43,060 [INFO] diag_v44: === diag_v44 DONE in 69.0s ===
+2026-11-11 05:44:43,063 [INFO] diag_v44: Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v44_results.json (9455 B)

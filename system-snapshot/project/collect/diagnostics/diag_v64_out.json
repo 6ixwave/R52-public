@@ -1,0 +1,64 @@
+{
+  "farpost_1": {
+    "url": "https://www.farpost.ru/ni/krasnoyarsk/auto/wheel/tire/triangle-icelynx-ti501-205-55-r16-94t-xl-130693618.html",
+    "status": 200,
+    "len": 50931,
+    "jsonld": true,
+    "og": true,
+    "price": null,
+    "title": "Triangle IcelynX TI501, 205/55 R16 94T XL ! ABИATOPOB 3/4 ! - Купить шины в Красноярске на Фарпост",
+    "og_title": "Triangle IcelynX TI501, 205/55 R16 94T XL ! ABИATOPOB 3/4 ! - Купить шины в Красноярске на Фарпост"
+  },
+  "farpost_2": {
+    "url": "https://www.farpost.ru/ni/krasnoyarsk/auto/wheel/tire/gruzovye-shiny-295-80r22-5-tl-18pr-goodride-icetrac-n2-138279778.html",
+    "status": 200,
+    "len": 45048,
+    "jsonld": true,
+    "og": true,
+    "price": null,
+    "title": "Goodride IceTrac N2, N2 295/80 R22.5 18PR TL - Купить шины в Красноярске на Фарпост",
+    "og_title": "Goodride IceTrac N2, N2 295/80 R22.5 18PR TL - Купить шины в Красноярске на Фарпост"
+  },
+  "wb_price": [
+    {
+      "api": "card.wb.ru+referer",
+      "status": 403,
+      "len": 0
+    }
+  ],
+  "ozon": {
+    "composer_1600562267": {
+      "error": "Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    },
+    "composer_4605111975": {
+      "error": "Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    },
+    "pwa": {
+      "status": 403,
+      "len": 5947,
+      "snippet": "\n\n{\"incidentId\": \"fab_chlg_20261110235403_01M73Y4403BMH790ZVV3FDBGAD\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=TBoNDdfMyxmYWJfY2hsZ18yMDI2MTExMDIzNTQwM18wMU03M1k0NDAzQk1INzkwWlZWM0ZEQkdBRCxzYzp4WHhEQTVHUWVmeEg0OEJ0cEt4aEdnOkJZQmtDU1N6cTJ2dzR4UnAwYTVwVVBlV2Z2U3RhMHZsenZyODA1VUdX"
+    },
+    "warmup5s": {
+      "main": 403,
+      "product": 403,
+      "product_len": 8369,
+      "has_widget": false,
+      "has_jsonld": false
+    }
+  },
+  "avito": {
+    "main_status": 429,
+    "cat_status": 439,
+    "cat_len": 8687,
+    "ad_url": "https://www.avito.ru/moskva/telefony/iphone_14_128_gb_8341658309",
+    "ad_status": 200,
+    "ad_len": 454896,
+    "jsonld": true,
+    "preloaded": false,
+    "og": true,
+    "price": "300 000 ₽",
+    "title": "iPhone 18 Pro Max, 256 ГБ&nbsp;купить в&nbsp;Москве по&nbsp;низкой цене | Электроника | Авито (8341658309)",
+    "h1": "iPhone 18 Pro Max, 256 ГБ",
+    "ad_links_from_cat": []
+  }
+}

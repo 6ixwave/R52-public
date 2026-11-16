@@ -1,0 +1,369 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Брюки спортивные хлопок трико",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "DreamFit",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 147700,
+        "amount": "1477.00",
+        "currency": "RUB",
+        "visible_label": "1477.00 руб.",
+        "variant_id": "46",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 147700,
+          "listing_id": "163851554",
+          "variant_id": "46"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 882000,
+        "amount": "8820.00",
+        "currency": "RUB",
+        "visible_label": "8820.00 руб.",
+        "variant_id": "46",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 882000,
+          "listing_id": "163851554",
+          "variant_id": "46"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 147700,
+        "amount": "1477.00",
+        "currency": "RUB",
+        "visible_label": "1477.00 руб.",
+        "variant_id": "48",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.product",
+          "value_minor": 147700,
+          "listing_id": "163851554",
+          "variant_id": "48"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 882000,
+        "amount": "8820.00",
+        "currency": "RUB",
+        "visible_label": "8820.00 руб.",
+        "variant_id": "48",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.basic",
+          "value_minor": 882000,
+          "listing_id": "163851554",
+          "variant_id": "48"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 147700,
+        "amount": "1477.00",
+        "currency": "RUB",
+        "visible_label": "1477.00 руб.",
+        "variant_id": "50",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.product",
+          "value_minor": 147700,
+          "listing_id": "163851554",
+          "variant_id": "50"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 882000,
+        "amount": "8820.00",
+        "currency": "RUB",
+        "visible_label": "8820.00 руб.",
+        "variant_id": "50",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.basic",
+          "value_minor": 882000,
+          "listing_id": "163851554",
+          "variant_id": "50"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 147700,
+        "amount": "1477.00",
+        "currency": "RUB",
+        "visible_label": "1477.00 руб.",
+        "variant_id": "52",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[3].price.product",
+          "value_minor": 147700,
+          "listing_id": "163851554",
+          "variant_id": "52"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 882000,
+        "amount": "8820.00",
+        "currency": "RUB",
+        "visible_label": "8820.00 руб.",
+        "variant_id": "52",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[3].price.basic",
+          "value_minor": 882000,
+          "listing_id": "163851554",
+          "variant_id": "52"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 147700,
+        "amount": "1477.00",
+        "currency": "RUB",
+        "visible_label": "1477.00 руб.",
+        "variant_id": "54",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[4].price.product",
+          "value_minor": 147700,
+          "listing_id": "163851554",
+          "variant_id": "54"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 882000,
+        "amount": "8820.00",
+        "currency": "RUB",
+        "visible_label": "8820.00 руб.",
+        "variant_id": "54",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[4].price.basic",
+          "value_minor": 882000,
+          "listing_id": "163851554",
+          "variant_id": "54"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 147700,
+        "amount": "1477.00",
+        "currency": "RUB",
+        "visible_label": "1477.00 руб.",
+        "variant_id": "58",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[5].price.product",
+          "value_minor": 147700,
+          "listing_id": "163851554",
+          "variant_id": "58"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 882000,
+        "amount": "8820.00",
+        "currency": "RUB",
+        "visible_label": "8820.00 руб.",
+        "variant_id": "58",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[5].price.basic",
+          "value_minor": 882000,
+          "listing_id": "163851554",
+          "variant_id": "58"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 147700,
+        "amount": "1477.00",
+        "currency": "RUB",
+        "visible_label": "1477.00 руб.",
+        "variant_id": "60",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[6].price.product",
+          "value_minor": 147700,
+          "listing_id": "163851554",
+          "variant_id": "60"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 882000,
+        "amount": "8820.00",
+        "currency": "RUB",
+        "visible_label": "8820.00 руб.",
+        "variant_id": "60",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[6].price.basic",
+          "value_minor": 882000,
+          "listing_id": "163851554",
+          "variant_id": "60"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 147700,
+        "amount": "1477.00",
+        "currency": "RUB",
+        "visible_label": "1477.00 руб.",
+        "variant_id": "42",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[7].price.product",
+          "value_minor": 147700,
+          "listing_id": "163851554",
+          "variant_id": "42"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 882000,
+        "amount": "8820.00",
+        "currency": "RUB",
+        "visible_label": "8820.00 руб.",
+        "variant_id": "42",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[7].price.basic",
+          "value_minor": 882000,
+          "listing_id": "163851554",
+          "variant_id": "42"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 147700,
+        "amount": "1477.00",
+        "currency": "RUB",
+        "visible_label": "1477.00 руб.",
+        "variant_id": "44",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[8].price.product",
+          "value_minor": 147700,
+          "listing_id": "163851554",
+          "variant_id": "44"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 882000,
+        "amount": "8820.00",
+        "currency": "RUB",
+        "visible_label": "8820.00 руб.",
+        "variant_id": "44",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[8].price.basic",
+          "value_minor": 882000,
+          "listing_id": "163851554",
+          "variant_id": "44"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "163851554",
+    "listing_id": "163851554",
+    "title": "Брюки спортивные хлопок трико",
+    "url": "https://www.wildberries.ru/catalog/163851554/detail.aspx",
+    "observed_at": "2026-11-15T19:16:08.548837+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

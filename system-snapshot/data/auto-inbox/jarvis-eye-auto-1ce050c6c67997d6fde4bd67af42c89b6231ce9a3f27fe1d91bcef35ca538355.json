@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Спрей-пена для ковров, текстиля и мебели 1 л Carpet&Textile",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "SHIMA HOME",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Carpet & Textile Cleaner – пенный очиститель для ухода за коврами, мебелью и любыми тканевыми поверхностями от домашнего текстиля до сумок и обуви, мягкие игрушки, лабубу. Спрей-пена справляется с удалением сложных загрязнений и выведением стойких пятен от краски и фломастеров, ягод, вина, жира и др. и возвращает поверхностям первоначальный вид. Изысканная ароматическая композиция спрея оставляет в помещениях легкий аромат розового перца в сладкой дымке амбры с яркими сочными нотами нероли, дополняющими букет цитрусовой свежестью\n\nОчиститель имеет два вида распыления: спрей для больших участков поверхности и пену для концентрированного точечного нанесения на сложные пятна. Активная пена глубоко проникает в ворс ковров и волокна тканей, быстро и эффективно расщепляя загрязнения и удаляя пятна, нейтрализует неприятные запахи, оставляет парфюмированный аромат и возвращает яркость цветным вещам, а также подходит для белых и черных изделий\n\nСредство не содержит хлора и фосфатов, поэтому абсолютно безопасно для использования в домах с маленькими детьми и животными. В составе очистителя содержатся энзимы - органические компоненты белкового происхождения. Благодаря своему строению они быстро расщепляют молекулы различных типов органических загрязнений, ускоряя процесс очистки, поэтому результат заметен уже через 30 секунд после нанесения состава",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Бытовая химия > Спреи для уборки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 374000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "3740.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 143200,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1432.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Бытовая химия > Спреи для уборки",
+    "source": "WB",
+    "id": "458256457",
+    "url": "https://www.wildberries.ru/catalog/458256457/detail.aspx",
+    "observed_at": "2026-11-17T01:27:42.391320+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

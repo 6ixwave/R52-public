@@ -1,0 +1,108 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Контрактный двигатель 1ZZ-FE цена с навесным!",
+        "method": "JSONLD"
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Контрактный двигатель 1ZZ-FE цена с навесным! в Красноярске. Стоимость: 135 000&#8381;. Смотрите все товары из категории «двигатель в сборе» на FarPost.",
+        "method": "JSONLD"
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Авто и мото > Автозапчасти > Двигатель и элементы двигателя",
+        "method": "BREADCRUMB"
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Toyota",
+        "method": "JSONLD"
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара в Красноярске",
+            "value": "В наличии"
+          },
+          "condition": {
+            "label": "Состояние",
+            "value": "Б/у"
+          },
+          "autoPartsAuthenticity": {
+            "label": "Оригинальность",
+            "value": "Оригинал"
+          },
+          "manufacturer": {
+            "label": "Производитель",
+            "value": "Toyota"
+          }
+        },
+        "method": "HTML"
+      },
+      "seller": {
+        "status": "KNOWN",
+        "value": "Motor+",
+        "method": "HTML"
+      },
+      "seller_url": {
+        "status": "KNOWN",
+        "value": "https://www.farpost.ru/user/Motorplyus/",
+        "method": "HTML"
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "129606872",
+        "method": "HTML"
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 13500000,
+        "currency": "RUB",
+        "label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1777136686153_bulletin?ni=yes",
+          "image_data": null,
+          "alt": "Контрактный двигатель 1ZZ-FE цена с навесным! 1900022080 фото",
+          "label": "",
+          "is_main": true,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793093532734_bulletin?ni=yes",
+          "image_data": null,
+          "alt": "Контрактный двигатель 1ZZ-FE цена с навесным! 1900022080 фото",
+          "label": "",
+          "is_main": false,
+          "width": 471,
+          "height": 618
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Авто и мото > Автозапчасти > Двигатель и элементы двигателя",
+    "source": "FARPOST",
+    "id": "129606872",
+    "url": "https://www.farpost.ru/vladivostok/129606872.html",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

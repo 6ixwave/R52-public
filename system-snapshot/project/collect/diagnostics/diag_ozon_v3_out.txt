@@ -1,0 +1,52 @@
+﻿[OK] curl_cffi
+
+============================================================
+OZON V3
+============================================================
+
+[A] 403 BODY ANALYSIS
+    status=403 size=8525
+    Type: HTML
+    title: Antibot Challenge Page
+    scripts: 2
+    [0] performance.mark('jobStart', { startTime: Date.now() })
+    function showInformation() {
+      const informationElement = document.querySelector('.challenge-information');
+      if (informationElement
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    JSON scripts: 0
+
+[B] MOBILE UA
+    /product/1600562267/: 403 (8500B)
+    /product/1600562267/: 403 (8444B)
+    /m/product/1600562267/: 403 (8500B)
+
+[C] API.OZON.RU
+    /composer-api.bx/page/json/v2?url=/: ERR Failed to perform, curl: (60) SSL certificate Open
+    /entrypoint-api.bx/page/json/v2?url: ERR Failed to perform, curl: (60) SSL certificate Open
+    /v1/product/1600562267: ERR Failed to perform, curl: (60) SSL certificate Open
+    /product/1600562267: ERR Failed to perform, curl: (60) SSL certificate Open
+
+[D] COMPOSER WITH HEADERS
+    /api/composer-api.bx/page/json/v2?url=/produc: 403 (1081B)
+    /api/composer-api.bx/page/v2?url=/product/160: 403 (6085B)
+    /api/entrypoint-api.bx/page/json/v2?url=/prod: 403 (6541B)
+
+[E] SAFARI IMPERSONATE
+    safari: 403 (9975B)
+
+[F] NO-WWW
+    ozon.ru (no www): 403 (8396B)
+
+[G] SLUG PATTERNS
+    /product/tovar-1600562267/: 403 (8441B)
+    /product/item-1600562267/: 403 (8469B)
+    /product/-1600562267/: 403 (8469B)
+    /product/1600562267: 403 (8409B)
+
+============================================================
+DONE
+============================================================

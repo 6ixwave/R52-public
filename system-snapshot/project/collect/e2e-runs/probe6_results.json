@@ -1,0 +1,66 @@
+{
+  "WB:basket_card": {
+    "ok": true,
+    "detail": "host=basket-42.wbbasket.ru keys=21"
+  },
+  "WB:card_v1": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:card_v2": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:card_v4": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:card_v5": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:catalog_v1": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:catalog_v2": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:web_api_v1": {
+    "ok": false,
+    "detail": "HTTP 498 body[:60]=<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-u"
+  },
+  "WB:html_full": {
+    "ok": false,
+    "detail": "HTTP 498 len=1136"
+  },
+  "WB:mobile_api": {
+    "ok": false,
+    "detail": "Failed to perform, curl: (6) Could not resolve host: m.wildberries.ru (Domain na"
+  },
+  "OZON:two_step_entry": {
+    "ok": false,
+    "detail": "HTTP 403 body=\n\n{\"incidentId\": \"fab_chlg_20261112054442_01M774JWS6BS8N3QBC5VCD59EP\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=60cNDdfMSxmYWJfY2hsZ18yMDI2MTExMjA1NDQ0Ml8wMU03NzRKV1M2QlM4TjNRQkM1"
+  },
+  "OZON:entry_abt": {
+    "ok": false,
+    "detail": "HTTP 403 body[:80]=\n\n{\"incidentId\": \"fab_chlg_20261112054443_01M774JXSHNHT50BD009GVY0K5\", \"challeng"
+  },
+  "OZON:html_warmup": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "AVITO:search_api": {
+    "ok": false,
+    "detail": "HTTP 404"
+  },
+  "AVITO:category": {
+    "ok": false,
+    "detail": "HTTP 429"
+  },
+  "AVITO:find": {
+    "ok": false,
+    "detail": "no listing found, skipping fetch"
+  }
+}

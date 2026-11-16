@@ -1,0 +1,62 @@
+{
+  "FP:cat_cffi_v2": {
+    "ok": false,
+    "detail": "HTTP=200 len=89821 ids1=0 ids2=0 prices=0 blocks=0 scripts_with_data=1",
+    "s": 3.0
+  },
+  "FP:verify_cookie": "[REDACTED_AUTH_SECRET]",
+  "FP:mobile_cffi": {
+    "ok": false,
+    "detail": "HTTP=200 len=89809 ids=0 prices=0 url=https://m.farpost.ru/verify?u=%2Fvladivostok%2Fauto%2Fmisc%2F",
+    "s": 11.4
+  },
+  "FP:card_cffi": {
+    "ok": false,
+    "detail": "HTTP=200 len=89797 jld=0 price=N/A title=N",
+    "s": 14.2
+  },
+  "FP:cat_pw_wait": {
+    "ok": false,
+    "detail": "url=https://www.farpost.ru/verify?u=%2Fvladivostok%2Fauto%2Fmisc%2F verify=True len=94538 ids=0 prices=0",
+    "s": 23.2
+  },
+  "OZ:cffi_pdp": {
+    "ok": false,
+    "detail": "HTTP=403 len=8370 jld_products=0 price=None title=None",
+    "s": 28.8
+  },
+  "OZ:composer_api": {
+    "ok": false,
+    "detail": "HTTP=403 len=6169 price=N/A",
+    "s": 29.8
+  },
+  "OZ:mobile": {
+    "ok": false,
+    "detail": "HTTP=403 len=9834 jld=0 price=N/A",
+    "s": 32.0
+  },
+  "WB:card_v2": {
+    "ok": false,
+    "detail": "HTTP=403 products=0 price=None",
+    "s": 33.0
+  },
+  "WB:catalog_v1": {
+    "ok": false,
+    "detail": "HTTP=403 products=0 price=None",
+    "s": 33.9
+  },
+  "AV:rss": {
+    "ok": false,
+    "detail": "HTTP=439 len=14382 items=0 prices=0",
+    "s": 34.9
+  },
+  "AV:cat_cffi": {
+    "ok": false,
+    "detail": "HTTP=439 len=14382 ids=0 prices=0 prices2=0",
+    "s": 35.9
+  },
+  "_meta": {
+    "total_s": 35.9,
+    "time": "2026-11-12 17:44:09"
+  }
+}

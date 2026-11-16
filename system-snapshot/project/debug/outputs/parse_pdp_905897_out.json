@@ -1,0 +1,317 @@
+{
+  "top": [
+    "api",
+    "data",
+    "ret",
+    "traceId",
+    "v"
+  ],
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "result_keys": [
+    "POPUP",
+    "HEADER_IMAGE_PC",
+    "PC_RATING",
+    "QUANTITY_PC",
+    "INTEREST_POINTS",
+    "PRICE_EXTEND",
+    "SHIPPING",
+    "DESC",
+    "TRAFFIC_IDENTIFY",
+    "AFTER_SALE_SERVICE_BLOCK",
+    "COMPLIANCE_PC",
+    "PRICE_BANNER",
+    "PRODUCT_PROP_PC",
+    "GLOBAL_DATA",
+    "PRICE",
+    "SELLING_POINT_PC",
+    "WISHLIST",
+    "SHOP_CARD_PC",
+    "RECOMMEND_PC",
+    "BOTTOM_BAR_PC",
+    "MIND",
+    "PRODUCT_TITLE",
+    "PERSONAL_INFORMATION_SECURITY",
+    "INSTALLMENT",
+    "COUPON_BLOCK_PC",
+    "SKU"
+  ],
+  "titles": [
+    {
+      "path": "DESC.instructionInfo.title",
+      "val": "Documenti e guide agli articoli"
+    },
+    {
+      "path": "DESC.title",
+      "val": "Dettagli del prodotto"
+    },
+    {
+      "path": "AFTER_SALE_SERVICE_BLOCK.title",
+      "val": "Resi gratuiti entro 15 giorni"
+    },
+    {
+      "path": "COMPLIANCE_PC.complianceList[1].title",
+      "val": "Informazioni sulla conformità dei prodotti"
+    },
+    {
+      "path": "COMPLIANCE_PC.complianceList[2].title",
+      "val": "Dichiarazione di non responsabilità"
+    },
+    {
+      "path": "COMPLIANCE_PC.title",
+      "val": "Dichiarazione di conformità"
+    },
+    {
+      "path": "GLOBAL_DATA.globalData.subject",
+      "val": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT"
+    },
+    {
+      "path": "PRICE.dailyPriceExplanationView.title",
+      "val": "30-day lowest price"
+    },
+    {
+      "path": "SHOP_CARD_PC.benefitInfoList[0].title",
+      "val": "# Venduti in 180 giorni"
+    },
+    {
+      "path": "SHOP_CARD_PC.benefitInfoList[1].title",
+      "val": "recensioni positive"
+    }
+  ],
+  "prices": [
+    {
+      "path": "PRICE_EXTEND.buildText",
+      "val": "<span style=\\\"color: #979797;\\\">Prezzo IVA inclusa | Nessun costo di importazione</span>; <span styl"
+    },
+    {
+      "path": "PRICE_EXTEND.seperator",
+      "val": "; "
+    },
+    {
+      "path": "SHIPPING.deliveryLayoutInfo[0].bizData.currency",
+      "val": "EUR"
+    },
+    {
+      "path": "SHIPPING.originalLayoutResultList[0].bizData.currency",
+      "val": "EUR"
+    },
+    {
+      "path": "PRICE_BANNER.atmosphereCode",
+      "val": "girdle_aplus_sd_pop"
+    },
+    {
+      "path": "PRICE_BANNER.skuBannerMap.12000061293263245.originalPriceFontColor",
+      "val": "#8E90A1"
+    },
+    {
+      "path": "PRICE_BANNER.skuBannerMap.12000061293263245.priceFontColor",
+      "val": "#000000"
+    },
+    {
+      "path": "PRICE_BANNER.skuBannerMap.12000061293263245.pricePromotionTextBackground",
+      "val": "#FEF3F5"
+    },
+    {
+      "path": "PRICE_BANNER.skuBannerMap.12000061293263244.originalPriceFontColor",
+      "val": "#8E90A1"
+    },
+    {
+      "path": "PRICE_BANNER.skuBannerMap.12000061293263244.priceFontColor",
+      "val": "#000000"
+    },
+    {
+      "path": "PRICE_BANNER.skuBannerMap.12000061293263244.pricePromotionTextBackground",
+      "val": "#FEF3F5"
+    },
+    {
+      "path": "PRICE_BANNER.targetSkuBanner.originalPriceFontColor",
+      "val": "#8E90A1"
+    },
+    {
+      "path": "PRICE_BANNER.targetSkuBanner.priceFontColor",
+      "val": "#000000"
+    },
+    {
+      "path": "PRICE_BANNER.targetSkuBanner.pricePromotionTextBackground",
+      "val": "#FEF3F5"
+    },
+    {
+      "path": "GLOBAL_DATA.globalData.curPagePriceInfo.pageType",
+      "val": "C"
+    },
+    {
+      "path": "GLOBAL_DATA.globalData.curPagePriceInfo.promotionInfo",
+      "val": "{\"n_tag\":\"-29919\",\"d\":\"3777153b\",\"u\":\"0\",\"m03_new_user\":\"-29895\",\"disPrice\":\"148.65\"}"
+    },
+    {
+      "path": "GLOBAL_DATA.globalData.i18n.PriceModule.LOT",
+      "val": "lotto"
+    },
+    {
+      "path": "GLOBAL_DATA.globalData.i18n.PriceModule.INSTALLMENT",
+      "val": "Rata"
+    },
+    {
+      "path": "GLOBAL_DATA.globalData.i18n.PriceModule.DEPOSIT",
+      "val": "Anticipo"
+    },
+    {
+      "path": "GLOBAL_DATA.globalData.i18n.PriceModule.PRE_ORDER_PRICE",
+      "val": "Prezzo del pre-ordine"
+    }
+  ],
+  "sku": {
+    "SKU": {
+      "keys": [
+        "extraInfo",
+        "hasSkuImage",
+        "hasSkuImagePropertyId",
+        "inSkuAboveBlacklist",
+        "selectedSkuAttr",
+        "selectedSkuId",
+        "selectedSkuIdStr",
+        "selectedSkuSaleable",
+        "skuImageSize",
+        "skuPaths",
+        "skuProperties",
+        "skuSupportClothes",
+        "stealthSelection",
+        "supportClothesSku"
+      ],
+      "skuPaths": "[{\"path\": \"14:193;200007763:201336342\", \"salable\": true, \"skuAttr\": \"200007763:201336342;14:193#10.25  NTG5.0\", \"skuId\": 12000061293263245, \"skuIdStr\": \"12000061293263245\", \"skuStock\": 75}, {\"path\": \"14:29;200007763:201336342\", \"salable\": true, \"skuAttr\": \"200007763:201336342;14:29#12.3  NTG5.0\", \"skuId\": 12000061293263244, \"skuIdStr\": \"12000061293263244\", \"skuStock\": 50}]"
+    }
+  },
+  "delivery": {},
+  "images": {
+    "total_found": 35,
+    "sources": [
+      {
+        "path": "HEADER_IMAGE_PC.currentSkuImages",
+        "count": 1
+      },
+      {
+        "path": "HEADER_IMAGE_PC.imagePathList",
+        "count": 8
+      },
+      {
+        "path": "HEADER_IMAGE_PC.imgList",
+        "count": 8
+      },
+      {
+        "path": "HEADER_IMAGE_PC.mainImages",
+        "count": 8
+      },
+      {
+        "path": "HEADER_IMAGE_PC.mainImages[0].imageUrl",
+        "count": 1,
+        "url": "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg"
+      },
+      {
+        "path": "HEADER_IMAGE_PC.mainImages[1].imageUrl",
+        "count": 1,
+        "url": "https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg"
+      },
+      {
+        "path": "HEADER_IMAGE_PC.mainImages[2].imageUrl",
+        "count": 1,
+        "url": "https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg"
+      },
+      {
+        "path": "HEADER_IMAGE_PC.mainImages[3].imageUrl",
+        "count": 1,
+        "url": "https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg"
+      },
+      {
+        "path": "HEADER_IMAGE_PC.mainImages[4].imageUrl",
+        "count": 1,
+        "url": "https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg"
+      },
+      {
+        "path": "HEADER_IMAGE_PC.mainImages[5].imageUrl",
+        "count": 1,
+        "url": "https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpe"
+      },
+      {
+        "path": "HEADER_IMAGE_PC.mainImages[6].imageUrl",
+        "count": 1,
+        "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg"
+      },
+      {
+        "path": "HEADER_IMAGE_PC.mainImages[7].imageUrl",
+        "count": 1,
+        "url": "https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg"
+      },
+      {
+        "path": "GLOBAL_DATA.globalData.image",
+        "count": 1,
+        "url": "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg"
+      },
+      {
+        "path": "GLOBAL_DATA.globalData.eventInfo.clcEvent.imageUrl",
+        "count": 1,
+        "url": "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg"
+      }
+    ]
+  },
+  "category": {},
+  "productId": null,
+  "global": {
+    "bigBossBan": null,
+    "errorCode": null,
+    "bigBossBanTip": null,
+    "gd_keys": [
+      "globalData"
+    ],
+    "gdata_keys": [
+      "hitHideShipToExp",
+      "curPagePriceInfo",
+      "subject",
+      "pcFeature202507",
+      "wishlistParams",
+      "dp",
+      "localStr",
+      "scene",
+      "pdp2pdpParam",
+      "sellerId",
+      "minidetailFloating",
+      "siteType",
+      "msiteFeature202506",
+      "category2",
+      "traceId",
+      "category3",
+      "image",
+      "regionProvinceName",
+      "productId",
+      "pc30"
+    ]
+  },
+  "key_types": {
+    "POPUP": "dict(2)",
+    "HEADER_IMAGE_PC": "dict(10)",
+    "PC_RATING": "dict(4)",
+    "QUANTITY_PC": "dict(4)",
+    "INTEREST_POINTS": "dict(6)",
+    "PRICE_EXTEND": "dict(4)",
+    "SHIPPING": "dict(10)",
+    "DESC": "dict(11)",
+    "TRAFFIC_IDENTIFY": "dict(1)",
+    "AFTER_SALE_SERVICE_BLOCK": "dict(8)",
+    "COMPLIANCE_PC": "dict(4)",
+    "PRICE_BANNER": "dict(4)",
+    "PRODUCT_PROP_PC": "dict(8)",
+    "GLOBAL_DATA": "dict(1)",
+    "PRICE": "dict(12)",
+    "SELLING_POINT_PC": "dict(0)",
+    "WISHLIST": "dict(4)",
+    "SHOP_CARD_PC": "dict(19)",
+    "RECOMMEND_PC": "dict(14)",
+    "BOTTOM_BAR_PC": "dict(12)",
+    "MIND": "dict(6)",
+    "PRODUCT_TITLE": "dict(3)",
+    "PERSONAL_INFORMATION_SECURITY": "dict(8)",
+    "INSTALLMENT": "dict(8)",
+    "COUPON_BLOCK_PC": "dict(11)",
+    "SKU": "dict(14)"
+  }
+}

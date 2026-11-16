@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie Stereo Regolabili Over-Ear con Cuscinetti Morbidi, Cavo Audio Rimovibile, Design Pieghevole, Cuffie Cablate Confortevoli per Musica e Viaggi",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "21.92",
+        "amount_minor": 2192,
+        "currency": "RUB",
+        "visible_label": "21.92 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "19.07",
+        "amount_minor": 1907,
+        "currency": "RUB",
+        "visible_label": "19.07 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sb49b14a2f3954c258044d5af2c2d55e9o.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013091451481",
+    "url": "https://ru.aliexpress.com/item/1005013091451481.html",
+    "observed_at": "2026-11-13T07:55:54.351636+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

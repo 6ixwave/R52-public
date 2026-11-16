@@ -1,0 +1,67 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Подгузники трусики ULTRA CARE 3 размер М 6-10 кг MEGA 72шт",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "MOMI",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 143700,
+        "amount": "1437.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 334200,
+        "amount": "3342.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-14.wbbasket.ru/vol2074/part207430/207430199/images/big/1.webp"
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "source": "WB",
+    "id": "207430199",
+    "listing_id": "207430199",
+    "title": "Подгузники трусики ULTRA CARE 3 размер М 6-10 кг MEGA 72шт",
+    "url": "https://www.wildberries.ru/catalog/207430199/detail.aspx",
+    "observed_at": "2026-11-16T15:06:01.311916+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

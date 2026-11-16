@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Redmi 15C 5G: 8GB+256GB, Dimensity 6300, 120Hz-Display, 50MP-Kamera, 6000mAh-Akku und 33W-Schnellladung für ganztägige Leistung.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "178.06",
+        "amount_minor": 17806,
+        "currency": "CHF",
+        "visible_label": "178.06 CHF"
+      },
+      {
+        "role": "original",
+        "amount": "405.16",
+        "amount_minor": 40516,
+        "currency": "CHF",
+        "visible_label": "405.16 CHF"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S49df800a070d417b846bee767228de4as.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005013156231236",
+    "listing_id": "1005013156231236",
+    "title": "Redmi 15C 5G: 8GB+256GB, Dimensity 6300, 120Hz-Display, 50MP-Kamera, 6000mAh-Akku und 33W-Schnellladung für ganztägige Leistung.",
+    "url": "https://www.aliexpress.com/item/1005013156231236.html",
+    "observed_at": "2026-11-16T05:13:26.486973+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

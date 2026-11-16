@@ -1,0 +1,47 @@
+
+============================================================
+[WB card API v2 id=199298871] https://card.wb.ru/cards/v2/detail?nm=199298871
+  Status: 403, 0 bytes, 0.8s
+  Headers: Content-Type=text/plain
+  Body preview: 
+
+============================================================
+[WB card API v2 id=314337853] https://card.wb.ru/cards/v2/detail?nm=314337853
+  Status: 403, 0 bytes, 0.1s
+  Headers: Content-Type=text/plain
+  Body preview: 
+
+============================================================
+[WB HTML id=199298871] https://www.wildberries.ru/catalog/199298871/detail.aspx
+  Status: 498, 1136 bytes, 0.8s
+  Headers: Content-Type=text/html
+  Body preview: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="357eb4e4c608c471ded74213b8b27597" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Dat
+
+============================================================
+[WB HTML id=314337853] https://www.wildberries.ru/catalog/314337853/detail.aspx
+  Status: 498, 1136 bytes, 0.1s
+  Headers: Content-Type=text/html
+  Body preview: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="26fd233598a167875d23b741dcc2c543" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Dat
+
+============================================================
+[WB card API v1 id=199298871] https://card.wb.ru/cards/v1/detail?nm=199298871
+  Status: 403, 0 bytes, 0.1s
+  Headers: Content-Type=text/plain
+  Body preview: 
+
+============================================================
+[WB card API v1 id=314337853] https://card.wb.ru/cards/v1/detail?nm=314337853
+  Status: 403, 0 bytes, 0.1s
+  Headers: Content-Type=text/plain
+  Body preview: 
+
+============================================================
+WB PROBE SUMMARY:
+  {'id': '199298871', 'method': 'card_api_v2', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'card_api_v2', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'html', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'html', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'card_api_v1', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'card_api_v1', 'status': 'FAIL'}
+
+Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_wb_results.json

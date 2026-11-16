@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie wireless Bluetooth Acer Ohr812, con auricolari a copertura totale, chiamate vocali ad alta definizione, suono stereo, bassa latenza, illuminazione RGB multicolore, autonomia della batteria di 50 ore, ideali per il gaming e per l’ascolto di contenuti multimediali.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "44.87",
+        "amount_minor": 4487,
+        "currency": "RUB",
+        "visible_label": "44.87 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "43.59",
+        "amount_minor": 4359,
+        "currency": "RUB",
+        "visible_label": "43.59 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S8ab59caf56af44e6a21ee05b865f6e47D.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013576068333",
+    "url": "https://ru.aliexpress.com/item/1005013576068333.html",
+    "observed_at": "2026-11-13T08:40:33.104711+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

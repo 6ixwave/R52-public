@@ -1,0 +1,25 @@
+23:44:17 Core: port=8423 pid=25148
+23:44:17 [01] /healthz: 200 ok=True
+23:44:17 [02] UI: 201 url=http://127.0.0.1:8423/ui?code=[REDACTED_AUTH_SECRET]
+23:44:17 [03] UI HTML: 200 len=1969
+23:44:17 [03] markers: ['r-52', 'div', 'main', 'html']
+23:44:17 [04] Edge opened
+23:44:17 [05] Schedules: 200 count=3
+23:44:17      backup: kind=backup enabled=1
+23:44:17      digest: kind=digest enabled=1
+23:44:17      maintenance: kind=maintenance enabled=1
+23:44:17 [06] Collect WB(id=1): 201 {"task": {"id": "3266249626ab4370bbb7d880103ee138", "kind": "collect", "origin": "USER", "idempotency_key": "auto:54f707fdf1a343df8f7f9d85549c12ad", "status": "QUEUED", "attempt": 1, "progress": 0, "c
+23:44:25 [07] Task 3266249626ab: status=FAILED result=null
+23:44:25 [08] Export: 201 r52-export-20261113T134425Z.zip size=4127 products=19
+23:44:25 [09] Backup: 202 task=76db125b8e11
+23:44:28 [09b] Backup status: COMPLETED
+23:44:28 [10] Backups: 200 count=13 latest=r52-20261113T134425Z-manual.sqlite3
+23:44:29 [11] CLI restore: exit=0 out=
+23:44:30 [12] Post-restore: 200 ok=True
+23:44:30 [12b] Products: 200 total=19
+23:44:30 [13] Exports: [('r52-export-20261113T134425Z.zip', 4127), ('r52-export-20261113T133820Z.zip', 4127)]
+23:44:30 [13] Backups: [('r52-20261113T134425Z-manual.sqlite3', 2072576), ('r52-20261113T133820Z-manual.sqlite3', 2072576)]
+23:44:30 
+23:44:30 === UI: http://127.0.0.1:8423/ui?code=[REDACTED_AUTH_SECRET] ===
+23:44:30 === 120s alive ===
+23:44:30 === V4 DONE ===

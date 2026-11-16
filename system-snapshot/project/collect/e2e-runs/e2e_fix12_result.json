@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-12T12:03:08.203159+10:00",
+  "s": 114.7,
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "d": {
+    "AVITO": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "reason": "all 6 strategies failed"
+    }
+  }
+}

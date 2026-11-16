@@ -1,0 +1,252 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Пылесос вертикальный для дома с влажной уборкой, Laikonic",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Пылесос вертикальный для дома с влажной уборкой Laikonic 1046149972 купить за 7&nbsp;381&nbsp;₽ в интернет‑магазине Wildberries. Бесплатная доставка и постоянные скидки!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/chats/dist/v25.0.0-chats-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/rqx/dist/v7.6.0-rqx-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/12.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/13.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/14.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/15.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/16.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/17.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/c246x328/18.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/12.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/13.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/14.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/15.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-42.wbbasket.ru/vol10461/part1046149/1046149972/images/big/16.webp",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "WB",
+    "id": "1046149972",
+    "url": "https://www.wildberries.ru/catalog/1046149972/detail.aspx",
+    "observed_at": "2026-11-16T05:19:23.293245+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "SOYES XS18 Pro Mini Smartphone Android 8.1 Gesichtserkennung 2GB RAM 16GB ROM 3,0-Zoll-Bildschirm Dual-SIM 3G Kleines Handy",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "25.08",
+        "amount_minor": 2508,
+        "currency": "CHF",
+        "visible_label": "25.08 CHF"
+      },
+      {
+        "role": "original",
+        "amount": "70.22",
+        "amount_minor": 7022,
+        "currency": "CHF",
+        "visible_label": "70.22 CHF"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sd015f96e637a4a99b91c25d5366446019.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005008001302101",
+    "listing_id": "1005008001302101",
+    "title": "SOYES XS18 Pro Mini Smartphone Android 8.1 Gesichtserkennung 2GB RAM 16GB ROM 3,0-Zoll-Bildschirm Dual-SIM 3G Kleines Handy",
+    "url": "https://ru.aliexpress.com/item/1005008001302101.html",
+    "observed_at": "2026-11-16T05:13:33.078394+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "cat_439": {
+    "status": 439,
+    "size": 14382,
+    "ids": [],
+    "title": "Доступ ограничен: проверка безопасности",
+    "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Доступ ограничен: проверка безопасности</title>\n    <style>\n        html,\n        body { height: 100%; }\n\n        body {\n            background-color: #fff;\n            color: #000;\n            margin: 0;\n        }\n\n        .firewall__title {\n            font-size: 32px;\n           "
+  },
+  "cat_moscow_auto": {
+    "status": 439,
+    "ids": [],
+    "size": 14889
+  },
+  "cat_moscow_realty": {
+    "status": 439,
+    "ids": [],
+    "size": 14889
+  },
+  "cat_moscow_work": {
+    "status": 439,
+    "ids": [],
+    "size": 14889
+  },
+  "cat_ekb_transport": {
+    "status": 429,
+    "ids": [],
+    "size": 35048
+  }
+}

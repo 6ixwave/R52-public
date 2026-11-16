@@ -1,0 +1,62 @@
+======================================================================
+1. FARPOST — реальные item-страницы (прямое соединение)
+======================================================================
+  [cat] 200 | 167494B | 1.14s
+  [item shiny-139122082.html] 200 | 39492B | 0.29s
+    saved fp_v26_item1.html
+    title=LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C - Купить ш
+    jsonld=2 og=7
+    price=['', '', '8 499']
+    photos=6 sample=['https://static.baza.farpost.ru/farpost_company/1779254022044_thumbnail120', '\\/personal\\/bookmark\\/note', 'https:\\/\\/static.baza.farpost.ru\\/farpost_catalog\\/1669597715957_default']
+    videos=[]
+    desc=Продажа LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C в Красноярске Зимние, 
+    specs=0 gallery=4
+  [item shiny-michelin-x-ice-snow-suv-275-50r21-] 200 | 63713B | 0.3s
+    title=Michelin X-Ice Snow SUV, 275/50 R21 - Купить шины в Хабаровс
+    jsonld=3 og=7
+    price=['', '', '40 000']
+    photos=36 sample=['https://static.baza.farpost.ru/v/1788239426475_bulletin', 'https://static.baza.farpost.ru/v/1788239536714_bulletin', '\\/personal\\/bookmark\\/note']
+    videos=[]
+    desc=Продажа Michelin X-Ice Snow SUV, 275/50 R21 в Хабаровске Зимние, Без шипов, Новы
+    specs=0 gallery=61
+  [item gruzovaja-shina-long-march-lm777-425-85r] 200 | 55377B | 0.29s
+    title=Long March LM777, C 425/85 R21 24PR - Купить шины в Хабаровс
+    jsonld=3 og=7
+    price=['', '', '58 050']
+    photos=19 sample=['\\/personal\\/bookmark\\/note', 'https://static.baza.farpost.ru/farpost_company/1789455313613_thumbnail120', 'https://static.baza.farpost.ru/v/1786928237854_bulletin?ni=yes']
+    videos=[]
+    desc=Продажа Long March LM777, C 425/85 R21 24PR в Хабаровске Всесезонные, Без шипов,
+    specs=0 gallery=32
+  
+[CDN test] https://static.baza.farpost.ru/farpost_company/1779254022044_thumbnail120
+    200 | image/jpeg | 1009B
+  
+[search iphone15] 200 | 215460B
+    items from search: 21
+  FARPOST: 3.8s
+======================================================================
+2. НОВЫЙ ПРОКСИ 1.10.133.83:8081 — WB / Ozon / Avito / Farpost
+======================================================================
+  [WB home] 498 | 1130B | 7.38s
+  [WB card] 498 | 1130B | 0.4s
+  [Ozon home] -1 | 0B | 12.18s
+  [Ozon card] -1 | 0B | 5.01s
+  [Avito home] -1 | 0B | 5.01s
+  [Avito search] -1 | 0B | 5.03s
+  [FP home] -1 | 0B | 5.01s
+  [FP item] 200 | 198843B | 9.66s
+  [FP old-proxy] 200 | 73362B | 2.94s
+  PROXY: 56.4s
+======================================================================
+3. FARPOST — глубже: структура item, фото, видео
+======================================================================
+  Loaded fp_v26_item1.html: 39492 chars
+  FARPOST_DEEP: 56.4s
+======================================================================
+SUMMARY [56.4s]
+======================================================================
+    FARPOST_ITEMS: 5 keys
+    PROXY_NEW: 5 keys
+    FARPOST_DEEP: 12 keys
+  Saved diag_v26_results.json
+  DONE diag_v26 [56.4s]

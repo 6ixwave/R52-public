@@ -1,0 +1,24 @@
+INFO r52.collectors.proxy Загружено прокси: 1000
+INFO r52.collectors.ozon OZON warmup: HTTP 403
+INFO r52.collectors.ozon OZON search: HTTP 403, retrying in 3s
+INFO r52.collectors.ozon OZON search: HTTP 403, retrying in 3s
+WARNING r52.collectors.ozon OZON search: HTTP 403 for 'видеокарты'
+INFO r52.collectors.pw_fetch PwFetcher: browser started (headless=False, proxy=no)
+INFO r52.collectors.ozon OZON search: HTTP 403 → PwFetcher (direct)
+WARNING r52.collectors.pw_fetch PwFetcher: https://www.ozon.ru/search/?text=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%8 -> 403 (3311B, 15.2s)
+WARNING r52.collectors.ozon OZON search: PwFetcher short (3311 bytes)
+WARNING r52.collectors.pw_fetch PwFetcher.get_xhr: no matching XHR captured
+INFO r52.collectors.proxy Загружено прокси: 1000
+INFO r52.collectors.wb WB: curl_cffi Session доступен (impersonate=chrome)
+INFO r52.collectors.wb WB warmup www.wildberries.ru: HTTP 498
+INFO r52.collectors.wb WB warmup catalog.wb.ru: HTTP 498
+INFO r52.collectors.wb WB search: HTTP 403, retrying in 1.5s
+INFO r52.collectors.wb WB search: HTTP 403, retrying in 1.5s
+INFO r52.collectors.wb WB search: global deadline reached, stopping
+INFO r52.collectors.wb WB search: JSON API failed (status=403), trying HTML fallback
+INFO r52.collectors.wb WB search: HTML fallback пуст, пробую PwFetcher (direct)
+INFO r52.collectors.pw_fetch PwFetcher: browser started (headless=False, proxy=no)
+INFO r52.collectors.pw_fetch PwFetcher.get_xhr: 17 bodies, best 219120B from https://www.wildberries.ru/__internal/u-recom/personal/v9/search?ab_testing=fals
+INFO r52.collectors.wb WB search XHR: 100 products from https://www.wildberries.ru/__internal/u-recom/personal/v9/search?ab_testing=fals
+INFO r52.collectors.wb WB search: 100 products in response for 'видеокарты'
+INFO r52.collectors.wb WB: collect_by_search 'видеокарты' → 5 products

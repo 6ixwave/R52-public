@@ -1,0 +1,67 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Наматрасник 160х200 непромокаемый на резинке с бортами",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "ОТКРУС",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 68600,
+        "amount": "686.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 408600,
+        "amount": "4086.00",
+        "currency": "RUB",
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-03.wbbasket.ru/vol365/part36549/36549557/images/big/1.webp"
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "source": "WB",
+    "id": "36549557",
+    "listing_id": "36549557",
+    "title": "Наматрасник 160х200 непромокаемый на резинке с бортами",
+    "url": "https://www.wildberries.ru/catalog/36549557/detail.aspx",
+    "observed_at": "2026-11-16T15:06:01.311916+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

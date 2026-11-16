@@ -1,0 +1,305 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шоколад кондитерский белый в каплях 1 кг 27% какао",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Мистер Чокер",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "Mr.cho-Beliy-melkie-kapli-1kg",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Откройте мир профессиональной кондитерской магии с белым бельгийским кондитерским шоколадом в дропсах (каллетах) бренда Мистер Чокер (Мистер Чо) 1 кг! Этот натуральный продукт, созданный на основе отборного какао‑масла, станет вашим надёжным помощником в создании безупречных десертов. Благодаря продуманной форме выпуска — шоколадным каплям — работать с продуктом невероятно удобно: они легко дозируются, быстро плавятся и идеально подходят для темперирования, гарантируя превосходный результат даже начинающим кондитерам.\n\nБелый бельгийский шоколад раскроет весь свой потенциал в ваших руках. Используйте его для приготовления изысканного ганаша, который станет нежной прослойкой для торта или элегантным покрытием для пирожных. Создайте незабываемое фондю для романтического вечера или организуйте эффектный шоколадный фонтан на празднике — продукт демонстрирует превосходную текучесть и стабильность при нагревании. Шоколадные капли прекрасно дополнят любую выпечку: добавьте их в тесто для получения аппетитных вкраплений или используйте для декора готовых изделий, создавая неповторимые узоры и акценты.\n\nПремиальное качество производства подтверждается каждым граммом этого удивительного продукта. Натуральный состав шоколада в каплях без искусственных добавок, сбалансированная рецептура на основе какао‑масла и строгий контроль производства обеспечивают насыщенный сливочный вкус и безупречную текстуру. Удобная фасовка ...кг позволяет всегда иметь под рукой достаточное количество шоколада для реализации любых творческих замыслов — от ежедневной выпечки до сложных многоярусных тортов.\n\nСделайте шаг навстречу профессиональному кондитерскому искусству — закажите белый бельгийский кондитерский шоколад прямо сейчас! С этим продуктом каждая ваша выпечка превратится в шедевр, а десерты будут вызывать восхищение у гостей и близких. Порадуйте себя и окружающих безупречным вкусом настоящего бельгийского шоколада! Содержание какао-масла - 27%. Ваш идеальный выбор для подарка на любой праздник! Не содержит глютена, орехов, ГМО",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Продукты > Шоколад кондитерский",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Вес с упаковкой (кг): 1.1 кг\nШирина упаковки: 14 см\nВысота упаковки: 9 см\nДлина упаковки: 21 см\nСостав: сахар; масло какао; сухое обезжиренное молоко; сухое цельное молоко; эмульгатор (лецитин соевый); соль; натуральная ваниль; не содержит глютена, орехов, ГМО\nВид шоколада: белый\nСодержание какао: 27%\nКоличество предметов в упаковке: 1 шт.\nВес товара без упаковки (г): 1000 г\nСрок годности: 18 мес\nПищевая ценность белки: 11 г/100г\nПищевая ценность углеводы: 51 г/100г\nПищевая ценность жиры: 32 г/100г\nМинимальная температура хранения: +12 °C\nМаксимальная температура хранения: +20 °C\nСтрана производства: Россия\nКомплектация: шоколад кондитерский в каплях 1 кг\nЭнергетическая ценность калории (на 100 гр.): 540 ккал",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 645000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "6450.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 109600,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1096.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/chats/dist/v25.0.0-chats-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/rqx/dist/v7.6.0-rqx-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/c246x328/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-12.wbbasket.ru/vol1776/part177630/177630236/images/big/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-48.wbbasket.ru/vol15426/part1542659/1542659600/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-38.wbbasket.ru/vol8686/part868698/868698450/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://content-03.wbbasket.ru/672d9415-a1cb-43ff-8024-9032012bfe6c/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/app-store.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/google-play.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/app-gallery.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/rustore.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/avrora.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/apps/qr-apps.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/default-settings-ru.22f317172ab6ff43648c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lang-ru.0e2a353ea6bc7a37.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-vendors.88d8eda9c1885eea.js",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Продукты > Шоколад кондитерский",
+    "source": "WB",
+    "id": "177630236",
+    "url": "https://www.wildberries.ru/catalog/177630236/detail.aspx",
+    "observed_at": "2026-11-16T05:30:16.746224+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

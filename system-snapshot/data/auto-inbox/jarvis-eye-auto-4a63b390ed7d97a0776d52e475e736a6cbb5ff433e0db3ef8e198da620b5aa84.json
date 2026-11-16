@@ -1,0 +1,39 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "WB-9285253",
+        "method": "FALLBACK",
+        "evidence": {
+          "method": "FALLBACK",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-01.wbbasket.ru/vol92/part9285/9285253/images/S800/S800.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "9285253",
+    "url": "https://www.wildberries.ru/catalog/9285253/detail.aspx",
+    "observed_at": "2026-11-15T18:18:50.204483+10:00",
+    "status": "DEGRADED",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

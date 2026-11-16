@@ -1,0 +1,79 @@
+=== diag_v6c — 2026-11-14 11:40:32 ===
+── AVITO: mobile fallback + traceback ──
+  SearchError: SEARCH_HTTP_429
+
+  --- Manual mobile fallback (verbose) ---
+  URL: https://www.avito.ru/rossiya?q=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8&p=1
+  Desktop: HTTP 429, 33450 bytes, 1.1s
+  → Trying mobile fallback...
+  Mobile: HTTP 429, 33450 bytes, 1.1s
+
+── OZON: HTML analysis ──
+  HTTP 403, 8545 bytes, 1.0s
+  <title>: Antibot Challenge Page
+  __INITIAL_STATE__: 0 hits
+  __NEXT_DATA__: 0 hits
+  window.__state: 0 hits
+  data-widget: 0 hits
+  tileId: 0 hits
+  productId: 0 hits
+  /product/: 0 hits
+  captcha: 0 hits
+  antibot: 1 hits
+  challenge: 10 hits
+  /product/ IDs: 0 (first 5: [])
+  data-tid: 0 (first 5: [])
+  --- HTML head (first 2000 chars) ---
+    
+    
+        
+    
+    <!DOCTYPE html><html lang="ru"><head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+      <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+      <link rel="stylesheet" href="https://cdn2.ozone.ru/s3/abt-challenge/incidents/styles_v2/common.css">
+      <title>Antibot Challenge Page</title>
+      <link rel="stylesheet" href="https://cdn2.ozone.ru/s3/abt-challenge/style_v47_2.css">
+    </head>
+    
+    <body>
+      <noscript>
+        <div class="container">
+          <div class="message">
+            <div class="variant">
+              <h2 class="h2">Пожалуйста, включите JavaScript для продолжения</h2>
+              <span class="subtitle">Нам нужно убедиться, что вы не робот.</span>
+            </div>
+            <div class="variant" lang="en">
+              <h2 class="h2">Please, enable JavaScript to continue</h2>
+              <span class="subtitle">We need to make sure that you are not a robot.</span>
+            </div>
+          </div>
+          <div class="details">
+            <span class="details-text"><b>ID:</b> fab_chlg_20261114014052_01M7BVDVB6WJ6HAZRT2GXFERTA</span>,
+            <span class="details-text"><b>IP:</b> 82.162.122.156</span>,
+
+── FARPOST: p1 vs p2 raw comparison ──
+  p1: HTTP 200, 259181 bytes, 1.6s, url=https://www.farpost.ru/tech/audio_video/earphones/?_suggest=1&query=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8
+    page indicators in head: []
+    total results: N/A
+  p2: HTTP 200, 258534 bytes, 1.5s, url=https://www.farpost.ru/tech/audio_video/earphones/?_suggest=1&query=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8
+    page indicators in head: []
+    total results: N/A
+  p1 len=259181, p2 len=258534, identical=False
+  First diff at char 1078:
+    p1: ...c7bcbc388.css" type="text/css" charset="UTF-8"/>
+
+	<script type="application/javascript" nonce="78cf...
+    p2: ...c7bcbc388.css" type="text/css" charset="UTF-8"/>
+
+
+
+<script nonce="c63abf3efa9e20ab454770ff0d720606"...
+  p1 IDs: 45 (first 5: ['138088942', '138089008', '135023432', '135023441', '135023456'])
+  p2 IDs: 45 (first 5: ['138088942', '138089008', '135023432', '135023441', '135023456'])
+  Overlap: 45/45
+
+=== DONE ===

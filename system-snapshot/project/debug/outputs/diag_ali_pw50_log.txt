@@ -1,0 +1,40 @@
+[02:25:37] Warmup: www.aliexpress.com
+[02:25:51]   cookies: [REDACTED_AUTH_SECRET]
+[02:25:51] === TEST 1: Global (www), product 1 ===
+[02:25:51]   Region [global]: https://www.aliexpress.com
+[02:25:53]     MTOP[1]: 200 len=543
+[02:25:54]     MTOP[2]: 200 len=6301
+[02:25:54]     MTOP[3]: 200 len=8363
+[02:26:04]     MTOP[4]: 200 len=85
+[02:26:13]     MTOP saved → mtop_pw50_global_13323763_1.json (543 bytes)
+[02:26:13]     MTOP saved → mtop_pw50_global_13323763_2.json (6301 bytes)
+[02:26:13]     MTOP saved → mtop_pw50_global_13323763_3.json (8363 bytes)
+[02:26:13]     MTOP saved → mtop_pw50_global_13323763_4.json (85 bytes)
+[02:26:13] === TEST 2: US, product 1 ===
+[02:26:13]   Region [us]: https://us.aliexpress.com
+[02:26:37] === TEST 3: IT, product 1 ===
+[02:26:37]   Region [it]: https://it.aliexpress.com
+[02:26:38]     MTOP[1]: 200 len=543
+[02:26:38]     MTOP[2]: 200 len=6301
+[02:26:40]     MTOP[3]: 200 len=8363
+[02:26:42]     MTOP[4]: 200 len=85
+[02:26:57]     MTOP saved → mtop_pw50_it_13323763_1.json (543 bytes)
+[02:26:57]     MTOP saved → mtop_pw50_it_13323763_2.json (6301 bytes)
+[02:26:57]     MTOP saved → mtop_pw50_it_13323763_3.json (8363 bytes)
+[02:26:57]     MTOP saved → mtop_pw50_it_13323763_4.json (85 bytes)
+[02:26:57] === TEST 4: US, product 2 ===
+[02:26:57]   Region [us_p2]: https://us.aliexpress.com
+[02:27:18] Merging best data…
+[02:27:18] Saved → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_pw50_result.json (10860 bytes)
+[02:27:18] === FINAL ===
+[02:27:18]   title:    Остановлен переход на недоверенный сайт
+[02:27:18]   price:     
+[02:27:18]   stock:    
+[02:27:18]   images:   0
+[02:27:18]   region:   
+[02:27:18]   source:   dom_us_p1
+[02:27:18]   ban:      False — 
+[02:27:18]   [global_p1] mtop=4, lens=[543, 6301, 8363, 85], tmd=2, prices=[]
+[02:27:18]   [us_p1] mtop=0, lens=[], tmd=0, prices=[]
+[02:27:18]   [it_p1] mtop=4, lens=[543, 6301, 8363, 85], tmd=2, prices=[]
+[02:27:18]   [us_p2] mtop=0, lens=[], tmd=0, prices=[]

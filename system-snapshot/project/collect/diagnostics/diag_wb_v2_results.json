@@ -1,0 +1,52 @@
+[
+  {
+    "id": "199298871,314337853",
+    "method": "card_v2_batch",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "card_v2_single",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "card_v2_single",
+    "status": "FAIL"
+  },
+  {
+    "id": "search",
+    "method": "catalog_v1",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "html_cffi",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "html_cffi",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "basket_v2",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "basket_v2",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "static_image",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "static_image",
+    "status": "FAIL"
+  }
+]

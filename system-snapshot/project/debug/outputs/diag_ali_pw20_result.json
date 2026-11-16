@@ -1,0 +1,48 @@
+{
+  "1005011813323763": {
+    "url": "https://www.aliexpress.com/item/1005011813323763.html",
+    "mtop_count": 0,
+    "mtop_bodies": [],
+    "best_mtop_idx": null,
+    "product": {
+      "dom": {
+        "og": {
+          "og:url": "//www.aliexpress.com/item/3256811627009011.html?src=ibdm_d03p0558e02r02&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=&aff_short_key=",
+          "og:title": "2026 New Wireless Bluetooth 5.4 Headphones Business Office LED Display Ultra-Long Battery Life Anti-Slip ENC Noise Cancellation - AliExpress 44",
+          "og:type": "product",
+          "og:image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+          "og:description": "Smarter Shopping, Better Living! Aliexpress.com",
+          "og:site_name": "aliexpress."
+        },
+        "h1": "Aliexpress",
+        "prices": [],
+        "jsonld": [],
+        "bodyLen": 176937
+      }
+    },
+    "elapsed": 36.8
+  },
+  "1005006798847852": {
+    "url": "https://www.aliexpress.com/item/1005006798847852.html",
+    "mtop_count": 0,
+    "mtop_bodies": [],
+    "best_mtop_idx": null,
+    "product": {
+      "dom": {
+        "og": {
+          "og:url": "?src=ibdm_d03p0558e02r02&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=&aff_short_key=",
+          "og:title": "",
+          "og:type": "product",
+          "og:image": "",
+          "og:description": "",
+          "og:site_name": "aliexpress."
+        },
+        "h1": "Aliexpress",
+        "prices": [],
+        "jsonld": [],
+        "bodyLen": 182483
+      }
+    },
+    "elapsed": 36.8
+  }
+}

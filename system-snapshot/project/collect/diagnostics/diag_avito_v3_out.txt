@@ -1,0 +1,18 @@
+﻿2026-11-12 03:43:09,910 avito3 INFO === 1) DECODE 439 BODY ===
+2026-11-12 03:43:11,555 avito3 INFO cat_439                   439   14889B
+2026-11-12 03:43:11,556 avito3 INFO   *** IDs: []
+2026-11-12 03:43:11,556 avito3 INFO === 2) MORE CATEGORIES ===
+2026-11-12 03:43:13,184 avito3 INFO cat_moscow_auto           439   14889B
+2026-11-12 03:43:13,184 avito3 INFO   *** moscow_auto: 0 IDs
+2026-11-12 03:43:16,811 avito3 INFO cat_moscow_realty         439   14889B
+2026-11-12 03:43:16,812 avito3 INFO   *** moscow_realty: 0 IDs
+2026-11-12 03:43:20,457 avito3 INFO cat_moscow_work           439   14889B
+2026-11-12 03:43:20,457 avito3 INFO   *** moscow_work: 0 IDs
+2026-11-12 03:43:23,254 avito3 INFO cat_spb_auto              404   29907B
+2026-11-12 03:43:26,231 avito3 INFO cat_ekb_transport         429   35048B
+2026-11-12 03:43:26,231 avito3 INFO   *** ekb_transport: 0 IDs
+2026-11-12 03:43:28,231 avito3 INFO === 3) NO REAL IDs FOUND, trying direct ===
+2026-11-12 03:43:29,064 avito3 INFO ad_4712345678             404   29907B
+2026-11-12 03:43:29,896 avito3 INFO ad_4709876543             404   29907B
+2026-11-12 03:43:30,764 avito3 INFO ad_4705432198             404   29907B
+2026-11-12 03:43:30,765 avito3 INFO === DONE 21s. 5 keys ===

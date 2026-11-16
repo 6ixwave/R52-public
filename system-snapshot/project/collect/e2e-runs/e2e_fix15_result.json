@@ -1,0 +1,31 @@
+{
+  "ts": "2026-11-12T12:27:57.615722+10:00",
+  "s": 36.5,
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "d": {
+    "WB": {
+      "verdict": "E2E_FAIL",
+      "reason": "title=False price=None src=",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      }
+    },
+    "AVITO": {
+      "verdict": "E2E_FAIL",
+      "reason": "no ad IDs from any city",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      }
+    }
+  }
+}

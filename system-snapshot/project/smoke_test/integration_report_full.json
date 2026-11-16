@@ -1,0 +1,116 @@
+[
+  {
+    "source": "WB",
+    "listing_id": "199298871",
+    "url": "https://www.wildberries.ru/catalog/199298871/detail.aspx",
+    "status": "OK",
+    "eye_errors": [],
+    "normalize_errors": [],
+    "title": "Овсяный смарт коктейль для похудения без сахара",
+    "prices": [],
+    "media": {
+      "total": 1,
+      "photos": 1,
+      "videos": 0
+    },
+    "availability": "UNKNOWN",
+    "fields_count": 6,
+    "elapsed_sec": 73.9,
+    "error": null
+  },
+  {
+    "source": "OZON",
+    "listing_id": "1600562267",
+    "url": "https://www.ozon.ru/product/1600562267/",
+    "status": "NO_DATA",
+    "eye_errors": [],
+    "normalize_errors": [],
+    "title": null,
+    "prices": [],
+    "media": {
+      "total": 0,
+      "photos": 0,
+      "videos": 0
+    },
+    "availability": null,
+    "fields_count": 0,
+    "elapsed_sec": 136.0,
+    "error": "collect_product returned None (fetch failed or parse empty)"
+  },
+  {
+    "source": "AVITO",
+    "listing_id": "1096783029",
+    "url": "https://www.avito.ru/ad/1096783029",
+    "status": "NO_DATA",
+    "eye_errors": [],
+    "normalize_errors": [],
+    "title": null,
+    "prices": [],
+    "media": {
+      "total": 0,
+      "photos": 0,
+      "videos": 0
+    },
+    "availability": null,
+    "fields_count": 0,
+    "elapsed_sec": 63.0,
+    "error": "collect_product returned None (fetch failed or parse empty)"
+  },
+  {
+    "source": "FARPOST",
+    "listing_id": "18530297982",
+    "url": "https://www.farpost.ru/vladivostok/18530297982.html",
+    "status": "NO_DATA",
+    "eye_errors": [],
+    "normalize_errors": [],
+    "title": null,
+    "prices": [],
+    "media": {
+      "total": 0,
+      "photos": 0,
+      "videos": 0
+    },
+    "availability": null,
+    "fields_count": 0,
+    "elapsed_sec": 2.5,
+    "error": "collect_product returned None (fetch failed or parse empty)"
+  },
+  {
+    "source": "ALIEXPRESS",
+    "listing_id": "1005006564853571",
+    "url": "https://www.aliexpress.com/item/1005006564853571.html",
+    "status": "NO_DATA",
+    "eye_errors": [],
+    "normalize_errors": [],
+    "title": null,
+    "prices": [],
+    "media": {
+      "total": 0,
+      "photos": 0,
+      "videos": 0
+    },
+    "availability": null,
+    "fields_count": 0,
+    "elapsed_sec": 2.8,
+    "error": "collect_product returned None (fetch failed or parse empty)"
+  },
+  {
+    "source": "ALIEXPRESS_RU",
+    "listing_id": "1005006564853571",
+    "url": "https://ru.aliexpress.com/item/1005006564853571.html",
+    "status": "NO_DATA",
+    "eye_errors": [],
+    "normalize_errors": [],
+    "title": null,
+    "prices": [],
+    "media": {
+      "total": 0,
+      "photos": 0,
+      "videos": 0
+    },
+    "availability": null,
+    "fields_count": 0,
+    "elapsed_sec": 29.5,
+    "error": "collect_product returned None (fetch failed or parse empty)"
+  }
+]

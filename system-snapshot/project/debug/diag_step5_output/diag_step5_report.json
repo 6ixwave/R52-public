@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-11-14T15:20:47",
+  "tests": [
+    {
+      "source": "FARPOST",
+      "name": "discovery_cat_item0",
+      "status": "SUCCESS",
+      "id": "129414484",
+      "title": "Автошина 315/80R22.5 24PR Torro TR-888 170/167F",
+      "obs_status": "FULL_SUCCESS",
+      "prices": 1,
+      "price_detail": [
+        {
+          "role": "regular",
+          "amount": "29200.00",
+          "currency": "RUB"
+        }
+      ],
+      "media_count": 10,
+      "evidence": "COLLECTOR_AUTONOMOUS_HTTP"
+    },
+    {
+      "source": "FARPOST",
+      "name": "discovery_cat_item1",
+      "status": "SUCCESS",
+      "id": "116449819",
+      "title": "Шина грузовая BEL-138M. 315/70R22.5",
+      "obs_status": "FULL_SUCCESS",
+      "prices": 1,
+      "price_detail": [
+        {
+          "role": "regular",
+          "amount": "19600.00",
+          "currency": "RUB"
+        }
+      ],
+      "media_count": 2,
+      "evidence": "COLLECTOR_AUTONOMOUS_HTTP"
+    },
+    {
+      "source": "FARPOST",
+      "name": "discovery_cat_item2",
+      "status": "SUCCESS",
+      "id": "118783615",
+      "title": "Шина грузовая карьерная Forcerra BEL-268. 315/80R22.5 во Вла",
+      "obs_status": "FULL_SUCCESS",
+      "prices": 1,
+      "price_detail": [
+        {
+          "role": "regular",
+          "amount": "20600.00",
+          "currency": "RUB"
+        }
+      ],
+      "media_count": 1,
+      "evidence": "COLLECTOR_AUTONOMOUS_HTTP"
+    },
+    {
+      "source": "FARPOST",
+      "name": "raw_links",
+      "status": "INFO",
+      "http_status": 200,
+      "page_len": 414064,
+      "total_links": 0,
+      "unique_ids": []
+    },
+    {
+      "source": "OZON",
+      "name": "collect_graceful",
+      "status": "ERROR",
+      "error": "no such column: url",
+      "trace": "\\R52-2.12\\debug\\diag_step5.py\", line 132, in <module>\n    cur.execute(f\"SELECT {id_col}, url FROM auto_target WHERE source='OZON' AND enabled=1 LIMIT 3\")\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlite3.OperationalError: no such column: url\n"
+    },
+    {
+      "source": "OZON",
+      "name": "http_286156832",
+      "status": 403,
+      "len": 8287,
+      "is_anti": true,
+      "elapsed_s": 1.65
+    },
+    {
+      "source": "OZON",
+      "name": "http_1700000001",
+      "status": 403,
+      "len": 8259,
+      "is_anti": true,
+      "elapsed_s": 1.57
+    },
+    {
+      "source": "INTAKE",
+      "name": "validate_autonomous",
+      "status": "OK",
+      "detail": "{'source': 'FARPOST', 'id': '139122082', 'url': 'https://www.farpost.ru/vladivostok/139122082.html', 'observed_at': '2026-11-14T15:10:00+10:00', 'status': 'FULL_SUCCESS', 'product_content': True, 'evi"
+    },
+    {
+      "source": "INTAKE",
+      "name": "validate_ozon_blocked",
+      "status": "OK",
+      "detail": "{'source': 'OZON', 'id': '286156832', 'url': 'https://www.ozon.ru/product/286156832/', 'observed_at': '2026-11-14T15:10:00+10:00', 'status': 'BLOCKED', 'product_content': False, 'evidence_level': 'COL"
+    }
+  ]
+}

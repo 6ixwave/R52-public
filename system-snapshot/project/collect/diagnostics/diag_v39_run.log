@@ -1,0 +1,46 @@
+2026-11-11 05:25:59,947 [INFO] diag_v39: === DIAG V39: curl_cffi, 4 platforms ===
+2026-11-11 05:25:59,948 [INFO] diag_v39: curl_cffi: True
+2026-11-11 05:25:59,948 [INFO] diag_v39: Ozon: ['229225961', '1317678381'] | WB: ['1252522762', '1024173669'] | Farpost: ['134004859', '132093530'] | Avito: discovery
+2026-11-11 05:26:00,013 [INFO] diag_v39: === OZON (curl_cffi) ===
+2026-11-11 05:26:00,014 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:26:00,014 [INFO] diag_v39: OZON 229225961: https://www.ozon.ru/product/229225961/
+2026-11-11 05:26:01,585 [INFO] diag_v39: GET https://www.ozon.ru/product/229225961/ -> 403 (1.6s) [a1]
+2026-11-11 05:26:08,187 [INFO] diag_v39: GET https://www.ozon.ru/product/229225961/ -> 403 (1.6s) [a2]
+2026-11-11 05:26:08,187 [INFO] diag_v39: OZON 1317678381: https://www.ozon.ru/product/1317678381/
+2026-11-11 05:26:09,117 [INFO] diag_v39: GET https://www.ozon.ru/product/1317678381/ -> 403 (0.9s) [a1]
+2026-11-11 05:26:15,003 [INFO] diag_v39: GET https://www.ozon.ru/product/1317678381/ -> 403 (0.9s) [a2]
+2026-11-11 05:26:15,003 [INFO] diag_v39: OZON done in 15.1s
+2026-11-11 05:26:15,003 [INFO] diag_v39: === WB (curl_cffi) ===
+2026-11-11 05:26:15,004 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:26:15,004 [INFO] diag_v39: WB API 1252522762: https://card.wb.ru/cards/v2/detail?nm=1252522762
+2026-11-11 05:26:15,813 [INFO] diag_v39: GET https://card.wb.ru/cards/v2/detail?nm=1252522762 -> 403 (0.8s) [a1]
+2026-11-11 05:26:21,627 [INFO] diag_v39: GET https://card.wb.ru/cards/v2/detail?nm=1252522762 -> 403 (0.8s) [a2]
+2026-11-11 05:26:23,628 [INFO] diag_v39: WB HTML 1252522762: https://www.wildberries.ru/catalog/1252522762/detail.aspx
+2026-11-11 05:26:24,413 [INFO] diag_v39: GET https://www.wildberries.ru/catalog/1252522762/detail.aspx -> 498 (0.8s) [a1]
+2026-11-11 05:26:24,414 [INFO] diag_v39: WB API 1024173669: https://card.wb.ru/cards/v2/detail?nm=1024173669
+2026-11-11 05:26:26,427 [INFO] diag_v39: GET https://card.wb.ru/cards/v2/detail?nm=1024173669 -> 403 (0.8s) [a1]
+2026-11-11 05:26:32,242 [INFO] diag_v39: GET https://card.wb.ru/cards/v2/detail?nm=1024173669 -> 403 (0.8s) [a2]
+2026-11-11 05:26:34,243 [INFO] diag_v39: WB HTML 1024173669: https://www.wildberries.ru/catalog/1024173669/detail.aspx
+2026-11-11 05:26:35,020 [INFO] diag_v39: GET https://www.wildberries.ru/catalog/1024173669/detail.aspx -> 498 (0.8s) [a1]
+2026-11-11 05:26:35,020 [INFO] diag_v39: WB done in 20.0s
+2026-11-11 05:26:35,020 [INFO] diag_v39: === AVITO (curl_cffi) ===
+2026-11-11 05:26:35,021 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:26:35,021 [INFO] diag_v39: AVITO disc: https://www.avito.ru/moskva/tech/communication/cellphones
+2026-11-11 05:26:37,120 [INFO] diag_v39: GET https://www.avito.ru/moskva/tech/communication/cellphones -> 439 (0.9s) [a1]
+2026-11-11 05:26:37,120 [INFO] diag_v39: AVITO disc: https://www.avito.ru/moskva/tech/notebooks
+2026-11-11 05:26:39,609 [INFO] diag_v39: GET https://www.avito.ru/moskva/tech/notebooks -> 439 (1.4s) [a1]
+2026-11-11 05:26:39,609 [WARNING] diag_v39: AVITO: no IDs, skip card parse
+2026-11-11 05:26:39,610 [INFO] diag_v39: AVITO done in 4.6s
+2026-11-11 05:26:39,610 [INFO] diag_v39: === FARPOST (curl_cffi) ===
+2026-11-11 05:26:39,610 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:26:39,610 [INFO] diag_v39: FARPOST 134004859: https://www.farpost.ru/bulletin/134004859
+2026-11-11 05:26:41,204 [INFO] diag_v39: GET https://www.farpost.ru/bulletin/134004859 -> 404 (1.0s) [a1]
+2026-11-11 05:26:41,208 [INFO] diag_v39: FARPOST 132093530: https://www.farpost.ru/bulletin/132093530
+2026-11-11 05:26:43,084 [INFO] diag_v39: GET https://www.farpost.ru/bulletin/132093530 -> 404 (0.8s) [a1]
+2026-11-11 05:26:43,084 [INFO] diag_v39: FARPOST done in 3.5s
+2026-11-11 05:26:43,085 [INFO] diag_v39: === V39 done 43.1s -> diag_v39_results.json (2697 B) ===
+2026-11-11 05:26:43,086 [INFO] diag_v39: --- SUMMARY ---
+2026-11-11 05:26:43,086 [INFO] diag_v39: OZON: {"229225961": "HTTP_403", "1317678381": "HTTP_403"}
+2026-11-11 05:26:43,086 [INFO] diag_v39: WB: {"api_1252522762": "HTTP_403", "html_1252522762": "HTTP_498", "api_1024173669": "HTTP_403", "html_1024173669": "HTTP_498"}
+2026-11-11 05:26:43,086 [INFO] diag_v39: AVITO: {"disc_cellphones": "HTTP_439", "disc_notebooks": "HTTP_439", "note": "?"}
+2026-11-11 05:26:43,086 [INFO] diag_v39: FARPOST: {"134004859": "HTTP_404", "132093530": "HTTP_404"}

@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Спрей термозащита для волос несмываемый уход 15 в 1",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "MIXIT",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "МИКСИТ Профессиональный несмываемый крем спрей 15 в 1 для волос RE START рестарт Perfect Hair Cream Spray Mixit – термозащита для волос ,средство для ухода и укладки, легкого расчесывания. Восстанавливающий и увлажняющий антистатический мист - многофункциональный термозащитный спрей для защиты от солнца, утюжка и фена для кудрей. Несмывашка против сухих секущихся кончиков, электризации и пушистости содержит пантенол и масло кокоса, которые подарят вам увлажнение и гладкость, укрепление, эффект разглаживания и густоты локонов. Парфюмерный кератиновый термоспрей с изысканным запахом для женщин имеет также разглаживающий и уплотняющий, антистатик и структурирующий эффекты. Универсальная пшикалка уплотнитель заменит все уходовые средства и подойдет для любых волос, кудрявых и вьющихся, окрашенных и пористых, гладких и непослушных, жирных и тонких. Мультифункциональный укрепляющий протеиновый спрей несмывайка с кератином идеален для осветленных блондинок и седых, поврежденных волос, для блонда. Защитный ароматизированный реконструктор для уплотнения, утолщения и придания совершенной красоты спасет вас от электролизации. Эликсир обеспечит питание и интенсивный аромат на каждый день, сияние и облегчение распутывания перед пользованием стайлерами. Подарочный мужской и домашний уход для хорошего подарка. mixit ре старт спрей для волос restart",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Красота > Спреи",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.4-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/MainFooter.b0ff762ba6c112bc.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/default-settings-ru.22f317172ab6ff43648c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lang-ru.c209555236b82e9e.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-vendors.88d8eda9c1885eea.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-app.f39d9a378793d996.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/index-spa.71cf448da12faff3.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/entry.92d454f76b230caf.js",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Красота > Спреи",
+    "source": "WB",
+    "id": "153436645",
+    "url": "https://www.wildberries.ru/catalog/153436645/detail.aspx",
+    "observed_at": "2026-11-17T01:24:43.483247+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

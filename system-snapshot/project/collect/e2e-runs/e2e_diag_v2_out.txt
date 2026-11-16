@@ -1,0 +1,5 @@
+2026-11-12 13:52:56,470 DIAG2              INFO  E2E DIAG V2  2026-11-12 13:52:56
+2026-11-12 13:52:56,470 DIAG2              INFO  === WB: 1097975275 (iPhone 17 Pro Max) ===
+2026-11-12 13:52:56,778 r52.collectors.proxy INFO  Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 13:52:56,779 r52.collectors.wb  INFO  WB: curl_cffi доступен (impersonate=chrome)
+2026-11-12 13:52:56,779 r52.collectors.wb  INFO  WB: curl_cffi доступен (impersonate=chrome)

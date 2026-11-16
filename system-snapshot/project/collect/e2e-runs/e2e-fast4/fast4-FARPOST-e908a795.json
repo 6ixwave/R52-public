@@ -1,0 +1,75 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Apple iPhone 17 256Gb Green Sage (зеленый) eSim! Без RuStore! Уценка ИОН",
+        "method": "HTTP",
+        "evidence": {
+          "method": "HTTP",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Смартфоны и сотовые телефоны. Цена: 65 000&#8381;. Apple iPhone 17. 256 Гб. 6.30&quot;. Моноблок. Зеленый. 4G LTE, 5G, Dual-SIM, Защищенный, eSIM. Б/у. В наличии. ~ Представляем iPhone 17 256Gb Sage eSim (Витринный образец) ~ Версия eSim Only ~ Устройство не было в использовании ~ Остаток АКБ - 99% ~ Полный заводской комплект ВАЖНАЯ ИНФОРМАЦИЯ — Стоимость актуальна при оплате наличными и только для товаров в наличии! — Предварительно перед посещением магазине рекомендуем уточнять актуальное наличие и актуальную... Владивосток",
+        "method": "HTTP",
+        "evidence": {
+          "method": "HTTP",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 6500000,
+        "currency": "RUB",
+        "label": "Cena"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1771995392418_bulletin",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793678442028_bulletin",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793678442191_bulletin",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793678442645_bulletin",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793678445813_bulletin",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "",
+    "source": "FARPOST",
+    "id": "138975631",
+    "url": "https://www.farpost.ru/vladivostok/138975631.html",
+    "observed_at": "2026-11-12T10:34:18.374190+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,25 @@
+[18:25:22] === E2E FAST v3 START ===
+[18:25:22] App opened OK
+[18:25:22] 
+[18:25:22] ━━━ OZON 3481320800 ━━━
+[18:25:22]   url=https://www.ozon.ru/product/3481320800/
+[18:26:52]   [OZON] TIMEOUT 90s (killing)
+[18:26:52]   → no observation
+[18:26:52] 
+[18:26:52] ━━━ WB 138278567 ━━━
+[18:26:52]   url=https://www.wildberries.ru/catalog/138278567/detail.aspx
+[18:27:57]   [WB] OK 64.2s
+[18:27:57]   title=?
+[18:27:57]   prices=[]
+[18:27:57]   status=None avail=None
+[18:27:57]   [wb-138278567-v3] staged=True status=INVALID id=6
+[18:27:57]     INVALID code=PUBLIC_SOURCE_URL_REQUIRED
+[18:27:57] 
+[18:27:57] ━━━ DB STATE ━━━
+[18:27:57]   #1 [WB] 1097975275 Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM) | — | UNKNOWN obs=1
+[18:27:57]   #2 [FARPOST] 129606872 Контрактный двигатель 1ZZ-FE цена с навесным! | 13500000 RUB | IN_STOCK obs=1
+[18:27:57]   #3 [FARPOST] 130693618 Triangle IcelynX TI501, 205/55 R16 94T XL | 2440000 RUB | IN_STOCK obs=1
+[18:27:57]   #4 [WB] 138278567 Утюг BBK ISE-2404 | — | UNKNOWN obs=1
+[18:27:57]   #5 [WB] 145567890 Жидкость Maxwells Salt для вейпа под систем HYBRID | — | UNKNOWN obs=1
+[18:27:57] 
+[18:27:57] === DONE ===

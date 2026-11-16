@@ -1,0 +1,63 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 05:53:46,810 r52.autocollect.worker INFO phase=worker_start pid=23712
+2026-11-16 05:53:46,832 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-16 05:53:46,832 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 05:53:46,834 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 05:53:46,834 r52.autocollect.worker INFO source=WB listing=413862099 phase=collect_product_start
+2026-11-16 05:54:12,981 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-16 05:54:21,199 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 93 bodies, best 1781803B from https://static-basket-01.wbbasket.ru/vol2/site/app/c/mo-ui.84fe2be63e02dc4c.js
+2026-11-16 05:54:27,703 r52.collectors.pw_fetch INFO PwFetcher: https://www.wildberries.ru/catalog/413862099/detail.aspx -> 200 (2145852B, 6.3s)
+2026-11-16 05:54:27,841 r52.autocollect.worker INFO source=WB listing=413862099 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 05:54:27,841 r52.autocollect.worker INFO source=WB listing=110794179 phase=collect_product_start
+2026-11-16 05:54:38,509 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 214 bodies, best 1932B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+Timeout (0:01:00)!
+Thread 0x00004b1c [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000062ac (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 99 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 233 in _fetch_html
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 200 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 05:54:49,993 r52.autocollect.worker INFO source=WB listing=110794179 phase=collect_product_return status=SUCCESS
+2026-11-16 05:54:49,993 r52.autocollect.worker INFO source=WB listing=1524406193 phase=collect_product_start
+2026-11-16 05:55:12,409 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 213 bodies, best 2035B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 05:55:12,545 r52.autocollect.worker INFO source=WB listing=1524406193 phase=collect_product_return status=SUCCESS
+2026-11-16 05:55:12,545 r52.autocollect.worker INFO source=WB listing=755406779 phase=collect_product_start
+2026-11-16 05:55:34,058 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 216 bodies, best 1973B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 05:55:38,625 r52.autocollect.worker INFO source=WB listing=755406779 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 05:55:38,625 r52.autocollect.worker INFO source=WB listing=207437227 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x00004b1c [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000062ac (most recent call first):
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 771 in _poll
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 445 in select
+  File "C:\Python315\Lib\asyncio\base_events.py", line 2032 in _run_once
+  File "C:\Python315\Lib\asyncio\base_events.py", line 682 in run_forever
+  File "C:\Python315\Lib\asyncio\base_events.py", line 711 in run_until_complete
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\sync_api\_context_manager.py", line 60 in greenlet_main
+2026-11-16 05:55:49,701 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 222 bodies, best 1916B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 05:55:57,238 r52.autocollect.worker INFO source=WB listing=207437227 phase=collect_product_return status=SUCCESS
+2026-11-16 05:55:57,238 r52.autocollect.worker INFO source=WB phase=write_start returned=5 valid=5 stats={'requests': 0, 'success': 0, 'failed': 0, 'blocked': 0}
+2026-11-16 05:55:57,240 r52.collectors INFO WB: записан jarvis-eye-wb-f459420d.json
+2026-11-16 05:55:57,246 r52.collectors INFO WB: записан jarvis-eye-wb-03211518.json
+2026-11-16 05:55:57,247 r52.collectors INFO WB: записан jarvis-eye-wb-2fbdd1de.json
+2026-11-16 05:55:57,247 r52.collectors INFO WB: записан jarvis-eye-wb-95517a76.json
+2026-11-16 05:55:57,248 r52.collectors INFO WB: записан jarvis-eye-wb-6fc287e5.json
+2026-11-16 05:55:57,251 r52.autocollect.worker INFO source=WB phase=write_complete files=5
+2026-11-16 05:55:57,251 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-16 05:55:58,068 r52.autocollect.worker INFO source=WB phase=close_complete

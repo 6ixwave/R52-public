@@ -1,0 +1,58 @@
+2026-11-11 08:43:03,632 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+2026-11-11 08:43:09,926 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-11 08:43:10,047 r52.collectors.wb WARNING WB 199298871: card.json parse error: Expecting value: line 1 column 1 (char 0)
+2026-11-11 08:43:20,749 r52.collectors.wb INFO WB 199298871: price API v5 -> 403
+2026-11-11 08:43:29,654 r52.collectors.wb INFO WB 199298871: price API v4 -> 403
+2026-11-11 08:43:44,989 r52.collectors.wb INFO WB 199298871: price API v2 -> 403
+2026-11-11 08:43:44,990 r52.collectors.wb INFO WB 199298871: price API — все версии не дали данных
+2026-11-11 08:44:00,591 r52.collectors WARNING WB: HTTP 498 для https://www.wildberries.ru/catalog/199298871/detail.aspx
+2026-11-11 08:44:26,213 r52.collectors.wb INFO WB: vol=10979 -> basket-42.wbbasket.ru (nm_id=1097975275)
+2026-11-11 08:44:26,337 r52.collectors.wb WARNING WB 1097975275: card.json parse error: Expecting value: line 1 column 1 (char 0)
+2026-11-11 08:44:40,602 r52.collectors.wb INFO WB 1097975275: price API v5 -> 403
+2026-11-11 08:44:59,971 r52.collectors.wb INFO WB 1097975275: price API v4 -> 403
+2026-11-11 08:45:17,860 r52.collectors.wb INFO WB 1097975275: price API v2 -> 403
+2026-11-11 08:45:17,861 r52.collectors.wb INFO WB 1097975275: price API — все версии не дали данных
+2026-11-11 08:45:34,347 r52.collectors WARNING WB: HTTP 498 для https://www.wildberries.ru/catalog/1097975275/detail.aspx
+Stats before: {'requests': 0, 'success': 0, 'failed': 0, 'blocked': 0}
+Proxy stats: {'total': 0, 'alive': 0, 'use_proxies': False}
+
+============================================================
+COLLECTING WB 199298871
+============================================================
+  status: DEGRADED
+  title: WB-199298871
+  brand: ?
+  model: ?
+  category: ?
+  availability: UNKNOWN
+  prices (0):
+  media: 1 photos, 0 videos
+    IMG: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg
+  description: 0 chars
+  elapsed: 57.0s
+  saved: test_wb_199298871.json
+
+============================================================
+COLLECTING WB 1097975275
+============================================================
+  status: DEGRADED
+  title: WB-1097975275
+  brand: ?
+  model: ?
+  category: ?
+  availability: UNKNOWN
+  prices (0):
+  media: 1 photos, 0 videos
+    IMG: https://basket-42.wbbasket.ru/vol10979/part1097975/1097975275/images/S800/S800.jpg
+  description: 0 chars
+  elapsed: 91.8s
+  saved: test_wb_1097975275.json
+
+============================================================
+SUMMARY
+============================================================
+  {'id': '199298871', 'status': 'DEGRADED', 'elapsed': 57.0}
+  {'id': '1097975275', 'status': 'DEGRADED', 'elapsed': 91.8}
+  Collector stats: {'requests': 2, 'success': 0, 'failed': 2, 'blocked': 0}
+
+Done. Output: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\test_wb_out

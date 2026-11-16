@@ -1,0 +1,39 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "realme 16 Pro Plus 5G Smartphone 6.8",
+        "method": "OPEN_GRAPH",
+        "evidence": {
+          "method": "OPEN_GRAPH",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sbf8c581fe7eb497398b9870fb27c43ecq.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005012330093922",
+    "url": "https://ru.aliexpress.com/item/1005012330093922.html",
+    "observed_at": "2026-11-15T02:17:19.989653+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,14 @@
+2026-11-12 05:05:58,343 e2e_pw INFO E2E PW TEST v2 START 2026-11-12T05:05:58.343316+10:00
+2026-11-12 05:05:58,360 e2e_pw INFO === OZON E2E ===
+2026-11-12 05:05:58,513 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-pw-home\collectors\proxies.json не найден, режим direct
+2026-11-12 05:05:58,513 e2e_pw INFO OZON: fetching https://www.ozon.ru/product/1681720398/
+2026-11-12 05:05:59,171 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True)
+2026-11-12 05:06:04,857 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/1681720398/ -> 403 (3307B, 5.7s)
+2026-11-12 05:06:04,862 r52.collectors.ozon INFO OZON 1681720398: PW status=403 len=3307
+2026-11-12 05:06:05,392 r52.collectors INFO OZON: HTTP 403, retry 1/3 через 15с
+2026-11-12 05:06:24,951 r52.collectors INFO OZON: HTTP 403, retry 2/3 через 23с
+2026-11-12 05:06:48,332 r52.collectors INFO OZON: HTTP 403, retry 3/3 через 45с
+2026-11-12 05:07:34,559 e2e_pw ERROR OZON: collect_product returned None
+2026-11-12 05:07:34,560 e2e_pw INFO === WB PROBE (basket CDN) ===
+2026-11-12 05:07:34,561 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-pw-home\collectors\proxies.json не найден, режим direct
+2026-11-12 05:07:34,607 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)

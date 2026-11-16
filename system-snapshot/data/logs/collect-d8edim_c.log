@@ -1,0 +1,19 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 02:19:01,422 r52.autocollect.worker INFO phase=worker_start pid=20420
+2026-11-15 02:19:01,449 r52.autocollect.worker INFO source=FARPOST mode=discover phase=initialize
+2026-11-15 02:19:01,449 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 02:19:01,450 r52.collectors.farpost INFO FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-15 02:19:01,451 r52.autocollect.worker INFO source=FARPOST proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-15 02:19:01,452 r52.autocollect.worker INFO source=FARPOST phase=search_start page=1 limit=5
+2026-11-15 02:19:03,013 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-15 02:19:05,498 r52.collectors.farpost INFO FARPOST search: 50 bulletin links found
+2026-11-15 02:19:05,499 r52.collectors.farpost INFO FARPOST: collect_by_search 'ноутбуки' → 5 products
+2026-11-15 02:19:05,499 r52.autocollect.worker INFO source=FARPOST phase=write_start returned=5 valid=5 stats={'requests': 1, 'success': 1, 'failed': 0, 'blocked': 0}
+2026-11-15 02:19:05,501 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-9251889c.json
+2026-11-15 02:19:05,503 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-f1091f43.json
+2026-11-15 02:19:05,504 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-99e788a8.json
+2026-11-15 02:19:05,504 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-8d6418b6.json
+2026-11-15 02:19:05,505 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-694ba2f7.json
+2026-11-15 02:19:05,506 r52.autocollect.worker INFO source=FARPOST phase=write_complete files=5
+2026-11-15 02:19:05,507 r52.autocollect.worker INFO source=FARPOST phase=close_start
+2026-11-15 02:19:05,508 r52.autocollect.worker INFO source=FARPOST phase=close_complete

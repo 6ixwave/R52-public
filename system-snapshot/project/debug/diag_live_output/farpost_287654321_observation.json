@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "title": {
+      "status": "KNOWN",
+      "value": "Страница не найдена",
+      "method": "HTML"
+    },
+    "description": {
+      "status": "KNOWN",
+      "value": "Подать объявление во Владивостоке. Частные объявления и предложения организаций Владивостока.",
+      "method": "HTML"
+    },
+    "category": {
+      "status": "KNOWN",
+      "value": "vladivostok > 287654321.html",
+      "method": "BREADCRUMB"
+    }
+  },
+  "price_candidates": [],
+  "media": {
+    "items": []
+  },
+  "availability": "UNKNOWN",
+  "category_path": "vladivostok > 287654321.html"
+}

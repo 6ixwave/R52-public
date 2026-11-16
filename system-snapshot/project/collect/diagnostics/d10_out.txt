@@ -1,0 +1,22 @@
+﻿C:\Python315\python.exe : 2026-11-12 16:45:32,535 === diag_multi10 START ===
+строка:1 знак:36
++ ... ence='Continue'; C:\Python315\python.exe diag_multi10.py 2>&1 | Out-F ...
++                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 16:4...lti10 START ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 16:45:34,422 OZON:cffi HTTP=403 len=8426
+2026-11-12 16:45:35,464 WB:basket HTTP=200 len=10942
+2026-11-12 16:45:35,465 WB:basket keys=['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_name', 'vendor_c
+ode', 'description', 'options', 'certificate', 'nm_colors_names', 'colors', 'full_colors', 'selling', 'media', 'data', 
+'grouped_options', 'need_kiz', 'user_flags', 'update_date', 'create_date']
+2026-11-12 16:45:36,754 FP:warmup HTTP=200 cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 16:45:39,507 FP:direct HTTP=200 len=197933 url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F138859452.ht
+ml
+2026-11-12 16:45:40,537 === diag_multi10 DONE in 8.0s ===
+2026-11-12 16:45:40,538   OZON:cffi    ok=False HTTP=403 len=8426 jsonld=False title=None prices=[]
+2026-11-12 16:45:40,538   WB:basket    ok=True  HTTP=200 title=Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM) nkeys=2
+1 prices=['selling.supplier_id=250148991', 'selli
+2026-11-12 16:45:40,538   FP:direct    ok=False HTTP=200 len=197933 verify=True prices=[] cookies=[REDACTED_AUTH_SECRET]
+n']
+2026-11-12 16:45:40,538   AV:quick     ok=False HTTP=429 len=34116 captcha=True prices=[]

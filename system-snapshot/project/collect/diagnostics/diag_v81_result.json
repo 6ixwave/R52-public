@@ -1,0 +1,35 @@
+{
+  "version": "v81",
+  "timestamp": "2026-11-11T01:50:30.551+00:00",
+  "pre": {
+    "product": 4,
+    "observation": 15,
+    "price_point": 8,
+    "source": 6
+  },
+  "post": {
+    "product": 4,
+    "observation": 15,
+    "price_point": 8,
+    "source": 6
+  },
+  "results": {
+    "FARPOST": {
+      "status": "ALL_FAILED",
+      "note": "all URL patterns failed"
+    },
+    "WB": {
+      "status": "NO_DATA",
+      "note": "no title from any strategy"
+    },
+    "AVITO": {
+      "status": "NO_LIVE_LISTING",
+      "note": "all attempts 429/439/timeout"
+    },
+    "OZON": {
+      "status": "HTTP_ERROR",
+      "code": 403
+    }
+  },
+  "overall": "PARTIAL"
+}

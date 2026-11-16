@@ -1,0 +1,1158 @@
+{
+  "ts": "2026-11-12T20:44:10.316130+00:00",
+  "source_file": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\diag_ali_ru15_out\\search_api.json",
+  "total_snippets": 40,
+  "unique_products": 40,
+  "products": [
+    {
+      "source_path": ".productsFeed.productsV2[0]",
+      "item_id": "1005009395997036",
+      "sku": "12000058714390951",
+      "price": 361,
+      "currency": "RUB",
+      "discount": "-72%",
+      "title": "Беспроводные наушники Lenovo TWS Bluetooth 5.3",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2b25c064bf184445a75918d4943cb4cd6.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S467c46008dcf4fc7a6e6c7d3532c5dadR.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sc2c0d0368b454ab98f9d48771a40ed76W.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S3a68970dcccc4181bf55b18e24f4df78J.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sea6656be889042248a9670343ba46bd9k.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S42f707e285c644c996951f3dbe5500029.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sa282d356284c4415aefc169f03132cfdw.jpeg_480x480.jpeg"
+      ],
+      "url": "https://aliexpress.ru/item/1005009395997036.html?sku_id=12000058714390951",
+      "seller": null,
+      "raw_texts": [
+        "1 278 ₽",
+        "-72%",
+        "361 ₽",
+        "4.4",
+        "618 купили",
+        "Беспроводные наушники Lenovo TWS Bluetooth 5.3"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[1]",
+      "item_id": "1005010177647202",
+      "sku": "12000051414161572",
+      "price": 419,
+      "currency": "RUB",
+      "discount": "-55%",
+      "title": "Беспроводные наушники Bluetooth TWS  для Android, iOS, ПК",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb8389ad2a8b44a33a82229f52f47cd0f8.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S3c2f685b94cb49e880763b4d1e294023h.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S14af61a83c6a46c282a53260933687cdS.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb10faf036f56401c8a28ae7b643d035cD.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S7ceb8c041f6f4ac9a36bf8a010d889f0P.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8b6c594d252e4ce9babe09e1323836fdk.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8f1d2a0098fd4293b3a3c20c3d17fa5d2.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005010177647202.html?sku_id=12000051414161572",
+      "seller": null,
+      "raw_texts": [
+        "929 ₽",
+        "-55%",
+        "419 ₽",
+        "4.8",
+        "2 052 купили",
+        "Беспроводные наушники Bluetooth TWS  для Android, iOS, ПК",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[2]",
+      "item_id": "1006710909",
+      "sku": "5000004411710516",
+      "price": 1457,
+      "currency": "RUB",
+      "discount": "-47%",
+      "title": "Беспроводные наушники Pods Air 3",
+      "images": [
+        "https://st.aestatic.net/items-img-12/R/B/N/O/57521ed1638bde4d963c5b1968d9d7d2.jpg_480x480.jpg",
+        "https://st.aestatic.net/items-img-13/R/C/G/L/0b02d0a2595b063b9d12eb592d4e3e24.jpg_480x480.jpg",
+        "https://st.aestatic.net/items-img-13/R/C/J/9/077bef671d097adc0bb3afcf5714d057.jpg_480x480.jpg",
+        "https://st.aestatic.net/items-img-8/R/7/M/6/e5811f5db4ec03ccf817ddc7cf4c1cc6.jpg_480x480.jpg",
+        "https://st.aestatic.net/items-img-2/R/1/9/E/289a695104ebdf7752c3f870bb020dad.jpg_480x480.jpg",
+        "https://st.aestatic.net/items-img-22/R/L/K/F/ecbe11828063b77ddebe550a1c7cf138.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1006710909.html?sku_id=5000004411710516",
+      "seller": null,
+      "raw_texts": [
+        "2 748 ₽",
+        "-47%",
+        "1 457 ₽",
+        "5.0",
+        "99 купили",
+        "Беспроводные наушники Pods Air 3",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[3]",
+      "item_id": "1005011854128641",
+      "sku": "12000056780693426",
+      "price": 700,
+      "currency": "RUB",
+      "discount": "-76%",
+      "title": "Беспроводные Наушники Lenovo GM2 Pro - Игровые Bluetooth-гарнитуры Hi-Fi Stereo Для Спорта, Внутриканальные",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S928dffd5a9c64b33aba88ac397f96b4bR.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S352da66be31e4adc94bcb3c89da077af8.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Scacefc5b42274edb80e03f35600cd5c7x.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S5956677142c549e1a3e811cb166a9e12d.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2f8a20924e34462693ee7d54c274e1edP.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2ffc993364c8480badb0f99bdb419e11k.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4a7e884e0b8a45f3ad4f057a82bda65a1.png_480x480.png"
+      ],
+      "url": "https://aliexpress.ru/item/1005011854128641.html?sku_id=12000056780693426",
+      "seller": null,
+      "raw_texts": [
+        "2 926 ₽",
+        "-76%",
+        "700 ₽",
+        "4.9",
+        "208 купили",
+        "Беспроводные Наушники Lenovo GM2 Pro - Игровые Bluetooth-гарнитуры Hi-Fi Stereo Для Спорта, Внутриканальные",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[4]",
+      "item_id": "1005004971057275",
+      "sku": "12000031198096277",
+      "price": 162,
+      "currency": "RUB",
+      "discount": "-43%",
+      "title": "Беспроводные наушники Bluetooth 5.0 с микрофоном, цвет в ассортименте",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S19b3cb0d878b410797e088755d1efc4cM.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbbbfa7c912454a75975a54968861011fg.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2fc2153dfa19402c88887781c6745608L.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sefe1cd7533c54642a80183bf62d357baJ.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S00a2b0b6df3a4e9593cf69704f39a5c1J.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sabbe96d05ba24c29957f36652fb55792N.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbd15d37be2f44ff3ab52a2c2ad605cc2D.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005004971057275.html?sku_id=12000031198096277",
+      "seller": null,
+      "raw_texts": [
+        "284 ₽",
+        "-43%",
+        "162 ₽",
+        "4.2",
+        "9 497 купили",
+        "Беспроводные наушники Bluetooth 5.0 с микрофоном, цвет в ассортименте",
+        "до 20 дней, бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[5]",
+      "item_id": "1005010188904401",
+      "sku": "12000051461288160",
+      "price": 2309.0,
+      "currency": "RUB",
+      "discount": null,
+      "title": "Soundcore by Anker P40i Беспроводные наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S0d130173192c4b17bde8ffd454130edfG.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sacb67d89a88f4f308060382d639410c5g.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S7c0c45937ac44a46a1ad16a322a726aeU.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4d56451d858b480c875a9726309fd3e2n.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S5a04746e353c448eabf3989ce5c61a28K.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S6a4dfb2f37eb49ff842bd181352cc29fU.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Scf02b376f0784e88b8f6ebcd0e9c8cc6S.png_480x480.png"
+      ],
+      "url": "https://aliexpress.ru/item/1005010188904401.html?sku_id=12000051461288160",
+      "seller": null,
+      "raw_texts": [
+        "2 309 ₽ с купоном",
+        "2 650 ₽",
+        "5.0",
+        "1 030 купили",
+        "Soundcore by Anker P40i Беспроводные наушники",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[6]",
+      "item_id": "1005012942504630",
+      "sku": "12000059821340362",
+      "price": 140,
+      "currency": "RUB",
+      "discount": "-55%",
+      "title": "Беспроводные наушники KEBIDUMEI Bluetooth 5.3 с цифровым LED-дисплеем, 24 часа автономной работы, HiFi-звук, игровые гарнитуры, водонепроницаемые спортивные наушники.",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S71fbd92ff1fd4fc79cb727bc8a3ff6ceJ.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S61cdf7833f8b4c7799187e50d9072671t.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S845657eaa7574ef5bbf56ad6d67a6d56z.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S48f9143cb35e4bceae2cdcc77d2754ffn.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S478780f368944abb877ddd6c99d0d6c9g.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbc690bc164104d46bd079d99d9418597b.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S7356ddea6d3b4d2f875a1067801445b0K.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005012942504630.html?sku_id=12000059821340362",
+      "seller": null,
+      "raw_texts": [
+        "310 ₽",
+        "-55%",
+        "140 ₽",
+        "5.0",
+        "641 купили",
+        "Беспроводные наушники KEBIDUMEI Bluetooth 5.3 с цифровым LED-дисплеем, 24 часа автономной работы, HiFi-звук, игровые гарнитуры, водонепроницаемые спортивные наушники.",
+        "от 262 ₽"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[7]",
+      "item_id": "1005009186088167",
+      "sku": "12000048230985753",
+      "price": 879,
+      "currency": "RUB",
+      "discount": "-67%",
+      "title": "Lenovo GM2 Pro Беспроводные водонепроницаемые наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/See4b0593d93241f6bb74d64a18c747caa.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sec85e004c8ed46e4aee2063cc904b9d6P.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S65dd1047ac8a414c8086279f7f12d5214.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S3c140ae9969b48bb95f9e41d699db7bbz.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S99e3f33ac8714eeab5a4729a71162a4ac.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sea17a2bdf56d4afaafb5e0a5a5abb315c.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S00f0a814b338490783609b2a01e15ca6P.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005009186088167.html?sku_id=12000048230985753",
+      "seller": null,
+      "raw_texts": [
+        "2 676 ₽",
+        "-67%",
+        "879 ₽",
+        "4.9",
+        "3 624 купили",
+        "Lenovo GM2 Pro Беспроводные водонепроницаемые наушники",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[8]",
+      "item_id": "1005012387625997",
+      "sku": "12000058244797952",
+      "price": 599,
+      "currency": "RUB",
+      "discount": "-57%",
+      "title": "KEBIDUMEI Bluetooth 5.4 беспроводные наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbe7bb6df03da4bb393f1e644ccc3a918d.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S73fb580b98fe46f3ab1edeeba48d9ce5x.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S98f2c3d62b674038bd2d1050967ed5c30.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S172693cafd884980919e93d89eaed3fdO.jpeg_480x480.jpeg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2796873dc9614f5ba0f4c988db5c478d4.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd1be64463af44547817029e73681f6776.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S1ce73b0fa9c243ffb8dcb5982d3e2ef6m.png_480x480.png"
+      ],
+      "url": "https://aliexpress.ru/item/1005012387625997.html?sku_id=12000058244797952",
+      "seller": null,
+      "raw_texts": [
+        "1 381 ₽",
+        "-57%",
+        "599 ₽",
+        "4.9",
+        "744 купили",
+        "KEBIDUMEI Bluetooth 5.4 беспроводные наушники",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[9]",
+      "item_id": "1005010521339595",
+      "sku": "12000052681964834",
+      "price": 679,
+      "currency": "RUB",
+      "discount": "-63%",
+      "title": "Беспроводные игровые наушники Bluetooth с шумоподавлением",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S422260dbbfbd4c2eb04ca76887cd8bbcI.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2339dda1687544049037d48170b5c440B.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S86b846c569384024be0db8fa67308c1cP.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S21c1ae5d6ab64061bbcb15d41d9fd4f69.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S5d66d500e30e46a9ac604a9dbc4fdf290.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8ebdf242dd8f4c038fc4d5345aafe0b39.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S67562e1ab6ff4f47920cc030ca8f01fbT.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005010521339595.html?sku_id=12000052681964834",
+      "seller": null,
+      "raw_texts": [
+        "1 824 ₽",
+        "-63%",
+        "679 ₽",
+        "5.0",
+        "39 купили",
+        "Беспроводные игровые наушники Bluetooth с шумоподавлением",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[10]",
+      "item_id": "1005012470101332",
+      "sku": "12000058486938311",
+      "price": 360,
+      "currency": "RUB",
+      "discount": "-59%",
+      "title": "Беспроводные наушники-клипсы",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S1c9c766405234694be4e2ac90b29a917F.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sdd17af4bd5cc43c486b8e00e41ad67f1n.jpeg_480x480.jpeg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S5cfebd88f06e49b6b4509aaea97a3a6am.jpeg_480x480.jpeg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S75d35edf7e6745a586a7eeead448b6e0k.jpeg_480x480.jpeg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbf358967bcf441bf9d504acfe36ba1007.jpeg_480x480.jpeg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S405385aa63534b5fbec7f34f575a380eq.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9ec07d5ac7d94a879c4f07c35abc226aS.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005012470101332.html?sku_id=12000058486938311",
+      "seller": null,
+      "raw_texts": [
+        "875 ₽",
+        "-59%",
+        "360 ₽",
+        "4.5",
+        "91 купили",
+        "Беспроводные наушники-клипсы",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[11]",
+      "item_id": "1005009079611998",
+      "sku": "12000047840593982",
+      "price": 789,
+      "currency": "RUB",
+      "discount": "-60%",
+      "title": "Беспроводные Bluetooth 5.4 Наушники Lenovo XT53 С LED-дисплеем, Водонепроницаемые, С Низкой Задержкой, Для Игр",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/See4b0593d93241f6bb74d64a18c747caa.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf9c03d596db2429b9a97e49b516aa4f2n.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbfedc639a8bf4d5ebb5c3effbd831c9et.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sc53df47df0174b5d98ac21e0bf577b7bQ.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Scd6037f14647411cae92af5cddaa6e0cx.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8c16000b80fd44a7af857a5a6af345deU.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2abbed76e2714c07922b2176fe92bc5fE.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005009079611998.html?sku_id=12000047840593982",
+      "seller": null,
+      "raw_texts": [
+        "1 984 ₽",
+        "-60%",
+        "789 ₽",
+        "4.8",
+        "64 762 купили",
+        "Беспроводные Bluetooth 5.4 Наушники Lenovo XT53 С LED-дисплеем, Водонепроницаемые, С Низкой Задержкой, Для Игр",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[12]",
+      "item_id": "1005012203182425",
+      "sku": "12000057738037386",
+      "price": 1479,
+      "currency": "RUB",
+      "discount": "-57%",
+      "title": "Наушники Bluetooth 5.3, настоящие беспроводные наушники, басовый стереозвук со светодиодным дисплеем, чехол с воспроизведение...",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S6f09972735c14b2b80636a8e8cb0dbe2q.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S514bcc9843e74c9fb80388e0060d70023.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S695d8b860b9841ea8d9d8bc08bf75917E.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S1d88914e50cb415b9983be1abb933b3bb.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sda3bf74a2de1409aa0ee2f4ef72dd7c5D.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Se08c03a47c314df19fe25a62ae8a2990I.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd99f92d4d98242f381bf66f81e112997o.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005012203182425.html?sku_id=12000057738037386",
+      "seller": null,
+      "raw_texts": [
+        "3 417 ₽",
+        "-57%",
+        "1 479 ₽",
+        "5.0",
+        "134 купили",
+        "Наушники Bluetooth 5.3, настоящие беспроводные наушники, басовый стереозвук со светодиодным дисплеем, чехол с воспроизведение...",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[13]",
+      "item_id": "1005012479526928",
+      "sku": "12000058472333548",
+      "price": 310,
+      "currency": "RUB",
+      "discount": "-62%",
+      "title": "Высокопроизводительные Беспроводные Наушники Bluetooth С Превосходным Качеством Звука",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd282d00d3a9442048e839cfb9d9c0174Z.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb6ff5b1492804b349ba5623d405e9f95R.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4690a300d65d49139807da4e0b2b5179h.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4412eccfdad44afeaebb229f2e753b613.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2218192ceee343be90fdd775d770b036q.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S3479e93f5fd64bbf8e541aed2f5774d2y.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S84ed5780189d46ab98c6bdf0f3c89c7bm.png_480x480.png"
+      ],
+      "url": "https://aliexpress.ru/item/1005012479526928.html?sku_id=12000058472333548",
+      "seller": null,
+      "raw_texts": [
+        "813 ₽",
+        "-62%",
+        "310 ₽",
+        "4.5",
+        "829 купили",
+        "Высокопроизводительные Беспроводные Наушники Bluetooth С Превосходным Качеством Звука",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[14]",
+      "item_id": "1005011544951288",
+      "sku": "12000055880225939",
+      "price": 99,
+      "currency": "RUB",
+      "discount": "-86%",
+      "title": "Наушники Bluetooth HIFI Stereo с мощными басами, беспроводные, водонепроницаемые, с микрофоном, для Realme, Xiaomi, Life",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf2a50d5c40fc4c9a81b3c1d7a6974b093.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4292b658fd68410992c47b2297638586u.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S3e03e3b04ff448e3be3d3a2f4e75d38a7.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sef4f40b7467d4a34b27b5476ce26bc3bF.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sadf6ff85e0684723b3fec11fe1f838d5e.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd828dfdec5bd47fe98bcd37d32ac38e8n.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4994d3436b1241d5bc547458a4908e3c8.png_480x480.png"
+      ],
+      "url": "https://aliexpress.ru/item/1005011544951288.html?sku_id=12000055880225939",
+      "seller": null,
+      "raw_texts": [
+        "720 ₽",
+        "-86%",
+        "99 ₽",
+        "5.0",
+        "103 купили",
+        "Наушники Bluetooth HIFI Stereo с мощными басами, беспроводные, водонепроницаемые, с микрофоном, для Realme, Xiaomi, Life",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[15]",
+      "item_id": "1005012331552250",
+      "sku": "12000058089935617",
+      "price": 1109,
+      "currency": "RUB",
+      "discount": "-57%",
+      "title": "Беспроводные TWS-наушники С Bluetooth 5.4, Сверхнизкой Задержкой, Двойным Микрофоном И Шумоподавлением ENC",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S591b7b9ac3ab49fc8a898005fe325b93m.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sdceb79414ad84b8fa5ea175fa9cd2b2dk.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S6d8815a50497467d9a8bd1f00ff6b718D.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sfe4d6d7446c443eba9b430f27d7dfac87.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Se99ce3099f3b405d830b4b14a5b39beeg.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S88b8201b942b4bdda17741a7487a9cce9.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S88e21e927ac343a79f2725000a1ccbc8w.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005012331552250.html?sku_id=12000058089935617",
+      "seller": null,
+      "raw_texts": [
+        "2 562 ₽",
+        "-57%",
+        "1 109 ₽",
+        "4.9",
+        "1 126 купили",
+        "Беспроводные TWS-наушники С Bluetooth 5.4, Сверхнизкой Задержкой, Двойным Микрофоном И Шумоподавлением ENC",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[16]",
+      "item_id": "1005011862068601",
+      "sku": "12000056802817698",
+      "price": 442,
+      "currency": "RUB",
+      "discount": "-55%",
+      "title": "Беспроводные наушники Bluetooth 5.3  шумоподавление  для iPhone Samsung",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S1266c4b186d64bc0a47d59d898eeea27n.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sac86711288b64ed09b087b8f67107763A.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2ae8bcbdf3e14cc58d063f6f3fc43198K.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S469edfa6edab42f2a52e57117ae7057fQ.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9ed2a3e839d24fd18bf5f4b1ef130124D.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sdb086900064d4d08815ea5b5d4b24d8cx.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Seff4a704cc694029a84c786742d08427I.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005011862068601.html?sku_id=12000056802817698",
+      "seller": null,
+      "raw_texts": [
+        "980 ₽",
+        "-55%",
+        "442 ₽",
+        "4.9",
+        "1 693 купили",
+        "Беспроводные наушники Bluetooth 5.3  шумоподавление  для iPhone Samsung",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[17]",
+      "item_id": "1005010115456283",
+      "sku": "12000051194056762",
+      "price": 231,
+      "currency": "RUB",
+      "discount": "-68%",
+      "title": "Беспроводные наушники Briame TWS",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sad19c4ba9aaf4c83a735d03a494db1b08.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S6d708ccce1ec4ac2ab8b08f23bb390228.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9ff7357009a149068a155f7ac75ffb51U.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sad99ea7712844d95980ca56073f5c41b3.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S1b45bf8ada3e45aa89cd8670757fa163i.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4a477561f3d24b94b98b94480af475a3k.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sc26adbeb8e604860ab37a278f0195e11j.png_480x480.png"
+      ],
+      "url": "https://aliexpress.ru/item/1005010115456283.html?sku_id=12000051194056762",
+      "seller": null,
+      "raw_texts": [
+        "720 ₽",
+        "-68%",
+        "231 ₽",
+        "4.1",
+        "396 купили",
+        "Беспроводные наушники Briame TWS",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[18]",
+      "item_id": "1005009397326958",
+      "sku": "12000048993803318",
+      "price": 3709,
+      "currency": "RUB",
+      "discount": "-71%",
+      "title": "Soundcore by Anker Life Q30 беспроводные гибридные наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S29195d91552745218a9f86f9c9ef5b02V.jpeg_480x480.jpeg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S08f2ecae38d94e8097b4a0aa0b9d7bf7K.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S0ab88e41b8944f3abf903abd915cd38b1.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S3200b30f38d54ecfa68c3345d7ebba2eC.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd2be280c06184ba0b8d5abc361b66828G.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S20ccf48aa11943dea6469ce78e2467bch.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbb5fbdafa8fd4c0f893105872c2c078cC.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005009397326958.html?sku_id=12000048993803318",
+      "seller": null,
+      "raw_texts": [
+        "12 763 ₽",
+        "-71%",
+        "3 709 ₽",
+        "4.7",
+        "625 купили",
+        "Soundcore by Anker Life Q30 беспроводные гибридные наушники",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[19]",
+      "item_id": "1005006959700436",
+      "sku": "12000039477279754",
+      "price": 2412,
+      "currency": "RUB",
+      "discount": "-66%",
+      "title": "QCY MeloBuds Pro ANC беспроводные наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf3383a35bac041acad10e4c903fa6804V.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbfc76b9b31ff46d8aba0ac0efc8299cd4.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2b5178dbf83a4032b28968c4c8fab7dfH.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sc014ebc1d50940caa677456f2b3465b0J.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S11f4b09791f346e68d419eba6dc3b909L.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2819c35ff3a24cd5bf6d5f11c71de46b1.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb51a7ad983354239a574fd028cec9cddj.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005006959700436.html?sku_id=12000039477279754",
+      "seller": null,
+      "raw_texts": [
+        "7 188 ₽",
+        "-66%",
+        "2 412 ₽",
+        "4.8",
+        "89 546 купили",
+        "QCY MeloBuds Pro ANC беспроводные наушники",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[20]",
+      "item_id": "1005010674996475",
+      "sku": "12000053154856990",
+      "price": 331,
+      "currency": "RUB",
+      "discount": "-59%",
+      "title": "Беспроводные спортивные наушники J20 Bluetooth 5.2",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S26810765da3a42d18aa26a4d73e972d6K.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S6e04948cf1b245799540e0b9fe5bb8eao.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S23488499a79649f9a4aad76cacfe49b26.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S6b5b1d8266cd471e810e0f9717bdf861W.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sde042de45157453cabecb4d3e76a821fM.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S0e7e035cfb7c4140839b68f0a473e0d6m.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S24c2292d87b34c97ade5371078a1b51aW.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005010674996475.html?sku_id=12000053154856990",
+      "seller": null,
+      "raw_texts": [
+        "800 ₽",
+        "-59%",
+        "331 ₽",
+        "5.0",
+        "71 купили",
+        "Беспроводные спортивные наушники J20 Bluetooth 5.2",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[21]",
+      "item_id": "1006700406",
+      "sku": "5000004411690718",
+      "price": 1873,
+      "currency": "RUB",
+      "discount": "-35%",
+      "title": "Pods Air Pro 2 беспроводные наушники",
+      "images": [
+        "https://st.aestatic.net/items-img-6/R/5/7/B/8dc6836de1254d6d74e3b44c75ba832e.jpg_480x480.jpg",
+        "https://st.aestatic.net/items-img-9/R/8/C/G/f618dd18025e5876026d7cf1cba6cd0d.jpg_480x480.jpg",
+        "https://st.aestatic.net/items-img-23/R/M/C/7/e8f3a10a02a32b5278fd9b5b5395b438.jpg_480x480.jpg",
+        "https://st.aestatic.net/items-img-18/R/H/8/4/48751ba3be5392a300daed223f78fbf9.jpg_480x480.jpg",
+        "https://st.aestatic.net/items-img-19/R/I/0/7/c4766cebf01e38b740a645b890f295a0.jpg_480x480.jpg",
+        "https://st.aestatic.net/items-img-21/R/K/8/4/587b781d3463c299d47782308a34a2a6.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1006700406.html?sku_id=5000004411690718",
+      "seller": null,
+      "raw_texts": [
+        "2 873 ₽",
+        "-35%",
+        "1 873 ₽",
+        "5.0",
+        "96 купили",
+        "Pods Air Pro 2 беспроводные наушники",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[22]",
+      "item_id": "1005009399452623",
+      "sku": "12000048995103051",
+      "price": 854.0,
+      "currency": "RUB",
+      "discount": null,
+      "title": "Soundcore K20i от Anker Беспроводные полувкладыши",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sfc177a04d6904c19b77a1bf40ad4e511e.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S43c8ae6432d645c9b08d7ab391bd7183r.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S189a2dc4718d40de9b9bd1c11c7df4f4P.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb89925ea1d104c58b3d1db0a849d0fd0R.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd3f0698d223b49a4891c9d7162841576N.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S0c23f38beb4b408799583b8c430bfd5ba.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S00e86a67403b4e9c997077ef6d7eb145E.png_480x480.png"
+      ],
+      "url": "https://aliexpress.ru/item/1005009399452623.html?sku_id=12000048995103051",
+      "seller": null,
+      "raw_texts": [
+        "854 ₽ с купоном",
+        "939 ₽",
+        "4.7",
+        "4 927 купили",
+        "Soundcore K20i от Anker Беспроводные полувкладыши",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[23]",
+      "item_id": "1005007996567850",
+      "sku": "12000043201487378",
+      "price": 219,
+      "currency": "RUB",
+      "discount": "-64%",
+      "title": "Беспроводные наушники TWS Bluetooth прозрачные спортивные",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4df7f3659e774b718fd8b1ebc1913842O.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb895b2c4cd8d4c99b3360c28991f628cO.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf7a4839e673042f3a7bb5fbbe64c5f97a.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Se30c48acbce64d4ea699b5f99a996f71c.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S84a85b6bfab7434394d9cf2e458237d1N.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S96200ad3c99146fdb305a819efb592d6C.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9f8a177a378c4fb9a079be8bdef14bbbB.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005007996567850.html?sku_id=12000043201487378",
+      "seller": null,
+      "raw_texts": [
+        "613 ₽",
+        "-64%",
+        "219 ₽",
+        "4.4",
+        "1 780 купили",
+        "Беспроводные наушники TWS Bluetooth прозрачные спортивные",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[24]",
+      "item_id": "1005012045779486",
+      "sku": "12000057365837725",
+      "price": 270,
+      "currency": "RUB",
+      "discount": "-57%",
+      "title": "Беспроводные наушники E6S с цифровым дисплеем, шумоподавлением, водонепроницаемостью, стереозвуком и зарядным кейсом.",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sfd8ee65ba5104388acc14d26629b7c248.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Scc5707b3ab3e498c90f0cfee4240a0f3K.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Se2fe153cbe974665b937eac2bb418450a.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S06e58e6f54c94d98b05aa4aef8bcc0ffr.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Scdb239a0403c4e77a95cd711b848c3dbU.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S211c7e3b458648d2b5fffc182568f85b7.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S3950f2f9371547b088c1d09a7e0b0603i.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005012045779486.html?sku_id=12000057365837725",
+      "seller": null,
+      "raw_texts": [
+        "622 ₽",
+        "-57%",
+        "270 ₽",
+        "4.8",
+        "18 637 купили",
+        "Беспроводные наушники E6S с цифровым дисплеем, шумоподавлением, водонепроницаемостью, стереозвуком и зарядным кейсом.",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[25]",
+      "item_id": "1005013552366209",
+      "sku": "12000061410159967",
+      "price": 639,
+      "currency": "RUB",
+      "discount": "-50%",
+      "title": "rex i N49B TWS беспроводные наушники с шумоподавлением",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S400af88dcbe449bfb040f4900f3a24eft.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Saf782855d26c438caf460b20a7c27524M.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2003874a551342a0b715b1e22a57c47e0.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S7a84b9dffa014b6cab2d3c78b2467d1dp.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S6a71c879e304496bb3b44cb4107e3470S.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S28b44924198a46368c98ce6f30d49647Q.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S35c05e641c724c97b1d0c230866db2540.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005013552366209.html?sku_id=12000061410159967",
+      "seller": null,
+      "raw_texts": [
+        "1 272 ₽",
+        "-50%",
+        "639 ₽",
+        "rex i N49B TWS беспроводные наушники с шумоподавлением",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[26]",
+      "item_id": "1005008995922516",
+      "sku": "12000047504296450",
+      "price": 137,
+      "currency": "RUB",
+      "discount": "-60%",
+      "title": "E6S беспроводные наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S971844eee5cf4c2a8a2e0cc8bcda2983L.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sdab196f4123f4bc2890839d02f97932bP.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S662b3a4411444248af2736f54fa744e2h.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2e7af77dea5240a7b20967db9b71c7429.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4908c22a06664fc9a0337c0cbc075d69K.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2610f8ba35b848a5ab52047c16242eafc.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S5a6cf40ebc9045a18b2a0ead327e72cd9.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005008995922516.html?sku_id=12000047504296450",
+      "seller": null,
+      "raw_texts": [
+        "340 ₽",
+        "-60%",
+        "137 ₽",
+        "4.6",
+        "167 купили",
+        "E6S беспроводные наушники",
+        "до 20 дней, от 274 ₽"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[27]",
+      "item_id": "1005003008134694",
+      "sku": "12000046624322615",
+      "price": 1629,
+      "currency": "RUB",
+      "discount": "-59%",
+      "title": "TOZO T10 Беспроводные внутриканальные наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S000964158df74f5380dfe0d4c0146160F.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Se5a1d6eac7e34b7180956db13742a348m.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S08b5d7a13e01400fb95feba7c65259b2g.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S56e3df1987824be889847a3345d1aa92u.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S6e95ffb881414b8fac1af48c0819166bm.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S23cd9d74a3fd4f18a789c127db7a4307w.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S1e4cb773281644a28dd018d9ff1d1046L.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005003008134694.html?sku_id=12000046624322615",
+      "seller": null,
+      "raw_texts": [
+        "3 934 ₽",
+        "-59%",
+        "1 629 ₽",
+        "4.9",
+        "1 401 купили",
+        "TOZO T10 Беспроводные внутриканальные наушники",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[28]",
+      "item_id": "1005009398510095",
+      "sku": "12000048981004616",
+      "price": 1309,
+      "currency": "RUB",
+      "discount": "-54%",
+      "title": "UGREEN LightBuds TWS беспроводные наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd8060a857ead43e79c6e89180eda034fX.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S3a6421fb4a7f4de19cf87575fb872c92r.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8b3a35368a6d4b878c9cc560f6e3bc89V.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Seb95563e643b40ef86e4afb55aaee5cbX.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S7a7cdc91284c4cdfa16c555b6d9ecb49Y.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8838fe3c61654ef99c3b77c3a384cf58E.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd6a70596c53b44b9af14fc373a0436c6m.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005009398510095.html?sku_id=12000048981004616",
+      "seller": null,
+      "raw_texts": [
+        "2 868 ₽",
+        "-54%",
+        "1 309 ₽",
+        "4.8",
+        "482 купили",
+        "UGREEN LightBuds TWS беспроводные наушники",
+        "до 20 дней, бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[29]",
+      "item_id": "1005011802828897",
+      "sku": "12000056614478275",
+      "price": 599,
+      "currency": "RUB",
+      "discount": "-66%",
+      "title": "Наушники Ariettie TWS Bluetooth 5.1, Беспроводные Наушники-вкладыши С Микрофоном, Качество Звука Hi-Fi",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S99e4a947188043719f705310c7003aaaw.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sfa11ace07a77404db4d0512fd2696969m.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S05f9cfa25344451fbcbb9653b37c55feg.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sef9ec2d79b5b4fbe95598ea56713a947s.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd9d77e073a2240afae60a173ed623f88d.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S62b3def8c89f4fa89bd295087d781ddc8.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S5822c7f0d44a442bad8251cafef05de4t.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005011802828897.html?sku_id=12000056614478275",
+      "seller": null,
+      "raw_texts": [
+        "1 766 ₽",
+        "-66%",
+        "599 ₽",
+        "5.0",
+        "129 купили",
+        "Наушники Ariettie TWS Bluetooth 5.1, Беспроводные Наушники-вкладыши С Микрофоном, Качество Звука Hi-Fi",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[30]",
+      "item_id": "1005013082117746",
+      "sku": "12000060252360250",
+      "price": 1444.0,
+      "currency": "RUB",
+      "discount": null,
+      "title": "Беспроводные наушники AWEI Open Earloop 1  Bluetooth 6.0",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S43ec5d1aa32a4310af91796ae0f7d022T.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S22dbdc9091d24bb983d35571c0215321L.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sda3f3c34ed6e4cf5a549c6ee2723b09cW.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S14d1620a09e4419583cfb99c581015a2e.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S7bb541412b6944429fcbe4d2a0f215fbf.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sa80ed5e63c014b56843afe5f073c39dee.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S99f9c10fbb214ed2a7c45ee24158ec1fO.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005013082117746.html?sku_id=12000060252360250",
+      "seller": null,
+      "raw_texts": [
+        "1 444 ₽ с купоном",
+        "2 382 ₽",
+        "4.9",
+        "586 купили",
+        "Беспроводные наушники AWEI Open Earloop 1  Bluetooth 6.0",
+        "до 20 дней, бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[31]",
+      "item_id": "1005011570407382",
+      "sku": "12000055948613949",
+      "price": 529,
+      "currency": "RUB",
+      "discount": "-67%",
+      "title": "Беспроводные Bluetooth-наушники с шейным ремешком, Hi-Fi звуком, низкой задержкой и шумоподавлением для iOS и Android",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S0729fe17cda847eeb64411ac6eeae778D.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2d71227a9a3d4a90b9bb971ba5e61973n.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S1888d426177e4f27876b11202ba5f726r.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S08a195b0d21045c18af2d8d3f96873364.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Scfe60feeefca40cf9752587a6a08072aK.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2009342757a74ce381db91b371ee015fO.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S5004044e3514489191916922a36ebc31N.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005011570407382.html?sku_id=12000055948613949",
+      "seller": null,
+      "raw_texts": [
+        "1 600 ₽",
+        "-67%",
+        "529 ₽",
+        "4.5",
+        "8 054 купили",
+        "Беспроводные Bluetooth-наушники с шейным ремешком, Hi-Fi звуком, низкой задержкой и шумоподавлением для iOS и Android",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[32]",
+      "item_id": "1005008872181019",
+      "sku": "12000047035195002",
+      "price": 621,
+      "currency": "RUB",
+      "discount": "-55%",
+      "title": "Беспроводные Наушники Lenovo LP40 Pro С Глубоким Басом, Сенсорным Управлением, Защитой От Воды IPX5",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S878af02279e74125aad5ab3d6c4a5171y.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sa0eca0b123b2409eb4a7aefa31206266m.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S75f875b5a9d44735be2eedf1443d68f3V.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf42cfe67067f44fa8983e8b55851e100D.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf6a392f0fb32491da7c0453d3560dd97o.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S67eec069d2394c95943142fd6a3a7c59F.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2015b5134e1740aeb05b3bda311dfd01s.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005008872181019.html?sku_id=12000047035195002",
+      "seller": null,
+      "raw_texts": [
+        "1 379 ₽",
+        "-55%",
+        "621 ₽",
+        "4.8",
+        "31 062 купили",
+        "Беспроводные Наушники Lenovo LP40 Pro С Глубоким Басом, Сенсорным Управлением, Защитой От Воды IPX5",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[33]",
+      "item_id": "1005010437299741",
+      "sku": "12000052400997453",
+      "price": 186,
+      "currency": "RUB",
+      "discount": "-42%",
+      "title": "Беспроводные наушники Xiaomi Bluetooth 5.3",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S0621af3befe844d2b2e73f1924a8752fl.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8ce2b3f63b8e44e6b8d9a5a01bb5e4a7C.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sae1cc2fde28146f4a5c70d27cc542e51t.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S49799f6549c847e99493a2dfc6b6b2dai.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S3e9a743b91704fd8b742726c32ef1df2C.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf5c12636d2b741ce96bd6ae1fc8ef8d1M.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sc42b7b96107b45e29a1385d7edbd2c8fh.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005010437299741.html?sku_id=12000052400997453",
+      "seller": null,
+      "raw_texts": [
+        "320 ₽",
+        "-42%",
+        "186 ₽",
+        "5.0",
+        "8 купили",
+        "Беспроводные наушники Xiaomi Bluetooth 5.3",
+        "от 427 ₽"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[34]",
+      "item_id": "1005012801922054",
+      "sku": "12000060536041099",
+      "price": 28197.0,
+      "currency": "RUB",
+      "discount": null,
+      "title": "Sennheiser Momentum 5 Беспроводные Наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbcf19a257a8b4e218b59962bcaae51b36.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S631bed30eace48fc9ac855d1969ac5374.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbdd6c3a0694f40188d8074254acfefe9I.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S374fa53c1e98478a93f347e4ba1f8589k.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S5d256fb272e2499b88ff975d60a24a5c0.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S0282817224f542ba82d6ca59c5fb04252.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4996244d32e24b08b2256783374ef18dC.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005012801922054.html?sku_id=12000060536041099",
+      "seller": null,
+      "raw_texts": [
+        "28 197 ₽ с купоном",
+        "32 379 ₽",
+        "5.0",
+        "66 купили",
+        "Sennheiser Momentum 5 Беспроводные Наушники",
+        "до 20 дней, бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[35]",
+      "item_id": "1005007920772836",
+      "sku": "12000052612596067",
+      "price": 1121,
+      "currency": "RUB",
+      "discount": "-73%",
+      "title": "TOZO A1 Беспроводные наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S290408b7018440e79a324cdf8f879ed5J.jpeg_480x480.jpeg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sbd35bc15788b474fa68bb37d1e78e238o.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd4d0efbc8df94737bfac0810ac46a12ak.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9fe56a1f84e544979715d291117438e32.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S7ee66aba95504f64877a7fd51b2d95407.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sd0d0eb86c8b44cbdab5cacdbc6ee1551y.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S08444048d6b2465e93e041920850f2d5W.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005007920772836.html?sku_id=12000052612596067",
+      "seller": null,
+      "raw_texts": [
+        "4 197 ₽",
+        "-73%",
+        "1 121 ₽",
+        "4.8",
+        "315 купили",
+        "TOZO A1 Беспроводные наушники",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[36]",
+      "item_id": "1005009398663534",
+      "sku": "12000048994789395",
+      "price": 5584.0,
+      "currency": "RUB",
+      "discount": null,
+      "title": "Soundcore by Anker Space One беспроводные шумоподавляющие наушники",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8b047840ef894435b48706f9e758410bY.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S68c150e2011447efb79106d0d2216095I.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb45ccb3b287047ae9b696d48cc31a177a.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb076e7200c8a44a4af4fb5e8910c2e38k.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sa292e2fd8e634cb5bc3b0d88fd6debb7J.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9e7e9946aa854f819552577d177cd1727.png_480x480.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S5569770a69314ba0a91b3a7454f4130cF.png_480x480.png"
+      ],
+      "url": "https://aliexpress.ru/item/1005009398663534.html?sku_id=12000048994789395",
+      "seller": null,
+      "raw_texts": [
+        "5 584 ₽ с купоном",
+        "5 840 ₽",
+        "4.8",
+        "993 купили",
+        "Soundcore by Anker Space One беспроводные шумоподавляющие наушники",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[37]",
+      "item_id": "1005009015282029",
+      "sku": "12000047584163116",
+      "price": 124,
+      "currency": "RUB",
+      "discount": "-40%",
+      "title": "Беспроводные спортивные наушники с подвесным шейным ремешком, цвет в ассортименте",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S70b3cdb6ece54e858b4e18681a841eaeT.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S72fee2b2a5644505b893f52e004b3e7bz.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S0aa03a799d144335922bd0e279fa83cbv.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S28e313b737a34ceb9d3fee48fdad45d1t.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sdfb9be1c3d01452ab2eef45999dec50cv.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4aba1c3b7c6744cfb1704631e4e9a91cQ.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S923f3dba36304b16ac1216550fa8c0f1g.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005009015282029.html?sku_id=12000047584163116",
+      "seller": null,
+      "raw_texts": [
+        "206 ₽",
+        "-40%",
+        "124 ₽",
+        "4.5",
+        "340 купили",
+        "Беспроводные спортивные наушники с подвесным шейным ремешком, цвет в ассортименте",
+        "до 20 дней, от 98 ₽"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[38]",
+      "item_id": "1005006640653386",
+      "sku": "12000037899328704",
+      "price": 902,
+      "currency": "RUB",
+      "discount": "-57%",
+      "title": "Беспроводные наушники T-WOLF Jerry 5.0",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S55147162212747d0acfffbf07e85a8e1n.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S0a6ba5ddb2054275a0c962cab9743982u.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S5322866c1fa6472cb879c7d144eeb6b1C.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S35f7dae822a84e0cb0299c289f0cd2528.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S22f9fa6793284d9ba60b51da55cefee9G.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8e80988816d947f8ae81caa6704088cdJ.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8038f852f2e74a33b0489b6d79748ab4d.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005006640653386.html?sku_id=12000037899328704",
+      "seller": null,
+      "raw_texts": [
+        "2 095 ₽",
+        "-57%",
+        "902 ₽",
+        "4.5",
+        "97 купили",
+        "Беспроводные наушники T-WOLF Jerry 5.0",
+        "бесплатно"
+      ]
+    },
+    {
+      "source_path": ".productsFeed.productsV2[39]",
+      "item_id": "1005012312426652",
+      "sku": "12000058033583653",
+      "price": 349,
+      "currency": "RUB",
+      "discount": "-58%",
+      "title": "Xiaomi TWS Bluetooth Наушники с Шумоподавлением",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S958ca84b0199470583822c3b644a2770Y.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S4b7d06ceb130495f82722151d22216a02.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S30ff8053ae614aee9263a446ca85cb44I.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Se261d4d3b9e349fa8fd8faec6836d8ccN.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S7cb7a0683e2641998cadb197979114b3I.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sfafa10f7de8740a8ad2ae2901af19483N.jpg_480x480.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf9f7b119158d4c00a79fd9437258657a8.jpg_480x480.jpg"
+      ],
+      "url": "https://aliexpress.ru/item/1005012312426652.html?sku_id=12000058033583653",
+      "seller": null,
+      "raw_texts": [
+        "836 ₽",
+        "-58%",
+        "349 ₽",
+        "4.1",
+        "56 купили",
+        "Xiaomi TWS Bluetooth Наушники с Шумоподавлением",
+        "бесплатно"
+      ]
+    }
+  ]
+}

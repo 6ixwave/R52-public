@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "[Weltpremiere] POCO X8 5G Smartphone Globale Version NFC 8340mAh 67W HyperCharge Snapdragon ®   6s Gen 4 6,83\" 1,5K 120Hz Display",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "311.81",
+        "amount_minor": 31181,
+        "currency": "CHF",
+        "visible_label": "311.81 CHF"
+      },
+      {
+        "role": "original",
+        "amount": "493.86",
+        "amount_minor": 49386,
+        "currency": "CHF",
+        "visible_label": "493.86 CHF"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S54f8392c464f475f96e9299e7b41eed5w.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005003818708388",
+    "listing_id": "1005003818708388",
+    "title": "[Weltpremiere] POCO X8 5G Smartphone Globale Version NFC 8340mAh 67W HyperCharge Snapdragon ®   6s Gen 4 6,83\" 1,5K 120Hz Display",
+    "url": "https://www.aliexpress.com/item/1005003818708388.html",
+    "observed_at": "2026-11-16T05:13:26.487021+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

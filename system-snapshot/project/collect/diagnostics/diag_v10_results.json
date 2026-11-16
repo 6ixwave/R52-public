@@ -1,0 +1,117 @@
+{
+  "wb": {
+    "html": {
+      "http": 498,
+      "len": 1136,
+      "t": 0.9
+    },
+    "price_v2": {
+      "http": 403,
+      "len": 0,
+      "t": 0.9
+    },
+    "price_v1": {
+      "http": 403,
+      "len": 0,
+      "t": 0.9
+    }
+  },
+  "farpost": {
+    "warm": {
+      "http": 200,
+      "cookies": [
+        "ring",
+        "ring_session"
+      ],
+      "t": 1.1
+    },
+    "card": {
+      "http": 200,
+      "len": 197892,
+      "url": "https://www.farpost.ru/verify?u=%2Fvladivostok%2F139122082.html",
+      "verify": true,
+      "t": 0.8,
+      "cookies_after": "[REDACTED_AUTH_SECRET]"
+    },
+    "card_retry": {
+      "http": 200,
+      "len": 197906,
+      "url": "https://www.farpost.ru/verify?u=%2Fvladivostok%2F139122082.html",
+      "verify": true,
+      "t": 0.8,
+      "cookies_after": "[REDACTED_AUTH_SECRET]"
+    },
+    "mobile": {
+      "http": 200,
+      "len": 197917,
+      "url": "https://m.farpost.ru/verify?u=%2Fvladivostok%2F139122082.htm",
+      "verify": true,
+      "t": 1.6
+    },
+    "category": {
+      "http": 200,
+      "len": 89203,
+      "url": "https://www.farpost.ru/verify?u=%2Fvladivostok%2Felectronics",
+      "verify": true,
+      "t": 0.7,
+      "n_links": 0,
+      "first_links": [],
+      "n_prices": 0,
+      "first_prices": []
+    }
+  },
+  "ozon": {
+    "composer": {
+      "http": 403,
+      "len": 1081,
+      "t": 1.0
+    },
+    "ssr": {
+      "http": 403,
+      "len": 8398,
+      "t": 1.7
+    },
+    "mobile": {
+      "http": 403,
+      "len": 8257,
+      "t": 1.7
+    },
+    "entrypoint": {
+      "http": 403,
+      "len": 5975,
+      "t": 1.0
+    }
+  },
+  "avito": {
+    "search": {
+      "http": 439,
+      "len": 14382,
+      "t": 1.0,
+      "cookies": [
+        "srv_id",
+        "_adcc",
+        "_avisc",
+        "pow_challenge"
+      ],
+      "blocked": true,
+      "cookie_hint": "[REDACTED_AUTH_SECRET]"
+    },
+    "mobile": {
+      "http": 403,
+      "len": 8601,
+      "t": 0.9
+    },
+    "api": {
+      "http": 404,
+      "len": 555,
+      "t": 0.1
+    },
+    "card": {
+      "http": 404,
+      "len": 29440,
+      "t": 0.2
+    }
+  },
+  "total_s": 35.5,
+  "time": "2026-11-12T19:06:01.257758+10:00"
+}

@@ -1,0 +1,24 @@
+{
+  "OZON:cffi": {
+    "ok": false,
+    "detail": "HTTP=403 len=8426 jsonld=False title=None prices=[]",
+    "s": 1.9
+  },
+  "WB:basket": {
+    "ok": true,
+    "detail": "HTTP=200 title=Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM) nkeys=21 prices=['selling.supplier_id=250148991', 'selling.no_return_map=4351']",
+    "s": 1.0
+  },
+  "FP:direct": {
+    "ok": false,
+    "detail": "HTTP=200 len=197933 verify=True prices=[] cookies=[REDACTED_AUTH_SECRET]",
+    "s": 4.0
+  },
+  "AV:quick": {
+    "ok": false,
+    "detail": "HTTP=429 len=34116 captcha=True prices=[]",
+    "s": 1.0
+  },
+  "total_s": 8.0,
+  "time": "2026-11-12T16:45:40.537295"
+}

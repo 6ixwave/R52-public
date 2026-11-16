@@ -1,0 +1,278 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шапка демисезонная бини молодежная вязаная",
+        "method": "PRICE_API",
+        "evidence": {
+          "method": "PRICE_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Warms",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Шапка демисезонная бини молодежная вязаная Warms 1475428055 купить за 482&nbsp;₽ в интернет‑магазине Wildberries. Бесплатная доставка и постоянные скидки!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 200000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "2000.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 48200,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "482.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/chats/dist/v25.0.0-chats-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/rqx/dist/v7.6.0-rqx-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/c246x328/12.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-47.wbbasket.ru/vol14754/part1475428/1475428055/images/big/12.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-50.wbbasket.ru/vol17212/part1721261/1721261201/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-50.wbbasket.ru/vol17212/part1721261/1721261200/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-50.wbbasket.ru/vol17212/part1721261/1721261199/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-49.wbbasket.ru/vol16269/part1626969/1626969433/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-50.wbbasket.ru/vol17212/part1721261/1721261198/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/app-store.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/google-play.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/app-gallery.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/rustore.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/avrora.webp",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "WB",
+    "id": "1475428055",
+    "url": "https://www.wildberries.ru/catalog/1475428055/detail.aspx",
+    "observed_at": "2026-11-16T05:36:24.793832+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

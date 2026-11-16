@@ -1,0 +1,33 @@
+{
+  "ts": "2026-11-12T11:56:26.345172+10:00",
+  "s": 65.0,
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "d": {
+    "WB": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "reason": "title=True price=None src="
+    },
+    "AVITO": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "inbox": null,
+      "reason": "IP block / no ad fetched",
+      "dump": "C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\e2e-fix10\\avito_listing_dump.html"
+    }
+  }
+}

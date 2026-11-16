@@ -1,0 +1,47 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:19:06,698 r52.autocollect.worker INFO phase=worker_start pid=26640
+2026-11-16 04:19:06,718 r52.autocollect.worker INFO source=WB mode=discover phase=initialize
+2026-11-16 04:19:06,718 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 04:19:06,720 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-16 04:19:06,721 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 04:19:06,725 r52.autocollect.worker INFO source=WB phase=search_start page=1 limit=5
+2026-11-16 04:19:07,624 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-16 04:19:10,364 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-16 04:19:10,482 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=117 url=https://catalog.wb.ru/exactmatch/ru/common/v4/search?query=%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%
+2026-11-16 04:19:10,483 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-16 04:19:25,542 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=216 url=https://catalog.wb.ru/exactmatch/ru/common/v4/search?query=%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%
+2026-11-16 04:19:29,837 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=941 url=https://search.wb.ru/exactmatch/ru/common/v4/search?query=%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D
+2026-11-16 04:19:29,837 r52.collectors.wb INFO WB search: HTTP 403, retrying in 1.5s
+2026-11-16 04:19:46,947 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=113 url=https://search.wb.ru/exactmatch/ru/common/v4/search?query=%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D
+2026-11-16 04:19:46,947 r52.collectors.wb INFO WB search: global deadline reached, stopping
+2026-11-16 04:19:46,947 r52.collectors.wb INFO WB search: JSON API failed (status=403), trying HTML fallback
+2026-11-16 04:19:57,161 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=771 url=https://www.wildberries.ru/catalog/0/ru/?search=%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8
+2026-11-16 04:19:57,161 r52.collectors.wb INFO WB search: HTML fallback пуст, пробую PwFetcher (direct)
+2026-11-16 04:19:58,989 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+Timeout (0:01:00)!
+Thread 0x00005f98 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00005164 (most recent call first):
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 771 in _poll
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 445 in select
+  File "C:\Python315\Lib\asyncio\base_events.py", line 2032 in _run_once
+  File "C:\Python315\Lib\asyncio\base_events.py", line 682 in run_forever
+  File "C:\Python315\Lib\asyncio\base_events.py", line 711 in run_until_complete
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\sync_api\_context_manager.py", line 60 in greenlet_main
+2026-11-16 04:20:10,860 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 14 bodies, best 212677B from https://www.wildberries.ru/__internal/u-recom/personal/v9/search?ab_testing=fals
+2026-11-16 04:20:10,937 r52.collectors.wb INFO WB search XHR: 100 products
+2026-11-16 04:20:10,937 r52.collectors.wb INFO WB search: 100 products in response for 'косметика'
+2026-11-16 04:20:10,938 r52.collectors.wb INFO WB: collect_by_search 'косметика' → 5 products
+2026-11-16 04:20:10,939 r52.autocollect.worker INFO source=WB phase=write_start returned=5 valid=5 stats={'requests': 7, 'success': 0, 'failed': 0, 'blocked': 5}
+2026-11-16 04:20:10,940 r52.collectors INFO WB: записан jarvis-eye-wb-23e24825.json
+2026-11-16 04:20:10,945 r52.collectors INFO WB: записан jarvis-eye-wb-f7864d0d.json
+2026-11-16 04:20:10,948 r52.collectors INFO WB: записан jarvis-eye-wb-1344be64.json
+2026-11-16 04:20:10,950 r52.collectors INFO WB: записан jarvis-eye-wb-a79f7556.json
+2026-11-16 04:20:10,951 r52.collectors INFO WB: записан jarvis-eye-wb-aaedecf7.json
+2026-11-16 04:20:10,954 r52.autocollect.worker INFO source=WB phase=write_complete files=5
+2026-11-16 04:20:10,954 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-16 04:20:11,479 r52.autocollect.worker INFO source=WB phase=close_complete

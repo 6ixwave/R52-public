@@ -1,0 +1,158 @@
+{
+  "fp_home": {
+    "http": 200,
+    "bytes": 75719,
+    "content_links": [
+      "//www.farpost.ru/search.xml",
+      "http://www.enable-javascript.com/ru/",
+      "/",
+      "/personal/nav",
+      "/adding",
+      "/help/",
+      "/cart",
+      "https://www.farpost.ru/sign?return=%2F",
+      "/geo/nav/city?return=%2F",
+      "/geo/nav/city?return=%2F",
+      "/auto/",
+      "/rabota/",
+      "/realty/",
+      "/service/",
+      "/zapchasti/",
+      "/auto/wheel/",
+      "/auto/wheel/disc/",
+      "/auto/wheel/tire/",
+      "/auto/wheel/wheel/",
+      "/auto/wheel/cap/"
+    ],
+    "data_ids": [
+      "115",
+      "1036",
+      "516",
+      "172"
+    ],
+    "script_ids": [],
+    "body_sample": "<body  class=\"fixed1280 desktop no-touch\" data-cookie-host=\".farpost.ru\" data-dir-id=\"0\" data-experiments=\"bzr-35587\" data-page-name=\"main\" data-reqsig=\"4021c2e761a1ae566d82055caa0bd81a\" data-encoding-config=\"{&quot;*&quot;:&quot;utf8&quot;}\" data-lemma-join-format=\"with-delimiter\" data-url-array-format=\"brackets\">\n\t\n\t\t\t\n\t\t\t\t\t\n<noscript>\n\t\t\t<center><div class=\"noscript alert alert_r\" style=\"margin: 0 auto; float: none; border-radius: 0; font-size: 18px; padding-top: 10px; padding-bottom: 8px\">\n\t\t\t\t<p>У вас выключен JavaScript, сайт не будет работать корректно. <a style=\"color: #EA1B1B; text-decoration: underline\" href=\"http://www.enable-javascript.com/ru/\" target=\"_blank\">Включить JavaScript</a>.</p>\n\t\t\t</div></center>\n\t\t<div class=\"clear\">&nbsp;</div>\n\t\n\t<link rel=\"stylesheet\" href=\"https://www.farpost.ru/resources/assets/noscript.705358c042c468e9b088.css\" type=\"text/css\" />\n\n</noscript>\n\n<header class=\"bzr-header personalTopNav -anonym\">\n\t<div class=\"bzr-header-inner\">\n\t\t<div class=\"bzr-header-inner__items\">\n\t\t\t\t\t\t\t<a class=\"bzr-header-inner__logotype-container js-show-additional-navigation\"\n\t\t\t\t   data-dummy-click=\"{&quot;action&quot;:&quot;AnyPage_Header_LogoClick&quot;}\"\n\t\t\t\t   href=\"/\"\n\t\t\t\t>\n\t\t\t\t\t<svg  width=\"150\" height=\"26\" class=\"site-logotype\"><use  href=\"/resources/img/svg/sprites/farpost.svg?1#logo-FP-cyr\" xlink:href=\"/resources/img/svg/sprites/farpost.svg?1#logo-FP-cyr\"></use></svg>\t\t\t\t</a>\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t<noindex>\n\t\t\t\t\t\t<a class=\"bzr-header-inner__button bookma"
+  },
+  "fp_66422428": {
+    "http": 200,
+    "bytes": 62705,
+    "final": "https://www.farpost.ru/vladivostok/food/seafood/nerka-pbg-2025-2026-god-raznye-razmery-kamchatka-dostavka-66422428.html",
+    "url": "https://www.farpost.ru/vladivostok/food/seafood/nerka-pbg-2025-2026-god-raznye-razmery-kamchatka-dostavka-66422428.html",
+    "title": "Нерка ПБГ 2025-2026 год. Разные размеры. Камчатка. Доставка, в наличии. Цена: 1 100&#8381; во Владив",
+    "jsonld_count": 3,
+    "jsonld_type": "Product",
+    "jsonld_name": "Нерка ПБГ 2025-2026 год. Разные размеры. Камчатка. Доставка",
+    "jsonld_price": 1100,
+    "jsonld_currency": "RUB",
+    "jsonld_avail": "https://schema.org/InStock",
+    "jsonld_images": 20,
+    "data_price": "1100",
+    "og_title": "Нерка ПБГ 2025-2026 год. Разные размеры. Камчатка. Доставка, в наличии. Цена: 1 100&#8381; во Владив",
+    "price_html": [],
+    "has_lightbox": false,
+    "gallery_count": 14
+  },
+  "fp_131630486": {
+    "http": 200,
+    "bytes": 39995,
+    "final": "https://www.farpost.ru/khabarovsk/service/education/finance/intensiv-izmenenija-2025-2026-131630486.html",
+    "url": "https://www.farpost.ru/khabarovsk/service/education/finance/intensiv-izmenenija-2025-2026-131630486.html",
+    "title": "Интенсив «Изменения 2025-2026» в Хабаровске",
+    "jsonld_count": 2,
+    "data_price": null,
+    "og_title": "Интенсив «Изменения 2025-2026» в Хабаровске",
+    "price_html": [
+      "00 ",
+      "00 "
+    ],
+    "has_lightbox": false,
+    "gallery_count": 4
+  },
+  "fp_134164000": {
+    "http": 200,
+    "bytes": 49116,
+    "final": "https://www.farpost.ru/khabarovsk/auto/battery/akkumuljator-oursun-din-180-vypusk-2025-2026-g-v-nalichie-134164000.html",
+    "url": "https://www.farpost.ru/vladivostok/zapchasti/akkumulyator-oursun-din-180-2025-2026-134164000.html",
+    "title": "Аккумулятор Oursun DIN 180 выпуск 2025-2026 г В Наличие, кальциевый, обратная, 180 А.ч. 930 А. G51, ",
+    "jsonld_count": 3,
+    "jsonld_type": "Product",
+    "jsonld_name": "Аккумулятор Oursun DIN 180 выпуск 2025-2026 г В Наличие",
+    "jsonld_price": 22500,
+    "jsonld_currency": "RUB",
+    "jsonld_avail": "https://schema.org/InStock",
+    "jsonld_images": 2,
+    "data_price": "22500",
+    "og_title": "Аккумулятор Oursun DIN 180 выпуск 2025-2026 г В Наличие, кальциевый, обратная, 180 А.ч. 930 А. G51, ",
+    "price_html": [],
+    "has_lightbox": false,
+    "gallery_count": 2
+  },
+  "fp_136391752": {
+    "http": 200,
+    "bytes": 47339,
+    "final": "https://www.farpost.ru/ussuriisk/auto/packs/farkop-tenet-t8-25-nv-pod-kvadrat-50mm-136391752.html",
+    "url": "https://www.farpost.ru/vladivostok/auto/security/farrop-tenet-t8-15800-136391752.html",
+    "title": "Фаркоп Tenet T8 25-нв под квадрат, 50мм, новый, в наличии. Цена: 15 800&#8381; в Уссурийске",
+    "jsonld_count": 3,
+    "jsonld_type": "Product",
+    "jsonld_name": "Фаркоп Tenet T8 25-нв под квадрат, 50мм",
+    "jsonld_price": 15800,
+    "jsonld_currency": "RUB",
+    "jsonld_avail": "https://schema.org/InStock",
+    "jsonld_images": 1,
+    "data_price": "15800",
+    "og_title": "Фаркоп Tenet T8 25-нв под квадрат, 50мм, новый, в наличии. Цена: 15 800&#8381; в Уссурийске",
+    "price_html": [],
+    "has_lightbox": false,
+    "gallery_count": 0
+  },
+  "ozon_5699176004": {
+    "http": 403,
+    "bytes": 10821,
+    "final": "https://www.ozon.ru/product/5699176004/",
+    "note": "403",
+    "body_sample": "\n\n    \n\n\n<!DOCTYPE html><html lang=\"ru\"><head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1\">\n    <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">\n    <meta name=\"color-scheme\" content=\"light dark\">\n    <link rel=\"preload\" as=\"font\" fetchpriority=\"high\" href=\"https://cdn2.ozone.ru/s3/ozon-fonts/onest.woff2\" type=\"font/woff2\" crossorigin=\"anonymous\">\n   ",
+    "has_rr": false,
+    "has_altcha": true
+  },
+  "ozon_2198727557": {
+    "http": 403,
+    "bytes": 10857,
+    "final": "https://www.ozon.ru/product/2198727557/",
+    "note": "403",
+    "body_sample": "\n\n    \n\n\n<!DOCTYPE html><html lang=\"ru\"><head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1\">\n    <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">\n    <meta name=\"color-scheme\" content=\"light dark\">\n    <link rel=\"preload\" as=\"font\" fetchpriority=\"high\" href=\"https://cdn2.ozone.ru/s3/ozon-fonts/onest.woff2\" type=\"font/woff2\" crossorigin=\"anonymous\">\n   ",
+    "has_rr": false,
+    "has_altcha": true
+  },
+  "ozon_composer_api": {
+    "http": 403,
+    "bytes": 7251
+  },
+  "av_category": {
+    "urls": 3,
+    "ids": []
+  },
+  "wb_price": {
+    "card_v2_detail": {
+      "http": 403,
+      "bytes": 0,
+      "note": "blocked 403"
+    },
+    "card_v1_detail": {
+      "http": 403,
+      "bytes": 0,
+      "note": "blocked 403"
+    },
+    "wbx_price": {
+      "exc": "Failed to perform, curl: (6) Could not resolve host: wbx-content-v2.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    },
+    "basket_price": {
+      "http": 404,
+      "bytes": 196,
+      "note": "404"
+    },
+    "webapi_price": {
+      "exc": "Failed to perform, curl: (6) Could not resolve host: app.wildberries.ru (DNS server returned answer with no data). See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    }
+  }
+}

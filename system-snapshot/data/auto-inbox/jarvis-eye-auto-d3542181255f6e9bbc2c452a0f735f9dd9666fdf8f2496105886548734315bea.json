@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Monitor da gaming Crua Gf220C da 22 pollici con tecnologia IPS, 90Hz FHD 1080P, display per computer con AMD FreeSync, cornice ultra sottile, tecnologia per la protezione degli occhi, compatibilità con supporto VESA 75×75mm per PC, desktop e ufficio domestico",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "79.05",
+        "amount_minor": 7905,
+        "currency": "EUR",
+        "visible_label": "79.05 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "100.76",
+        "amount_minor": 10076,
+        "currency": "EUR",
+        "visible_label": "100.76 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Scf11545f124d41e49893df7ab97e2670T.png_480x480.png_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013584284365",
+    "listing_id": "1005013584284365",
+    "title": "Monitor da gaming Crua Gf220C da 22 pollici con tecnologia IPS, 90Hz FHD 1080P, display per computer con AMD FreeSync, cornice ultra sottile, tecnologia per la protezione degli occhi, compatibilità con supporto VESA 75×75mm per PC, desktop e ufficio domestico",
+    "url": "https://ru.aliexpress.com/item/1005013584284365.html",
+    "observed_at": "2026-11-15T02:37:04.918260+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

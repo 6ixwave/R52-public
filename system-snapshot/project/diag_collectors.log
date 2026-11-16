@@ -1,0 +1,250 @@
+2026-11-13 22:01:31,119 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:01:31,120 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-13 22:01:31,120 diag INFO ============================================================
+2026-11-13 22:01:31,120 diag INFO TEST: WB | ID=199298871 | URL=https://www.wildberries.ru/catalog/199298871/detail.aspx
+2026-11-13 22:01:31,120 diag INFO ============================================================
+2026-11-13 22:02:11,096 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-13 22:02:12,912 r52.collectors.wb INFO WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-13 22:02:16,830 r52.collectors.wb INFO WB 199298871: price card_v1 -> 403
+2026-11-13 22:02:19,871 r52.collectors.wb INFO WB 199298871: price card_v2 -> 403
+2026-11-13 22:02:23,445 r52.collectors.wb INFO WB 199298871: price card_v4 -> 403
+2026-11-13 22:02:27,099 r52.collectors.wb INFO WB 199298871: price card_v5 -> 403
+2026-11-13 22:02:30,041 r52.collectors.wb INFO WB 199298871: price catalog_v1 -> 403
+2026-11-13 22:02:33,054 r52.collectors.wb INFO WB 199298871: price catalog_v2 -> 403
+2026-11-13 22:02:36,452 r52.collectors.wb INFO WB 199298871: price web_api -> 498
+2026-11-13 22:02:39,793 r52.collectors.wb INFO WB 199298871: price search_wb -> 403
+2026-11-13 22:02:39,793 r52.collectors.wb INFO WB 199298871: price — все эндпоинты не дали данных
+2026-11-13 22:02:58,980 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-13 22:02:58,981 r52.collectors.wb INFO WB 199298871: photo_count=6, found=1
+2026-11-13 22:02:58,981 r52.collectors.wb INFO WB 199298871: has_video=true, видео не найдено
+2026-11-13 22:02:58,981 diag INFO RESULT: PARTIAL_SUCCESS | 87.9s
+2026-11-13 22:02:58,981 diag INFO   Title: Овсяный смарт коктейль для похудения без сахара
+2026-11-13 22:02:58,981 diag INFO   Prices: 0 -> []
+2026-11-13 22:02:58,981 diag INFO   Media: 1 items
+2026-11-13 22:02:58,981 diag INFO   Avail: UNKNOWN
+2026-11-13 22:02:58,981 diag INFO   Evidence: COLLECTOR_AUTONOMOUS_HTTP
+2026-11-13 22:02:58,981 diag INFO 
+2026-11-13 22:02:58,981 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:02:58,981 diag INFO ============================================================
+2026-11-13 22:02:58,982 diag INFO TEST: OZON | ID=1600562267 | URL=https://www.ozon.ru/product/1600562267/
+2026-11-13 22:02:58,982 diag INFO ============================================================
+2026-11-13 22:02:59,996 r52.collectors.ozon INFO OZON 1600562267: v2 -> HTTP 403
+2026-11-13 22:03:17,146 r52.collectors.ozon INFO OZON 1600562267: 1600562267 -> HTTP 403
+2026-11-13 22:03:33,301 r52.collectors.ozon INFO OZON 1600562267: v2 -> HTTP 403
+2026-11-13 22:03:33,344 asyncio DEBUG Using proactor: IocpProactor
+2026-11-13 22:03:33,857 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True)
+2026-11-13 22:03:46,087 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/1600562267/ -> 403 (3304B, 12.2s)
+2026-11-13 22:03:46,091 r52.collectors.ozon INFO OZON 1600562267: PW status=403 len=3304
+2026-11-13 22:03:47,119 r52.collectors.ozon INFO OZON 1600562267: cffi HTTP status=403 len=8311
+2026-11-13 22:04:03,780 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.ozon.ru:443
+2026-11-13 22:04:04,192 urllib3.connectionpool DEBUG https://www.ozon.ru:443 "GET /product/1600562267/ HTTP/1.1" 307 164
+2026-11-13 22:04:04,323 urllib3.connectionpool DEBUG https://www.ozon.ru:443 "GET /product/1600562267/?__rr=1 HTTP/1.1" 403 None
+2026-11-13 22:04:04,324 r52.collectors INFO OZON: HTTP 403, retry 1/3 через 12с
+2026-11-13 22:04:23,211 urllib3.connectionpool DEBUG https://www.ozon.ru:443 "GET /product/1600562267/ HTTP/1.1" 403 None
+2026-11-13 22:04:23,212 r52.collectors INFO OZON: HTTP 403, retry 2/3 через 24с
+2026-11-13 22:04:47,171 urllib3.connectionpool DEBUG https://www.ozon.ru:443 "GET /product/1600562267/ HTTP/1.1" 403 None
+2026-11-13 22:04:47,171 r52.collectors INFO OZON: HTTP 403, retry 3/3 через 44с
+2026-11-13 22:05:31,078 urllib3.connectionpool DEBUG Resetting dropped connection: www.ozon.ru
+2026-11-13 22:05:32,651 urllib3.connectionpool DEBUG https://www.ozon.ru:443 "GET /product/1600562267/ HTTP/1.1" 403 None
+2026-11-13 22:05:32,653 diag INFO RESULT: None | 153.7s
+2026-11-13 22:05:32,763 diag INFO 
+2026-11-13 22:05:32,764 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:05:32,765 diag INFO ============================================================
+2026-11-13 22:05:32,765 diag INFO TEST: FARPOST | ID=116361427 | URL=https://www.farpost.ru/vladivostok/tech/communication/cellphones/iphone-17-256gb-trade-in-kredit-garantija-1-god-116361427.html
+2026-11-13 22:05:32,765 diag INFO ============================================================
+2026-11-13 22:05:32,766 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.farpost.ru:443
+2026-11-13 22:05:34,143 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET / HTTP/1.1" 200 None
+2026-11-13 22:05:34,143 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-13 22:05:35,481 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET /vladivostok/tech/communication/cellphones/iphone-17-256gb-trade-in-kredit-garantija-1-god-116361427.html HTTP/1.1" 200 None
+2026-11-13 22:05:35,486 diag INFO RESULT: PARTIAL_SUCCESS | 2.7s
+2026-11-13 22:05:35,487 diag INFO   Title: IPhone 17 256Gb. Trade-IN. Кредит. Гарантия 1 год
+2026-11-13 22:05:35,487 diag INFO   Prices: 1 -> [{'role': 'regular', 'amount_minor': 7199900, 'currency': 'RUB', 'label': 'data-bulletin-price', 'amount': '71999.00', 'visible_label': 'data-bulletin-price'}]
+2026-11-13 22:05:35,487 diag INFO   Media: 6 items
+2026-11-13 22:05:35,487 diag INFO   Avail: IN_STOCK
+2026-11-13 22:05:35,487 diag INFO   Evidence: COLLECTOR_AUTONOMOUS_HTTP
+2026-11-13 22:05:35,488 diag INFO 
+2026-11-13 22:05:35,488 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:05:35,489 diag INFO ============================================================
+2026-11-13 22:05:35,489 diag INFO TEST: AVITO | ID=1096783029 | URL=https://www.avito.ru/ad/1096783029
+2026-11-13 22:05:35,489 diag INFO ============================================================
+2026-11-13 22:05:35,490 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.avito.ru:443
+2026-11-13 22:05:36,415 urllib3.connectionpool DEBUG https://www.avito.ru:443 "GET /ad/1096783029 HTTP/1.1" 404 None
+2026-11-13 22:05:36,415 r52.collectors.avito INFO AVITO 1096783029: www.avito.ru -> HTTP 404
+2026-11-13 22:05:45,267 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): m.avito.ru:443
+2026-11-13 22:05:46,183 urllib3.connectionpool DEBUG https://m.avito.ru:443 "GET /ad/1096783029 HTTP/1.1" 404 None
+2026-11-13 22:05:46,183 r52.collectors.avito INFO AVITO 1096783029: m.avito.ru -> HTTP 404
+2026-11-13 22:06:05,355 urllib3.connectionpool DEBUG https://www.avito.ru:443 "GET /1096783029 HTTP/1.1" 439 None
+2026-11-13 22:06:05,356 r52.collectors.avito INFO AVITO 1096783029: www.avito.ru -> HTTP 439
+2026-11-13 22:06:17,842 urllib3.connectionpool DEBUG Resetting dropped connection: m.avito.ru
+2026-11-13 22:06:18,792 urllib3.connectionpool DEBUG https://m.avito.ru:443 "GET /1096783029 HTTP/1.1" 439 None
+2026-11-13 22:06:18,792 r52.collectors.avito INFO AVITO 1096783029: m.avito.ru -> HTTP 439
+2026-11-13 22:06:29,464 urllib3.connectionpool DEBUG https://www.avito.ru:443 "GET /ad/1096783029 HTTP/1.1" 404 None
+2026-11-13 22:06:29,464 diag INFO RESULT: None | 54.0s
+2026-11-13 22:06:29,466 diag INFO 
+2026-11-13 22:06:29,467 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:06:29,467 diag INFO ============================================================
+2026-11-13 22:06:29,467 diag INFO TEST: ALIEXPRESS | ID=1005006564853571 | URL=https://www.aliexpress.com/item/1005006564853571.html
+2026-11-13 22:06:29,467 diag INFO ============================================================
+2026-11-13 22:06:29,467 asyncio DEBUG Using proactor: IocpProactor
+2026-11-13 22:06:30,047 r52.collectors.aliexpress INFO ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile, domain=com
+2026-11-13 22:06:30,074 r52.collectors.aliexpress INFO ALI PW: session already warm (17 cookies)
+2026-11-13 22:06:32,244 r52.collectors.aliexpress INFO ALI PW: navigate https://www.aliexpress.com/item/1005006564853571.html -> 200
+2026-11-13 22:06:33,417 r52.collectors.aliexpress INFO ALI PW: MTOP PDP captured, 543 bytes
+2026-11-13 22:06:34,289 r52.collectors.aliexpress INFO ALI PW: solving TMD...
+2026-11-13 22:06:39,355 r52.collectors.aliexpress INFO ALI PW: TMD checkbox clicked: #recaptcha-anchor
+2026-11-13 22:06:46,415 r52.collectors.aliexpress INFO ALI PW: done in 16.3s, mtop=1, rendered=False, dom_prices=[]
+2026-11-13 22:06:46,415 r52.collectors.aliexpress INFO ALI PW: MTOP ret=['FAIL_SYS_USER_VALIDATE', 'RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试'] (not success)
+2026-11-13 22:06:46,415 r52.collectors.aliexpress WARNING ALI: neither title nor price extracted
+2026-11-13 22:06:46,415 diag INFO RESULT: None | 16.9s
+2026-11-13 22:06:46,530 diag INFO 
+2026-11-13 22:06:46,530 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:06:46,531 diag INFO ============================================================
+2026-11-13 22:06:46,531 diag INFO TEST: ALIEXPRESS_RU | ID=1005006564853571 | URL=https://ru.aliexpress.com/item/1005006564853571.html
+2026-11-13 22:06:46,531 diag INFO ============================================================
+2026-11-13 22:06:46,531 asyncio DEBUG Using proactor: IocpProactor
+2026-11-13 22:06:47,127 r52.collectors.aliexpress WARNING ALI PW: locale force failed: 'BrowserContext' object has no attribute 'remove_cookies'
+2026-11-13 22:06:47,127 r52.collectors.aliexpress INFO ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_ru_pw_profile, domain=ru
+2026-11-13 22:06:47,132 r52.collectors.aliexpress INFO ALI PW: session already warm (96 cookies)
+2026-11-13 22:06:51,310 r52.collectors.aliexpress INFO ALI PW: navigate https://ru.aliexpress.com/item/1005006564853571.html -> 200
+2026-11-13 22:06:52,501 r52.collectors.aliexpress INFO ALI PW: captcha detected in main DOM: captchaclick
+2026-11-13 22:06:52,501 r52.collectors.aliexpress INFO ALI PW: solving TMD...
+2026-11-13 22:06:55,514 r52.collectors.aliexpress INFO ALI PW: solving click-captcha (grid)...
+2026-11-13 22:06:59,882 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:06:59,883 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:06:59,885 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 37359 6
+2026-11-13 22:06:59,886 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:06:59,886 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:06:59,886 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 17856 6
+2026-11-13 22:06:59,887 r52.collectors.aliexpress DEBUG ALI PW: grid[0] diff=7.9
+2026-11-13 22:06:59,887 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:06:59,887 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:06:59,888 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 13781 6
+2026-11-13 22:06:59,888 r52.collectors.aliexpress DEBUG ALI PW: grid[1] diff=27.9
+2026-11-13 22:06:59,888 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:06:59,888 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:06:59,889 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 21376 6
+2026-11-13 22:06:59,889 r52.collectors.aliexpress DEBUG ALI PW: grid[2] diff=38.0
+2026-11-13 22:06:59,889 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:06:59,889 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:06:59,890 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 21240 6
+2026-11-13 22:06:59,890 r52.collectors.aliexpress DEBUG ALI PW: grid[3] diff=11.4
+2026-11-13 22:06:59,890 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:06:59,890 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:06:59,891 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 23012 6
+2026-11-13 22:06:59,891 r52.collectors.aliexpress DEBUG ALI PW: grid[4] diff=12.5
+2026-11-13 22:06:59,891 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:06:59,891 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:06:59,892 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 12841 6
+2026-11-13 22:06:59,892 r52.collectors.aliexpress DEBUG ALI PW: grid[5] diff=24.6
+2026-11-13 22:06:59,892 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:06:59,892 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:06:59,893 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 12853 6
+2026-11-13 22:06:59,893 r52.collectors.aliexpress DEBUG ALI PW: grid[6] diff=12.4
+2026-11-13 22:06:59,893 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:06:59,893 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:06:59,894 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 25278 6
+2026-11-13 22:06:59,894 r52.collectors.aliexpress DEBUG ALI PW: grid[7] diff=9.3
+2026-11-13 22:06:59,894 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:06:59,894 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:06:59,895 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 22554 6
+2026-11-13 22:06:59,896 r52.collectors.aliexpress DEBUG ALI PW: grid[8] diff=58.7
+2026-11-13 22:06:59,896 r52.collectors.aliexpress INFO ALI PW: attempt 1, selected cells: [0, 7, 3, 6, 4]
+2026-11-13 22:07:02,531 r52.collectors.aliexpress INFO ALI PW: click-captcha submitted (attempt 1)
+2026-11-13 22:07:03,544 r52.collectors.aliexpress INFO ALI PW: captcha result: visible=True msg=Неправильный выбор!
+2026-11-13 22:07:03,545 r52.collectors.aliexpress INFO ALI PW: captcha attempt 1 failed, refreshing
+2026-11-13 22:07:08,266 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:08,266 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:08,266 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 37809 6
+2026-11-13 22:07:08,267 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:08,267 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:08,267 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 22064 6
+2026-11-13 22:07:08,268 r52.collectors.aliexpress DEBUG ALI PW: grid[0] diff=40.1
+2026-11-13 22:07:08,268 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:08,268 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:08,268 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 15356 6
+2026-11-13 22:07:08,269 r52.collectors.aliexpress DEBUG ALI PW: grid[1] diff=7.1
+2026-11-13 22:07:08,269 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:08,269 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:08,269 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 21576 6
+2026-11-13 22:07:08,270 r52.collectors.aliexpress DEBUG ALI PW: grid[2] diff=40.9
+2026-11-13 22:07:08,270 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:08,270 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:08,270 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 15586 6
+2026-11-13 22:07:08,270 r52.collectors.aliexpress DEBUG ALI PW: grid[3] diff=26.9
+2026-11-13 22:07:08,271 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:08,271 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:08,271 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 17255 6
+2026-11-13 22:07:08,271 r52.collectors.aliexpress DEBUG ALI PW: grid[4] diff=55.6
+2026-11-13 22:07:08,272 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:08,272 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:08,272 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 19618 6
+2026-11-13 22:07:08,273 r52.collectors.aliexpress DEBUG ALI PW: grid[5] diff=22.0
+2026-11-13 22:07:08,273 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:08,273 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:08,273 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 22701 6
+2026-11-13 22:07:08,273 r52.collectors.aliexpress DEBUG ALI PW: grid[6] diff=17.2
+2026-11-13 22:07:08,274 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:08,274 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:08,274 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 20570 6
+2026-11-13 22:07:08,274 r52.collectors.aliexpress DEBUG ALI PW: grid[7] diff=6.7
+2026-11-13 22:07:08,275 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:08,275 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:08,275 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 18244 6
+2026-11-13 22:07:08,275 r52.collectors.aliexpress DEBUG ALI PW: grid[8] diff=7.3
+2026-11-13 22:07:08,275 r52.collectors.aliexpress INFO ALI PW: attempt 2, selected cells: [7, 1, 8, 6, 5]
+2026-11-13 22:07:10,922 r52.collectors.aliexpress INFO ALI PW: click-captcha submitted (attempt 2)
+2026-11-13 22:07:11,926 r52.collectors.aliexpress INFO ALI PW: captcha result: visible=True msg=Неправильный выбор!
+2026-11-13 22:07:11,927 r52.collectors.aliexpress INFO ALI PW: captcha attempt 2 failed, refreshing
+2026-11-13 22:07:16,680 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:16,681 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:16,681 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 38273 6
+2026-11-13 22:07:16,682 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:16,682 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:16,682 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 22714 6
+2026-11-13 22:07:16,683 r52.collectors.aliexpress DEBUG ALI PW: grid[0] diff=30.5
+2026-11-13 22:07:16,683 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:16,683 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:16,683 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 18211 6
+2026-11-13 22:07:16,684 r52.collectors.aliexpress DEBUG ALI PW: grid[1] diff=53.7
+2026-11-13 22:07:16,684 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:16,684 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:16,685 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 21890 6
+2026-11-13 22:07:16,685 r52.collectors.aliexpress DEBUG ALI PW: grid[2] diff=16.0
+2026-11-13 22:07:16,685 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:16,685 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:16,685 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 15379 6
+2026-11-13 22:07:16,686 r52.collectors.aliexpress DEBUG ALI PW: grid[3] diff=17.1
+2026-11-13 22:07:16,686 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:16,686 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:16,686 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 22079 6
+2026-11-13 22:07:16,686 r52.collectors.aliexpress DEBUG ALI PW: grid[4] diff=43.9
+2026-11-13 22:07:16,687 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:16,687 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:16,687 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 16684 6
+2026-11-13 22:07:16,687 r52.collectors.aliexpress DEBUG ALI PW: grid[5] diff=17.4
+2026-11-13 22:07:16,687 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:16,687 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:16,688 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 13584 6
+2026-11-13 22:07:16,688 r52.collectors.aliexpress DEBUG ALI PW: grid[6] diff=29.1
+2026-11-13 22:07:16,688 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:16,688 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:16,688 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 19706 6
+2026-11-13 22:07:16,689 r52.collectors.aliexpress DEBUG ALI PW: grid[7] diff=39.3
+2026-11-13 22:07:16,689 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+2026-11-13 22:07:16,689 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 41 4096
+2026-11-13 22:07:16,689 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 17609 6
+2026-11-13 22:07:16,690 r52.collectors.aliexpress DEBUG ALI PW: grid[8] diff=9.6
+2026-11-13 22:07:16,690 r52.collectors.aliexpress INFO ALI PW: attempt 3, selected cells: [8, 2, 3, 5, 6]
+2026-11-13 22:07:19,319 r52.collectors.aliexpress INFO ALI PW: click-captcha submitted (attempt 3)
+2026-11-13 22:07:20,325 r52.collectors.aliexpress INFO ALI PW: captcha result: visible=True msg=Неправильный выбор!
+2026-11-13 22:07:20,325 r52.collectors.aliexpress INFO ALI PW: captcha attempt 3 failed, refreshing
+2026-11-13 22:07:22,884 r52.collectors.aliexpress INFO ALI PW: done in 35.8s, mtop=0, rendered=False, dom_prices=[]
+2026-11-13 22:07:22,884 r52.collectors.aliexpress INFO ALI parse: title=Пройдите проверку, prices=0, avail=UNKNOWN, media=0
+2026-11-13 22:07:22,884 diag INFO RESULT: PARTIAL_SUCCESS | 36.4s
+2026-11-13 22:07:22,884 diag INFO   Title: Пройдите проверку
+2026-11-13 22:07:22,884 diag INFO   Prices: 0 -> []
+2026-11-13 22:07:22,884 diag INFO   Media: 0 items
+2026-11-13 22:07:22,884 diag INFO   Avail: UNKNOWN
+2026-11-13 22:07:22,884 diag INFO   Evidence: COLLECTOR_AUTONOMOUS_HTTP
+2026-11-13 22:07:22,991 diag INFO 
+2026-11-13 22:07:22,991 diag INFO ALL DONE. Log: diag_collectors.log

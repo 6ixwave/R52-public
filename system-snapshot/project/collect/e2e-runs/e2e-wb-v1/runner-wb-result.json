@@ -1,0 +1,19 @@
+{
+  "source": "WB",
+  "total_items": 2,
+  "collected": 2,
+  "failed": 0,
+  "files_written": 2,
+  "elapsed_sec": 124.1,
+  "collector_stats": {
+    "requests": 34,
+    "success": 4,
+    "failed": 18,
+    "blocked": 12
+  },
+  "proxy_stats": {
+    "total": 0,
+    "alive": 0,
+    "use_proxies": false
+  }
+}

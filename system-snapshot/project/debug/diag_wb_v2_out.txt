@@ -1,0 +1,37 @@
+﻿============================================================
+1. catalog.wb.ru v4 (cffi chrome)
+  Status=403 len=0
+  Body[:300]: 
+
+============================================================
+2. www.wildberries.ru HTML (cffi chrome) — inspect 498 body
+  Status=498 len=1136
+  Body[:800]:
+<!doctype html><html lang="ru" data-theme="light" data-req-uuid="5331af965158bcddddaa4f761a8b4507" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Date.now()</script><title>...</title><script type="module" crossorigin src="/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js"></script><link rel="stylesheet" crossorigin href="/__wbaas/challenges/antibot/__static/v2/index-BmW7NXYO.css"></head><body><div class="w"><noscript><div class="support"><div class="support-header"><h1 class="support-title" id="no-js-title"></h1><p class="support-subtitle no-js-support-subtitle" id="no-js-title-subtitle"></p><p class="support-id no-js-support-id">ID:
+
+============================================================
+3. m.wildberries.ru (cffi chrome)
+  ERROR: Failed to perform, curl: (6) Could not resolve host: m.wildberries.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+============================================================
+4. card.wb.ru v2 (cffi + Referer)
+  Status=403 len=0
+  Body[:300]: 
+
+============================================================
+5. Homepage → cookies → search (cffi)
+  Homepage: 498 len=1136
+  (no cookie access)
+  Search: 498 len=1136
+  Body[:500]: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="9a9df907bb87fce34111fd95c3f8c118" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Date.now()</script><title>...</title><script type="module" crossorigin src="/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js"></script><link rel="stylesheet" crossorigin href="/__wbaas/challenge
+
+============================================================
+6. catalog.wb.ru v5/v3
+  v5: Status=403
+  v3: Status=403
+
+============================================================
+7. catalog.wb.ru v4 with dest=-1 (all regions)
+  Status=403
+
+Done.

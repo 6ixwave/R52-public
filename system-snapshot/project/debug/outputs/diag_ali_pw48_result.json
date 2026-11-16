@@ -1,0 +1,360 @@
+{
+  "ts": "2026-11-12T16:19:32.622955+00:00",
+  "product_id": "1005011813323763",
+  "phase": "done",
+  "tracks": {
+    "dom": {
+      "status": "done",
+      "detail": {
+        "html_len": 400239,
+        "og_title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+        "og_image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+        "og_description": "Smarter Shopping, Better Living! Aliexpress.com",
+        "h1": "",
+        "prices": [],
+        "images": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S01523ef93482448d8c33d410344d6a9eI/361x360.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/S335ae171f26e4120bd62927d41712d465.jpg_480x480q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Se66912bcbc6f4427929b2461b91fc07cB.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S0606de8236b647b4ba3b83974ebe5cf2a/64x64.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/Se288f38c814249c1a818b7cfbb444b9bX.jpg_480x480q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S5efe9a37755e44cfa878e2e714900709h/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sca75952228bb4507ac311d1b43e10721q/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S9813a60e7c844a89bf0e58c50ee9e397S/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S0f1bc1aeb2ab4de98568b86f99bcd0991/42x60.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/S88da7797f22a4bb5b884e1b4a04e0a52c.jpg_480x480q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S135d2af8d57840b28092ceba069bdb6c4/110x42.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/Sb50f913d6d014a289c3831d00b38b501V.png_480x480.png_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S001c2c51750840d68f20032617da5fbdB.png"
+        ],
+        "stock_texts": [],
+        "breadcrumbs": [],
+        "seller": "",
+        "tmd_iframes": 1,
+        "iframe_count": 3
+      }
+    },
+    "js_state": {
+      "status": "done",
+      "detail": {
+        "DCData": {
+          "extParams": {
+            "foreverRandomToken": "[REDACTED_AUTH_SECRET]",
+            "site": "ita",
+            "crawler": false,
+            "x-m-biz-bx-region": "",
+            "signedIn": false,
+            "host": "it.aliexpress.com"
+          },
+          "features": {},
+          "i18nMap": {
+            "VIEW_MORE": "VEDERE PIÙ",
+            "ASK_BUYERS": "Domande & Risposte dell'acquirente",
+            "PAGE_NOT_FOUND_NOTICE": "Spiacenti, articolo temporaneamente non disponibile",
+            "VIEW_5_MORE_ANSWERS": "VEDERE PIÙ",
+            "PAGE_NOT_FOUND_RCMD_TITLE": "Spiacenti, la pagina richiesta non è stata trovata :("
+          },
+          "imageOptimize": true,
+          "imagePathList": [
+            "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/Sf826fda986cb463ca56efc2c5dcbdc9af.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/S7a80d404b9df494b8c3b251efbac0b64M.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/S14bdb58e79a74c9baf6e289cd745f7b5J.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/Sc254f5113e4a47fe823f9a8831ffaf70y.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/S676b26003f3a4bfdbcb5453ce10d19f8R.jpg"
+          ],
+          "name": "ItemDetailResp",
+          "showLongImage": false,
+          "showMainImage": true,
+          "summImagePathList": [
+            "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL/Nuove-Cuffie-Wireless-Bluetooth-5-4-2026-per-Ufficio-con-Display-LED-Batteria-a-Lunga-Durata.jpg_80x80.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/Sf826fda986cb463ca56efc2c5dcbdc9af/Nuove-Cuffie-Wireless-Bluetooth-5-4-2026-per-Ufficio-con-Display-LED-Batteria-a-Lunga-Durata.jpg_80x80.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/S7a80d404b9df494b8c3b251efbac0b64M/Nuove-Cuffie-Wireless-Bluetooth-5-4-2026-per-Ufficio-con-Display-LED-Batteria-a-Lunga-Durata.jpg_80x80.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/S14bdb58e79a74c9baf6e289cd745f7b5J/Nuove-Cuffie-Wireless-Bluetooth-5-4-2026-per-Ufficio-con-Display-LED-Batteria-a-Lunga-Durata.jpg_80x80.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/Sc254f5113e4a47fe823f9a8831ffaf70y/Nuove-Cuffie-Wireless-Bluetooth-5-4-2026-per-Ufficio-con-Display-LED-Batteria-a-Lunga-Durata.jpg_80x80.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/S676b26003f3a4bfdbcb5453ce10d19f8R/Nuove-Cuffie-Wireless-Bluetooth-5-4-2026-per-Ufficio-con-Display-LED-Batteria-a-Lunga-Durata.jpg_80x80.jpg"
+          ]
+        },
+        "runParams": {},
+        "_d_c_keys": [
+          "viewName",
+          "isCSR",
+          "DCData",
+          "lifeCycleEventList"
+        ],
+        "_d_c_viewName": "newDetail",
+        "_d_c_isCSR": true,
+        "window_keys": [
+          "0",
+          "1",
+          "2",
+          "window",
+          "self",
+          "customElements",
+          "history",
+          "navigation",
+          "locationbar",
+          "menubar",
+          "personalbar",
+          "scrollbars",
+          "statusbar",
+          "toolbar",
+          "frames",
+          "top",
+          "parent",
+          "external",
+          "screen",
+          "visualViewport",
+          "clientInformation",
+          "styleMedia",
+          "scheduler",
+          "trustedTypes",
+          "crypto",
+          "indexedDB",
+          "localStorage",
+          "sessionStorage",
+          "crashReport",
+          "cookieStore",
+          "documentPictureInPicture",
+          "viewport",
+          "launchQueue",
+          "speechSynthesis",
+          "runParams",
+          "_d_c_",
+          "_global_header_23_config_",
+          "goldlog_queue",
+          "__core-js_shared__",
+          "core",
+          "React",
+          "ReactDOM",
+          "regeneratorRuntime",
+          "_comet_module_",
+          "Comet",
+          "lib",
+          "_pwa_prompt_",
+          "AES_CONFIG",
+          "__AE_PIXEL_STATE__",
+          "__BaxiaCookieManager__",
+          "LWSC",
+          "LWSCInner",
+          "_page_config_",
+          "ctrl",
+          "_search_preload_page_whitelist_",
+          "loadAplusJsAFunc",
+          "dmtrack",
+          "goldlog",
+          "ali_analytics",
+          "g_SPM"
+        ]
+      }
+    },
+    "recaptcha": {
+      "status": "done",
+      "detail": {
+        "tmd_frame": true,
+        "google_frame": true,
+        "frames_total": 10,
+        "clicked": false,
+        "token_found": false,
+        "token_preview": "[REDACTED_AUTH_SECRET]",
+        "polls": 15
+      }
+    },
+    "post_dom": {
+      "status": "done",
+      "detail": {
+        "html_len": 400303,
+        "og_title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+        "og_image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+        "og_description": "Smarter Shopping, Better Living! Aliexpress.com",
+        "h1": "",
+        "prices": [],
+        "images": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S01523ef93482448d8c33d410344d6a9eI/361x360.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/S335ae171f26e4120bd62927d41712d465.jpg_480x480q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Se66912bcbc6f4427929b2461b91fc07cB.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S0606de8236b647b4ba3b83974ebe5cf2a/64x64.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/Se288f38c814249c1a818b7cfbb444b9bX.jpg_480x480q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S5efe9a37755e44cfa878e2e714900709h/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sca75952228bb4507ac311d1b43e10721q/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S9813a60e7c844a89bf0e58c50ee9e397S/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S0f1bc1aeb2ab4de98568b86f99bcd0991/42x60.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/S88da7797f22a4bb5b884e1b4a04e0a52c.jpg_480x480q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S135d2af8d57840b28092ceba069bdb6c4/110x42.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/Sb50f913d6d014a289c3831d00b38b501V.png_480x480.png_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S001c2c51750840d68f20032617da5fbdB.png"
+        ],
+        "stock_texts": [],
+        "breadcrumbs": [],
+        "seller": "",
+        "tmd_iframes": 1,
+        "iframe_count": 3
+      }
+    },
+    "mobile": {
+      "status": "done",
+      "detail": {
+        "html_len": 400578,
+        "og_title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+        "og_image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+        "og_description": "Smarter Shopping, Better Living! Aliexpress.com",
+        "h1": "",
+        "prices": [],
+        "images": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S01523ef93482448d8c33d410344d6a9eI/361x360.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/Sf8111a469ea74500bb5164fc521cfa7bG.jpg_480x480q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Se66912bcbc6f4427929b2461b91fc07cB.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sca1bcdd1057c4a388af0eed405d9a464x.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S001c2c51750840d68f20032617da5fbdB.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S5efe9a37755e44cfa878e2e714900709h/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sca75952228bb4507ac311d1b43e10721q/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S9813a60e7c844a89bf0e58c50ee9e397S/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S0f1bc1aeb2ab4de98568b86f99bcd0991/42x60.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S0606de8236b647b4ba3b83974ebe5cf2a/64x64.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/S88da7797f22a4bb5b884e1b4a04e0a52c.jpg_480x480q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S135d2af8d57840b28092ceba069bdb6c4/110x42.png",
+          "//ae-pic-a1.aliexpress-media.com/kf/Sb50f913d6d014a289c3831d00b38b501V.png_480x480.png_.avif"
+        ],
+        "stock_texts": [],
+        "breadcrumbs": [],
+        "seller": "",
+        "tmd_iframes": 0,
+        "iframe_count": 2,
+        "final_url": "https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita",
+        "page_title": ""
+      }
+    }
+  },
+  "network": [
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/css/index.css",
+      "status": 200,
+      "body_len": 285736,
+      "body_preview": ".comet-v2-fade-appear,.comet-v2-fade-enter,.comet-v2-fade-exit{-webkit-animation-duration:.2s;animation-duration:.2s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-play-state:paused;animation-play-state:paused}.comet-v2-fade-appear.comet-v2-fade-appear-active,.comet-v2-fade-enter.comet-v2-fade-enter-active{-webkit-animation-name:cometFadeIn;animation-name:cometFadeIn;-webkit-animation-play-state:running;animation-play-state:running}.comet-v2-fade-exit.comet-v2-fade-exit-active{-webkit-animation-name:cometFadeOut;animation-name:cometFadeOut;-webkit-animation-play-state:running;animation-play-state:running;pointer-events:none}.comet-v2-fade-appear,.comet-v2-fade-enter{opacity:0}.comet-v2-fade-appear,.comet-v2-fade-enter,.comet-v2-fade-exit{-webkit-animation-timing-function:linear;animation-timing-function:linear}@-webkit-keyframes cometFadeIn{0%{opacity:0}to{opacity:1}}@keyframes cometFadeIn{0%{opacity:0}to{opacity:1}}@-webkit-keyframes cometFadeOut{0%{opacity:1}to{opacity:0}}@keyframes cometFadeOut{0%{opacity:1}to{opacity:0}}.comet-v2-move-up-appear,.comet-v2-move-up-enter,.comet-v2-move-up-exit{-webkit-animation-duration:.2s;animation-duration:.2s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-play-state:paused;animation-play-state:paused}.comet-v2-move-up-appear.comet-v2-move-up-appear-active,.comet-v2-move-up-enter.comet-v2-move-up-enter-active{-webkit-animation-name:cometMoveUpIn;animation-name:cometMoveUpIn;-webkit-animation-play-state:running;animation-play-state:running}.comet-v2-move-up-exit.comet-v2-move-up-exit-active{-webkit-animation-name:cometMoveUpOut;animation-name:cometMoveUpOut;-webkit-animation-play-state:running;animation-play-state:running;pointer-events:none}.comet-v2-move-up-appear,.comet-v2-move-up-enter{-webkit-animation-timing-function:cubic-bezier(.23,1,.32,1);animation-timing-function:cubic-bezier(.23,1,.32,1);opacity:0}.comet-v2-move-up-exit{-webkit-animation-timing-function:cubic-bezier(.86,0,.07,1);animation-timing-function:cubic-bezier(.86,0,.07,1)}.comet-v2-move-down-appear,.comet-v2-move-down-enter,.comet-v2-move-down-exit{-webkit-animation-duration:.2s;animation-duration:.2s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-play-state:paused;animation-play-state:paused}.comet-v2-move-down-appear.comet-v2-move-down-appear-active,.comet-v2-move-down-enter.comet-v2-move-down-enter-active{-webkit-animation-name:cometMoveDownIn;animation-name:cometMoveDownIn;-webkit-animation-play-state:running;animation-play-state:running}.comet-v2-move-down-exit.comet-v2-move-down-exit-active{-webkit-animation-name:cometMoveDownOut;animation-name:cometMoveDownOut;-webkit-animation-play-state:running;animation-play-state:running;pointer-events:none}.comet-v2-move-down-appear,.comet-v2-move-down-enter{-webkit-animation-timing-function:cubic-bezier(.23,1,.32,1);animation-timing-function:cubic-bezier(.23,1,.32,1);opacity:0}.comet-v2-move-down-exit{-webkit"
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/js/index.js",
+      "status": 200,
+      "body_len": 1307571,
+      "body_preview": "(function(){var __webpack_modules__={94411:function(e,t,n){\"use strict\";n.d(t,{Z:function(){return h}});var r=n(4942),o=n(45987),i=n(87363),a=n.n(i),c=\"\\n.comet-icon {\\n  display: inline-block;\\n  color: inherit;\\n  font-style: normal;\\n  line-height: 0;\\n  text-align: center;\\n  text-transform: none;\\n  vertical-align: -0.125em;\\n  text-rendering: optimizeLegibility;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n}\\n\\n.comet-icon * {\\n  line-height: 1;\\n}\\n\\n.comet-icon svg {\\n  display: inline-block;\\n}\\n\\n.comet-icon::before {\\n  display: none;\\n}\\n\\n.comet-icon-loading,\\n.comet-icon-loadingfill {\\n  -webkit-animation: cometLoading 2.5s infinite linear;\\n  animation: cometLoading 2.5s infinite linear;\\n}\\n\\n@-webkit-keyframes cometLoading {\\n  100% {\\n    -webkit-transform: rotate(360deg);\\n    transform: rotate(360deg);\\n  }\\n}\\n\\n@keyframes cometLoading {\\n  100% {\\n    -webkit-transform: rotate(360deg);\\n    transform: rotate(360deg);\\n  }\\n}\\n\";function l(e){if(!document.querySelector(\"#comet-icon\")){var t=document.querySelector(\"head\"),n=document.createElement(\"style\");n.setAttribute(\"type\",\"text/css\"),n.id=\"comet-icon\",null==t||t.appendChild(n),n.textContent+=e}}var u=!1,s=function e(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:c;i.useEffect((function(){u||(l(t),u=!0)}),[])},d=[\"className\",\"style\",\"fontSize\",\"children\"];function f(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter((function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable}))),n.push.apply(n,r)}return n}function p(e){for(var t=1;t<arguments.length;t++){var n=null!=arguments[t]?arguments[t]:{};t%2?f(Object(n),!0).forEach((function(t){(0,r.Z)(e,t,n[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):f(Object(n)).forEach((function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))}))}return e}var m=function e(t,n){var r=t.className,i=t.style,c=t.fontSize,l=t.children,u=(0,o.Z)(t,d);return s(),a().createElement(\"span\",p(p({},u),{},{className:\"comet-icon\".concat(r?\" \".concat(r):\"\"),style:p({fontSize:c},i),ref:n}),l)},v=(0,i.forwardRef)(m);v.displayName=\"CometIcon\";var h=v},38650:function(e,t,n){\"use strict\";var r=n(4942),o=n(45987),i=n(87363),a=n.n(i),c=n(94411),l=[\"className\",\"fontSize\",\"style\"];function u(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter((function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable}))),n.push.apply(n,r)}return n}function s(e){for(var t=1;t<arguments.length;t++){var n=null!=arguments[t]?arguments[t]:{};t%2?u(Object(n),!0).forEach((function(t){(0,r.Z)(e,t,n[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):u(Object(n)).forEach((function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))}))}return e}var d=function e(t,n){var "
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794500458139&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&timeout=15000&dataType=originaljsonp&callback=mtopjsonp1&data=%7B%22productId%22%3A%221005011813323763%22%2C%22_lang%22%3A%22it_IT%22%2C%22_currency%22%3A%22EUR%22%2C%22country%22%3A%22IT%22%2C%22pr",
+      "status": 200,
+      "body_len": 18846,
+      "body_preview": " mtopjsonp1({\"api\":\"mtop.aliexpress.pdp.pc.query\",\"data\":{\"result\":{\"GLOBAL_DATA\":{\"globalData\":{\"bigBossBan\":true,\"errorCode\":\"SITEM_BAN_NO_AVAIL_SKU\",\"bigBossBanTip\":\"Siamo spiacenti, questo prodotto non è attualmente disponibile nella tua località.\",\"i18n\":{\"SKUModule\":{\"SIZING_INFO\":\"Guida alle taglie\",\"BUST_PROMPT\":\"SI prega di selezionare la taglia del seno.\",\"GLASSES_DIALOG_TITLE\":\"Dettaglio della prescrizione\",\"NV_ADD\":\"Sometimes seen on your prescription as \\\"NV, ADD, Near, Reading, or Reading Addition.\\\"  \\\"NV\\\" stands for \\\"Near-Vision.\\\"  This number indicates the additional magnification that is added to the distance prescription to get the reading portion of the lens in a multi-focal prescription.  We display a single NV-ADD field since it is almost always the same value for both eyes.\",\"SPH\":\"SPHERE (SPH), or Spherical, refers to the refractive correction in the prescription. Minus (-) stands for near sightedness, and Plus (+) stands for far sightedness. If \\\"PL\\\" or \\\"Plano\\\" is written for the either SPH value on your prescription, you should select a value of 0.00.\\r\\r\\nOD-SPH is spherical correction for your right eye.\\r\\r\\nOS-SPH is spherical correction for your left eye.\\r\\r\\nOD-SPH is spherical correction for your RIGHT eye.\\r\\r\\nOS-SPH is spherical correction for your LEFT eye.\",\"PUPILLARY_PROMPT\":\"Please select PD (Pupillary Distance).\",\"SIZE_HOVER_TITLE\":\"Potrebbero esserci differenze con la taglia locale, si prega di consultare la guida alle taglie per maggiori informazioni.\",\"FLOOR_CONTENT\":\"Begin at the hollow space between the collarbones and pull tape straight down to the floor.\",\"CUSTOM_SIZE_CONTENT\":\"Misure del tuo corpo\",\"NV_ADD_PROMPT\":\"Si prega di selezionare NV-ADD.\",\"PLEASE_ENTER\":\"Si prega di inserire\",\"WAIST_TITLE\":\"Girovita\",\"WAIST_CONTENT\":\"Measure the smallest part of the waist.\\r\\r\\nKeep tape slightly loose to allow for breathing room.\",\"CYL\":\"CYLINDER (CYL), or Cylinder, refers to the strength of the correction for the astigmatism in the eye. It can be either positive or negative. If there is a CYL value for an eye, there must be an Axis value for that eye.\\r\\r\\nIf \\\"DS\\\" or \\\"SPH\\\" or \\\"spherical\\\" is noted in the CYL space on your prescription, you have no astigmatism in that eye.  In that case, enter 0.00 in both the CYL and Axis.\\r\\r\\nOD-CYL is cylinder correction for your right eye.\\r\\r\\nOS-CYL is cylinder correction for your left eye.\",\"SERVICE\":\"Servizio\",\"BUST_CONTENT\":\"Wear an unpadded bra (your dress will have a built-in bra).\\r\\r\\nPull tape across the fullest part of the bust (at nipple level).\",\"SIZE_INFO\":\"Informazioni sulle taglie\",\"SIZE_INFO_DESC\":\"*These charts are for reference only. Fit may vary depending on the construction, materials and manufacturer.\",\"ITEM_CONDITION_TIP\":\"Condizioni\",\"BTN_CANCEL\":\"Annulla\",\"HOW_TO_MEASURE\":\"Come misurare\",\"SKU_HOT_IMAGE\":\"https://gw.alicdn.com/imgextra/i4/O1CN01sNmYfJ24of5aszfMD_!!6000000007438-2-tps-24-24.png\",\"SIZE_INFO_TIP\":\"once you know your b"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.trade.cart.count/1.0/?jsv=2.5.1&appKey=12574478&t=1794500458684&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.trade.cart.count&v=1.0&timeout=10000&type=jsonp&dataType=jsonp&callback=mtopjsonp2&data=%7B%22bizParams%22%3A%22%7B%5C%22platformType%5C%22%3A%5C%22DESKTOP%5C%22%7D%22%7D",
+      "status": 200,
+      "body_len": 155,
+      "body_preview": " mtopjsonp2({\"api\":\"mtop.aliexpress.trade.cart.count\",\"data\":{\"cartNum\":\"0\"},\"ret\":[\"SUCCESS::调用成功\"],\"traceId\":\"21038efe17945004597027660e0c69\",\"v\":\"1.0\"})"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794500458684&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=5000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 1195,
+      "body_preview": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"img_search_pc_result_title\":\"Risultati di ricerca\",\"img_search_pc_no_result_tip\":\"Prova a scegliere un altro articolo o a caricare un'altra immagine\",\"img_search_pc_search_btn\":\"Cerca\",\"img_search_pc_subtitle\":\"Trova ciò che ami con prezzi migliori su AliExpress utilizzando una ricerca immagini\",\"img_search_pc_error_size\":\"File troppo grande. Si prega di caricare un file immagine entro 5MB.\",\"img_search_pc_result_item_selection\":\"Scegli il tuo articolo\",\"version\":1.0,\"tpp_trace\":\"210393bd17945004597172404e0c54\",\"result\":[1],\"img_search_pc_drag\":\"Trascina un'immagine qui\",\"img_search_pc_title\":\"Ricerca per immagine\",\"img_search_pc_upload_paste_tip\":\"* Per una ricerca rapida premi CTRL + V per incollare un'immagine nella casella di ricerca\",\"pvid\":\"0e9b57bf-c8e9-477b-9d2c-3f96a87f25b5\",\"img_search_pc_or\":\"O\",\"img_search_pc_cancel_btn\":\"Annulla\",\"img_search_pc_no_result\":\"Non è stato trovato alcun articolo correlato\",\"scm\":\"1007.31738.393382.0\",\"img_search_pc_upload_btn\":\"Carica una foto\",\"img_search_pc_pasted_img\":\"La tua immagine\"},\"ret\":[\"SUCCESS::调用成功\"],\"traceId\":\"210393bd17945004597172404e0c54\",\"v\":\"1.0\"}"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794500458684&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=5000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 36813,
+      "body_preview": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"result\":[1],\"data\":{\"layoutInfo\":[\"categories\",\"subCategories\",\"rankList\",\"searchList\"],\"trace\":{\"exposure\":{},\"custom\":{},\"click\":{},\"utLogMap\":{\"query_from\":\"category_navigate\",\"streamId\":\"355ea667-2b4a-4e1c-a851-0827cf75f2f7\",\"stream_id\":\"355ea667-2b4a-4e1c-a851-0827cf75f2f7\",\"pvid\":\"21038efe17945004596827658e0c69\",\"biz_scene\":\"mainSearch\",\"gab_buckets\":\"\",\"language\":\"it\",\"countryId\":\"IT\",\"tpp_buckets\":\"35917#22791#473818#20_687#21659#468456#4_687#11991#445822#8_35917#60684#538403#13_687#63582#552267#7_687#61208#541109#11_35917#0#341038#36_35917#38210#493683#114\",\"scene\":\"search\"}},\"success\":true,\"categoryTabs\":{\"hasViewAll\":false,\"items\":[{\"titleType\":\"text\",\"platFormCateId\":\"10075\",\"trace\":{\"exposure\":{},\"custom\":{},\"click\":{},\"utLogMap\":{\"recallType\":\"Hot\",\"rankPos\":0,\"streamId\":\"355ea667-2b4a-4e1c-a851-0827cf75f2f7\",\"recallScore\":0.99999999997656,\"rankScore\":0.468905,\"themeId\":\"\",\"platformFrontCategoryLabel\":\"1\",\"scene\":\"search\",\"tpp_buckets\":\"35917#22791#473818#20_687#21659#468456#4_687#11991#445822#8_35917#60684#538403#13_687#63582#552267#7_687#61208#541109#11_35917#0#341038#36_35917#38210#493683#114\",\"ae_sg_pvid\":\"f1422c3a-2c7f-4313-a27a-4a2165e69011\",\"pvid\":\"f1422c3a-2c7f-4313-a27a-4a2165e69011\",\"stream_id\":\"355ea667-2b4a-4e1c-a851-0827cf75f2f7\",\"ae_sg_abid\":\"521243\",\"gab_buckets\":\"\",\"id\":76,\"enable_new_category\":\"true\",\"platformFrontCategoryId\":\"10075\",\"finalScore\":1.468905,\"tab_list\":\"Automotive\",\"memberSeq\":-911,\"utdid\":\"I9V8I56bxU4CAdnZbBzMdBQs\",\"sceneName\":\"for_you_lv1\",\"guide_trace\":\"f1422c3a-2c7f-4313-a27a-4a2165e69011\",\"scene_id\":\"37749\",\"ship_to_country\":\"IT\",\"tab_id\":\"automotive\",\"query_from\":\"category_navigation\",\"statusOfUsingPrivacy\":2,\"sceneType\":\"lv1_rank\"}},\"usePersonalizedImage\":false,\"useAdImage\":false,\"icon\":\"https://ae-pic-a1.aliexpress-media.com/kf/S641d13301ae042999bbc1dc1edd2bb80K/27x27.png\",\"smallIcon\":\"https://ae-pic-a1.aliexpress-media.com/kf/S641d13301ae042999bbc1dc1edd2bb80K/27x27.png\",\"id\":\"automotive\",\"title\":\"Automotive\"},{\"titleType\":\"text\",\"platFormCateId\":\"10000\",\"trace\":{\"exposure\":{},\"custom\":{},\"click\":{},\"utLogMap\":{\"recallType\":\"Hot\",\"rankPos\":1,\"streamId\":\"355ea667-2b4a-4e1c-a851-0827cf75f2f7\",\"recallScore\":0.593258540377432,\"rankScore\":0.447818,\"themeId\":\"\",\"platformFrontCategoryLabel\":\"1\",\"scene\":\"search\",\"tpp_buckets\":\"35917#22791#473818#20_687#21659#468456#4_687#11991#445822#8_35917#60684#538403#13_687#63582#552267#7_687#61208#541109#11_35917#0#341038#36_35917#38210#493683#114\",\"ae_sg_pvid\":\"f1422c3a-2c7f-4313-a27a-4a2165e69011\",\"pvid\":\"f1422c3a-2c7f-4313-a27a-4a2165e69011\",\"stream_id\":\"355ea667-2b4a-4e1c-a851-0827cf75f2f7\",\"ae_sg_abid\":\"521243\",\"gab_buckets\":\"\",\"id\":1,\"enable_new_category\":\"true\",\"platformFrontCategoryId\":\"10000\",\"finalScore\":1.447818,\"tab_list\":\"Appliances\",\"memberSeq\":-911,\"utdid\":\"I9V8I56bxU4CAdnZbBzMdBQs\",\"sceneName\":\"for_you_lv1\",\"guide_trace\":\"f1422c3a-2c7f-4313-a27a-4a2165e69011\",\"scene_id\":\"37749\""
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.ae.cookie.render/1.0/?jsv=2.5.1&appKey=12574478&t=1794500458685&sign=[REDACTED_AUTH_SECRET]&api=mtop.ae.cookie.render&v=1.0&timeout=10000&type=jsonp&dataType=jsonp&callback=mtopjsonp3&data=%7B%22count%22%3A%220%22%2C%22bizCode%22%3A%22aliexpress%22%2C%22platform%22%3A%22pc%22%2C%22country%22%3A%22IT%22%2C%22locale%22%3A%22it_IT%22%2C%22currency%22%3A%22",
+      "status": 200,
+      "body_len": 376,
+      "body_preview": " mtopjsonp3({\"api\":\"mtop.ae.cookie.render\",\"data\":{\"acceptCookies\":true,\"acceptCookiesFatigue\":180,\"country\":\"IT\",\"displayStyle\":\"NEW\",\"inGdpr\":true,\"later\":true,\"laterFatigue\":90,\"personalizeCookies\":true,\"rejectCookies\":true,\"rejectCookiesFatigue\":90,\"trigger\":\"ipCountry:IT|findIpStatus:true|\"},\"ret\":[\"SUCCESS::调用成功\"],\"traceId\":\"21038efe17945004597547665e0c69\",\"v\":\"1.0\"})"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.usertouch.poplayer.get/2.0/?jsv=2.5.1&appKey=24815441&t=1794500458685&sign=[REDACTED_AUTH_SECRET]&type=originaljson&api=mtop.aliexpress.usertouch.poplayer.get&v=2.0&dataType=jsonp",
+      "status": 200,
+      "body_len": 166,
+      "body_preview": "{\"api\":\"mtop.aliexpress.usertouch.poplayer.get\",\"data\":{\"popLayerRuleMap\":{},\"success\":true,\"traces\":[],\"updateTime\":1794500459793},\"ret\":[\"SUCCESS::调用成功\"],\"v\":\"2.0\"}"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794500458684&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=5000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 160585,
+      "body_preview": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"abTestInfo\":{\"enableNewShading\":true},\"headerAtmosphere\":{},\"mods\":{\"itemList\":{\"content\":[{\"search_clk_action\":\"search\",\"image\":{},\"result_desc\":\"normal\",\"icon\":{},\"page_num\":0,\"action\":{\"action\":\"\",\"style\":\"\",\"content\":\"Home Shading\"},\"list_no\":0,\"modName\":\"SearchShadingEntry\",\"use_redirect\":false,\"tItemType\":\"\",\"querys\":[{\"search_action_url\":\"https://www.aliexpress.com/w/wholesale-cuffie-bluetooth.html?q=cuffie bluetooth&osf=index&guideModule=shading&guide_trace=ae_sg_pvid%020f0753d5-d509-481f-8843-3704f72af3dc%01ae_sg_abid%02409633%01scene%02shading%01scene_id%0231908%01show_query%02cuffie+bluetooth\",\"display_keyword\":{\"action\":\"\",\"style\":\"\",\"content\":\"cuffie bluetooth\"},\"search_keyword\":\"cuffie bluetooth\",\"tag_info\":{\"text_content\":\"\",\"text_color\":\"#FF5500\"},\"scene_id\":\"31908\",\"language\":\"it\",\"query_language\":\"it\",\"ship_to_country\":\"IT\",\"utLogMap\":{\"display_keyword\":\"cuffie bluetooth\",\"rank_score\":\"0.2804673153686041\",\"search_keyword\":\"cuffie bluetooth\",\"ae_sg_tpp_buckets\":\"21144#2854#485248#1000_21144#52647#511753#6_21144#26912#481223#880_21144#16430#462593#549_21144#37124#492530#852_21144#52244#509898#2_687#10162#437632#87_21144#13204#450542#634_21144#60711#538588#9_21144#21863#468898#671_21144#62339#546368#11_21144#3277#7904410#338_21144#22554#470032#160_21144#60553#537783#816_21144#54899#514298#976_21144#2224#18948#235_21144#26800#535678#874_21144#44173#500017#523_21144#26802#537042#320_21144#26803#499717#408_21144#2352#13814#560_21144#54603#513826#16_21144#58120#525751#21_21144#48965#505692#477_21144#13903#453267#260_21144#24355#474138#190_21144#28312#485354#190_21144#26667#480586#260_21144#52531#511207#3_21144#21659#468470#864_21144#3860#17557#2380_21144#2497#490246#372_21144#40794#496575#864_21144#52686#511874#909_21144#4837#22323#484_21144#25863#479047#419_21144#56009#516287#6_21144#28219#485069#402_21144#26799#481264#786_21144#38935#494479#677_21144#53493#512581#11_21144#59359#532837#2_21144#56244#516470#9_21144#59356#532831#16_21144#53895#512771#764_21144#4280#19690#300_21144#63582#552265#10_21144#11744#443772#108_21144#47931#6000004#398_687#11987#511532#165_687#11988#445783#407_687#11989#480939#557_21144#21660#468476#65_21144#2701#7494#237_21144#28228#485090#648_21144#61208#541118#21_21144#26726#480729#499_21144#26728#480753#809_21144#57040#520232#450_687#11990#445802#315_687#11991#508308#901_21144#41302#497331#665_21144#57041#520244#22_21144#7205#34794#185_21144#46793#502998#779_21144#5661#26514#840_21144#49147#506066#561_21144#48760#505359#985_0#2158#24433#85_21144#58046#525336#263_21144#33781#489358#149_21144#33780#489363#89_21144#36376#491678#922_21144#33782#489349#978_21144#63562#552147#35_21144#22931#470528#681_21144#2164#5581#694_21144#2165#5588#700_21144#2166#5612#623_21144#28594#486313#942_21144#2167#5617#221_21144#2163#5559#72_21144#5275#24247#826_21144#54635#513827#15_21144#57628#525578#775_21144#2724#26876#91_21144#44393#502633#782_687#50797#508327#"
+    },
+    {
+      "url": "https://aplus.aliexpress.com/g.gif?logtype=1&title=&pre=https%3A%2F%2Fwww.aliexpress.com%2Fs%2Ferror%2F404&scr=1366x768&_p_url=https%3A%2F%2Fit.aliexpress.com%2Fitem%2F1005011813323763.html%3FgatewayAdapt%3Dglo2ita&cna=I9V8I56bxU4CAdnZbBzMdBQs&spm-cnt=a2g0o.detail.0.0.7c3ck4fDk4fD9T&uidaplus=&aplus=&ali_beacon_id=-&ali_apache_id=33.3.141.179.179450039572.358086.9&ali_apache_track=-&ali_apache_trac",
+      "status": 200,
+      "body_len": 19,
+      "body_preview": "(binary status=200)"
+    },
+    {
+      "url": "https://assets.alicdn.com/g/ae-affiliate-fe/detail-plugin/0.0.19/loader.js",
+      "status": 200,
+      "body_len": 18308,
+      "body_preview": "!function(e,n){\"object\"==typeof exports&&\"object\"==typeof module?module.exports=n():\"function\"==typeof define&&define.amd?define([],n):\"object\"==typeof exports?exports[\"detail-plugin\"]=n():e[\"detail-plugin\"]=n()}(self,(()=>(()=>{\"use strict\";var e={3512:(e,n,t)=>{t.r(n),t.d(n,{sendPV:()=>l,sendPluginEvent:()=>f,sendSafeEvent:()=>p,weexGepTracker:()=>v});var r=t(2818),o=t(7355),i=[\"eventId\",\"eventName\",\"eventType\",\"jsVersion\",\"region\"],c=function e(n,t){return void 0===n&&(n=20),t=t||\"\",n?e(--n,\"0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz\".charAt(Math.floor(60*Math.random()))+t):t},a=function(e,n){var t;switch(e){case\"sendPluginEvent\":t=(0,o.A)({type:\"event\",p1:n[0]},n[1]);break;case\"sendPV\":t={type:\"pv\"};break;default:t=!1}return t&&s(t),!1},u=function(){window.AES_CONFIG=window.AES_CONFIG||{},window.AES_CONFIG.pv_id||(window.AES_CONFIG.pv_id=c(20,\"\"))},s=function(e){u();var n=window.AES_CONFIG,t=n.pid,r=n.sampling,o=void 0===r?1:r,i=n.times,c=void 0===i?1:i,a=n.page_id,s=void 0===a?encodeURIComponent(window.location.href):a,l=n.sdk_version,f=void 0===l?\"2.1.6\":l,p=n.title,v=void 0===p?document.title:p,m=n.username,g=n.user_type,y=n.sid,w=n.pv_id,h=n.hash,_=n.dim1,k=n.dim2,b=n.dim3,C=n.dim4,E=n.dim5,x=n.dim6,P=n.dim7,S=n.dim8,I=n.dim9,O=n.dim10;if(!t)return!1;var R=encodeURIComponent(d(e)),j=encodeURIComponent(d({pid:t,sampling:o,times:c,page_id:s,sdk_version:f,title:v,username:m,user_type:g,sid:y,pv_id:w,hash:h,dim1:_,dim2:k,dim3:b,dim4:C,dim5:E,dim6:x,dim7:P,dim8:S,dim9:I,dim10:O,msg:R}));window.userTrack&&window.userTrack.commitut(\"expose\",2201,\"UT\",\"\",\"/aes.1.1\",\"\",\"\",{gokey:j,gmkey:\"EXP\"})},d=function(e){var n=[];for(var t in e)e[t]&&n.push(t+\"=\"+e[t]);return n.join(\"&\")};function l(e){a(\"sendPV\",e)}function f(e,n,t,r,o,i,c,u,s){a(\"sendPluginEvent\",\"string\"!=typeof n?[e,n]:[e,{et:n,path:t,c1:r,c2:o,c3:i,c4:c,c5:u,c6:s}])}var p=function(e){var n=e.eventId,t=e.eventName,o=e.eventType,c=void 0===o?\"EXP\":o,u=e.jsVersion,s=e.region,d=(0,r.A)(e,i);a(\"sendPluginEvent\",[n,{et:c,c1:\"safe_fe\",c2:u,c3:s,c4:t,c6:function(){try{return JSON.stringify(d)}catch(e){return null}}()}])},v={sendPV:l,sendPluginEvent:f,sendSafeEvent:p}},7355:(e,n,t)=>{function r(){return r=Object.assign?Object.assign.bind():function(e){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var r in t)({}).hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},r.apply(null,arguments)}t.d(n,{A:()=>r})},2818:(e,n,t)=>{function r(e,n){if(null==e)return{};var t={};for(var r in e)if({}.hasOwnProperty.call(e,r)){if(n.indexOf(r)>=0)continue;t[r]=e[r]}return t}t.d(n,{A:()=>r})}},n={};function t(r){var o=n[r];if(void 0!==o)return o.exports;var i=n[r]={exports:{}};return e[r](i,i.exports,t),i.exports}t.d=(e,n)=>{for(var r in n)t.o(n,r)&&!t.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:n[r]})},t.g=function(){if(\"object\"==typeof globalThis)return globalThis;try{return this||new Function(\"return this\")()}catch(e){if(\"object\"==typeof window)return window}}(),t.o=(e,n)=>Obj"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794500458685&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=10000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 89219,
+      "body_preview": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"result\":[{\"layoutInfo\":{\"listHeader\":[\"rcmdTitle\"]},\"jarvisContext\":{},\"mods\":{\"listItems\":[{\"image\":{\"imgUrl\":\"//ae-pic-a1.aliexpress-media.com/kf/S66b908e332354b05a34202918e45f223n.jpg\",\"imgWidth\":350,\"imgHeight\":350,\"imgType\":\"0\"},\"itemType\":\"rmdproductV3\",\"redirectedId\":\"1005013558057708\",\"productId\":\"1005013558057708\",\"tHeadItemType\":\"dx_detail_rcmd_head_cell\",\"transitionaryExpFrame\":true,\"itemCardType\":\"itemcard_new\",\"moreAction\":{\"actions\":[{\"actionType\":\"shopCart\",\"actionText\":\"Aggiungi al carrello\",\"actionIcon\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sce512cd0bba1471087d31f4bfe7745a5O/64x64.png\"},{\"actionType\":\"quickView\",\"actionText\":\"Visualizza anteprima\"},{\"actionType\":\"similarItems\",\"actionText\":\"Articoli simili\"}]},\"extraParams\":{\"sku_images\":\"H4sIAAAAAAAAAEWSO3JcQQhFd+Rqfg08py5v4EUKaRpcVqTEgXfvnhm5lB+oey4AX+B03alc3O3gKUxLVoxdFrMV3ZLJv71//PqOft3QHDWGE+RgKDa0hbONACfk1B9Pcjpct/kauraDpDFJLCCWKOJgTF79/kRhXDdpOTLsTTQ4Z9owjzNM7kMwip8kyTDB615otR1tb22WHjanbWxGTGRJ0hc953UPnb0nTR6E7Kpu2AjVXtri6vWKoHLEcM5xdHdAsECFZ1eDtlYWB7x9oqctozZbmZurmMujomHHMoG2Uvr7RNkfAUhSzHJYAGNVHNXlsNOFdTR9/Debdmh3Ojm1IY9OY5lKJm9KWzvH9v3Z2KMFGqcOplg5+eithTVjuQ4Fhl7456uz07DLEerFundwOEfW1sDShQHU9PuLfrzDBD4VG0ghc5BTyqGk2pYq0v16hwE2Toazvh9GlTBnN4PQYkelVeccXLb75+fAGEA+TvpG79nCW0C4QsIw/IDTxto96nmYfwYnWeCeAgAA\"},\"title\":{\"displayTitle\":\"Autoradio Multimediale con Carplay e Android Auto, Navigazione GPS per Li Auto \\t L9 \\t 2022‑2026 Schermo QLED da 9 pollici UIS 7865 Audio DSP Bluetooth 5.4 Autoradio 8 Core Accessori Plug and Play\",\"shortTitle\":false,\"seoTitle\":\"Autoradio Multimediale con Carplay e Android Auto, Navigazione GPS per Li Auto \\t L9 \\t 2022‑2026 Schermo QLED da 9 pollici UIS 7865 Audio DSP Bluetooth 5.4 Autoradio 8 Core Accessori Plug and Play\"},\"seoWhite\":\"false\",\"productDetailUrl\":\"//www.aliexpress.com/item/1005013558057708.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=cbd7873b-13f4-4051-b3f4-8f5af4d08462&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:cbd7873b-13f4-4051-b3f4-8f5af4d08462,tpp_buckets:668%232846%238116%232002&pdp_ext_f=%7B%22order%22%3A%22-1%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%2177.97%2144.92%21%21%2177.97%2144.92%21%40210393bd17945004597782407e0c54%2112000061518304614%21rec%21IT%21%21XZ%211%210%21n_tag%3A-29919%3Bd%3A7d63fa2e%3Bm03_new_user%3A-29895\",\"lunchTime\":\"2026-11-04 00:00:00\",\"feedBackViews\":[],\"trace\":{\"exposure\":{},\"p4pExposure\":{},\"custom\":{},\"detailPage\":{},\"pdpParams\":{\"pdp_cdi\":\"%7B%22traceId%22%3A%22210393bd17945004597782407e0c54%22%2C%22itemId%22%3A%221005013558057708%22%2C%22fromPage%22%3A%22recommend%22%2C%22skuId%22%3A%2212000061518304614%22%2C%22shipFrom%22%3A%22PL%22%2C%22order%22%3A%22-1%22%2C%22star%22%3A%22%22%2C%22sceneId%22%3A%2230050%22%7D\",\"pdp_npi\":\"6%40dis%21EUR%2177."
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794500459399&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=10000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 392615,
+      "body_preview": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"result\":[{\"layoutInfo\":{\"listHeader\":[\"rcmdTitle\"]},\"jarvisContext\":{},\"mods\":{\"listItems\":[{\"image\":{\"imgUrl\":\"//ae-pic-a1.aliexpress-media.com/kf/Sf8111a469ea74500bb5164fc521cfa7bG.jpg\",\"imgWidth\":350,\"imgHeight\":350,\"imgType\":\"2\"},\"itemType\":\"rmdproductV3\",\"redirectedId\":\"1005010132805410\",\"productId\":\"1005010132805410\",\"tHeadItemType\":\"dx_detail_rcmd_head_cell\",\"transitionaryExpFrame\":true,\"itemCardType\":\"itemcard_new\",\"moreAction\":{\"actions\":[{\"actionType\":\"shopCart\",\"actionText\":\"Aggiungi al carrello\",\"actionIcon\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sce512cd0bba1471087d31f4bfe7745a5O/64x64.png\"},{\"actionType\":\"quickView\",\"actionText\":\"Visualizza anteprima\"},{\"actionType\":\"similarItems\",\"actionText\":\"Articoli simili\"}]},\"extraParams\":{\"sku_images\":\"H4sIAAAAAAAAAB3MuxECMQwFwI4Y2fr5mQYuJKEAyfIxQ0T/EQf5zjaZbDYPyu6wjKaAsBCcY+eZANmgcr29P697o3k4RE7OoauHRGPsKGww2JuMpY+/7JiHBl+NpbgO8Qh08lGr5FpNq54/+QWs+eSEgQAAAA==\"},\"title\":{\"displayTitle\":\"Attacco per Bidet SAMODRA attacco per sedile del Water ultrasottile doppio ugello Bidet pressione dell'acqua regolabile spruzzatore per culo Non elettrico\",\"shortTitle\":false,\"seoTitle\":\"Attacco per Bidet SAMODRA attacco per sedile del Water ultrasottile doppio ugello Bidet pressione dell'acqua regolabile spruzzatore per culo Non elettrico\"},\"seoWhite\":\"true\",\"evaluation\":{\"evalNumber\":\"956\",\"starWidth\":48,\"starUrl\":\"https://ae-pic-a1.aliexpress-media.com/kf/S567d6bf538214abf95c1e5825c7e6a05t/48x48.png\",\"starRating\":4.9,\"starHeight\":48},\"productDetailUrl\":\"//www.aliexpress.com/item/1005010132805410.html?gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=ac72fc55-f5d2-4ee9-9452-efbb2ed77853&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:ac72fc55-f5d2-4ee9-9452-efbb2ed77853,tpp_buckets:668%232846%238107%231934&pdp_ext_f=%7B%22order%22%3A%227207%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005010132805410%22%2C%22orig_item_id%22%3A%221005006647468190%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%2152.76%2134.99%21%21%21381.25%21252.82%21%40210393bd17945004603842425e0c54%2112000055944412771%21rec%21IT%21%21X%211%210%21n_tag%3A-29919%3Bd%3A7d63fa2e%3Bm03_new_user%3A-29895\",\"lunchTime\":\"2025-10-11 00:00:00\",\"feedBackViews\":[],\"trace\":{\"exposure\":{},\"p4pExposure\":{},\"custom\":{\"p4pExtendParam\":\"{\\\"company_name\\\":\\\"MICTW Supply Chain Service Singapore Private Limited\\\",\\\"store_name\\\":\\\"Shop1103659154 Store\\\"}\"},\"detailPage\":{},\"pdpParams\":{\"pdp_cdi\":\"%7B%22traceId%22%3A%22210393bd17945004603842425e0c54%22%2C%22itemId%22%3A%221005010132805410%22%2C%22fromPage%22%3A%22recommend%22%2C%22skuId%22%3A%2212000055944412771%22%2C%22shipFrom%22%3A%22FR%22%2C%22order%22%3A%227207%22%2C%22star%22%3A%224.9%22%2C%22sceneId%22%3A%2230050%22%7D\",\"pdp_npi\":\"6%40dis%21EUR%2152"
+    },
+    {
+      "url": "https://aplus.aliexpress.com/Product.Exposure.Event?gmkey=EXP&gokey=exp_page%3Ddetail_page%26exp_type%3Drcmd%26exp_condition%3Dscm_id%3D1007.40050.354490.0%2Cpvid%3Dac72fc55-f5d2-4ee9-9452-efbb2ed77853%26exp_product%3Ditem_id%3D1005010132805410%7Citem_id%3D1005007058469125%7Citem_id%3D1005012578573981%7Citem_id%3D1005010322388037%7Citem_id%3D1005012379180077%26exp_attribute%3D%7Bitem_id%3D10050101",
+      "status": 200,
+      "body_len": 19,
+      "body_preview": "(binary status=200)"
+    },
+    {
+      "url": "https://aplus.aliexpress.com/Product.Exposure.Event?gmkey=EXP&gokey=exp_page%3Ddetail_page%26exp_type%3Drcmd%26exp_condition%3Dscm_id%3D1007.40050.354490.0%2Cpvid%3Dac72fc55-f5d2-4ee9-9452-efbb2ed77853%26exp_product%3Ditem_id%3D1005007597544632%26exp_attribute%3D%7Bitem_id%3D1005007597544632%2C5%7D%26exp_result_cnt%3D1%26st_page_id%3Divibxucadnzbbzmd1a1d08ff6811830c68ce243f1a%26exposure%3D%257ButL",
+      "status": 200,
+      "body_len": 19,
+      "body_preview": "(binary status=200)"
+    }
+  ],
+  "network_count": 15,
+  "final_data": {
+    "title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+    "price": "",
+    "currency": "",
+    "stock": "",
+    "category": "",
+    "seller": "",
+    "images": [
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S01523ef93482448d8c33d410344d6a9eI/361x360.png",
+      "//ae-pic-a1.aliexpress-media.com/kf/S335ae171f26e4120bd62927d41712d465.jpg_480x480q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Se66912bcbc6f4427929b2461b91fc07cB.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S0606de8236b647b4ba3b83974ebe5cf2a/64x64.png",
+      "//ae-pic-a1.aliexpress-media.com/kf/Se288f38c814249c1a818b7cfbb444b9bX.jpg_480x480q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S0f1bc1aeb2ab4de98568b86f99bcd0991/42x60.png",
+      "//ae-pic-a1.aliexpress-media.com/kf/S88da7797f22a4bb5b884e1b4a04e0a52c.jpg_480x480q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S135d2af8d57840b28092ceba069bdb6c4/110x42.png",
+      "//ae-pic-a1.aliexpress-media.com/kf/Sb50f913d6d014a289c3831d00b38b501V.png_480x480.png_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S001c2c51750840d68f20032617da5fbdB.png",
+      "//ae-pic-a1.aliexpress-media.com/kf/Sf8111a469ea74500bb5164fc521cfa7bG.jpg_480x480q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sca1bcdd1057c4a388af0eed405d9a464x.png"
+    ],
+    "sku_count": 0,
+    "source": "dom",
+    "html_len": 400239,
+    "tmd_iframes": 1,
+    "network_hits": 15,
+    "mtop_in_network": false
+  },
+  "errors": []
+}

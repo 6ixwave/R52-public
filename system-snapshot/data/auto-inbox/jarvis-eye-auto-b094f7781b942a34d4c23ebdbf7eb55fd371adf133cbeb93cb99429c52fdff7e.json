@@ -1,0 +1,253 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Подушка 70х70 2 шт",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "СлипТекс",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Подушки для сна 70×70 см — это комфорт и поддержка, созданные для полноценного отдыха. Благодаря современному наполнителю 3D силиконизированному волокну Soft microFiber Swan’s down (искусственный лебяжий пух премиум-качества), подушки обеспечивают идеальный баланс мягкости и упругости. Такой материал повторяет ощущения натурального пуха, при этом оставаясь гипоаллергенным, устойчивым к деформации и простым в уходе. Он не сбивается, не слёживается, быстро восстанавливает форму и хорошо пропускает воздух, обеспечивая свежесть и комфортный микроклимат во время сна.\n\nПодушки подходят для сна в любом положении — на боку, на спине или животе. Они равномерно поддерживают голову и шею, помогая расслабить мышцы и снять напряжение. Благодаря анатомической форме подушки способствуют правильному положению позвоночника и здоровому сну.\n\nЧехол выполнен из мягкой микрофибры — прочного, износостойкого и приятного на ощупь материала, который дышит, не электризуется и не вызывает раздражения кожи. Простёжка повышает долговечность изделия и защищает наполнитель от пыли и загрязнений.\n\nКомплект состоит из двух подушек размером 70×70 см, что делает его практичным выбором для семьи или в качестве готового подарочного набора. Эти подушки подойдут людям с чувствительной кожей и склонностью к аллергии, обеспечивая лёгкий, уютный и здоровый сон каждый день.\n\nНе откладывайте заботу о вашем сне на потом. Приобретите наши ортопедические подушки сегодня и ощутите разницу с первой ночи!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Текстиль для дома > Подушки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 470000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "4700.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 150300,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1503.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.4-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lottery-service.cb54e5fab8db32dd.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/suppliersService.16d9b28a099ea3c6.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://videonme-basket-10.wbbasket.ru/vol114/part32023/320237826/mp4/360p/1.mp4",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/c246x328/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/c246x328/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/c246x328/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/c246x328/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/c246x328/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/c246x328/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/c246x328/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/big/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/big/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/big/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/big/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/big/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/big/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-19.wbbasket.ru/vol3202/part320237/320237826/images/big/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/app-store.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/google-play.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/app-gallery.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/rustore.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/avrora.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/apps/qr-apps.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/default-settings-ru.22f317172ab6ff43648c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lang-ru.c209555236b82e9e.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-vendors.88d8eda9c1885eea.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-app.f39d9a378793d996.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/index-spa.71cf448da12faff3.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/entry.92d454f76b230caf.js",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Текстиль для дома > Подушки",
+    "source": "WB",
+    "id": "320237826",
+    "url": "https://www.wildberries.ru/catalog/320237826/detail.aspx",
+    "observed_at": "2026-11-17T01:47:44.192985+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

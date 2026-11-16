@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "ACASIS Docking Station USB-C 14 in 1 con triplo display 4K60Hz, HDMI, PD100W, hub 10Gbps, RJ45, lettore di schede SD e TF per laptop Mac e Windows",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "61.76",
+        "amount_minor": 6176,
+        "currency": "RUB",
+        "visible_label": "61.76 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "58.99",
+        "amount_minor": 5899,
+        "currency": "RUB",
+        "visible_label": "58.99 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S73c4661c752d44448edc83514c84f12de.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013001743833",
+    "url": "https://ru.aliexpress.com/item/1005013001743833.html",
+    "observed_at": "2026-11-13T07:48:13.476768+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

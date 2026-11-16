@@ -1,0 +1,48 @@
+2026-11-13 18:48:50,801 test_e2e INFO ============================================================
+2026-11-13 18:48:50,801 test_e2e INFO E2E COLLECTOR TEST — 2026-11-13T18:48:50.801946
+2026-11-13 18:48:50,802 test_e2e INFO ============================================================
+2026-11-13 18:48:51,164 r52.sources INFO Sources: зарегистрировано 6 сборщиков
+2026-11-13 18:48:51,164 test_e2e INFO [PASS] registry_all_ready 6 sources: WB=READY, OZON=READY, AVITO=READY, FARPOST=READY, ALIEXPRESS=READY, ALIEXPRESS_RU=READY
+2026-11-13 18:48:51,164 test_e2e INFO [PASS] import_all_collectors 6 classes imported
+2026-11-13 18:48:51,164 test_e2e INFO ----------------------------------------
+2026-11-13 18:48:51,164 test_e2e INFO SOURCE: WB
+2026-11-13 18:48:51,165 r52.collectors.runner INFO Runner WB: запуск subprocess: C:\Python315\python.exe -m r52.collectors.runner --params C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\collect\output\WB\runner-wb-params.json
+2026-11-13 18:51:43,339 test_e2e INFO Subprocess WB: {"source": "WB", "total_items": 1, "collected": 1, "failed": 0, "files_written": 1, "elapsed_sec": 171.6, "collector_stats": {"requests": 52, "success": 2, "failed": 41, "blocked": 9}, "proxy_stats": {"total": 0, "alive": 0, "use_proxies": false}, "elapsed_total": 172.2}
+2026-11-13 18:51:43,340 test_e2e INFO [PASS] subprocess_WB items=1, collected=1, failed=0, files=1, 172.2s
+2026-11-13 18:51:43,346 test_e2e INFO [PASS] json_WB_title title='Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)'
+2026-11-13 18:51:43,346 test_e2e INFO [FAIL] json_WB_price price='', candidates=0
+2026-11-13 18:51:43,346 test_e2e INFO [FAIL] json_WB_availability avail='UNKNOWN'
+2026-11-13 18:51:43,346 test_e2e INFO [PASS] json_WB_photos photos=1, total_media=1
+2026-11-13 18:51:43,346 test_e2e INFO [PASS] json_WB_format format=JARVIS_BR02_COLLECTOR_AUTONOMOUS
+2026-11-13 18:51:43,346 test_e2e INFO [PASS] json_WB_status status=PARTIAL_SUCCESS
+2026-11-13 18:51:43,618 r52.intake INFO Во входящие добавлен файл jarvis-eye-wb-d69856f0.json: PENDING 
+2026-11-13 18:51:43,618 test_e2e INFO [PASS] eye_WB_stage status=PENDING, created=True, id=4
+2026-11-13 18:51:43,631 test_e2e INFO [PASS] eye_WB_accept product_id=2, obs_created=True
+2026-11-13 18:51:43,634 test_e2e INFO [PASS] eye_WB_sqlite products=2, observations=4
+2026-11-13 18:51:43,637 test_e2e INFO ----------------------------------------
+2026-11-13 18:51:43,637 test_e2e INFO SOURCE: OZON
+2026-11-13 18:51:43,638 r52.collectors.runner INFO Runner OZON: запуск subprocess: C:\Python315\python.exe -m r52.collectors.runner --params C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\collect\output\OZON\runner-ozon-params.json
+2026-11-13 18:53:46,753 test_e2e INFO Subprocess OZON: {"source": "OZON", "total_items": 1, "collected": 0, "failed": 1, "files_written": 1, "elapsed_sec": 121.2, "collector_stats": {"requests": 4, "success": 0, "failed": 1, "blocked": 1}, "proxy_stats": {"total": 0, "alive": 0, "use_proxies": false}, "elapsed_total": 123.1}
+2026-11-13 18:53:46,753 test_e2e INFO [PASS] subprocess_OZON items=1, collected=0, failed=1, files=1, 123.1s
+2026-11-13 18:53:46,754 test_e2e INFO [FAIL] json_OZON_title title=''
+2026-11-13 18:53:46,754 test_e2e INFO [FAIL] json_OZON_price price='', candidates=0
+2026-11-13 18:53:46,754 test_e2e INFO [FAIL] json_OZON_availability avail=''
+2026-11-13 18:53:46,754 test_e2e INFO [FAIL] json_OZON_photos photos=0, total_media=0
+2026-11-13 18:53:46,754 test_e2e INFO [PASS] json_OZON_format format=JARVIS_BR02_COLLECTOR_AUTONOMOUS
+2026-11-13 18:53:46,754 test_e2e INFO [FAIL] json_OZON_status status=FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\scripts\test_e2e_collectors.py", line 264, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\scripts\test_e2e_collectors.py", line 237, in main
+    test_eye_pipeline(source, output_dir)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\scripts\test_e2e_collectors.py", line 164, in test_eye_pipeline
+    app.open()
+    ~~~~~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\service.py", line 66, in open
+    self.lock.acquire()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\lease.py", line 39, in acquire
+    raise AppError("CORE_ALREADY_RUNNING", status=409) from None
+r52.errors.AppError: CORE_ALREADY_RUNNING

@@ -1,0 +1,66 @@
+{
+  "time": "2026-11-12T16:23:23.914000+10:00",
+  "total_s": 63.9,
+  "results": {
+    "WB:card_cdn": {
+      "ok": true,
+      "detail": "host=basket-42.wbbasket.ru vol=10979 title=Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM) keys=21",
+      "s": 42.7
+    },
+    "WB:html_warmup": {
+      "ok": false,
+      "detail": "HTTP=498 len=1136 prices=[]",
+      "s": 0.9
+    },
+    "WB:price_all": {
+      "ok": false,
+      "detail": "all endpoints failed",
+      "s": 3.8
+    },
+    "WB:photos": {
+      "ok": false,
+      "detail": "Failed to perform, curl: (6) Could not resolve host: ir1.wbstatic.net (Domain na",
+      "s": 0.8
+    },
+    "OZON:composer_api": {
+      "ok": false,
+      "detail": "all failed, last=403",
+      "s": 3.0
+    },
+    "OZON:html_session": {
+      "ok": false,
+      "detail": "HTTP=403 len=8427 prices=[] state=False",
+      "s": 2.5
+    },
+    "OZON:mobile": {
+      "ok": false,
+      "detail": "HTTP=403 len=8181 title=Antibot Challenge Page prices=[]",
+      "s": 1.1
+    },
+    "FARPOST:full_html": {
+      "ok": false,
+      "detail": "HTTP=200 len=197966 prices=[] ctx=[]",
+      "s": 1.9
+    },
+    "FARPOST:html2": {
+      "ok": true,
+      "detail": "lid=138952176 len=198077 prices=[]",
+      "s": 1.9
+    },
+    "AVITO:session_desktop": {
+      "ok": false,
+      "detail": "HTTP=429 len=34116 title=Страница не загрузилась из-за проблем с& prices=[] state=False",
+      "s": 3.2
+    },
+    "AVITO:api": {
+      "ok": false,
+      "detail": "tried 3",
+      "s": 1.9
+    },
+    "AVITO:city_spb": {
+      "ok": false,
+      "detail": "HTTP=404 len=29440 title=Такой страницы нe существует prices=[]",
+      "s": 0.9
+    }
+  }
+}

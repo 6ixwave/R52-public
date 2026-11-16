@@ -1,0 +1,92 @@
+{
+  "ts": "2026-11-14T23:55:24",
+  "results": {
+    "WB": {
+      "status": "FAIL",
+      "error": "SEARCH_HTTP_403",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\debug\\test_full_pipeline.py\", line 45, in test_collector\n    rows = collector.collect_by_search(query, page=1, page_size=3)\n  File \"C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\wb.py\", line 972, in collect_by_search\n    raise SearchError(f\"SEARCH_HTTP_{last_status}\")\nr52.collectors.discovery.SearchError: SEARCH_HTTP_403\n",
+      "elapsed_sec": 51.7
+    },
+    "OZON": {
+      "status": "PASS",
+      "search_rows": 3,
+      "valid_rows": 3,
+      "has_price": true,
+      "price_candidates": 1,
+      "first_price": {
+        "role": "current",
+        "amount": "370.00",
+        "amount_minor": 37000,
+        "currency": "RUB",
+        "visible_label": "370 руб."
+      },
+      "product_status": "NO_RESULT",
+      "elapsed_sec": 188.7,
+      "errors": []
+    },
+    "AVITO": {
+      "status": "FAIL",
+      "error": "SEARCH_ACCESS_CHALLENGE",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\debug\\test_full_pipeline.py\", line 45, in test_collector\n    rows = collector.collect_by_search(query, page=1, page_size=3)\n  File \"C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\avito.py\", line 604, in collect_by_search\n    raise SearchError(\"SEARCH_ACCESS_CHALLENGE\")\nr52.collectors.discovery.SearchError: SEARCH_ACCESS_CHALLENGE\n",
+      "elapsed_sec": 17.7
+    },
+    "FARPOST": {
+      "status": "PASS",
+      "search_rows": 3,
+      "valid_rows": 3,
+      "has_price": false,
+      "price_candidates": 0,
+      "first_price": null,
+      "product_status": "FULL_SUCCESS",
+      "elapsed_sec": 12.6,
+      "errors": []
+    },
+    "ALIEXPRESS": {
+      "status": "PASS",
+      "search_rows": 3,
+      "valid_rows": 3,
+      "has_price": true,
+      "price_candidates": 2,
+      "first_price": {
+        "role": "current",
+        "amount": "48.35",
+        "amount_minor": 4835,
+        "currency": "EUR",
+        "visible_label": "48.35 EUR"
+      },
+      "product_status": "PARTIAL_SUCCESS",
+      "elapsed_sec": 11.7,
+      "errors": []
+    },
+    "ALIEXPRESS_RU": {
+      "status": "PASS",
+      "search_rows": 12,
+      "valid_rows": 12,
+      "has_price": true,
+      "price_candidates": 2,
+      "first_price": {
+        "role": "current",
+        "amount": "48.35",
+        "amount_minor": 4835,
+        "currency": "EUR",
+        "visible_label": "48.35 EUR"
+      },
+      "product_status": "PARTIAL_SUCCESS",
+      "elapsed_sec": 18.2,
+      "errors": []
+    },
+    "INTAKE": {
+      "status": "PASS",
+      "intake_files": 3,
+      "inbox_items": 1,
+      "inbox_status": "PENDING",
+      "accepted": true,
+      "product_id": 3,
+      "observation_id": 3,
+      "elapsed_sec": 6.2
+    }
+  },
+  "pass_count": 5,
+  "fail_count": 2,
+  "total": 7
+}

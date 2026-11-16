@@ -1,0 +1,57 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Xiaomi Redmi Note 17 Pro Max 5G, NFC, Snapdragon® 6 Gen 5, 6,83\", Fotocamera 50MP, Batteria 9210mA, IP68",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "425.25",
+        "amount_minor": 42525,
+        "currency": "EUR",
+        "visible_label": "425.25 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "356.82",
+        "amount_minor": 35682,
+        "currency": "EUR",
+        "visible_label": "356.82 EUR"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013423928418",
+    "url": "https://ru.aliexpress.com/item/1005013423928418.html",
+    "observed_at": "2026-11-13T19:50:27.650655+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,55 @@
+=== diag_v7d — 2026-11-14 12:33:52 ===
+Query: 'наушники'
+
+═══ PART 1: AE_RU pagination ═══
+
+  p1: 12 items 4.5s
+  p2: 12 items 10.3s
+  ── Quality (24 total) ──
+  None-ID: 0/24
+  Empty-title: 0/24
+  No-price: 0/24
+  Bad-price (<=1.00): 0/24
+  No-image: 0/24
+  ── Pagination ──
+  p1: 10 unique IDs
+  p2: 14 unique IDs
+  overlap: 1
+  overlap IDs: ['1005012519559118']
+  ── Sample prices (first 6) ──
+  [0] current EUR 2.13 | original EUR 2.14
+  [1] current EUR 17.79 | original EUR 19.80
+  [2] current EUR 18.79 | original EUR 45.83
+  [3] current EUR 3.61
+  [4] current EUR 10.47
+  [5] current EUR 147.99 | original EUR 295.98
+  Stats: {'requests': 2, 'success': 2, 'failed': 0, 'blocked': 0}
+
+═══ PART 2: AE_COM product page trace ═══
+
+URL: https://www.aliexpress.com/item/1005013565057281.html
+HTTP 200, 76245 bytes, 2.7s
+Final URL: https://it.aliexpress.com/item/1005013565057281.html?gatewayAdapt=glo2ita
+  ── Shell detection ──
+  <title>: 
+  meta refresh: []
+  JS redirects: ['//login.aliexpress.com?return_url=', '//login.aliexpress.com/sync_cookie_read.htm?xman_goto=', 'https://login.aliexpress.com?returnUrl=']
+  __INIT_DATA_STATE__: NOT FOUND
+  runParams: {
+                    }
+  ── Price search ──
+  JSON price fields: []
+  DOM price: []
+  amount/value: []
+  currency symbol: ['1', '2', '1', '3', '1', '1']
+  ── Page structure ──
+  <h1>: NONE
+  product title meta: ['HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per Audiofili, Versione Stealth Magnets - AliExpress 44']
+  product:price:amount: []
+  product:price:currency: []
+  new--price/us--price classes: 0 found
+  SKU/price module: NOT FOUND
+  <body> start: <script> with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","userid=&aplus&ali_beacon_id=&ali_apache_id=33%2e97%2e59%2e232%2e1794623652217%2e157700%2e2&ali_apache_track=&ali_apache_tracktmp=&dmtrack_c={}&hn=ae%2dglodetail%2dweb011136171082%2ede198&asid=AQAAAAClyPdqEO8iewAAAAAQWWJlQRr7Yg==&sidx=0",id="beacon-aplus",src="//assets.alicdn.com/g/alilog
+  redirect/loading indicator: found
+
+=== DONE ===

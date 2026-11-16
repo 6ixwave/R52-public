@@ -1,0 +1,28 @@
+﻿[OK] curl_cffi
+
+============================================================
+OZON V2
+============================================================
+
+[A] SEARCH FOR LIVE PRODUCT
+    https://www.ozon.ru/search/?text=ноутбук: 403 (8560B)
+    https://www.ozon.ru/search/?text=iphone&from_globa: 403 (8532B)
+    https://www.ozon.ru/category/noutbuki-16531/: 403 (8532B)
+    Test IDs: ['1600562267', '1234567890', '2500000001']
+
+[B] PRODUCT CARD FETCH
+    /product/1600562267/: 403 (8553B)
+      403 (anti-bot)
+    /product/1234567890/: 403 (8497B)
+      403 (anti-bot)
+    /product/2500000001/: 403 (8581B)
+      403 (anti-bot)
+
+[C] COMPOSER API DIRECT
+    /api/composer-api.bx/page/json/v2?url=/produc: 403 (8581B)
+    /api/composer-api.bx/page/v2?url=/product/160: 403 (8525B)
+    /api/entrypoint-api.bx/page/json/v2?url=/prod: 403 (8581B)
+
+============================================================
+DONE
+============================================================

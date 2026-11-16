@@ -1,0 +1,42 @@
+02:07:05 [v130] INFO: v130 started, budget=115s
+02:07:05 [v130] INFO: ============================================================
+02:07:05 [v130] INFO: WB MEDIA: correct headers + alt patterns
+02:07:05 [v130] INFO: ============================================================
+02:07:05 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+02:07:05 [r52.collectors.wb] INFO: WB: curl_cffi доступен (impersonate=chrome)
+02:07:42 [r52.collectors.wb] INFO: WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+02:07:42 [v130] INFO:   host=basket-13.wbbasket.ru base=https://basket-13.wbbasket.ru/vol1992/part199298/199298871
+02:07:45 [v130] INFO:   [ 0] HTTP 404       0B text/html                 bbasket.ru/vol1992/part199298/199298871/images/S800/199298871.jpg
+02:07:48 [v130] INFO:   [ 1] HTTP 404       0B text/html                 bbasket.ru/vol1992/part199298/199298871/images/S800/173121919.jpg
+02:07:52 [v130] INFO:   [ 2] HTTP 404       0B text/html                 bbasket.ru/vol1992/part199298/199298871/images/S800/173036660.jpg
+02:07:55 [v130] INFO:   [ 3] HTTP 404       0B text/html                 -13.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg
+02:07:57 [v130] INFO:   [ 4] HTTP 404       0B text/html                 basket.ru/vol1992/part199298/199298871/images/S1200/199298871.jpg
+02:08:00 [v130] INFO:   [ 5] HTTP 404       0B text/html                 3.wbbasket.ru/vol1992/part199298/199298871/images/S1200/S1200.jpg
+02:08:02 [v130] INFO:   [ 6] HTTP 404       0B text/html                 bbasket.ru/vol1992/part199298/199298871/images/S500/199298871.jpg
+02:08:04 [v130] INFO:   [ 7] HTTP 404       0B text/html                 -13.wbbasket.ru/vol1992/part199298/199298871/images/199298871.jpg
+02:08:08 [v130] INFO:   [ 8] HTTP 404       0B text/html                 //basket-13.wbbasket.ru/vol1992/part199298/199298871/images/1.jpg
+02:08:16 [r52.collectors.wb] WARNING: WB cffi error https://static.wbstatic.net/big/199298871.jpg: Failed to perform, curl: (35) Recv failure: Connection was reset. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:08:16 [v130] INFO:   [ 9] None (timeout/err) https://static.wbstatic.net/big/199298871.jpg
+02:08:21 [r52.collectors.wb] WARNING: WB cffi error https://static.wbstatic.net/preview/199298871.jpg: Failed to perform, curl: (35) Recv failure: Connection was reset. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:08:21 [v130] INFO:   [10] None (timeout/err) https://static.wbstatic.net/preview/199298871.jpg
+02:08:22 [r52.collectors.wb] WARNING: WB cffi error https://ir.wbstatic.net/big/199298871.jpg: Failed to perform, curl: (6) Could not resolve host: ir.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:08:22 [v130] INFO:   [11] None (timeout/err) https://ir.wbstatic.net/big/199298871.jpg
+02:08:26 [r52.collectors.wb] WARNING: WB cffi error https://wbx2.ru/199298871/199298871.jpg: Failed to perform, curl: (6) Could not resolve host: wbx2.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:08:26 [v130] INFO:   [12] None (timeout/err) https://wbx2.ru/199298871/199298871.jpg
+02:08:29 [r52.collectors.wb] WARNING: WB cffi error https://wbx2.ru/199298871/1.jpg: Failed to perform, curl: (6) Could not resolve host: wbx2.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:08:29 [v130] INFO:   [13] None (timeout/err) https://wbx2.ru/199298871/1.jpg
+02:08:34 [v130] INFO:   [14] HTTP 498       0B text/html                 https://www.wildberries.ru/images/199298871/199298871.jpg
+02:08:37 [v130] INFO:   [15] HTTP 404       0B text/html                 sket.ru/vol1992/part199298/199298871/info/ru/images/199298871.jpg
+02:08:37 [v130] INFO:   MEDIA FOUND: 0
+02:08:37 [v130] INFO: 
+  --- images.json / media.json probes ---
+02:08:39 [v130] INFO:   u/vol1992/part199298/199298871/info/ru/images.json -> HTTP 404 0B
+02:08:41 [v130] INFO:   ru/vol1992/part199298/199298871/info/ru/media.json -> HTTP 404 0B
+02:08:45 [v130] INFO:   basket.ru/vol1992/part199298/199298871/images.json -> HTTP 404 0B
+02:08:47 [v130] INFO:   /vol1992/part199298/199298871/info/ru/gallery.json -> HTTP 404 0B
+02:08:47 [v130] INFO: 
+============================================================
+02:08:47 [v130] INFO: v130 DONE in 102.4s
+02:08:47 [v130] INFO: MEDIA: 0 found
+02:08:47 [v130] INFO: PRICE: []
+02:08:47 [v130] INFO: ============================================================

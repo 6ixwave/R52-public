@@ -1,0 +1,58 @@
+﻿[OK] Playwright
+
+============================================================
+[WB] nm_id=138278567
+============================================================
+  goto: 498
+  poll[0]: navigating (Page.content: Unable to retrieve content because t)
+  poll[1]: size=7590 wbaas=False url=https://www.wildberries.ru/catalog/138278567/detail.aspx
+  poll[2]: size=7590 wbaas=False url=https://www.wildberries.ru/catalog/138278567/detail.aspx
+  poll[3]: size=7590 wbaas=False url=https://www.wildberries.ru/catalog/138278567/detail.aspx
+  poll[4]: size=7590 wbaas=False url=https://www.wildberries.ru/catalog/138278567/detail.aspx
+  poll[5]: size=7590 wbaas=False url=https://www.wildberries.ru/catalog/138278567/detail.aspx
+  poll[6]: size=7590 wbaas=False url=https://www.wildberries.ru/catalog/138278567/detail.aspx
+  poll[7]: size=7590 wbaas=False url=https://www.wildberries.ru/catalog/138278567/detail.aspx
+  networkidle: size=7590
+  RESULT: size=7590 prices=0 title=...
+
+============================================================
+[OZON] pid=1600562267
+============================================================
+  goto: 403
+  RESULT: size=1087493 prices=2 title=Ткань для обивки мебели, Велюр с абстрактным принт
+    {'source': 'json-price', 'value': 2295}
+    {'source': 'jsonld', 'value': 2295.0, 'cur': 'RUB', 'avail': 'http://schema.org/InStock'}
+
+============================================================
+[AVITO] Direct listing
+============================================================
+  [direct_7494308705] https://www.avito.ru/ad/7494308705
+    goto: 404
+    size=29378 title=Ошибка 404. Страница не найдена
+    blocked=False
+    IDs: ['200026938']
+    prices=0
+  [search_noutbuki] https://www.avito.ru/moskva/noutbuki
+    goto: 302
+    size=36447 title=Доступ ограничен: проблема с IP
+    blocked=True
+    IDs: []
+    prices=0
+  [search_electronics] https://www.avito.ru/moskva/elektronika
+    goto: 429
+    size=36447 title=Доступ ограничен: проблема с IP
+    blocked=True
+    IDs: []
+    prices=0
+
+============================================================
+SUMMARY
+============================================================
+
+
+  avito /direct_7494308705: price=False n=0 size=29378 'Ошибка 404. Страница не найдена'
+  avito /search_noutbuki: price=False n=0 size=36447 'Доступ ограничен: проблема с IP'
+  avito /search_electronics: price=False n=0 size=36447 'Доступ ограничен: проблема с IP'
+
+Saved -> C:\Users\aleks\Downloads\R52-2.12\R52-2.12\pw2_result.json
+DONE

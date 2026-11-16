@@ -1,0 +1,61 @@
+=== diag_v6j — 2026-11-14 12:09:26 ===
+Query: 'наушники', page_size=10
+
+── ALIEXPRESS COM ──
+  Init: OK
+  p1: OK 10 items 144.2s
+  p2: OK 9 items 146.4s
+  ── Quality p1 (first 3 items) ──
+  [0] id=1005013565057281
+      title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per'
+      price=''  avail=''
+      url=https://it.aliexpress.com/item/1005013565057281.html?algo_pvid=e4e7920a-e56b-4b0
+      status=PARTIAL_SUCCESS
+  [1] id=1005013569410352
+      title='Cuffie wireless con archetto, che offrono un suono stereo ni'
+      price=''  avail=''
+      url=https://it.aliexpress.com/item/1005013569410352.html?algo_pvid=e4e7920a-e56b-4b0
+      status=PARTIAL_SUCCESS
+  [2] id=1005013582572287
+      title='Cuffie wireless con archetto, cuscinetti auricolari in pelle'
+      price=''  avail=''
+      url=https://it.aliexpress.com/item/1005013582572287.html?algo_pvid=e4e7920a-e56b-4b0
+      status=PARTIAL_SUCCESS
+  ── Pagination ──
+  p1: 10 unique IDs: ['1005006995138897', '1005012892557061', '1005013091451481', '1005013252107248', '1005013407595470']
+  p2: 9 unique IDs: ['1005005192265099', '1005009806888270', '1005009878583818', '1005012341747996', '1005012411164114']
+  overlap: 0/9
+  Stats: {'requests': 21, 'success': 21, 'failed': 0, 'blocked': 0}
+
+── ALIEXPRESS_RU ──
+  Init: OK
+  p1: OK 9 items 5.2s
+  p2: OK 8 items 12.5s
+  ── Quality p1 (first 3 items) ──
+  [0] id=1005009045264533
+      title='Auricolari Sportivi Wireless BT con Ganci per Orecchie, Cuff'
+      price=''  avail='IN_STOCK'
+      url=https://ru.aliexpress.com/item/1005009045264533.html
+      status=PARTIAL_SUCCESS
+  [1] id=1005012519559118
+      title='Cuffie cablate da 3,5 mm/Type-C Over-Ear HiFi con controllo '
+      price=''  avail='IN_STOCK'
+      url=https://ru.aliexpress.com/item/1005012519559118.html
+      status=PARTIAL_SUCCESS
+  [2] id=1005013441832940
+      title='Cuffie Bluetooth Over-Ear Premium Stile Street Outdoor DT-09'
+      price=''  avail='IN_STOCK'
+      url=https://ru.aliexpress.com/item/1005013441832940.html
+      status=PARTIAL_SUCCESS
+  ── Pagination ──
+  p1: 9 unique IDs: ['1005006995138897', '1005009045264533', '1005012519559118', '1005013441832940', '1005013516366610']
+  p2: 8 unique IDs: ['1005005585261297', '1005005589274277', '1005006966378311', '1005013083538805', '1005013172787045']
+  overlap: 1/8
+  Stats: {'requests': 2, 'success': 2, 'failed': 0, 'blocked': 0}
+
+── WB (probe) ──
+  Init: OK
+  p1: ERR SearchError: SEARCH_HTTP_403 (44.3s)
+  Stats: {'requests': 6, 'success': 0, 'failed': 0, 'blocked': 4}
+
+=== DONE ===

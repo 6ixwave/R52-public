@@ -1,0 +1,211 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Triangle IcelynX TI501, 205/55 R16 94T XL",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Продажа Triangle IcelynX TI501, 205/55 R16 94T XL ! ABИATOPOB 3/4 ! в Красноярске Зимние, Шипованные, Новый, 4 шт",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Авто и мото > Шины и диски > Шины > Шины Triangle > Triangle IcelynX TI501",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Triangle",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "Triangle IcelynX TI501",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "inSetQuantity": {
+            "label": "Количество шин в неделимом комплекте",
+            "value": "4 шт"
+          },
+          "quantity": {
+            "label": "Всего комплектов",
+            "value": "3&nbsp;шт"
+          },
+          "year": {
+            "label": "Год выпуска шин",
+            "value": "2026"
+          },
+          "wheelSeason": {
+            "label": "Протектор",
+            "value": "Зимние"
+          },
+          "wheelSpike": {
+            "label": "Шиповка",
+            "value": "Шипованные"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Новый"
+          },
+          "marking": {
+            "label": "Каркас",
+            "value": "радиальный"
+          },
+          "goodPresentState": {
+            "label": "Наличие товара в Красноярске",
+            "value": "В наличии"
+          },
+          "predestination": {
+            "label": "Тип шины",
+            "value": "Обычная"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller": {
+        "status": "KNOWN",
+        "value": "TT-auto__дилер TRIANGLE__лучшие цены",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller_url": {
+        "status": "KNOWN",
+        "value": "https://www.farpost.ru/user/9437672/",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "130693618",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 2440000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "24400.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1695007185239_bulletin?ni=yes",
+          "image_data": null,
+          "alt": "Triangle IcelynX TI501. зимние, шипованные, 2026 год, новый фото",
+          "label": "",
+          "is_main": false,
+          "width": 640,
+          "height": 425
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1695007185714_bulletin?ni=yes",
+          "image_data": null,
+          "alt": "Triangle IcelynX TI501. зимние, шипованные, 2026 год, новый фото",
+          "label": "",
+          "is_main": false,
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1695007185703_bulletin?ni=yes",
+          "image_data": null,
+          "alt": "Triangle IcelynX TI501. зимние, шипованные, 2026 год, новый фото",
+          "label": "",
+          "is_main": false,
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1726496975093_bulletin?ni=yes",
+          "image_data": null,
+          "alt": "Triangle IcelynX TI501. зимние, шипованные, 2026 год, новый фото",
+          "label": "",
+          "is_main": false,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1792832094048_bulletin?ni=yes",
+          "image_data": null,
+          "alt": "Triangle IcelynX TI501. зимние, шипованные, 2026 год, новый. Протектор фото",
+          "label": "Протектор",
+          "is_main": true,
+          "width": 1280,
+          "height": 966
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Авто и мото > Шины и диски > Шины > Шины Triangle > Triangle IcelynX TI501",
+    "source": "FARPOST",
+    "id": "130693618",
+    "url": "https://www.farpost.ru/vladivostok/130693618.html",
+    "observed_at": "2026-11-12T01:48:20.046262+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

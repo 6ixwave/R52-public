@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Держатель для телефона в машину",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "IAS+",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "ML - 182",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Проверено более 9000 водителей! Наш автодержатель для телефона ценят за прочное крепление, удобство и практичность. Это надёжное крепление на панель или стекло.\nИщете крепление для телефона в авто, которое не упадёт даже на кочках? Наша подставка для телефона в машину оснащена вакуумной присоской силиконовым слоем с липким эффектом. Мягкий силикон заполняет неровности и обеспечивает прочное сцепление с поверхностью как на панели ( торпедо ) автомобиля, так и на лобовое стекло. Боковые зажимы надёжно удерживают смартфон, мягкие накладки защищают корпус от царапин. \nПодставка универсальна для всех автомобилей, не мешает подключать зарядку, а телескопическая штанга до 15 см регулируется для удобного угла обзора.\nДЛЯ КОГО ПОДОЙДЕТ:\n• Путешественники — для поездок по незнакомым маршрутам  \n• Родители — чтобы всегда оставаться на связи в дороге\n• Деловые люди — для безопасных звонков за рулем\n• Таксисты и курьеры — для постоянной навигации\nИдеальный выбор как для себя, так и в подарок!\n Закажите надёжный держатель для телефона в машину уже сегодня — и ваш телефон всегда будет под рукой и в безопасности в дороге !",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Автоаксессуары и дополнительное оборудование > Держатели в авто",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Вес с упаковкой (кг): 0.207 кг\nШирина упаковки: 8 см\nВысота упаковки: 9 см\nДлина упаковки: 13 см\nВысота предмета: 7.5 см\nШирина предмета: 10.5 см\nТип крепления: зажим; присоска\nМатериал изделия: abs- пластик; ABS+PS+силикон; Силиконовая присоска\nМодель: кронштейн\nСовместимость: универсальный; любая модель смартфона\nЦвет: черный\nСтрана производства: Китай\nГарантийный срок: 1 мес\nКомплектация: Держатель телефона 1; фирменная упаковка; Фиксирующая гайка; телескопический кронштейн с присоской",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 767300,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "7673.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 40800,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "408.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol1633/part163375/163375828/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol1633/part163375/163375828/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-13.wbbasket.ru/vol1633/part163375/163375828/images/S800/1.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Автоаксессуары и дополнительное оборудование > Держатели в авто",
+    "source": "WB",
+    "id": "163375828",
+    "url": "https://www.wildberries.ru/catalog/163375828/detail.aspx",
+    "observed_at": "2026-11-16T05:24:35.428969+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

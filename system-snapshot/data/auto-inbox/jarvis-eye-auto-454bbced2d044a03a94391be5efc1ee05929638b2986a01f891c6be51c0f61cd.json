@@ -1,0 +1,66 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "WB-1454776483",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 8385000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "83850.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 3697700,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "36977.00",
+        "visible_label": "price_api.product"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 259900,
+        "currency": "RUB",
+        "label": "price_api.logistics",
+        "amount": "2599.00",
+        "visible_label": "price_api.logistics"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 2,
+        "currency": "RUB",
+        "label": "price_api.cashback",
+        "amount": "0.02",
+        "visible_label": "price_api.cashback"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "1454776483",
+    "url": "https://www.wildberries.ru/catalog/1454776483/detail.aspx",
+    "observed_at": "2026-11-16T17:40:27.538854+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

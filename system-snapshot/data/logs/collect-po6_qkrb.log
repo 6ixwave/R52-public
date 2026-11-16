@@ -1,0 +1,162 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:20:12,624 r52.autocollect.worker INFO phase=worker_start pid=19300
+2026-11-16 04:20:12,643 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-16 04:20:12,643 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 04:20:12,645 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-16 04:20:12,645 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 04:20:12,649 r52.autocollect.worker INFO source=WB listing=502851404 phase=collect_product_start
+2026-11-16 04:20:13,532 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-16 04:20:18,545 r52.collectors.wb INFO WB warmup catalog.wb.ru failed: Failed to perform, curl: (28) Connection timed out after 4031 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:20:31,562 r52.collectors.wb INFO WB 502851404: basket=27 (vol=5028) ms=13017
+2026-11-16 04:20:32,625 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=8062 ms=1062 url=https://basket-27.wbbasket.ru/vol5028/part502851/502851404/info/ru/card.json
+2026-11-16 04:20:32,625 r52.collectors.wb INFO WB 502851404: card.json OK (27 keys, 8062B)
+2026-11-16 04:20:35,607 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=941 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=502851404
+2026-11-16 04:20:35,607 r52.collectors.wb INFO WB 502851404: price card_v4 -> 403
+2026-11-16 04:20:36,883 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=122 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=502851404
+2026-11-16 04:20:36,883 r52.collectors.wb INFO WB 502851404: price catalog_v4 -> 403
+2026-11-16 04:20:39,384 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=115 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=502851404
+2026-11-16 04:20:39,385 r52.collectors.wb INFO WB 502851404: price web_api -> 498
+2026-11-16 04:20:43,770 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=974 url=https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=502851404
+2026-11-16 04:20:43,770 r52.collectors.wb INFO WB 502851404: price search_wb -> 403
+2026-11-16 04:20:43,770 r52.collectors.wb INFO WB 502851404: price — все эндпоинты не дали данных
+2026-11-16 04:20:59,650 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=116 url=https://www.wildberries.ru/catalog/502851404/detail.aspx
+2026-11-16 04:20:59,651 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-16 04:20:59,651 r52.collectors.wb INFO WB 502851404: photo_count=11, found=1
+2026-11-16 04:20:59,651 r52.collectors.wb INFO WB 502851404: has_video=true, видео не найдено
+2026-11-16 04:20:59,651 r52.autocollect.worker INFO source=WB listing=502851404 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:20:59,651 r52.autocollect.worker INFO source=WB listing=784056829 phase=collect_product_start
+2026-11-16 04:21:12,564 r52.collectors.wb WARNING WB 784056829: basket NOT found for vol=7840 (31 candidates, ms=12913)
+2026-11-16 04:21:12,564 r52.collectors.wb WARNING WB 784056829: basket host не найден
+Timeout (0:01:00)!
+Thread 0x00005804 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000050b8 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 198 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 409 in _fetch_price
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 253 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 04:21:13,443 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=878 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=784056829
+2026-11-16 04:21:13,443 r52.collectors.wb INFO WB 784056829: price card_v4 -> 403
+2026-11-16 04:21:17,337 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=933 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=784056829
+2026-11-16 04:21:17,337 r52.collectors.wb INFO WB 784056829: price catalog_v4 -> 403
+2026-11-16 04:21:19,794 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=116 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=784056829
+2026-11-16 04:21:19,794 r52.collectors.wb INFO WB 784056829: price web_api -> 498
+2026-11-16 04:21:23,993 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=800 url=https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=784056829
+2026-11-16 04:21:23,994 r52.collectors.wb INFO WB 784056829: price search_wb -> 403
+2026-11-16 04:21:23,994 r52.collectors.wb INFO WB 784056829: price — все эндпоинты не дали данных
+2026-11-16 04:21:40,392 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=115 url=https://www.wildberries.ru/catalog/784056829/detail.aspx
+2026-11-16 04:21:40,392 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-16 04:21:40,392 r52.autocollect.worker INFO source=WB listing=784056829 phase=collect_product_return status=DEGRADED
+2026-11-16 04:21:40,393 r52.autocollect.worker INFO source=WB listing=163375828 phase=collect_product_start
+2026-11-16 04:21:42,251 r52.collectors.wb INFO WB 163375828: basket=11 (vol=1633) ms=1858
+2026-11-16 04:21:43,876 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=6367 ms=927 url=https://basket-11.wbbasket.ru/vol1633/part163375/163375828/info/ru/card.json
+2026-11-16 04:21:43,877 r52.collectors.wb INFO WB 163375828: card.json OK (27 keys, 6367B)
+2026-11-16 04:21:47,711 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=938 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=163375828
+2026-11-16 04:21:47,711 r52.collectors.wb INFO WB 163375828: price card_v4 -> 403
+2026-11-16 04:21:50,008 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=800 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=163375828
+2026-11-16 04:21:50,008 r52.collectors.wb INFO WB 163375828: price catalog_v4 -> 403
+2026-11-16 04:21:52,175 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=120 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=163375828
+2026-11-16 04:21:52,175 r52.collectors.wb INFO WB 163375828: price web_api -> 498
+2026-11-16 04:21:55,728 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=911 url=https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=163375828
+2026-11-16 04:21:55,728 r52.collectors.wb INFO WB 163375828: price search_wb -> 403
+2026-11-16 04:21:55,728 r52.collectors.wb INFO WB 163375828: price — все эндпоинты не дали данных
+2026-11-16 04:22:01,717 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=114 url=https://www.wildberries.ru/catalog/163375828/detail.aspx
+2026-11-16 04:22:01,717 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-16 04:22:01,718 r52.collectors.wb INFO WB 163375828: photo_count=26, found=1
+2026-11-16 04:22:01,718 r52.collectors.wb INFO WB 163375828: has_video=true, видео не найдено
+2026-11-16 04:22:01,718 r52.autocollect.worker INFO source=WB listing=163375828 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:22:01,718 r52.autocollect.worker INFO source=WB listing=463395546 phase=collect_product_start
+Timeout (0:01:00)!
+Thread 0x00002ee0 [ThreadPoolExecutor-3_7] (most recent call first):
+  File "C:\Python315\Lib\socket.py", line 998 in getaddrinfo
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\util\connection.py", line 60 in create_connection
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 239 in _new_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connection.py", line 827 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\requests\api.py", line 87 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 356 in probe
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00005804 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000050b8 (most recent call first):
+  File "C:\Python315\Lib\threading.py", line 1270 in join
+  File "C:\Python315\Lib\concurrent\futures\thread.py", line 273 in shutdown
+  File "C:\Python315\Lib\concurrent\futures\_base.py", line 700 in __exit__
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 370 in _find_basket_host
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 309 in _fetch_card_json
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 251 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 04:22:14,752 r52.collectors.wb INFO WB 463395546: basket=26 (vol=4633) ms=13034
+2026-11-16 04:22:15,850 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=6630 ms=1097 url=https://basket-26.wbbasket.ru/vol4633/part463395/463395546/info/ru/card.json
+2026-11-16 04:22:15,851 r52.collectors.wb INFO WB 463395546: card.json OK (26 keys, 6630B)
+2026-11-16 04:22:18,550 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=923 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=463395546
+2026-11-16 04:22:18,551 r52.collectors.wb INFO WB 463395546: price card_v4 -> 403
+2026-11-16 04:22:21,096 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=908 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=463395546
+2026-11-16 04:22:21,096 r52.collectors.wb INFO WB 463395546: price catalog_v4 -> 403
+2026-11-16 04:22:23,766 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=115 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=463395546
+2026-11-16 04:22:23,766 r52.collectors.wb INFO WB 463395546: price web_api -> 498
+2026-11-16 04:22:26,843 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=799 url=https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=463395546
+2026-11-16 04:22:26,843 r52.collectors.wb INFO WB 463395546: price search_wb -> 403
+2026-11-16 04:22:26,843 r52.collectors.wb INFO WB 463395546: price — все эндпоинты не дали данных
+2026-11-16 04:22:37,109 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=115 url=https://www.wildberries.ru/catalog/463395546/detail.aspx
+2026-11-16 04:22:37,109 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-16 04:22:37,110 r52.collectors.wb INFO WB 463395546: photo_count=13, found=1
+2026-11-16 04:22:37,110 r52.autocollect.worker INFO source=WB listing=463395546 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:22:37,110 r52.autocollect.worker INFO source=WB listing=829829020 phase=collect_product_start
+2026-11-16 04:22:50,153 r52.collectors.wb WARNING WB 829829020: basket NOT found for vol=8298 (31 candidates, ms=13043)
+2026-11-16 04:22:50,154 r52.collectors.wb WARNING WB 829829020: basket host не найден
+2026-11-16 04:22:51,077 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=923 url=https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=829829020
+2026-11-16 04:22:51,077 r52.collectors.wb INFO WB 829829020: price card_v4 -> 403
+2026-11-16 04:22:53,215 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=855 url=https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=829829020
+2026-11-16 04:22:53,215 r52.collectors.wb INFO WB 829829020: price catalog_v4 -> 403
+2026-11-16 04:22:56,176 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=115 url=https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=829829020
+2026-11-16 04:22:56,176 r52.collectors.wb INFO WB 829829020: price web_api -> 498
+2026-11-16 04:22:59,703 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=403 bytes=0 ms=943 url=https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=829829020
+2026-11-16 04:22:59,703 r52.collectors.wb INFO WB 829829020: price search_wb -> 403
+2026-11-16 04:22:59,703 r52.collectors.wb INFO WB 829829020: price — все эндпоинты не дали данных
+2026-11-16 04:23:10,803 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False proxy=False http=498 bytes=1136 ms=116 url=https://www.wildberries.ru/catalog/829829020/detail.aspx
+2026-11-16 04:23:10,804 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-16 04:23:10,804 r52.autocollect.worker INFO source=WB listing=829829020 phase=collect_product_return status=DEGRADED
+2026-11-16 04:23:10,804 r52.autocollect.worker INFO source=WB phase=write_start returned=5 valid=5 stats={'requests': 29, 'success': 3, 'failed': 0, 'blocked': 25}
+2026-11-16 04:23:10,805 r52.collectors INFO WB: записан jarvis-eye-wb-8f70c6fc.json
+2026-11-16 04:23:10,810 r52.collectors INFO WB: записан jarvis-eye-wb-9f8b8c3e.json
+2026-11-16 04:23:10,812 r52.collectors INFO WB: записан jarvis-eye-wb-44c208d7.json
+2026-11-16 04:23:10,813 r52.collectors INFO WB: записан jarvis-eye-wb-2f89dbe3.json
+2026-11-16 04:23:10,814 r52.collectors INFO WB: записан jarvis-eye-wb-7abba4d7.json
+2026-11-16 04:23:10,818 r52.autocollect.worker INFO source=WB phase=write_complete files=5
+2026-11-16 04:23:10,818 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-16 04:23:10,818 r52.autocollect.worker INFO source=WB phase=close_complete

@@ -1,0 +1,118 @@
+======================================================================
+DIAG V124: WB BASKET IMG + 498 BODY + FARPOST BULLETIN (2026-11-12)
+======================================================================
+
+======================================================================
+PART 1: WB BASKET IMAGE — FULL PATH
+======================================================================
+  card 1097975275: basket-42.wbbasket.ru OK (10942B)
+  [259671175] S800: HTTP 404 196B text/html /vol2596/part259671/259671175/images/S800/S800.jpg
+  [259671175] S120: HTTP 404 196B text/html
+  [259671175] S400: HTTP 404 196B text/html
+  [259671175] S100: HTTP 404 196B text/html
+  [259671175] big: HTTP 404 196B text/html
+  [259671175] imt_id=236868886, photo_count=15
+  [259671175] imt S800: HTTP 404 196B text/html
+  [259671175] imt S400: HTTP 404 196B text/html
+
+  [199298871] S800: HTTP 404 196B text/html /vol1992/part199298/199298871/images/S800/S800.jpg
+  [199298871] S120: HTTP 404 196B text/html
+  [199298871] S400: HTTP 404 196B text/html
+  [199298871] S100: HTTP 404 196B text/html
+  [199298871] big: HTTP 404 196B text/html
+  [199298871] imt_id=158033827, photo_count=6
+  [199298871] imt S800: HTTP 404 196B text/html
+  [199298871] imt S400: HTTP 404 196B text/html
+
+  [1097975275] S800: HTTP 404 196B text/html /vol10979/part1097975/1097975275/images/S800/S800.jpg
+  [1097975275] S120: HTTP 404 196B text/html
+  [1097975275] S400: HTTP 404 196B text/html
+  [1097975275] S100: HTTP 404 196B text/html
+  [1097975275] big: HTTP 404 196B text/html
+  [1097975275] imt_id=2227481309, photo_count=5
+  [1097975275] imt S800: HTTP 404 196B text/html
+  [1097975275] imt S400: HTTP 404 196B text/html
+
+======================================================================
+PART 2: WB PRICE — 498 BODY + API VARIANTS
+======================================================================
+
+  [web_api] HTTP 498 1136B text/html
+  [web_api 498 body]:
+<!doctype html><html lang="ru" data-theme="light" data-req-uuid="f22ac1016d9f7117c7d258d9bc02c131" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Date.now()</script><title>...</title><script type="module" crossorigin src="/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js"></script><link rel="stylesheet" crossorigin href="/__wbaas/challenges/antibot/__static/v2/index-BmW7NXYO.css"></head><body><div class="w"><noscript><div class="support"><div class="support-header"><h1 class="support-title" id="no-js-title"></h1><p class="support-subtitle no-js-support-subtitle" id="no-js-title-subtitle"></p><p class="support-id no-js-support-id">ID:
+  [v2_app1] HTTP 403 0B
+  [v2_app2] HTTP 403 0B
+  [v2_min] HTTP 403 0B
+  [v1_min] HTTP 403 0B
+  [v5_min] HTTP 403 0B
+  [basket art259671/259671175/price.json] HTTP 404 196B
+  [basket 1/259671175/info/ru/price.json] HTTP 404 196B
+  [basket 259671/259671175/price/ru.json] HTTP 404 196B
+  [basket 9671/259671175/data/price.json] HTTP 404 196B
+
+  --- curl_cffi for card.wb.ru ---
+  [cffi card_wb] HTTP 403 0B
+  [cffi web_api] HTTP 498 1136B
+    body[:400]: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="db92ae55bf73bd0a62db16e6162ea32f" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Date.now()</script><title>...</title><script type="module" crossorigin src="/__wbaas/challenges/antibot
+
+======================================================================
+PART 3: FARPOST — BULLETIN REDIRECT + CATEGORY
+======================================================================
+
+  Warmup: HTTP 200 73362B cookies=[REDACTED_AUTH_SECRET]
+
+  [bulletin/130693618] HTTP 404 13900B
+    final_url: https://www.farpost.ru/bulletin/130693618
+    history: []
+
+  [bulletin/129606872] HTTP 404 13900B
+    final_url: https://www.farpost.ru/bulletin/129606872
+    history: []
+
+  --- Category page URLs ---
+  Category: HTTP 200 195479B
+  Total hrefs: 392, with numeric: 55
+    https://www.farpost.ru/resources/assets/tokens_fp.c06ec41406266fb8356c.css
+    https://www.farpost.ru/resources/assets/common-critical_dk_fp.a7e249a24bf02805334f.css
+    https://www.farpost.ru/resources/assets/noscript.705358c042c468e9b088.css
+    /vladivostok/auto/moto/accessories/filtr-moto-masljanyj-67941-36998-hf123-daytona-original-japonija-
+    /vladivostok/auto/wheel/disc/komplekt-diskov-rays-g25-r17-7.5-j-et35-5-100-450-136342005.html
+    /vladivostok/zapchasti/smart-kljuch-chip-kljuch-daihatsu-toyota-roomy-s-2019g-avtozapusk-propiska-13
+    /vladivostok/auto/wheel/disc/komplekt-novyh-lityh-diskov-flow-form-17-5-114.3-titanium-silver-138520
+    /ni/vladivostok/zapchasti/porshni-4d35-mitsubishi-canter-me018825-98836529.html
+    /ni/vladivostok/auto/gt/stopy-tjuning-toyota-hilux-surf-215-02-09gg-52553949.html
+    /vladivostok/zapchasti/dvigatel-doosan-daewoo-dl08-dl08-na-gruzovik-daewoo-87029191.html
+    /vladivostok/auto/wheel/tire/avtoshina-315-80r22-5-22pr-boto-wt126-123232084.html
+    /vladivostok/zapchasti/forsunka-lc200-lx450d-1vd-2367059055-dcri109840-original-novaja-137181441.htm
+    /ni/vladivostok/auto/wheel/wheel/prodam-kolesa-137864469.html
+    /vladivostok/zapchasti/amortizator-lynx-japonija-2-goda-garantii-138136200.html
+    /vladivostok/zapchasti/amortizator-kyb-japonija-1-god-garantii-bez-ozhidanija-v-nalichii-133105493.h
+  Bulletin-specific links: 50
+    /vladivostok/auto/moto/accessories/filtr-moto-masljanyj-67941-36998-hf123-daytona-original-japonija-
+    /vladivostok/auto/wheel/disc/komplekt-diskov-rays-g25-r17-7.5-j-et35-5-100-450-136342005.html
+    /vladivostok/zapchasti/smart-kljuch-chip-kljuch-daihatsu-toyota-roomy-s-2019g-avtozapusk-propiska-13
+    /vladivostok/auto/wheel/disc/komplekt-novyh-lityh-diskov-flow-form-17-5-114.3-titanium-silver-138520
+    /ni/vladivostok/zapchasti/porshni-4d35-mitsubishi-canter-me018825-98836529.html
+    /ni/vladivostok/auto/gt/stopy-tjuning-toyota-hilux-surf-215-02-09gg-52553949.html
+    /vladivostok/zapchasti/dvigatel-doosan-daewoo-dl08-dl08-na-gruzovik-daewoo-87029191.html
+    /vladivostok/auto/wheel/tire/avtoshina-315-80r22-5-22pr-boto-wt126-123232084.html
+    /vladivostok/zapchasti/forsunka-lc200-lx450d-1vd-2367059055-dcri109840-original-novaja-137181441.htm
+    /ni/vladivostok/auto/wheel/wheel/prodam-kolesa-137864469.html
+
+  --- Full-slug format test ---
+  [w.farpost.ru/vladivostok/auto/shiny-130693618.html] HTTP 200 50899B final=tire/triangle-icelynx-ti501-205-55-r16-94t-xl-130693618.html
+  [https://www.farpost.ru/vladivostok/130693618.html] HTTP 200 50899B final=tire/triangle-icelynx-ti501-205-55-r16-94t-xl-130693618.html
+  [https://www.farpost.ru/?u=130693618] HTTP 200 76129B final=https://www.farpost.ru/?u=130693618
+
+======================================================================
+PART 4: WB HTML detail.aspx — EMBEDDED DATA
+======================================================================
+
+  [detail.aspx] HTTP 498 1136B
+  [detail.aspx] BLOCKED: 498
+  body[:300]: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="0cab6003eb211e6b7a4893684a0a1966" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Dat
+
+======================================================================
+SUMMARY
+======================================================================
+DIAG V124 DONE

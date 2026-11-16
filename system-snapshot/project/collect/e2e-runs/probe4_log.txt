@@ -1,0 +1,21 @@
+2026-11-12 16:13:10,191 INFO PROBE4 START 2026-11-12T16:13:10.191799+10:00
+2026-11-12 16:13:10,192 INFO === WB nm=1097975275 ===
+2026-11-12 16:13:29,419 INFO [WB] photo_cdn FAIL (19.0s) Failed to perform, curl: (6) Could not resolve host: ir1.wbstatic.net (Domain name not found). See h
+2026-11-12 16:13:34,810 INFO [WB] pw4_html FAIL (5.4s) Page.content: Unable to retrieve content because the page is navigating and changing the content.
+2026-11-12 16:13:38,844 INFO [WB] pw_api_call FAIL (4.0s) Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+2026-11-12 16:13:38,844 INFO === OZON ===
+2026-11-12 16:13:38,847 INFO Ozon HTML loaded: 1065497 bytes
+2026-11-12 16:13:38,848 INFO [OZON] jsonld OK (0.0s) name=Маленький Принц и лис: набор добрых летних открыто brand=Станислав Миков price=284RUB avail=http://schema.org/InSto
+2026-11-12 16:14:09,481 INFO [OZON] pw_xhr FAIL (30.6s) Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.ozon.ru/product/3481320800/", waiting unti
+2026-11-12 16:14:13,154 INFO [OZON] api_direct FAIL (3.7s) all 3 failed, last=403
+2026-11-12 16:14:13,155 INFO === AVITO ===
+2026-11-12 16:14:27,114 INFO [AVITO] pw4_deep FAIL (14.0s) len=36450 ad_ids=[] data_ids=[] json_ids=[] titles=['Что делать, если проблема повторяется', 'Что не так с IP-адресом'] 
+2026-11-12 16:14:29,255 INFO [AVITO] api_search FAIL (2.1s) tried 4, last HTTP 429 ct=application/json; charset=utf-
+2026-11-12 16:14:38,644 INFO [AVITO] m_pw FAIL (9.4s) len=36442 ids=[] prices=[]
+2026-11-12 16:14:38,731 INFO PROBE4 DONE 88.5s
+2026-11-12 16:14:38,732 INFO Saved probe4_results.json
+2026-11-12 16:14:38,732 INFO   WB     0/3 OK
+2026-11-12 16:14:38,732 INFO   OZON   1/3 OK
+2026-11-12 16:14:38,732 INFO   AVITO  0/3 OK

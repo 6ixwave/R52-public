@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Adattatore multiporta USB-C, splitter USB 3.0 4 in 1 con lettore di schede SD e TF, porta Ethernet Gigabit RJ45, hub USB portatile per laptop, PC e smartphone.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "18.37",
+        "amount_minor": 1837,
+        "currency": "RUB",
+        "visible_label": "18.37 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "15.45",
+        "amount_minor": 1545,
+        "currency": "RUB",
+        "visible_label": "15.45 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S2252d65f88414693a18b711d4ae284cfE.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013551434545",
+    "url": "https://ru.aliexpress.com/item/1005013551434545.html",
+    "observed_at": "2026-11-13T07:48:13.476703+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

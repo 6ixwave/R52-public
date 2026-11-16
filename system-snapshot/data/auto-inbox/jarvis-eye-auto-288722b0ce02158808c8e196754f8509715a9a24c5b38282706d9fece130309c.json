@@ -1,0 +1,134 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Sandali Estivi in Plastica per Bambina - Scarpe Primi Passi Antiscivolo con Suola Morbida per Neonati 1-3 Anni",
+        "method": "PW_META",
+        "evidence": {
+          "method": "PW_META",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S01523ef93482448d8c33d410344d6a9eI/361x360.png",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S641d13301ae042999bbc1dc1edd2bb80K/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S06ecd71dedef49a2b19caca6ec0d414fY/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S054e9426d16c4b61a71f70b3e2c4a753s/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sdaf9c16675c64afbbce35b1839e65afbn/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S561d8ec287864b809c7e2710891d796aV/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S535befa297e247beb97fec52fee863cdM/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4a199d4eee2460592c53f47a9387e94g/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf3ce8a4d256f4724843914fada892eb9r/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa92daba0dd894d0590fbaecb5cf9f917I/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sd246952f2ef84ee0bcfbb60d71528b18g/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S2747297a0c8046dfacd15481299e66a1e/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S919f0cbe533d42e58d518a178b214bced/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S4819ae16372f4c7db1cd5a454a490eb8l/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf89ef510c7bb486b9bdea15aae30a10ck/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S714ec3d839fa4241a02ad2f9bd1779e69/27x27.png_960x960.png_.avif",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S574a6484c3fb432fa47b1a4a9f99e06ez/27x27.png_960x960.png_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005012226117258",
+    "url": "https://it.aliexpress.com/item/1005012226117258.html?algo_pvid=4908e7ce-82d1-4d8e-9556-e04c14ad82e3&algo_exp_id=4908e7ce-82d1-4d8e-9556-e04c14ad82e3-2&pdp_ext_f=%7B%22order%22%3A%2211%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%217.95%217.79%21%21%2157.21%2156.08%21%400b14ce1917947381401958233e0dd1%2112000057806791136%21sea%21IT%210%21X%211%210%21n_tag%3A-29919%3Bd%3A156aa10f%3Bm03_new_user%3A-29895&curPageLogUid=BNLNo7vAHxpZ&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005012226117258%7C_p_origin_prod%3A",
+    "observed_at": "2026-11-15T20:24:38.778762+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

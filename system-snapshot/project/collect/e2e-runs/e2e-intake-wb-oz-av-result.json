@@ -1,0 +1,279 @@
+{
+  "timestamp": "2026-11-12T03:21:54",
+  "fresh_home": "C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\e2e-fresh-home-2",
+  "files_processed": 5,
+  "results": [
+    {
+      "source": "WB",
+      "file": "jarvis-eye-wb-056e75a5.json",
+      "stage": "PENDING->ACCEPTED",
+      "product_id": 1,
+      "observation_created": true,
+      "events": []
+    },
+    {
+      "source": "WB",
+      "file": "jarvis-eye-wb-d278551a.json",
+      "stage": "PENDING->ACCEPTED",
+      "product_id": 2,
+      "observation_created": true,
+      "events": []
+    },
+    {
+      "source": "OZON",
+      "file": "jarvis-eye-ozon-1600562267.json",
+      "stage": "PENDING->ACCEPTED",
+      "product_id": 3,
+      "observation_created": true,
+      "events": []
+    },
+    {
+      "source": "AVITO",
+      "file": "jarvis-eye-avito-e356e498.json",
+      "stage": "PENDING->ACCEPTED",
+      "product_id": 4,
+      "observation_created": true,
+      "events": []
+    },
+    {
+      "source": "AVITO",
+      "file": "jarvis-eye-avito-test-valid.json",
+      "stage": "PENDING->ACCEPTED",
+      "product_id": 4,
+      "observation_created": true,
+      "events": []
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "source": "WB",
+      "listing_id": "138278567",
+      "title": "Утюг BBK ISE-2404",
+      "brand": null,
+      "model": "NE618-655",
+      "url": "https://www.wildberries.ru/catalog/138278567/detail.aspx",
+      "origin": "EYE",
+      "created_at": "2026-11-11T17:21:54.427+00:00",
+      "updated_at": "2026-11-11T17:21:54.427+00:00"
+    },
+    {
+      "id": 2,
+      "source": "WB",
+      "listing_id": "145567890",
+      "title": "Жидкость Maxwells Salt для вейпа под систем HYBRID 20мг 30мл",
+      "brand": "Максвелс",
+      "model": "Maxwells Salt - Tropic 30ml (20S)",
+      "url": "https://www.wildberries.ru/catalog/145567890/detail.aspx",
+      "origin": "EYE",
+      "created_at": "2026-11-11T17:21:54.438+00:00",
+      "updated_at": "2026-11-11T17:21:54.438+00:00"
+    },
+    {
+      "id": 3,
+      "source": "OZON",
+      "listing_id": "1600562267",
+      "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра",
+      "brand": "Айхал",
+      "model": "7",
+      "url": "https://www.ozon.ru/product/tkan-dlya-obivki-mebeli-velyur-s-abstraktnym-printom-otrez-3-metra-1600562267/",
+      "origin": "EYE",
+      "created_at": "2026-11-11T17:21:54.449+00:00",
+      "updated_at": "2026-11-11T17:21:54.449+00:00"
+    },
+    {
+      "id": 4,
+      "source": "AVITO",
+      "listing_id": "7494308705",
+      "title": "Ноутбук ASUS ROG Strix G15 G512LW i7-10750H RTX 2060 16GB 512GB",
+      "brand": "ASUS",
+      "model": "ROG Strix G15 G512LW",
+      "url": "https://www.avito.ru/ad/7494308705",
+      "origin": "EYE",
+      "created_at": "2026-11-11T17:21:54.461+00:00",
+      "updated_at": "2026-11-11T17:21:54.475+00:00"
+    }
+  ],
+  "product_summary": [
+    {
+      "id": 1,
+      "source": "WB",
+      "listing_id": "138278567",
+      "title": "Утюг BBK ISE-2404",
+      "last_regular_minor": null,
+      "last_lowest_minor": null,
+      "last_availability": "UNKNOWN",
+      "observation_count": 1
+    },
+    {
+      "id": 2,
+      "source": "WB",
+      "listing_id": "145567890",
+      "title": "Жидкость Maxwells Salt для вейпа под систем HYBRID 20мг 30мл",
+      "last_regular_minor": null,
+      "last_lowest_minor": null,
+      "last_availability": "UNKNOWN",
+      "observation_count": 1
+    },
+    {
+      "id": 3,
+      "source": "OZON",
+      "listing_id": "1600562267",
+      "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра",
+      "last_regular_minor": 229500,
+      "last_lowest_minor": 229500,
+      "last_availability": "IN_STOCK",
+      "observation_count": 1
+    },
+    {
+      "id": 4,
+      "source": "AVITO",
+      "listing_id": "7494308705",
+      "title": "Ноутбук ASUS ROG Strix G15 G512LW i7-10750H RTX 2060 16GB 512GB",
+      "last_regular_minor": 8500000,
+      "last_lowest_minor": 8500000,
+      "last_availability": "UNKNOWN",
+      "observation_count": 2
+    }
+  ],
+  "observations": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "observed_at": "2026-11-11T16:34:37.912+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "0eab5d6c25b09555c6eb1ef754f8fa04076cfafb73d4d7008adbbb1a5b083075"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "observed_at": "2026-11-11T16:35:40.668+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "2968748ce4f72810a13bc9bccecacb2f15ccd7fbff470ad13d8fdff9d829fb49"
+    },
+    {
+      "id": 3,
+      "product_id": 3,
+      "observed_at": "2026-11-10T21:18:33.953+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "fa71eec58336e6bf0160691c3dda6a92dc119fe5d3047d237317226f24e7388b"
+    },
+    {
+      "id": 4,
+      "product_id": 4,
+      "observed_at": "2026-11-11T06:45:00.000+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "9536ea457b65912bafc01ec81e6c2f623bc30b4d07001a9da508119190132a38"
+    },
+    {
+      "id": 5,
+      "product_id": 4,
+      "observed_at": "2026-11-11T16:45:00.000+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "UNKNOWN",
+      "fingerprint": "3f4504f8afdf61ce55217256b19f3a0b46cfe90604c8e04fa0ed7e89ac7e9776"
+    }
+  ],
+  "price_points": [
+    {
+      "id": 1,
+      "observation_id": 3,
+      "product_id": 3,
+      "role": "regular",
+      "amount_minor": 229500,
+      "currency": "RUB",
+      "label": "JSON-LD price",
+      "observed_at": "2026-11-10T21:18:33.953+00:00"
+    },
+    {
+      "id": 2,
+      "observation_id": 4,
+      "product_id": 4,
+      "role": "regular",
+      "amount_minor": 8500000,
+      "currency": "RUB",
+      "label": "85 000 ₽",
+      "observed_at": "2026-11-11T06:45:00.000+00:00"
+    },
+    {
+      "id": 3,
+      "observation_id": 5,
+      "product_id": 4,
+      "role": "regular",
+      "amount_minor": 8500000,
+      "currency": "RUB",
+      "label": "85 000 ₽",
+      "observed_at": "2026-11-11T16:45:00.000+00:00"
+    }
+  ],
+  "inbox_items": [
+    {
+      "id": 1,
+      "filename": "jarvis-eye-wb-056e75a5.json",
+      "origin": "FOLDER",
+      "status": "ACCEPTED",
+      "error_code": null,
+      "received_at": "2026-11-11T17:21:54.423+00:00",
+      "decided_at": "2026-11-11T17:21:54.427+00:00",
+      "observation_id": 1
+    },
+    {
+      "id": 2,
+      "filename": "jarvis-eye-wb-d278551a.json",
+      "origin": "FOLDER",
+      "status": "ACCEPTED",
+      "error_code": null,
+      "received_at": "2026-11-11T17:21:54.434+00:00",
+      "decided_at": "2026-11-11T17:21:54.438+00:00",
+      "observation_id": 2
+    },
+    {
+      "id": 3,
+      "filename": "jarvis-eye-ozon-1600562267.json",
+      "origin": "FOLDER",
+      "status": "ACCEPTED",
+      "error_code": null,
+      "received_at": "2026-11-11T17:21:54.444+00:00",
+      "decided_at": "2026-11-11T17:21:54.449+00:00",
+      "observation_id": 3
+    },
+    {
+      "id": 4,
+      "filename": "jarvis-eye-avito-e356e498.json",
+      "origin": "FOLDER",
+      "status": "ACCEPTED",
+      "error_code": null,
+      "received_at": "2026-11-11T17:21:54.457+00:00",
+      "decided_at": "2026-11-11T17:21:54.461+00:00",
+      "observation_id": 4
+    },
+    {
+      "id": 5,
+      "filename": "jarvis-eye-avito-test-valid.json",
+      "origin": "FOLDER",
+      "status": "ACCEPTED",
+      "error_code": null,
+      "received_at": "2026-11-11T17:21:54.469+00:00",
+      "decided_at": "2026-11-11T17:21:54.475+00:00",
+      "observation_id": 5
+    }
+  ],
+  "status": "PASS",
+  "summary": {
+    "accepted": 5,
+    "expected_degraded": 0,
+    "invalid": 0,
+    "products_in_db": 4,
+    "observations_in_db": 5,
+    "price_points_in_db": 3
+  }
+}

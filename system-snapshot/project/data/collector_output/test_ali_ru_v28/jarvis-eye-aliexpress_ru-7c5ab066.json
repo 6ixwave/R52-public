@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie Nothing (1), cancellazione attiva ibrida del rumore, cuffie wireless over-ear con 6 microfoni, 80 ore di autonomia, audio ad alta risoluzione, ottimizzate da KEF, suono spaziale, vestibilità confortevole, ricarica rapida",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "272.63",
+        "amount_minor": 27263,
+        "currency": "EUR",
+        "visible_label": "272.63 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "198.77",
+        "amount_minor": 19877,
+        "currency": "EUR",
+        "visible_label": "198.77 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S9cce73223dd34ee4aefe17513a86f150E.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013100963256",
+    "url": "https://ru.aliexpress.com/item/1005013100963256.html",
+    "observed_at": "2026-11-13T09:00:04.209319+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,155 @@
+﻿python : 2026-11-14 13:21:52,679 INFO diag_v7o: === diag_v7o v5 — 2026-11-14 13:21:52 ===
+строка:2 знак:1
++ python -u diag_v7o.py 2>&1 | Out-File -FilePath diag_v7o_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 13:2...14 13:21:52 ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 13:21:52,680 INFO diag_v7o: Cooldown 30s...
+2026-11-14 13:22:22,681 INFO diag_v7o: Cooldown done: 13:22:22
+2026-11-14 13:22:22,681 INFO diag_v7o: ── [1] Double warm-up ──
+2026-11-14 13:22:25,142 INFO diag_v7o:   [home1] HTTP 200, 2037B, 2.5s
+2026-11-14 13:22:25,142 INFO diag_v7o:   home1 Set-Cookie: [REDACTED_AUTH_SECRET]
+BFclMXaj0ys6E5h1uODHRGzGjotKEBkmN4a6pnX2v0ddiFJ2qa4kkgynTtccNGBbjxVzkVOaznWeg0XU_iNAnDUvXWBrezH8Ad-tBn740hEsV13r0bfmDrP
+_YDc0cqGqZEfULccf31uY
+2026-11-14 13:22:28,446 INFO diag_v7o:   [home2] HTTP 200, 2037B, 0.3s
+2026-11-14 13:22:28,446 INFO diag_v7o:   home2 Set-Cookie: [REDACTED_AUTH_SECRET]
+SBB9ScFT2Sfg3AXC9jgLzvfwF52CO8Aa08qEDED5JeP9HBWZP_2SVg8GTV-MjLPV47egCyPW2O0Pkn50N5ED3OKtB0O-i2Hu8lnw6U16zrZ_SQ8JBHN4YnQ
+o5Uu7PzdiTohs4MnOj727
+2026-11-14 13:22:33,447 INFO diag_v7o: ── [2] RU search ──
+2026-11-14 13:22:33,645 INFO diag_v7o:   [search] HTTP 200, 1705B, 0.2s
+2026-11-14 13:22:33,645 INFO diag_v7o:   TMD challenge: 1705B
+2026-11-14 13:22:33,645 INFO diag_v7o:   Body[:200]: <script>sessionStorage.x5referer = window.location.href;var url = 
+window.location.protocol + "//ru.aliexpress.com//wholesale/_____tmd_____/punish?x5secdata=xfV_IoiY5zEVQc29YnUTp_FqqrGUN
+mw5P9SeoMUDMzUB
+2026-11-14 13:22:33,645 INFO diag_v7o: ── [3] TMD punish ──
+2026-11-14 13:22:33,645 INFO diag_v7o:   x5secdata: xfV_IoiY5zEVQc29YnUTp_FqqrGUNmw5P9SeoMUDMzUBu9T3No... (len=677)
+2026-11-14 13:22:34,736 INFO diag_v7o:   [punish] HTTP 200, 84794B, 1.1s
+2026-11-14 13:22:34,737 INFO diag_v7o:   [ru] Total scripts: 12
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Saved punish HTML → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R
+52-2.12\diag_v7o_ru_punish.html (84719B)
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[0] (0B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[1] (0B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[2] (0B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[3] (0B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[4] (0B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[5] (308B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     with(document)with(body)with(insertBefore(createElement("script"),firstChild
+))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=2127fcda17946265541667823e21c8&asid=AQAAAAD60/dqdGJ4agA
+AAABntULqk2Eyvw==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[6] (79054B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     try{!function(){var e=new Uint16Array([83,101,116,79,98,106,101,99,116,103,1
+01,116,80,114,111,116,111,116,121,112,101,79,102,112,114,111,116,111,116,121,112,101,103,101,116,79,119,110,80,114,111,
+112,101,114,116,121,78,97,109,101,115,108,101,110,103,116,104,115,104,105,102,116,104,97,115,103,101,116,79,119,110,80,
+114,111,112,101,114,116,121,68,101,115,99,114,105,112,116,111,114,97,100,100,101,110,1
+2026-11-14 13:22:34,738 INFO diag_v7o:     ... (+78654 more)
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[7] (1871B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     window._config_ = {
+
+            "renderTo": "#nocaptcha",
+
+            "NCTOKENSTR": "[REDACTED_AUTH_SECRET]",
+
+            "action": "captcha",
+
+            "HOST": "ru.aliexpress.com:443",
+
+            "PATH": "/wholesale",
+
+            "FORMACTIOIN": "/wholesale/_____tmd_____/verify/",
+
+            "BXSTEP": "100",
+
+            "SECDATA": "xga81213e32f0326a3kn01217ea76ffa1146f605e171
+2026-11-14 13:22:34,738 INFO diag_v7o:     ... (+1471 more)
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[8] (784B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     var ncLanguage = location.search.match(/ncLanguage=([^&]+)/);
+
+      	ncLanguage = ncLanguage && ncLanguage[1];
+
+      	if (ncLanguage) {
+
+      		window._config_.noCaptchaLanguage = ncLanguage;
+
+      	}
+
+      	var custom_config = {"templateName":"AE默认模板"};
+
+      	var templateName = "";
+
+      	if (typeof custom_config === "object") {
+
+      		templateName = custom_config["templateName"] || "";
+2026-11-14 13:22:34,738 INFO diag_v7o:     ... (+384 more)
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[9] (0B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[10] (0B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     
+2026-11-14 13:22:34,738 INFO diag_v7o:   [ru] Script[11] (1193B):
+2026-11-14 13:22:34,738 INFO diag_v7o:     var tracker = TraceSdk({
+
+        pid: 'punish-page',
+
+  		env: 'prod',
+
+  		plugins: [
+
+        	[TracePerfPlugin, {enableLCP: false}],
+
+           	[TraceResourceErrorPlugin]
+
+        ]
+
+    });
+
+    tracker.install();
+
+    var urlAction = window.location.href.match(/action=([^&]+)/);
+
+  	urlAction = urlAction ? urlAction[1] : window._config_.action;
+
+  	setTimeout(function () {
+
+      if (!docu
+2026-11-14 13:22:34,738 INFO diag_v7o:     ... (+793 more)
+2026-11-14 13:22:34,739 INFO diag_v7o:   [ru] --- Token pattern search ---
+2026-11-14 13:22:34,739 INFO diag_v7o:   [ru] [x5secdata_assign]: 0
+2026-11-14 13:22:34,741 INFO diag_v7o:   [ru] [xg_token]: 2 hits
+2026-11-14 13:22:34,741 INFO diag_v7o:     xga81213e32f0326a3kn01217ea76ffa1146f605e171c1b7cd521794626554a-1168960602a4
+3681
+2026-11-14 13:22:34,741 INFO diag_v7o:     xga81213e32f0326a3kn01217ea76ffa1146f605e171c1b7cd521794626554a-1168960602a4
+3681
+2026-11-14 13:22:34,741 INFO diag_v7o:   [ru] [document_cookie]: 0
+2026-11-14 13:22:34,741 INFO diag_v7o:   [ru] [setCookie]: 0
+2026-11-14 13:22:34,741 INFO diag_v7o:   [ru] [localStorage]: 0
+2026-11-14 13:22:34,741 INFO diag_v7o:   [ru] [bx_token]: 2 hits
+2026-11-14 13:22:34,741 INFO diag_v7o:     ru.aliexpress.com:443/wholesale
+2026-11-14 13:22:34,741 INFO diag_v7o:     ru.aliexpress.com:443/wholesale
+2026-11-14 13:22:34,742 INFO diag_v7o:   [ru] [token_var]: 0
+2026-11-14 13:22:34,742 INFO diag_v7o:   [ru] [window_loc]: 0
+2026-11-14 13:22:34,744 INFO diag_v7o:   Best xg token: [REDACTED_AUTH_SECRET]
+ (len=135)
+2026-11-14 13:22:34,745 INFO diag_v7o:   Set x5secdata=xga81213e32f0326a3kn01217ea76ffa1146f605...
+2026-11-14 13:22:38,116 INFO diag_v7o:   [refetch] HTTP 200, 1705B, 0.4s
+2026-11-14 13:22:38,116 WARNING diag_v7o:   ✗ Still 1705B
+2026-11-14 13:22:38,116 INFO diag_v7o:   Body[:200]: <script>sessionStorage.x5referer = window.location.href;var url = 
+window.location.protocol + "//ru.aliexpress.com//wholesale/_____tmd_____/punish?x5secdata=xfoPOAw-SPLmtQclj7xb_jwO_Mz-t
+APayYLZJoY_No1V
+2026-11-14 13:22:40,322 INFO diag_v7o:   [refetch2] HTTP 200, 1705B, 0.2s
+2026-11-14 13:22:40,322 INFO diag_v7o:   refetch2: 1705B
+2026-11-14 13:22:40,322 INFO diag_v7o: ── [5] TMD still unsolved ──
+2026-11-14 13:22:40,322 INFO diag_v7o:   Options:
+2026-11-14 13:22:40,322 INFO diag_v7o:     A) Playwright: execute punish JS in real browser context
+2026-11-14 13:22:40,322 INFO diag_v7o:     B) Parse 84KB scripts manually (saved to file)
+2026-11-14 13:22:40,322 INFO diag_v7o:     C) Use longer session warm-up (5+ requests before search)
+2026-11-14 13:22:40,322 INFO diag_v7o:     D) Try www.aliexpress.com instead of ru.
+2026-11-14 13:22:40,322 INFO diag_v7o: ── Summary ──
+2026-11-14 13:22:40,322 INFO diag_v7o:   TMD solved: False
+2026-11-14 13:22:40,322 INFO diag_v7o: === DONE ===
+2026-11-14 13:22:40,322 INFO diag_v7o: diag_v7o v5 complete
+EXIT=0

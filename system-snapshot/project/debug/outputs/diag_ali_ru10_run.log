@@ -1,0 +1,26 @@
+06:25:33 diag_ali_ru10: === V10: Fine sliding + object mask + shape ===
+06:25:33 diag_ali_ru10: Q: 356x49, 32 windows (step=10)
+06:25:33 diag_ali_ru10:   grid[0]: obj=112x95 fill=0.30 bg=[253 253 253]
+06:25:33 diag_ali_ru10:   grid[1]: obj=118x118 fill=0.30 bg=[148 146 145]
+06:25:33 diag_ali_ru10:   grid[2]: obj=118x118 fill=0.30 bg=[40 31 24]
+06:25:33 diag_ali_ru10:   grid[3]: obj=118x118 fill=0.30 bg=[80 80 78]
+06:25:33 diag_ali_ru10:   grid[4]: obj=92x118 fill=0.27 bg=[253 253 253]
+06:25:33 diag_ali_ru10:   grid[5]: obj=72x108 fill=0.30 bg=[230 230 228]
+06:25:33 diag_ali_ru10:   grid[6]: obj=118x118 fill=0.30 bg=[131 135 138]
+06:25:33 diag_ali_ru10:   grid[7]: obj=118x118 fill=0.30 bg=[17 20 17]
+06:25:33 diag_ali_ru10:   grid[8]: obj=118x111 fill=0.30 bg=[252 245 239]
+06:25:33 diag_ali_ru10: 
+=== FINAL SCORES (0.6*min + 0.4*mean) ===
+06:25:33 diag_ali_ru10:   grid[1]: min=0.3588 mean=0.4081 final=0.3785
+06:25:33 diag_ali_ru10:   grid[2]: min=0.3722 mean=0.4431 final=0.4006
+06:25:33 diag_ali_ru10:   grid[8]: min=0.3812 mean=0.4513 final=0.4093
+06:25:33 diag_ali_ru10:   grid[5]: min=0.4338 mean=0.4973 final=0.4592
+06:25:33 diag_ali_ru10:   grid[6]: min=0.4548 mean=0.5346 final=0.4867
+06:25:33 diag_ali_ru10:   grid[0]: min=0.4628 mean=0.5235 final=0.4870
+06:25:33 diag_ali_ru10:   grid[4]: min=0.4681 mean=0.5203 final=0.4890
+06:25:33 diag_ali_ru10:   grid[7]: min=0.4664 mean=0.5416 final=0.4965
+06:25:33 diag_ali_ru10:   grid[3]: min=0.5047 mean=0.5707 final=0.5311
+06:25:33 diag_ali_ru10: Moderate (ratio=0.71): selecting 3 -> [1, 2, 8]
+06:25:33 diag_ali_ru10: SELECTED: [1, 2, 8]
+06:25:33 diag_ali_ru10: Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru10_report.json
+06:25:33 diag_ali_ru10: === DONE ===

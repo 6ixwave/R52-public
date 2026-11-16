@@ -1,0 +1,21 @@
+2026-11-12 16:10:30,056 INFO PROBE3 START 2026-11-12T16:10:30.056420+10:00
+2026-11-12 16:10:30,056 INFO === WB ===
+2026-11-12 16:10:31,132 INFO [WB] selling OK (0.9s) selling={"brand_name": "Apple", "brand_hash": "6F8A1C9991FE5BC9", "supplier_id": 250148991, "no_return_map": 4351}
+2026-11-12 16:10:31,132 INFO [WB] colors OK (0.9s) full_colors[0:2]=[{"nm_id": 1097975273}, {"nm_id": 1097975275}] colors[0:2]=[1097975273, 1097975275]
+2026-11-12 16:10:31,132 INFO [WB] media OK (0.9s) media_keys=['photo_count'] photos=0
+2026-11-12 16:10:36,999 INFO [WB] pw_html FAIL (5.9s) Page.content: Unable to retrieve content because the page is navigating and changing the content.
+2026-11-12 16:10:37,861 INFO [WB] host_42 OK (0.9s) host=basket-42.wbbasket.ru selling={"brand_name": "Apple", "brand_hash": "6F8A1C9991FE5BC9", "supplier_id": 250148991, "
+2026-11-12 16:10:40,248 INFO [WB] api_scan FAIL (2.4s) Failed to perform, curl: (6) Could not resolve host: app.wildberries.ru (DNS ser
+2026-11-12 16:10:40,248 INFO === OZON ===
+2026-11-12 16:10:47,519 INFO Ozon HTML dumped: 1065497 bytes
+2026-11-12 16:10:47,534 INFO [OZON] pw_deep OK (7.3s) len=1065497 fab=False prices=['ld={"@context": "http://schema.org", "@type": "Product", "aggregateRating": {"@type": "Ag
+2026-11-12 16:10:53,331 INFO [OZON] pw_id2 FAIL (5.7s) oid=761659557 len=718548 fab=False prices=[]
+2026-11-12 16:10:53,438 INFO === AVITO ===
+2026-11-12 16:10:54,457 INFO Avito cat: HTTP 429 len=34116
+2026-11-12 16:10:58,026 INFO [AVITO] url_scan FAIL (3.6s) tried 3 urls
+2026-11-12 16:11:03,681 INFO [AVITO] pw_cat FAIL (5.7s) len=36454 ad_links=[] ad_ids=[] data=[] state=False
+2026-11-12 16:11:03,776 INFO PROBE3 DONE 33.7s
+2026-11-12 16:11:03,777 INFO Saved probe3_results.json
+2026-11-12 16:11:03,778 INFO   WB     4/6 OK
+2026-11-12 16:11:03,778 INFO   OZON   1/2 OK
+2026-11-12 16:11:03,778 INFO   AVITO  0/2 OK

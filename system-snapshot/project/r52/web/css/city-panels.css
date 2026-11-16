@@ -1,0 +1,1181 @@
+/* R52 2.5: screen-space annotations, kept visible in quiet mode. */
+.city-screen-overlay,
+.city-marker-layer,
+.city-marker-leaders {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.city-screen-overlay {
+  z-index: 3;
+  overflow: hidden;
+  font-family: var(--font, Arial, sans-serif);
+}
+.city-marker-leaders {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.city-marker-line {
+  fill: none;
+  stroke: #d2a5fb;
+  stroke-width: 1.2;
+  stroke-opacity: 0.42;
+  vector-effect: non-scaling-stroke;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.city-marker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 0;
+  pointer-events: none;
+  transition:
+    transform 0.42s cubic-bezier(0.16, 1, 0.3, 1),
+    width 0.3s ease,
+    height 0.3s ease;
+}
+.city-marker[hidden],
+.city-area-rail[hidden],
+.city-card-pager[hidden] {
+  display: none;
+}
+.city-marker > .city-world-card,
+.city-marker > .city-expanded-card {
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
+  box-sizing: border-box;
+}
+.city-marker > .city-world-card {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid #ba88e980 !important;
+  border-radius: 18px;
+  background: linear-gradient(150deg, #271b38f7, #170f24fa);
+  box-shadow: 0 8px 24px #0005;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #8f63b6 #20142e;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.city-marker > .city-world-card:hover,
+.city-marker > .city-world-card:focus-within {
+  border-color: #dab9ff !important;
+  box-shadow:
+    0 12px 32px #0006,
+    0 0 0 2px #be88ff26;
+}
+.city-world-card > .product-photo {
+  height: auto;
+  flex: 1 0 100px;
+  min-height: 100px;
+  max-height: 164px;
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: auto;
+}
+.city-world-card .gallery-stage {
+  height: 100%;
+  aspect-ratio: auto;
+  border-radius: 10px;
+}
+.city-world-card .world-price {
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #dfc1ff;
+  flex-shrink: 0;
+}
+.city-world-card .city-object-title {
+  font: 500 14px/1.4 var(--font, Arial, sans-serif);
+  min-height: 40px;
+  max-height: 40px;
+  flex-shrink: 0;
+  color: #f5edff;
+  overflow-wrap: anywhere;
+}
+.city-world-card .world-source {
+  font: 400 12px/1.3 var(--font, Arial, sans-serif);
+  color: #c7b4d7;
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+.city-world-card .photo-empty {
+  font-size: 12px;
+  line-height: 1.45;
+  color: #c6b8d3;
+  background: #21172f;
+  padding: 10px;
+}
+.city-world-card .photo-nav {
+  width: 44px;
+  height: 44px;
+  font-size: 26px;
+}
+.city-area-rail {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0 0 8px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #a579c0 #21162c;
+  pointer-events: auto;
+  max-width: calc(100% - 24px);
+}
+.city-area-chip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 var(--area-width, 192px);
+  width: var(--area-width, 192px);
+  height: var(--area-height, 48px);
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 10px 14px;
+  border-radius: 14px;
+  border: 1px solid #c49ce456;
+  background: #20142ff5;
+  color: #f4ebff;
+  box-shadow: 0 4px 14px #0003;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    width 0.3s,
+    flex-basis 0.3s,
+    height 0.3s,
+    background 0.2s,
+    border-color 0.2s;
+}
+.city-area-chip:hover {
+  background: #39224e;
+  border-color: #d5b3ff;
+}
+.city-area-chip[aria-current="true"] {
+  border-color: #d7b8f5;
+}
+.city-area-chip i {
+  width: 5px;
+  height: 24px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.city-area-chip span {
+  min-width: 0;
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.city-area-chip b {
+  font: 500 12px/1.4 var(--font, Arial, sans-serif);
+  color: #d1b4e9;
+  flex-shrink: 0;
+}
+.city-card-pager {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 6px;
+  transform: translateX(-50%);
+  border: 1px solid #bf92df59;
+  border-radius: 16px;
+  background: #20142ff5;
+  box-shadow: 0 4px 18px #0004;
+  pointer-events: auto;
+  white-space: nowrap;
+}
+.city-card-pager button {
+  height: 44px;
+  width: 44px;
+  border: 0;
+  border-radius: 10px;
+  background: #55316a80;
+  color: #f4e7ff;
+  cursor: pointer;
+  font-size: 26px;
+  line-height: 1;
+}
+.city-card-pager button:hover:not(:disabled) {
+  background: #744592;
+}
+.city-card-pager button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.city-card-pager span {
+  min-width: 90px;
+  text-align: center;
+  font-size: 14px;
+  color: #eadbf6;
+}
+.city-gallery-marker > .city-expanded-card {
+  border-radius: 20px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #9268b4 #21172e;
+  padding: 16px;
+}
+.city-expanded-card > .gallery-expanded {
+  min-height: 0;
+}
+.city-expanded-card .gallery-expanded > .gallery-stage {
+  height: clamp(140px, 28vh, 250px);
+}
+.city-expanded-card .city-expanded-header > button {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.city-expanded-card .city-expanded-header > span {
+  font-size: 14px;
+  color: #dcc4ed;
+}
+.city-expanded-card .city-expanded-actions {
+  padding-top: 8px;
+}
+.city-expanded-card .city-expanded-actions button {
+  font-size: 14px;
+  min-height: 44px;
+}
+.city-expanded-card .city-expanded-meta {
+  display: grid;
+  color: #dac6e8;
+}
+.city-expanded-meta small {
+  color: #bda7ce;
+}
+.city-screen-overlay button:focus-visible {
+  outline: 2px solid #f0d7ff;
+  outline-offset: 3px;
+}
+/* Hide application controls only. The annotations are content, not chrome. */
+.city-quiet .city-screen-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.city-quiet .city-loading.city-empty {
+  display: flex;
+}
+/* Existing header offsets did not account for wrapping on narrow screens. */
+@media (max-width: 700px) {
+  .city-header {
+    left: 12px;
+    right: 12px;
+    top: 12px;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) 152px;
+    gap: 8px;
+  }
+  .city-header > .btn {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .city-brand {
+    grid-row: 1;
+    grid-column: 2;
+    padding: 10px 12px;
+    text-align: center;
+  }
+  .city-header-tools {
+    grid-row: 2;
+    grid-column: 1/-1;
+    margin: 0;
+    justify-self: start;
+    max-width: 100%;
+  }
+  .city-clean-button {
+    width: 152px;
+    font-size: 12px;
+    min-height: 44px;
+    padding: 10px 8px;
+  }
+  .city-toolbar {
+    top: 124px;
+  }
+  .city-breadcrumb button {
+    font-size: 12px;
+    min-height: 36px;
+  }
+  .city-filters .input {
+    font-size: 12px;
+  }
+  .city-marker > .city-world-card {
+    padding: 10px;
+    gap: 6px;
+    border-radius: 16px;
+  }
+  .city-world-card .world-price {
+    font-size: 18px;
+  }
+  .city-world-card > .product-photo {
+    max-height: 128px;
+    min-height: 88px;
+    flex-basis: 88px;
+  }
+  .city-world-card .city-object-title {
+    font-size: 14px;
+    min-height: 40px;
+  }
+  .city-world-card .world-source {
+    font-size: 12px;
+  }
+  .city-area-chip {
+    padding: 10px;
+    gap: 8px;
+  }
+  .city-area-chip span {
+    font-size: 14px;
+  }
+  .city-card-pager {
+    gap: 6px;
+    left: auto !important;
+    right: 12px;
+    transform: none;
+  }
+  .city-card-pager span {
+    min-width: 76px;
+    font-size: 13px;
+  }
+  .city-workspace[data-selection="product"] .city-navigation {
+    left: 12px;
+    right: auto;
+    bottom: 16px;
+    top: auto;
+    grid-template-columns: 44px 44px;
+  }
+  .city-workspace:not([data-selection="root"]):not([data-selection="product"])
+    .city-navigation {
+    bottom: 126px;
+  }
+  .city-expanded-card .city-expanded-meta {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .city-expanded-card h2 {
+    font-size: 18px;
+  }
+  .city-expanded-card .city-expanded-actions {
+    flex-wrap: wrap;
+  }
+  .city-expanded-card .city-expanded-actions button {
+    flex: 1 0 130px;
+  }
+  .city-gallery-marker > .city-expanded-card {
+    padding: 12px;
+  }
+  .city-expanded-card .gallery-expanded > .gallery-stage {
+    height: 180px;
+  }
+}
+@media (max-width: 370px) {
+  .city-header {
+    grid-template-columns: auto minmax(0, 1fr) 132px;
+  }
+  .city-clean-button {
+    width: 132px;
+    font-size: 11px;
+  }
+  .city-brand {
+    padding: 10px 6px;
+  }
+  .city-brand h1 {
+    font-size: 14px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .city-marker,
+  .city-area-chip,
+  .city-world-card {
+    transition: none !important;
+  }
+}
+html[data-motion="off"] .city-marker,
+html[data-motion="off"] .city-area-chip,
+html[data-motion="off"] .city-world-card {
+  transition: none !important;
+}
+
+/* Keep close and primary actions reachable; scroll only the gallery content. */
+.city-gallery-marker > .city-expanded-card {
+  overflow: hidden;
+}
+.city-expanded-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  gap: 12px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding-right: 4px;
+  scrollbar-color: #a478c6 #20142f;
+}
+.city-expanded-body > .gallery-expanded {
+  flex: 0 0 auto;
+  aspect-ratio: auto;
+}
+.city-expanded-body > .city-expanded-meta {
+  flex-shrink: 0;
+}
+.city-expanded-card .city-expanded-actions {
+  margin-top: 0;
+  flex-shrink: 0;
+}
+/* 2.6: Spatial city — no category rail and no fullscreen product grid. */
+.city-district-labels {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  overflow: hidden;
+}
+.city-district-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  box-sizing: border-box;
+  padding: 10px 13px;
+  border: 1px solid color-mix(in srgb, var(--district-color) 65%, transparent);
+  border-radius: 12px;
+  background: #111420ed;
+  color: #f7f5ff;
+  box-shadow: 0 3px 14px #0005;
+  pointer-events: auto;
+  cursor: pointer;
+  text-align: left;
+  transform-origin: center;
+  transition:
+    opacity 0.24s ease,
+    background 0.18s,
+    border-color 0.18s;
+  will-change: transform, opacity;
+}
+.city-district-label[hidden] {
+  display: none;
+}
+.city-district-label:hover,
+.city-district-label.is-selected {
+  background: #232637f5;
+  border-color: var(--district-color);
+}
+.city-district-label i {
+  width: 5px;
+  align-self: stretch;
+  border-radius: 3px;
+  background: var(--district-color);
+  flex-shrink: 0;
+}
+.city-district-label span {
+  font: 600 14px/1.3 var(--font, Arial, sans-serif);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  min-width: 0;
+  flex: 1;
+}
+.city-district-label small {
+  font-size: 11px;
+  color: #d4cfdf;
+}
+.city-district-label:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+.city-screen-overlay {
+  z-index: 4;
+}
+.city-marker:not(.city-gallery-marker) {
+  transition:
+    width 0.18s ease,
+    height 0.18s ease;
+}
+.city-marker > .city-world-card {
+  padding: 8px;
+  gap: 4px;
+  border-radius: 12px;
+  border-color: #b9aac352 !important;
+  background: linear-gradient(155deg, #202031f5, #11131ff7);
+  box-shadow: 0 4px 14px #0005;
+  overflow: hidden;
+}
+.city-world-card > .product-photo {
+  flex: 1 1 auto;
+  min-height: 36px;
+  max-height: 88px;
+  border-radius: 6px;
+}
+.city-world-card .gallery-stage {
+  border-radius: 6px;
+}
+.city-world-card .world-price {
+  font-size: 16px;
+  line-height: 1.25;
+}
+.city-world-card .city-object-title {
+  font-size: 12px;
+  line-height: 1.4;
+  min-height: 34px;
+  max-height: 34px;
+}
+.city-world-card .world-source {
+  font-size: 10px;
+  line-height: 1.2;
+  margin-top: 2px;
+}
+.city-world-card .photo-empty {
+  font-size: 10px;
+  padding: 5px;
+  line-height: 1.35;
+}
+.city-world-card .photo-nav {
+  width: 32px;
+  height: 36px;
+  font-size: 23px;
+}
+.city-world-card .gallery-count {
+  font-size: 9px;
+}
+.city-marker-line {
+  stroke: #c0cbd9;
+  stroke-opacity: 0.32;
+  stroke-width: 1;
+}
+.city-card-pager {
+  padding: 2px 4px;
+  gap: 6px;
+  border-radius: 12px;
+  background: #151724ed;
+}
+.city-card-pager span {
+  font-size: 12px;
+  min-width: 76px;
+}
+.city-card-pager button {
+  height: 40px;
+  width: 40px;
+  border-radius: 9px;
+  font-size: 23px;
+}
+.city-area-rail {
+  display: none !important;
+}
+@media (max-width: 700px) {
+  .city-district-label {
+    padding: 9px;
+    gap: 7px;
+    border-radius: 10px;
+  }
+  .city-district-label span {
+    font-size: 13px;
+  }
+  .city-marker > .city-world-card {
+    padding: 7px;
+    gap: 4px;
+  }
+  .city-world-card .world-price {
+    font-size: 15px;
+  }
+  .city-world-card .city-object-title {
+    font-size: 12px;
+  }
+  .city-world-card > .product-photo {
+    min-height: 36px;
+    max-height: 80px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .city-district-label {
+    transition: none !important;
+  }
+}
+html[data-motion="off"] .city-district-label {
+  transition: none !important;
+}
+/* 2.7: object-first interaction and bounded city annotation LOD. */
+.interactive-object {
+  cursor: pointer;
+  outline-offset: 3px;
+  transition:
+    border-color 0.18s,
+    box-shadow 0.18s;
+}
+.interactive-object:hover {
+  border-color: #c1a2e591 !important;
+}
+.interactive-object:focus-visible {
+  outline: 2px solid #c8b1ff !important;
+}
+.interactive-object :is(button, a, input, select, summary) {
+  cursor: pointer;
+}
+.inbox-dialog {
+  position: relative;
+}
+.inbox-close {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  z-index: 3;
+  background: #231a35ed;
+  color: #fff;
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid #ffffff30;
+  border-radius: 12px;
+  font-size: 23px;
+}
+.city-marker > .city-world-card {
+  padding: 7px;
+  gap: 3px;
+  border-radius: 10px;
+}
+.city-world-card > .product-photo {
+  min-height: 24px;
+  max-height: 58px;
+}
+.city-world-card .world-price {
+  font-size: 14px;
+  white-space: nowrap;
+}
+.city-world-card .city-object-title {
+  font-size: 11px;
+  min-height: 31px;
+  max-height: 31px;
+  line-height: 1.35;
+}
+.city-world-card .world-source {
+  font-size: 9px;
+}
+.city-world-card .photo-empty {
+  font-size: 9px;
+  line-height: 1.25;
+}
+.city-marker.is-price-pin > .city-world-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 6px;
+  border-radius: 9px;
+  box-shadow: 0 2px 8px #0006;
+  background: #181c2bf2;
+  gap: 0;
+}
+.city-marker.is-price-pin .world-price {
+  font-size: 12px;
+  line-height: 24px;
+  color: #ede3ff;
+}
+.city-marker.is-price-pin
+  :is(.product-photo, .city-object-title, .world-source) {
+  display: none !important;
+}
+.city-marker-layer.is-offscreen {
+  visibility: hidden;
+  pointer-events: none;
+}
+.city-district-label.is-empty {
+  border-style: dashed;
+  background: #141925dc;
+}
+.city-district-label.is-empty small {
+  font-size: 10px;
+  color: #9da6b8;
+}
+.city-district-label.is-empty i {
+  opacity: 0.6;
+}
+.city-marker-leaders path {
+  stroke-opacity: 0.2;
+}
+.city-context-actions:empty {
+  display: none;
+}
+.city-context-title {
+  cursor: default;
+}
+@media (prefers-reduced-motion: reduce) {
+  .interactive-object {
+    transition: none;
+  }
+}
+html[data-motion="off"] .interactive-object {
+  transition: none;
+}
+.card-head.interactive-object {
+  border: 0;
+  border-radius: 8px;
+  position: relative;
+  padding-right: 24px;
+}
+.card-head.interactive-object::after {
+  content: "↗";
+  position: absolute;
+  right: 2px;
+  color: #ab9cbd;
+  font-size: 16px;
+}
+.card-head.interactive-object:hover h3 {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.backup-object {
+  border-radius: 8px;
+  padding: 10px;
+}
+.task.interactive-object:hover {
+  background: #ffffff05;
+}
+.city-product-link {
+  color: inherit;
+  text-decoration: none;
+}
+.city-product-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.city-product-link:focus-visible {
+  outline: 2px solid #c8b1ff;
+  outline-offset: 3px;
+}
+/* 2.9: Fixed world anchors; only opacity transitions, never animated position. */
+.city-glass-labels,
+.city-glass-leaders {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 3;
+}
+.city-glass-leaders {
+  z-index: 2;
+}
+.city-glass-leaders path {
+  opacity: 0;
+  transition: opacity 0.18s ease;
+}
+.city-glass-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 160px;
+  height: 54px;
+  padding: 8px 12px;
+  border: 1px solid color-mix(in srgb, var(--district-color) 34%, transparent);
+  border-radius: 13px;
+  background: linear-gradient(145deg, #202137df, #12141fdf);
+  box-shadow:
+    0 5px 18px #05050c38,
+    inset 0 1px 0 #ffffff0b;
+  backdrop-filter: none;
+  color: #f7f5ff;
+  cursor: pointer;
+  text-align: left;
+  pointer-events: none;
+  opacity: 0;
+  transition:
+    background 0.18s ease,
+    border-color 0.18s ease;
+  isolation: isolate;
+}
+.city-glass-label i {
+  flex: 0 0 3px;
+  height: 20px;
+  background: var(--district-color);
+  border-radius: 3px;
+  opacity: 0.85;
+}
+.city-glass-label .city-label-name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font: 600 14px/1.24 var(--font, Arial, sans-serif);
+  letter-spacing: 0.01em;
+  min-width: 0;
+  flex: 1;
+}
+.city-glass-label[data-depth]:not([data-depth="0"]) {
+  height: 46px;
+  border-radius: 11px;
+  padding: 6px 10px;
+  background: linear-gradient(145deg, #1b1e2acf, #13151dd9);
+  box-shadow: 0 3px 12px #05050c28;
+}
+.city-glass-label[data-depth]:not([data-depth="0"]) .city-label-name {
+  font-size: 12px;
+  font-weight: 500;
+}
+.city-glass-label .city-label-count {
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 8px;
+  border-radius: 7px;
+  background: #141521ed;
+  color: #e6deef;
+  font: 500 11px/1.3 var(--font, Arial, sans-serif);
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: none;
+}
+.city-glass-label.is-active,
+.city-glass-label.is-selected {
+  border-color: color-mix(in srgb, var(--district-color) 70%, transparent);
+  background: #29293be8;
+}
+.city-glass-label.is-active .city-label-count,
+.city-glass-label.is-selected .city-label-count {
+  opacity: 1;
+}
+.city-glass-label:focus-visible {
+  outline: 2px solid #dfd4ff;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .city-glass-label,
+  .city-glass-label .city-label-count,
+  .city-glass-leaders path {
+    transition: none !important;
+  }
+}
+html[data-motion="off"] .city-glass-label,
+html[data-motion="off"] .city-label-count,
+html[data-motion="off"] .city-glass-leaders path {
+  transition: none !important;
+}
+
+.city-glass-label.is-active {
+  backdrop-filter: blur(6px);
+}
+
+/* ---------------------------------------------------------------------------
+   R52 2.12 — product callouts. Two tidy columns beside the selected leaf (one
+   shelf on narrow screens); straight leaders join every card to its roof.
+   --------------------------------------------------------------------------- */
+.city-marker.is-callout {
+  transition: none;
+  will-change: transform;
+  pointer-events: none;
+}
+.city-callout-card {
+  --market: #c9a2ff;
+  position: relative;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 9px 12px 9px 10px;
+  border: 1px solid #dcc6ff1f;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #1f1633eb, #150e24f2);
+  box-shadow:
+    inset 0 1px 0 #ffffff0f,
+    0 16px 36px -14px #000000b3;
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  backdrop-filter: blur(16px) saturate(1.2);
+  color: #f5f0fd;
+  overflow: hidden;
+  pointer-events: auto;
+  cursor: pointer;
+  transition:
+    border-color 0.18s ease,
+    background-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.city-callout-card.market-OZON {
+  --market: #3d86ff;
+}
+.city-callout-card:is(.market-WB, .market-WILDBERRIES) {
+  --market: #e040c2;
+}
+.city-callout-card.market-ALIEXPRESS {
+  --market: #ff5a52;
+}
+/* The market accent sits on the outer edge; the leader leaves the inner one. */
+.city-callout-card::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  bottom: 16px;
+  left: 0;
+  width: 2px;
+  border-radius: 0 2px 2px 0;
+  background: var(--market);
+  opacity: 0.85;
+}
+.city-marker.is-callout[data-side="right"] .city-callout-card::before {
+  left: auto;
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+.city-marker.is-callout.is-hot .city-callout-card,
+.city-callout-card:hover,
+.city-callout-card:focus-within {
+  border-color: #e7d6ff52;
+  background: linear-gradient(180deg, #2a1e44f2, #1b122ef5);
+  box-shadow:
+    inset 0 1px 0 #ffffff17,
+    0 18px 40px -14px #000000c7,
+    0 0 0 1px #c9a2ff14;
+}
+.city-marker.is-callout[data-side="left"].is-hot .city-callout-card {
+  transform: translateX(3px);
+}
+.city-marker.is-callout[data-side="right"].is-hot .city-callout-card {
+  transform: translateX(-3px);
+}
+.city-marker.is-callout[data-side="bottom"].is-hot .city-callout-card {
+  transform: translateY(-3px);
+}
+.city-callout-thumb {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: radial-gradient(circle at 30% 25%, #3b2b57, #1b1329 72%);
+  box-shadow: inset 0 0 0 1px #ffffff12;
+}
+.city-callout-thumb > .product-photo,
+.city-callout-thumb .gallery-stage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  max-height: none;
+  margin: 0;
+  aspect-ratio: auto;
+  border-radius: inherit;
+  background: transparent;
+}
+.city-callout-thumb .gallery-layer {
+  background: transparent;
+}
+.city-callout-thumb .gallery-layer > img {
+  object-fit: cover;
+}
+.city-callout-thumb
+  :is(.photo-nav, .gallery-count, .gallery-thumbnails, .photo-zoom) {
+  display: none !important;
+}
+/* No photo yet: a quiet picture glyph instead of a sentence in a 56 px tile. */
+.city-callout-thumb :is(.photo-empty, .media-error) {
+  position: absolute;
+  inset: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+}
+.city-callout-thumb :is(.photo-empty, .media-error)::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  box-sizing: border-box;
+  width: 22px;
+  height: 17px;
+  margin: -9px 0 0 -11px;
+  border: 1.5px solid #cdb8ecb3;
+  border-radius: 5px;
+}
+.city-callout-thumb :is(.photo-empty, .media-error)::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 5px;
+  height: 5px;
+  margin: -5px 0 0 -6px;
+  border-radius: 50%;
+  background: #cdb8ecb3;
+}
+.city-callout-body {
+  display: grid;
+  align-content: center;
+  gap: 4px;
+  min-width: 0;
+}
+.city-callout-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 0;
+}
+.city-callout-price {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 650 15px/1.15 var(--font, Arial, sans-serif);
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+  color: #fff;
+}
+.city-callout-source {
+  flex: none;
+  padding: 3px 6px;
+  border-radius: 6px;
+  font: 650 9.5px/1 var(--font, Arial, sans-serif);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--market) 70%, #fff);
+  background: color-mix(in srgb, var(--market) 16%, transparent);
+}
+.city-callout-title {
+  all: unset;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-width: 100%;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  font: 500 12px/1.3 var(--font, Arial, sans-serif);
+  color: #c9bedb;
+  cursor: pointer;
+}
+.city-callout-card:hover .city-callout-title,
+.city-marker.is-callout.is-hot .city-callout-title {
+  color: #efe8fb;
+}
+.city-callout-title:focus-visible {
+  outline: 2px solid #dfd4ff;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+/* Far away the cards shrink to price pins in the same columns. */
+.city-marker.is-callout.is-price-pin .city-callout-card {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  padding: 0 12px;
+  border-radius: 12px;
+}
+.city-marker.is-callout.is-price-pin
+  :is(.city-callout-thumb, .city-callout-title, .city-callout-source) {
+  display: none;
+}
+.city-marker.is-callout.is-price-pin .city-callout-price {
+  font-size: 13px;
+  text-align: center;
+}
+.city-marker.is-callout.is-price-pin .city-callout-card::before {
+  top: 10px;
+  bottom: 10px;
+}
+/* Narrow screens: one shelf above the pager. */
+.city-marker.is-callout[data-side="bottom"] .city-callout-card {
+  grid-template-columns: 46px minmax(0, 1fr);
+  gap: 10px;
+  padding: 8px 10px 8px 9px;
+  border-radius: 14px;
+}
+.city-marker.is-callout[data-side="bottom"] .city-callout-thumb {
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+}
+.city-marker.is-callout[data-side="bottom"] .city-callout-source {
+  display: none;
+}
+.city-marker.is-callout[data-side="bottom"] .city-callout-price {
+  font-size: 14px;
+}
+.city-marker.is-callout[data-side="bottom"] .city-callout-title {
+  font-size: 11.5px;
+}
+.city-marker.is-callout[data-side="bottom"] .city-callout-card::before {
+  top: 0;
+  bottom: auto;
+  left: 16px;
+  right: 16px;
+  width: auto;
+  height: 2px;
+  border-radius: 0 0 2px 2px;
+}
+.city-marker.is-callout[data-side="bottom"].is-price-pin .city-callout-card {
+  grid-template-columns: minmax(0, 1fr);
+}
+.city-marker-leaders .city-marker-line {
+  fill: none;
+  stroke: #d9bcff;
+  stroke-opacity: 0.5;
+  stroke-width: 1.1;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  transition:
+    stroke 0.18s ease,
+    stroke-opacity 0.18s ease,
+    stroke-width 0.18s ease;
+}
+.city-marker-leaders .city-marker-line.is-hot {
+  stroke: #f3e8ff;
+  stroke-opacity: 0.95;
+  stroke-width: 1.6;
+}
+.city-marker-leaders .city-marker-anchor {
+  fill: #f6eeff;
+  stroke: #170f25;
+  stroke-width: 1.5;
+}
+.city-marker-leaders .city-marker-halo {
+  fill: #d9bcff;
+  fill-opacity: 0.14;
+  transition: fill-opacity 0.18s ease;
+}
+.city-marker-leaders .city-marker-halo.is-hot {
+  fill-opacity: 0.36;
+}
+/* The selected district's count chip no longer floats over its label: the
+   cards and the pager already say how many products there are. */
+.city-glass-label.is-selected:not(.is-active) .city-label-count {
+  opacity: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .city-callout-card,
+  .city-marker-leaders .city-marker-line,
+  .city-marker-leaders .city-marker-halo {
+    transition: none !important;
+  }
+}
+html[data-motion="off"] .city-callout-card,
+html[data-motion="off"] .city-marker-leaders .city-marker-line,
+html[data-motion="off"] .city-marker-leaders .city-marker-halo {
+  transition: none !important;
+}

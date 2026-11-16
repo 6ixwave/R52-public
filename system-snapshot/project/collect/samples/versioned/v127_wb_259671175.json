@@ -1,0 +1,84 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Набор фильтров Haval H9 2.0T Хавал H9",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "HAVAL",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "Набор Haval H9 ФВ_ФМ_ФСУ",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Набор фильтров для автомобиля HAVAL H9 2.0T с бензиновым двигателем GW4C20B предназначен для обеспечения чистоты и эффективности работы двигателя, системы охлаждения и салона вашего автомобиля. Этот комплект включает в себя высококачественные фильтры, которые идеально подходят для моделей HAVAL H9 выпущенных c 2019-2024 год. Фильтры выполнены из прочных и долговечных материалов, обеспечивающих их надежную работу и долгосрочное использование. Благодаря использованию этого набора вы сможете улучшить производительность вашего автомобиля, продлить срок службы двигателя и снизить расход топлива. \nВ комплект фильтров для Хавал H9 входит воздушный фильтр, масляный фильтр, салонный фильтр, шайба сливной пробки. Оригинальные расходные материалы напрямую от производителей. Все фильтра для Haval Н9 сертифицированы согласно Техническому регламенту о безопасности колесных транспортных средств (есть сертификат соответствия ТР ЕАЭС). Применимость фильтров: Haval Н9 с бензиновым двигателем GW4C20B  2019-2024гг.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Автозапчасти > Комплекты фильтров",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Длина упаковки: 33 см\nВысота упаковки: 13 см\nШирина упаковки: 32 см\nВес с упаковкой (кг): 1.4 кг\nАртикул производителя: 1017100AEC01; 1109110XKV8A; 8100103XKV08A\nОЕМ номер: 1017100AEC01; 1009305XEC06; 1109110XKV8A; 8100103XKV08A\nМарка автомобиля: Haval H9\nСтрана производства: Китай\nМодель: H9\nКомплектация: Фильтр воздушный Haval-1шт., Фильтр салонный Haval-1шт., Фильтр масляный Haval-1шт.; Комбинированная шайба-1шт.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-16.wbbasket.ru/vol2596/part259671/259671175/images/S800/S800.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Автозапчасти > Комплекты фильтров",
+    "source": "WB",
+    "id": "259671175",
+    "url": "https://www.wildberries.ru/catalog/259671175/detail.aspx",
+    "observed_at": "2026-11-12T01:48:17.349616+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

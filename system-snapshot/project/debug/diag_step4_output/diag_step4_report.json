@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-11-14T15:09:49",
+  "tests": [
+    {
+      "source": "FARPOST",
+      "name": "search_root",
+      "url": "https://www.farpost.ru/vladivostok/search/?q=смартфоны",
+      "status": 404,
+      "final_url": "https://www.farpost.ru/vladivostok/search/?q=%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD%D1%8B",
+      "len": 16593,
+      "preview": "<!DOCTYPE html> <html lang=\"ru\"> <head> \t\t<title>Страница не найдена</title>  <meta charset=\"windows-1251\" /> <meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />  <meta http-equiv=",
+      "elapsed_s": 0.15,
+      "has_links": false,
+      "link_count": 29
+    },
+    {
+      "source": "FARPOST",
+      "name": "search_root",
+      "url": "https://www.farpost.ru/search/?q=смартфоны",
+      "status": 404,
+      "final_url": "https://www.farpost.ru/search/?q=%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD%D1%8B",
+      "len": 16389,
+      "preview": "<!DOCTYPE html> <html lang=\"ru\"> <head> \t\t<title>Страница не найдена</title>  <meta charset=\"windows-1251\" /> <meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />  <meta http-equiv=",
+      "elapsed_s": 0.15,
+      "has_links": false,
+      "link_count": 29
+    },
+    {
+      "source": "FARPOST",
+      "name": "search_root",
+      "url": "https://www.farpost.ru/vladivostok/catalog/?q=смартфоны",
+      "status": 404,
+      "final_url": "https://www.farpost.ru/vladivostok/catalog/?q=%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD%D1%8B",
+      "len": 16595,
+      "preview": "<!DOCTYPE html> <html lang=\"ru\"> <head> \t\t<title>Страница не найдена</title>  <meta charset=\"windows-1251\" /> <meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />  <meta http-equiv=",
+      "elapsed_s": 0.16,
+      "has_links": false,
+      "link_count": 29
+    },
+    {
+      "source": "FARPOST",
+      "name": "search_root",
+      "url": "https://www.farpost.ru/vladivostok/auto/wheel/tire/",
+      "status": 200,
+      "final_url": "https://www.farpost.ru/vladivostok/auto/wheel/tire/",
+      "len": 416421,
+      "preview": "<!DOCTYPE html> <html lang=\"ru\"> <head> \t\t<title>Купить шины во Владивостоке. Объявления продажи б/у и новой резины, с ценами и фото.</title>  <meta charset=\"windows-1251\" /> <meta name=\"SKYPE_TOOLBAR",
+      "elapsed_s": 0.61,
+      "has_links": false,
+      "link_count": 1565
+    },
+    {
+      "source": "OZON",
+      "name": "api_m.ozon.ru/product/286156832/",
+      "status": 403,
+      "len": 5939,
+      "is_json": true,
+      "preview": "  {\"incidentId\": \"fab_chlg_20261114051002_01M7C7CVHTEZSAQGA16M6Y6F7F\", \"challengeURL\": \"https://m.ozon.ru/challenge.html?challenge=XSuNDdfNSxmYWJfY2hs",
+      "elapsed_s": 1.7
+    },
+    {
+      "source": "OZON",
+      "name": "api_api.ozon.ru/composer-api.bx/page/json/v2",
+      "status": 403,
+      "len": 1081,
+      "is_json": true,
+      "preview": "  {\"incidentId\": \"fab_20261114051006_01M7C7CZE9C5DH9EPYZDTF17SY\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261114051006",
+      "elapsed_s": 0.99
+    },
+    {
+      "source": "OZON",
+      "name": "api_www.ozon.ru/api/entrypoint/pdp/286156832",
+      "status": 403,
+      "len": 5943,
+      "is_json": true,
+      "preview": "  {\"incidentId\": \"fab_chlg_20261114051010_01M7C7D3AWY20CXT7DX2N0FFRF\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=6a2NDdfNSxmYWJfY2",
+      "elapsed_s": 0.99
+    },
+    {
+      "source": "OZON",
+      "name": "api_api.ozon.ru/composer-api.bx/page/json/v2",
+      "status": 403,
+      "len": 1081,
+      "is_json": true,
+      "preview": "  {\"incidentId\": \"fab_20261114051014_01M7C7D785VXCE2HRT54YHP3PN\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261114051014",
+      "elapsed_s": 1.0
+    },
+    {
+      "source": "OZON",
+      "name": "api_www.ozon.ru/api/composer-api.bx/page/json/v2",
+      "status": 403,
+      "len": 6113,
+      "is_json": true,
+      "preview": "  {\"incidentId\": \"fab_chlg_20261114051018_01M7C7DB4ZNJR0ZN1EC79XRKSS\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=Cf9NDdfNSxmYWJfY2",
+      "elapsed_s": 1.0
+    },
+    {
+      "source": "OZON",
+      "name": "api_m.ozon.ru/api/entrypoint/pdp/286156832",
+      "status": 403,
+      "len": 6023,
+      "is_json": true,
+      "preview": "  {\"incidentId\": \"fab_chlg_20261114051023_01M7C7DFS9PAZT0E7VG88W90TV\", \"challengeURL\": \"https://m.ozon.ru/challenge.html?challenge=j7YNDdfNSxmYWJfY2hs",
+      "elapsed_s": 1.74
+    },
+    {
+      "source": "OZON",
+      "name": "pw_long_wait",
+      "status": 403,
+      "len": 3306,
+      "has_title": true,
+      "has_price": false,
+      "has_anti": true,
+      "title": "Похоже, нет соединения",
+      "elapsed_s": 10.17
+    },
+    {
+      "source": "DB",
+      "name": "auto_target",
+      "status": "ERROR",
+      "error": "no such column: listing_id",
+      "trace": "\\debug\\diag_step4.py\", line 224, in <module>\n    cur.execute(\"SELECT source, listing_id, url, enabled FROM auto_target WHERE enabled=1 LIMIT 20\")\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlite3.OperationalError: no such column: listing_id\n"
+    }
+  ]
+}

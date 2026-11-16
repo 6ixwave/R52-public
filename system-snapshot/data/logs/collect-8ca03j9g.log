@@ -1,0 +1,41 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 18:09:38,599 r52.autocollect.worker INFO phase=worker_start pid=30636
+2026-11-15 18:09:38,609 r52.autocollect.worker INFO source=ALIEXPRESS_RU mode=refresh phase=initialize
+2026-11-15 18:09:38,610 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-15 18:09:38,611 r52.autocollect.worker INFO source=ALIEXPRESS_RU proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-15 18:09:38,611 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005009813246509 phase=collect_product_start
+2026-11-15 18:09:43,177 r52.collectors.aliexpress INFO ALI_RU: TMD/CAPTCHA (try 1), 2061B, bxpunish=1
+2026-11-15 18:09:58,448 r52.collectors.aliexpress WARNING ALI_RU: product fetch error (try 2): Failed to perform, curl: (7) CONNECT tunnel failed, response 503. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 18:10:19,139 r52.collectors.aliexpress INFO ALI_RU: TMD/CAPTCHA (try 3), 2379B, bxpunish=1
+2026-11-15 18:10:19,139 r52.collectors.aliexpress INFO ALI_RU: HTML incomplete/captcha after 3 tries, trying search API for id=1005009813246509
+2026-11-15 18:10:25,972 r52.collectors.aliexpress WARNING ALI_RU: search API returned HTML (404 page?), len=13828
+2026-11-15 18:10:32,827 r52.collectors.aliexpress WARNING ALI_RU: search API returned HTML (404 page?), len=13828
+Timeout (0:01:00)!
+Thread 0x000077ec [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00005d64 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 146 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\__init__.py", line 154 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\aliexpress.py", line 2087 in _fetch_search_api
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\aliexpress.py", line 2676 in _collect_via_search_api
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\aliexpress.py", line 2637 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 18:10:38,923 r52.collectors.aliexpress WARNING ALI_RU: search API returned HTML (404 page?), len=13828
+2026-11-15 18:10:38,923 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005009813246509 phase=collect_product_return status=NO_RESULT
+2026-11-15 18:10:38,923 r52.autocollect.worker WARNING source=ALIEXPRESS_RU listing=1005009813246509 result=NO_RESULT remaining_not_attempted=['1005013031421695', '1005012258539556', '1005013584284365', '1005013549913775']
+2026-11-15 18:10:38,923 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_start returned=0 valid=0 stats={'requests': 3, 'success': 0, 'failed': 0, 'blocked': 2}
+2026-11-15 18:10:38,925 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_complete files=0
+2026-11-15 18:10:38,926 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_start
+2026-11-15 18:10:38,926 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_complete

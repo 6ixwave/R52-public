@@ -1,0 +1,35 @@
+2026-11-12 13:05:24,398 [diag24] ============================================================
+2026-11-12 13:05:24,399 [diag24] WB: Playwright networkidle + in-page fetch
+2026-11-12 13:05:24,399 [diag24] ============================================================
+2026-11-12 13:05:24,986 [diag24] WB: goto https://www.wildberries.ru/catalog/1097975275/detail.aspx
+2026-11-12 13:05:25,716 [diag24] WB: waiting for networkidle (30s max)...
+2026-11-12 13:05:26,843 [diag24] WB: networkidle reached
+2026-11-12 13:05:31,875 [diag24] WB: title=, url=https://www.wildberries.ru/catalog/1097975275/detail.aspx
+2026-11-12 13:05:31,936 [diag24] WB: body=7590, wbaas=True
+2026-11-12 13:05:31,943 [diag24] WB price_dom keys: ['ld']
+2026-11-12 13:05:31,943 [diag24] WB: in-page fetch card.wb.ru...
+2026-11-12 13:05:33,079 [diag24] WB fetch[0]: status=None, len=None, head=
+2026-11-12 13:05:33,079 [diag24] WB fetch[1]: status=None, len=None, head=
+2026-11-12 13:05:33,079 [diag24] WB fetch[2]: status=None, len=None, head=
+2026-11-12 13:05:33,079 [diag24] WB: 43 API calls captured
+2026-11-12 13:05:33,194 [diag24] WB: basket CDN price paths
+2026-11-12 13:05:34,250 [diag24] WB basket [card.json]: 200, len=7989
+2026-11-12 13:05:34,250 [diag24]   head: {"imt_id":2227481309,"nm_id":1097975275,"imt_name":"Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)","slug":"smartfon-iphone-17-pro-max-256-serebryanyj-esim","subj_name":"Смартфоны","subj_root_name":"Смартфоны и гаджеты","vendor_code":"Смартфон iPhone 17 Pro Max 256 Серебряный","description":"Товар
+2026-11-12 13:05:36,310 [diag24] WB basket [price.json]: 404, len=196
+2026-11-12 13:05:38,180 [diag24] WB basket [price.json]: 404, len=196
+2026-11-12 13:05:40,118 [diag24] WB basket [price]: 404, len=196
+2026-11-12 13:05:41,118 [diag24] ============================================================
+2026-11-12 13:05:41,119 [diag24] AVITO: cooldown 30s + curl_cffi
+2026-11-12 13:05:41,119 [diag24] ============================================================
+2026-11-12 13:05:41,119 [diag24] AVITO: cooldown 30s...
+2026-11-12 13:06:15,465 [diag24] AVITO search [search]: 429, len=34116
+2026-11-12 13:06:21,504 [diag24] AVITO search [telefony-i-smartfony]: 429, len=34116
+2026-11-12 13:06:27,543 [diag24] AVITO search [search]: 429, len=34116
+2026-11-12 13:06:32,544 [diag24] ============================================================
+2026-11-12 13:06:32,545 [diag24] FARPOST: basic product page
+2026-11-12 13:06:32,545 [diag24] ============================================================
+2026-11-12 13:06:33,574 [diag24] FARPOST [smartfony]: 404, len=12989
+2026-11-12 13:06:36,737 [diag24] FARPOST [apple]: 404, len=13003
+2026-11-12 13:06:39,761 [diag24] FARPOST [search]: 404, len=12941
+2026-11-12 13:06:41,763 [diag24] Result -> C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag24_result.json
+2026-11-12 13:06:41,763 [diag24] DONE

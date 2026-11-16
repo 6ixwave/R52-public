@@ -1,0 +1,22 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "OZON",
+  "observation": {
+    "source": "OZON",
+    "id": "286156832",
+    "url": "https://www.ozon.ru/product/286156832/",
+    "observed_at": "2026-11-14T15:10:00+10:00",
+    "status": "BLOCKED",
+    "product_content": false,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 403,
+    "fields": {},
+    "price_candidates": [],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN"
+  }
+}

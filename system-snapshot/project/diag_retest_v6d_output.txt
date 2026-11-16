@@ -1,0 +1,32 @@
+=== retest_v6d — 2026-11-14 11:45:15 ===
+Query: 'наушники'
+
+── FARPOST: p1 + p2 ──
+  p1: ERR SearchError: SEARCH_ACCESS_CHALLENGE (4.3s)
+    Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_retest_v6d.py", line 43, in <module>
+    items = fp.collect_by_search(QUERY, page=pg, page_size=10)
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\farpost.py", line 954, in collect_by_search
+    raise SearchError("SEARCH_ACCESS_CHALLENGE")
+r52.collectors.discovery.SearchError: SEARCH_ACCESS_CHALLENGE
+
+  (sleep 18s for p2)
+  p2: ERR SearchError: SEARCH_ACCESS_CHALLENGE (31.1s)
+    Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_retest_v6d.py", line 43, in <module>
+    items = fp.collect_by_search(QUERY, page=pg, page_size=10)
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\farpost.py", line 952, in collect_by_search
+    raise SearchError("SEARCH_ACCESS_CHALLENGE")
+r52.collectors.discovery.SearchError: SEARCH_ACCESS_CHALLENGE
+
+
+── OZON: PwFetcher 5s wait ──
+  p1: OK 0 items 41.6s
+    IDs: []
+  p2: OK 0 items 6.6s
+    IDs: []
+
+── AVITO: quick check ──
+  p1: SearchError: SEARCH_ACCESS_CHALLENGE (21.6s)
+
+=== DONE ===

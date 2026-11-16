@@ -1,0 +1,125 @@
+{
+  "wb": {
+    "basket-01": {
+      "http": 404,
+      "len": 196,
+      "t": 1.1
+    },
+    "basket-10": {
+      "http": 404,
+      "len": 196,
+      "t": 1.1
+    },
+    "static-basket-01": {
+      "http": 404,
+      "len": 0,
+      "t": 1.0
+    },
+    "price_v2": {
+      "http": 403,
+      "len": 0,
+      "t": 0.9
+    },
+    "price_v1": {
+      "http": 403,
+      "len": 0,
+      "t": 0.8
+    },
+    "html": {
+      "http": 498,
+      "len": 1136,
+      "t": 0.1,
+      "note": "498 = WB anti-bot challenge"
+    }
+  },
+  "farpost": {
+    "warm": {
+      "http": 200,
+      "cookies": [
+        "ring",
+        "ring_session"
+      ],
+      "t": 1.0
+    },
+    "card": {
+      "http": 200,
+      "len": 40192,
+      "url": "https://www.farpost.ru/krasnoyarsk/auto/wheel/tire/shiny-139122082.html",
+      "verify": false,
+      "t": 0.6
+    },
+    "n_ld": 2,
+    "attr_price": 8499,
+    "n_photos": 5,
+    "mobile": {
+      "http": 200,
+      "len": 40192,
+      "verify": false,
+      "t": 1.6
+    },
+    "cat": {
+      "http": 200,
+      "len": 189634,
+      "verify": false,
+      "t": 0.5,
+      "n_prices": 0,
+      "first_prices": []
+    }
+  },
+  "ozon": {
+    "home": {
+      "http": 403,
+      "len": 8286,
+      "cookies": [
+        "__Secure-ETC",
+        "abt_data"
+      ],
+      "t": 1.0
+    },
+    "ssr": {
+      "http": 403,
+      "len": 8342,
+      "t": 0.1,
+      "body_200": "\n\n    \n\n<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minim"
+    },
+    "composer": {
+      "http": 403,
+      "len": 1081,
+      "t": 1.5
+    },
+    "entrypoint": {
+      "http": 403,
+      "len": 6087,
+      "t": 0.1
+    }
+  },
+  "avito": {
+    "home": {
+      "http": 429,
+      "len": 34116,
+      "cookies": [
+        "srv_id",
+        "_adcc",
+        "gMltIuegZN2COuSe",
+        "_avisc"
+      ],
+      "t": 1.0
+    },
+    "search": {
+      "http": 439,
+      "len": 14382,
+      "t": 0.2,
+      "blocked": true,
+      "captcha": false,
+      "antibot": false,
+      "scripts": []
+    },
+    "card": {
+      "http": 404,
+      "len": 29440,
+      "t": 0.1
+    }
+  },
+  "total_s": 17.9,
+  "time": "2026-11-12T19:11:05.628087+10:00"
+}

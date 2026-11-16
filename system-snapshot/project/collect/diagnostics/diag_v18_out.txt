@@ -1,0 +1,53 @@
+[OK] curl_cffi available
+
+======================================================================
+1. WILDBERRIES [0.2s] rem=90s
+======================================================================
+  [req main] 498 | 1136B | CT=text/html
+  [cffi main] 498 | 1136B | CT=text/html
+  [cffi card] 403 | 0B
+  [cffi search] 403 | 0B
+
+======================================================================
+2. FARPOST — challenge deep [4.3s] rem=86s
+======================================================================
+  [FP page] 200 | 198589B
+  Cookies: [REDACTED_AUTH_SECRET]
+  challengeurl: 
+  Inline challenge vars: 0
+  Widget content: 
+  [EP s://www.farpost.ru/altcha/challenge] 404 | 13896B
+  [EP www.farpost.ru/api/altcha/challenge] 404 | 13906B
+  [EP /moskva/l/telefony/altcha/challenge] 404 | 13948B
+
+======================================================================
+3. AVITO — quick PoW [7.3s] rem=83s
+======================================================================
+  [Avito] 439 | 14889B
+  Cookies: [REDACTED_AUTH_SECRET]
+  PoW: 158 chars → 118 bytes
+  First 16B: b13bcaa1dc54e8b02654e4b90021bae8
+  Complexity: 10
+  Nonce=487 (0.0s)
+  [Retry] 429 | 35048B
+  ⚠ Still 429
+
+======================================================================
+4. OZON — composer + cffi [10.8s] rem=79s
+======================================================================
+  [Main] 403 | 8465B | CK: ['__Secure-ETC', 'abt_data']
+  [Composer] 403 | 6825B
+  challengeURL: https://www.ozon.ru/challenge.html?challenge=qHBNDdfMyxmYWJfY2hsZ18yMDI2MTExMDEx
+  [Product] 403 | 8549B
+
+======================================================================
+SUMMARY [13.7s]
+======================================================================
+  wb_req_main: 498
+  wb_cffi_main: 498
+  wb_cffi_card: 403
+  wb_cffi_search: 403
+  ozon_composer: 403
+  ozon_product: 403
+
+DONE diag_v18 [13.7s]

@@ -1,0 +1,99 @@
+=== STDOUT (328 bytes) ===
+
+============================================================
+V73 WB+AVITO: PARTIAL
+  ✓ WB: OK prices=0 html=0B
+  ✗ AVITO: ERROR prices=0 src= html=0B
+  DB: {'product': 3, 'observation': 8, 'price_point': 6} → {'product': 3, 'observation': 9, 'price_point': 6}
+============================================================
+
+DONE
+
+=== STDERR (5099 bytes) ===
+2026-11-11 10:42:48,507 v73 INFO БД: r52.db, applied=[]
+2026-11-11 10:42:48,510 v73 INFO ДО: {'product': 3, 'observation': 8, 'price_point': 6}
+2026-11-11 10:42:48,510 v73 INFO === WB: HTML price extraction ===
+2026-11-11 10:42:48,706 v73 INFO WB HTML: curl_cffi fetch https://www.wildberries.ru/catalog/199298871/detail.aspx
+2026-11-11 10:42:49,486 v73 INFO WB HTML: HTTP 498, 1136 bytes
+2026-11-11 10:42:49,538 v73 INFO WB HTML: requests fetch
+2026-11-11 10:42:50,319 v73 INFO WB HTML: HTTP 498, 1136 bytes
+2026-11-11 10:42:50,319 v73 INFO WB HTML: 0 цен извлечено
+2026-11-11 10:42:50,330 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 10:42:50,330 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 10:42:50,335 v73 INFO WB: product=3 prices=0 avail=UNKNOWN
+2026-11-11 10:42:50,335 v73 INFO === AVITO: multi-strategy ===
+2026-11-11 10:42:50,335 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 10:42:50,336 v73 INFO AVITO S1: curl_cffi desktop
+2026-11-11 10:42:51,152 v73 INFO AVITO S1: HTTP 404, 29440 bytes
+2026-11-11 10:42:51,152 v73 INFO AVITO S2: curl_cffi mobile https://m.avito.ru/ad/8341658309
+2026-11-11 10:42:51,930 v73 INFO AVITO S2: HTTP 404, 18752 bytes
+2026-11-11 10:42:51,930 v73 INFO AVITO S3: requests desktop
+2026-11-11 10:42:53,321 v73 INFO AVITO S3: HTTP 404, 29440 bytes, final_url=https://www.avito.ru/ad/8341658309
+2026-11-11 10:42:53,321 v73 INFO AVITO S4: requests mobile
+2026-11-11 10:42:54,104 v73 INFO AVITO S4: HTTP 404, 18752 bytes
+2026-11-11 10:42:54,104 v73 ERROR AVITO FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v73_wb_avito.py", line 343, in <module>
+    raise RuntimeError(f"AVITO: все 4 стратегии не дали HTML. Последняя ошибка см. в логе")
+RuntimeError: AVITO: все 4 стратегии не дали HTML. Последняя ошибка см. в логе
+2026-11-11 10:42:54,132 v73 INFO === VERIFICATION ===
+2026-11-11 10:42:54,135 v73 INFO ПОСЛЕ: {'product': 3, 'observation': 9, 'price_point': 6}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: format argument 7: %d requires a real number, not str
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v73_wb_avito.py", line 435, in <module>
+    log.info("  P%d [%s] %s | %s | %s %s | obs=%d | %s",
+Message: '  P%d [%s] %s | %s | %s %s | obs=%d | %s'
+Arguments: (1, 'FARPOST', '130693618', 'Triangle IcelynX TI501, 205/55 R16 94T XL', 2440000, 'RUB', 'IN_STOCK', 3, '2026-11-11T00:39:00.246+00:00')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: format argument 7: %d requires a real number, not str
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v73_wb_avito.py", line 435, in <module>
+    log.info("  P%d [%s] %s | %s | %s %s | obs=%d | %s",
+Message: '  P%d [%s] %s | %s | %s %s | obs=%d | %s'
+Arguments: (2, 'OZON', '1600562267', 'Ткань для обивки мебели, Велюр с абстрактным принт', 229500, 'RUB', 'IN_STOCK', 3, '2026-11-11T00:39:00.972+00:00')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: format argument 7: %d requires a real number, not str
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v73_wb_avito.py", line 435, in <module>
+    log.info("  P%d [%s] %s | %s | %s %s | obs=%d | %s",
+Message: '  P%d [%s] %s | %s | %s %s | obs=%d | %s'
+Arguments: (3, 'WB', '199298871', 'Овсяный смарт коктейль для похудения без сахара', None, None, 'UNKNOWN', 3, '2026-11-11T00:42:50.330+00:00')
+
+=== EXIT: 0 | 5.9s ===

@@ -1,0 +1,837 @@
+{
+  "product_title_module": {
+    "icon": "https://ae-pic-a1.aliexpress-media.com/kf/S7da057dcd6e8423da216398874e6dcdbb.png",
+    "text": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT",
+    "titleMaxLine": "2"
+  },
+  "title": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT",
+  "title_full": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT",
+  "price_keys": [
+    "dailyPriceExplanationView",
+    "discountExt",
+    "isLot",
+    "priceLocalConfig",
+    "productId",
+    "region",
+    "reverseDiscountAndPrice",
+    "selectedSkuId",
+    "skuIdStrPriceInfoMap",
+    "skuPriceInfoMap",
+    "skuSecondPriceInfoMap",
+    "targetSkuPriceInfo"
+  ],
+  "price": {
+    "dailyPriceExplanationView": {
+      "content": "Il prezzo più basso degli ultimi 30 giorni per questo oggetto su AliExpress prima della riduzione, inclusi i prezzi promozionali.",
+      "originalPrice": "197,77€",
+      "text": "Prezzo più basso degli ultimi 30 giorni prima dello sconto",
+      "title": "30-day lowest price"
+    },
+    "discountExt": "{\"p0\":\"local_supply\",\"p1\":\"FR_CN_OVERSEAS_WH_STDEU\",\"p3\":12000061293263245}",
+    "isLot": false,
+    "priceLocalConfig": "{\"from\":{\"currencySymbol\":\"€\",\"currencySymbolAndPriceAddBlank\":false,\"currencySymbolPosition\":\"end\",\"decimalPointChar\":\",\",\"showDecimal\":true,\"thousandsChar\":\".\"},\"roundOffZero\":false,\"separatorStr\":\" - \",\"single\":{\"currencySymbol\":\"€\",\"currencySymbolAndPriceAddBlank\":false,\"currencySymbolPosition\":\"end\",\"decimalPointChar\":\",\",\"showDecimal\":true,\"thousandsChar\":\".\"},\"to\":{\"currencySymbol\":\"€\",\"currencySymbolAndPriceAddBlank\":false,\"currencySymbolPosition\":\"end\",\"decimalPointChar\":\",\",\"showDecimal\":true,\"thousandsChar\":\".\"},\"useful\":true,\"version\":\"v1\"}",
+    "productId": 1005013496905897,
+    "region": "IT",
+    "reverseDiscountAndPrice": false,
+    "selectedSkuId": 12000061293263245,
+    "skuIdStrPriceInfoMap": {
+      "12000061293263245": {
+        "monthlyLowestPrice": "197,77€",
+        "priceFontColor": "#FD384F",
+        "salePriceLocal": "148,65€|148|65",
+        "salePriceString": "148,65€",
+        "sellerByLot": false
+      },
+      "12000061293263244": {
+        "monthlyLowestPrice": "224,58€",
+        "priceFontColor": "#FD384F",
+        "salePriceLocal": "172,19€|172|19",
+        "salePriceString": "172,19€",
+        "sellerByLot": false
+      }
+    },
+    "skuPriceInfoMap": {
+      "12000061293263245": {
+        "monthlyLowestPrice": "197,77€",
+        "priceFontColor": "#FD384F",
+        "salePriceLocal": "148,65€|148|65",
+        "salePriceString": "148,65€",
+        "sellerByLot": false
+      },
+      "12000061293263244": {
+        "monthlyLowestPrice": "224,58€",
+        "priceFontColor": "#FD384F",
+        "salePriceLocal": "172,19€|172|19",
+        "salePriceString": "172,19€",
+        "sellerByLot": false
+      }
+    },
+    "skuSecondPriceInfoMap": {},
+    "targetSkuPriceInfo": {
+      "monthlyLowestPrice": "197,77€",
+      "priceFontColor": "#FD384F",
+      "salePriceLocal": "148,65€|148|65",
+      "salePriceString": "148,65€",
+      "sellerByLot": false
+    }
+  },
+  "price_extend": {
+    "buildText": "<span style=\\\"color: #979797;\\\">Prezzo IVA inclusa | Nessun costo di importazione</span>; <span style=\\\"color: #979797;\\\">Sconto extra del 1%</span>",
+    "priceExtendViews": [
+      {
+        "content": "Prezzo IVA inclusa | Nessun costo di importazione",
+        "type": "tax"
+      },
+      {
+        "content": "Sconto extra del 1%"
+      }
+    ],
+    "seperator": "; ",
+    "taxInfo": {
+      "content": "Prezzo IVA inclusa | Nessun costo di importazione"
+    }
+  },
+  "sku_keys": [
+    "extraInfo",
+    "hasSkuImage",
+    "hasSkuImagePropertyId",
+    "inSkuAboveBlacklist",
+    "selectedSkuAttr",
+    "selectedSkuId",
+    "selectedSkuIdStr",
+    "selectedSkuSaleable",
+    "skuImageSize",
+    "skuPaths",
+    "skuProperties",
+    "skuSupportClothes",
+    "stealthSelection",
+    "supportClothesSku"
+  ],
+  "sku_properties": [
+    {
+      "hasSkuImage": false,
+      "isShowTypeColor": false,
+      "showType": "none",
+      "showTypeColor": false,
+      "sizeInfo": {
+        "hasSizeInfo": false,
+        "icon": "https://ae-pic-a1.aliexpress-media.com/kf/Sbc534a10bc2044448f9aa271540236800/36x36.png",
+        "sizeInfoUrl": "https://www.aliexpress.com/p/secondaryPage/size-chart.html?_pid=1005013496905897&mid=6573388789&_locale=it_IT&version=2",
+        "title": "Tabella taglie"
+      },
+      "skuPropertyId": 200007763,
+      "skuPropertyName": "Spedizioni da",
+      "skuPropertyValues": [
+        {
+          "propertyValueDisplayName": "La Francia",
+          "propertyValueIdLong": 201336342,
+          "propertyValueName": "La Francia",
+          "showHot": false,
+          "skuPropertyImagePath": "",
+          "skuPropertyImageSummPath": "",
+          "skuPropertySendGoodsCountryCode": "FR"
+        }
+      ]
+    },
+    {
+      "hasSkuImage": true,
+      "isShowTypeColor": false,
+      "showType": "none",
+      "showTypeColor": false,
+      "skuPropertyId": 14,
+      "skuPropertyName": "Colore",
+      "skuPropertyValues": [
+        {
+          "propertyValueDefinitionName": "12.3  NTG5.0",
+          "propertyValueDisplayName": "12.3  NTG5.0",
+          "propertyValueIdLong": 29,
+          "propertyValueName": "BIANCO",
+          "showHot": false,
+          "skuColorValue": "#FFFFFF",
+          "skuPropertyImagePath": "https://ae-pic-a1.aliexpress-media.com/kf/S0a345acd1ae34d67afb5bf07d58ec18ak.jpg",
+          "skuPropertyImageSummPath": "https://ae-pic-a1.aliexpress-media.com/kf/S0a345acd1ae34d67afb5bf07d58ec18ak.jpg_120x120.jpg_.webp"
+        },
+        {
+          "propertyValueDefinitionName": "10.25  NTG5.0",
+          "propertyValueDisplayName": "10.25  NTG5.0",
+          "propertyValueIdLong": 193,
+          "propertyValueName": "nero",
+          "showHot": false,
+          "skuColorValue": "#000000",
+          "skuPropertyImagePath": "https://ae-pic-a1.aliexpress-media.com/kf/Se3453e41fcfd41deb99547215a79badbR.jpg",
+          "skuPropertyImageSummPath": "https://ae-pic-a1.aliexpress-media.com/kf/Se3453e41fcfd41deb99547215a79badbR.jpg_120x120.jpg_.webp"
+        }
+      ]
+    }
+  ],
+  "sku_paths_count": 2,
+  "sku_paths_sample": [
+    {
+      "path": "14:193;200007763:201336342",
+      "salable": true,
+      "skuAttr": "200007763:201336342;14:193#10.25  NTG5.0",
+      "skuId": 12000061293263245,
+      "skuIdStr": "12000061293263245",
+      "skuStock": 75
+    },
+    {
+      "path": "14:29;200007763:201336342",
+      "salable": true,
+      "skuAttr": "200007763:201336342;14:29#12.3  NTG5.0",
+      "skuId": 12000061293263244,
+      "skuIdStr": "12000061293263244",
+      "skuStock": 50
+    }
+  ],
+  "sku_selected": {
+    "id": 12000061293263245,
+    "idStr": "12000061293263245",
+    "saleable": true,
+    "attr": "200007763:201336342;14:193#10.25  NTG5.0"
+  },
+  "sku_has_image": true,
+  "shipping_keys": [
+    "bgColor",
+    "deliveryExt",
+    "deliveryLayoutInfo",
+    "hideDelivery",
+    "icon",
+    "originalLayoutResultList",
+    "selectedDeliveryOptionCode",
+    "styleCode",
+    "systemFeature",
+    "title"
+  ],
+  "shipping_delivery_layout": [
+    {
+      "additionLayout": [
+        {
+          "blockGroup": "others-0",
+          "blockType": "others",
+          "componentId": "132176",
+          "content": "Tracking disponibile",
+          "displayCondition": "tracking=visible",
+          "distance": 1,
+          "medusaKey": "[REDACTED_AUTH_SECRET]",
+          "order": 4,
+          "type": "textWithMark",
+          "useInDeliveryOptionPanel": true,
+          "useInDetailFirstScreen": false,
+          "useInSkuSwitch": false
+        }
+      ],
+      "bizData": {
+        "patternId": 2718001,
+        "discount": 100.0,
+        "tracking": "visible",
+        "workDayOneFourBeforeCutTime": "no",
+        "gtpProvider": "OPERATOR",
+        "displayTomorrow": "no",
+        "itemScene": "newGlobal",
+        "shipToCode": "IT",
+        "thresholdOverZero": "yes",
+        "shipFrom": "Francia",
+        "deliveryDayMax": 10,
+        "displayEtaMinDate": "17 nov",
+        "guaranteedDeliveryTime": 20,
+        "etaVersionDisplayType": "deliveryDateInterval",
+        "freightCommitDay": "20",
+        "etaTraceId": "5#10#OPERATOR#1794935123703#1795367123703#FR_CN_OVERSEAS_WH_STDEU#PAR100#FR#1794503123703#DOOR_DELIVERY#LOCAL_SERVICE_STORE_OWNED#NON#NON#IT#101#14707064#NON#",
+        "etaVersionStrategyId": 98,
+        "gtpEtaTraceId": "5#10#OPERATOR#1794935123703#1795367123703#FR_CN_OVERSEAS_WH_STDEU#PAR100#FR#1794503123703#DOOR_DELIVERY#LOCAL_SERVICE_STORE_OWNED#NON#NON#IT#101#14707064#NON#",
+        "workDayOneFiveBeforeCutTime": "no",
+        "itemId": 1005013496905897,
+        "solutionBusinessType": "local_supply",
+        "etaVersionSceneId": 273,
+        "shippingFee": "free",
+        "displayEtaMaxDate": "22 nov",
+        "deliveryDayMin": 5,
+        "warehouseType": "own_warehouse",
+        "solutionId": 2884001,
+        "deliveryOptionCode": "FR_CN_OVERSEAS_WH_STDEU",
+        "leadTimeSort": [
+          600,
+          9999
+        ],
+        "deliveryProviderName": "CAINIAO WAREHOUSE STANDARD SHIPPING",
+        "subWarehouseType": "AE_Local_Warehouse",
+        "utParams": "{\"buyerId\":0,\"categoryId\":200000302,\"cmd\":false,\"crowdTypes\":\"{\\\"eta_sensitive_tag\\\":\\\"-730838169\\\",\\\"shipping_cost_sensitive\\\":\\\"-1315857875\\\"}\",\"currency\":\"EUR\",\"deliveryDate\":\"2026-11-22\",\"deliveryDateMin\":\"2026-11-17\",\"deliveryDayMax\":10,\"deliveryDayMin\":5,\"fAmount\":0.0,\"fCurrency\":\"EUR\",\"gtpEtaTraceId\":\"5#10#OPERATOR#1794935123703#1795367123703#FR_CN_OVERSEAS_WH_STDEU#PAR100#FR#1794503123703#DOOR_DELIVERY#LOCAL_SERVICE_STORE_OWNED#NON#NON#IT#101#14707064#NON#\",\"itemId\":1005013496905897,\"preOrder\":false,\"productId\":1005013496905897,\"provider\":\"operator\",\"serviceName\":\"FR_CN_OVERSEAS_WH_STDEU\",\"shipFrom\":\"FR\",\"shipToCountry\":\"IT\",\"shippingFee\":\"0\",\"traceId\":\"210396b417945031235832688e0dc2\",\"trackingAvailable\":true,\"warehouseCode\":\"PAR100\"}",
+        "warehouseCode": "PAR100",
+        "existEtaMinTime": "yes",
+        "dayOfWeek": "domenica",
+        "provider": "operator",
+        "itemShipFromType": "same",
+        "identityType": "LOCAL_SERVICE_STORE_OWNED",
+        "currency": "EUR",
+        "company": "CAINIAO WAREHOUSE STANDARD SHIPPING",
+        "deliveryDate": "22 nov",
+        "quantity": 75,
+        "leadTimeType": "Overseas_tuoguan",
+        "showMoreCount": "1",
+        "existEtaMaxTime": "yes",
+        "solutionBusinessXDays": 0,
+        "guaranteedDeliveryTimeProviderName": "decision_committed_time",
+        "showXDayDeliveryTips": "yes",
+        "shipFromCode": "FR",
+        "deliveryProviderCode": "FR_CN_OVERSEAS_WH_STDEU",
+        "shipTo": "Italy"
+      },
+      "contentLayout": [
+        [
+          {
+            "blockGroup": "freight-1",
+            "blockType": "freight",
+            "componentId": "132148",
+            "content": "<span style=\"color: #191919;\"><strong>Consegna: nov 17 - 22</strong></span>",
+            "displayCondition": "default=visible",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 1,
+            "type": "htmlText",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": true,
+            "useInSkuSwitch": true
+          }
+        ],
+        [
+          {
+            "blockGroup": "freight-3",
+            "blockType": "freight",
+            "componentId": "132162",
+            "content": "<span style=\"color: #191919;\">Da </span> <span style=\"color: #191919;\"><strong>Francia</strong></span><span style=\"color: #191919;\"> a </span> <span style=\"color: #191919;\"><strong>Italy</strong></span><span style=\"color: #191919;\"> tramite CAINIAO WAREHOUSE STANDARD SHIPPING</span>",
+            "displayCondition": "default=visible",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 1,
+            "type": "htmlText",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": false,
+            "useInSkuSwitch": false
+          }
+        ]
+      ],
+      "deliveryOptionPanelDisplayList": [
+        "132167",
+        "132170",
+        "132171",
+        "132172",
+        "132148",
+        "132162",
+        "132176"
+      ],
+      "detailFirstScreenDisplayList": [
+        "132167",
+        "132170",
+        "132171",
+        "132172",
+        "132148"
+      ],
+      "finalPatternId": 2718001,
+      "skuSwitchDisplayList": [
+        "132167",
+        "132170",
+        "132171",
+        "132172",
+        "132148"
+      ],
+      "titleLayout": [
+        [
+          {
+            "blockGroup": "title-1",
+            "blockType": "title",
+            "componentId": "132167",
+            "content": "<span style=\"color: #191919;\"><strong>Spedizione gratuita</strong></span>",
+            "displayCondition": "shippingFee=free",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 1,
+            "type": "htmlText",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": true,
+            "useInSkuSwitch": true
+          },
+          {
+            "blockGroup": "title-1",
+            "blockType": "title",
+            "componentId": "132170",
+            "content": "·",
+            "displayCondition": "shipFromCode!=CN",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 4,
+            "type": "htmlText",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": true,
+            "useInSkuSwitch": true
+          },
+          {
+            "blockGroup": "title-1",
+            "blockType": "title",
+            "componentId": "132171",
+            "content": "<img src=https://img.alicdn.com/imgextra/i4/O1CN018qxzOx20sXfV6Cszu_!!6000000006905-2-tps-72-48.png width='18' height='12' >",
+            "displayCondition": "shipFromCode!=CN",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 5,
+            "type": "icon",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": true,
+            "useInSkuSwitch": true
+          },
+          {
+            "blockGroup": "title-1",
+            "blockType": "title",
+            "componentId": "132172",
+            "content": "<span style=\"color: #191919;\">Spedizione da Francia</span>",
+            "displayCondition": "shipFromCode!=CN",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 6,
+            "type": "htmlText",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": true,
+            "useInSkuSwitch": true
+          }
+        ]
+      ]
+    }
+  ],
+  "shipping_original": [
+    {
+      "additionLayout": [
+        {
+          "blockGroup": "others-0",
+          "blockType": "others",
+          "componentId": "132176",
+          "content": "Tracking disponibile",
+          "displayCondition": "tracking=visible",
+          "distance": 1,
+          "medusaKey": "[REDACTED_AUTH_SECRET]",
+          "order": 4,
+          "type": "textWithMark",
+          "useInDeliveryOptionPanel": true,
+          "useInDetailFirstScreen": false,
+          "useInSkuSwitch": false
+        }
+      ],
+      "bizData": {
+        "patternId": 2718001,
+        "discount": 100.0,
+        "tracking": "visible",
+        "workDayOneFourBeforeCutTime": "no",
+        "gtpProvider": "OPERATOR",
+        "displayTomorrow": "no",
+        "itemScene": "newGlobal",
+        "shipToCode": "IT",
+        "thresholdOverZero": "yes",
+        "shipFrom": "Francia",
+        "deliveryDayMax": 10,
+        "displayEtaMinDate": "17 nov",
+        "guaranteedDeliveryTime": 20,
+        "etaVersionDisplayType": "deliveryDateInterval",
+        "freightCommitDay": "20",
+        "etaTraceId": "5#10#OPERATOR#1794935123703#1795367123703#FR_CN_OVERSEAS_WH_STDEU#PAR100#FR#1794503123703#DOOR_DELIVERY#LOCAL_SERVICE_STORE_OWNED#NON#NON#IT#101#14707064#NON#",
+        "etaVersionStrategyId": 98,
+        "gtpEtaTraceId": "5#10#OPERATOR#1794935123703#1795367123703#FR_CN_OVERSEAS_WH_STDEU#PAR100#FR#1794503123703#DOOR_DELIVERY#LOCAL_SERVICE_STORE_OWNED#NON#NON#IT#101#14707064#NON#",
+        "workDayOneFiveBeforeCutTime": "no",
+        "itemId": 1005013496905897,
+        "solutionBusinessType": "local_supply",
+        "etaVersionSceneId": 273,
+        "shippingFee": "free",
+        "displayEtaMaxDate": "22 nov",
+        "deliveryDayMin": 5,
+        "warehouseType": "own_warehouse",
+        "solutionId": 2884001,
+        "deliveryOptionCode": "FR_CN_OVERSEAS_WH_STDEU",
+        "leadTimeSort": [
+          600,
+          9999
+        ],
+        "deliveryProviderName": "CAINIAO WAREHOUSE STANDARD SHIPPING",
+        "subWarehouseType": "AE_Local_Warehouse",
+        "utParams": "{\"buyerId\":0,\"categoryId\":200000302,\"cmd\":false,\"crowdTypes\":\"{\\\"eta_sensitive_tag\\\":\\\"-730838169\\\",\\\"shipping_cost_sensitive\\\":\\\"-1315857875\\\"}\",\"currency\":\"EUR\",\"deliveryDate\":\"2026-11-22\",\"deliveryDateMin\":\"2026-11-17\",\"deliveryDayMax\":10,\"deliveryDayMin\":5,\"fAmount\":0.0,\"fCurrency\":\"EUR\",\"gtpEtaTraceId\":\"5#10#OPERATOR#1794935123703#1795367123703#FR_CN_OVERSEAS_WH_STDEU#PAR100#FR#1794503123703#DOOR_DELIVERY#LOCAL_SERVICE_STORE_OWNED#NON#NON#IT#101#14707064#NON#\",\"itemId\":1005013496905897,\"preOrder\":false,\"productId\":1005013496905897,\"provider\":\"operator\",\"serviceName\":\"FR_CN_OVERSEAS_WH_STDEU\",\"shipFrom\":\"FR\",\"shipToCountry\":\"IT\",\"shippingFee\":\"0\",\"traceId\":\"210396b417945031235832688e0dc2\",\"trackingAvailable\":true,\"warehouseCode\":\"PAR100\"}",
+        "warehouseCode": "PAR100",
+        "existEtaMinTime": "yes",
+        "dayOfWeek": "domenica",
+        "provider": "operator",
+        "itemShipFromType": "same",
+        "identityType": "LOCAL_SERVICE_STORE_OWNED",
+        "currency": "EUR",
+        "company": "CAINIAO WAREHOUSE STANDARD SHIPPING",
+        "deliveryDate": "22 nov",
+        "quantity": 75,
+        "leadTimeType": "Overseas_tuoguan",
+        "showMoreCount": "1",
+        "existEtaMaxTime": "yes",
+        "solutionBusinessXDays": 0,
+        "guaranteedDeliveryTimeProviderName": "decision_committed_time",
+        "showXDayDeliveryTips": "yes",
+        "shipFromCode": "FR",
+        "deliveryProviderCode": "FR_CN_OVERSEAS_WH_STDEU",
+        "shipTo": "Italy"
+      },
+      "contentLayout": [
+        [
+          {
+            "blockGroup": "freight-1",
+            "blockType": "freight",
+            "componentId": "132148",
+            "content": "<span style=\"color: #191919;\"><strong>Consegna: nov 17 - 22</strong></span>",
+            "displayCondition": "default=visible",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 1,
+            "type": "htmlText",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": true,
+            "useInSkuSwitch": true
+          }
+        ],
+        [
+          {
+            "blockGroup": "freight-3",
+            "blockType": "freight",
+            "componentId": "132162",
+            "content": "<span style=\"color: #191919;\">Da </span> <span style=\"color: #191919;\"><strong>Francia</strong></span><span style=\"color: #191919;\"> a </span> <span style=\"color: #191919;\"><strong>Italy</strong></span><span style=\"color: #191919;\"> tramite CAINIAO WAREHOUSE STANDARD SHIPPING</span>",
+            "displayCondition": "default=visible",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 1,
+            "type": "htmlText",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": false,
+            "useInSkuSwitch": false
+          }
+        ]
+      ],
+      "deliveryOptionPanelDisplayList": [
+        "132167",
+        "132170",
+        "132171",
+        "132172",
+        "132148",
+        "132162",
+        "132176"
+      ],
+      "detailFirstScreenDisplayList": [
+        "132167",
+        "132170",
+        "132171",
+        "132172",
+        "132148"
+      ],
+      "finalPatternId": 2718001,
+      "skuSwitchDisplayList": [
+        "132167",
+        "132170",
+        "132171",
+        "132172",
+        "132148"
+      ],
+      "titleLayout": [
+        [
+          {
+            "blockGroup": "title-1",
+            "blockType": "title",
+            "componentId": "132167",
+            "content": "<span style=\"color: #191919;\"><strong>Spedizione gratuita</strong></span>",
+            "displayCondition": "shippingFee=free",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 1,
+            "type": "htmlText",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": true,
+            "useInSkuSwitch": true
+          },
+          {
+            "blockGroup": "title-1",
+            "blockType": "title",
+            "componentId": "132170",
+            "content": "·",
+            "displayCondition": "shipFromCode!=CN",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 4,
+            "type": "htmlText",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": true,
+            "useInSkuSwitch": true
+          },
+          {
+            "blockGroup": "title-1",
+            "blockType": "title",
+            "componentId": "132171",
+            "content": "<img src=https://img.alicdn.com/imgextra/i4/O1CN018qxzOx20sXfV6Cszu_!!6000000006905-2-tps-72-48.png width='18' height='12' >",
+            "displayCondition": "shipFromCode!=CN",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 5,
+            "type": "icon",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": true,
+            "useInSkuSwitch": true
+          },
+          {
+            "blockGroup": "title-1",
+            "blockType": "title",
+            "componentId": "132172",
+            "content": "<span style=\"color: #191919;\">Spedizione da Francia</span>",
+            "displayCondition": "shipFromCode!=CN",
+            "distance": 1,
+            "medusaKey": "[REDACTED_AUTH_SECRET]",
+            "order": 6,
+            "type": "htmlText",
+            "useInDeliveryOptionPanel": true,
+            "useInDetailFirstScreen": true,
+            "useInSkuSwitch": true
+          }
+        ]
+      ]
+    }
+  ],
+  "shipping_currency": "EUR",
+  "shipping_delivery_text": "",
+  "images_keys": [
+    "currentSkuImages",
+    "imagePathList",
+    "imgList",
+    "mainImages",
+    "pageBarShiftLeft",
+    "productVideo",
+    "showColorTab",
+    "showLongImage",
+    "skuImagesMap",
+    "summImagePathList"
+  ],
+  "images_path": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg"
+  ],
+  "images_img_list": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg_960x960.jpeg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg_960x960.jpg"
+  ],
+  "images_main": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg_960x960.jpeg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg_960x960.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg_960x960.jpg"
+  ],
+  "images_current_sku": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se3453e41fcfd41deb99547215a79badbR.jpg"
+  ],
+  "props_keys": [
+    "outerProps",
+    "propGroups",
+    "sexy",
+    "showOnAbove",
+    "showPropGroups",
+    "showPropOuter",
+    "showedProps",
+    "showedPropsMap"
+  ],
+  "props_count": 0,
+  "props_sample": [],
+  "rating": {
+    "aiSell": {
+      "actionTarget": "//it.aliexpress.com/store/1105523212",
+      "imageList": [
+        {
+          "round": true,
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S4e6b55822ed446e8b399f30595d367e2u.jpg"
+        }
+      ],
+      "rotationInterval": 3000,
+      "textFragments": [
+        "<span style=\"color:#AB6D49\">da</span>",
+        "<span style=\"color:#AB6D49\">MEKEDE Germany Choic...</span><span style=\"color:#AB6D49\"> (</span><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S35f2ad99631e44e2ab59c02e3078cc62n/60x60.png\" width=\"15\" height=\"15\"><strong>4.8</strong><span style=\"color:#AB6D49\"> | </span><span style=\"color:#AB6D49\">600+ venduti</span><span style=\"color:#AB6D49\"> )</span>"
+      ]
+    },
+    "otherText": "1 venduti",
+    "separator": "౹",
+    "totalValidNum": 0
+  },
+  "shop_keys": [
+    "benefitInfoList",
+    "fontColor",
+    "hasStoreFeedback",
+    "hideTrader",
+    "licenseInfo",
+    "logo",
+    "sellerInfo",
+    "sellerLevel",
+    "sellerPositiveNum",
+    "sellerPositiveRate",
+    "sellerScore",
+    "sellerTotalNum",
+    "showStoreInfo",
+    "storeAllProductPage",
+    "storeHeaderResult",
+    "storeHomePage",
+    "storeName",
+    "storeNameKey",
+    "storeStyle"
+  ],
+  "shop_name": "MEKEDE Germany Choice Store",
+  "shop_id": null,
+  "shop_rating": null,
+  "shop_followers": null,
+  "shop_url": "",
+  "quantity": {
+    "allSkuQuantityView": {
+      "12000061293263245": {
+        "currentCount": 1,
+        "hintText": "Max. 1 pz/acquirente a questo prezzo",
+        "maxBuyCount": 1
+      },
+      "12000061293263244": {
+        "currentCount": 1,
+        "hintText": "Max. 1 pz/acquirente a questo prezzo",
+        "maxBuyCount": 1
+      }
+    },
+    "currentSkuQuantityView": {
+      "currentCount": 1,
+      "hintText": "Max. 1 pz/acquirente a questo prezzo",
+      "maxBuyCount": 1
+    },
+    "title": "Q.tà",
+    "totalAvailableInventory": 125
+  },
+  "global_keys": [
+    "hitHideShipToExp",
+    "curPagePriceInfo",
+    "subject",
+    "pcFeature202507",
+    "wishlistParams",
+    "dp",
+    "localStr",
+    "scene",
+    "pdp2pdpParam",
+    "sellerId",
+    "minidetailFloating",
+    "siteType",
+    "msiteFeature202506",
+    "category2",
+    "traceId",
+    "category3",
+    "image",
+    "regionProvinceName",
+    "productId",
+    "pc30",
+    "af",
+    "categoryPath",
+    "category1",
+    "i18n",
+    "productInfo",
+    "relationProductId",
+    "eventInfo",
+    "regionCityName",
+    "crawler",
+    "offlineInfo",
+    "hideQA",
+    "buriedLogInfo",
+    "aff_platform",
+    "hideCartSideBar",
+    "toolCodes",
+    "callHouyiPop",
+    "reviewNewStyle",
+    "regionCountryName",
+    "productTagInfo",
+    "httpStatus"
+  ],
+  "global_product_id": "1005013496905897",
+  "global_currency": null,
+  "global_locale": null,
+  "global_country": null,
+  "global_price_info": {
+    "pageType": "C",
+    "promotionInfo": "{\"n_tag\":\"-29919\",\"d\":\"3777153b\",\"u\":\"0\",\"m03_new_user\":\"-29895\",\"disPrice\":\"148.65\"}"
+  },
+  "bottom_bar_keys": [
+    "bottomBarType",
+    "buttonMap",
+    "extraInfo",
+    "fastCheckout",
+    "hideAddCart",
+    "hideBuyNow",
+    "maxPurchaseNum",
+    "orderUrl",
+    "pdpBuyParams",
+    "pdpCartParams",
+    "shoppingCartUrl",
+    "showCoinPromotionMark"
+  ],
+  "interest_points": {
+    "atmosphereCode": "earlyBird",
+    "content": "<span style=\"color: #FD384F\">Novità：Offerta anticipata, solo 3 rimasti</span>",
+    "couponContent": "<span style=\"color: #FD384F\">Novità：Offerta anticipata, solo 3 rimasti</span>",
+    "couponEndColor": "#F5F5F5",
+    "couponIcon": "https://ae-pic-a1.aliexpress-media.com/kf/Seb04c5458a774d978ca2e59cfeca9f28H.png",
+    "couponStartColor": "#F5F5F5"
+  },
+  "coupon_keys": [
+    "arrowColor",
+    "discountPanelTitle",
+    "discountPanelUrl",
+    "endColor",
+    "hideCouponBlock",
+    "newCouponBlock",
+    "productId",
+    "startColor",
+    "textColor",
+    "upperCouponBlockViewList",
+    "webCouponBlockParam"
+  ],
+  "coupon": {
+    "arrowColor": "#D3031C",
+    "discountPanelTitle": "Codici sconto e coupon",
+    "discountPanelUrl": "https://www.aliexpress.com/p/pdp-marketing/index.html?_hideProgress=true&productId=1005013496905897&clientType=pc&sourceType=&channel=&discountExt=%7B%22p0%22%3A%22local_supply%22%2C%22p1%22%3A%22FR_CN_OVERSEAS_WH_STDEU%22%2C%22p3%22%3A12000061293263245%2C%22p5%22%3Afalse%7D",
+    "endColor": "#FFF5F5",
+    "hideCouponBlock": false,
+    "newCouponBlock": true,
+    "productId": 1005013496905897,
+    "startColor": "#FFE5E8",
+    "textColor": "#191919",
+    "upperCouponBlockViewList": [],
+    "webCouponBlockParam": {
+      "channel": "",
+      "clientType": "pc",
+      "cutFlow": "true",
+      "discountExt": "{\"p0\":\"local_supply\",\"p1\":\"FR_CN_OVERSEAS_WH_STDEU\",\"p3\":12000061293263245}",
+      "sourceType": "",
+      "targetPanel": "global"
+    }
+  },
+  "selling_points": {},
+  "installment": {
+    "actionTarget": "https://www.aliexpress.com/ssr/300000437/pWJJTzbMSb?disableNav=YES&pha_manifest=ssr&_immersiveMode=true&wh_ttid=adc&isSmbShow=false&skipPopHalfH5=yes&adc_popup_ratio=0.8&adc_popup=true",
+    "hide": false,
+    "icon": "https://ae-pic-a1.aliexpress-media.com/kf/Sb7f281b05a6d4139adafaba9df0e5fe14.png",
+    "newStyle": true,
+    "popTitle": "Spiegazione della rata",
+    "showH5": true,
+    "tailIconList": [
+      "https://ae-pic-a1.aliexpress-media.com/kf/S4f6eedd15a6b494faf2d566091941780M/216x144.png"
+    ],
+    "text": "Fino a 45 € di sconto con PayPal Pay Later. Si applicano Termini e Condizioni."
+  },
+  "_errors": []
+}

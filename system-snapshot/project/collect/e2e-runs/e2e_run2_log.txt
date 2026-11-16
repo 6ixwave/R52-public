@@ -1,0 +1,33 @@
+2026-11-12 14:03:09,897 E2E                INFO  E2E ALL  2026-11-12 14:03:09
+2026-11-12 14:03:09,898 E2E                INFO  DB path: C:\Users\aleks\AppData\Local\R52\data\r52.sqlite3 (exists=True)
+2026-11-12 14:03:10,258 E2E                INFO  App + Inbox ready (db=C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\e2e_test_home\data\r52.sqlite3)
+2026-11-12 14:03:10,260 E2E                INFO  BASELINE: prod=0 obs=0 pp=0
+2026-11-12 14:03:10,261 E2E                INFO    OZON       prod=0 obs=0 pp=0
+2026-11-12 14:03:10,261 E2E                INFO    WB         prod=0 obs=0 pp=0
+2026-11-12 14:03:10,261 E2E                INFO    FARPOST    prod=0 obs=0 pp=0
+2026-11-12 14:03:10,261 E2E                INFO    AVITO      prod=0 obs=0 pp=0
+2026-11-12 14:03:10,261 E2E                INFO  FARPOST: hardcoded listing 138952176
+2026-11-12 14:03:10,261 E2E                INFO  AVITO: hardcoded listing 1045231001
+2026-11-12 14:03:10,261 E2E                INFO  === OZON  listing=2067947177 ===
+2026-11-12 14:03:10,264 E2E                INFO    URL: https://www.ozon.ru/product/2067947177/
+2026-11-12 14:04:59,800 E2E                WARNING   collector returned None in 109.5s
+2026-11-12 14:04:59,883 E2E                INFO  === WB  listing=1097975275 ===
+2026-11-12 14:04:59,886 E2E                INFO    URL: https://www.wildberries.ru/catalog/1097975275/detail.aspx
+2026-11-12 14:07:41,035 E2E                INFO    collector OK  161.1s  status=PARTIAL_SUCCESS  prices=0
+2026-11-12 14:07:41,035 E2E                INFO    payload 5759 bytes
+2026-11-12 14:07:41,043 E2E                INFO    stage_bytes -> id=1 created=True status=PENDING err=None
+2026-11-12 14:07:41,048 E2E                INFO    accept      -> product_id=1 obs_created=True events=0
+2026-11-12 14:07:41,551 E2E                INFO    DELTA  +prod=1  +obs=1  +pp=0
+2026-11-12 14:07:41,553 E2E                INFO    => PARTIAL (no new pp, dedup?)
+2026-11-12 14:07:41,553 E2E                INFO  === FARPOST  listing=138952176 ===
+2026-11-12 14:07:41,556 E2E                INFO    URL: https://www.farpost.ru/vladivostok/138952176.html
+2026-11-12 14:07:44,198 E2E                INFO    collector OK  2.6s  status=PARTIAL_SUCCESS  prices=1
+2026-11-12 14:07:44,198 E2E                INFO      regular  11850000 RUB  'data-bulletin-price'
+2026-11-12 14:07:44,198 E2E                INFO    payload 3653 bytes
+2026-11-12 14:07:44,204 E2E                INFO    stage_bytes -> id=2 created=True status=PENDING err=None
+2026-11-12 14:07:44,211 E2E                INFO    accept      -> product_id=2 obs_created=True events=0
+2026-11-12 14:07:44,715 E2E                INFO    DELTA  +prod=1  +obs=1  +pp=1
+2026-11-12 14:07:44,716 E2E                INFO      pp#1  regular  11850000 RUB  'data-bulletin-price'
+2026-11-12 14:07:44,717 E2E                INFO    => PASS
+2026-11-12 14:07:44,718 E2E                INFO  === AVITO  listing=1045231001 ===
+2026-11-12 14:07:44,720 E2E                INFO    URL: https://www.avito.ru/ad/1045231001

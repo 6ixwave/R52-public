@@ -1,0 +1,23 @@
+{
+  "gate": "NOT READY",
+  "tests": 142,
+  "subtests": 71,
+  "exit_code": 0,
+  "javascript_check_exit": 0,
+  "collector_files_unchanged": 14,
+  "live_marketplace_requests": 0,
+  "paid_ai_calls": 0,
+  "new_live_products": 0,
+  "sha256": {
+    "r52/core/autocollect.py": "56ad5026939a7b59b14413430be39fe8a4bacbf59fb0dcd13f8a2bc6cbf3ec43",
+    "r52/core/handlers.py": "9bdcff6c0f6a6e207c58420ed451ac6b5fd3fc4d0d64b8c0e6799639c707657a",
+    "r52/api/autocollect.py": "2a767b8544addae4bb05fb61ed0e3cbdc7f10ac2800febaa25034043b425c089",
+    "r52/web/js/views/autocollect.js": "b9d586a9fc1d35143cee680629500c3edee50cc6011d3ff79557ab2401858905",
+    "tests/test_autocollect.py": "eba1d12a8e4ef425cf80e3ecf7c5adba2e8a7ab4ce35b7712ffc66dc7bd0437e",
+    "tests/test_autocollect_integration.py": "fc4d7c8468dd7f1d11e7ac1b87efcf33baf264f8f9921cfea19597f11518e6c2",
+    "README.md": "95979cd643e9a437b403d7cbac88d793f586210c2743534d2bb2392c256e6c3b",
+    "docs/autocollect/INTEGRATION-RU.md": "aaa2ffd4f1f9e524a68479adc4778b3edf062a28ed51179af6c826ec9b64e7c0",
+    "docs/autocollect/NEXT-MODEL-PROMPT-RU.md": "a3274e79887751bb4960c8e536ef16bdb5f0cd4e13f3f14324deeddd69593e58",
+    "docs/autocollect/PROXY-AND-DIAGNOSTICS-RU.md": "5b2bad2890b88a33f368dc66f8a8c080633b6dddc70a50ec960a351b7ec45789"
+  }
+}

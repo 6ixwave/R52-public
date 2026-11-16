@@ -1,0 +1,20 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 02:35:06,005 r52.autocollect.worker INFO phase=worker_start pid=25728
+2026-11-15 02:35:06,021 r52.autocollect.worker INFO source=AVITO mode=discover phase=initialize
+2026-11-15 02:35:06,021 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 02:35:06,021 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-15 02:35:06,021 r52.autocollect.worker INFO source=AVITO proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-15 02:35:06,022 r52.autocollect.worker INFO source=AVITO phase=search_start page=1 limit=5
+2026-11-15 02:35:07,021 r52.collectors.avito INFO AVITO warmup m.avito.ru: HTTP 439
+2026-11-15 02:35:08,120 r52.collectors.avito INFO AVITO warmup www.avito.ru: HTTP 439
+2026-11-15 02:35:08,121 r52.collectors.avito INFO AVITO warmup: HTTP 439
+2026-11-15 02:35:23,715 r52.collectors.avito INFO AVITO search: 0 cards via data-item-id
+2026-11-15 02:35:23,716 r52.collectors.avito INFO AVITO search: fallback to href pattern, 3 cards
+2026-11-15 02:35:23,718 r52.collectors.avito INFO AVITO: collect_by_search 'ноутбуки' → 3 products
+2026-11-15 02:35:23,718 r52.autocollect.worker INFO source=AVITO phase=write_start returned=3 valid=3 stats={'requests': 4, 'success': 1, 'failed': 0, 'blocked': 0}
+2026-11-15 02:35:23,719 r52.collectors INFO AVITO: записан jarvis-eye-avito-0335f02e.json
+2026-11-15 02:35:23,720 r52.collectors INFO AVITO: записан jarvis-eye-avito-af26036a.json
+2026-11-15 02:35:23,720 r52.collectors INFO AVITO: записан jarvis-eye-avito-5355a9ee.json
+2026-11-15 02:35:23,721 r52.autocollect.worker INFO source=AVITO phase=write_complete files=3
+2026-11-15 02:35:23,721 r52.autocollect.worker INFO source=AVITO phase=close_start
+2026-11-15 02:35:23,721 r52.autocollect.worker INFO source=AVITO phase=close_complete

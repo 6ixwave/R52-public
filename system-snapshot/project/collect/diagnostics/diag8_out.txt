@@ -1,0 +1,94 @@
+﻿python : 2026-11-12 06:42:33,492 diag8 INFO === DIAG8 START 2026-11-12T06:42:33.492136+10:00 ===
+строка:1 знак:67
++ ... f-8'; $ErrorActionPreference='Continue'; python diag8.py 2>&1 | Out-F ...
++                                              ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 06:4...92136+10:00 ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 06:42:34,556 diag8 INFO AVITO S1: telefony -> HTTP 404, 29440 bytes
+2026-11-12 06:42:34,677 diag8 INFO WB S1: data field = {"subject_id": 3538, "subject_root_id": 8614, "chrt_ids": [15768
+7389], "tech_size": "0"}
+2026-11-12 06:42:34,677 diag8 INFO WB S1: no_return_map=4351 (=43.51 руб)
+2026-11-12 06:42:34,677 diag8 INFO WB S1: media=0 items
+2026-11-12 06:42:35,335 diag8 INFO OZON S1:  -> HTTP 403, 6011 bytes
+2026-11-12 06:42:35,455 diag8 INFO AVITO S1: telefony -> HTTP 404, 29440 bytes
+2026-11-12 06:42:35,466 diag8 INFO WB S2: full info path -> HTTP 404, 196 bytes
+2026-11-12 06:42:36,378 diag8 INFO AVITO S1: vse-obyavleniya?s=1&q=iphone+1 -> HTTP 404, 29440 bytes
+2026-11-12 06:42:36,749 diag8 INFO OZON S1: 2795954097 -> HTTP 403, 5987 bytes
+2026-11-12 06:42:37,280 diag8 INFO AVITO S1: iphone-15 -> HTTP 404, 29440 bytes
+2026-11-12 06:42:38,145 diag8 INFO OZON S1:  -> HTTP 403, 6099 bytes
+2026-11-12 06:42:38,173 diag8 INFO AVITO S2: ID 1000000001 -> HTTP 404, 29440 bytes
+2026-11-12 06:42:39,080 diag8 INFO AVITO S2: ID 500000001 -> HTTP 404, 29440 bytes
+2026-11-12 06:42:39,540 diag8 INFO OZON S2: product 1000000001 -> HTTP 403, 8410 bytes
+2026-11-12 06:42:39,980 diag8 INFO AVITO S2: ID 700000001 -> HTTP 404, 29440 bytes
+2026-11-12 06:42:40,207 diag8 INFO OZON S3: PW stealth -> homepage...
+2026-11-12 06:42:40,871 diag8 INFO AVITO S2: ID 800000001 -> HTTP 404, 29440 bytes
+2026-11-12 06:42:41,761 diag8 INFO AVITO S3: API -> HTTP 404, 555 bytes
+2026-11-12 06:42:44,578 diag8 INFO WB S3: nm=150000001 host=basket-10.wbbasket.ru sizes=0 selling_keys=['brand_name', '
+brand_hash', 'supplier_id']
+2026-11-12 06:42:44,697 diag8 INFO OZON S3: homepage status=403
+2026-11-12 06:42:44,705 diag8 INFO OZON S3: cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 06:42:44,705 diag8 INFO OZON S3: PW stealth -> product...
+2026-11-12 06:42:48,069 diag8 INFO OZON S3: product status=403 len=3306
+2026-11-12 06:42:48,179 diag8 INFO === DIAG8 DONE in 14.7s ===
+{
+  "AVITO": {
+    "s3_api": {
+      "status": 404
+    }
+  },
+  "WB": {
+    "s1_nrm": {
+      "value": 4351,
+      "rub": 43.51,
+      "data_keys": [
+        "subject_id",
+        "subject_root_id",
+        "chrt_ids",
+        "tech_size"
+      ]
+    },
+    "s2_full": {
+      "status": 404
+    },
+    "s3_other": {
+      "nm_id": 150000001,
+      "host": "basket-10.wbbasket.ru",
+      "sizes": 0,
+      "selling_keys": [
+        "brand_name",
+        "brand_hash",
+        "supplier_id"
+      ],
+      "size0_price": null,
+      "name": "Шапка для бани и сауны"
+    }
+  },
+  "OZON": {
+    "s1_": {
+      "status": 403,
+      "len": 6099,
+      "snippet": "\n\n{\"incidentId\": \"fab_chlg_20261111204238_01M765JAZAGESR7MW7SJ39YNV9\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=0NuNDdfMSxmYWJfY2"
+    },
+    "s1_2795954097": {
+      "status": 403,
+      "len": 5987,
+      "snippet": "\n\n{\"incidentId\": \"fab_chlg_20261111204237_01M765J9KMB3T2Q0NX849Z06QB\", \"challengeURL\": \"https://api.ozon.ru/challenge.html?challenge=51XNDdfMSxmYWJfY2"
+    },
+    "s2_other_id": {
+      "id": "1000000001",
+      "status": 403,
+      "len": 8410,
+      "fab": true,
+      "title": null
+    },
+    "s3_pw_stealth": {
+      "status": 403,
+      "len": 3306,
+      "fab": true,
+      "title": null,
+      "cookies": 3
+    }
+  }
+}
+DIAG8_DONE total=15s

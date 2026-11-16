@@ -1,0 +1,131 @@
+{
+  "WB": [
+    {
+      "target": "main",
+      "method": "curl",
+      "status": -1
+    },
+    {
+      "id": "199298871",
+      "method": "card_curl",
+      "status": -1
+    },
+    {
+      "id": "314337853",
+      "method": "card_curl",
+      "status": -1
+    },
+    {
+      "id": "199298871",
+      "method": "content_wbx-content-v2.wbstatic.net",
+      "status": 0
+    },
+    {
+      "id": "199298871",
+      "method": "content_wbx-content-v1.wbstatic.net",
+      "status": 0
+    },
+    {
+      "id": "199298871",
+      "method": "content_wbx-content.wbstatic.net",
+      "status": 0
+    },
+    {
+      "id": "314337853",
+      "method": "content_wbx-content-v2.wbstatic.net",
+      "status": 0
+    },
+    {
+      "id": "314337853",
+      "method": "content_wbx-content-v1.wbstatic.net",
+      "status": 0
+    },
+    {
+      "id": "314337853",
+      "method": "content_wbx-content.wbstatic.net",
+      "status": 0
+    },
+    {
+      "id": "199298871",
+      "method": "mobile_ua",
+      "status": -1
+    },
+    {
+      "id": "314337853",
+      "method": "mobile_ua",
+      "status": -1
+    },
+    {
+      "target": "supersale.wildberries.ru",
+      "method": "curl",
+      "status": 0
+    },
+    {
+      "target": "promo.wildberries.ru",
+      "method": "curl",
+      "status": 0
+    },
+    {
+      "target": "api.wildberries.ru",
+      "method": "curl",
+      "status": 0
+    }
+  ],
+  "OZON": [
+    {
+      "target": "main",
+      "status": 403
+    },
+    {
+      "id": "3349505344",
+      "method": "html",
+      "status": 403
+    },
+    {
+      "id": "2718589061",
+      "method": "html",
+      "status": 403
+    },
+    {
+      "id": "3349505344",
+      "method": "composer_api",
+      "status": "Failed to perform, curl: (60) SSL certificate Open"
+    },
+    {
+      "id": "2718589061",
+      "method": "composer_api",
+      "status": "Failed to perform, curl: (60) SSL certificate Open"
+    },
+    {
+      "id": "3349505344",
+      "method": "mobile",
+      "status": 403
+    }
+  ],
+  "AVITO": [
+    {
+      "target": "main",
+      "status": 439
+    },
+    {
+      "id": "7345810001",
+      "method": "html",
+      "status": 439
+    },
+    {
+      "id": "7201234567",
+      "method": "html",
+      "status": 439
+    },
+    {
+      "id": "7345810001",
+      "method": "api",
+      "status": 404
+    },
+    {
+      "id": "7345810001",
+      "method": "mobile",
+      "status": 439
+    }
+  ]
+}

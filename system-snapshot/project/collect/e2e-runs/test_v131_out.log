@@ -1,0 +1,100 @@
+02:10:00 [v131] INFO: v131 started, budget=115s
+02:10:00 [v131] INFO: ============================================================
+02:10:00 [v131] INFO: WB PRICE: minimal headers, alt dest, mobile, basket
+02:10:00 [v131] INFO: ============================================================
+02:10:00 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+02:10:00 [r52.collectors.wb] INFO: WB: curl_cffi доступен (impersonate=chrome)
+02:10:00 [v131] INFO: 
+  --- card_v1_d-1257786 ---
+02:10:01 [v131] INFO:   HTTP 403, 0B
+02:10:01 [v131] INFO: 
+  --- card_v1_d1 ---
+02:10:04 [v131] INFO:   HTTP 403, 0B
+02:10:04 [v131] INFO: 
+  --- card_v1_d-1 ---
+02:10:07 [v131] INFO:   HTTP 403, 0B
+02:10:07 [v131] INFO: 
+  --- card_v1_d25 ---
+02:10:09 [v131] INFO:   HTTP 403, 0B
+02:10:09 [v131] INFO: 
+  --- card_v1_d77 ---
+02:10:12 [v131] INFO:   HTTP 403, 0B
+02:10:12 [v131] INFO: 
+  --- card_v1_mobile ---
+02:10:14 [v131] INFO:   HTTP 403, 0B
+02:10:14 [v131] INFO: 
+  --- catalog_min ---
+02:10:16 [v131] INFO:   HTTP 403, 0B
+02:10:16 [v131] INFO: 
+  --- catalog_v1 ---
+02:10:20 [v131] INFO:   HTTP 403, 0B
+02:10:20 [v131] INFO: 
+  --- web_v1 ---
+02:10:22 [v131] INFO:   HTTP 498, 0B
+02:10:22 [v131] INFO: 
+  --- web_v2 ---
+02:10:25 [v131] INFO:   HTTP 498, 0B
+02:10:25 [v131] INFO: 
+  --- basket_price ---
+02:10:28 [v131] INFO:   HTTP 404, 0B
+02:10:28 [v131] INFO: 
+  --- basket_cards ---
+02:10:31 [v131] INFO:   HTTP 404, 0B
+02:10:31 [v131] INFO: 
+  --- card_v1_std ---
+02:10:34 [v131] INFO:   HTTP 403, 0B
+02:10:34 [v131] INFO: 
+  === PRICE SUMMARY ===
+02:10:34 [v131] INFO:   card_v1_d-1257786  -> 403
+02:10:34 [v131] INFO:   card_v1_d1         -> 403
+02:10:34 [v131] INFO:   card_v1_d-1        -> 403
+02:10:34 [v131] INFO:   card_v1_d25        -> 403
+02:10:34 [v131] INFO:   card_v1_d77        -> 403
+02:10:34 [v131] INFO:   card_v1_mobile     -> 403
+02:10:34 [v131] INFO:   catalog_min        -> 403
+02:10:34 [v131] INFO:   catalog_v1         -> 403
+02:10:34 [v131] INFO:   web_v1             -> 498
+02:10:34 [v131] INFO:   web_v2             -> 498
+02:10:34 [v131] INFO:   basket_price       -> 404
+02:10:34 [v131] INFO:   basket_cards       -> 404
+02:10:34 [v131] INFO:   card_v1_std        -> 403
+02:10:34 [v131] INFO: 
+============================================================
+02:10:34 [v131] INFO: WB MEDIA: imt_id, colors, alt CDN paths
+02:10:34 [v131] INFO: ============================================================
+02:10:34 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+02:10:34 [r52.collectors.wb] INFO: WB: curl_cffi доступен (impersonate=chrome)
+02:10:35 [v131] INFO:   card: imt_id=158033827 colors=[173121919, 173036660, 199298871, 199298870, 308060721, 308060716, 201304460] full_colors=[173121919, 173036660, 199298871, 199298870, 308060721, 308060716, 201304460]
+02:10:38 [v131] INFO:   [ 0] HTTP 404       0B et.ru/vol1992/part199298/199298871/images/S800/158033827.jpg
+02:10:41 [v131] INFO:   [ 1] HTTP 404       0B .ru/vol1992/part199298/199298871/images/S800/158033827/1.jpg
+02:10:44 [v131] INFO:   [ 2] HTTP 404       0B .ru/vol1992/part199298/199298871/images/S800/173121919/1.jpg
+02:10:48 [v131] INFO:   [ 3] HTTP 404       0B 992/part199298/199298871/images/S800/173121919/173121919.jpg
+02:10:51 [v131] INFO:   [ 4] HTTP 404       0B 3.wbbasket.ru/vol1992/part199298/199298871/images/S800/0.jpg
+02:10:53 [v131] INFO:   [ 5] HTTP 404       0B .wbbasket.ru/vol1992/part199298/199298871/images/S800/00.jpg
+02:10:57 [v131] INFO:   [ 6] HTTP 404       0B et.ru/vol1992/part199298/199298871/images/S200/199298871.jpg
+02:11:01 [v131] INFO:   [ 7] HTTP 404       0B et.ru/vol1992/part199298/199298871/images/S100/199298871.jpg
+02:11:03 [v131] INFO:   [ 8] HTTP 404       0B asket.ru/vol1992/part199298/199298871/img/S800/199298871.jpg
+02:11:05 [v131] INFO:   [ 9] HTTP 404       0B 3.wbbasket.ru/vol1992/part199298/199298871/img/199298871.jpg
+02:11:08 [v131] INFO:   [10] HTTP 404       0B ket.ru/vol1992/part199298/199298871/media/S800/199298871.jpg
+02:11:10 [v131] INFO:   [11] HTTP 404       0B t-13.wbbasket.ru/vol1992/199298871/images/S800/199298871.jpg
+02:11:14 [v131] INFO:   [12] HTTP 404       0B ://basket-13.wbbasket.ru/199298871/images/S800/199298871.jpg
+02:11:14 [v131] INFO:   MEDIA FOUND: 0
+02:11:14 [v131] INFO: 
+============================================================
+02:11:14 [v131] INFO: v131 DONE in 74.5s
+02:11:14 [v131] INFO: PRICE: 13 endpoints tested
+02:11:14 [v131] INFO:   card_v1_d-1257786  -> 403 
+02:11:14 [v131] INFO:   card_v1_d1         -> 403 
+02:11:14 [v131] INFO:   card_v1_d-1        -> 403 
+02:11:14 [v131] INFO:   card_v1_d25        -> 403 
+02:11:14 [v131] INFO:   card_v1_d77        -> 403 
+02:11:14 [v131] INFO:   card_v1_mobile     -> 403 
+02:11:14 [v131] INFO:   catalog_min        -> 403 
+02:11:14 [v131] INFO:   catalog_v1         -> 403 
+02:11:14 [v131] INFO:   web_v1             -> 498 
+02:11:14 [v131] INFO:   web_v2             -> 498 
+02:11:14 [v131] INFO:   basket_price       -> 404 
+02:11:14 [v131] INFO:   basket_cards       -> 404 
+02:11:14 [v131] INFO:   card_v1_std        -> 403 
+02:11:14 [v131] INFO: MEDIA: 0 found
+02:11:14 [v131] INFO: ============================================================

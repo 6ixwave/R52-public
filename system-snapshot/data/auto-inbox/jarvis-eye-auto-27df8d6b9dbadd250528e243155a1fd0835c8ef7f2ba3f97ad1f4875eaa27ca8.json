@@ -1,0 +1,224 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Apple MacBook Pro 13 TouchBar 2018 16 Гб / 250 SSD A1989",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Ноутбуки. Цена: 30 000&#8381;. Apple MacBook Pro 13 2018 MR9R2. Ноутбук. Игровой. 13.3&quot;. 250 Гб. 16 Гб. 2,3 ГГц. WiFi: 1. Bluetooth: 1. Б/у. В наличии. Комплект только Макбук. Заряжался все время от монитора подключенного к Мак. 272 циклов заряда (состояние аккумулятора &quot;обычный&quot;) Полностью работоспособный. Есть внешние замечания на резинке около камеры (цепляли ногтями при открытии крышки), на работоспособность или функциональность не влияет (чисто эстетически). Постарался отобразить на фото. Дисплей в иде... Владивосток",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Техника > Компьютерная техника и периферия > Ноутбуки > Ноутбуки Apple MacBook Pro 13 2018",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Apple",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          },
+          "noteType": {
+            "label": "Тип",
+            "value": "Ноутбук"
+          },
+          "noteFeature": {
+            "label": "Особенности",
+            "value": "Игровой"
+          },
+          "memSize": {
+            "label": "Оперативная память",
+            "value": "16 Гб"
+          },
+          "screenSize": {
+            "label": "Диагональ",
+            "value": "13.3&nbsp;дюймов (34&nbsp;см)"
+          },
+          "cpuFreq": {
+            "label": "Частота процессора",
+            "value": "2,3&nbsp;ГГц"
+          },
+          "hddSize": {
+            "label": "Объём жесткого диска",
+            "value": "250&nbsp;Гб"
+          },
+          "model": {
+            "label": "Модель ноутбука",
+            "value": "Apple MacBook Pro 13 2018 MR9R2"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Б/у"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "138919104",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 3000000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "30000.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793413588681_bulletin",
+          "image_data": null,
+          "alt": "Apple MacBook Pro 13 2018 MR9R2. 13.3&quot;, 2,3 ГГц, ОЗУ 16 Гб, диск 250 Гб, WiFi: 1, Bluetooth: 1 фото",
+          "label": "",
+          "is_main": true,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793413586786_bulletin",
+          "image_data": null,
+          "alt": "Apple MacBook Pro 13 2018 MR9R2. 13.3&quot;, 2,3 ГГц, ОЗУ 16 Гб, диск 250 Гб, WiFi: 1, Bluetooth: 1 фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793413586352_bulletin",
+          "image_data": null,
+          "alt": "Apple MacBook Pro 13 2018 MR9R2. 13.3&quot;, 2,3 ГГц, ОЗУ 16 Гб, диск 250 Гб, WiFi: 1, Bluetooth: 1 фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793413585931_bulletin",
+          "image_data": null,
+          "alt": "Apple MacBook Pro 13 2018 MR9R2. 13.3&quot;, 2,3 ГГц, ОЗУ 16 Гб, диск 250 Гб, WiFi: 1, Bluetooth: 1 фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793413970303_bulletin",
+          "image_data": null,
+          "alt": "Apple MacBook Pro 13 2018 MR9R2. 13.3&quot;, 2,3 ГГц, ОЗУ 16 Гб, диск 250 Гб, WiFi: 1, Bluetooth: 1 фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793413584878_bulletin",
+          "image_data": null,
+          "alt": "Apple MacBook Pro 13 2018 MR9R2. 13.3&quot;, 2,3 ГГц, ОЗУ 16 Гб, диск 250 Гб, WiFi: 1, Bluetooth: 1 фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793413587230_bulletin",
+          "image_data": null,
+          "alt": "Apple MacBook Pro 13 2018 MR9R2. 13.3&quot;, 2,3 ГГц, ОЗУ 16 Гб, диск 250 Гб, WiFi: 1, Bluetooth: 1 фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793413587726_bulletin",
+          "image_data": null,
+          "alt": "Apple MacBook Pro 13 2018 MR9R2. 13.3&quot;, 2,3 ГГц, ОЗУ 16 Гб, диск 250 Гб, WiFi: 1, Bluetooth: 1 фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1793413588274_bulletin",
+          "image_data": null,
+          "alt": "Apple MacBook Pro 13 2018 MR9R2. 13.3&quot;, 2,3 ГГц, ОЗУ 16 Гб, диск 250 Гб, WiFi: 1, Bluetooth: 1 фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Техника > Компьютерная техника и периферия > Ноутбуки > Ноутбуки Apple MacBook Pro 13 2018",
+    "source": "FARPOST",
+    "id": "138919104",
+    "url": "https://www.farpost.ru/vladivostok/138919104.html",
+    "observed_at": "2026-11-15T02:22:44.454285+10:00",
+    "status": "FULL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

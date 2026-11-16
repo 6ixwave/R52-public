@@ -1,0 +1,59 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 05:18:39,514 r52.autocollect.worker INFO phase=worker_start pid=11588
+2026-11-16 05:18:39,536 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-16 05:18:39,536 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 05:18:39,538 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-16 05:18:39,539 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 05:18:39,542 r52.autocollect.worker INFO source=WB listing=1046149972 phase=collect_product_start
+2026-11-16 05:18:40,465 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-16 05:18:42,816 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-16 05:18:58,873 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=1240
+2026-11-16 05:18:59,992 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=199
+2026-11-16 05:19:02,231 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=119
+2026-11-16 05:19:02,232 r52.collectors.wb INFO WB 1046149972: HTTP API partial/blocked (card=False, price=False), switching to Playwright
+2026-11-16 05:19:03,891 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-16 05:19:03,891 r52.collectors.wb INFO WB 1046149972: starting Playwright fallback
+2026-11-16 05:19:14,821 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 127 bodies, best 1781803B from https://static-basket-01.wbbasket.ru/vol2/site/app/c/mo-ui.84fe2be63e02dc4c.js
+2026-11-16 05:19:15,372 r52.collectors.wb INFO WB 1046149972: XHR partial or empty, fetching DOM
+2026-11-16 05:19:22,648 r52.collectors.pw_fetch INFO PwFetcher: https://www.wildberries.ru/catalog/1046149972/detail.aspx -> 200 (2085108B, 7.3s)
+2026-11-16 05:19:23,293 r52.autocollect.worker INFO source=WB listing=1046149972 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 05:19:23,293 r52.autocollect.worker INFO source=WB listing=278827800 phase=collect_product_start
+2026-11-16 05:19:26,526 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True http=200 bytes=3895 ms=1173
+2026-11-16 05:19:28,155 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=122
+2026-11-16 05:19:33,071 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=1085
+2026-11-16 05:19:36,659 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=765
+2026-11-16 05:19:36,659 r52.collectors.wb INFO WB 278827800: HTTP API partial/blocked (card=True, price=False), switching to Playwright
+2026-11-16 05:19:36,659 r52.collectors.wb INFO WB 278827800: starting Playwright fallback
+Timeout (0:01:00)!
+Thread 0x000037d4 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00006a7c (most recent call first):
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 771 in _poll
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 445 in select
+  File "C:\Python315\Lib\asyncio\base_events.py", line 2032 in _run_once
+  File "C:\Python315\Lib\asyncio\base_events.py", line 682 in run_forever
+  File "C:\Python315\Lib\asyncio\base_events.py", line 711 in run_until_complete
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\sync_api\_context_manager.py", line 60 in greenlet_main
+2026-11-16 05:19:46,088 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 233 bodies, best 1859B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 05:19:54,968 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=115
+2026-11-16 05:19:54,968 r52.autocollect.worker INFO source=WB listing=278827800 phase=collect_product_return status=SUCCESS
+2026-11-16 05:19:54,968 r52.autocollect.worker INFO source=WB listing=619204389 phase=collect_product_start
+2026-11-16 05:20:13,490 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=5537
+2026-11-16 05:20:14,425 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=934
+2026-11-16 05:20:16,071 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=115
+2026-11-16 05:20:16,071 r52.collectors.wb INFO WB 619204389: HTTP API partial/blocked (card=False, price=False), switching to Playwright
+2026-11-16 05:20:16,071 r52.collectors.wb INFO WB 619204389: starting Playwright fallback
+2026-11-16 05:20:25,715 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 211 bodies, best 5008B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 05:20:28,085 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=112
+2026-11-16 05:20:28,085 r52.autocollect.worker INFO source=WB listing=619204389 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 05:20:28,086 r52.autocollect.worker INFO source=WB phase=write_start returned=3 valid=3 stats={'requests': 14, 'success': 1, 'failed': 0, 'blocked': 11}
+2026-11-16 05:20:28,088 r52.collectors INFO WB: записан jarvis-eye-wb-73afa872.json
+2026-11-16 05:20:28,094 r52.collectors INFO WB: записан jarvis-eye-wb-122ac233.json
+2026-11-16 05:20:28,096 r52.collectors INFO WB: записан jarvis-eye-wb-b8085dde.json
+2026-11-16 05:20:28,098 r52.autocollect.worker INFO source=WB phase=write_complete files=3
+2026-11-16 05:20:28,098 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-16 05:20:28,800 r52.autocollect.worker INFO source=WB phase=close_complete

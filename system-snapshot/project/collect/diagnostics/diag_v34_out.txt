@@ -1,0 +1,36 @@
+2026-11-10 23:22:57,287 INFO === DIAG V34: Playwright Chromium ===
+2026-11-10 23:22:57,288 INFO Time: 2026-11-10 23:22:57
+2026-11-10 23:22:58,939 INFO === MODE: DIRECT no-proxy ===
+2026-11-10 23:23:00,092 INFO [DIRECT_WB_main] https://www.wildberries.ru/
+2026-11-10 23:23:23,981 INFO   -> CHALLENGE | 7590B | 23.6s | ...
+2026-11-10 23:23:27,002 INFO [DIRECT_WB_card] https://www.wildberries.ru/catalog/199298871/detail.aspx
+2026-11-10 23:23:42,348 INFO   -> CHALLENGE | 7590B | 15.2s | ...
+2026-11-10 23:23:45,354 INFO [DIRECT_OZON_prod] https://www.ozon.ru/product/1600562267/
+2026-11-10 23:24:06,165 INFO   -> CONTENT_OK | 1091364B | 20.5s | Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра ку
+2026-11-10 23:24:09,182 INFO [DIRECT_AVITO_main] https://www.avito.ru/
+2026-11-10 23:24:25,436 INFO   -> CONTENT_THIN | 36451B | 16.1s | Доступ ограничен: проблема с IP
+2026-11-10 23:24:28,451 INFO [DIRECT_AVITO_ad] https://www.avito.ru/ad/1096783029
+2026-11-10 23:24:43,823 INFO   -> CONTENT_THIN | 29378B | 15.2s | Ошибка 404. Страница не найдена
+2026-11-10 23:24:47,076 INFO === MODE: PROXY_B [REDACTED_AUTH_SECRET] ===
+2026-11-10 23:24:47,496 INFO [PROXY_B_WB_main] https://www.wildberries.ru/
+2026-11-10 23:25:04,894 INFO   -> CHALLENGE | 7587B | 17.2s | ...
+2026-11-10 23:25:07,899 INFO [PROXY_B_WB_card] https://www.wildberries.ru/catalog/199298871/detail.aspx
+2026-11-10 23:25:23,446 INFO   -> CHALLENGE | 7587B | 15.4s | ...
+2026-11-10 23:25:26,451 INFO [PROXY_B_OZON_prod] https://www.ozon.ru/product/1600562267/
+2026-11-10 23:25:43,935 INFO   -> CHALLENGE | 5156B | 16.7s | Похоже, нет соединения
+2026-11-10 23:25:46,942 INFO [PROXY_B_AVITO_main] https://www.avito.ru/
+2026-11-10 23:26:06,149 INFO   -> CONTENT_THIN | 36451B | 19.1s | Доступ ограничен: проблема с IP
+2026-11-10 23:26:09,155 INFO [PROXY_B_AVITO_ad] https://www.avito.ru/ad/1096783029
+2026-11-10 23:26:24,788 INFO   -> CONTENT_THIN | 29378B | 15.5s | Ошибка 404. Страница не найдена
+2026-11-10 23:26:28,031 INFO === DONE: 10 entries -> diag_v34_results.json ===
+2026-11-10 23:26:28,031 INFO --- SUMMARY ---
+2026-11-10 23:26:28,032 INFO   [CHL] DIRECT_WB_main               CHALLENGE        7590B  DIRECT
+2026-11-10 23:26:28,032 INFO   [CHL] DIRECT_WB_card               CHALLENGE        7590B  DIRECT
+2026-11-10 23:26:28,032 INFO   [OK ] DIRECT_OZON_prod             CONTENT_OK     1091364B  DIRECT
+2026-11-10 23:26:28,032 INFO   [THN] DIRECT_AVITO_main            CONTENT_THIN    36451B  DIRECT
+2026-11-10 23:26:28,032 INFO   [THN] DIRECT_AVITO_ad              CONTENT_THIN    29378B  DIRECT
+2026-11-10 23:26:28,032 INFO   [CHL] PROXY_B_WB_main              CHALLENGE        7587B  PROXY_B
+2026-11-10 23:26:28,032 INFO   [CHL] PROXY_B_WB_card              CHALLENGE        7587B  PROXY_B
+2026-11-10 23:26:28,032 INFO   [CHL] PROXY_B_OZON_prod            CHALLENGE        5156B  PROXY_B
+2026-11-10 23:26:28,032 INFO   [THN] PROXY_B_AVITO_main           CONTENT_THIN    36451B  PROXY_B
+2026-11-10 23:26:28,032 INFO   [THN] PROXY_B_AVITO_ad             CONTENT_THIN    29378B  PROXY_B

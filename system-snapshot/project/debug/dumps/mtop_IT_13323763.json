@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "dt": "success",
+  "ec": 200,
+  "result": {
+    "code": 0,
+    "sig": "from bx"
+  },
+  "success": true
+}

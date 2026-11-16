@@ -1,0 +1,31 @@
+﻿=== diag_v7l — 2026-11-14 13:00:07 ===
+python : 2026-11-14 13:00:07,450 INFO diag_v7l: ── [1] RU wholesale page 1 ──
+строка:2 знак:1
++ python -u diag_v7l.py 2>&1 | Out-File -FilePath diag_v7l_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 13:0...esale page 1 ──:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 13:00:08,941 INFO diag_v7l:   HTTP 200, 1705B, 1.2s
+2026-11-14 13:00:08,941 INFO diag_v7l:   Parsed: 0 products
+2026-11-14 13:00:08,941 INFO diag_v7l:   Page 1 IDs: 0 unique
+2026-11-14 13:00:10,942 INFO diag_v7l: ── [2] RU wholesale page 2 (pagination) ──
+2026-11-14 13:00:12,277 INFO diag_v7l:   HTTP 200, 1705B, 1.3s
+2026-11-14 13:00:12,278 INFO diag_v7l:   Parsed: 0 products
+2026-11-14 13:00:12,278 INFO diag_v7l:   Page 2 IDs: 0 unique
+2026-11-14 13:00:12,278 INFO diag_v7l:   Overlap p1∩p2: 0 IDs
+2026-11-14 13:00:12,278 WARNING diag_v7l:   ⚠ Page 2 empty — pagination may not work or same page returned
+2026-11-14 13:00:14,278 INFO diag_v7l: ── [3] COM wholesale page 1 ──
+2026-11-14 13:00:15,487 INFO diag_v7l:   HTTP 200, 2093B, 1.2s
+2026-11-14 13:00:15,487 INFO diag_v7l:   Parsed: 0 products
+2026-11-14 13:00:15,487 INFO diag_v7l: ── [4] Summary ──
+2026-11-14 13:00:15,487 INFO diag_v7l:   RU: 0 (p1) + 0 (p2) = 0 products
+2026-11-14 13:00:15,487 INFO diag_v7l:   COM: 0 products
+2026-11-14 13:00:15,487 INFO diag_v7l:   RU currency distribution: {}
+2026-11-14 13:00:15,487 INFO diag_v7l:   COM currency distribution: {}
+2026-11-14 13:00:15,488 INFO diag_v7l:   RU titles: IT-markers=0, EN-markers=0 (of 0)
+2026-11-14 13:00:15,488 INFO diag_v7l:   COM titles: IT-markers=0, EN-markers=0 (of 0)
+2026-11-14 13:00:15,488 INFO diag_v7l: ── [5] Intake compatibility ──
+=== DONE ===
+2026-11-14 13:00:15,488 INFO diag_v7l: diag_v7l complete
+EXIT=0

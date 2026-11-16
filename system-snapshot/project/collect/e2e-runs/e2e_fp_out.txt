@@ -1,0 +1,70 @@
+﻿2026-11-12 14:16:53,405 FP_E2E               INFO  ============================================================
+2026-11-12 14:16:53,405 FP_E2E               INFO  FARPOST FOCUSED E2E  2026-11-12 14:16:53
+2026-11-12 14:16:53,405 FP_E2E               INFO  Listing: 138859452
+2026-11-12 14:16:53,405 FP_E2E               INFO  DB home: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\e2e_test_home
+2026-11-12 14:16:53,724 r52.sources          INFO  Sources: зарегистрировано 4 сборщиков
+2026-11-12 14:16:53,750 FP_E2E               INFO  App open. DB: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\e2e_test_home\data\r52.sqlite3
+2026-11-12 14:16:53,752 FP_E2E               INFO  BASELINE: prod=2 obs=3 pp=1
+2026-11-12 14:16:53,753 r52.collectors.proxy INFO  Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 14:16:53,753 FP_E2E               INFO  URL: https://www.farpost.ru/vladivostok/138859452.html
+2026-11-12 14:16:53,756 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.farpost.ru:443
+2026-11-12 14:16:55,082 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET / HTTP/1.1" 200 None
+2026-11-12 14:16:55,083 r52.collectors.farpost INFO  FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 14:16:56,217 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET /vladivostok/138859452.html HTTP/1.1" 301 None
+2026-11-12 14:16:56,466 urllib3.connectionpool DEBUG https://www.farpost.ru:443 "GET /irkutsk/zapchasti/dvigatel-nissan-cga3-ustanovka-v-podarok-garantija-do-goda-138859452.html HTTP/1.1" 200 None
+2026-11-12 14:16:56,473 FP_E2E               INFO  COLLECTOR OK in 2.7s
+2026-11-12 14:16:56,473 FP_E2E               INFO    format=JARVIS_BR02_EYE_USER_CAPTURE
+2026-11-12 14:16:56,473 FP_E2E               INFO    capture_action=EXPLICIT_POPUP_CLICK
+2026-11-12 14:16:56,473 FP_E2E               INFO    fully_autonomous=False
+2026-11-12 14:16:56,473 FP_E2E               INFO    obs.source=FARPOST
+2026-11-12 14:16:56,473 FP_E2E               INFO    obs.id=138859452
+2026-11-12 14:16:56,473 FP_E2E               INFO    obs.url=https://www.farpost.ru/vladivostok/138859452.html
+2026-11-12 14:16:56,473 FP_E2E               INFO    obs.observed_at=2026-11-12T14:16:56.473175+10:00
+2026-11-12 14:16:56,473 FP_E2E               INFO    obs.status=PARTIAL_SUCCESS
+2026-11-12 14:16:56,473 FP_E2E               INFO    obs.evidence_level=COLLECTOR_AUTONOMOUS_HTTP
+2026-11-12 14:16:56,473 FP_E2E               INFO    obs.http_status=200
+2026-11-12 14:16:56,473 FP_E2E               INFO    fields keys: ['title', 'description', 'category', 'brand', 'specs', 'seller', 'seller_url', 'bulletin_id', 'availability']
+2026-11-12 14:16:56,473 FP_E2E               INFO      field[title] status=KNOWN value=Двигатель Nissan CGA3 Установка в подарок, гарантия до года method=JSONLD
+2026-11-12 14:16:56,473 FP_E2E               INFO      field[description] status=KNOWN value=Двигатель Nissan CGA3 Установка в подарок, гарантия до года в Иркутске. Стоимост... method=JSONLD
+2026-11-12 14:16:56,473 FP_E2E               INFO      field[category] status=KNOWN value=Авто и мото > Автозапчасти > Двигатель и элементы двигателя method=BREADCRUMB
+2026-11-12 14:16:56,473 FP_E2E               INFO      field[brand] status=KNOWN value=Nissan method=JSONLD
+2026-11-12 14:16:56,473 FP_E2E               INFO      field[specs] status=KNOWN value={'goodPresentState': {'label': 'Наличие товара в Иркутске', 'value': 'В наличии'}, 'condition': {'label': 'Состояние', 'value': 'Б/у'}, 'autoPartsAuthenticity': {'label': 'Оригинальность', 'value': 'Оригинал'}, 'manufacturer': {'label': 'Производитель', 'value': 'Nissan'}} method=HTML
+2026-11-12 14:16:56,473 FP_E2E               INFO      field[seller] status=KNOWN value=Japan Motors 138 method=HTML
+2026-11-12 14:16:56,473 FP_E2E               INFO      field[seller_url] status=KNOWN value=https://www.farpost.ru/user/Japanmotors138/ method=HTML
+2026-11-12 14:16:56,473 FP_E2E               INFO      field[bulletin_id] status=KNOWN value=138859452 method=HTML
+2026-11-12 14:16:56,473 FP_E2E               INFO      field[availability] status=KNOWN value=IN_STOCK method=COLLECTOR
+2026-11-12 14:16:56,473 FP_E2E               INFO    price_candidates: 1
+2026-11-12 14:16:56,473 FP_E2E               INFO      role=regular amount=108500.00 amount_minor=10850000 currency=RUB label=data-bulletin-price
+2026-11-12 14:16:56,473 FP_E2E               INFO    media items: 7
+2026-11-12 14:16:56,473 FP_E2E               INFO      [0] type=image url=https://static.baza.farpost.ru/v/1793164483104_bulletin?ni=yes
+2026-11-12 14:16:56,473 FP_E2E               INFO      [1] type=image url=https://static.baza.farpost.ru/v/1793164483332_bulletin?ni=yes
+2026-11-12 14:16:56,473 FP_E2E               INFO      [2] type=image url=https://static.baza.farpost.ru/v/1793164483758_bulletin?ni=yes
+2026-11-12 14:16:56,473 FP_E2E               INFO      [3] type=image url=https://static.baza.farpost.ru/v/1793164484140_bulletin?ni=yes
+2026-11-12 14:16:56,474 FP_E2E               INFO      [4] type=image url=https://static.baza.farpost.ru/v/1793164484450_bulletin?ni=yes
+2026-11-12 14:16:56,474 FP_E2E               INFO    availability=IN_STOCK
+2026-11-12 14:16:56,474 FP_E2E               INFO    category_path=Авто и мото > Автозапчасти > Двигатель и элементы двигателя
+2026-11-12 14:16:56,474 FP_E2E               INFO  --- DRY RUN: normalize_eye ---
+2026-11-12 14:16:56,474 FP_E2E               INFO    normalized.source=FARPOST
+2026-11-12 14:16:56,474 FP_E2E               INFO    normalized.listing_id=138859452
+2026-11-12 14:16:56,474 FP_E2E               INFO    normalized.url=https://www.farpost.ru/vladivostok/138859452.html
+2026-11-12 14:16:56,474 FP_E2E               INFO    normalized.title=Двигатель Nissan CGA3 Установка в подарок, гарантия до года
+2026-11-12 14:16:56,474 FP_E2E               INFO    normalized.prices: 1
+2026-11-12 14:16:56,474 FP_E2E               INFO      role=regular minor=10850000 cur=RUB label=data-bulletin-price
+2026-11-12 14:16:56,474 FP_E2E               INFO    normalized.availability=IN_STOCK
+2026-11-12 14:16:56,474 FP_E2E               INFO    normalized.completeness={'total': 14, 'known': 3, 'unknown': ['Модель', 'Модификация', 'Отображаемая цена', 'Состояние', 'Комплект', 'Местонахождение продавца', 'Доставка', 'Гарантия', 'Возврат', 'Отзывы', 'Вопросы покупателей'], 'independently_verified': 0}
+2026-11-12 14:16:56,474 FP_E2E               INFO    DRY RUN OK
+2026-11-12 14:16:56,474 FP_E2E               INFO  --- INBOX PIPELINE ---
+2026-11-12 14:16:56,474 FP_E2E               INFO    payload: 4964 bytes
+2026-11-12 14:16:56,480 r52.intake           INFO  Во входящие добавлен файл e2e-farpost.json: PENDING 
+2026-11-12 14:16:56,480 FP_E2E               INFO    stage_bytes: id=5 created=True status=PENDING err=None
+2026-11-12 14:16:56,489 FP_E2E               INFO    accept: product_id=3 obs_created=True events=0
+2026-11-12 14:16:56,489 FP_E2E               INFO  --- DB VERIFICATION ---
+2026-11-12 14:16:56,491 FP_E2E               INFO    AFTER: prod=3 obs=4 pp=2
+2026-11-12 14:16:56,491 FP_E2E               INFO    DELTA: +prod=1 +obs=1 +pp=1
+2026-11-12 14:16:56,491 FP_E2E               INFO    PRODUCT #3 src=FARPOST lid=138859452 title='Двигатель Nissan CGA3 Установка в подарок, гаранти' reg=10850000 low=10850000 avail=IN_STOCK obs_n=1
+2026-11-12 14:16:56,491 FP_E2E               INFO    PRODUCT #2 src=FARPOST lid=138952176 title='Акпп Toyota 3ZRFE Установка В Подарок, Гарантия до' reg=11850000 low=11850000 avail=IN_STOCK obs_n=1
+2026-11-12 14:16:56,491 FP_E2E               INFO    PP #2 role=regular minor=10850000 cur=RUB label='data-bulletin-price' lid=138859452
+2026-11-12 14:16:56,491 FP_E2E               INFO    PP #1 role=regular minor=11850000 cur=RUB label='data-bulletin-price' lid=138952176
+2026-11-12 14:16:56,491 FP_E2E               INFO    OBS #4 at=2026-11-12T04:16:56.473+00:00 origin=EYE level=COLLECTOR_AUTONOMOUS_HTTP avail=IN_STOCK fp=d14ec253c6167863
+2026-11-12 14:16:56,491 FP_E2E               INFO    OBS #2 at=2026-11-12T04:07:44.198+00:00 origin=EYE level=COLLECTOR_AUTONOMOUS_HTTP avail=IN_STOCK fp=eedbdc56294d7065
+2026-11-12 14:16:56,492 FP_E2E               INFO  VERDICT: PASS — 1 new price_point(s)

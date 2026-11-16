@@ -1,0 +1,24 @@
+2026-11-13 22:17:18,322 diag_quick INFO === FARPOST TEST ===
+2026-11-13 22:17:18,644 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:17:18,644 diag_quick INFO URL: https://www.farpost.ru/vladivostok/116361427.html
+2026-11-13 22:17:19,475 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-13 22:17:21,257 diag_quick INFO FARPOST: status=FULL_SUCCESS (2.6s) title='IPhone 17 256Gb. Trade-IN. Кредит. Гарантия 1 год' prices=1 media=6
+2026-11-13 22:17:21,259 diag_quick INFO   price: role=regular amount=71999.00 cur=RUB label=data-bulletin-price
+2026-11-13 22:17:23,261 diag_quick INFO === WB TEST ===
+2026-11-13 22:17:23,261 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:17:23,261 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-13 22:17:23,261 diag_quick INFO URL: https://www.wildberries.ru/catalog/199298871/detail.aspx
+2026-11-13 22:17:58,466 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-13 22:18:01,237 r52.collectors.wb INFO WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-13 22:18:01,237 diag_quick INFO WB card.json: OK, keys=['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'options', 'compositions', 'certificate', 'colors', 'contents', 'full_colors', 'selling']
+2026-11-13 22:18:01,237 diag_quick INFO   selling keys: ['brand_name', 'brand_hash', 'supplier_id', 'no_return_map']
+2026-11-13 22:18:01,237 diag_quick INFO   media: photo_count=6 has_video=True
+2026-11-13 22:18:03,238 diag_quick INFO WB: trying price endpoints...
+2026-11-13 22:18:04,162 diag_quick INFO   card_v1: HTTP 403, body[:120]=
+2026-11-13 22:18:07,772 diag_quick INFO   card_v2: HTTP 403, body[:120]=
+2026-11-13 22:18:10,719 diag_quick INFO   catalog_v1: HTTP 403, body[:120]=
+2026-11-13 22:18:13,720 diag_quick INFO WB: fetching HTML...
+2026-11-13 22:18:21,828 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-13 22:18:21,828 diag_quick WARNING   HTML: None (fetch failed)
+2026-11-13 22:18:21,828 diag_quick INFO WB total: 58.6s
+2026-11-13 22:18:21,828 diag_quick INFO === DONE ===

@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Monitor da gaming KTC H32D6S 31,5' 2K QHD 144Hz VA 1ms MPRT HDR 3000:1 Contrasto FreeSync G-Sync Compatibile 99% SRGB Display per PC Gamer HDMI DP",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "132.57",
+        "amount_minor": 13257,
+        "currency": "EUR",
+        "visible_label": "132.57 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "226.03",
+        "amount_minor": 22603,
+        "currency": "EUR",
+        "visible_label": "226.03 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Af09207bb11784c9f8cf664ba0253478es.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005013572195570",
+    "listing_id": "1005013572195570",
+    "title": "Monitor da gaming KTC H32D6S 31,5' 2K QHD 144Hz VA 1ms MPRT HDR 3000:1 Contrasto FreeSync G-Sync Compatibile 99% SRGB Display per PC Gamer HDMI DP",
+    "url": "https://www.aliexpress.com/item/1005013572195570.html",
+    "observed_at": "2026-11-15T02:37:52.094394+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

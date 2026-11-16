@@ -1,0 +1,96 @@
+﻿=== diag_multi19 START 17:04:07 ===
+[FP:id_138859452] FAIL | all 4 urls failed for 138859452
+[FP:id_138952176] FAIL | all 4 urls failed for 138952176
+[FP:full_auto] PASS | id=134693091 price=500 title=Вскрытие авто без ключа Открыть маш imgs=1 specs=2 desc=500b
+[FP:full_home] PASS | id=121063385 price=970800 title=Дизельный генератор Incon-R100 с дв imgs=6 specs=7 desc=500b
+[FP:full_hobby] PASS | id=136303743 price=37980 title=Квадрокоптер DJI Flip (GL). Гаранти imgs=8 specs=4 desc=500b
+[FP:stability] FAIL | success=3/5
+[WB:1_session_html] FAIL | main=498 prod=498 len=1136 head=<!doctype html><html lang="ru" data-theme="light" data-req-uuid="06104c4ea46875c35f287d2afed9f10f" d
+[WB:3_fresh_search] FAIL | HTTP=403 len=
+[WB:5_sweep61_100] FAIL | hosts 61-100 all 404/err
+[WB:6_cardw_session] FAIL | HTTP=403 len=
+[OZ:1_api_noverify] FAIL | HTTP=403 len=
+
+{"incidentId": "fab_20261112070536_01M77970NZKM2SABSC3H8135S0", "supportURL": "https://www.ozon.ru/complaint/support/?incident_id=fab_20261112070536
+[OZ:2_mobile] FAIL | HTTP=403 len=
+
+    
+
+<!DOCTYPE html><html lang="ru"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Comp
+[OZ:3_ssr_noverify] FAIL | HTTP=403 len=
+
+    
+
+<!DOCTYPE html><html lang="ru"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Comp
+[OZ:4_pw_mobile] FAIL | price=None ptitle=Похоже, нет соединения no_conn=True len=3276
+[AV:1_category] FAIL | warmup=429 HTTP=429 len=<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-
+[AV:3_l10] FAIL | HTTP=429 len=<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-
+
+=== SUMMARY (111.4s) ===
+  FAIL FP:id_138859452: all 4 urls failed for 138859452
+  FAIL FP:id_138952176: all 4 urls failed for 138952176
+  PASS FP:full_auto: id=134693091 price=500 title=Вскрытие авто без ключа Открыть маш imgs=1 specs=2 desc=500b
+  PASS FP:full_home: id=121063385 price=970800 title=Дизельный генератор Incon-R100 с дв imgs=6 specs=7 desc=500b
+  PASS FP:full_hobby: id=136303743 price=37980 title=Квадрокоптер DJI Flip (GL). Гаранти imgs=8 specs=4 desc=500b
+  FAIL FP:stability: success=3/5
+  FAIL WB:1_session_html: main=498 prod=498 len=1136 head=<!doctype html><html lang="ru" data-theme="light" data-req-uuid="06104c4ea46875c35f287d2
+  FAIL WB:3_fresh_search: HTTP=403 len=
+  FAIL WB:5_sweep61_100: hosts 61-100 all 404/err
+  FAIL WB:6_cardw_session: HTTP=403 len=
+  FAIL OZ:1_api_noverify: HTTP=403 len=
+
+{"incidentId": "fab_20261112070536_01M77970NZKM2SABSC3H8135S0", "supportURL": "https://www.ozon.ru/compla
+  FAIL OZ:2_mobile: HTTP=403 len=
+
+    
+
+<!DOCTYPE html><html lang="ru"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Comp
+  FAIL OZ:3_ssr_noverify: HTTP=403 len=
+
+    
+
+<!DOCTYPE html><html lang="ru"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Comp
+  FAIL OZ:4_pw_mobile: price=None ptitle=Похоже, нет соединения no_conn=True len=3276
+  FAIL AV:1_category: warmup=429 HTTP=429 len=<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X
+  FAIL AV:3_l10: HTTP=429 len=<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-
+EXIT=0

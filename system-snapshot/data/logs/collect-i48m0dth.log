@@ -1,0 +1,13 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-14 03:06:02,933 r52.autocollect.worker INFO phase=worker_start pid=15020
+2026-11-14 03:06:02,952 r52.autocollect.worker INFO source=WB mode=discover phase=initialize
+2026-11-14 03:06:02,952 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, режим direct
+2026-11-14 03:06:02,952 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-14 03:06:02,952 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': True}
+2026-11-14 03:06:02,953 r52.autocollect.worker INFO source=WB phase=search_start page=1 limit=5
+2026-11-14 03:06:03,581 r52.collectors.wb WARNING WB cffi error https://search.wildberries.ru/web/search?query=%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1: Failed to perform, curl: (6) Could not resolve host: search.wildberries.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-14 03:06:03,582 r52.collectors.wb WARNING WB search: HTTP None for 'ноутбуки'
+2026-11-14 03:06:03,582 r52.autocollect.worker INFO source=WB phase=write_start returned=0 valid=0 stats={'requests': 1, 'success': 0, 'failed': 1, 'blocked': 0}
+2026-11-14 03:06:03,583 r52.autocollect.worker INFO source=WB phase=write_complete files=0
+2026-11-14 03:06:03,583 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-14 03:06:03,583 r52.autocollect.worker INFO source=WB phase=close_complete

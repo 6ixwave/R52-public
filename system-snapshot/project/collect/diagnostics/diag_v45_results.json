@@ -1,0 +1,212 @@
+{
+  "version": "v45",
+  "timestamp": "2026-11-11T06:53:40.249345+10:00",
+  "platforms": {
+    "WB": {
+      "strategies": [
+        {
+          "strategy": "card_v2_batch",
+          "nm": "199298871",
+          "url": "https://card.wb.ru/cards/v2/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871",
+          "time_s": 0.81,
+          "http": 403,
+          "bytes": 0,
+          "has_json": false,
+          "snippet": ""
+        },
+        {
+          "strategy": "card_v2_batch",
+          "nm": "314337853",
+          "url": "https://card.wb.ru/cards/v2/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=314337853",
+          "time_s": 0.79,
+          "http": 403,
+          "bytes": 0,
+          "has_json": false,
+          "snippet": ""
+        },
+        {
+          "strategy": "card_v1",
+          "nm": "199298871",
+          "url": "https://card.wb.ru/cards/v1/detail?appType=1&curr=rub&dest=-1257786&nm=199298871",
+          "time_s": 0.83,
+          "http": 403,
+          "bytes": 0,
+          "snippet": ""
+        },
+        {
+          "strategy": "html_detail",
+          "nm": "199298871",
+          "url": "https://www.wildberries.ru/catalog/199298871/detail.aspx",
+          "time_s": 0.81,
+          "http": 498,
+          "bytes": 1136,
+          "has_wbaas": true,
+          "has_challenge": true,
+          "has_jsonld": false,
+          "has_state": false,
+          "has_og": false,
+          "title_tag": "..."
+        },
+        {
+          "strategy": "cdn",
+          "url": "https://basket-01.wbbasket.ru/vol0/part0/199298871/images/199298871-1.webp",
+          "time_s": 0.99,
+          "http": "ERR"
+        },
+        {
+          "strategy": "cdn",
+          "url": "https://basket-02.wbbasket.ru/vol0/part0/199298871/images/199298871-1.webp",
+          "time_s": 0.96,
+          "http": "ERR"
+        },
+        {
+          "strategy": "cdn",
+          "url": "https://wbx-content-v1.wbbasket.ru/vol0/part0/199298871/content/199298871.json",
+          "time_s": 11.55,
+          "http": "ERR"
+        },
+        {
+          "strategy": "web_api_v1",
+          "nm": "199298871",
+          "url": "https://www.wildberries.ru/web/api/v1/cards/detail?nm=199298871&curr=rub&dest=-1257786",
+          "time_s": 0.8,
+          "http": 498,
+          "bytes": 1136,
+          "snippet": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"1796b1c0d9342542594e62fdb50d8ddd\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Dat"
+        },
+        {
+          "strategy": "batch_info",
+          "nm": "199298871",
+          "url": "https://batch.wb.ru/batch/199298871/info",
+          "time_s": 1.38,
+          "http": "ERR"
+        }
+      ]
+    },
+    "OZON": {
+      "strategies": [
+        {
+          "strategy": "composer_v2",
+          "id": "1600562267",
+          "url": "https://www.ozon.ru/api/composer-api.bx/page/json/v2?url=/product/1600562267/",
+          "time_s": 1.58,
+          "http": 403,
+          "bytes": 6141,
+          "snippet": "\n\n{\"incidentId\": \"fab_chlg_20261110205415_01M73KTWCHA010H4VR4QF2DCNT\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=E7tNDdfMyxmYWJfY2hsZ18yMDI2MTExMDIwNTQxNV8wMU03M0tUV0NIQTAxMEg0VlI0UUYyRENOVCxzYzpTNGhPbjRFRkQ5UzRmamJBRXJ2UVFROjE4VTFLQUp1bmdBVXN1ZXNPWm5IWWlVQmZBZTF6VjE0V0NvY2NJZE9a"
+        },
+        {
+          "strategy": "composer_v2",
+          "id": "1317678381",
+          "url": "https://www.ozon.ru/api/composer-api.bx/page/json/v2?url=/product/1317678381/",
+          "time_s": 0.95,
+          "http": 403,
+          "bytes": 5973,
+          "snippet": "\n\n{\"incidentId\": \"fab_chlg_20261110205421_01M73KV26DPBCBBKMHQJZBGXEE\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=miQNDdfMyxmYWJfY2hsZ18yMDI2MTExMDIwNTQyMV8wMU03M0tWMjZEUEJDQkJLTUhRSlpCR1hFRSxzYzpjbzNEOVBVc3ZyTTVoUUotbVdSYnVnOmkxbmt5bW9UNzJXMURuazM2TkZ1ekwyRUZxM05mQVJ1R2YyV1RpNzJs"
+        },
+        {
+          "strategy": "ssr_html",
+          "id": "1600562267",
+          "url": "https://www.ozon.ru/product/1600562267/",
+          "time_s": 1.58,
+          "http": 403,
+          "bytes": 8493,
+          "has_data_widget": false,
+          "has_og": false,
+          "has_jsonld": false,
+          "has_state": false,
+          "title_tag": "Antibot Challenge Page",
+          "widget_names": []
+        },
+        {
+          "strategy": "api_ozon",
+          "id": "1600562267",
+          "url": "https://api.ozon.ru/composer-api.bx/page/json/v2?url=/product/1600562267/",
+          "time_s": 0.69,
+          "http": "ERR"
+        },
+        {
+          "strategy": "mobile",
+          "id": "1600562267",
+          "url": "https://m.ozon.ru/product/1600562267/",
+          "time_s": 1.6,
+          "http": 403,
+          "bytes": 8440,
+          "has_og": false,
+          "has_jsonld": false,
+          "title_tag": "Antibot Challenge Page"
+        }
+      ]
+    },
+    "AVITO": {
+      "strategies": [
+        {
+          "strategy": "html_ad",
+          "id": "1154321987",
+          "url": "https://www.avito.ru/ad/1154321987",
+          "time_s": 0.85,
+          "http": 404,
+          "bytes": 29907,
+          "has_captcha": false,
+          "has_ip_limit": false,
+          "has_jsonld": false,
+          "has_state": false,
+          "has_og": false,
+          "title_tag": "Ошибка 404. Страница не найдена"
+        },
+        {
+          "strategy": "html_ad",
+          "id": "1096783029",
+          "url": "https://www.avito.ru/ad/1096783029",
+          "time_s": 0.82,
+          "http": 404,
+          "bytes": 29907,
+          "has_captcha": false,
+          "has_ip_limit": false,
+          "has_jsonld": false,
+          "has_state": false,
+          "has_og": false,
+          "title_tag": "Ошибка 404. Страница не найдена"
+        },
+        {
+          "strategy": "web_api_items",
+          "url": "https://www.avito.ru/web/1/js/items?path=transport&f=0&q=телефон&maxPrice=100000",
+          "time_s": 0.81,
+          "http": 403,
+          "bytes": 166,
+          "snippet": "{\"too-many-requests\":{\"link\":\"ru.avito:\\/\\/1\\/firewall\\/captcha\\/show\",\"message\":\"Доступ с вашего IP-адреса временно ограничен\"}}\n"
+        },
+        {
+          "strategy": "web_api_items",
+          "url": "https://www.avito.ru/web/1/js/items?path=electronics&f=0&q=iphone&maxPrice=50000",
+          "time_s": 0.8,
+          "http": 403,
+          "bytes": 166,
+          "snippet": "{\"too-many-requests\":{\"link\":\"ru.avito:\\/\\/1\\/firewall\\/captcha\\/show\",\"message\":\"Доступ с вашего IP-адреса временно ограничен\"}}\n"
+        },
+        {
+          "strategy": "mobile_ad",
+          "id": "1154321987",
+          "url": "https://m.avito.ru/ad/1154321987",
+          "time_s": 0.81,
+          "http": 404,
+          "bytes": 18870,
+          "has_og": false,
+          "has_jsonld": false,
+          "has_captcha": false,
+          "title_tag": "Авито — Объявления на сайте Авито"
+        },
+        {
+          "strategy": "home",
+          "url": "https://www.avito.ru/",
+          "time_s": 0.89,
+          "http": 439,
+          "bytes": 14889,
+          "has_ip_limit": true,
+          "has_captcha": false,
+          "title_tag": "Доступ ограничен: проверка безопасности"
+        }
+      ]
+    }
+  },
+  "total_time_s": 88.3
+}

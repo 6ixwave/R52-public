@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "TEISCHE - Cuffie Bluetooth Cuffie wireless con cancellazione attiva del rumore ANC, doppia connessione BT 5.4 e cuscinetti auricolari magnetici rimovibili per la musica",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "39.99",
+        "amount_minor": 3999,
+        "currency": "RUB",
+        "visible_label": "39.99 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "39.99",
+        "amount_minor": 3999,
+        "currency": "RUB",
+        "visible_label": "39.99 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/E6cb3036f4bc74cf28130d89abc80987ek.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013559035493",
+    "url": "https://ru.aliexpress.com/item/1005013559035493.html",
+    "observed_at": "2026-11-13T08:40:33.104728+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

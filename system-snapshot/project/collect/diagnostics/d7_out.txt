@@ -1,0 +1,26 @@
+﻿python : 2026-11-12 16:35:31,667 INFO === FARPOST ===
+строка:1 знак:36
++ $ErrorActionPreference='Continue'; python diag_multi7.py 2>&1 | Out-F ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 16:3...=== FARPOST ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 16:35:32,355 INFO FP search: HTTP=404 len=13269
+2026-11-12 16:35:32,356 INFO FP search: found 0 active IDs: []
+2026-11-12 16:35:32,356 INFO   -> FP:live_search: ok=False HTTP=404 no links found in search
+2026-11-12 16:35:32,773 INFO   -> FP:direct_138952176: ok=False HTTP=302 loc=/verify?u=%2Fvladivostok%2F138952176.html 
+title=? prices=[] len=138
+2026-11-12 16:35:34,583 INFO   -> FP:cffi: ok=False ID=138952176 HTTP=200 len=198208 title=Фарпост - доска объявлений p
+rices=[]
+2026-11-12 16:35:34,583 INFO === WILDBERRIES ===
+2026-11-12 16:35:35,473 INFO   -> WB:cffi_card_v2: ok=False HTTP=403 len=0
+2026-11-12 16:35:36,225 INFO   -> WB:requests_card_v2: ok=False HTTP=403 first100=
+2026-11-12 16:35:36,589 INFO   -> WB:basket_card: ok=False HTTP=404
+2026-11-12 16:35:36,590 INFO === OZON (Playwright) ===
+2026-11-12 16:35:50,185 INFO   -> OZ:playwright: ok=True len=711840 prices=[284.0, 284.0] ld=True ld_info=[{'name': 'Ма
+ленький Принц и лис: набор добрых летних открыток для пост', 'price': '284', 'currency': 'RUB', 'avail': '//schema.org/
+InStock'}]
+2026-11-12 16:35:50,401 INFO === AVITO (Playwright) ===
+2026-11-12 16:35:56,042 INFO   -> AV:playwright_mobile: ok=None len=36447 prices=[] data_price=None meta=None
+2026-11-12 16:35:56,135 INFO Saved to C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\d7_results.json
+2026-11-12 16:35:56,135 INFO TOTAL: 24.5s

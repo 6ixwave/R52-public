@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie da gaming UNICO HP2570 con audio surround 7.1 e illuminazione RGB, con microfono a 360 gradi. °   Microfono USB 2.0 276g Leggero Over Ear per PC Gamer",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "46.90",
+        "amount_minor": 4690,
+        "currency": "RUB",
+        "visible_label": "46.90 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "26.70",
+        "amount_minor": 2670,
+        "currency": "RUB",
+        "visible_label": "26.70 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa92d6461c85d40bd8bd75da4a56c8929m.jpeg_480x480q75.jpeg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013564277066",
+    "url": "https://ru.aliexpress.com/item/1005013564277066.html",
+    "observed_at": "2026-11-13T08:02:42.577293+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

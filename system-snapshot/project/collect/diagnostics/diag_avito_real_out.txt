@@ -1,0 +1,68 @@
+﻿C:\Python315\python.exe : 2026-11-12 03:28:01,201 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52
+\collectors\proxies.json не найден, режим direct
+строка:2 знак:1
++ C:\Python315\python.exe diag_avito_real.py 2>&1 | Out-File -FilePath  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 03:2...н, режим direct:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 03:28:02,186 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.avito.ru:443
+2026-11-12 03:28:03,066 urllib3.connectionpool DEBUG https://www.avito.ru:443 "GET /ad/7494308705 HTTP/1.1" 404 None
+======================================================================
+AVITO REAL COLLECTOR DIAG  listing=7494308705
+======================================================================
+
+[1] Collector created: AVITO
+
+[2] Raw HTTP fetch...
+    HTTP 404, 29907 bytes
+
+[3] CAPTCHA check...
+    captcha=False
+
+[4] JSON-LD extraction...
+    jsonld blocks: 0
+    product_ld: None
+
+[5] State extraction...
+    state: None
+
+[6] Prices from state...
+    from state: 0 candidates
+
+[7] Prices from HTML...
+    total: 0 candidates
+
+[8] Media...
+    0 items
+
+[9] Full collect_product()...
+    [FAIL] collect_product returned None in 0.9s
+
+[10] Raw state patterns in HTML...
+    __PRELOADED_STATE__: not found
+    __INITIAL_STATE__: not found
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_avito_real.py", line 161, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_avito_real.py", line 141, in main
+    found = re.search(pat, html)
+  File "C:\Python315\Lib\re\__init__.py", line 179, in search
+    return _compile(pattern, flags).search(string)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python315\Lib\re\__init__.py", line 352, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Python315\Lib\re\_compiler.py", line 762, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Python315\Lib\re\_parser.py", line 972, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python315\Lib\re\_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python315\Lib\re\_parser.py", line 567, in _parse
+    raise source.error("unterminated character set",
+                       source.tell() - here)
+re.PatternError: unterminated character set at position 11

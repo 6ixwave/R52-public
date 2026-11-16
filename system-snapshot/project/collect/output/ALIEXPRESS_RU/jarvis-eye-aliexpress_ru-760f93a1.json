@@ -1,0 +1,57 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Smartphone POCO X7 Pro Versione Globale, Dimensity 8400-Ultra, 6000mAh, HyperCharge 90W, NFC, schermo AMOLED da 6,67 K 120Hz",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "361.85",
+        "amount_minor": 36185,
+        "currency": "EUR",
+        "visible_label": "361.85 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "329.10",
+        "amount_minor": 32910,
+        "currency": "EUR",
+        "visible_label": "329.10 EUR"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005008392018596",
+    "url": "https://ru.aliexpress.com/item/1005008392018596.html",
+    "observed_at": "2026-11-13T19:50:27.650734+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

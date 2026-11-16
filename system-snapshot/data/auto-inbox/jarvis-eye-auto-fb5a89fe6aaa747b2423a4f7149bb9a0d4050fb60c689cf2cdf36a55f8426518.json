@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Laptop Acemagic S16 Amd Ryzen 7 H255 16 Pollici 24Gb Lpddr5 Ram 512Gb Ssd Windows 11 Pro Wifi 6 Notebook Amd Radeon ™     Tastiera retroilluminata da 780m fino a 4,9Ghz 180 °     Pieghevole",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "759.73",
+        "amount_minor": 75973,
+        "currency": "EUR",
+        "visible_label": "759.73 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "649.57",
+        "amount_minor": 64957,
+        "currency": "EUR",
+        "visible_label": "649.57 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Ae001cf77a91341ba8ed2554e7455a1eeQ.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013374868977",
+    "url": "https://ru.aliexpress.com/item/1005013374868977.html",
+    "observed_at": "2026-11-14T03:06:08.935120+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

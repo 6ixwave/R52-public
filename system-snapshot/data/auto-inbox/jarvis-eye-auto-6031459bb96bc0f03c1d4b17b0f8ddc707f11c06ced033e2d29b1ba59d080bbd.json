@@ -1,0 +1,261 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Пергаментная форма для аэрогриля силиконизированная 120 штук",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Braucher",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Пергаментная бумага для выпечки силиконизированная форма для аэрогриля — практичное решение для приготовления домашних блюд. Упаковки из 120 штук хватит на долгое время. Пергамент с антипригарным покрытием облегчает процесс готовки, защищает посуду и сохраняет блюда в идеальном виде. Силиконизированная бумага для выпечки в листах обеспечивает легкое отделение теста или закусок от основы, что удобно для запекания тортов, пирогов, хлеба и других изделий.\n\nКвадратная форма подложки подходит для чаши аэрогриля, духовки и микроволновки. Это кухонные одноразовые товары нового поколения: бумажные изделия устойчивы к высоким температурам печи, духового шкафа и гриля. Благодаря пищевой безопасности материала можно использовать пергамент силиконизированный для выпечки как вкладыш для подачи новогодних блюд или хранения продуктов в холодильнике. Крафтовая плотная структура силикона поддерживает форму даже после контакта с влажными ингредиентами, что важно при приготовлении рыбы или пиццы.\n\nПергаментная бумага силиконизированная для выпечки — верный помощник кондитера, кулинаров и незаменимая пекарская принадлежность. Пергамент для выпечки силиконизированный подходит не только кондитерским мастерским, но и для домашней кухни. Выгодный набор формы для аэрогриля из пергамента станет отличным выбором для готовки к празднику — пасхи, дня рождения, новому году или без повода. Кулинарные крафт листы подходят как инструменты в инвентарь для выпекания круглого торта или закусок. Можно использовать бумагу в качестве формочек или как коврик при работе с тестом.\n\nСиликоновый пергамент для аэрогриля предотвращает прилипание: торты легко вынимаются из формы, а плотное покрытие делает уборку быстрой и простой. Кондитерские принадлежности и штучки такого типа востребованы благодаря универсальности — бумага пергаментная для выпечки заменяет большие рулоны и применяется дома каждый день. Удобство одноразовых предметов очевидно: после использования достаточно выбросить лист без мытья посуды.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Посуда и инвентарь > Формы для запекания",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/itemCounter-component.5140b735835198fe.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/manualQuantityInput-component.44a3f391bace13ae.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/catalogCard-component.225314dfb1bdd980.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/68848.6ccd0a495ece9b0e.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/12589.65deab12c6baab88.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/19921.53c25b7ac4868fa5.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/10781.98a603a07010e7a0.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/16243.38ade4de04b7a4f2.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/recommendations-slot.21c50124f7b9c435.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/7567.d22fd063ab5a2dd2.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/6467.89503b1a5292989c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/7189.d59e29bcba3aa86f.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/c/9395.b157417796d5bbe9.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lottery-service.cb54e5fab8db32dd.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/tm/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/2.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/3.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/4.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/5.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/6.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/7.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/8.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/9.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/10.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/11.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/12.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/13.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/14.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/15.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/16.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/17.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/18.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/19.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/20.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/21.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-27.wbbasket.ru/vol5049/part504984/504984812/images/c246x328/22.webp",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Посуда и инвентарь > Формы для запекания",
+    "source": "WB",
+    "id": "504984812",
+    "url": "https://www.wildberries.ru/catalog/504984812/detail.aspx",
+    "observed_at": "2026-11-16T17:35:46.110952+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "CMF BY Nothing Headphone Pro, Riduzione attiva del rumore (WC), Bluetooth, autonomia di 50 ore, cursore basso/acuto, EQ personalizzato, suono spaziale, hi-res LDAC, Cuffie wireless circumaurali",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "88.17",
+        "amount_minor": 8817,
+        "currency": "RUB",
+        "visible_label": "88.17 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "76.79",
+        "amount_minor": 7679,
+        "currency": "RUB",
+        "visible_label": "76.79 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sb330a2bcf0a8486796030e8d6ca626feb.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005012910608267",
+    "url": "https://ru.aliexpress.com/item/1005012910608267.html",
+    "observed_at": "2026-11-13T08:28:48.059792+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

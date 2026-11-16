@@ -1,0 +1,60 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Пеленки для собак одноразовые впитывающие 45х60 100 шт.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "MaLilPo",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Пеленки для собак MaLilPo – это незаменимый помощник для заботливых хозяев. Одноразовые гелевые пеленки размером 45х60 см обеспечат гигиену и комфорт для вашего питомца. Впитывающий слой из целлюлозы, полиэстера и суперабсорбента быстро впитывает влагу, оставляя поверхность сухой. Влагозащитный полиэтиленовый слой предотвращает протекания, а гипоаллергенный состав безопасен для чувствительной кожи вашего любимца. Удобная упаковка содержит 100 пеленок, что обеспечит вам долгий срок использования.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Товары для животных > Пеленки для животных",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Товары для животных > Пеленки для животных",
+    "source": "WB",
+    "id": "776038804",
+    "url": "https://www.wildberries.ru/catalog/776038804/detail.aspx",
+    "observed_at": "2026-11-16T17:38:34.483475+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

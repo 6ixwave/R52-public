@@ -1,0 +1,42 @@
+2026-11-11 05:28:19,781 [INFO] diag_v40: === DIAG V40: Playwright, 4 platforms ===
+2026-11-11 05:28:21,125 [INFO] diag_v40: === OZON ===
+2026-11-11 05:28:21,261 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:28:21,261 [INFO] diag_v40: OZON 1600562267: https://www.ozon.ru/product/1600562267/
+2026-11-11 05:28:35,855 [INFO] diag_v40: OZON 1600562267: 739516 B, 14.5s, title=Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 
+2026-11-11 05:28:36,069 [INFO] diag_v40: OZON 1600562267: PARSED OK
+2026-11-11 05:28:39,069 [INFO] diag_v40: OZON 229225961: https://www.ozon.ru/product/229225961/
+2026-11-11 05:28:44,614 [INFO] diag_v40: OZON 229225961: 1059916 B, 5.5s, title=Карта желаний 2026-2027, набор женский купить на OZON по низ
+2026-11-11 05:28:44,841 [INFO] diag_v40: OZON 229225961: PARSED OK
+2026-11-11 05:28:47,841 [INFO] diag_v40: === WB ===
+2026-11-11 05:28:47,842 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:28:47,842 [INFO] diag_v40: WB API 199298871: https://card.wb.ru/cards/v2/detail?nm=199298871
+2026-11-11 05:28:48,240 [INFO] diag_v40: WB API 199298871: 403, 0 B, 0.4s
+2026-11-11 05:28:50,240 [INFO] diag_v40: WB HTML 199298871: https://www.wildberries.ru/catalog/199298871/detail.aspx
+2026-11-11 05:28:56,792 [INFO] diag_v40: WB HTML 199298871: 7590 B, 6.5s, ch=True jl=False
+2026-11-11 05:28:59,793 [INFO] diag_v40: WB API 1252522762: https://card.wb.ru/cards/v2/detail?nm=1252522762
+2026-11-11 05:29:00,600 [INFO] diag_v40: WB API 1252522762: 403, 0 B, 0.8s
+2026-11-11 05:29:02,601 [INFO] diag_v40: WB HTML 1252522762: https://www.wildberries.ru/catalog/1252522762/detail.aspx
+2026-11-11 05:29:07,760 [INFO] diag_v40: WB HTML 1252522762: 7590 B, 5.2s, ch=True jl=False
+2026-11-11 05:29:10,761 [INFO] diag_v40: === AVITO ===
+2026-11-11 05:29:10,762 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:29:10,762 [INFO] diag_v40: AVITO disc[0]: https://www.avito.ru/moskva/tech/notebooks
+2026-11-11 05:29:17,741 [INFO] diag_v40: AVITO disc[0]: 36450 B, blocked=True, IDs=[]
+2026-11-11 05:29:20,743 [INFO] diag_v40: AVITO disc[1]: https://m.avito.ru/moskva/tech/notebooks
+2026-11-11 05:29:27,728 [INFO] diag_v40: AVITO disc[1]: 36442 B, blocked=True, IDs=[]
+2026-11-11 05:29:30,729 [WARNING] diag_v40: AVITO: no IDs found, trying known ID 1096783029
+2026-11-11 05:29:30,730 [INFO] diag_v40: AVITO card 1096783029: https://www.avito.ru/ad/1096783029
+2026-11-11 05:29:36,939 [INFO] diag_v40: AVITO 1096783029: 29378 B, blocked=False, 404=True, jl=False
+2026-11-11 05:29:39,941 [INFO] diag_v40: === FARPOST ===
+2026-11-11 05:29:39,942 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:29:39,942 [INFO] diag_v40: FARPOST 137440009: https://www.farpost.ru/bulletin/137440009
+2026-11-11 05:29:45,347 [INFO] diag_v40: FARPOST 137440009: 12891 B, 5.4s, 404=True, title=Страница не найдена
+2026-11-11 05:29:48,349 [INFO] diag_v40: FARPOST 137723592: https://www.farpost.ru/bulletin/137723592
+2026-11-11 05:29:52,661 [INFO] diag_v40: FARPOST 137723592: 13849 B, 4.3s, 404=True, title=Страница не найдена
+2026-11-11 05:29:55,662 [INFO] diag_v40: FARPOST 139122082: https://www.farpost.ru/bulletin/139122082
+2026-11-11 05:29:59,870 [INFO] diag_v40: FARPOST 139122082: 13849 B, 4.2s, 404=True, title=Страница не найдена
+2026-11-11 05:30:03,026 [INFO] diag_v40: === V40 done 103.2s -> diag_v40_results.json (6718 B) ===
+2026-11-11 05:30:03,026 [INFO] diag_v40: --- SUMMARY ---
+2026-11-11 05:30:03,027 [INFO] diag_v40: OZON: {"1600562267": "PARSED", "229225961": "PARSED"}
+2026-11-11 05:30:03,027 [INFO] diag_v40: WB: {"api_199298871": "HTTP_403", "html_199298871": "CHALLENGE", "api_1252522762": "HTTP_403", "html_1252522762": "CHALLENGE"}
+2026-11-11 05:30:03,027 [INFO] diag_v40: AVITO: {"disc_0": "BLOCKED", "disc_1": "BLOCKED", "note": "?", "1096783029": "404"}
+2026-11-11 05:30:03,027 [INFO] diag_v40: FARPOST: {"137440009": "404", "137723592": "404", "139122082": "404"}

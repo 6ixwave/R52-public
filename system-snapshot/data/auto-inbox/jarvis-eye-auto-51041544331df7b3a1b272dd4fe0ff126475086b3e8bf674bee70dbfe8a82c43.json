@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Лото для малышей тактильное из дерева",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "ДЕСЯТОЕ КОРОЛЕВСТВО",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Лото для малышей - это уникальная игрушка, направленная на развитие мелкой моторики, визуальной и тактильной памяти.\n\nТактильная игра из дерева для детей завоевала огромную популярность, она станет отличным подарком для вашего ребенка\n\nЛото для детей учит внимательности, развивает базовый словарный запас, логическое мышление, кругозор и память.\n\nДетское лото для малышей, очень простая игра - доставайте фишки из мешочка и показывайте картинки - у кого есть такое изображение, тот забирает фишку себе.\n\nТактильные игрушки для малышей созданы с учетом методики раннего развития по системе Монтессори. Игру можно взять с собой в дорогу, поиграть в семейном кругу во время отдыха.\n\nДеревянный набор станет замечательным подарком на праздник.\nЛото детское состоит из: игральные фишки из дерева, карточки (игровое поле), мешочек.\n\nФишки для лото хорошо обработаны и размер специально разработан для малышей.\n\nИгра лото - это замечательный подарочный набор, который станет отличным сюрпризом для мальчика или для девочки от 2 лет. Она не только развлечет вашего ребенка, но также поможет ему развивать важные навыки через игру.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Игрушки > Настольные игры для детей",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 150000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "1500.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 55000,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "550.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Игрушки > Настольные игры для детей",
+    "source": "WB",
+    "id": "166403951",
+    "url": "https://www.wildberries.ru/catalog/166403951/detail.aspx",
+    "observed_at": "2026-11-16T17:04:59.066468+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

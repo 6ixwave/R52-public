@@ -1,0 +1,76 @@
+{
+  "ts": "2026-11-15T00:48:43",
+  "results": {
+    "FARPOST": {
+      "status": "PASS",
+      "rows": 5,
+      "prices": 5,
+      "details": [
+        {
+          "id": "137008403",
+          "price": "14000.00",
+          "minor": 1400000,
+          "cur": "RUB"
+        },
+        {
+          "id": "137008550",
+          "price": "14000.00",
+          "minor": 1400000,
+          "cur": "RUB"
+        },
+        {
+          "id": "22100",
+          "price": "55000.00",
+          "minor": 5500000,
+          "cur": "RUB"
+        },
+        {
+          "id": "64703623",
+          "price": "20000.00",
+          "minor": 2000000,
+          "cur": "RUB"
+        },
+        {
+          "id": "128926007",
+          "price": "39900.00",
+          "minor": 3990000,
+          "cur": "RUB"
+        }
+      ],
+      "elapsed": 4.4
+    },
+    "AVITO": {
+      "status": "PASS",
+      "rows": 3,
+      "prices_in_obs": 0,
+      "html_bytes": 13723,
+      "elapsed": 21.6
+    },
+    "WB": {
+      "status": "FAIL",
+      "endpoints": [
+        {
+          "host": "search.wb.ru",
+          "status": 403,
+          "bytes": 0
+        },
+        {
+          "host": "catalog.wb.ru",
+          "status": 403,
+          "bytes": 0
+        },
+        {
+          "host": "card.wb.ru",
+          "status": 403,
+          "bytes": 0
+        },
+        {
+          "host": "search+cookies",
+          "status": 403,
+          "bytes": 0
+        }
+      ],
+      "elapsed": 10.7
+    }
+  }
+}

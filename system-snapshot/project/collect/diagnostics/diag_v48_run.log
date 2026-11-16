@@ -1,0 +1,13 @@
+2026-11-11 07:04:01,761 [INFO] diag_v48: === diag_v48 START ===
+2026-11-11 07:04:01,761 [INFO] diag_v48: === FARPOST re-check ===
+2026-11-11 07:04:03,036 [INFO] diag_v48:   FP: 1.1s HTTP 200 jsonld=3 name=Датчик кислорода LYNXauto, арт. DM-2350
+2026-11-11 07:04:03,037 [INFO] diag_v48: === WB Playwright (WBAAS) ===
+2026-11-11 07:04:22,351 [INFO] diag_v48:   WB 199298871: 17.2s title=... wbaas=True jsonld=0 h1=Что-то не так... html=7590B
+2026-11-11 07:04:33,521 [INFO] diag_v48:   WB 314337853: 9.1s title=... wbaas=True jsonld=0 h1=Что-то не так... html=7590B
+2026-11-11 07:04:35,696 [INFO] diag_v48: === Ozon Playwright (Antibot) ===
+2026-11-11 07:04:52,229 [INFO] diag_v48:   Ozon: 15.8s title=Ткань для обивки мебели, Велюр с абстрактным принтом, отрез  antibot=False widgets=0 jsonld=1 html=1087146B
+2026-11-11 07:04:52,370 [INFO] diag_v48: === Avito Playwright (439) ===
+2026-11-11 07:05:03,812 [INFO] diag_v48:   Avito iphone-1154321987: 10.8s HTTP 439 ip_limit=True jsonld=0 h1=Страница не загрузилась из-за проблем с&nbsp;IP
+2026-11-11 07:05:16,364 [INFO] diag_v48:   Avito iphone-1198765432: 9.5s HTTP 429 ip_limit=True jsonld=0 h1=Страница не загрузилась из-за проблем с&nbsp;IP
+2026-11-11 07:05:19,495 [INFO] diag_v48: === diag_v48 DONE 77.7s ===
+2026-11-11 07:05:19,495 [INFO] diag_v48: Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v48_results.json (4796 B)

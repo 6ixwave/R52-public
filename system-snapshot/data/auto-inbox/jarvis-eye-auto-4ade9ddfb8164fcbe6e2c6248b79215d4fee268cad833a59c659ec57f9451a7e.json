@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Магний хелат бисглицинат (глицинат) В6 600 мг",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "4Me Nutrition",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Магний б6 хелат бисглицинат (глицинат) 600 мг - это высокобиодоступная форма магния в синергии с витамином B6. Магний в хелатной форме усваивается максимально эффективно и бережно для желудка.\n\nКомплекс магний в6 форте необходим для поддержки нервной системы при стрессе и повышенных нагрузках. Магний в6 для женщин помогает смягчить последствия стресса и эмоционального напряжения. Также он способствует расслаблению и помогает улучшить качество сна. Магний в6 для мужчин важен для восстановления после физических нагрузок, поддержки сердца.\n\nКлючевые преимущества: высокая дозировка 600 мг, форма магний хелат (бисглицинат), усиление действия витамином B6 (b6). Это оптимальный выбор для курсового приема в период напряженной работы, занятий спортом или для улучшения сна.\n\nБАД. Не является лекарственным средством.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Здоровье > БАДы",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 100000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "1000.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 39700,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "397.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Здоровье > БАДы",
+    "source": "WB",
+    "id": "657041903",
+    "url": "https://www.wildberries.ru/catalog/657041903/detail.aspx",
+    "observed_at": "2026-11-17T01:48:09.684879+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

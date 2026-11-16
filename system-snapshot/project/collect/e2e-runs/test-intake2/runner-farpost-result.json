@@ -1,0 +1,19 @@
+{
+  "source": "FARPOST",
+  "total_items": 1,
+  "collected": 0,
+  "failed": 1,
+  "files_written": 1,
+  "elapsed_sec": 0.5,
+  "collector_stats": {
+    "requests": 1,
+    "success": 0,
+    "failed": 1,
+    "blocked": 0
+  },
+  "proxy_stats": {
+    "total": 0,
+    "alive": 0,
+    "use_proxies": false
+  }
+}

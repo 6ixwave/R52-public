@@ -1,0 +1,64 @@
+{
+  "ts": "2026-11-12T12:48:43.849192+10:00",
+  "results": {
+    "WB": {
+      "verdict": "E2E_NO_PP",
+      "product_id": 8,
+      "title": "Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)",
+      "listing_id": "1097975275",
+      "last_regular_minor": null,
+      "last_lowest_minor": null,
+      "obs_count": 1,
+      "pp_count": 0,
+      "pp_sample": [],
+      "collector_status": "PARTIAL_SUCCESS",
+      "elapsed": 160.1
+    },
+    "OZON": {
+      "verdict": "COLLECT_NONE",
+      "elapsed": 110.9
+    },
+    "FARPOST": {
+      "verdict": "E2E_PASS",
+      "product_id": 9,
+      "title": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красноярске",
+      "listing_id": "139122082",
+      "last_regular_minor": 849900,
+      "last_lowest_minor": 849900,
+      "obs_count": 1,
+      "pp_count": 1,
+      "pp_sample": [
+        {
+          "id": 36,
+          "observation_id": 17,
+          "role": "regular",
+          "amount_minor": 849900,
+          "currency": "RUB",
+          "label": "data-bulletin-price"
+        }
+      ],
+      "collector_status": "PARTIAL_SUCCESS",
+      "elapsed": 2.8
+    },
+    "AVITO": {
+      "verdict": "COLLECT_NONE",
+      "elapsed": 30.5
+    }
+  },
+  "sqlite_snapshot": {
+    "product": {
+      "FARPOST": 1,
+      "OZON": 7,
+      "WB": 1
+    },
+    "observation": {
+      "FARPOST": 1,
+      "OZON": 15,
+      "WB": 1
+    },
+    "price_point": {
+      "FARPOST": 1,
+      "OZON": 35
+    }
+  }
+}

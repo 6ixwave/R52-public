@@ -1,0 +1,66 @@
+{
+  "time": "2026-11-12 17:18:34",
+  "baseline": {
+    "product": 0,
+    "observation": 0,
+    "price_point": 0,
+    "src_FARPOST_product": 0,
+    "src_FARPOST_obs": 0,
+    "src_FARPOST_pp": 0,
+    "src_WB_product": 0,
+    "src_WB_obs": 0,
+    "src_WB_pp": 0,
+    "src_OZON_product": 0,
+    "src_OZON_obs": 0,
+    "src_OZON_pp": 0,
+    "src_AVITO_product": 0,
+    "src_AVITO_obs": 0,
+    "src_AVITO_pp": 0
+  },
+  "results": {
+    "FARPOST": {
+      "verdict": "FAIL",
+      "seconds": 78.9,
+      "new_pp": 0,
+      "new_obs": 0,
+      "new_prod": 0,
+      "src_pp": 0,
+      "src_obs": 0,
+      "src_prod": 0,
+      "last_pp": []
+    },
+    "WB": {
+      "verdict": "PARTIAL",
+      "seconds": 175.7,
+      "new_pp": 0,
+      "new_obs": 1,
+      "new_prod": 1,
+      "src_pp": 0,
+      "src_obs": 1,
+      "src_prod": 1,
+      "last_pp": []
+    },
+    "OZON": {
+      "verdict": "FAIL",
+      "seconds": 116.6,
+      "new_pp": 0,
+      "new_obs": 1,
+      "new_prod": 1,
+      "src_pp": 0,
+      "src_obs": 0,
+      "src_prod": 0,
+      "last_pp": []
+    },
+    "AVITO": {
+      "verdict": "FAIL",
+      "seconds": 35.3,
+      "new_pp": 0,
+      "new_obs": 1,
+      "new_prod": 1,
+      "src_pp": 0,
+      "src_obs": 0,
+      "src_prod": 0,
+      "last_pp": []
+    }
+  }
+}

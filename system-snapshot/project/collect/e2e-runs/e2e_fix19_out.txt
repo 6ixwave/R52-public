@@ -1,0 +1,80 @@
+2026-11-12 12:48:44,187 [e2e19] ============================================================
+2026-11-12 12:48:44,187 [e2e19] WB: listing 1097975275 (iPhone 17 Pro Max)
+2026-11-12 12:48:44,188 [e2e19] ============================================================
+2026-11-12 12:48:44,188 [r52.collectors.proxy] Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 12:48:44,188 [r52.collectors.wb] WB: curl_cffi доступен (impersonate=chrome)
+2026-11-12 12:48:44,188 [e2e19] [WB] URL: https://www.wildberries.ru/catalog/1097975275/detail.aspx
+2026-11-12 12:50:47,520 [r52.collectors.wb] WB: vol=10979 -> basket-42.wbbasket.ru (nm_id=1097975275)
+2026-11-12 12:50:51,293 [r52.collectors.wb] WB 1097975275: card.json OK (21 keys, 10942B)
+2026-11-12 12:50:53,625 [r52.collectors.wb] WB 1097975275: price card_v1 -> 403
+2026-11-12 12:50:56,029 [r52.collectors.wb] WB 1097975275: price card_v2 -> 403
+2026-11-12 12:50:58,894 [r52.collectors.wb] WB 1097975275: price card_v4 -> 403
+2026-11-12 12:51:00,953 [r52.collectors.wb] WB 1097975275: price card_v5 -> 403
+2026-11-12 12:51:04,522 [r52.collectors.wb] WB 1097975275: price catalog_v1 -> 403
+2026-11-12 12:51:06,976 [r52.collectors.wb] WB 1097975275: price catalog_v2 -> 403
+2026-11-12 12:51:09,319 [r52.collectors.wb] WB 1097975275: price web_api -> 498
+2026-11-12 12:51:11,729 [r52.collectors.wb] WB 1097975275: price search_wb -> 403
+2026-11-12 12:51:11,729 [r52.collectors.wb] WB 1097975275: price — все эндпоинты не дали данных
+2026-11-12 12:51:24,286 [r52.collectors.wb] WB HTML: HTTP 498
+2026-11-12 12:51:24,286 [r52.collectors.wb] WB 1097975275: photo_count=5, found=1
+2026-11-12 12:51:24,286 [e2e19] [WB] collect: status=PARTIAL_SUCCESS title=Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM) prices=0 media=1
+2026-11-12 12:51:24,297 [r52.intake] Во входящие добавлен файл e2e19_WB_1097975275.json: PENDING 
+2026-11-12 12:51:24,297 [e2e19] [WB] stage: created=True status=PENDING err=None
+2026-11-12 12:51:24,308 [e2e19] [WB] accept: product_id=8 obs_created=True
+2026-11-12 12:51:24,310 [e2e19] [WB] VERDICT: E2E_NO_PP (pid=8, obs=1, pp=0, 160.1s)
+2026-11-12 12:51:24,311 [e2e19] ============================================================
+2026-11-12 12:51:24,311 [e2e19] OZON: listing 2067947177
+2026-11-12 12:51:24,311 [e2e19] ============================================================
+2026-11-12 12:51:24,311 [r52.collectors.proxy] Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 12:51:24,311 [e2e19] [OZON] URL: https://www.ozon.ru/product/2067947177/
+2026-11-12 12:51:25,053 [r52.collectors.ozon] OZON 2067947177: composer v2 error: Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-12 12:51:38,444 [r52.collectors.ozon] OZON 2067947177: 2067947177 -> HTTP 403
+2026-11-12 12:51:39,030 [r52.collectors.pw_fetch] PwFetcher: browser started (headless=True)
+2026-11-12 12:51:52,818 [r52.collectors.pw_fetch] PwFetcher: https://www.ozon.ru/product/2067947177/ -> 403 (3306B, 13.8s)
+2026-11-12 12:51:52,824 [r52.collectors.ozon] OZON 2067947177: PW status=403 len=3306
+2026-11-12 12:51:53,348 [r52.collectors] OZON: HTTP 403, retry 1/3 через 14с
+2026-11-12 12:52:09,393 [r52.collectors] OZON: HTTP 403, retry 2/3 через 24с
+2026-11-12 12:52:34,002 [r52.collectors] OZON: HTTP 403, retry 3/3 через 40с
+2026-11-12 12:53:15,221 [e2e19] [OZON] collect_product returned None
+2026-11-12 12:53:15,341 [e2e19] ============================================================
+2026-11-12 12:53:15,341 [e2e19] FARPOST: listing 139122082
+2026-11-12 12:53:15,341 [e2e19] ============================================================
+2026-11-12 12:53:15,341 [r52.collectors.proxy] Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 12:53:15,342 [e2e19] [FARPOST] URL: https://www.farpost.ru/vladivostok/139122082.html
+2026-11-12 12:53:16,708 [r52.collectors.farpost] FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 12:53:18,083 [e2e19] [FARPOST] collect: status=PARTIAL_SUCCESS title=Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красн prices=1 media=1
+2026-11-12 12:53:18,093 [r52.intake] Во входящие добавлен файл e2e19_FARPOST_139122082.json: PENDING 
+2026-11-12 12:53:18,093 [e2e19] [FARPOST] stage: created=True status=PENDING err=None
+2026-11-12 12:53:18,104 [e2e19] [FARPOST] accept: product_id=9 obs_created=True
+2026-11-12 12:53:18,108 [e2e19] [FARPOST] VERDICT: E2E_PASS (pid=9, obs=1, pp=1, 2.8s)
+2026-11-12 12:53:18,108 [e2e19] ============================================================
+2026-11-12 12:53:18,108 [e2e19] AVITO: поиск реального объявления
+2026-11-12 12:53:18,108 [e2e19] ============================================================
+2026-11-12 12:53:18,108 [r52.collectors.proxy] Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 12:53:18,108 [e2e19] AVITO: search https://www.avito.ru/moskva/smartfony-i-telefony
+2026-11-12 12:53:19,354 [e2e19] AVITO: search HTTP 439, len=14382
+2026-11-12 12:53:21,355 [e2e19] AVITO: search https://www.avito.ru/leningradskaya/smartfony-i-telefony
+2026-11-12 12:53:21,522 [e2e19] AVITO: search HTTP 439, len=14382
+2026-11-12 12:53:23,523 [e2e19] AVITO: search https://www.avito.ru/krasnodar/smartfony-i-telefony
+2026-11-12 12:53:30,271 [e2e19] AVITO: search HTTP 439, len=14382
+2026-11-12 12:53:32,272 [e2e19] AVITO: mobile search https://m.avito.ru/moskva/smartfony-i-telefony
+2026-11-12 12:53:33,218 [e2e19] AVITO: mobile HTTP 403, len=8601
+2026-11-12 12:53:33,218 [e2e19] AVITO: API search
+2026-11-12 12:53:35,753 [e2e19] AVITO: API HTTP 439, len=14382
+2026-11-12 12:53:35,753 [e2e19] AVITO: no ID found, using fallback 1097975275 (may 404)
+2026-11-12 12:53:35,753 [e2e19] AVITO: using ID=1097975275
+2026-11-12 12:53:35,753 [e2e19] [AVITO] URL: https://www.avito.ru/ad/1097975275
+2026-11-12 12:53:35,896 [r52.collectors.avito] AVITO 1097975275: www.avito.ru -> HTTP 404
+2026-11-12 12:53:48,398 [r52.collectors.avito] AVITO 1097975275: m.avito.ru -> HTTP 404
+2026-11-12 12:54:05,884 [urllib3.connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /ad/1097975275
+2026-11-12 12:54:06,287 [e2e19] [AVITO] collect_product returned None
+2026-11-12 12:54:06,287 [e2e19] ============================================================
+2026-11-12 12:54:06,287 [e2e19] E2E FIX19 SUMMARY
+2026-11-12 12:54:06,287 [e2e19] ============================================================
+2026-11-12 12:54:06,287 [e2e19]   [FAIL] WB: E2E_NO_PP (pid=8, obs=1, pp=0, 160.1s)
+2026-11-12 12:54:06,287 [e2e19]   [FAIL] OZON: COLLECT_NONE (pid=None, obs=None, pp=None, 110.9s)
+2026-11-12 12:54:06,287 [e2e19]   [PASS] FARPOST: E2E_PASS (pid=9, obs=1, pp=1, 2.8s)
+2026-11-12 12:54:06,287 [e2e19]   [FAIL] AVITO: COLLECT_NONE (pid=None, obs=None, pp=None, 30.5s)
+2026-11-12 12:54:06,291 [e2e19] SQLite: {"product": {"FARPOST": 1, "OZON": 7, "WB": 1}, "observation": {"FARPOST": 1, "OZON": 15, "WB": 1}, "price_point": {"FARPOST": 1, "OZON": 35}}
+2026-11-12 12:54:06,292 [e2e19] Result → C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e_fix19_result.json
+2026-11-12 12:54:06,292 [e2e19] DONE

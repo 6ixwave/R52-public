@@ -1,0 +1,145 @@
+======================================================================
+WB: chrome124 + Referer + HTTP/1.1 + wbx-content
+======================================================================
+
+[WB card chrome124 199298871]
+  403 | 0B
+
+[WB card chrome120 199298871]
+  403 | 0B
+
+[WB card chrome116 199298871]
+  403 | 0B
+
+[WB HTML chrome124 199298871]
+  498 | 1136B
+
+[WB HTML chrome124 314337853]
+  498 | 1136B
+
+[WB wbx wbx-content-v2.wbstatic.net 199298871]
+  ERROR: DNSError: Failed to perform, curl: (6) Could not resolve host: wbx-content-v2.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors
+
+[WB wbx wbx-content-v1.wbstatic.net 199298871]
+  ERROR: DNSError: Failed to perform, curl: (6) Could not resolve host: wbx-content-v1.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors
+
+[WB catalog search 199298871]
+  403 | 0B
+
+[WB sp.wb.ru]
+  ERROR: DNSError: Failed to perform, curl: (6) Could not resolve host: sp.wb.ru (DNS server returned answer with no data). See https://curl.se/libcurl/c/libcurl-errors.
+
+[WB api.wb.ru]
+  ERROR: DNSError: Failed to perform, curl: (6) Could not resolve host: api.wb.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for mo
+
+[WB wbx-content-v2.wbstatic.net]
+  ERROR: DNSError: Failed to perform, curl: (6) Could not resolve host: wbx-content-v2.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors
+
+======================================================================
+OZON: verify=False + entrypoint + composer
+======================================================================
+
+[Ozon main]
+  403 | 9919B
+
+[Ozon product 3349505344]
+  403 | 10311B
+  Body: 
+
+    
+
+
+<!DOCTYPE html><html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=
+
+[Ozon product 2718589061]
+  403 | 10287B
+  Body: 
+
+    
+
+
+<!DOCTYPE html><html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=
+
+[Ozon entrypoint 3349505344]
+  403 | 10427B
+
+[Ozon composer 3349505344]
+  403 | 1097B
+
+[Ozon mobile 3349505344]
+  403 | 8216B
+
+======================================================================
+AVITO: задержки + X-Requested-With + API
+======================================================================
+
+[Avito main]
+  439 | 14889B
+
+[Avito 7345810001]
+  439 | 14889B
+  Body: <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.
+
+[Avito 7201234567]
+  439 | 14889B
+  Body: <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.
+
+[Avito API 7345810001]
+  /api/v1/items/7345810001: 404 | 555B
+  /api/items/7345810001: 404 | 555B
+  /vladivostok/api/items/7345810001: 439 | 179B
+
+[Avito mobile 7345810001]
+  403 | 9043B
+
+======================================================================
+DIAG v2 SUMMARY
+======================================================================
+
+WB:
+  {'id': '199298871', 'method': 'card_chrome124', 'status': 403}
+  {'id': '199298871', 'method': 'card_chrome120', 'status': 403}
+  {'id': '199298871', 'method': 'card_chrome116', 'status': 403}
+  {'id': '199298871', 'method': 'html_chrome124', 'status': 498}
+  {'id': '314337853', 'method': 'html_chrome124', 'status': 498}
+  {'id': '199298871', 'method': 'wbx_wbx-content-v2.wbstatic.net', 'status': 'Failed to perform, curl: (6) Could not resolve host: wbx-content-v2.wbstatic.net'}
+  {'id': '199298871', 'method': 'wbx_wbx-content-v1.wbstatic.net', 'status': 'Failed to perform, curl: (6) Could not resolve host: wbx-content-v1.wbstatic.net'}
+  {'id': '199298871', 'method': 'catalog_search', 'status': 403}
+  {'target': 'sp.wb.ru', 'method': 'root', 'status': 'Failed to perform, curl: (6) Could not resolve host: sp.wb.ru (DNS server return'}
+  {'target': 'api.wb.ru', 'method': 'root', 'status': 'Failed to perform, curl: (6) Could not resolve host: api.wb.ru (Domain name not '}
+  {'target': 'wbx-content-v2.wbstatic.net', 'method': 'root', 'status': 'Failed to perform, curl: (6) Could not resolve host: wbx-content-v2.wbstatic.net'}
+
+OZON:
+  {'target': 'main', 'status': 403}
+  {'id': '3349505344', 'method': 'html', 'status': 403}
+  {'id': '2718589061', 'method': 'html', 'status': 403}
+  {'id': '3349505344', 'method': 'entrypoint', 'status': 403}
+  {'id': '3349505344', 'method': 'composer', 'status': 403}
+  {'id': '3349505344', 'method': 'mobile', 'status': 403}
+
+AVITO:
+  {'target': 'main', 'status': 439}
+  {'id': '7345810001', 'method': 'html', 'status': 439}
+  {'id': '7201234567', 'method': 'html', 'status': 439}
+  {'id': '7345810001', 'method': 'api', 'path': '/api/v1/items/7345810001', 'status': 404}
+  {'id': '7345810001', 'method': 'api', 'path': '/api/items/7345810001', 'status': 404}
+  {'id': '7345810001', 'method': 'api', 'path': '/vladivostok/api/items/7345810001', 'status': 439}
+  {'id': '7345810001', 'method': 'mobile', 'status': 403}
+
+Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_all_v2_results.json

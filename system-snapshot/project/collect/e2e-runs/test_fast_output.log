@@ -1,0 +1,66 @@
+C:\Users\aleks\Downloads\R52-2.12\R52-2.12\test_fast.py:10: SyntaxWarning: "\P" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\P"? A raw string is also an option.
+  cmd /c "C:\Python315\python.exe -u test_fast.py > test_fast_output.log 2>&1 & echo EXIT=%ERRORLEVEL%"
+
+============================================================
+WILDBERRIES (2 cards)
+============================================================
+01:40:14 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+01:40:15 [r52.collectors.wb] INFO: WB: curl_cffi доступен (impersonate=chrome)
+
+--- WB 259671175 (https://www.wildberries.ru/catalog/259671175/detail.aspx) ---
+01:40:36 [r52.collectors.wb] WARNING: WB 259671175: basket host not found vol=2596 (scanned 1-15)
+01:40:36 [r52.collectors.wb] WARNING: WB 259671175: basket host не найден
+01:40:38 [r52.collectors.wb] INFO: WB 259671175: price card_v1 -> 403
+01:40:39 [r52.collectors.wb] INFO: WB 259671175: price card_v2 -> 403
+01:40:41 [r52.collectors.wb] INFO: WB 259671175: price card_v4 -> 403
+01:40:42 [r52.collectors.wb] INFO: WB 259671175: price card_v5 -> 403
+01:40:44 [r52.collectors.wb] INFO: WB 259671175: price web_api -> 498
+01:40:44 [r52.collectors.wb] INFO: WB 259671175: price — все эндпоинты не дали данных
+01:40:46 [r52.collectors.wb] INFO: WB HTML: HTTP 498
+  [31.3s] status=DEGRADED title=WB-259671175
+  prices=0 media=0 avail=UNKNOWN
+  saved -> testf_wb_259671175.json
+
+--- WB 199298871 (https://www.wildberries.ru/catalog/199298871/detail.aspx) ---
+01:41:05 [r52.collectors.wb] INFO: WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+01:41:07 [r52.collectors.wb] INFO: WB 199298871: card.json OK (24 keys, 9623B)
+01:41:08 [r52.collectors.wb] INFO: WB 199298871: price card_v1 -> 403
+01:41:10 [r52.collectors.wb] INFO: WB 199298871: price card_v2 -> 403
+01:41:11 [r52.collectors.wb] INFO: WB 199298871: price card_v4 -> 403
+01:41:13 [r52.collectors.wb] INFO: WB 199298871: price card_v5 -> 403
+01:41:14 [r52.collectors.wb] INFO: WB 199298871: price web_api -> 498
+01:41:14 [r52.collectors.wb] INFO: WB 199298871: price — все эндпоинты не дали данных
+01:41:16 [r52.collectors.wb] INFO: WB HTML: HTTP 498
+01:41:16 [r52.collectors.wb] INFO: WB 199298871: photo_count=6, found=1
+01:41:16 [r52.collectors.wb] INFO: WB 199298871: has_video=true, видео не найдено
+  [30.5s] status=PARTIAL_SUCCESS title=Овсяный смарт коктейль для похудения без сахара
+  prices=0 media=1 avail=UNKNOWN
+    M: image https://basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg
+  category: Продукты > Коктейли злаковые
+  saved -> testf_wb_199298871.json
+
+WB stats: {'requests': 41, 'success': 2, 'failed': 27, 'blocked': 12}
+
+============================================================
+FARPOST (2 bulletins)
+============================================================
+01:41:16 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+
+--- FP 130693618 (https://www.farpost.ru/bulletin/130693618) ---
+01:41:18 [r52.collectors.farpost] INFO: FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+  [2.3s] RESULT=None
+
+--- FP 136342005 (https://www.farpost.ru/bulletin/136342005) ---
+  [2.0s] RESULT=None
+
+FP stats: {'requests': 2, 'success': 0, 'failed': 2, 'blocked': 0}
+
+============================================================
+SUMMARY
+============================================================
+  WB-259671175: DEGRADED
+  WB-199298871: PARTIAL_SUCCESS
+  FP-130693618: NONE
+  FP-136342005: NONE
+
+TEST FAST DONE

@@ -1,0 +1,57 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 02:07:31,732 r52.autocollect.worker INFO phase=worker_start pid=17624
+2026-11-15 02:07:31,743 r52.autocollect.worker INFO source=OZON mode=refresh phase=initialize
+2026-11-15 02:07:31,743 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 02:07:31,743 r52.autocollect.worker INFO source=OZON proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-15 02:07:31,743 r52.autocollect.worker INFO source=OZON listing=2067947177 phase=collect_product_start
+2026-11-15 02:07:33,352 r52.collectors.ozon INFO OZON 2067947177: v2 -> HTTP 403
+2026-11-15 02:07:51,145 r52.collectors.ozon INFO OZON 2067947177: 2067947177 -> HTTP 403
+2026-11-15 02:08:03,638 r52.collectors.ozon INFO OZON 2067947177: v2 -> HTTP 403
+2026-11-15 02:08:04,484 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True, proxy=no)
+2026-11-15 02:08:18,143 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/2067947177/ -> 403 (3306B, 13.7s)
+2026-11-15 02:08:18,147 r52.collectors.ozon INFO OZON 2067947177: PW status=403 len=3306
+2026-11-15 02:08:21,430 r52.collectors.ozon INFO OZON 2067947177: cffi HTTP status=403 len=8371
+Timeout (0:01:00)!
+Thread 0x00001f90 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000078e8 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 117 in fetch
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 175 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\ozon.py", line 383 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 02:08:37,550 r52.collectors INFO OZON: HTTP 403, retry 1/3 через 11с
+2026-11-15 02:08:55,352 r52.collectors INFO OZON: HTTP 403, retry 2/3 через 25с
+2026-11-15 02:09:20,154 r52.collectors INFO OZON: HTTP 403, retry 3/3 через 42с
+Timeout (0:01:00)!
+Thread 0x00001f90 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000078e8 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 139 in fetch
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 175 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\ozon.py", line 383 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-15 02:10:03,311 r52.autocollect.worker INFO source=OZON listing=2067947177 phase=collect_product_return status=NO_RESULT
+2026-11-15 02:10:03,312 r52.autocollect.worker WARNING source=OZON listing=2067947177 result=NO_RESULT remaining_not_attempted=['2981756238', '2080175880', '4967472276', '3857979344']
+2026-11-15 02:10:03,312 r52.autocollect.worker INFO source=OZON phase=write_start returned=0 valid=0 stats={'requests': 5, 'success': 0, 'failed': 1, 'blocked': 1}
+2026-11-15 02:10:03,314 r52.autocollect.worker INFO source=OZON phase=write_complete files=0
+2026-11-15 02:10:03,314 r52.autocollect.worker INFO source=OZON phase=close_start
+2026-11-15 02:10:03,466 r52.autocollect.worker INFO source=OZON phase=close_complete

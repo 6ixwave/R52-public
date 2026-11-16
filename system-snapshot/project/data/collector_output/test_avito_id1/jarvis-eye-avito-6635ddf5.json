@@ -1,0 +1,16 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "AVITO",
+  "observation": {
+    "source": "AVITO",
+    "id": "1050000000",
+    "url": "https://www.avito.ru/ad/1050000000",
+    "status": "FAILED",
+    "error": "parse_returned_none",
+    "observed_at": "2026-11-13T07:45:20.213395+10:00",
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

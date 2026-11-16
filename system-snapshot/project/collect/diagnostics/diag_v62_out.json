@@ -1,0 +1,106 @@
+{
+  "ozon_category": {
+    "error": "'str' object has no attribute 'write_text'"
+  },
+  "farpost_category": {
+    "error": "'str' object has no attribute 'write_text'"
+  },
+  "wb_card_api": {
+    "url": "https://card.wb.ru/cards/v2/detail?nm=199298871",
+    "status": 403,
+    "len": 0,
+    "snippet": ""
+  },
+  "wb_basket": [
+    {
+      "host": "basket-21",
+      "url": "https://basket-21.wbbasket.ru/vol19/part92/199298871/info/ru/card.json",
+      "status": 404,
+      "len": 196,
+      "snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>"
+    },
+    {
+      "host": "basket-22",
+      "url": "https://basket-22.wbbasket.ru/vol19/part92/199298871/info/ru/card.json",
+      "status": 404,
+      "len": 196,
+      "snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>"
+    },
+    {
+      "host": "basket-23",
+      "url": "https://basket-23.wbbasket.ru/vol19/part92/199298871/info/ru/card.json",
+      "status": 404,
+      "len": 196,
+      "snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>"
+    },
+    {
+      "host": "basket-24",
+      "url": "https://basket-24.wbbasket.ru/vol19/part92/199298871/info/ru/card.json",
+      "status": 404,
+      "len": 196,
+      "snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>"
+    },
+    {
+      "host": "basket-25",
+      "url": "https://basket-25.wbbasket.ru/vol19/part92/199298871/info/ru/card.json",
+      "status": 404,
+      "len": 196,
+      "snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>"
+    },
+    {
+      "host": "basket-26",
+      "url": "https://basket-26.wbbasket.ru/vol19/part92/199298871/info/ru/card.json",
+      "status": 404,
+      "len": 196,
+      "snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>"
+    },
+    {
+      "host": "basket-27",
+      "url": "https://basket-27.wbbasket.ru/vol19/part92/199298871/info/ru/card.json",
+      "status": 404,
+      "len": 196,
+      "snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>"
+    },
+    {
+      "host": "basket-28",
+      "url": "https://basket-28.wbbasket.ru/vol19/part92/199298871/info/ru/card.json",
+      "status": 404,
+      "len": 196,
+      "snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>"
+    }
+  ],
+  "avito": {
+    "rss": {
+      "url": "https://www.avito.ru/rss/moskva/telefony",
+      "status": 404,
+      "len": 29440,
+      "snippet": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>Ошибка 404. Страница не найдена</title>\n\n        <link rel=\"shortcut icon\" href=\"/dstatic/favicon.ico\" type=\"image/x-icon\" crossorigin=\"anonymous\">\n\n        <style>\n            body {\n                display: flex;\n                flex-direction: column;\n                min-height: 100vh;\n                margin: 0;\n          "
+    },
+    "m_api": {
+      "url": "https://m.avito.ru/api/v1/ads?city=moskva&category=telefony&limit=5",
+      "status": 404,
+      "len": 555,
+      "snippet": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.6</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a paddin"
+    },
+    "ad_accept_text/html": {
+      "status": 439,
+      "len": 14382,
+      "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Доступ ограничен: проверка безопасности</title>\n    <style>\n        html,\n        b"
+    },
+    "ad_accept_application/json": {
+      "status": 439,
+      "len": 179,
+      "snippet": "{\"pow_challenge\":\"rJ47ep6dRdSq139mqsuAhpMVnCcW9sH7fsr40zLK7jA1kedgwnouFiNN8l/2G5U1QlXtMVmX35GU2se3eiJIbwPTK1cnuI+Ry7oID3MIZbysaGnBiZJ4pxsl1L/25914j6HxQxPBHqrg5V+EoHphJMzRHqb9Sw\"}\n"
+    },
+    "ad_accept_*/*": {
+      "status": 439,
+      "len": 14382,
+      "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Доступ ограничен: проверка безопасности</title>\n    <style>\n        html,\n        b"
+    },
+    "ad_full_browser": {
+      "status": 439,
+      "len": 14382,
+      "snippet": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Доступ ограничен: проверка безопасности</title>\n    <style>\n        html,\n        body { height: 100%; }\n\n        body {\n            background-color: #fff;\n            color: #000;\n            margin: 0;\n        }\n\n        .firewall__title {\n            font-size: 32px;\n           "
+    }
+  }
+}

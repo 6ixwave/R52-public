@@ -1,0 +1,41 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "AVITO",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "AVITO-24896637",
+        "method": "SEARCH_HTML",
+        "evidence": {
+          "method": "SEARCH_HTML",
+          "source": "AVITO"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://www.avito.st/dstatic/build/client/ru-RU/47bcb0-favorite-collections-integration.231f19cf26ef93d9.js",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "AVITO",
+    "id": "24896637",
+    "listing_id": "24896637",
+    "title": "AVITO-24896637",
+    "url": "https://www.avito.ru/ad/24896637",
+    "observed_at": "2026-11-16T05:13:48.293460+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

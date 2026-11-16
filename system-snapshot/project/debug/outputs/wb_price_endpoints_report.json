@@ -1,0 +1,43 @@
+{
+  "card_v1": {
+    "status": 403,
+    "has_price": false
+  },
+  "card_v2": {
+    "status": 403,
+    "has_price": false
+  },
+  "card_v4": {
+    "status": 403,
+    "has_price": false
+  },
+  "card_v5": {
+    "status": 403,
+    "has_price": false
+  },
+  "catalog_v1": {
+    "status": 403,
+    "has_price": false
+  },
+  "catalog_v2": {
+    "status": 403,
+    "has_price": false
+  },
+  "web_api": {
+    "status": 498,
+    "has_price": false
+  },
+  "search_wb": {
+    "status": 403,
+    "has_price": false
+  },
+  "search_v2": {
+    "status": 403,
+    "has_price": false
+  },
+  "api_cards": {
+    "status": "EXC",
+    "has_price": false,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.wb.ru (Domain name not found). See https://"
+  }
+}

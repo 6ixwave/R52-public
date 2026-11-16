@@ -1,0 +1,99 @@
+{
+  "ts": "2026-11-12T16:11:05.850595+00:00",
+  "product_id": "1005011813323763",
+  "phase": "merge",
+  "track_a": {
+    "status": "done",
+    "detail": {
+      "tmd_frame": true,
+      "google_frame": true,
+      "grecaptcha_ready": false,
+      "clicked": true,
+      "token_found": false,
+      "elapsed_ms": 30325
+    }
+  },
+  "track_b": {
+    "status": "done",
+    "detail": {
+      "html_len": 279960,
+      "og_title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+      "og_image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+      "inline_found": {
+        "runParams": "{\n                    };\n        window._d_c_ = window._d_c_ || {};\n        window._d_c_.viewName = 'newDetail';\n        window._d_c_.isCSR = true;\n                            window._d_c_.DCData = {\"extParams\":{\"foreverRandomToken\":\"[REDACTED_AUTH_SECRET]\",\"site\":\"ita\",\"crawler\":false,\"x-m-biz-bx-region\":\"\",\"signedIn\":false,\"host\":\"it.aliexpress.com\"},\"features\":{},\"i18nMap\":{\"VIEW_MORE\":\"VEDERE PIÙ\",\"ASK_BUYERS\":\"Domande & Risposte dell'acquirente\",\"PAGE_NOT_FOUND_NOTICE\":\"Spiacenti,"
+      },
+      "json_ld": [],
+      "prices_regex": [],
+      "dom": {
+        "priceTexts": [],
+        "h1": "",
+        "images": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sf826fda986cb463ca56efc2c5dcbdc9af.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S7a80d404b9df494b8c3b251efbac0b64M.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S14bdb58e79a74c9baf6e289cd745f7b5J.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sc254f5113e4a47fe823f9a8831ffaf70y.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S676b26003f3a4bfdbcb5453ce10d19f8R.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_960x960q75.jpg_.avif"
+        ],
+        "breadcrumbs": []
+      }
+    }
+  },
+  "track_c": {
+    "status": "done",
+    "detail": {
+      "url": "https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita",
+      "title": "",
+      "html_len": 279956,
+      "tmd_iframes": 1,
+      "data": {
+        "title": "",
+        "h1": "",
+        "prices": [],
+        "images": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sf826fda986cb463ca56efc2c5dcbdc9af.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S7a80d404b9df494b8c3b251efbac0b64M.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S14bdb58e79a74c9baf6e289cd745f7b5J.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sc254f5113e4a47fe823f9a8831ffaf70y.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S676b26003f3a4bfdbcb5453ce10d19f8R.jpg_220x220q75.jpg_.avif",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_960x960q75.jpg_.avif"
+        ],
+        "stock": "",
+        "runParams": "{}",
+        "_dida": null
+      },
+      "status": "ok"
+    }
+  },
+  "final_data": {
+    "title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+    "price": "",
+    "currency": "",
+    "stock": "",
+    "category": "",
+    "seller": "",
+    "images": [
+      "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sf826fda986cb463ca56efc2c5dcbdc9af.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S7a80d404b9df494b8c3b251efbac0b64M.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S14bdb58e79a74c9baf6e289cd745f7b5J.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sc254f5113e4a47fe823f9a8831ffaf70y.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S676b26003f3a4bfdbcb5453ce10d19f8R.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_960x960q75.jpg_.avif"
+    ],
+    "sku_count": 0,
+    "source": "meta_og"
+  },
+  "errors": []
+}

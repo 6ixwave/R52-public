@@ -1,0 +1,57 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "EDIFIER W800BT SE Cuffie Wireless Over-Ear Bluetooth 5.4 con Cancellazione del Rumore AI per Chiamate, 45 Ore di Autonomia, Ricarica Rapida, Connessione a Doppio Dispositivo, Bassa Latenza, Modalità Gaming, Pieghevoli",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "47.65",
+        "amount_minor": 4765,
+        "currency": "RUB",
+        "visible_label": "47.65 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "31.09",
+        "amount_minor": 3109,
+        "currency": "RUB",
+        "visible_label": "31.09 RUB"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005012296880178",
+    "url": "https://ru.aliexpress.com/item/1005012296880178.html",
+    "observed_at": "2026-11-13T07:55:54.351649+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

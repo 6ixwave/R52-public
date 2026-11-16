@@ -1,0 +1,154 @@
+
+############################################################
+# WARM-UP: main page
+############################################################
+
+============================================================
+[WB main page] https://www.wildberries.ru/
+  Status: 498, 1136 bytes, 0.8s, CT=text/html
+  Body: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="26316f88199709d2a6cff6d6d02d8ceb" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Dat
+  Warm-up failed, trying without session
+
+############################################################
+# card.wb.ru with session
+############################################################
+
+============================================================
+[card v2 session 199298871] https://card.wb.ru/cards/v2/detail
+  params: {'nm': '199298871'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: (empty)
+
+============================================================
+[card v2 session 314337853] https://card.wb.ru/cards/v2/detail
+  params: {'nm': '314337853'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: (empty)
+
+############################################################
+# Mobile site m.wildberries.ru
+############################################################
+
+============================================================
+[WB mobile 199298871] https://m.wildberries.ru/catalog/199298871/detail.aspx
+  ERROR (0.6s): DNSError: Failed to perform, curl: (6) Could not resolve host: m.wildberries.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+============================================================
+[WB mobile 314337853] https://m.wildberries.ru/catalog/314337853/detail.aspx
+  ERROR (0.5s): DNSError: Failed to perform, curl: (6) Could not resolve host: m.wildberries.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+############################################################
+# wbx-content-v2.wbstatic.net
+############################################################
+
+============================================================
+[wbx-content 199298871] https://wbx-content-v2.wbstatic.net/ru/199298871/
+  ERROR (1.5s): DNSError: Failed to perform, curl: (6) Could not resolve host: wbx-content-v2.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+============================================================
+[wbx-content 314337853] https://wbx-content-v2.wbstatic.net/ru/314337853/
+  ERROR (0.5s): DNSError: Failed to perform, curl: (6) Could not resolve host: wbx-content-v2.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+############################################################
+# static-basket wbbasket.ru (correct domain)
+############################################################
+
+============================================================
+[basket01 img 199298871] https://static-basket-01.wbbasket.ru/v2/images/s100/199298871
+  Status: 404, 0 bytes, 0.9s, CT=?
+  Body: (empty)
+
+============================================================
+[basket02 img 199298871] https://static-basket-02.wbbasket.ru/v2/images/s100/199298871
+  Status: 404, 0 bytes, 0.9s, CT=?
+  Body: (empty)
+
+============================================================
+[basket03 img 199298871] https://static-basket-03.wbbasket.ru/v2/images/s100/199298871
+  Status: 404, 0 bytes, 1.0s, CT=?
+  Body: (empty)
+
+============================================================
+[basket04 img 199298871] https://static-basket-04.wbbasket.ru/v2/images/s100/199298871
+  ERROR (1.4s): DNSError: Failed to perform, curl: (6) Could not resolve host: static-basket-04.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+############################################################
+# Different impersonation: safari, edge, firefox
+############################################################
+
+============================================================
+[card v2 safari 199298871] https://card.wb.ru/cards/v2/detail
+  params: {'nm': '199298871'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: (empty)
+
+============================================================
+[card v2 edge 199298871] https://card.wb.ru/cards/v2/detail
+  params: {'nm': '199298871'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: (empty)
+
+============================================================
+[card v2 firefox 199298871] https://card.wb.ru/cards/v2/detail
+  params: {'nm': '199298871'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: (empty)
+
+############################################################
+# catalog.wb.ru/v1/catalog
+############################################################
+
+============================================================
+[catalog v1] https://catalog.wb.ru/v1/catalog
+  params: {'root': '1', 'nm': '199298871'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: (empty)
+
+############################################################
+# wb.ru / api endpoints
+############################################################
+
+============================================================
+[wb api detail 199298871] https://www.wildberries.ru/api/catalog/199298871/detail
+  Status: 498, 1136 bytes, 0.8s, CT=text/html
+  Body: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="ddb0de5169b234fa1d414eeb58a43e29" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Dat
+
+============================================================
+[wb api detail 314337853] https://www.wildberries.ru/api/catalog/314337853/detail
+  Status: 498, 1136 bytes, 0.8s, CT=text/html
+  Body: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="fe1d43de90747328a9c2a0e47cbf1d19" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Dat
+
+############################################################
+# Force Accept: application/json
+############################################################
+
+============================================================
+[card v2 JSON accept 199298871] https://card.wb.ru/cards/v2/detail
+  params: {'nm': '199298871'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: (empty)
+
+============================================================
+[card v2 JSON accept 314337853] https://card.wb.ru/cards/v2/detail
+  params: {'nm': '314337853'}
+  Status: 403, 0 bytes, 0.8s, CT=text/plain
+  Body: (empty)
+
+============================================================
+WB v3 SUMMARY:
+  {'id': '199298871', 'method': 'card_v2_session', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'card_v2_session', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'mobile', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'mobile', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'wbx_content', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'wbx_content', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'card_safari', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'card_edge', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'card_firefox', 'status': 'FAIL'}
+  {'id': 'catalog', 'method': 'catalog_v1', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'wb_api_detail', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'wb_api_detail', 'status': 'FAIL'}
+  {'id': '199298871', 'method': 'card_json_accept', 'status': 'FAIL'}
+  {'id': '314337853', 'method': 'card_json_accept', 'status': 'FAIL'}
+
+Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_wb_v3_results.json

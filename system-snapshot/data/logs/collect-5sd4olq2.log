@@ -1,0 +1,114 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:03:30,081 r52.autocollect.worker INFO phase=worker_start pid=28248
+2026-11-16 04:03:30,101 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-16 04:03:30,104 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-16 04:03:30,106 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-16 04:03:30,106 r52.autocollect.worker INFO source=WB proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-16 04:03:30,111 r52.autocollect.worker INFO source=WB listing=26950668 phase=collect_product_start
+2026-11-16 04:03:32,046 r52.collectors.wb INFO WB warmup www.wildberries.ru failed: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:03:33,358 r52.collectors.wb INFO WB warmup catalog.wb.ru failed: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:03:35,111 r52.collectors.wb INFO WB 26950668: basket=2 (vol=269) ms=1752
+2026-11-16 04:03:36,035 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=10743 ms=923 url=https://basket-02.wbbasket.ru/vol269/part26950/26950668/info/ru/card.json
+2026-11-16 04:03:36,035 r52.collectors.wb INFO WB 26950668: card.json OK (26 keys, 10743B)
+2026-11-16 04:03:39,958 r52.collectors.wb WARNING WB cffi error https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=26: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:03:43,676 r52.collectors.wb WARNING WB cffi error https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:03:46,040 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=26950668: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:03:48,787 r52.collectors.wb WARNING WB cffi error https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:03:48,788 r52.collectors.wb INFO WB 26950668: price — все эндпоинты не дали данных
+2026-11-16 04:04:04,394 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/catalog/26950668/detail.aspx: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:04:04,395 r52.collectors.wb INFO WB 26950668: photo_count=18, found=1
+2026-11-16 04:04:04,395 r52.collectors.wb INFO WB 26950668: has_video=true, видео не найдено
+2026-11-16 04:04:04,395 r52.autocollect.worker INFO source=WB listing=26950668 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:04:04,395 r52.autocollect.worker INFO source=WB listing=14890618 phase=collect_product_start
+2026-11-16 04:04:05,894 r52.collectors.wb INFO WB 14890618: basket=2 (vol=148) ms=1498
+2026-11-16 04:04:06,424 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=8463 ms=124 url=https://basket-02.wbbasket.ru/vol148/part14890/14890618/info/ru/card.json
+2026-11-16 04:04:06,424 r52.collectors.wb INFO WB 14890618: card.json OK (33 keys, 8463B)
+2026-11-16 04:04:12,185 r52.collectors.wb WARNING WB cffi error https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=14: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:04:16,125 r52.collectors.wb WARNING WB cffi error https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:04:19,781 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=14890618: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:04:22,688 r52.collectors.wb WARNING WB cffi error https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:04:22,688 r52.collectors.wb INFO WB 14890618: price — все эндпоинты не дали данных
+Timeout (0:01:00)!
+Thread 0x00001a3c [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000018e4 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 178 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 455 in _fetch_html
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 254 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 04:04:32,061 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/catalog/14890618/detail.aspx: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:04:32,061 r52.collectors.wb INFO WB 14890618: photo_count=22, found=1
+2026-11-16 04:04:32,061 r52.collectors.wb INFO WB 14890618: has_video=true, видео не найдено
+2026-11-16 04:04:32,061 r52.autocollect.worker INFO source=WB listing=14890618 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:04:32,061 r52.autocollect.worker INFO source=WB listing=1475428055 phase=collect_product_start
+2026-11-16 04:04:45,850 r52.collectors.wb WARNING WB 1475428055: basket NOT found for vol=14754 (31 candidates, ms=13788)
+2026-11-16 04:04:45,850 r52.collectors.wb WARNING WB 1475428055: basket host не найден
+2026-11-16 04:04:47,695 r52.collectors.wb WARNING WB cffi error https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=14: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:04:50,835 r52.collectors.wb WARNING WB cffi error https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:04:53,572 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=1475428055: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:04:56,135 r52.collectors.wb WARNING WB cffi error https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:04:56,135 r52.collectors.wb INFO WB 1475428055: price — все эндпоинты не дали данных
+2026-11-16 04:05:09,270 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/catalog/1475428055/detail.aspx: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:05:09,270 r52.autocollect.worker INFO source=WB listing=1475428055 phase=collect_product_return status=DEGRADED
+2026-11-16 04:05:09,270 r52.autocollect.worker INFO source=WB listing=120526046 phase=collect_product_start
+2026-11-16 04:05:10,222 r52.collectors.wb INFO WB 120526046: basket=9 (vol=1205) ms=952
+2026-11-16 04:05:11,603 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=9012 ms=880 url=https://basket-09.wbbasket.ru/vol1205/part120526/120526046/info/ru/card.json
+2026-11-16 04:05:11,603 r52.collectors.wb INFO WB 120526046: card.json OK (30 keys, 9012B)
+2026-11-16 04:05:15,130 r52.collectors.wb WARNING WB cffi error https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=12: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:05:17,743 r52.collectors.wb WARNING WB cffi error https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:05:20,987 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=120526046: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:05:23,323 r52.collectors.wb WARNING WB cffi error https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:05:23,323 r52.collectors.wb INFO WB 120526046: price — все эндпоинты не дали данных
+Timeout (0:01:00)!
+Thread 0x00001a3c [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000018e4 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 178 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 455 in _fetch_html
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 254 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 04:05:40,821 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/catalog/120526046/detail.aspx: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:05:40,822 r52.collectors.wb INFO WB 120526046: photo_count=7, found=1
+2026-11-16 04:05:40,822 r52.collectors.wb INFO WB 120526046: has_video=true, видео не найдено
+2026-11-16 04:05:40,822 r52.autocollect.worker INFO source=WB listing=120526046 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:05:40,822 r52.autocollect.worker INFO source=WB listing=181599806 phase=collect_product_start
+2026-11-16 04:05:42,715 r52.collectors.wb INFO WB 181599806: basket=12 (vol=1815) ms=1893
+2026-11-16 04:05:47,563 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True proxy=False http=200 bytes=8367 ms=4847 url=https://basket-12.wbbasket.ru/vol1815/part181599/181599806/info/ru/card.json
+2026-11-16 04:05:47,564 r52.collectors.wb INFO WB 181599806: card.json OK (29 keys, 8367B)
+2026-11-16 04:05:49,386 r52.collectors.wb WARNING WB cffi error https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=18: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:05:51,877 r52.collectors.wb WARNING WB cffi error https://catalog.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:05:55,024 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=181599806: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:05:58,916 r52.collectors.wb WARNING WB cffi error https://search.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:05:58,917 r52.collectors.wb INFO WB 181599806: price — все эндпоинты не дали данных
+2026-11-16 04:06:16,405 r52.collectors.wb WARNING WB cffi error https://www.wildberries.ru/catalog/181599806/detail.aspx: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:06:16,408 r52.collectors.wb INFO WB 181599806: photo_count=6, found=1
+2026-11-16 04:06:16,408 r52.autocollect.worker INFO source=WB listing=181599806 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-16 04:06:16,409 r52.autocollect.worker INFO source=WB phase=write_start returned=5 valid=5 stats={'requests': 29, 'success': 4, 'failed': 25, 'blocked': 0}
+2026-11-16 04:06:16,415 r52.collectors INFO WB: записан jarvis-eye-wb-37607fd7.json
+2026-11-16 04:06:16,423 r52.collectors INFO WB: записан jarvis-eye-wb-a58524f6.json
+2026-11-16 04:06:16,426 r52.collectors INFO WB: записан jarvis-eye-wb-89bae674.json
+2026-11-16 04:06:16,434 r52.collectors INFO WB: записан jarvis-eye-wb-28712556.json
+2026-11-16 04:06:16,438 r52.collectors INFO WB: записан jarvis-eye-wb-a4910730.json
+2026-11-16 04:06:16,441 r52.autocollect.worker INFO source=WB phase=write_complete files=5
+2026-11-16 04:06:16,442 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-16 04:06:16,442 r52.autocollect.worker INFO source=WB phase=close_complete

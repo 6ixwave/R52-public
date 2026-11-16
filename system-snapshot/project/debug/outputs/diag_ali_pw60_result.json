@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-11-13T02:56:17.906306",
+  "phase": "done",
+  "product_id": "1005011813323763",
+  "product_url": "https://www.aliexpress.com/item/1005011813323763.html",
+  "mtop_responses": [],
+  "pdp_raw": null,
+  "pdp_parsed": {},
+  "dom_data": {
+    "title_tag": "",
+    "og_title": "",
+    "og_image": "",
+    "og_price": "",
+    "og_currency": "",
+    "images": [],
+    "img_count": 0
+  },
+  "js_state": {
+    "jsonld": []
+  },
+  "tmd_handled": true,
+  "recaptcha_solved": true,
+  "errors": [
+    "no_pdp_mtop"
+  ],
+  "timings": {
+    "launch": 0.5385391712188721,
+    "homepage": 18.05208134651184,
+    "product_load": 15.982460737228394,
+    "tmd": 8.085611820220947,
+    "reload": 16.19330930709839
+  }
+}

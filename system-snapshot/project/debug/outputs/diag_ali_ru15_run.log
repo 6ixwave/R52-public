@@ -1,0 +1,33 @@
+06:37:54 diag_ali_ru15: V15 starting...
+06:37:55 diag_ali_ru15: Browser OK
+06:37:55 diag_ali_ru15: Warm: 65 cookies
+06:37:55 diag_ali_ru15: === PHASE 1: Search ===
+06:37:55 diag_ali_ru15: URL: https://aliexpress.ru/wholesale?SearchText=наушники+беспроводные
+06:38:06 diag_ali_ru15:   API: https://aliexpress.ru/aer-webapi/v1/search (1223603b)
+06:38:06 diag_ali_ru15:   API: https://aliexpress.ru/aer-jsonapi/v1/bx/searchSuggest/1?_bx-v=2.5.37 (4300b)
+06:38:06 diag_ali_ru15:   API: https://aliexpress.ru/aer-webapi/v2/recommend?_bx-v=2.5.37 (608687b)
+06:38:06 diag_ali_ru15: Search state: {'onCap': False, 'body': 1251218, 'title': 'наушники беспроводные с бесплатной доставкой на AliExpress'}
+06:38:06 diag_ali_ru15: Search API parsed: 1223603 bytes
+06:38:06 diag_ali_ru15:   Array: .data.breadcrumbs.breadcrumbs count=5 keys=['href', 'title']
+06:38:06 diag_ali_ru15:   Array: .data.sideFilter.categoriesPath count=5 keys=['id', 'isSearchFromCategoryChips', 'title', 'url']
+06:38:06 diag_ali_ru15:   Array: .data.sideFilter.categories count=10 keys=['chevronFlag', 'id', 'indeterminate', 'rightArrow', 'selected', 'sub', 'title', 'trackInfo', 'url']
+06:38:06 diag_ali_ru15:   Array: .data.sideFilter.categories[0].sub count=14 keys=['chevronFlag', 'id', 'indeterminate', 'selected', 'sub', 'title', 'trackInfo', 'url']
+06:38:06 diag_ali_ru15:   Array: .data.sideFilter.categories[1].sub count=4 keys=['chevronFlag', 'id', 'indeterminate', 'selected', 'sub', 'title', 'trackInfo', 'url']
+06:38:06 diag_ali_ru15: Search API saved to search_api.json
+06:38:06 diag_ali_ru15: DOM card extraction...
+06:38:06 diag_ali_ru15: DOM cards: 30
+06:38:06 diag_ali_ru15:   First: title=Выберите категорию prices=['1\xa0278\xa0₽-72%', '1\xa0278\xa0₽', '361\xa0₽', '929\xa0₽-55%', '929\xa0₽']
+06:38:06 diag_ali_ru15: Search HTML: 1471598b
+06:38:06 diag_ali_ru15: === PHASE 2: Product ===
+06:38:06 diag_ali_ru15: URL: https://aliexpress.ru/item/1005013496905897.html
+06:38:15 diag_ali_ru15:   API: https://aliexpress.ru/aer-jsonapi/bx/web/recommend/just-for-you-new-ru (290868b)
+06:38:15 diag_ali_ru15: Product state: {'onCap': False, 'h1': None, 'body': 310196}
+06:38:15 diag_ali_ru15: No CAPTCHA on product!
+06:38:15 diag_ali_ru15: Extracting product data...
+06:38:15 diag_ali_ru15: Product: title=None
+06:38:15 diag_ali_ru15:   prices=[]
+06:38:15 diag_ali_ru15:   images=0 jsonld=0
+06:38:15 diag_ali_ru15:   seller=None
+06:38:15 diag_ali_ru15: Product HTML: 524191b
+06:38:15 diag_ali_ru15: PHASE=done search_ok=True prod_ok=False api_ok=True
+06:38:15 diag_ali_ru15: Saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru15_result.json

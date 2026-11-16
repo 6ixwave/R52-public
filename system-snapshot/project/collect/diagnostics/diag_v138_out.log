@@ -1,0 +1,12 @@
+2026-11-12 02:44:57,116 INFO diag_v138: === OZON-562267: https://www.ozon.ru/product/562267/ ===
+2026-11-12 02:44:58,125 INFO diag_v138: [OZON-562267 requests] status=403 len=10055 elapsed=0.9s final_url=https://www.ozon.ru/product/562267/?__rr=1
+2026-11-12 02:45:02,209 INFO diag_v138: [OZON-562267 cffi] status=403 len=8228 elapsed=0.9s final_url=https://www.ozon.ru/product/562267/?__rr=1
+2026-11-12 02:45:07,209 INFO diag_v138: === AVITO-7494308705: https://www.avito.ru/ad/7494308705 ===
+2026-11-12 02:45:08,022 INFO diag_v138: [AVITO-7494308705 requests] status=404 len=29440 elapsed=0.8s final_url=https://www.avito.ru/ad/7494308705
+2026-11-12 02:45:11,913 INFO diag_v138: [AVITO-7494308705 cffi] status=404 len=29440 elapsed=0.9s final_url=https://www.avito.ru/ad/7494308705
+2026-11-12 02:45:16,913 INFO diag_v138: === SUMMARY ===
+2026-11-12 02:45:16,913 INFO diag_v138: OZON-562267_requests: status=403 len=10055 widgets=[]
+2026-11-12 02:45:16,913 INFO diag_v138: OZON-562267_cffi: status=403 len=8228 widgets=[]
+2026-11-12 02:45:16,913 INFO diag_v138: AVITO-7494308705_requests: status=404 len=29440 widgets=[]
+2026-11-12 02:45:16,913 INFO diag_v138: AVITO-7494308705_cffi: status=404 len=29440 widgets=[]
+2026-11-12 02:45:16,914 INFO diag_v138: Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v138_results.json

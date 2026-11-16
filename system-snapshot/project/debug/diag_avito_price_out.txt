@@ -1,0 +1,27 @@
+2026-11-15 01:04:32,195 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\data\test_home\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 01:04:32,196 r52.collectors.avito INFO AVITO: curl_cffi доступен (impersonate=chrome)
+2026-11-15 01:04:32,196 diag.avito INFO === AVITO mobile search fetch ===
+2026-11-15 01:04:33,099 r52.collectors.avito INFO AVITO warmup m.avito.ru: HTTP 403
+2026-11-15 01:04:34,917 r52.collectors.avito INFO AVITO warmup www.avito.ru: HTTP 200
+2026-11-15 01:04:34,917 r52.collectors.avito INFO AVITO warmup: HTTP 200
+2026-11-15 01:04:37,893 diag.avito INFO m.avito.ru: HTTP 439, 13723 bytes, 1.0s
+2026-11-15 01:04:37,893 diag.avito INFO 439 → trying www.avito.ru
+2026-11-15 01:04:38,896 diag.avito INFO www.avito.ru: HTTP 439, 13723 bytes
+2026-11-15 01:04:38,897 diag.avito INFO Saved mobile HTML: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\avito_mobile_raw.html (13723 bytes)
+2026-11-15 01:04:38,897 diag.avito INFO === Finding ad links ===
+2026-11-15 01:04:38,897 diag.avito INFO Found 0 ad links
+2026-11-15 01:04:38,898 diag.avito INFO === Global price patterns on full HTML ===
+2026-11-15 01:04:38,898 diag.avito INFO   text_rub: 0 matches
+2026-11-15 01:04:38,899 diag.avito INFO   text_nbsp: 0 matches
+2026-11-15 01:04:38,899 diag.avito INFO   data-price: 0 matches
+2026-11-15 01:04:38,899 diag.avito INFO   data-ad-price: 0 matches
+2026-11-15 01:04:38,899 diag.avito INFO   class-price: 0 matches
+2026-11-15 01:04:38,899 diag.avito INFO   span-price: 0 matches
+2026-11-15 01:04:38,899 diag.avito INFO   jsonld: 0 matches
+2026-11-15 01:04:38,899 diag.avito INFO   meta-og: 0 matches
+2026-11-15 01:04:38,900 diag.avito INFO   any-number-rub: 0 matches
+2026-11-15 01:04:38,900 diag.avito INFO   any-number-space-rub: 0 matches
+2026-11-15 01:04:38,900 diag.avito INFO === Script JSON scan ===
+2026-11-15 01:04:38,900 diag.avito INFO Found 1 script tags
+2026-11-15 01:04:38,901 diag.avito INFO Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\diag_avito_price_report.json
+2026-11-15 01:04:38,901 diag.avito INFO === DONE ===

@@ -1,0 +1,84 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Джинсы широкие Lacoste лакост багги трубы бананы y2k",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "ZHABKA",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "wb1kez2a0e7",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Чёрные джинсы Lacoste от магазина ZHABKA — это базовая модель для уличных образов в стилях baggy, big boy и sk8. Глубокий чёрный цвет делает джинсы максимально практичными и универсальными, позволяя легко сочетать их с любой одеждой. Эти широкие джинсы трубы выглядят аккуратно, но при этом сохраняют расслабленный streetwear-силуэт, популярный в Pinterest и пинтерест-луках.\n\nФормат багги и биг бои создаёт свободную посадку и прямые широкие штанины без заужения. Это аналог big boy джинсов, рассчитанный на комфорт и свободу движения. Джинсы подходят на высокий рост, хорошо сидят по фигуре и визуально вытягивают пропорции. Такие штаны удобно носить каждый день — от школы до прогулок по городу.\n\nЧёрные джинсы Lacoste — это унисекс модель, подходящая как джинсы мужские, женские и подростковые. Они легко сочетаются с худи, свитшотами и лонгсливами, формируя образы в стиле y2k и отдельно у2к. Также модель органично вписывается в эстетику joto и sk8.\n\nМатериал denim плотный, устойчивый к износу и сохраняет форму даже при активной носке. Эти baggy-штаны подойдут тем, кто ищет широкие джинсы без лишнего декора, с чистым визуалом и универсальным характером для повседневного гардероба.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Джинсы",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Материал верха: хлопок\nСостав: хлопок\nЦвет: черный; черный мрамор; черный меланж; черный сапфир\nПол: Женский\nСезон: Круглогодичный\nРазмер на модели: M\nРост модели на фото: 166 см\nПараметры модели на фото (ОГ-ОТ-ОБ): Парень ростом 178см - L , девушка ростом 166см - M\nТип посадки: средняя\nВид застежки: молния; пуговица\nТип карманов: накладные\nОсобенности модели: унисекс; эффект потертости; uni-Sex\nДекоративные элементы: джинс\nУтеплитель: нет\nКомплектация: джинсы оверсайз; джинсы багги мужские; baggy; джинсы багги; Джинсы багги женские\nСтрана производства: Китай",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-36.wbbasket.ru/vol7764/part776430/776430014/images/S800/S800.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Одежда > Джинсы",
+    "source": "WB",
+    "id": "776430014",
+    "url": "https://www.wildberries.ru/catalog/776430014/detail.aspx",
+    "observed_at": "2026-11-15T02:15:05.661006+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "FARPOST": {
+    "status": "PARTIAL_SUCCESS",
+    "title": "Шины",
+    "price_minor": 1800000,
+    "availability": "IN_STOCK",
+    "media_count": 2,
+    "category": "Авто и мото > Шины и диски > Шины > Шины Boto > Boto WD69"
+  },
+  "WB": {
+    "session_html": {
+      "status": 498,
+      "cookies": []
+    },
+    "api_session": "[REDACTED_AUTH_SECRET]"
+  },
+  "OZON": {
+    "session": {
+      "status": 403,
+      "cookies": [
+        "__Secure-ETC",
+        "abt_data"
+      ]
+    },
+    "composer": {
+      "status": 403
+    },
+    "slug": {
+      "status": 403
+    }
+  },
+  "AVITO": {
+    "d_telefony": {
+      "status": 429
+    },
+    "m_telefony": {
+      "status": 429
+    },
+    "known_8341658309": {
+      "status": 404,
+      "note": "dead"
+    },
+    "known_1154321987": {
+      "status": 404,
+      "note": "dead"
+    }
+  }
+}

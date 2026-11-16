@@ -1,0 +1,108 @@
+{
+  "v8_home": {
+    "path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\e2e_v8_home\\data\\r52.sqlite3",
+    "exists": false
+  },
+  "test_home": {
+    "path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\e2e_test_home\\data\\r52.sqlite3",
+    "exists": true,
+    "size": 319488,
+    "tables": [
+      "schema_migrations",
+      "source",
+      "product",
+      "observation",
+      "price_point",
+      "inbox_item",
+      "intake_file",
+      "favorite",
+      "compare_group",
+      "compare_item",
+      "watch",
+      "event",
+      "notification",
+      "task",
+      "task_transition",
+      "schedule",
+      "setting",
+      "chat_session",
+      "chat_message",
+      "assistant_action",
+      "import_run"
+    ],
+    "product": 5,
+    "observation": 6,
+    "price_point": 2,
+    "price_point_sample": [
+      {
+        "id": 1,
+        "observation_id": 2,
+        "product_id": 2,
+        "role": "regular",
+        "amount_minor": 13500000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "observed_at": "2026-11-11T16:33:06.851+00:00"
+      },
+      {
+        "id": 2,
+        "observation_id": 3,
+        "product_id": 3,
+        "role": "regular",
+        "amount_minor": 2440000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "observed_at": "2026-11-11T16:32:54.128+00:00"
+      }
+    ],
+    "inbox_item": 7
+  },
+  "imports": {
+    "ok": true,
+    "registry": [
+      "WB",
+      "OZON",
+      "AVITO",
+      "FARPOST"
+    ]
+  },
+  "wb_basket": {
+    "b1": {
+      "err": "Failed to perform, curl: (6) Could not resolve host: basket-1.wbbasket.ru (Domai",
+      "t": 0.6
+    },
+    "b2": {
+      "err": "Failed to perform, curl: (6) Could not resolve host: basket-2.wbbasket.ru (Domai",
+      "t": 0.6
+    }
+  },
+  "wb_price": {
+    "http": 403,
+    "len": 0,
+    "t": 0.9
+  },
+  "farpost": {
+    "http": 200,
+    "len": 197845,
+    "url": "https://www.farpost.ru/verify?u=%2Fvladivostok%2F139122082.html",
+    "verify": true,
+    "t": 0.8
+  },
+  "ozon": {
+    "composer": {
+      "err": "Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to g"
+    },
+    "ssr": {
+      "http": 403,
+      "len": 8282,
+      "t": 1.7
+    }
+  },
+  "avito": {
+    "http": 439,
+    "len": 14382,
+    "t": 1.0
+  },
+  "total_s": 9.5,
+  "time": "2026-11-12T19:03:56.199786+10:00"
+}

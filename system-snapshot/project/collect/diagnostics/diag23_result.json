@@ -1,0 +1,122 @@
+{
+  "ts": "2026-11-12T13:02:57.645882+10:00",
+  "ozon": {
+    "ld_count": 1,
+    "ld_0": "{\"@context\":\"http://schema.org\",\"@type\":\"Product\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"5.0\",\"reviewCount\":\"7\"},\"brand\":\"Palit\",\"description\":\"Видеокарта Palit PA-RTX5060TI DUAL оснащена мощным графическим процессором NVIDIA GeForce RTX 5060TI для качественной графики.Интерфейс PCI-E 5.0 обеспечивает быструю передачу данных и совместимость с современными материнскими платами.Графический процессор работает на частоте до 2573 МГц в режиме Boost, что гарантирует плавное отображение сложных сцен в играх и приложениях.8 ГБ видеопамяти GDDR7 с частотой 28000 МГц обеспечивают высокую пропускную способность для быстрой обработки текстур и эффектов.Двухслотовая система охлаждения с двумя осевыми вентиляторами и тепловыми трубками эффективно поддерживает оптимальную температуру при нагрузках.Технологии NVIDIA DLSS и Ray Tracing дают реалистичное освещение и повышают производительность в играх.Видеокарта имеет один HDMI 2.1 и три DisplayPort 2.1b для подключения до четырёх мониторов с разрешением до 7680?4320 пикселей.Поддержка DirectX 12 Ultimate и OpenGL 4.6 обеспечивает совместимость с современными играми и графическими приложениями.\",\"image\":\"https://ir.ozone.ru/s3/multimedia-1-s/20909862388.jpg\",\"name\":\"Palit Видеокарта GeForce RTX 5060 Ti PA-RTX5060TI DUAL 8 ГБ (NE7506T019P1-GB2062D)\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.ozon.ru/product/palit-videokarta-geforce-rtx-5060-ti-pa-rtx5060ti-dual-8-gb-ne7506t019p1-gb2062d-2067947177/\",\"availability\":\"http://schema.org/InStock\",\"price\":\"64265\",\"priceCurrency\":\"RUB\"},\"sku\":\"2067947177\"}",
+    "ld_0_offers": "{\"@type\": \"Offer\", \"url\": \"https://www.ozon.ru/product/palit-videokarta-geforce-rtx-5060-ti-pa-rtx5060ti-dual-8-gb-ne7506t019p1-gb2062d-2067947177/\", \"availability\": \"http://schema.org/InStock\", \"price\": \"64265\", \"priceCurrency\": \"RUB\"}",
+    "price_dom": {
+      "price_texts": [
+        {
+          "tag": "DIV",
+          "class": "pdp_bi5 pdp_bi4",
+          "text": "57 838 ₽"
+        },
+        {
+          "tag": "SPAN",
+          "class": "tsHeadline600Large",
+          "text": "57 838 ₽"
+        },
+        {
+          "tag": "SPAN",
+          "class": "pdp_j2b tsHeadline500Medium",
+          "text": "64 265 ₽"
+        },
+        {
+          "tag": "SPAN",
+          "class": "pdp_jb2 pdp_b3j pdp_j1b tsBody400Small",
+          "text": "116 349 ₽"
+        },
+        {
+          "tag": "SPAN",
+          "class": "c35_6_4-a1 tsHeadline500Medium c35_6_4-b4 c35_6_4-a6",
+          "text": "47 519 ₽"
+        },
+        {
+          "tag": "SPAN",
+          "class": "c35_6_4-b1",
+          "text": "47 999 ₽"
+        },
+        {
+          "tag": "SPAN",
+          "class": "c35_6_4-b2",
+          "text": "47 999 ₽"
+        },
+        {
+          "tag": "SPAN",
+          "class": "c35_6_4-a1 tsHeadline500Medium c35_6_4-b4 c35_6_4-a6",
+          "text": "59 399 ₽"
+        },
+        {
+          "tag": "SPAN",
+          "class": "c35_6_4-b1",
+          "text": "59 999 ₽"
+        },
+        {
+          "tag": "SPAN",
+          "class": "c35_6_4-b2",
+          "text": "59 999 ₽"
+        }
+      ]
+    },
+    "html_len": 1113088,
+    "html_prices": {
+      "\"price\"\\s*:\\s*\"?(\\d+[\\d.]*)\"?": [
+        "64265"
+      ]
+    },
+    "state": {
+      "nuxt": "{\"state\":{\"language\":\"ru\",\"layout\":[{\"component\":\"header\",\"params\":\"{}\",\"stateId\":\"header-7278143-default-1\",\"version\":2,\"vertical\":\"cms\",\"widgetTrackingInfo\":\"{\\\"name\\\":\\\"cms.header\\\",\\\"vertical\\\":\\\"cms\\\",\\\"component\\\":\\\"header\\\",\\\"version\\\":2,\\\"id\\\":7278143,\\\"revisionId\\\":7865751,\\\"index\\\":1,\\\"provider\\\":\\\"shell-api\\\"}\",\"placeholders\":[{\"name\":\"catalogMenu\",\"widgets\":[{\"component\":\"catalogMenu\",\"params\":\"{}\",\"stateId\":\"catalogMenu-7278490-default-1\",\"version\":3,\"vertical\":\"cms\",\"widgetTrackingInfo\":\"{\\\"name\\\":\\\"cms.catalogMenu\\\",\\\"vertical\\\":\\\"cms\\\",\\\"component\\\":\\\"catalogMenu\\\",\\\"version\\\":3,\\\"id\\\":7278490,\\\"revisionId\\\":7865320,\\\"index\\\":2,\\\"provider\\\":\\\"catalog-menu-api\\\"}\",\"widgetToken\":\"[REDACTED_AUTH_SECRET]\",\"timeSpent\":2,\"name\":\"cms.catalogMenu\",\"id\":7278490,\"isTrackingOn\":true}]},{\"name\":\"searchBar\",\"widgets\":[{\"component\":\"searchBarDesktop\",\"params\":\"{}\",\"stateId\":\"searchBarDesktop-3414131-default-1\",\"version\":2,\"vertical\":\"catalog\",\"widgetTrackingInfo\":\"{\\\"name\\\":\\\"catalog.searchBarDesktop\\\",\\\"vertical\\\":\\\"catalog\\\",\\\"component\\\":\\\"searchBarDesktop\\\",\\\"version\\\":2,\\\"id\\\":3414131,\\\"revisionId\\\":3835502,\\\"index\\\":3,\\\"provider\\\":\\\"catalog-api\\\"}\",\"placeholders\":[{\"name\":\"bottom\",\"widgets\":[{\"component\":\"tapTags\",\"params\":\"{}\",\"stateId\":\"tapTags-3419971-default-1\",\"version\":2,\"vertical\":\"search\",\"widgetTrackingInfo\":\"{\\\"name\\\":\\\"search.tapTags\\\",\\\"vertical\\\":\\\"search\\\",\\\"component\\\":\\\"tapTags\\\",\\\"version\\\":2,\\\"id\\\":3419971,\\\"revisionId\\\":3843395,\\\"index\\\":4,\\\"provider\\\":\\\"suggest-widgets\\\"}\",\"widgetToken\":\"[REDACTED_AUTH_SECRET]\",\"name\":\"search.tapTags\",\"id\":3419971,\"isTrackingOn\":true}]}],\"widgetToken\":\"[REDACTED_AUTH_SECRET]\",\"timeSpent\":4,\"name\":\"catalog.searchBarDesktop\",\"id\":3414131,\"isTrackingOn\":true}]},{\"name\":\"userMenu\",\"widgets\":[{\"component\":\"profileMenuAnonymous\",\"params\":\"{}\",\"stateId\":\"profileMenuAnonymous-7278492-default-1\",\"version\":2,\"vertical\":\"csma\",\"widgetTrackingInfo\":\"{}\",\"id\":7278492},{\"component\":\"orderI"
+    },
+    "title": "Видеокарта Palit GeForce RTX 5060 Ti, 8 ГБ PCI Express 5.0 DisplayPort, HDMI NE7506T019P1-GB2062D купить c доставкой на OZON по низкой цене (2067947177)"
+  },
+  "wb": {
+    "title": "",
+    "content_err": "Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+    "api": [
+      {
+        "url": "https://www.wildberries.ru/catalog/1097975275/detail.aspx",
+        "status": 498,
+        "len": 1136,
+        "head": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"90a4b51d59d389dcede9544423fad4eb\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Date.now()</script><title>...</title><script type=\"module\" crossorigin src=\"/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js\"></script><link rel=\"stylesheet\" crossorigin href=\"/__wbaas/challenges/antibot/__static/v2/index-BmW7NXYO.css\"></head><body><div class=\"w\"><noscript><div class=\"support\"><div class=\"support-header\"><h1 class=\"support-title\" id=\"no-js-title\"></h1><p class=\"support-subtitle no-js-support-subtitle\" id=\"no-js-title-subtitle\"></p><p class=\"support-id no-js-support-id\">ID: 90a4b51d59d389dcede9544423fad4eb</p><p class=\"support-id no-js-support-id\">IP: 82.162.122.156</p></div></div></noscript><div id=\"wait_msg\"></div><div id=\"c_cont\"></div></div><b id=\"s-key\" data-site-key=\"7400bd5df8b843b28254659f10915f31\"></b><script src=\"/__wbaas/challenges/antibot/__static/v2/browser-check.js\"></script></body></html>"
+      }
+    ],
+    "basket_cdn": {
+      "basket-42": {
+        "status": 200,
+        "len": 7989,
+        "keys": [
+          "imt_id",
+          "nm_id",
+          "imt_name",
+          "slug",
+          "subj_name",
+          "subj_root_name",
+          "vendor_code",
+          "description",
+          "options",
+          "certificate",
+          "nm_colors_names",
+          "colors",
+          "full_colors",
+          "selling",
+          "media",
+          "data",
+          "grouped_options",
+          "need_kiz",
+          "user_flags",
+          "update_date",
+          "create_date"
+        ],
+        "price_keys": []
+      }
+    }
+  },
+  "avito": {
+    "mobile_title": "Доступ ограничен: проблема с IP",
+    "mobile_body_len": 36443,
+    "mobile_ids": [],
+    "desktop_title": "Доступ ограничен: проблема с IP",
+    "desktop_body_len": 36451,
+    "desktop_ids": []
+  }
+}

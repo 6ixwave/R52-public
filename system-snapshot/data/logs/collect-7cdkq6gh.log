@@ -1,0 +1,18 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 02:37:47,653 r52.autocollect.worker INFO phase=worker_start pid=10844
+2026-11-15 02:37:47,670 r52.autocollect.worker INFO source=ALIEXPRESS mode=discover phase=initialize
+2026-11-15 02:37:47,670 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 02:37:47,671 r52.autocollect.worker INFO source=ALIEXPRESS proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-15 02:37:47,671 r52.autocollect.worker INFO source=ALIEXPRESS phase=search_start page=1 limit=5
+2026-11-15 02:37:52,089 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML OK, 893768 bytes, 4.4s
+2026-11-15 02:37:52,091 r52.collectors.aliexpress INFO ALI: 12 card anchors found
+2026-11-15 02:37:52,094 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML → 5 items
+2026-11-15 02:37:52,094 r52.autocollect.worker INFO source=ALIEXPRESS phase=write_start returned=5 valid=5 stats={'requests': 1, 'success': 1, 'failed': 0, 'blocked': 0}
+2026-11-15 02:37:52,095 r52.collectors INFO ALIEXPRESS: записан jarvis-eye-aliexpress-641df568.json
+2026-11-15 02:37:52,097 r52.collectors INFO ALIEXPRESS: записан jarvis-eye-aliexpress-2521eb3d.json
+2026-11-15 02:37:52,098 r52.collectors INFO ALIEXPRESS: записан jarvis-eye-aliexpress-8b8c375c.json
+2026-11-15 02:37:52,098 r52.collectors INFO ALIEXPRESS: записан jarvis-eye-aliexpress-1b6903b3.json
+2026-11-15 02:37:52,099 r52.collectors INFO ALIEXPRESS: записан jarvis-eye-aliexpress-b6a5f4b7.json
+2026-11-15 02:37:52,101 r52.autocollect.worker INFO source=ALIEXPRESS phase=write_complete files=5
+2026-11-15 02:37:52,101 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_start
+2026-11-15 02:37:52,101 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_complete

@@ -1,0 +1,94 @@
+﻿[OK] curl_cffi
+======================================================================
+WB PRICE DIAGNOSTIC v4
+======================================================================
+
+============================================================
+NM_ID = 138278567
+============================================================
+
+--- A. card.wb.ru (XHR headers) ---
+  [v1_d-1257786] 403
+  [v1_d0] 403
+  [v1_d1] 403
+  [v2_d-1257786] 403
+  [v2_d0] 403
+  [v2_d1] 403
+  [v4_d-1257786] 403
+  [v4_d0] 403
+  [v4_d1] 403
+
+--- B. catalog.wb.ru ---
+  [cat_v1] 403
+  [cat_v2] 403
+
+--- C. web API ---
+  [web_v1_detail] 498 (1136B)
+  [web_v2_detail] 498 (1136B)
+  [web_v1_list] 498 (1136B)
+  [web_common] 498 (1136B)
+
+--- D. common.wb.ru ---
+  [common_cards] ERR Failed to perform, curl: (6) Could not resolve host: common.
+  [common_price] ERR Failed to perform, curl: (6) Could not resolve host: common.
+  [common_info] ERR Failed to perform, curl: (6) Could not resolve host: common.
+
+--- E. Mobile HTML ---
+  ERR Failed to perform, curl: (6) Could not resolve host: m.wildb
+  https://www.wildberries.ru/catalog/138278567/detail.aspx?mob... -> 498 (1136B)
+
+--- F. Desktop HTML (full browser) ---
+  498 (1136B)
+  498 body[:300]: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="77089ac9c76bb245c75e147cdc225113" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Dat
+
+--- G. Static CDN paths ---
+  wbx-content-v1.wbstatic.net... ERR Failed to perform, curl: (6) Could not resolve hos
+  static-basket-82.wbbasket.ru... ERR Failed to perform, curl: (6) Could not resolve hos
+  static-basket-82.wbbasket.ru... ERR Failed to perform, curl: (6) Could not resolve hos
+
+============================================================
+NM_ID = 145567890
+============================================================
+
+--- A. card.wb.ru (XHR headers) ---
+  [v1_d-1257786] 403
+  [v1_d0] 403
+  [v1_d1] 403
+  [v2_d-1257786] 403
+  [v2_d0] 403
+  [v2_d1] 403
+  [v4_d-1257786] 403
+  [v4_d0] 403
+  [v4_d1] 403
+
+--- B. catalog.wb.ru ---
+  [cat_v1] 403
+  [cat_v2] 403
+
+--- C. web API ---
+  [web_v1_detail] 498 (1136B)
+  [web_v2_detail] 498 (1136B)
+  [web_v1_list] 498 (1136B)
+  [web_common] 498 (1136B)
+
+--- D. common.wb.ru ---
+  [common_cards] ERR Failed to perform, curl: (6) Could not resolve host: common.
+  [common_price] ERR Failed to perform, curl: (6) Could not resolve host: common.
+  [common_info] ERR Failed to perform, curl: (6) Could not resolve host: common.
+
+--- E. Mobile HTML ---
+  ERR Failed to perform, curl: (6) Could not resolve host: m.wildb
+  https://www.wildberries.ru/catalog/145567890/detail.aspx?mob... -> 498 (1136B)
+
+--- F. Desktop HTML (full browser) ---
+  498 (1136B)
+  498 body[:300]: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="9bdbff8f1c83fa2dc1df8b2e64e16795" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Dat
+
+--- G. Static CDN paths ---
+  wbx-content-v1.wbstatic.net... ERR Failed to perform, curl: (6) Could not resolve hos
+  static-basket-55.wbbasket.ru... ERR Failed to perform, curl: (6) Could not resolve hos
+  static-basket-55.wbbasket.ru... ERR Failed to perform, curl: (6) Could not resolve hos
+
+======================================================================
+DONE
+======================================================================

@@ -1,0 +1,51 @@
+{
+  "time": "2026-11-12T16:14:38.731354+10:00",
+  "total_s": 88.5,
+  "results": {
+    "WB:photo_cdn": {
+      "ok": false,
+      "detail": "Failed to perform, curl: (6) Could not resolve host: ir1.wbstatic.net (Domain name not found). See h",
+      "s": 19.0
+    },
+    "WB:pw4_html": {
+      "ok": false,
+      "detail": "Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+      "s": 5.4
+    },
+    "WB:pw_api_call": {
+      "ok": false,
+      "detail": "Page.evaluate: Execution context was destroyed, most likely because of a navigation.",
+      "s": 4.0
+    },
+    "OZON:jsonld": {
+      "ok": true,
+      "detail": "name=Маленький Принц и лис: набор добрых летних открыто brand=Станислав Миков price=284RUB avail=http://schema.org/InStock imgs=1 desc=Набор открыток Маленький принц с лисом — комплект из 5 авторских открыток формат",
+      "s": 0.0
+    },
+    "OZON:pw_xhr": {
+      "ok": false,
+      "detail": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.ozon.ru/product/3481320800/\", waiting until \"networkidle\"\n",
+      "s": 30.6
+    },
+    "OZON:api_direct": {
+      "ok": false,
+      "detail": "all 3 failed, last=403",
+      "s": 3.7
+    },
+    "AVITO:pw4_deep": {
+      "ok": false,
+      "detail": "len=36450 ad_ids=[] data_ids=[] json_ids=[] titles=['Что делать, если проблема повторяется', 'Что не так с IP-адресом'] prices=[] xhrs=1",
+      "s": 14.0
+    },
+    "AVITO:api_search": {
+      "ok": false,
+      "detail": "tried 4, last HTTP 429 ct=application/json; charset=utf-",
+      "s": 2.1
+    },
+    "AVITO:m_pw": {
+      "ok": false,
+      "detail": "len=36442 ids=[] prices=[]",
+      "s": 9.4
+    }
+  }
+}

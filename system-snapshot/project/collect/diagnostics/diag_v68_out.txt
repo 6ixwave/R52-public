@@ -1,0 +1,31 @@
+TABLES: ['_migration', 'assistant_action', 'chat_message', 'chat_session', 'compare_group', 'compare_item', 'event', 'favorite', 'import_run', 'inbox_item', 'intake_file', 'notification', 'observation', 'price_point', 'product', 'schedule', 'schema_migrations', 'setting', 'source', 'task', 'task_transition', 'watch']
+  _migration: 3
+  assistant_action: 0
+  chat_message: 0
+  chat_session: 0
+  compare_group: 0
+  compare_item: 0
+  event: 0
+  favorite: 0
+  import_run: 0
+  inbox_item: 0
+  intake_file: 0
+  notification: 0
+  observation: 0
+  price_point: 0
+  product: 0
+  schedule: 0
+  schema_migrations: 0
+  setting: 0
+  source: 6
+  task: 0
+  task_transition: 0
+  watch: 0
+MIGRATIONS: []
+CODE max version: 3
+CODE migrations: [(1, 'initial'), (2, 'product_media'), (3, 'product_gallery')]
+Applied max: 0
+FIXED: inserted versions 1..3
+
+Result: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v68_fixdb_result.json
+DONE

@@ -1,0 +1,63 @@
+02:20:09 [v134] INFO: curl_cffi OK
+02:20:09 [v134] INFO: === v134 START budget=105s ===
+02:20:09 [v134] INFO: --- A) BUILD SESSION ---
+02:20:10 [v134] INFO:   Main page: HTTP 498, 1136B
+02:20:10 [v134] INFO:   Cookies (0): 
+02:20:10 [v134] INFO:   req-uuid: f9fd5ba693d8076fc23c0897237a7f76
+02:20:10 [v134] INFO: --- B) BASKET CDN PRICE ---
+02:20:11 [v134] INFO:   /vol1992/part199298/199298871/info/ru/price.json -> 404 196B
+02:20:12 [v134] INFO:   /vol1992/part199298/199298871/info/price.json -> 404 196B
+02:20:13 [v134] INFO:   /vol1992/part199298/199298871/price.json -> 404 196B
+02:20:14 [v134] INFO:   /vol1992/part199298/199298871/info/ru/cards.json -> 404 196B
+02:20:15 [v134] INFO:   /vol1992/part199298/199298871/info/ru/card_full.json -> 404 196B
+02:20:16 [v134] INFO:   /vol1992/part199298/199298871/info/ru/detail.json -> 404 196B
+02:20:18 [v134] INFO:   /vol1992/part199298/199298871/info/ru/card_price.json -> 404 196B
+02:20:19 [v134] INFO:   /vol1992/part199298/199298871/price/ru.json -> 404 196B
+02:20:19 [v134] INFO: --- C) 498 HTML PARSE ---
+02:20:19 [v134] INFO:   HTTP 498, 1136B
+02:20:19 [v134] INFO:   FULL BODY:
+<!doctype html><html lang="ru" data-theme="light" data-req-uuid="b2fb891ffb70798d22bafa40bc1d4654" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Date.now()</script><title>...</title><script type="module" crossorigin src="/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js"></script><link rel="stylesheet" crossorigin href="/__wbaas/challenges/antibot/__static/v2/index-BmW7NXYO.css"></head><body><div class="w"><noscript><div class="support"><div class="support-header"><h1 class="support-title" id="no-js-title"></h1><p class="support-subtitle no-js-support-subtitle" id="no-js-title-subtitle"></p><p class="support-id no-js-support-id">ID: b2fb891ffb70798d22bafa40bc1d4654</p><p class="support-id no-js-support-id">IP: 82.162.122.156</p></div></div></noscript><div id="wait_msg"></div><div id="c_cont"></div></div><b id="s-key" data-site-key="7400bd5df8b843b28254659f10915f31"></b><script src="/__wbaas/challenges/antibot/__static/v2/browser-check.js"></script></body></html>
+02:20:19 [v134] INFO:   URLs found: 5
+02:20:19 [v134] INFO:     width=device-width,initial-scale=1,shrink-to-fit=no
+02:20:19 [v134] INFO:     data:,
+02:20:19 [v134] INFO:     /__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js
+02:20:19 [v134] INFO:     /__wbaas/challenges/antibot/__static/v2/index-BmW7NXYO.css
+02:20:19 [v134] INFO:     /__wbaas/challenges/antibot/__static/v2/browser-check.js
+02:20:19 [v134] INFO:   script[0] (28B): window.LOAD_START=Date.now()
+02:20:19 [v134] INFO:   FOUND pattern: challenge
+02:20:19 [v134] INFO:   FOUND pattern: data-req-uuid
+02:20:19 [v134] INFO: --- D) MEDIA DEEP ---
+02:20:20 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/15803382
+02:20:21 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S400/15803382
+02:20:22 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/19929887
+02:20:23 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S400/19929887
+02:20:24 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/1.jpg
+02:20:25 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S400/1.jpg
+02:20:26 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/0.jpg
+02:20:27 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S400/0.jpg
+02:20:28 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/photo.jp
+02:20:29 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S400/photo.jp
+02:20:30 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1580/part158033/199298871/images/S800/15803382
+02:20:31 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1580/part158033/199298871/images/S800/19929887
+02:20:32 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1580/part158033/199298871/images/S800/1.jpg
+02:20:33 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/photo/S800/158033827
+02:20:34 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/photos/S800/15803382
+02:20:35 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/img/S800/158033827.j
+02:20:36 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/media/S800/158033827
+02:20:37 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/15803382
+02:20:39 [v134] INFO:   404 196B basket-13.wbbasket.ru/vol1992/part199298/199298871/S800_158033827.jpg
+02:20:39 [v134] WARNING: HTTP err https://wbx-static.wbbasket.ru/vol1992/part199298/199298871/: Failed to perform, curl: (6) Could not resolve host: wbx-static.wbbasket.ru (Dom
+02:20:40 [v134] INFO:   MEDIA found: 0
+02:20:40 [v134] INFO: --- E) API WITH SESSION ---
+02:20:40 [v134] INFO:   web_v1 -> 498 1136B: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="53873cf98bb761cfe27d7b462c26d8a7" d
+02:20:40 [v134] INFO:   web_v2 -> 498 1136B: <!doctype html><html lang="ru" data-theme="light" data-req-uuid="25db5166d71e98ee0a5319ffbeca20d1" d
+02:20:42 [v134] INFO:   cw_v2 -> 403 0B: 
+02:20:43 [v134] INFO:   search_v5 -> 403 0B: 
+02:20:43 [v134] INFO:   mobile_card -> 403 0B: 
+02:20:44 [v134] INFO: === v134 SUMMARY ===
+02:20:44 [v134] INFO:   Basket price: none
+02:20:44 [v134] INFO:   498: HTTP498, 1136B
+02:20:44 [v134] INFO:   Media: 0 found
+02:20:44 [v134] INFO:   API session: {'web_v1': '498/1136B', 'web_v2': '498/1136B', 'cw_v2': '403/0B', 'search_v5': '403/0B', 'mobile_card': '403/0B'}
+02:20:44 [v134] INFO:   Total: 34.9s
+02:20:44 [v134] INFO: === v134 DONE ===

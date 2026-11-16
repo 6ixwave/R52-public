@@ -1,0 +1,189 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шапка детская зимняя для новорожденных с помпоном вязаная",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "РусБубон",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 77100,
+        "amount": "771.00",
+        "currency": "RUB",
+        "visible_label": "771.00 руб.",
+        "variant_id": "41-44",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 77100,
+          "listing_id": "120526046",
+          "variant_id": "41-44"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 246800,
+        "amount": "2468.00",
+        "currency": "RUB",
+        "visible_label": "2468.00 руб.",
+        "variant_id": "41-44",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 246800,
+          "listing_id": "120526046",
+          "variant_id": "41-44"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 77100,
+        "amount": "771.00",
+        "currency": "RUB",
+        "visible_label": "771.00 руб.",
+        "variant_id": "35-38",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.product",
+          "value_minor": 77100,
+          "listing_id": "120526046",
+          "variant_id": "35-38"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 246800,
+        "amount": "2468.00",
+        "currency": "RUB",
+        "visible_label": "2468.00 руб.",
+        "variant_id": "35-38",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.basic",
+          "value_minor": 246800,
+          "listing_id": "120526046",
+          "variant_id": "35-38"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 77100,
+        "amount": "771.00",
+        "currency": "RUB",
+        "visible_label": "771.00 руб.",
+        "variant_id": "38-41",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.product",
+          "value_minor": 77100,
+          "listing_id": "120526046",
+          "variant_id": "38-41"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 246800,
+        "amount": "2468.00",
+        "currency": "RUB",
+        "visible_label": "2468.00 руб.",
+        "variant_id": "38-41",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.basic",
+          "value_minor": 246800,
+          "listing_id": "120526046",
+          "variant_id": "38-41"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 77100,
+        "amount": "771.00",
+        "currency": "RUB",
+        "visible_label": "771.00 руб.",
+        "variant_id": "47-50 см",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[3].price.product",
+          "value_minor": 77100,
+          "listing_id": "120526046",
+          "variant_id": "47-50 см"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 246800,
+        "amount": "2468.00",
+        "currency": "RUB",
+        "visible_label": "2468.00 руб.",
+        "variant_id": "47-50 см",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[3].price.basic",
+          "value_minor": 246800,
+          "listing_id": "120526046",
+          "variant_id": "47-50 см"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "120526046",
+    "listing_id": "120526046",
+    "title": "Шапка детская зимняя для новорожденных с помпоном вязаная",
+    "url": "https://www.wildberries.ru/catalog/120526046/detail.aspx",
+    "observed_at": "2026-11-15T20:50:27.319742+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

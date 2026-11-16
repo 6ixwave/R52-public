@@ -1,0 +1,80 @@
+DIAG WB API + AVITO
+Time: 2026-11-11 07:24:55
+
+============================================================
+WB API: card.wb.ru/cards/v2/detail
+============================================================
+
+--- WB API nm=199298871 ---
+  URL: https://card.wb.ru/cards/v2/detail?nm=199298871
+  HTTP: 403, len: 0
+  Body[:200]: 
+
+--- WB API nm=188497640 ---
+  URL: https://card.wb.ru/cards/v2/detail?nm=188497640
+  HTTP: 403, len: 0
+  Body[:200]: 
+
+--- WB API nm=12736071 ---
+  URL: https://card.wb.ru/cards/v2/detail?nm=12736071
+  HTTP: 403, len: 0
+  Body[:200]: 
+
+--- WB API nm=189316415 ---
+  URL: https://card.wb.ru/cards/v2/detail?nm=189316415
+  HTTP: 403, len: 0
+  Body[:200]: 
+
+--- WB API nm=7610591 ---
+  URL: https://card.wb.ru/cards/v2/detail?nm=7610591
+  HTTP: 403, len: 0
+  Body[:200]: 
+
+============================================================
+AVITO: checking existing diag HTML files
+============================================================
+
+--- diag_v48_avito_iphone-1154321987.html (36451 B) ---
+  <title>: Доступ ограничен: проблема с IP
+  <h1>: Страница не загрузилась из-за проблем с&nbsp;IP
+  og:title: ?
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  avito.st imgs: 1
+    sample: https://www.avito.st/s/captcha/gt4.js
+  CAPTCHA: True
+  404-like: False
+
+--- diag_v49_avito_desktop_ad_1154321987.html (29378 B) ---
+  <title>: Ошибка 404. Страница не найдена
+  <h1>: Такой страницы нe существует
+  og:title: ?
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  avito.st imgs: 0
+  CAPTCHA: False
+  404-like: False
+
+--- diag_v49_avito_mobile_ad_iphone-1154321987.html (36443 B) ---
+  <title>: Доступ ограничен: проблема с IP
+  <h1>: Страница не загрузилась из-за проблем с&nbsp;IP
+  og:title: ?
+  JSON-LD blocks: 0
+  Price mentions: 0, sample: []
+  avito.st imgs: 1
+    sample: https://www.avito.st/s/captcha/gt4.js
+  CAPTCHA: True
+  404-like: False
+
+============================================================
+AVITO: trying category page for real ad IDs
+============================================================
+
+  Category: https://www.avito.ru/all/noutbuki
+  HTTP: 429, len: 34116
+  Saved: diag_avito_cat_noutbuki.html (35972 B)
+  Found ad IDs: 0
+
+============================================================
+RESULT: WB_API=FAIL
+DONE

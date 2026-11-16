@@ -1,0 +1,13 @@
+{
+  "ts": "2026-11-15T01:17:56.332312+10:00",
+  "phase1": {
+    "rows": 0,
+    "observations": []
+  },
+  "phase2": {
+    "ad_id": null,
+    "http_status": null,
+    "html_bytes": 0
+  },
+  "elapsed_sec": 14.0
+}

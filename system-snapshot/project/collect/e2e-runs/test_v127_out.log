@@ -1,0 +1,82 @@
+C:\Users\aleks\Downloads\R52-2.12\R52-2.12\test_v127.py:4: SyntaxWarning: "\P" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\P"? A raw string is also an option.
+  cmd /c "C:\Python315\python.exe -u test_v127.py > test_v127_out.log 2>&1 & echo EXIT=%ERRORLEVEL%"
+01:45:48 [v127] INFO: ============================================================
+01:45:48 [v127] INFO: WILDBERRIES (card.json + price extraction)
+01:45:48 [v127] INFO: ============================================================
+01:45:49 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+01:45:49 [r52.collectors.wb] INFO: WB: curl_cffi доступен (impersonate=chrome)
+01:45:49 [v127] INFO: 
+--- WB 199298871 ---
+01:46:26 [r52.collectors.wb] INFO: WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+01:46:29 [r52.collectors.wb] INFO: WB 199298871: card.json OK (24 keys, 9623B)
+01:46:31 [r52.collectors.wb] INFO: WB 199298871: price card_v1 -> 403
+01:46:35 [r52.collectors.wb] INFO: WB 199298871: price card_v2 -> 403
+01:46:38 [r52.collectors.wb] INFO: WB 199298871: price card_v4 -> 403
+01:46:40 [r52.collectors.wb] INFO: WB 199298871: price card_v5 -> 403
+01:46:43 [r52.collectors.wb] INFO: WB 199298871: price web_api -> 498
+01:46:43 [r52.collectors.wb] INFO: WB 199298871: price — все эндпоинты не дали данных
+01:47:03 [r52.collectors.wb] INFO: WB HTML: HTTP 498
+01:47:03 [r52.collectors.wb] INFO: WB 199298871: photo_count=6, found=1
+01:47:03 [r52.collectors.wb] INFO: WB 199298871: has_video=true, видео не найдено
+01:47:03 [v127] INFO:   [73.9s] status=PARTIAL_SUCCESS title=Овсяный смарт коктейль для похудения без сахара
+01:47:03 [v127] INFO:   prices=0 media=1 avail=UNKNOWN
+01:47:03 [v127] INFO:     M: image https://basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg
+01:47:03 [v127] INFO:   saved -> v127_wb_199298871.json
+01:47:03 [v127] INFO: 
+--- WB 259671175 ---
+01:47:47 [r52.collectors.wb] INFO: WB: vol=2596 -> basket-16.wbbasket.ru (nm_id=259671175)
+01:47:49 [r52.collectors.wb] INFO: WB 259671175: card.json OK (23 keys, 5041B)
+01:47:52 [r52.collectors.wb] INFO: WB 259671175: price card_v1 -> 403
+01:47:55 [r52.collectors.wb] INFO: WB 259671175: price card_v2 -> 403
+01:47:59 [r52.collectors.wb] INFO: WB 259671175: price card_v4 -> 403
+01:48:02 [r52.collectors.wb] INFO: WB 259671175: price card_v5 -> 403
+01:48:06 [r52.collectors.wb] INFO: WB 259671175: price web_api -> 498
+01:48:06 [r52.collectors.wb] INFO: WB 259671175: price — все эндпоинты не дали данных
+01:48:17 [r52.collectors.wb] INFO: WB HTML: HTTP 498
+01:48:17 [r52.collectors.wb] INFO: WB 259671175: photo_count=15, found=1
+01:48:17 [r52.collectors.wb] INFO: WB 259671175: has_video=true, видео не найдено
+01:48:17 [v127] INFO:   [74.2s] status=PARTIAL_SUCCESS title=Набор фильтров Haval H9 2.0T Хавал H9
+01:48:17 [v127] INFO:   prices=0 media=1 avail=UNKNOWN
+01:48:17 [v127] INFO:     M: image https://basket-16.wbbasket.ru/vol2596/part259671/259671175/images/S800/S800.jpg
+01:48:17 [v127] INFO:   saved -> v127_wb_259671175.json
+01:48:17 [v127] INFO: 
+WB stats: {'requests': 43, 'success': 4, 'failed': 27, 'blocked': 12}
+01:48:17 [v127] INFO: 
+============================================================
+01:48:17 [v127] INFO: FARPOST (fixed URL: /vladivostok/{id}.html)
+01:48:17 [v127] INFO: ============================================================
+01:48:17 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+01:48:17 [v127] INFO: 
+--- FP 130693618 ---
+01:48:17 [v127] INFO:   URL: https://www.farpost.ru/vladivostok/130693618.html
+01:48:18 [r52.collectors.farpost] INFO: FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+01:48:20 [v127] INFO:   [2.7s] status=PARTIAL_SUCCESS title=Triangle IcelynX TI501, 205/55 R16 94T XL
+01:48:20 [v127] INFO:   prices=1 media=5 avail=IN_STOCK seller=TT-auto__дилер TRIANGLE__лучшие цены
+01:48:20 [v127] INFO:     P: regular 2440000 RUB (data-bulletin-price)
+01:48:20 [v127] INFO:     M: image https://static.baza.farpost.ru/v/1695007185239_bulletin?ni=yes
+01:48:20 [v127] INFO:     M: image https://static.baza.farpost.ru/v/1695007185714_bulletin?ni=yes
+01:48:20 [v127] INFO:     M: image https://static.baza.farpost.ru/v/1695007185703_bulletin?ni=yes
+01:48:20 [v127] INFO:   specs: 9 pairs
+01:48:20 [v127] INFO:     S: Количество шин в неделимом комплекте = 4 шт
+01:48:20 [v127] INFO:     S: Всего комплектов = 3&nbsp;шт
+01:48:20 [v127] INFO:     S: Год выпуска шин = 2026
+01:48:20 [v127] INFO:     S: Протектор = Зимние
+01:48:20 [v127] INFO:   saved -> v127_fp_130693618.json
+01:48:20 [v127] INFO: 
+--- FP 136342005 ---
+01:48:20 [v127] INFO:   URL: https://www.farpost.ru/vladivostok/136342005.html
+01:48:39 [v127] INFO:   [19.1s] status=PARTIAL_SUCCESS title=Комплект дисков Rays G25 R17 7.5J ET35 5*100 (450)
+01:48:39 [v127] INFO:   prices=1 media=10 avail=IN_STOCK seller=wheelsdisk
+01:48:39 [v127] INFO:     P: regular 3800000 RUB (data-bulletin-price)
+01:48:39 [v127] INFO:     M: image https://static.baza.farpost.ru/v/1781657753834_bulletin
+01:48:39 [v127] INFO:     M: image https://static.baza.farpost.ru/v/1781657753941_bulletin
+01:48:39 [v127] INFO:     M: image https://static.baza.farpost.ru/v/1781657754970_bulletin
+01:48:39 [v127] INFO:   specs: 9 pairs
+01:48:39 [v127] INFO:     S: Количество дисков в комплекте = 4 шт
+01:48:39 [v127] INFO:     S: Количество комплектов = 1&nbsp;шт
+01:48:39 [v127] INFO:     S: Состояние товара = Новый
+01:48:39 [v127] INFO:     S: Диаметр = 17"
+01:48:39 [v127] INFO:   saved -> v127_fp_136342005.json
+01:48:39 [v127] INFO: 
+--- FP 98836529 ---
+01:48:39 [v127] INFO:   URL: https://www.farpost.ru/vladivostok/98836529.html

@@ -1,0 +1,153 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Колготки теплые с мехом",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Denvi",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 54800,
+        "amount": "548.00",
+        "currency": "RUB",
+        "visible_label": "548.00 руб.",
+        "variant_id": "42-46",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 54800,
+          "listing_id": "255059226",
+          "variant_id": "42-46"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 500000,
+        "amount": "5000.00",
+        "currency": "RUB",
+        "visible_label": "5000.00 руб.",
+        "variant_id": "42-46",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 500000,
+          "listing_id": "255059226",
+          "variant_id": "42-46"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 54800,
+        "amount": "548.00",
+        "currency": "RUB",
+        "visible_label": "548.00 руб.",
+        "variant_id": "48-52",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.product",
+          "value_minor": 54800,
+          "listing_id": "255059226",
+          "variant_id": "48-52"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 500000,
+        "amount": "5000.00",
+        "currency": "RUB",
+        "visible_label": "5000.00 руб.",
+        "variant_id": "48-52",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.basic",
+          "value_minor": 500000,
+          "listing_id": "255059226",
+          "variant_id": "48-52"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 54800,
+        "amount": "548.00",
+        "currency": "RUB",
+        "visible_label": "548.00 руб.",
+        "variant_id": "54-60",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.product",
+          "value_minor": 54800,
+          "listing_id": "255059226",
+          "variant_id": "54-60"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 500000,
+        "amount": "5000.00",
+        "currency": "RUB",
+        "visible_label": "5000.00 руб.",
+        "variant_id": "54-60",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.basic",
+          "value_minor": 500000,
+          "listing_id": "255059226",
+          "variant_id": "54-60"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "255059226",
+    "listing_id": "255059226",
+    "title": "Колготки теплые с мехом",
+    "url": "https://www.wildberries.ru/catalog/255059226/detail.aspx",
+    "observed_at": "2026-11-15T19:16:08.548837+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

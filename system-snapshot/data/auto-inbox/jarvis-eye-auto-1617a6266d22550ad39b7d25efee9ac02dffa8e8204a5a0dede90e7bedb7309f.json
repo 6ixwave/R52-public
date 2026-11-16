@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Диффузор для дома с палочками, Ягодный, 70 мл",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Breesal",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Новая коллекция ароматов Breesal Aroma Dessert – это не просто приятный аромат, а ощущение — как от любимого десерта, чашки кофе или только что испечённого пирога. Это ароматы про уют, про комфорт, про вкусные детали, из которых складывается ощущение дома. В такие ароматы хочется «укутаться» в ненастный день.\n\nВ ароматическом диффузоре «Ягодный джем» звучит насыщенная сладость спелых ягод — густая, тёплая и обволакивающая. Земляника, брусника и ежевика соединяются в композицию, напоминающую аромат свежего домашнего варенья, только что снятого с плиты. Аромат мягкий, сладкий и очень уютный — без кислинки, с ощущением настоящего десерта. \n\nЭтот продукт не только наполнит ваше пространство натуральным ароматом, но и станет стильным элементом декора. Регулируйте интенсивность запаха по своему усмотрению, создавая идеальную атмосферу. Подарите себе и близким ароматы, созданные ведущими Европейскими парфюмерами, которые станут неотъемлемой частью вашего домашнего уюта.\n",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Декор интерьера > Парфюм для дома",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 204700,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "2047.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 50700,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "507.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Декор интерьера > Парфюм для дома",
+    "source": "WB",
+    "id": "784056829",
+    "url": "https://www.wildberries.ru/catalog/784056829/detail.aspx",
+    "observed_at": "2026-11-17T01:26:32.312553+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

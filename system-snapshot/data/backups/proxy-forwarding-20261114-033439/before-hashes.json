@@ -1,0 +1,530 @@
+[
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\__init__.py",
+    "Hash": "774C5F01F3BDB35C72A5CAB77414E9D5DB576F699C74D9FDD8ACAB18FD8C6A14"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\__main__.py",
+    "Hash": "13A1A5B340CDCFC1902B62BE90E508C7C71886000D5BF087E7854AADF09FB35E"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\cli.py",
+    "Hash": "0E05D246E82FA21637D11BCFE3D3968BD8B8385308B46DF73FA75EC5E7889D51"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\client.py",
+    "Hash": "B73CF33616EB101AB383B755E20082431A49CE9DA3F963F1CBB451C084ABD8D7"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\config.py",
+    "Hash": "B68C66FA7045312D9462C0F06CD2D852FAEC2EAAA4EB7168166A42B8F01935B0"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\errors.py",
+    "Hash": "37655E151BD200B4F84C80FE85211857EC41E1A805AF687CC7BDC4AA165EFC04"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\exporter.py",
+    "Hash": "E280299ED9509C6FDA071B9DEA0B67370F511A8DED57F8E6F4A09B06031142A6"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\fsutil.py",
+    "Hash": "91F5701602CD8A096EA61D90F22FC621EC994B3A32B26A102EFE144A1DBFF52A"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\lease.py",
+    "Hash": "D1AA6187FE2A43E54AD842B3FBFE62F422892DAFBCB683FD53F21D322FA73C6B"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\log.py",
+    "Hash": "EA721FBBBA57BFCCB7F51DE2AACFF618FC086ABE4FE2C12C0BA50A9A2CC45AF2"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\money.py",
+    "Hash": "FE0A6D3586705F5F1B429005D963E175D8A6FD85B397C84C83CE8F3B8EC50A4D"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\netguard.py",
+    "Hash": "072155B74DBDDE1567AF9B95F547ABBBB39A21111F80628C39E1E6A18C7FD401"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\opener.py",
+    "Hash": "32321ED03136EEBF43C5D5CB0ADD50A2CB10DAF94619C7839337064198D0B511"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\service.py",
+    "Hash": "9BE59BA57B4E508BC3FC4DB185C98059861D309D66C7B9D509C8E62C416F4BEA"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\sources.py",
+    "Hash": "0A2C310FFC6B59460E2A71FCE63EBBB5CE757FAA7B004E5AAF7A9227E0EBB691"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\supervisor.py",
+    "Hash": "E2E98047DC28C6CB720A5E8DD1712471EF791D467EDFCC8BBCAAFC81350F26C5"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\timeutil.py",
+    "Hash": "9C1066AE20E13B03E0168F2A89CED0B342629528445CF6884E65CDC20B88327C"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\validate.py",
+    "Hash": "325698013C65D542FF47DBA38AB5C1C4B4E377D6FEF2994E4C9B0C368DBAA6B2"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\api\\__init__.py",
+    "Hash": "EB432CA0187A6AD65C7ACC2F9BBBDEFA37FFDE2E28E424094E79126529F95AC2"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\api\\autocollect.py",
+    "Hash": "7F6F16F8846C307AC5FF6EC28406183A778A7D484B7CF4CF4A9402EF42D8D565"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\api\\routes.py",
+    "Hash": "0F0AB41ED2A96770A8AE64185A07B210326476B7C3D80B7D4B512692D2A91340"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\api\\server.py",
+    "Hash": "4D46531C1C46A603C40D9C7D1BB3C4F7CDF2C5E2C58B4257B3CA13CDFC035369"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\api\\uiauth.py",
+    "Hash": "88ADEC4D273979EF222E76DCB57F1D6130514151D0379B48456953240BB9B713"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\assistant\\__init__.py",
+    "Hash": "8FC8A8B9F68E43A5A113CFC13D13211CEB45A428BD581A9099C271E03F6E4ADA"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\assistant\\analysis.py",
+    "Hash": "2DD5C4D915890EB5E1C1CCED0F4895CBD6BF1E69E25D9EB614BCCC4E309AD4E8"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\assistant\\cloud.py",
+    "Hash": "650A6CC18D112958B9B38796CFBFD0F05969D14B26B8ED6FD66F15B8A252DCFF"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\assistant\\engine.py",
+    "Hash": "73BF22D127E8E9E4CFB4BC88676E791F0B678B0F8CC0E652CFE1B769A692351E"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\assistant\\intents.py",
+    "Hash": "1F985B81A457030403A30121056617F6204E407B84D66277A0C910E7F9C5B913"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\assistant\\llm.py",
+    "Hash": "D7B4A8F8A4B57AB5D1B8FD1B762094AD2E24B3632C35BBA404392B4B98F8EBE4"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\assistant\\openrouter.py",
+    "Hash": "3767B1549C0691A1DA6E3FC03F37D0023EE77004CC89753FCF2501A45DE05CAF"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\__init__.py",
+    "Hash": "C9572A74E8ABBC2838AC633448F69C4A8D8033CD0B78ED4D8367E94415C3FC1F"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\aliexpress.py",
+    "Hash": "CE9079623A68961EB00E5B968FDF18F21D7148686FA03A250C3CA1F369BB146E"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\auto_worker.py",
+    "Hash": "3715B0DFABEA09506191130969F71681CDEF8D2B0AB6FAE19F3664149878D481"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\avito.py",
+    "Hash": "74C752090A27D922019F9604B0AAEA566303572A6E20E69235060A3BB58D432A"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\base.py",
+    "Hash": "48E96EABA24A9D76B6B3C6A044C642E86770B4C34B0898DAEC10FC3E1038DA2A"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\discovery.py",
+    "Hash": "BDCEF63EB1F4D7364CE7F16874CF74F2630746C0DE4280235B60030192DAE68D"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\farpost.py",
+    "Hash": "D15251787144523D2CA0BB603D3C2488AFEE3F13FB75B641A220A3BED3425E6E"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\integration_test.py",
+    "Hash": "22FC0BE0A487E1D2489B6DEE597195750E60B03D4683E7AC5550FBF34B28539F"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\ozon.py",
+    "Hash": "9C0E8A74514FC841DDDB53FFC1DC40D439BEB5AE838892B775EB6C7651E43742"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\proxy_pool.py",
+    "Hash": "0F7A7394825C9D3CC247A4CAB2126D7836C209E066B4D2ABB89C03C6F0A984D3"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\pw_fetch.py",
+    "Hash": "E820F719ACFB5C1989DD315F8D73088F82E2674E143C821F12C21B9385D4519C"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\runner.py",
+    "Hash": "11FEF85932E294ED5CCE909B8CC24F363019CA276C60CDB6B46F9404A58BF655"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\test_collectors.py",
+    "Hash": "9515AB2783B2F41CA0BD67C626C3BCC7F8C1DC115F892B04D1CE03B363507DEA"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\wb.py",
+    "Hash": "168A6B599EAEB0672DBFEBEDA04BB0FE4C7AD4878E715422B23D1B8E8ABF2FDA"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\core\\__init__.py",
+    "Hash": "09D960C2044C86EB187C090316D2D08A417218FBFAAD9F5126A6ED0CD2EE48AF"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\core\\autocollect.py",
+    "Hash": "A84D98E75836D9A44421C1B10E10647433FA2F84CF9184053588D5855AB171CD"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\core\\handlers.py",
+    "Hash": "4AA6EEB1B6B47A67A20FF20D0B81C9D0DB4759C70EDB2B6D9AD395252DB317E9"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\core\\notify.py",
+    "Hash": "1BD0CF7926BD24FCBBEEABE40199F20989609BB318567C8FE8E47B9EFBA23BD6"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\core\\scheduler.py",
+    "Hash": "FDCCFDC2EA5DA9B73A158B48E3384477DFCC0DB93EFC9BDD6BA40E09A8118C18"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\core\\settings.py",
+    "Hash": "E281ECA6B568AC0AC9EF43465DF2B9D8F5F3E308C87745D712884166211C5F71"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\core\\tasks.py",
+    "Hash": "5AF708E7F014F5E25DB1912851920E4795289D840002169CC26D4BCEFA9025B7"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\core\\watches.py",
+    "Hash": "0122C0BA282579899434C87CB586677D0A11CE27000B9E46D319459AB3791446"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\db\\__init__.py",
+    "Hash": "6245E8C2F88B12BE4E6C5F5448D6F5CDE3836454EF9EDD68C8A64293089F60A1"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\db\\backup.py",
+    "Hash": "6E1114847671C1E1B023D6878F1F731CD73FA92EE411AF219AA7F8214FB915DA"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\db\\database.py",
+    "Hash": "55A95EBC34996037FED11FA97A11207B9CB601FA6A03D2C42F42E55327D132CA"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\db\\migrate.py",
+    "Hash": "A2206E9FBD88C7BB291DC615C47FADCE3C1C29DBEAD7B4A63F7902CEB2DD3BFD"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\db\\schema.py",
+    "Hash": "A6D4DB76D56D4D8087F2A5AA67910D687948B66A5A68465E99098C664350397B"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\desktop\\__init__.py",
+    "Hash": "382E82708E983906AE0DA8C040BB022F19388BE075CEECC1FB7072DC6BD66EB2"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\desktop\\__main__.py",
+    "Hash": "72FF7145F331510548A2F34CE52330A1B649D53C8C432C15BBEBCA5927368CD6"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\desktop\\link.py",
+    "Hash": "08BEDE3AC52B69213CD466C2DBC1E39FA4DF5C5C983A8A80C0E4E005B572E471"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\desktop\\window.py",
+    "Hash": "4069D58C692701BA2F213916212413506F526E726899C045F47F99FF0860E7E0"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\domain\\__init__.py",
+    "Hash": "4674F4A4C1F1BAA14903F375A8AC4BF325783D7A5015A1A700FEF166310EE185"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\domain\\compare.py",
+    "Hash": "70EB06B60921CDB5B3BFA597C8ECE19DDE9A7F95944287342412641507469C84"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\domain\\media.py",
+    "Hash": "30AAA104044C6CFA8BAFFFC2033FCDEA8E543D7D3898A5D7D324A4EF91394F83"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\domain\\normalize.py",
+    "Hash": "8350F3D533DEC0707CEF470A59D36D7F2E34CDFF8095D4AC7AFC9F2B93CF6D59"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\domain\\pricing.py",
+    "Hash": "212D1416378AF407BFD95C7454CCBD71C60161007F4939931D36C318F33B8F5C"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\intake\\__init__.py",
+    "Hash": "A0584F9738001A3D13679F1D7F1413B540DDCC84EACD095838A61DA58A44DF61"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\intake\\eye.py",
+    "Hash": "58243C367BD70F975393925B277F15E6DADD795B3FD14B55608540BB336E8005"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\intake\\folder.py",
+    "Hash": "B0F604A9FE61BBE53847BA15574547ED40221A80C258335FA2D206065DA25F76"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\intake\\legacy.py",
+    "Hash": "E7D5ED76D92868ED3EB595D50543A59FC0749CA9C0DF591B24BEA8A5EB91BB5D"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\store\\__init__.py",
+    "Hash": "A1C5B0A3D8AC4F2036D10072FC3A8A33948AD8921BC607A1189CA3B0B40103A2"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\store\\lists.py",
+    "Hash": "23A244C7FE70F3D3D2BF4393D16F1C7FE52AEAB63906D28C74E5836B346F988B"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\store\\products.py",
+    "Hash": "B1AD07E36126AF78E2FBDE4778FFB57F5C75F8C86A93A38187D9D05F046C5726"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\index.html",
+    "Hash": "1F659755F4E2D1C934627759D863BAD203D4BE23DA2FF902EFA97031B50A295B"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\css\\base.css",
+    "Hash": "0B4EB3C8B50E979CE83CE8A1EB54BD9FAB15441752DB290912EBDAD3B4F060D1"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\css\\city-panels.css",
+    "Hash": "F024356F4ABFD5D96AE986C611C85478D9AC0F1686CFAEFB2847EB232014AC26"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\css\\city.css",
+    "Hash": "08F4DCB26F5F6D4A6AF5F50FC920ECA5889B45B55D31891F9941643DCACC07B2"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\css\\components.css",
+    "Hash": "19995A97C4CA8696F3C3E61A461DCE80672F1ED4580C448E571266FC3606D7A2"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\css\\offers.css",
+    "Hash": "BD5BB17BD9204B74E8C3C1FA54572F2FD15E2F2BED03DC331E4E280B3F04984A"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\css\\radar-gallery.css",
+    "Hash": "AFC3FE275E5A303B495EFFE273CA18414A89FEA586AA51BF4FCCA4C1DA0FF346"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\css\\refined.css",
+    "Hash": "C858434A2DE61C11E667253295BD6A9858FA80F15C75313F8151AB69F8650712"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\css\\urban.css",
+    "Hash": "B239A82420D026DC7971C2FDAAE9E2B5C6168D6087D646D8203101BB095F3A52"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\css\\views.css",
+    "Hash": "45E4F9025A5D76B8F1703F8D2B572F6E214502AC68BB9A0460A98F8CBAFA09DA"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\actions.js",
+    "Hash": "210640971D1C40FDFBDC6035F861697540AB7269E799A16B66F47B86DA4DF364"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\analysis-panel.js",
+    "Hash": "6B0BC7E2B42BF0F6572CC10436B429985154A94321A9E0A8D03C0E0095936061"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\api.js",
+    "Hash": "97E63B1AB8243FC5B19FB96FBAF8044759AF4E0A522D171E5F3109D64648EDE4"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\chart.js",
+    "Hash": "D9CAA4580B236DE9DC192E5D607B92D2D3F46F49F801535C7C72D28094AC926A"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-callout-layout.js",
+    "Hash": "155373CFE100D5B022871F98D81EC731F7F3D9B733C639D3022D785C87E64638"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-camera-fit.js",
+    "Hash": "8E459D199B81E8AB1DA7C978D047368696A3CBABFB4B5177782D414235BAA364"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-district-labels.js",
+    "Hash": "6D4D8BAFD9B7DD888827BD41B74E452839F0F1C4EBFC82DDBFF0E91543FCE4DC"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-edge.js",
+    "Hash": "3BED98E4D16FD8A2A6A9DF976D75D6478B5EA91EDE2572FC59BCE4F508C0D00B"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-label-layout.js",
+    "Hash": "BFDF1D3929458948D376322038C894AA3F32B1DF80FE3A663F7DFD1DD3118A4B"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-layout.js",
+    "Hash": "C6C604FA35DE89F22BC406F6B7CA10E7425B2917E05D342B6681451A6F4B62BF"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-materials.js",
+    "Hash": "5D0BBCB158EA7EDCC2120C78F0EE3975ED0146B625F41AE73ACCBFA22C5AA576"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-model.js",
+    "Hash": "BAF686B5C41CAF605D7B4826F8B50A0707B61CEB41C8D577B50BB4B2B2C1A8A1"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-navigation.js",
+    "Hash": "62CD2EE81AB393F58ACDE924BA317326763C6279229E2C36744C80DFE97A0672"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-panel-layout.js",
+    "Hash": "E64643B4B7F0495362BF11FD0D6DE68FC9ADADB4AF5C9849944D5EC2CABAA448"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-panels.js",
+    "Hash": "1E7FD4ABAE60FF6C10A9EA16249B730B652CC2E2489925F5D280150BC57A2AD8"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-scene.js",
+    "Hash": "207DD2C7B588FE45137EBCF55FB5A3EFA880BA2DAFF82421A6F9F29B9F568019"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-spatial-layout.js",
+    "Hash": "392A61DA40115C301CBA18170D5C12F891AACCAD63404851A3415B6C014AA667"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-taxonomy.js",
+    "Hash": "26CD92DEB08B6B826848289BFD91E08591AC7CA1EA8F90FD431705C56E346A99"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\city-territories.js",
+    "Hash": "9144A5ACCC3A7C4F4B8D3ACF92E579824FCDD161D3986800B0D7531A0AB5256F"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\dom.js",
+    "Hash": "55449A2E13D2E4B5FEFCBB2D7253DDE1C1E72122ED7CC3624D89C9C5CF1DFAC5"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\flows.js",
+    "Hash": "ED89FE2F2FA3CD7080CEF89E2EBCA442825B2F6D683FBCB713452F11353E3096"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\icons.js",
+    "Hash": "1813C17F6EBC6C249BD0A90407701A12A8D1757497E2607024C1227DB148962F"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\interface.js",
+    "Hash": "1188D865C21300FE1B9A710DDD85F02629884422950D5A201B8C43CC1C48CB92"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\main.js",
+    "Hash": "70EA8EC207488F5E0E8B3CA9131F91AC7B4D7580182001D210FD687B8C764430"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\media.js",
+    "Hash": "231AB695A510D14BD905E1199BB513D700D1CE9F818D5023120D47A99B3249B3"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\meta.js",
+    "Hash": "08C76DAABF18048F36FCBA2DBDB001BEA2B349047433018C4FA49D00135FBFCC"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\motion.js",
+    "Hash": "6CCD12803C9B5B41867F8630DC92D5E34CFB6B0608080D65F78EF3AF3EEC96B6"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\object-interactions.js",
+    "Hash": "78FC97A0967A5133DDF2272176547722931AC33833E533012A4A4F0A03135303"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\palette.js",
+    "Hash": "18B720291A7993EEBCC566CBD63D5613C17C241EE27417AD6AC174E3F8421E06"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\state.js",
+    "Hash": "91A46C0E7626405850A17A06B35DA66163298DB5B076DA194D070A88C2FE0034"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\terrain.js",
+    "Hash": "5F34F4A3D448F4229A8EB1BCCD343D85EF567A3A906BE69B52C4E73EE6B6F759"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\ui.js",
+    "Hash": "8A61B8D07E69D536DF7002342F799D3F00016677028DF3E12B9EA1E9294ECFAD"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\urban-layout.js",
+    "Hash": "2FB48CB4F9F3160F4087833DA685E279396435737BC7ABE0ECDB5A8116B7D6A1"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\urban-world.js",
+    "Hash": "3AB49F668772D4FCCF8DAF87BA863C9726E942F75CCCD9BFFFAA59DF9D4B8DA2"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\vendor\\CSS3DRenderer.js",
+    "Hash": "77EE7BCC679CF3DBEE420AB43D3602204D6067153261DC1A55B62D3CB11867FA"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\vendor\\OrbitControls.js",
+    "Hash": "6F3052DD8860A60FE6999260D50558FF54609523724C6E374326228E5590CF55"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\vendor\\three.module.js",
+    "Hash": "CE1FA418DE16A19495A9F72495580E3015D7745C296D3CE0485897F902DDEDFB"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\vendor\\topography.js",
+    "Hash": "96BFC94D407B262C2D95343FD99E81060FD9480526B386C3B0A2B07F5B0C2DE0"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\assistant.js",
+    "Hash": "CF5D2AE0170CEF8CDCD1E24D22ED8478278D3237DA3FA1C0C278796F479F3109"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\autocollect.js",
+    "Hash": "0F24736B28751CB8470E9218729843239968FC6ED8C74EB3B79B6A1B86400324"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\inbox.js",
+    "Hash": "60E2BD1744B96AE311F51270867D16DE8F30114864871D79633EE07FDA5129CC"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\map.js",
+    "Hash": "CA311469020411FC647F84E0F48EBFE27C892F9E913E5FE3A2AB299F86E6E43C"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\overview.js",
+    "Hash": "034C1791BEB05A5356493ADC991D06BAFC4DC9AB992A65122869520F9C0E688E"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\product.js",
+    "Hash": "B66AECFFA3190EFD3693E1621DE5A3BB5479243A0CDBF546AAFAA13934013F22"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\products.js",
+    "Hash": "BE9A0BE8B3019E0D7EAB163A0CB89154ADE50DE9E1B74BB4D73942008972D66F"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\service.js",
+    "Hash": "5CDE07C0AB000F4DCE28957E110A6DF457C88C3C11B1F454FB6E7311BE3B26B6"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\settings.js",
+    "Hash": "271688BB558D0F9FED8B4420863AF745B6D131776385FB41F70E5054F8C42519"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\tasks.js",
+    "Hash": "630AF51EBB1F2488CE0D910996403A7FE88C5B16048929DFF2861FD5FA6024AB"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\web\\js\\views\\watch.js",
+    "Hash": "220BF89C9E6FB448C4E1252332D8363A8DB098BF14F71A9ABD1C57D1DEB28EBF"
+  }
+]

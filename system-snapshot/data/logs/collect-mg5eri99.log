@@ -1,0 +1,31 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 21:25:57,666 r52.autocollect.worker INFO phase=worker_start pid=11556
+2026-11-15 21:25:57,675 r52.autocollect.worker INFO source=ALIEXPRESS mode=discover phase=initialize
+2026-11-15 21:25:57,675 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-15 21:25:57,676 r52.autocollect.worker INFO source=ALIEXPRESS proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-15 21:25:57,676 r52.autocollect.worker INFO source=ALIEXPRESS phase=search_start page=1 limit=5
+2026-11-15 21:25:59,768 r52.collectors.aliexpress WARNING ALI_COM: wholesale HTML error: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 21:26:16,301 r52.collectors.aliexpress WARNING ALI_COM: curl_cffi error: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-15 21:26:17,144 r52.collectors.aliexpress INFO ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile, domain=com
+2026-11-15 21:26:17,160 r52.collectors.aliexpress INFO ALI PW: session already warm (20 cookies)
+2026-11-15 21:26:19,941 r52.collectors.aliexpress WARNING ALI PW: fetch error: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.aliexpress.com/wholesale?SearchText=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C&page=1
+Call log:
+  - navigating to "https://www.aliexpress.com/wholesale?SearchText=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C&page=1", waiting until "domcontentloaded"
+
+2026-11-15 21:26:31,020 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 407 Proxy Authentication Required')': /wholesale?SearchText=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C&page=1
+2026-11-15 21:26:34,576 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 407 Proxy Authentication Required')': /wholesale?SearchText=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C&page=1
+2026-11-15 21:26:36,133 r52.collectors WARNING ALIEXPRESS: ошибка сети https://www.aliexpress.com/wholesale?SearchText=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C&page=1: HTTPSConnectionPool(host='www.aliexpress.com', port=443): Max retries exceeded with url: /wholesale?SearchText=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C&page=1 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required')))
+2026-11-15 21:26:36,134 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_start
+2026-11-15 21:26:36,434 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_complete
+2026-11-15 21:26:36,434 root ERROR phase=worker_failed code=LISTING_HTTP_UNAVAILABLE
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98, in main
+    run(json.loads((folder / "request").read_text("utf-8")), folder)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 80, in run
+    rows = collector.collect_by_search(params["value"], page=params["page"], page_size=params["limit"])
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\aliexpress.py", line 562, in collect_by_search
+    return collect_links(self, "ALIEXPRESS", url, page_size)
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\discovery.py", line 56, in collect_links
+    raise ValueError("LISTING_HTTP_" + str(status if isinstance(status, int) else "UNAVAILABLE"))
+ValueError: LISTING_HTTP_UNAVAILABLE

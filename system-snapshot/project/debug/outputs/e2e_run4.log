@@ -1,0 +1,9 @@
+2026-11-13 19:17:38,920 test_e2e INFO ============================================================
+2026-11-13 19:17:38,920 test_e2e INFO E2E COLLECTOR TEST — 2026-11-13T19:17:38.920470
+2026-11-13 19:17:38,920 test_e2e INFO ============================================================
+2026-11-13 19:17:39,203 r52.sources INFO Sources: зарегистрировано 6 сборщиков
+2026-11-13 19:17:39,203 test_e2e INFO [PASS] registry_all_ready 6 sources: WB=READY, OZON=READY, AVITO=READY, FARPOST=READY, ALIEXPRESS=READY, ALIEXPRESS_RU=READY
+2026-11-13 19:17:39,203 test_e2e INFO [PASS] import_all_collectors 6 classes imported
+2026-11-13 19:17:39,204 test_e2e INFO ----------------------------------------
+2026-11-13 19:17:39,204 test_e2e INFO SOURCE: WB
+2026-11-13 19:17:39,205 r52.collectors.runner INFO Runner WB: запуск subprocess: C:\Python315\python.exe -m r52.collectors.runner --params C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\collect\output\WB\runner-wb-params.json

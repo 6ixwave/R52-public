@@ -1,0 +1,148 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Видеокарта GigaByte GeForce GTX 550 Ti 1024MB GV-N550OC-1GI",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Видеокарты. Цена: 2 500&#8381;. GeForce GTX 550 Ti. Б/у. В наличии. Видеокарта PCI-E GigaByte GeForce GTX 550 Ti 1024MB 192bit GDDR5 [GV-N550OC-1GI] DVI miniHDMI. Владивосток",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Техника > Компьютерная техника и периферия > Комплектующие > Видеокарты > GeForce 500 Series",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "NVIDIA",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          },
+          "model": {
+            "label": "Модель",
+            "value": "GeForce GTX 550 Ti"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Б/у"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller": {
+        "status": "KNOWN",
+        "value": "Топливный Цех",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller_url": {
+        "status": "KNOWN",
+        "value": "https://www.farpost.ru/user/ToplivnyyTsekh/",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "137988137",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 250000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "2500.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789444800715_bulletin",
+          "image_data": null,
+          "alt": "GeForce GTX 550 Ti фото",
+          "label": "",
+          "is_main": true,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789444810132_bulletin",
+          "image_data": null,
+          "alt": "GeForce GTX 550 Ti фото",
+          "label": "",
+          "is_main": false,
+          "width": 960,
+          "height": 1280
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Техника > Компьютерная техника и периферия > Комплектующие > Видеокарты > GeForce 500 Series",
+    "source": "FARPOST",
+    "id": "137988137",
+    "url": "https://www.farpost.ru/vladivostok/137988137.html",
+    "observed_at": "2026-11-15T02:40:32.875182+10:00",
+    "status": "FULL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

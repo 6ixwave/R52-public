@@ -1,0 +1,81 @@
+=== diag_v7f — 2026-11-14 12:43:02 ===
+Query: 'наушники'
+
+── [1] AE_COM forced EN/USD ──
+  HTTP 200, 830462 bytes, 4.3s
+  Parsed: 12 products
+  Currencies seen: {'EUR'}
+  IT markers: 12/12, EN: 12, RU: 0
+  No-price: 0/12, Bad-price: 0
+  [0] id=1005012296880178
+      title='EDIFIER W800BT SE Cuffie Wireless Over-Ear Bluetooth 5.4 con Cancellaz'
+      price=31.19 EUR orig=47.81
+      images=1
+  [1] id=1005013099443801
+      title='Cuffie Gaming Professionali con Microfono, Audio Stereo con Bassi Pote'
+      price=18.07 EUR orig=20.75
+      images=1
+  [2] id=1005013556597717
+      title='Cuffie cablate pieghevoli con archetto, driver da 40 mm, audio Hi-Fi s'
+      price=15.78 EUR orig=26.73
+      images=1
+  [3] id=1005006994645378
+      title='Auricolari sportivi wireless A6S con controllo touch, compatibili con '
+      price=2.86 EUR orig=None
+      images=1
+  [4] id=1005013037146888
+      title='CMF Headphone Pro - Fino a 100 ore di autonomia, Hi-Res con LDAC, Suon'
+      price=89.71 EUR orig=96.05
+      images=1
+
+── [2] AE_RU RUB check ──
+  Parsed: 12 products
+  Currencies: {'EUR'}
+  RUB: 0, EUR: 12, Other: 0
+  pdp_npi samples (first 3):
+    6@dis!EUR!685.96!521.39!!!4938.54!3753.71!@210398e917946241905648155e0e77!120000
+    6@dis!EUR!25.94!14.78!!!25.94!14.78!@210398e917946241905648155e0e77!120000615153
+    6@dis!EUR!43.33!31.90!!!43.33!31.90!@210398e917946241905648155e0e77!120000615520
+  → currency field: EUR, orig=43.33, sale=31.90
+  [0] id=1005013565057281
+      title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per Audiofili'
+      price=521.39 EUR
+  [1] id=1005013569410352
+      title='Cuffie wireless con archetto, che offrono un suono stereo nitido, supp'
+      price=14.78 EUR
+  [2] id=1005013582572287
+      title='Cuffie wireless con archetto, cuscinetti auricolari in pelle sintetica'
+      price=31.9 EUR
+  [3] id=1005006995878553
+      title='Auricolari wireless Pro 6 TWS con microfono, auricolari Bluetooth TWS,'
+      price=3.61 EUR
+  [4] id=1005013564277066
+      title='Cuffie da gaming UNICO HP2570 con audio surround 7.1 e illuminazione R'
+      price=40.79 EUR
+
+── [3] AE_RU pagination (p1+p2) ──
+  p1: 12 items, 12 unique IDs, 4.4s
+  p2: 12 items, 12 unique IDs, 12.0s
+  Overlap: 0 IDs
+  Total: 12, no_id=0, no_title=0, no_price=0
+
+── [4] 6-SOURCE QUICK SCAN ──
+  [1/6] ALIEXPRESS
+    0 items 47.6s | no_price=0
+
+  [2/6] ALIEXPRESS_RU
+    0 items 4.8s | no_price=0
+
+  [3/6] WB
+    ERR SearchError: SEARCH_HTTP_403
+
+  [4/6] OZON
+    0 items 36.5s | no_price=0
+
+  [5/6] AVITO
+    ERR SearchError: SEARCH_ACCESS_CHALLENGE
+
+  [6/6] FARPOST
+    ERR SearchError: SEARCH_ACCESS_CHALLENGE
+
+=== DONE ===

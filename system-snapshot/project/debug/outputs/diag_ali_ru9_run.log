@@ -1,0 +1,44 @@
+06:24:27 diag_ali_ru9: === V9: Offline captcha image analysis ===
+06:24:27 diag_ali_ru9: Question: 356x49
+06:24:27 diag_ali_ru9: Grid: [(118, 118), (118, 118), (118, 118), (118, 118), (118, 118), (118, 118), (118, 118), (118, 118), (118, 118)]
+06:24:27 diag_ali_ru9: V1 center crop: (49, 49)
+06:24:27 diag_ali_ru9: V2: edge peak at col 17 (val=15.2), strip width=356
+06:24:27 diag_ali_ru9: V2 edge-peak crop: (49, 49) at x=0
+06:24:27 diag_ali_ru9: V3: saturation peak at col 222 (val=26.2)
+06:24:27 diag_ali_ru9: V4: bg color = [206 231 210]
+06:24:27 diag_ali_ru9: V4: distance peak at col 17 (val=22.1)
+06:24:27 diag_ali_ru9: Comparing 4 crop methods vs 9 grid cells...
+06:24:27 diag_ali_ru9:   v1_center: [(2, np.float64(0.564)), (5, np.float64(0.565)), (4, np.float64(0.603)), (0, np.float64(0.613)), (1, np.float64(0.632))]
+06:24:27 diag_ali_ru9:   v2_edgepeak: [(5, np.float64(0.48)), (0, np.float64(0.536)), (8, np.float64(0.552)), (2, np.float64(0.575)), (4, np.float64(0.581))]
+06:24:27 diag_ali_ru9:   v3_saturation: [(5, np.float64(0.562)), (2, np.float64(0.567)), (4, np.float64(0.622)), (0, np.float64(0.623)), (8, np.float64(0.634))]
+06:24:27 diag_ali_ru9:   v4_bgdist: [(5, np.float64(0.48)), (0, np.float64(0.536)), (8, np.float64(0.552)), (2, np.float64(0.575)), (4, np.float64(0.581))]
+06:24:27 diag_ali_ru9: 
+=== AGGREGATE (avg across 4 methods) ===
+06:24:27 diag_ali_ru9:   grid[5]: avg=0.5216  (per-method: [np.float64(0.565), np.float64(0.48), np.float64(0.562), np.float64(0.48)])
+06:24:27 diag_ali_ru9:   grid[2]: avg=0.5702  (per-method: [np.float64(0.564), np.float64(0.575), np.float64(0.567), np.float64(0.575)])
+06:24:27 diag_ali_ru9:   grid[0]: avg=0.5769  (per-method: [np.float64(0.613), np.float64(0.536), np.float64(0.623), np.float64(0.536)])
+06:24:27 diag_ali_ru9:   grid[4]: avg=0.5968  (per-method: [np.float64(0.603), np.float64(0.581), np.float64(0.622), np.float64(0.581)])
+06:24:27 diag_ali_ru9:   grid[8]: avg=0.5971  (per-method: [np.float64(0.65), np.float64(0.552), np.float64(0.634), np.float64(0.552)])
+06:24:27 diag_ali_ru9:   grid[6]: avg=0.6397  (per-method: [np.float64(0.636), np.float64(0.644), np.float64(0.635), np.float64(0.644)])
+06:24:27 diag_ali_ru9:   grid[1]: avg=0.6423  (per-method: [np.float64(0.632), np.float64(0.648), np.float64(0.641), np.float64(0.648)])
+06:24:27 diag_ali_ru9:   grid[3]: avg=0.6994  (per-method: [np.float64(0.693), np.float64(0.704), np.float64(0.697), np.float64(0.704)])
+06:24:27 diag_ali_ru9:   grid[7]: avg=0.7062  (per-method: [np.float64(0.692), np.float64(0.72), np.float64(0.692), np.float64(0.72)])
+06:24:27 diag_ali_ru9: Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru9_report.json
+06:24:27 diag_ali_ru9: Best 3 cells: [5, 2, 0]
+06:24:27 diag_ali_ru9: 
+=== Multi-window approach ===
+06:24:27 diag_ali_ru9: Windows at x: [0, 65, 154, 243, 307]
+06:24:27 diag_ali_ru9: Multi-window (min across 5 windows):
+06:24:27 diag_ali_ru9:   grid[8]: min=0.5187  windows=[0.519, 0.55, 0.546, 0.535, 0.541]
+06:24:27 diag_ali_ru9:   grid[5]: min=0.5513  windows=[0.551, 0.572, 0.579, 0.577, 0.587]
+06:24:27 diag_ali_ru9:   grid[2]: min=0.5639  windows=[0.569, 0.574, 0.571, 0.565, 0.564]
+06:24:27 diag_ali_ru9:   grid[0]: min=0.5812  windows=[0.581, 0.588, 0.614, 0.618, 0.604]
+06:24:27 diag_ali_ru9:   grid[1]: min=0.5855  windows=[0.591, 0.59, 0.586, 0.587, 0.59]
+06:24:27 diag_ali_ru9:   grid[4]: min=0.5907  windows=[0.598, 0.621, 0.591, 0.617, 0.605]
+06:24:27 diag_ali_ru9:   grid[3]: min=0.6707  windows=[0.671, 0.698, 0.704, 0.711, 0.722]
+06:24:27 diag_ali_ru9:   grid[6]: min=0.6824  windows=[0.682, 0.697, 0.716, 0.716, 0.709]
+06:24:27 diag_ali_ru9:   grid[7]: min=0.7568  windows=[0.776, 0.757, 0.781, 0.78, 0.769]
+06:24:27 diag_ali_ru9: 
+=== DONE ===
+06:24:27 diag_ali_ru9: Best 3 (aggregate): [5, 2, 0]
+06:24:27 diag_ali_ru9: Best 3 (multi-window): [8, 5, 2]

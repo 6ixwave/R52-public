@@ -1,0 +1,516 @@
+{
+  "timestamp": "2026-11-13T03:03:41.045710",
+  "phase": "done",
+  "product_id": "1005013496905897",
+  "product_url": "https://www.aliexpress.com/item/1005013496905897.html",
+  "mtop_responses": [
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.5.1&appKey=12574478&t=1794503029317&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.address.shipto.division.get&v=1.0&type=jsonp&dataType=jsonp&callback=mtopjsonp1&data=%7B%22_lang%22%3A%22it_IT%22%2C%22us",
+      "status": 200,
+      "body_len": 174,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp1({\"api\":\"mtop.aliexpress.address.shipto.division.get\",\"data\":{},\"ret\":[\"FAIL_SYS_TOKEN_EMPTY::令牌为空\"],\"traceId\":\"210396b417945030314318022e0dc2\",\"v\":\"1.0\"})"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.5.1&appKey=12574478&t=1794503031435&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.address.shipto.division.get&v=1.0&type=jsonp&dataType=jsonp&callback=mtopjsonp2&data=%7B%22_lang%22%3A%22it_IT%22%2C%22us",
+      "status": 200,
+      "body_len": 41345,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp2({\"api\":\"mtop.aliexpress.address.shipto.division.get\",\"data\":{\"hotCountries\":[{\"code\":\"US\",\"hasChildren\":true,\"i18nMap\":{\"hitGray\":\"false\"},\"id\":228,\"language\":\"it_IT\",\"level\":1,\"name\":\"Stati Uniti d'America\",\"phoneAreaCode\":\"1\",\"type\":\"COUNTRY\"},{\"code\":\"ES\",\"hasChildren\":true,\"i18nMap\":{\"hitGray\":\"false\"},\"id\":199,\"language\":\"it_IT\",\"level\":1,\"name\":\"Spagna\",\"phoneAreaCode\":\"34\",\"type\":\"COUNTRY\"},{\"code\":\"FR\",\"hasChildren\":true,\"i18nMap\":{\"hitGray\":\"false\"},\"id\":72,\"language\":\"it_IT"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.ae.cookie.render/1.0/?jsv=2.5.1&appKey=12574478&t=1794503033698&sign=[REDACTED_AUTH_SECRET]&api=mtop.ae.cookie.render&v=1.0&timeout=10000&type=jsonp&dataType=jsonp&callback=mtopjsonp4&data=%7B%22count%22%3A%220%22%2C%22bizCode%22%3A%22aliexpress%22%2C%22p",
+      "status": 200,
+      "body_len": 384,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp4({\"api\":\"mtop.ae.cookie.render\",\"data\":{\"acceptCookies\":true,\"acceptCookiesFatigue\":180,\"country\":\"IT\",\"displayStyle\":\"NEW\",\"inGdpr\":true,\"later\":true,\"laterFatigue\":90,\"personalizeCookies\":true,\"rejectCookies\":true,\"rejectCookiesFatigue\":90,\"trigger\":\"ipCountry:IT|findIpStatus:true|\"},\"ret\":[\"SUCCESS::调用成功\"],\"traceId\":\"210396b417945030357438118e0dc2\",\"v\":\"1.0\"})"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.address.addressinfo.get/1.0/?jsv=2.5.1&appKey=12574478&t=1794503033698&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.address.addressinfo.get&v=1.0&type=jsonp&dataType=jsonp&callback=mtopjsonp6&data=%7B%22_lang%22%3A%22it_IT%22%2C%22useLocalAd",
+      "status": 200,
+      "body_len": 3483,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp6({\"api\":\"mtop.aliexpress.address.addressinfo.get\",\"data\":{\"children\":[{\"code\":\"910100010000000000\",\"hasChildren\":true,\"i18nMap\":{},\"id\":910100010000000000,\"language\":\"IT\",\"level\":2,\"name\":\"Abruzzo\",\"type\":\"PROVINCE\"},{\"code\":\"910100020000000000\",\"hasChildren\":true,\"i18nMap\":{},\"id\":910100020000000000,\"language\":\"IT\",\"level\":2,\"name\":\"Basilicata\",\"type\":\"PROVINCE\"},{\"code\":\"910100030000000000\",\"hasChildren\":true,\"i18nMap\":{},\"id\":910100030000000000,\"language\":\"IT\",\"level\":2,\"name\":\"Cal"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.trade.cart.count/1.0/?jsv=2.5.1&appKey=12574478&t=1794503033697&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.trade.cart.count&v=1.0&timeout=10000&type=jsonp&dataType=jsonp&callback=mtopjsonp3&data=%7B%22bizParams%22%3A%22%7B%5C%22platformTyp",
+      "status": 200,
+      "body_len": 163,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp3({\"api\":\"mtop.aliexpress.trade.cart.count\",\"data\":{\"cartNum\":\"0\"},\"ret\":[\"SUCCESS::调用成功\"],\"traceId\":\"210396b417945030357428117e0dc2\",\"v\":\"1.0\"})"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.ae.cookie.render/1.0/?jsv=2.5.1&appKey=12574478&t=1794503033698&sign=[REDACTED_AUTH_SECRET]&api=mtop.ae.cookie.render&v=1.0&timeout=10000&type=jsonp&dataType=jsonp&callback=mtopjsonp5&data=%7B%22count%22%3A%220%22%2C%22bizCode%22%3A%22aliexpress%22%2C%22p",
+      "status": 200,
+      "body_len": 384,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp5({\"api\":\"mtop.ae.cookie.render\",\"data\":{\"acceptCookies\":true,\"acceptCookiesFatigue\":180,\"country\":\"IT\",\"displayStyle\":\"NEW\",\"inGdpr\":true,\"later\":true,\"laterFatigue\":90,\"personalizeCookies\":true,\"rejectCookies\":true,\"rejectCookiesFatigue\":90,\"trigger\":\"ipCountry:IT|findIpStatus:true|\"},\"ret\":[\"SUCCESS::调用成功\"],\"traceId\":\"210396b417945030357458119e0dc2\",\"v\":\"1.0\"})"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.address.addressinfo.get/1.0/?jsv=2.5.1&appKey=12574478&t=1794503034943&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.address.addressinfo.get&v=1.0&type=jsonp&dataType=jsonp&callback=mtopjsonp7&data=%7B%22_lang%22%3A%22it_IT%22%2C%22useLocalAd",
+      "status": 200,
+      "body_len": 1106,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp7({\"api\":\"mtop.aliexpress.address.addressinfo.get\",\"data\":{\"children\":[{\"code\":\"910100010001000000\",\"hasChildren\":true,\"i18nMap\":{},\"id\":910100010001000000,\"language\":\"IT\",\"level\":3,\"name\":\"Chieti\",\"type\":\"CITY\"},{\"code\":\"910100010002000000\",\"hasChildren\":true,\"i18nMap\":{},\"id\":910100010002000000,\"language\":\"IT\",\"level\":3,\"name\":\"L'Aquila\",\"type\":\"CITY\"},{\"code\":\"910100010003000000\",\"hasChildren\":true,\"i18nMap\":{},\"id\":910100010003000000,\"language\":\"IT\",\"level\":3,\"name\":\"Pescara\",\"type"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794503033697&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=10000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 613,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://recom-acs.aliexpress.com:443//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogS"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794503033697&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=5000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 1205,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"img_search_pc_result_title\":\"Risultati di ricerca\",\"img_search_pc_no_result_tip\":\"Prova a scegliere un altro articolo o a caricare un'altra immagine\",\"img_search_pc_search_btn\":\"Cerca\",\"img_search_pc_subtitle\":\"Trova ciò che ami con prezzi migliori su AliExpress utilizzando una ricerca immagini\",\"img_search_pc_error_size\":\"File troppo grande. Si prega di caricare un file immagine entro 5MB.\",\"img_search_pc_result_item_selecti"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794503033697&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=5000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 36324,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"result\":[1],\"data\":{\"layoutInfo\":[\"categories\",\"subCategories\",\"rankList\",\"searchList\"],\"trace\":{\"exposure\":{},\"custom\":{},\"click\":{},\"utLogMap\":{\"query_from\":\"category_navigate\",\"streamId\":\"e548bec0-569d-4067-b4ad-a6840a084a81\",\"stream_id\":\"e548bec0-569d-4067-b4ad-a6840a084a81\",\"pvid\":\"21038c6f17945030360033851e10b2\",\"biz_scene\":\"mainSearch\",\"gab_buckets\":\"\",\"language\":\"it\",\"countryId\":\"IT\",\"tpp_buckets\":\"35917#22791#473815#"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794503033697&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=5000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 160335,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"abTestInfo\":{\"enableNewShading\":true},\"headerAtmosphere\":{},\"mods\":{\"itemList\":{\"content\":[{\"search_clk_action\":\"search\",\"image\":{},\"result_desc\":\"normal\",\"icon\":{},\"page_num\":0,\"action\":{\"action\":\"\",\"style\":\"\",\"content\":\"Home Shading\"},\"list_no\":0,\"modName\":\"SearchShadingEntry\",\"use_redirect\":false,\"tItemType\":\"\",\"querys\":[{\"search_action_url\":\"https://www.aliexpress.com/w/wholesale-personaggi-ben-10.html?q=personaggi ben 10"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/",
+      "status": 200,
+      "body_len": 6844,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=CP6seL3-5RtB-Ue781AlJCvwY3jedp-19ijnVuy8J9A3h3trZljoimEUeEhn_lL32_snCzBmg26z5z3RAtaNmgzkKIl4pWYlfDcatbat5BYTeZ8OL5IyasgdJlCmaLH7nMGpgNnZQT_c1mYPSK7Rd0xW5FoduoFAg75-_7N36LjykPGlSMbqv4x-vybd"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__rec",
+      "status": 200,
+      "body_len": 8583,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "\r\n<html><head><meta charset=UTF-8><meta content=width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no name=viewport><script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=XNZD_cLtPQSWGnrKLiY-CNFR-3jJM7voAYJzzDsUriqqGmJlDj_0cUR4m7G3z9YtsZbTgDo3bhkrQ2HfpoT4Ix3CUswd9Tqwk5PsPuEkZBVgtTaN4LXVpAtBQDpb_fzWnH7yxN_jCd3HWdtmYUWUG96jQjKtfsOZBL9FkgVEZ1ZaoqpmfI_5PShZTZVSKTyv9zf1m1LmuOYsVhZnGFqtGlorht6wO"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.usertouch.poplayer.get/2.0/?jsv=2.5.1&appKey=24815441&t=1794503037019&sign=[REDACTED_AUTH_SECRET]&type=originaljson&api=mtop.aliexpress.usertouch.poplayer.get&v=2.0&dataType=jsonp",
+      "status": 200,
+      "body_len": 2149,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": "{\"api\":\"mtop.aliexpress.usertouch.poplayer.get\",\"data\":{\"popLayerRuleMap\":{\"pc_1711_271786_20261112\":\"{\\\"activityUuid\\\":\\\"pc_1711_271786_20261112\\\",\\\"appear\\\":false,\\\"embed\\\":false,\\\"endTime\\\":1795042799000,\\\"enqueue\\\":true,\\\"forcePopRespectingPriority\\\":true,\\\"forceUseSmartDistribution\\\":false,\\\"globalExtension\\\":{\\\"extBizParams\\\":{},\\\"fatigueConsumeType\\\":2,\\\"interactionType\\\":\\\"floatNotice\\\"},\\\"layerType\\\":\\\"level1\\\",\\\"modalThreshold\\\":0.8,\\\"oneTimePerDay\\\":true,\\\"pageFreqIntervalSecs\\\":-1,\\\""
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p_url=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe149",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha3",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e817945030",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&uuid=e12ae970081a96209ee3ba6fe14994e8&x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe1",
+      "status": 200,
+      "body_len": 85,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"code\":0,\"dt\":\"success\",\"ec\":200,\"result\":{\"code\":0,\"sig\":\"from bx\"},\"success\":true}"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/",
+      "status": 200,
+      "body_len": 6844,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=d2YfmyggvenJ_9p6DHYOx-FC_4980j-9veZtkWlbse34ZR8ImbGloFBCwdeLrOE14RcccKkyO_JnYyBCgCHkDNU4dQa25b4We6ch6LyEmIW_wfwJSgn8sQtIwMtILStjRCvfT9jkhYCPlr_4qfbnnu7D6FT7KyImp_ZwuFv7G46un7cJDFTY5CnLxhKm"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__rec",
+      "status": 200,
+      "body_len": 8583,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "\r\n<html><head><meta charset=UTF-8><meta content=width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no name=viewport><script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=v7DRF9jKMEQT2qD1lqp36C0RZX4jL0TrLcg_LsYQo8CoY7aq5m1lnS7d-KD6WPewy7jptjq6AvTE25zk_6NyvOLtOZQf5jwhkvFbRwSEggcNeWqYP7g15e2IJBZJOAGAvdgu8EM6vDpOGyyl90cfIV2pw3CG8Lv4LaT-nauCqbW10m1mQLVsxG4iCy_UoLXftRztc_3PSToRDPAKhjPyypfaEjmZZ"
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha3",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e817945030",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha3",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&uuid=e12ae970081a96209ee3ba6fe14994e8&x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe1",
+      "status": 200,
+      "body_len": 85,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"code\":0,\"dt\":\"success\",\"ec\":200,\"result\":{\"code\":0,\"sig\":\"from bx\"},\"success\":true}"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/",
+      "status": 200,
+      "body_len": 6844,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\"\r\n        content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" />\r\n    <script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=e9VbbozaPBvdJuNkyalFG5RFVZCIJorjCMHeIYQ19_JyMSvdpBNjX3hJ99ulw4i3s03esL7HiXmy6d-9qyGWuPfh0bVEI3p_QBLdLpCAWO-q6Ud-1CEKH5_NJ_p6xj1hD6D0GP3s51fGuI8fPTlhPQmvEPhv3xVPjgYitU5j77hCWFPPWCk5e6JopghM"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__rec",
+      "status": 200,
+      "body_len": 8583,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "\r\n<html><head><meta charset=UTF-8><meta content=width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no name=viewport><script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=nwh1gFWn4XPOFYxcojI0T8at6u-_a4dS0bzutMuqK45no6zqj1PH0nCJoUGJb0czbyg_N79DezYx-JMDDmcPj9_8OsYL5D_xI4M1hhYWy5hgphfy1bQ4-4Hl-gc5q5CGtV1A5vJH_k4c80ZUjJrNWlrVixsPG-xzxsdPJ7vKS-XW1fFHX-FBOVlWr9jtx-Ogvrth3CuqGJQGhxpYXyz1PiqMwPYIm"
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish&query=x5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e817945030",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha3",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Frecom-acs.aliexpress.com%2F%2Fh5%2Fmtop.relationrecommend.aliexpressrecommend.recommend%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha3",
+      "status": 200,
+      "body_len": 43,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "GIF89a\u0001\u0000\u0001\u0000�\u0001\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0001\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0002L\u0001\u0000;"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&uuid=e12ae970081a96209ee3ba6fe14994e8&x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe1",
+      "status": 200,
+      "body_len": 85,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"code\":0,\"dt\":\"success\",\"ec\":200,\"result\":{\"code\":0,\"sig\":\"from bx\"},\"success\":true}"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/",
+      "status": 200,
+      "body_len": 2167,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "\r\n<html>\r\n<body><script type=\"text/javascript\" src=\"https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BSFXSRmwwNxHiN6xjbg2TseVzLMl7roSxkX1nUtfo9Ko1Uda4Kn9nQ3DXwWBF90jhoFAc4w5yyZI7Wj8Ydyb10Qd2j6xFMdp5T_tyPw_FRO9fljdNYPEjyoU2KHdj2j1keF8EhjfPXrMU2OTDpvjVkD3e2LAsS_UYHtNI4VNRnEhTUUc6LeB-g0_v0QN6XXRvvNHHxZFqG6NChwo42XmWIg4vcq_xrHYUumVVg10yxWzQqeB_aMVQETIb4C4_soGyG6bF6utchP7rAE21zHv_oru_RmoOXvI3VtxSW0zl4lngcSWK9sa2IJ-b4G2mmIi_QSzfoM5v8fSTSAtjGDBo8V_JweNGxPkri3Ac"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794503104354&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=10000&type=originaljson&dataType=jsonp&smToken=as&sm=e",
+      "status": 200,
+      "body_len": 695287,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"result\":[{\"layoutInfo\":{\"listHeader\":[\"rcmdTitle\"]},\"jarvisContext\":{\"pv_id\":\"324f8b9e-68e4-4a35-90a2-2d71878f15f6\",\"stream_id\":\"f0284acd-474b-4745-9cd4-92d019e049f5\",\"ab_id\":416251,\"userFeature\":{\"car_model\":\"-1\",\"login_terminal\":\"-1\",\"country\":\"IT\",\"gender\":\"-1\",\"credit_lv\":\"-1\",\"user_privacy\":\"-1\",\"device_type\":\"-1\",\"lv\":\"-1\",\"user_new\":\"0\",\"religion\":\"-1\",\"age_range\":\"-1\",\"kid_age\":\"-1\",\"kid_gender\":\"-1\",\"income_lv\":\"-1\","
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794503122565&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&timeout=15000&dataType=originaljsonp&callback=mtopjsonp1&data=%7B%22productId%22%3A%22100501349690",
+      "status": 200,
+      "body_len": 67380,
+      "is_pdp": true,
+      "is_recom": false,
+      "body_head": " mtopjsonp1({\"api\":\"mtop.aliexpress.pdp.pc.query\",\"data\":{\"result\":{\"POPUP\":{\"popupMap\":{},\"sortedPopup\":[]},\"HEADER_IMAGE_PC\":{\"currentSkuImages\":[\"https://ae-pic-a1.aliexpress-media.com/kf/Se3453e41fcfd41deb99547215a79badbR.jpg\"],\"imagePathList\":[\"https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg\",\"https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg\",\"https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg\",\"h"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.trade.cart.count/1.0/?jsv=2.5.1&appKey=12574478&t=1794503123269&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.trade.cart.count&v=1.0&timeout=10000&type=jsonp&dataType=jsonp&callback=mtopjsonp2&data=%7B%22bizParams%22%3A%22%7B%5C%22platformTyp",
+      "status": 200,
+      "body_len": 163,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp2({\"api\":\"mtop.aliexpress.trade.cart.count\",\"data\":{\"cartNum\":\"0\"},\"ret\":[\"SUCCESS::调用成功\"],\"traceId\":\"210396b417945031243182707e0dc2\",\"v\":\"1.0\"})"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794503123268&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=5000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 36837,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"result\":[1],\"data\":{\"layoutInfo\":[\"categories\",\"subCategories\",\"rankList\",\"searchList\"],\"trace\":{\"exposure\":{},\"custom\":{},\"click\":{},\"utLogMap\":{\"query_from\":\"category_navigate\",\"streamId\":\"e7619bfe-6348-496f-a73d-b25ff1ac2267\",\"stream_id\":\"e7619bfe-6348-496f-a73d-b25ff1ac2267\",\"pvid\":\"210396b417945031243022706e0dc2\",\"biz_scene\":\"mainSearch\",\"gab_buckets\":\"\",\"language\":\"it\",\"countryId\":\"IT\",\"tpp_buckets\":\"687#61208#541104#6_"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794503123269&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=5000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 1205,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"img_search_pc_result_title\":\"Risultati di ricerca\",\"img_search_pc_no_result_tip\":\"Prova a scegliere un altro articolo o a caricare un'altra immagine\",\"img_search_pc_search_btn\":\"Cerca\",\"img_search_pc_subtitle\":\"Trova ciò che ami con prezzi migliori su AliExpress utilizzando una ricerca immagini\",\"img_search_pc_error_size\":\"File troppo grande. Si prega di caricare un file immagine entro 5MB.\",\"img_search_pc_result_item_selecti"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.ae.cookie.render/1.0/?jsv=2.5.1&appKey=12574478&t=1794503123270&sign=[REDACTED_AUTH_SECRET]&api=mtop.ae.cookie.render&v=1.0&timeout=10000&type=jsonp&dataType=jsonp&callback=mtopjsonp3&data=%7B%22count%22%3A%220%22%2C%22bizCode%22%3A%22aliexpress%22%2C%22p",
+      "status": 200,
+      "body_len": 384,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp3({\"api\":\"mtop.ae.cookie.render\",\"data\":{\"acceptCookies\":true,\"acceptCookiesFatigue\":180,\"country\":\"IT\",\"displayStyle\":\"NEW\",\"inGdpr\":true,\"later\":true,\"laterFatigue\":90,\"personalizeCookies\":true,\"rejectCookies\":true,\"rejectCookiesFatigue\":90,\"trigger\":\"ipCountry:IT|findIpStatus:true|\"},\"ret\":[\"SUCCESS::调用成功\"],\"traceId\":\"210396b417945031243652708e0dc2\",\"v\":\"1.0\"})"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.traffic.web.cross.trace.report/1.0/?jsv=2.5.1&appKey=12574478&t=1794503123270&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.traffic.web.cross.trace.report&v=1.0&timeout=10000&type=jsonp&dataType=jsonp&callback=mtopjsonp4&data=%7B%22currentUrl",
+      "status": 200,
+      "body_len": 164,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp4({\"api\":\"mtop.aliexpress.traffic.web.cross.trace.report\",\"data\":{},\"ret\":[\"SUCCESS::调用成功\"],\"traceId\":\"210396b417945031243932710e0dc2\",\"v\":\"1.0\"})"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.usertouch.poplayer.get/2.0/?jsv=2.5.1&appKey=24815441&t=1794503123270&sign=[REDACTED_AUTH_SECRET]&type=originaljson&api=mtop.aliexpress.usertouch.poplayer.get&v=2.0&dataType=jsonp",
+      "status": 200,
+      "body_len": 174,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": "{\"api\":\"mtop.aliexpress.usertouch.poplayer.get\",\"data\":{\"popLayerRuleMap\":{},\"success\":true,\"traces\":[],\"updateTime\":1794503124403},\"ret\":[\"SUCCESS::调用成功\"],\"v\":\"2.0\"}"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794503123269&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=5000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 160648,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"abTestInfo\":{\"enableNewShading\":true},\"headerAtmosphere\":{},\"mods\":{\"itemList\":{\"content\":[{\"search_clk_action\":\"search\",\"image\":{},\"result_desc\":\"normal\",\"icon\":{},\"page_num\":0,\"action\":{\"action\":\"\",\"style\":\"\",\"content\":\"Home Shading\"},\"list_no\":0,\"modName\":\"SearchShadingEntry\",\"use_redirect\":false,\"tItemType\":\"\",\"querys\":[{\"search_action_url\":\"https://www.aliexpress.com/w/wholesale-mercedes-glc-x253.html?q=mercedes glc x253"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794503123270&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.AliexpressRecommend.recommend&v=1.0&timeout=10000&type=originaljson&dataType=jsonp",
+      "status": 200,
+      "body_len": 185102,
+      "is_pdp": false,
+      "is_recom": true,
+      "body_head": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"result\":[{\"layoutInfo\":{\"listHeader\":[\"rcmdTitle\"]},\"jarvisContext\":{},\"mods\":{\"listItems\":[{\"image\":{\"imgUrl\":\"//ae-pic-a1.aliexpress-media.com/kf/Sbcf445b76f6f47669f95115d8438e144y.png\",\"imgWidth\":350,\"imgHeight\":350,\"imgType\":\"2\"},\"itemType\":\"rmdproductV3\",\"redirectedId\":\"1005010172285935\",\"productId\":\"1005010172285935\",\"tHeadItemType\":\"dx_detail_rcmd_head_cell\",\"transitionaryExpFrame\":true,\"itemCardType\":\"itemcard_new\",\"m"
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.review.pc.list/1.0/?jsv=2.5.1&appKey=12574478&t=1794503123851&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.review.pc.list&v=1.0&type=jsonp&dataType=jsonp&callback=mtopjsonp5&data=%7B%22productId%22%3A%221005013496905897%22%2C%22page%22%3A1%2",
+      "status": 200,
+      "body_len": 1837,
+      "is_pdp": false,
+      "is_recom": false,
+      "body_head": " mtopjsonp5({\"api\":\"mtop.aliexpress.review.pc.list\",\"data\":{\"currentPage\":1,\"displayReviewInfo\":{\"reviewStructureAdditionalFeedback\":\"Recensione aggiuntiva\",\"reviewStructureStars\":\"Recensione aggiuntiva\",\"reviewStructureDefault\":\"Ordina per impostazione predefinita\",\"additional\":\"Recensione aggiuntiva\",\"reviewStructureSellerReply\":\"Risposta del venditore\",\"reviewStructureAdditionalReview\":\"Recensione aggiuntiva\",\"reviewStructureLocalReview\":\"Recensione aggiuntiva\",\"reviewStructureShowTranslate\":"
+    }
+  ],
+  "pdp_raw_path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\mtop_pw62_pdp_905897.json",
+  "pdp_parsed": {
+    "_data_keys": [
+      "result"
+    ],
+    "_result_keys": [
+      "POPUP",
+      "HEADER_IMAGE_PC",
+      "PC_RATING",
+      "QUANTITY_PC",
+      "INTEREST_POINTS",
+      "PRICE_EXTEND",
+      "SHIPPING",
+      "DESC",
+      "TRAFFIC_IDENTIFY",
+      "AFTER_SALE_SERVICE_BLOCK",
+      "COMPLIANCE_PC",
+      "PRICE_BANNER",
+      "PRODUCT_PROP_PC",
+      "GLOBAL_DATA",
+      "PRICE",
+      "SELLING_POINT_PC",
+      "WISHLIST",
+      "SHOP_CARD_PC",
+      "RECOMMEND_PC",
+      "BOTTOM_BAR_PC",
+      "MIND",
+      "PRODUCT_TITLE",
+      "PERSONAL_INFORMATION_SECURITY",
+      "INSTALLMENT",
+      "COUPON_BLOCK_PC",
+      "SKU"
+    ],
+    "bigBossBan": false,
+    "errorCode": null,
+    "bigBossBanTip": null,
+    "title": "Dettagli del prodotto",
+    "title_path": "DESC.title",
+    "price": "not found",
+    "images": [
+      "https://ae-pic-a1.aliexpress-media.com/kf/Se3453e41fcfd41deb99547215a79badbR.jpg"
+    ],
+    "image_count": 1,
+    "sku_keys": [],
+    "_full_dump": "{\"POPUP\": {\"popupMap\": {}, \"sortedPopup\": []}, \"HEADER_IMAGE_PC\": {\"currentSkuImages\": [\"https://ae-pic-a1.aliexpress-media.com/kf/Se3453e41fcfd41deb99547215a79badbR.jpg\"], \"imagePathList\": [\"https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg\", \"https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg\"], \"imgList\": [\"https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_960x960.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg_960x960.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg_960x960.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg_960x960.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg_960x960.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg_960x960.jpeg\", \"https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg_960x960.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg_960x960.jpg\"], \"mainImages\": [{\"imageKey\": \"S5510d89468d243318f0969de88a6adacD.jpg\", \"imageUrl\": \"https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_960x960.jpg\"}, {\"imageKey\": \"S95575c8422c349558e7dd8a26c0b93dee.jpg\", \"imageUrl\": \"https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg_960x960.jpg\"}, {\"imageKey\": \"S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg\", \"imageUrl\": \"https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg_960x960.jpg\"}, {\"imageKey\": \"S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg\", \"imageUrl\": \"https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg_960x960.jpg\"}, {\"imageKey\": \"S80453fbd34264d75a7318b5f82ca153eN.jpg\", \"imageUrl\": \"https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg_960x960.jpg\"}, {\"imageKey\": \"S35e86b998506478fa27c3395e4e5d0b4u.jpeg\", \"imageUrl\": \"https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg_960x960.jpeg\"}, {\"imageKey\": \"Sa82027f5380d4a1b8a64fba53f109c21b.jpg\", \"imageUrl\": \"https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg_960x960.jpg\"}, {\"imageKey\": \"S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg\", \"imageUrl\": \"https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg_960x960.jpg\"}], \"pageBarShiftLeft\": false, \"productVideo\": {\"posterUrl\": \"https://ae-pic-a1.aliexpress-media.com/kf/Sa2cbba4eb1394b38a153a4d3d67b7039Z.jpg\", \"videoId\": 5000538084263, \"videoPlayInfo\": {\"androidPhoneUrl\": \"https://video.aliexpress-media.com/play/u/ae_sg_item/3001708797245/p/1/e/6/t/10301/5000538084263.mp4\", \"iphoneUrl\": \"https://video.aliexpress-media.com/play/u/ae_sg_item/3001708797245/p/1/e/6/t/10301/5000538084263.mp4\", \"webUrl\": \"https://video.aliexpress-media.com/play/u/ae_sg_item/3001708797245/p/1/e/6/t/10301/5000538084263.mp4\"}}, \"showColorTab\": false, \"showLongImage\": false, \"skuImagesMap\": {\"12000061293263245\": [\"https://ae-pic-a1.aliexpress-media.com/kf/Se3453e41fcfd41deb99547215a79badbR.jpg\"], \"12000061293263244\": [\"https://ae-pic-a1.aliexpress-media.com/kf/S0a345acd1ae34d67afb5bf07d58ec18ak.jpg\"]}, \"summImagePathList\": [\"https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_80x80.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg_80x80.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg_80x80.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg_80x80.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg_80x80.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg_80x80.jpeg\", \"https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg_80x80.jpg\", \"https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg_80x80.jpg\"]}, \"PC_RATING\": {\"aiSell\": {\"actionTarget\": \"//it.aliexpress.com/store/1105523212\", \"imageList\": [{\"round\": true, \"url\": \"https://ae-pic-a1.aliexpress-media.com/kf/S4e6b55822ed446e8b399f30595d367e2u.jpg\"}], \"rotationInterval\": 3000, \"textFragments\": [\"<span style=\\\"color:#AB6D49\\\">da</span>\", \"<span style=\\\"color:#AB6D49\\\">MEKEDE Germany Choic...</span><span style=\\\"color:#AB6D49\\\"> (</span><img src=\\\"https://ae-pic-a1.aliexpress-media.com/kf/S35f2ad99631e44e2ab59c02e3078cc62n/60x60.png\\\" width=\\\"15\\\" height=\\\"15\\\"><strong>4.8</strong><span style=\\\"color:#AB6D49\\\"> | </span><span style=\\\"color:#AB6D49\\\">600+ venduti</span><span style=\\\"color:#AB6D49\\\"> )</span>\"]}, \"otherText\": \"1 venduti\", \"separator\": \"౹\", \"totalValidNum\": 0}, \"QUANTITY_PC\": {\"allSkuQuantityView\": {\"12000061293263245\": {\"currentCount\": 1, \"hintText\": \"Max. 1 pz/acquirente a questo prezzo\", \"maxBuyCount\": 1}, \"12000061293263244\": {\"currentCount\": 1, \"hintText\": \"Max. 1 pz/acquirente a questo prezzo\", \"maxBuyCount\": 1}}, \"currentSkuQuantityView\": {\"currentCount\": 1, \"hintText\": \"Max. 1 pz/acquirente a questo prezzo\", \"maxBuyCount\": 1}, \"title\": \"Q.tà\", \"totalAvailableInventory\": 125}, \"INTEREST_POINTS\": {\"atmosphereCode\": \"earlyBird\", \"content\": \"<span style=\\\"color: #FD384F\\\">Novità：Offerta anticipata, solo 3 rimasti</span>\", \"couponContent\": \"<span style=\\\"color: #FD384F\\\">Novità：Offerta anticipata, solo 3 rimasti</span>\", \"couponEndColor\": \"#F5F5F5\", \"couponIcon\": \"https://ae-pic-a1.aliexpress-media.com/kf/Seb04c5458a774d978ca2e59cfeca9f28H.png\", \"couponStartColor\": \"#F5F5F5\"}, \"PRICE_EXTEND\": {\"buildText\": \"<span style=\\\\\\\"color: #979797;\\\\\\\">Prezzo IVA inclusa | Nessun costo di importazione</span>; <span style=\\\\\\\"color: #979797;\\\\\\\">Sconto extra del 1%</span>\", \"priceExtendViews\": [{\"content\": \"Prezzo IVA inclusa | Nessun costo di importazione\", \"type\": \"tax\"}, {\"content\": \"Sconto extra del 1%\"}], \"seperator\": \"; \", \"taxInfo\": {\"content\": \"Prezzo IVA inclusa | Nessun costo di importazione\"}}, \"SHIPPING\": {\"bgColor\": \"#FFFFFF\", \"deliveryExt\": \"[{\\\"d0\\\":\\\"148.65\\\",\\\"d1\\\":\\\"EUR\\\",\\\"itemScene\\\":\\\"newGlobal\\\",\\\"p0\\\":\\\"12000061293263245\\\",\\\"p1\\\":\\\"148.65\\\",\\\"p10\\\":[86914,681871,2061850,721998,2022549,299658,648839,2080080,526940,2065739,526941,2019016,2000201,1998022,2073478,1976581,1998021,169055,2061951,56804,1098872,2061943,680867,2006320,2082416,2034478,1961321,273138,111478,719986,339135,1961383,2051301,2066528],\\\"p16\\\":true,\\\"p18\\\":\\\"default\\\",\\\"p24\\\":\\\"{\\\\\\\"scenario\\\\\\\":\\\\\\\"pcMainScreen\\\\\\\"}\\\",\\\"p25\\\":\\\"\\\",\\\"p3\\\":\\\"EUR\\\",\\\"p4\\\":\\\"400000011165007\\\",\\\"p5\\\":\\\"0\\\",\\\"p6\\\":\\\"0\\\",\\\"p7\\\":\\\"{\\\\\\\"scItemId\\\\\\\":\\\\\\\"1000414747743\\\\\\\"}\\\",\\\"p8\\\":\\\"FR\\\",\\\"p9\\\":\\\"€ 148,65\\\"}]\", \"deliveryLayoutInfo\": [{\"additionLayout\": [{\"blockGroup\": \"others-0\", \"blockType\": \"others\", \"componentId\": \"132176\", \"content\": \"Tracking disponibile\", \"displayCondition\": \"tracking=visible\", \"distance\": 1, \"medusaKey\": \"[REDACTED_AUTH_SECRET]\", \"order\": 4, \"type\": \"textWithMark\", \"useInDeliveryOptionPanel\": true, \"useInDetailFirstScreen\": false, \"useInSkuSwitch\": false}], \"bizData\": {\"patternId\": 2718001, \"discount\": 100.0, \"tracking\": \"visible\", \"workDayOneFourBeforeCutTime\": \"no\", \"gtpProvider\": \"OPERATOR\", \"displayTomorrow\": \"no\", \"itemScene\": \"newGlobal\", \"shipToCode\": \"IT\", \"thresholdOverZero\": \"yes\", \"shipFrom\": \"Francia\", \"deliveryDayMax\": 10, \"displayEtaMinDate\": \"17 nov\", \"guaranteedDeliveryTime\": 20, \"etaVersionDisplay"
+  },
+  "dom_data": {
+    "title_tag": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT - AliExpress 34",
+    "og_title": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT - AliExpress 34",
+    "og_image": "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg",
+    "og_price": "",
+    "og_currency": "",
+    "h1": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT",
+    "price_candidates": [
+      {
+        "sel": "[class*='price'] [class*='current']",
+        "text": "148,65€"
+      },
+      {
+        "sel": "[class*='price'] [class*='current']",
+        "text": "148,65€"
+      }
+    ],
+    "images": [
+      "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S4d3b3052b6c243f08154f21134ac2b8fv/48x48.png_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg_220x220q75.jpeg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Se3453e41fcfd41deb99547215a79badbR.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S0a345acd1ae34d67afb5bf07d58ec18ak.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_960x960q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S7da057dcd6e8423da216398874e6dcdbb.png_220x220.png_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S4e6b55822ed446e8b399f30595d367e2u.jpg",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S35f2ad99631e44e2ab59c02e3078cc62n/60x60.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sabb8494fb8a149e5ab646c9afcf0020fr.png_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S26d37b92952a4294946f404012515ecbx/24x48.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sb7f281b05a6d4139adafaba9df0e5fe14.png_220x220.png_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S4f6eedd15a6b494faf2d566091941780M/216x144.png_220x220.png_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sbcf445b76f6f47669f95115d8438e144y.png_480x480.png_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Se66912bcbc6f4427929b2461b91fc07cB.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sca1bcdd1057c4a388af0eed405d9a464x.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S001c2c51750840d68f20032617da5fbdB.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S5efe9a37755e44cfa878e2e714900709h/48x48.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sca75952228bb4507ac311d1b43e10721q/48x48.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S9813a60e7c844a89bf0e58c50ee9e397S/48x48.png"
+    ],
+    "img_count": 30
+  },
+  "js_state": {
+    "runParams": "{}",
+    "jsonld": [
+      [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT - AliExpress 34",
+          "image": [
+            "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg"
+          ],
+          "description": "Acquista Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT su Aliexpress per . Trova altri prodotti 34, 200000302 e . Goditi ✓Spedizione gratuita in tutto il mondo! ✓Vendita a tempo limitato ✓Reso facile.",
+          "brand": {
+            "@type": "Brand",
+            "name": "MEKEDE"
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "url": "https://it.aliexpress.com/item/1005013496905897.html",
+            "priceCurrency": "EUR",
+            "price": "148.65"
+          }
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "VideoObject",
+          "contentUrl": "https://video.aliexpress-media.com/play/u/ae_sg_item/3001708797245/p/1/e/6/t/10301/5000538084263.mp4",
+          "uploadDate": "2026-10-13T17:05:23.524Z",
+          "name": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT - AliExpress 34",
+          "description": "Acquista Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT su Aliexpress per . Trova altri prodotti 34, 200000302 e . Goditi ✓Spedizione gratuita in tutto il mondo! ✓Vendita a tempo limitato ✓Reso facile.",
+          "thumbnailUrl": [
+            "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg",
+            "https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg"
+          ]
+        }
+      ]
+    ]
+  },
+  "tmd_handled": false,
+  "recaptcha_solved": false,
+  "errors": [],
+  "timings": {
+    "launch": 0.5766479969024658,
+    "homepage": 18.73954725265503,
+    "product_load": 19.821839332580566,
+    "tmd": 8.797645568847656e-05
+  }
+}

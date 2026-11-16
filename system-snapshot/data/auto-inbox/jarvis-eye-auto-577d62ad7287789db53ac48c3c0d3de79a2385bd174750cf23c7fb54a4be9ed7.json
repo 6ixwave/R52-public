@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Снуд флисовый зимний",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "KIVVI WEAR",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Теплый снуд из флиса — отличный выбор для холодного сезона. Универсальный аксессуар для мужчин и женщин, идеально подходит для осени, зимы и даже весны. Этот демисезонный элемент гардероба обеспечивает комфорт и защиту от ветра и холода благодаря утеплению из полиэстера. Легкий и небольшой шарф-хомут можно использовать как горловик, маску или бафф для лица во время занятий спортом, походов, рыбалки и других активностей на свежем воздухе.\n\nСтильный и однотонный аксессуар подходит взрослым и подросткам, мужской и женской аудитории. Модель трансформер легко надевается и регулируется, обеспечивая надежную защиту шеи и головы. Этот круглый шарф формат — отличный подарок для папы, брата, мужа или парня. Благодаря универсальному размеру и материалу из флиса, снуд сохраняет тепло и комфорт даже в самые холодные дни.\n\nАксессуар отлично подходит для зимних видов спорта, таких как лыжный и сноубордический. Он станет незаменимым элементом одежды для тренировок, бега и активного отдыха.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Аксессуары > Снуды",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 100000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "1000.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 39400,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "394.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Аксессуары > Снуды",
+    "source": "WB",
+    "id": "551495804",
+    "url": "https://www.wildberries.ru/catalog/551495804/detail.aspx",
+    "observed_at": "2026-11-17T02:29:05.917152+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

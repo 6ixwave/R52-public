@@ -1,0 +1,196 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Футболка хлопок набор 3 шт",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Stark Cotton",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 119300,
+        "amount": "1193.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 665000,
+        "amount": "6650.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 119300,
+        "amount": "1193.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 665000,
+        "amount": "6650.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 119300,
+        "amount": "1193.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 665000,
+        "amount": "6650.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 119300,
+        "amount": "1193.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 665000,
+        "amount": "6650.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 119300,
+        "amount": "1193.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 665000,
+        "amount": "6650.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 119300,
+        "amount": "1193.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 665000,
+        "amount": "6650.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 119300,
+        "amount": "1193.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 665000,
+        "amount": "6650.00",
+        "currency": "RUB",
+        "variant_id": null,
+        "variant_association": "UNKNOWN",
+        "evidence": {
+          "method": "SEARCH_API"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "source": "WB",
+    "id": "214960980",
+    "listing_id": "214960980",
+    "title": "Футболка хлопок набор 3 шт",
+    "url": "https://www.wildberries.ru/catalog/214960980/detail.aspx",
+    "observed_at": "2026-11-16T04:45:48.807354+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

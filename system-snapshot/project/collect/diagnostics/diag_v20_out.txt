@@ -1,0 +1,75 @@
+2026-11-10 21:09:22,215 [INFO] curl_cffi available
+
+======================================================================
+1. WILDBERRIES [rem=179s]
+======================================================================
+  [card_v2] 403 | 0B | 
+  [card_v1] 403 | 0B | 
+  [card_v2_json] 403 | 0B | 
+  [static_info] -1 | 0B | 
+  [static_info_v2] -1 | 0B | 
+  [static_info_v3] -1 | 0B | 
+  [cffi_card_v2] 403 | 0B | 
+  [cffi_card_v1] 403 | 0B | 
+  [card_alt 142770354] 403 | 0B | 
+  WB section: 153.4s
+
+======================================================================
+2. OZON [rem=26s]
+======================================================================
+  [api_composer] 403 | 8521B |         <!DOCTYPE html><html lang="ru"><head>   <meta charset="UTF-8">   <meta http-equiv="X-UA-Compatible" content="IE=edge">   <meta name="viewport" content="width=device-width,i
+  [api_product] 403 | 8521B |         <!DOCTYPE html><html lang="ru"><head>   <meta charset="UTF-8">   <meta http-equiv="X-UA-Compatible" content="IE=edge">   <meta name="viewport" content="width=device-width,i
+  [api_mobile] 403 | 8493B |         <!DOCTYPE html><html lang="ru"><head>   <meta charset="UTF-8">   <meta http-equiv="X-UA-Compatible" content="IE=edge">   <meta name="viewport" content="width=device-width,i
+  [page_direct] 403 | 10019B |          <!DOCTYPE html><html lang="ru"><head>     <meta charset="UTF-8">     <meta http-equiv="X-UA-Compatible" content="IE=edge">     <meta name="viewport" content="width=device-
+  [api_search] 403 | 10054B |          <!DOCTYPE html><html lang="ru"><head>     <meta charset="UTF-8">     <meta http-equiv="X-UA-Compatible" content="IE=edge">     <meta name="viewport" content="width=device-
+  [cffi_page] 403 | 8465B |         <!DOCTYPE html><html lang="ru"><head>   <meta charset="UTF-8">   <meta http-equiv="X-UA-Compatible" content="IE=edge">   <meta name="viewport" content="width=device-width,i
+  [cffi_composer] 403 | 8749B |         <!DOCTYPE html><html lang="ru"><head>   <meta charset="UTF-8">   <meta http-equiv="X-UA-Compatible" content="IE=edge">   <meta name="viewport" content="width=device-width,i
+  [ozon_home] 403 | cookies: [REDACTED_AUTH_SECRET]
+  [ozon_product_2nd] 403 | 10083B
+  OZON section: 4.6s
+
+======================================================================
+3. AVITO [rem=21s]
+======================================================================
+  [av_home] 439 | 14889B
+  PoW complexity: 1
+  nonce: 0
+  challenge: getCookie
+  [av_mobile] 404 | 18870B
+  [av_desktop_ad] 404 | 29907B
+  [av_city] 439 | 14889B
+  [cffi_avito] 404 | 29907B | <!DOCTYPE html> <html lang="en">     <head>         <meta charset="UTF-8" />         <meta name="viewport" content="width=device-width, initial-scale=
+  AVITO section: 3.8s
+
+======================================================================
+4. FARPOST [rem=18s]
+======================================================================
+  [item] 404 | 12937B | JSONLD=True OG=True | <!DOCTYPE html> <html lang="ru"> <head> 		<title>Страница не найдена</title>  <meta charset="windows
+  [ads] 404 | 13894B | JSONLD=True OG=True | <!DOCTYPE html> <html lang="ru"> <head> 		<title>Страница не найдена</title>  <meta charset="windows
+  [ad] 404 | 13892B | JSONLD=True OG=True | <!DOCTYPE html> <html lang="ru"> <head> 		<title>Страница не найдена</title>  <meta charset="windows
+  [listing] 404 | 13902B | JSONLD=True OG=True | <!DOCTYPE html> <html lang="ru"> <head> 		<title>Страница не найдена</title>  <meta charset="windows
+  [offer] 404 | 13898B | JSONLD=True OG=True | <!DOCTYPE html> <html lang="ru"> <head> 		<title>Страница не найдена</title>  <meta charset="windows
+  [category_telefony] 404 | 13892B | JSONLD=True OG=True | <!DOCTYPE html> <html lang="ru"> <head> 		<title>Страница не найдена</title>  <meta charset="windows
+  [category_noutbuki] 404 | 13892B | JSONLD=True OG=True | <!DOCTYPE html> <html lang="ru"> <head> 		<title>Страница не найдена</title>  <meta charset="windows
+  [search] 404 | 13910B | JSONLD=True OG=True | <!DOCTYPE html> <html lang="ru"> <head> 		<title>Страница не найдена</title>  <meta charset="windows
+  FARPOST section: 2.3s
+
+======================================================================
+5. PROXY SOURCES [rem=15s]
+======================================================================
+  [proxyscrape_all] 200 | 59 lines | 0 valid proxies
+  [proxyscrape_v2] 200 | 71 lines | 0 valid proxies
+  [spyscraper] ERR: HTTPSConnectionPool(host='api.spyscraper.com', port=443): Read timed out. (read 
+  PROXY section: 17.5s
+
+======================================================================
+SUMMARY [182.3s]
+======================================================================
+  WB: 9 tests, 0 HTTP-200
+  OZON: 8 tests, 0 HTTP-200
+  AVITO: 4 tests, 0 HTTP-200
+  FARPOST: 8 tests, 0 HTTP-200
+  PROXY working: 0
+
+Results saved to diag_v20_results.json
+DONE diag_v20 [182.3s]

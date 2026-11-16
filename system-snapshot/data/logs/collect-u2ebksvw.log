@@ -1,0 +1,43 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:06:18,091 r52.autocollect.worker INFO phase=worker_start pid=31460
+2026-11-16 04:06:18,112 r52.autocollect.worker INFO source=OZON mode=refresh phase=initialize
+2026-11-16 04:06:18,116 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-16 04:06:18,117 r52.autocollect.worker INFO source=OZON proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-16 04:06:18,117 r52.autocollect.worker INFO source=OZON listing=2981756238 phase=collect_product_start
+2026-11-16 04:06:20,049 r52.collectors.ozon INFO OZON 2981756238: composer v2 error: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:06:35,114 r52.collectors.ozon INFO OZON 2981756238: composer 2981756238 error: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:06:45,225 r52.collectors.ozon INFO OZON 2981756238: composer v2 error: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-16 04:06:47,716 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=yes)
+2026-11-16 04:06:50,210 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/2981756238/ ERROR: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.ozon.ru/product/2981756238/
+Call log:
+  - navigating to "https://www.ozon.ru/product/2981756238/", waiting until "domcontentloaded"
+ (2.5s)
+2026-11-16 04:06:50,302 r52.collectors.ozon INFO OZON 2981756238: PW status=0 len=0
+2026-11-16 04:07:03,689 r52.collectors.ozon WARNING OZON 2981756238: cffi HTTP error: Failed to perform, curl: (7) CONNECT tunnel failed, response 407. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Timeout (0:01:00)!
+Thread 0x00004750 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000001b4 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 108 in _throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 117 in fetch
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\base.py", line 196 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\ozon.py", line 400 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 04:07:21,213 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 407 Proxy Authentication Required')': /product/2981756238/
+2026-11-16 04:07:24,555 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 407 Proxy Authentication Required')': /product/2981756238/
+2026-11-16 04:07:25,880 r52.collectors WARNING OZON: ошибка сети https://www.ozon.ru/product/2981756238/: HTTPSConnectionPool(host='www.ozon.ru', port=443): Max retries exceeded with url: /product/2981756238/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required')))
+2026-11-16 04:07:25,881 r52.autocollect.worker INFO source=OZON listing=2981756238 phase=collect_product_return status=NO_RESULT
+2026-11-16 04:07:25,881 r52.autocollect.worker WARNING source=OZON listing=2981756238 result=NO_RESULT remaining_not_attempted=['2080175880', '4967472276', '3857979344', '2067947177']
+2026-11-16 04:07:25,881 r52.autocollect.worker INFO source=OZON phase=write_start returned=0 valid=0 stats={'requests': 1, 'success': 0, 'failed': 1, 'blocked': 0}
+2026-11-16 04:07:25,883 r52.autocollect.worker INFO source=OZON phase=write_complete files=0
+2026-11-16 04:07:25,883 r52.autocollect.worker INFO source=OZON phase=close_start
+2026-11-16 04:07:26,433 r52.autocollect.worker INFO source=OZON phase=close_complete

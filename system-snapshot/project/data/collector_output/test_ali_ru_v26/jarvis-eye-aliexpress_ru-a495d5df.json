@@ -1,0 +1,57 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "QCY H3 ANC Cuffie wireless Audio ad alta risoluzione Cuffie over Ear 43dB Cancellazione attiva del rumore Auricolare da gioco Bluetooth 5.4",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "41.71",
+        "amount_minor": 4171,
+        "currency": "RUB",
+        "visible_label": "41.71 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "38.19",
+        "amount_minor": 3819,
+        "currency": "RUB",
+        "visible_label": "38.19 RUB"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005008490098233",
+    "url": "https://ru.aliexpress.com/item/1005008490098233.html",
+    "observed_at": "2026-11-13T08:28:48.059819+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

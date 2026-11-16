@@ -1,0 +1,26 @@
+2026-11-13 22:19:24,163 wb_price INFO TRY basket_info: https://basket-1992.wbbasket.ru/vol1992/part199298871/199298871-info.json
+2026-11-13 22:19:25,689 wb_price WARNING   ERROR: Failed to perform, curl: (6) Could not resolve host: basket-1992.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-13 22:19:25,690 wb_price INFO TRY basket_price: https://basket-1992.wbbasket.ru/vol1992/part199298871/199298871-price.json
+2026-11-13 22:19:26,283 wb_price WARNING   ERROR: Failed to perform, curl: (6) Could not resolve host: basket-1992.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-13 22:19:26,284 wb_price INFO TRY basket_cards: https://basket-1992.wbbasket.ru/cards/199298871.json
+2026-11-13 22:19:26,813 wb_price WARNING   ERROR: Failed to perform, curl: (6) Could not resolve host: basket-1992.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-13 22:19:26,814 wb_price INFO TRY wb_v2_api: https://www.wildberries.ru/web/api/catalog/cards/v2/detail?nm=199298871&curr=rub
+2026-11-13 22:19:27,699 wb_price INFO   -> 498, 1136B
+2026-11-13 22:19:27,699 wb_price INFO   body[:150]=<!doctype html><html lang="ru" data-theme="light" data-req-uuid="d9861ab0daf6cab155f0f29600f8adc7" data-req-ip="82.162.122.156"><head><meta charset="U
+2026-11-13 22:19:27,699 wb_price INFO TRY wb_v1_api_curr: https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=199298871&curr=rub&dest=-1257786
+2026-11-13 22:19:28,594 wb_price INFO   -> 498, 1136B
+2026-11-13 22:19:28,594 wb_price INFO   body[:150]=<!doctype html><html lang="ru" data-theme="light" data-req-uuid="20ddb765fbc7d0c52c8b781a88e25c91" data-req-ip="82.162.122.156"><head><meta charset="U
+2026-11-13 22:19:28,594 wb_price INFO TRY wb_new_api: https://www.wildberries.ru/api/cards/v1/detail?nm=199298871
+2026-11-13 22:19:29,460 wb_price INFO   -> 498, 1136B
+2026-11-13 22:19:29,460 wb_price INFO   body[:150]=<!doctype html><html lang="ru" data-theme="light" data-req-uuid="77b78d73be4c90bee2facb1bbdb5b1aa" data-req-ip="82.162.122.156"><head><meta charset="U
+2026-11-13 22:19:29,460 wb_price INFO TRY card_v5_mobile: https://card.wb.ru/cards/v5/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871&nmId=1992988
+2026-11-13 22:19:30,411 wb_price INFO   -> 403, 0B
+2026-11-13 22:19:30,411 wb_price INFO   body[:150]=
+2026-11-13 22:19:30,411 wb_price INFO TRY search_v2: https://search.wb.ru/v1/search?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871
+2026-11-13 22:19:32,321 wb_price INFO   -> 403, 0B
+2026-11-13 22:19:32,321 wb_price INFO   body[:150]=
+2026-11-13 22:19:32,321 wb_price INFO TRY basket_volpart: https://basket-1992.wbbasket.ru/vol1992/part199298871/199298871.json
+2026-11-13 22:19:32,849 wb_price WARNING   ERROR: Failed to perform, curl: (6) Could not resolve host: basket-1992.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+=== WB PRICE ALT TEST (nm=199298871, vol=1992) ===
+curl_cffi: True
+=== DONE ===

@@ -1,0 +1,22 @@
+[OK] curl_cffi available
+
+======================================================================
+1. FARPOST — challengeurl deep  [0.1s] rem=240s
+======================================================================
+  [FP page] 200 | 89881B [1.5s]
+  Cookies: [REDACTED_AUTH_SECRET]
+  challengeurl: ?r=1&u=%2Fgeo%2Fmoskva%2Fl%2Ftelefony%2F&f=2&a=1794307663449
+  [GET json] 404 | 14060B | CT=text/html; charset=windows-1251
+  [GET html] 404 | 14060B | CT=text/html; charset=windows-1251
+  [GET xhr] 404 | 14060B | CT=text/html; charset=windows-1251
+  [POST empty] 404 | 0B | CT=text/html; charset=windows-1251
+  Trying f=1 fallback... [4.1s]
+  [f=1] 404 | 14024B
+  ✅ f=1 gives real page!
+
+======================================================================
+2. WILDBERRIES — CDN + search + card  [4.3s] rem=236s
+======================================================================
+  [Search v5] 403 | 0B [4.6s]
+
+  --- CDN images (parallel, 50 baskets) --- [4.6s]

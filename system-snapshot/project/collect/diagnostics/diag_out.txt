@@ -1,0 +1,42 @@
+[diag] Using curl_cffi
+DIAG v3 START
+
+============================================================
+[WB] nm_id=1097975275 vol=10979 part=1097975
+  card basket-42: 200 len=7989
+  selling keys: ['brand_name', 'brand_hash', 'supplier_id', 'no_return_map']
+  selling: {"brand_name": "Apple", "brand_hash": "6F8A1C9991FE5BC9", "supplier_id": 250148991, "no_return_map": 4351}
+  top nums: {'imt_id': 2227481309, 'nm_id': 1097975275}
+
+  price_api: 403 len=0
+
+============================================================
+[OZON] https://www.ozon.ru/product/562267/
+  status=403 ct=text/html len=8316 t=1.5s
+  head200: '\n\n    \n\n<!DOCTYPE html><html lang="ru"><head>\n  <meta charset="UTF-8">\n  <meta http-equiv="X-UA-Compatible" content="IE=edge">\n  <meta name="viewport" content="width=device-width,initial-scale=1,minim'
+  ind: {"og_title": false, "json_ld": false, "h1": false, "title_tag": true, "state_var": false, "captcha": true, "404": false, "price_hint": false, "imgs": 0, "scripts": 2}
+  saved OZON.html (8316ch)
+  widgets(0): []
+  og: []
+
+============================================================
+[AVITO] https://www.avito.ru/ad/7494308705
+  status=404 ct=text/html; charset=utf-8 len=29440 t=0.8s
+  head200: '<!DOCTYPE html>\n<html lang="en">\n    <head>\n        <meta charset="UTF-8" />\n        <meta name="viewport" content="width=device-width, initial-scale=1.0" />\n        <title>Ошибка 404. Страница не най'
+  ind: {"og_title": false, "json_ld": false, "h1": true, "title_tag": true, "state_var": false, "captcha": false, "404": true, "price_hint": false, "imgs": 0, "scripts": 0}
+  saved AVITO.html (29440ch)
+  og: []
+  PRELOADED_STATE: no
+
+============================================================
+[FARPOST] https://www.farpost.ru/vladivostok/1154321987.html
+  status=404 ct=text/html; charset=windows-1251 len=14007 t=1.0s
+  head200: '<!DOCTYPE html>\n<html lang="ru">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset="windows-1251" />\n<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />\n\n<meta http-equiv='
+  ind: {"og_title": true, "json_ld": true, "h1": false, "title_tag": true, "state_var": false, "captcha": false, "404": false, "price_hint": false, "imgs": 0, "scripts": 22}
+  saved FARPOST.html (14007ch)
+  raw_head: b'<!DOCTYPE html>\n<html lang="ru">\n<head>\n\t\t<title>\xd1\xf2\xf0\xe0\xed\xe8\xf6\xe0 \xed\xe5 \xed\xe0\xe9\xe4\xe5\xed\xe0</title>\n\n<meta charset="windows-1251" />\n<meta name="SKYPE_TOOLBAR" content="SKYP'
+  charset: none
+  og: [('title', 'Страница не найдена'), ('url', 'https://www.farpost.ru/vladivostok/1154321987.html'), ('site_name', 'FarPost.ru'), ('image', 'https://www.farpost.ru/resources/img/apple-touch-icon/apple-touch-icon.png'), ('image:secure_url', 'https://www.farpost.ru/resources/img/apple-touch-icon/apple-touch-icon.png'), ('type', 'website')]
+  bulletin-price: N/A
+
+DIAG v3 DONE 11.1s

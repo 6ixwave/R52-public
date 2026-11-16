@@ -1,0 +1,46 @@
+06:21:07 diag_ali_ru7: Starting v7 diagnostic...
+06:21:07 r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+06:21:07 r52.collectors.aliexpress: ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile
+06:21:07 diag_ali_ru7: Browser OK
+06:21:07 r52.collectors.aliexpress: ALI PW: session already warm (13 cookies)
+06:21:07 diag_ali_ru7: Warm: 13 cookies
+06:21:07 diag_ali_ru7: URL: https://ru.aliexpress.com/item/1005013496905897.html
+06:21:10 diag_ali_ru7: HTTP 200
+06:21:11 diag_ali_ru7: tick=0: {'cap': 'click', 'body': 98658}
+06:21:11 diag_ali_ru7: Captcha found, extracting images...
+06:21:13 diag_ali_ru7: Question saved: 38328 bytes
+06:21:13 diag_ali_ru7: Grid saved: 9/9 cells
+06:21:13 diag_ali_ru7: Running comparison v2...
+06:21:13 diag_ali_ru7: Question size: 356x49
+C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru7.py:61: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  q_hist = np.array(q_small.getdata(), dtype=np.float64)
+C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru7.py:62: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  g_hist = np.array(g_small.getdata(), dtype=np.float64)
+06:21:13 diag_ali_ru7:   grid[0]: ncc=0.968 hist=0.175 mad=0.263 combined=0.713
+06:21:13 diag_ali_ru7:   grid[1]: ncc=0.951 hist=0.500 mad=0.167 combined=0.580
+06:21:13 diag_ali_ru7:   grid[2]: ncc=0.951 hist=0.138 mad=0.339 combined=0.740
+06:21:13 diag_ali_ru7:   grid[3]: ncc=1.000 hist=0.389 mad=0.147 combined=0.627
+06:21:13 diag_ali_ru7:   grid[4]: ncc=0.961 hist=0.157 mad=0.419 combined=0.763
+06:21:13 diag_ali_ru7:   grid[5]: ncc=0.952 hist=0.173 mad=0.356 combined=0.736
+06:21:13 diag_ali_ru7:   grid[6]: ncc=0.977 hist=0.602 mad=0.194 combined=0.568
+06:21:13 diag_ali_ru7:   grid[7]: ncc=0.962 hist=0.212 mad=0.341 combined=0.724
+06:21:13 diag_ali_ru7:   grid[8]: ncc=0.969 hist=0.300 mad=0.232 combined=0.667
+06:21:13 diag_ali_ru7: Sorted: [(6, 0.568), (1, 0.58), (3, 0.627), (8, 0.667), (0, 0.713), (7, 0.724), (5, 0.736), (2, 0.74), (4, 0.763)]
+06:21:13 diag_ali_ru7: Selected: [6, 1, 3]
+06:21:15 diag_ali_ru7: Submitted
+06:21:16 diag_ali_ru7: result tick=0: {'onCap': True, 'msg': ''}
+06:21:17 diag_ali_ru7: result tick=1: {'onCap': True, 'msg': ''}
+06:21:18 diag_ali_ru7: result tick=2: {'onCap': True, 'msg': ''}
+06:21:19 diag_ali_ru7: result tick=3: {'onCap': True, 'msg': ''}
+06:21:20 diag_ali_ru7: result tick=4: {'onCap': True, 'msg': ''}
+06:21:21 diag_ali_ru7: result tick=5: {'onCap': True, 'msg': ''}
+06:21:22 diag_ali_ru7: result tick=6: {'onCap': True, 'msg': ''}
+06:21:23 diag_ali_ru7: result tick=7: {'onCap': True, 'msg': ''}
+06:21:24 diag_ali_ru7: result tick=8: {'onCap': True, 'msg': ''}
+06:21:25 diag_ali_ru7: result tick=9: {'onCap': True, 'msg': ''}
+06:21:26 diag_ali_ru7: result tick=10: {'onCap': True, 'msg': ''}
+06:21:27 diag_ali_ru7: result tick=11: {'onCap': True, 'msg': ''}
+06:21:28 diag_ali_ru7: result tick=12: {'onCap': True, 'msg': ''}
+06:21:29 diag_ali_ru7: result tick=13: {'onCap': True, 'msg': ''}
+06:21:30 diag_ali_ru7: result tick=14: {'onCap': True, 'msg': ''}
+06:21:30 diag_ali_ru7: Saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru7_result.json

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "199298871",
+    "method": "card_api_v2",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "card_api_v2",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "html",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "html",
+    "status": "FAIL"
+  },
+  {
+    "id": "199298871",
+    "method": "card_api_v1",
+    "status": "FAIL"
+  },
+  {
+    "id": "314337853",
+    "method": "card_api_v1",
+    "status": "FAIL"
+  }
+]

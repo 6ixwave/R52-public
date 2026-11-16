@@ -1,0 +1,152 @@
+[
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 219,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 233,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 241,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 243,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 277,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 276,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 244,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4009,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4012,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4020,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4021,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4016,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4010,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4013,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4033,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4018,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4003,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4020,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4020,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4036,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4036,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4036,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4027,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4011,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "code": -1,
+    "lat_ms": 4027,
+    "size": 0
+  }
+]

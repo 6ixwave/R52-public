@@ -1,0 +1,24 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 02:19:57,346 r52.autocollect.worker INFO phase=worker_start pid=31884
+2026-11-15 02:19:57,364 r52.autocollect.worker INFO source=ALIEXPRESS_RU mode=refresh phase=initialize
+2026-11-15 02:19:57,364 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 02:19:57,364 r52.autocollect.worker INFO source=ALIEXPRESS_RU proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-15 02:19:57,365 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005011739650215 phase=collect_product_start
+2026-11-15 02:20:00,070 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76246B, 2.7s
+2026-11-15 02:20:00,077 r52.collectors.aliexpress INFO ALI parse: title=Schede grafiche SOYO NVIDIA GT740 4G GDDR3 128 bit, prices=0, avail=UNKNOWN, media=1
+2026-11-15 02:20:00,077 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005011739650215 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-15 02:20:00,077 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005013040452550 phase=collect_product_start
+2026-11-15 02:20:10,718 r52.collectors.aliexpress INFO ALI_RU: TMD/CAPTCHA (try 1), 2379B, bxpunish=1
+2026-11-15 02:20:23,937 r52.collectors.aliexpress INFO ALI_RU: TMD/CAPTCHA (try 2), 2379B, bxpunish=1
+2026-11-15 02:20:42,951 r52.collectors.aliexpress INFO ALI_RU: TMD/CAPTCHA (try 3), 2379B, bxpunish=1
+2026-11-15 02:20:42,951 r52.collectors.aliexpress INFO ALI_RU: HTML incomplete/captcha after 3 tries, trying search API for id=1005013040452550
+2026-11-15 02:20:45,902 r52.collectors.aliexpress WARNING ALI_RU: search API returned HTML (404 page?), len=13828
+2026-11-15 02:20:48,953 r52.collectors.aliexpress WARNING ALI_RU: search API returned HTML (404 page?), len=13828
+2026-11-15 02:20:51,678 r52.collectors.aliexpress WARNING ALI_RU: search API returned HTML (404 page?), len=13828
+2026-11-15 02:20:51,678 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005013040452550 phase=collect_product_return status=NO_RESULT
+2026-11-15 02:20:51,678 r52.autocollect.worker WARNING source=ALIEXPRESS_RU listing=1005013040452550 result=NO_RESULT remaining_not_attempted=['1005011680733698', '1005012269147011', '1005013565193050']
+2026-11-15 02:20:51,678 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_start returned=1 valid=1 stats={'requests': 4, 'success': 1, 'failed': 0, 'blocked': 3}
+2026-11-15 02:20:51,679 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-00a7c032.json
+2026-11-15 02:20:51,680 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_complete files=1
+2026-11-15 02:20:51,680 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_start
+2026-11-15 02:20:51,681 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_complete

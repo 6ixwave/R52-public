@@ -1,0 +1,140 @@
+{
+  "query": "наушники",
+  "source": "aliexpress_ru_v21_live",
+  "fetched_at": "2026-11-12T21:36:45.938479+00:00",
+  "html_size": 840440,
+  "total": 12,
+  "with_title": 12,
+  "with_price": 12,
+  "with_images": 8,
+  "currency": {
+    "RUB": 0,
+    "EUR": 12
+  },
+  "products": [
+    {
+      "item_id": "1005013564277066",
+      "title": "Cuffie da gaming UNICO HP2570 con audio surround 7.1 e illuminazione RGB, con microfono a 360 gradi. °   Microfono USB 2.0 276g Leggero Over Ear per PC Gamer",
+      "price": 46.9,
+      "currency": "EUR",
+      "original_price": 26.7,
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sa92d6461c85d40bd8bd75da4a56c8929m.jpeg_480x480q75.jpeg_.avif"
+      ],
+      "url": "https://it.aliexpress.com/item/1005013564277066.html"
+    },
+    {
+      "item_id": "1005012417611123",
+      "title": "HIFIMAN Ananda Stealth Magnet Cuffie Hi-Fi Open-Back Over-Ear Full-Size Planar Magnetic",
+      "price": 276.54,
+      "currency": "EUR",
+      "original_price": 226.69,
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S875adfeec643427691a7ac4d4a6ebff0N.jpg_480x480q75.jpg_.avif"
+      ],
+      "url": "https://it.aliexpress.com/item/1005012417611123.html"
+    },
+    {
+      "item_id": "1005013407595470",
+      "title": "Cuffie da gaming con microfono regolabile e design mimetico, cuffie stereo sovraurali con cavo, ideali per console, PC e laptop.",
+      "price": 27.07,
+      "currency": "EUR",
+      "original_price": 20.13,
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb82135ceac564ba38a8fee5a0cfc10b0F.jpg_480x480q75.jpg_.avif"
+      ],
+      "url": "https://it.aliexpress.com/item/1005013407595470.html"
+    },
+    {
+      "item_id": "1005006995138897",
+      "title": "KZ EDX Lite HIFI Bass auricolari Stereo Music Earbuds In Ear Monitor Stage Live Headphones Gaming Sports Headset",
+      "price": 11.38,
+      "currency": "EUR",
+      "original_price": 5.69,
+      "images": [],
+      "url": "https://it.aliexpress.com/item/1005006995138897.html"
+    },
+    {
+      "item_id": "1005013100963256",
+      "title": "Cuffie Nothing (1), cancellazione attiva ibrida del rumore, cuffie wireless over-ear con 6 microfoni, 80 ore di autonomia, audio ad alta risoluzione, ottimizzate da KEF, suono spaziale, vestibilità confortevole, ricarica rapida",
+      "price": 272.63,
+      "currency": "EUR",
+      "original_price": 198.77,
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9cce73223dd34ee4aefe17513a86f150E.jpg_480x480q75.jpg_.avif"
+      ],
+      "url": "https://it.aliexpress.com/item/1005013100963256.html"
+    },
+    {
+      "item_id": "1005013565057281",
+      "title": "HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per Audiofili, Versione Stealth Magnets",
+      "price": 683.49,
+      "currency": "EUR",
+      "original_price": 539.39,
+      "images": [],
+      "url": "https://it.aliexpress.com/item/1005013565057281.html"
+    },
+    {
+      "item_id": "1005012536257796",
+      "title": "HIFIMAN HE400SE Stealth Magnets Cuffie Over-Ear Open-Back Full-Size Planar Magnetic con Filo",
+      "price": 123.81,
+      "currency": "EUR",
+      "original_price": 97.69,
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S32c095c3cd434d3380708bf7d455f8e20.jpg_480x480q75.jpg_.avif"
+      ],
+      "url": "https://it.aliexpress.com/item/1005012536257796.html"
+    },
+    {
+      "item_id": "1005007140743658",
+      "title": "Originale QKZ AK6 In Ear Auricolare 6 Unità Driver Dinamica Cuffie Con Microfono Stereo Sport HIFI Subwoofer Auricolare Monitor Auricolari",
+      "price": 4.44,
+      "currency": "EUR",
+      "original_price": 4.24,
+      "images": [],
+      "url": "https://it.aliexpress.com/item/1005007140743658.html"
+    },
+    {
+      "item_id": "1005013091451481",
+      "title": "Cuffie Stereo Regolabili Over-Ear con Cuscinetti Morbidi, Cavo Audio Rimovibile, Design Pieghevole, Cuffie Cablate Confortevoli per Musica e Viaggi",
+      "price": 21.92,
+      "currency": "EUR",
+      "original_price": 19.07,
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb49b14a2f3954c258044d5af2c2d55e9o.jpg_480x480q75.jpg_.avif"
+      ],
+      "url": "https://it.aliexpress.com/item/1005013091451481.html"
+    },
+    {
+      "item_id": "1005012296880178",
+      "title": "EDIFIER W800BT SE Cuffie Wireless Over-Ear Bluetooth 5.4 con Cancellazione del Rumore AI per Chiamate, 45 Ore di Autonomia, Ricarica Rapida, Connessione a Doppio Dispositivo, Bassa Latenza, Modalità Gaming, Pieghevoli",
+      "price": 47.65,
+      "currency": "EUR",
+      "original_price": 31.09,
+      "images": [],
+      "url": "https://it.aliexpress.com/item/1005012296880178.html"
+    },
+    {
+      "item_id": "1005013083538805",
+      "title": "Cuffie Over-Ear dal Design Professionale, Cuffie Wireless con Audio Stereo Nitido e Cavo Audio per TV, PC e Dispositivi Audio",
+      "price": 23.06,
+      "currency": "EUR",
+      "original_price": 22.4,
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S2ea401de6a1844ce99f3019d9e9d1bc7j.jpg_480x480q75.jpg_.avif"
+      ],
+      "url": "https://it.aliexpress.com/item/1005013083538805.html"
+    },
+    {
+      "item_id": "1005013223249475",
+      "title": "Cuffie da gaming professionali, con microfono, suono stereo e bassi potenziati, jack audio da 3,5 mm, design regolabile e aderente, ideali per computer.",
+      "price": 21.59,
+      "currency": "EUR",
+      "original_price": 15.97,
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S81c73a996832454e83b144a7e512d9cbh.jpg_480x480q75.jpg_.avif"
+      ],
+      "url": "https://it.aliexpress.com/item/1005013223249475.html"
+    }
+  ]
+}

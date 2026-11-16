@@ -1,0 +1,9 @@
+{
+  "note": "see stdout",
+  "files_tested": [
+    "jarvis-eye-farpost-65c1950c.json",
+    "jarvis-eye-farpost-b9b6aaed.json",
+    "jarvis-eye-wb-056e75a5.json",
+    "jarvis-eye-wb-d278551a.json"
+  ]
+}

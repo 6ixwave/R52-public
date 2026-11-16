@@ -1,0 +1,136 @@
+[
+  {
+    "name": "arms_uid",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": "aliexpress.ru",
+    "path": "///_____tmd_____",
+    "expires": 1810179066.628531,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "a_t_info",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".aliexpress.ru",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "xman_us_f",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".aliexpress.com",
+    "path": "/",
+    "expires": 1825731069.657843,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "acs_usuc_t",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".aliexpress.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "aep_usuc_f",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".aliexpress.com",
+    "path": "/",
+    "expires": 1825731069.657992,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "xman_t",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".aliexpress.com",
+    "path": "/",
+    "expires": 1825731068.231892,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "sca",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".mmstat.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://aliexpress.ru",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "cbc",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".ynuf.aliapp.org",
+    "path": "/",
+    "expires": 1826163070.226357,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://aliexpress.ru",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "xman_f",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".aliexpress.com",
+    "path": "/",
+    "expires": 1825731069.658045,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "tfstk",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".aliexpress.ru",
+    "path": "/",
+    "expires": 1810179064,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_m_h5_tk",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".aliexpress.com",
+    "path": "/",
+    "expires": 1795231875.71339,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_m_h5_tk_enc",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".aliexpress.com",
+    "path": "/",
+    "expires": 1795231875.71349,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_baxia_sec_cookie_",
+    "value": "[REDACTED_AUTH_SECRET]",
+    "domain": ".aliexpress.com",
+    "path": "/",
+    "expires": 1810179076,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  }
+]

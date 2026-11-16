@@ -1,0 +1,123 @@
+======================================================================
+WILDBERRIES
+======================================================================
+
+--- WB-CARD-v2 ---
+    URL: https://card.wb.ru/cards/v2/detail?nm=199298871
+    Status: 403 | Time: 0.8s | Size: 0B | CT: text/plain
+    Preview: '(binary)'
+
+--- WB-CARD-v1 ---
+    URL: https://card.wb.ru/cards/detail?nm=199298871
+    Status: 403 | Time: 0.4s | Size: 0B | CT: text/plain
+    Preview: '(binary)'
+
+--- WB-BASKET-1 ---
+    URL: https://basket-1.wbbasket.ru/vol1992/part199298/199298871/info/199298871-info.json
+    CONN_ERR (11.5s): HTTPSConnectionPool(host='basket-1.wbbasket.ru', port=443): Max retries exceeded with url: /vol1992/part199298/199298871/info/199298871-info.json (Caused by NameResolutionError("HTTPSConnection(host='
+
+--- WB-BASKET-5 ---
+    URL: https://basket-5.wbbasket.ru/vol1992/part199298/199298871/info/199298871-info.json
+    CONN_ERR (11.5s): HTTPSConnectionPool(host='basket-5.wbbasket.ru', port=443): Max retries exceeded with url: /vol1992/part199298/199298871/info/199298871-info.json (Caused by NameResolutionError("HTTPSConnection(host='
+
+--- WB-BASKET-10 ---
+    URL: https://basket-10.wbbasket.ru/vol1992/part199298/199298871/info/199298871-info.json
+    Status: 404 | Time: 0.4s | Size: 196B | CT: text/html
+    Preview: '<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv="content-type" content="text/html; charset=utf-8">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>'
+
+--- WB-BASKET-20 ---
+    URL: https://basket-20.wbbasket.ru/vol1992/part199298/199298871/info/199298871-info.json
+    Status: 404 | Time: 0.9s | Size: 196B | CT: text/html
+    Preview: '<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv="content-type" content="text/html; charset=utf-8">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>'
+
+--- WB-BASKET-50 ---
+    URL: https://basket-50.wbbasket.ru/vol1992/part199298/199298871/info/199298871-info.json
+    Status: 404 | Time: 0.4s | Size: 196B | CT: text/html
+    Preview: '<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv="content-type" content="text/html; charset=utf-8">\n<title>404 Not Found</title>\n</head>\n<body>\n<center><h1>404 Not Found</h1></center>\n</body></html>'
+
+--- WB-WBX-CONTENT ---
+    URL: https://wbx-content-v2.wbcontent.ru/cards/v2/detail?nm=199298871
+    CONN_ERR (11.5s): HTTPSConnectionPool(host='wbx-content-v2.wbcontent.ru', port=443): Max retries exceeded with url: /cards/v2/detail?nm=199298871 (Caused by NameResolutionError("HTTPSConnection(host='wbx-content-v2.wbc
+
+--- WB-HTML-2 ---
+    URL: https://www.wildberries.ru/catalog/199298871/detail.aspx
+    Status: 498 | Time: 0.8s | Size: 1136B | CT: text/html
+    Preview: '<!doctype html><html lang="ru" data-theme="light" data-req-uuid="7a1bf7fb88a5f0733ff496dd64dd4cce" data-req-ip="82.162.122.156"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="icon" href="data:,"><script>window.LOAD_START=Date.now()</script><title>...</title><script type="module" crossorigin src="/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js"></script><link rel="stylesheet" crossorigin href="/__wbaas/challenge'
+
+======================================================================
+OZON
+======================================================================
+
+--- OZON-HTML-2 ---
+    URL: https://www.ozon.ru/product/1600562267/
+    Status: 403 | Time: 1.5s | Size: 10027B | CT: text/html
+    Preview: '\n\n    \n\n\n<!DOCTYPE html><html lang="ru"><head>\n    <meta charset="UTF-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">\n    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">\n    <meta name="color-scheme" content="light dark">\n    <link rel="preload" as="font" fetchpriority="high" href="https://cdn2.ozone.ru/s3/ozon-fonts/onest.woff2" type="font/woff2" crossorigin="anonymous">\n   '
+
+--- OZON-COMPOSER-2 ---
+    URL: https://api.ozon.ru/composer-api.bx/page/json/v2?url=/product/1600562267/
+    Status: 403 | Time: 0.9s | Size: 1081B | CT: application/json
+    Preview: '\n\n{"incidentId": "fab_20261111180930_01M75WSY2ZE05RK0XMWVTPANEQ", "supportURL": "https://www.ozon.ru/complaint/support/?incident_id=fab_20261111180930_01M75WSY2ZE05RK0XMWVTPANEQ&token=[REDACTED_AUTH_SECRET]
+    JSON keys: ['incidentId', 'supportURL', 'timeoutSec', 'blockURL']
+
+--- OZON-API-V1 ---
+    URL: https://api.ozon.ru/composer-api.bx/page/json?url=/product/1600562267/
+    Status: 403 | Time: 0.5s | Size: 1081B | CT: application/json
+    Preview: '\n\n{"incidentId": "fab_20261111180932_01M75WT0GX0MHPQXS3X8C3D012", "supportURL": "https://www.ozon.ru/complaint/support/?incident_id=fab_20261111180932_01M75WT0GX0MHPQXS3X8C3D012&token=[REDACTED_AUTH_SECRET]
+    JSON keys: ['incidentId', 'supportURL', 'timeoutSec', 'blockURL']
+
+--- OZON-WWW-API ---
+    URL: https://www.ozon.ru/api/composer-api.bx/page/json/v2?url=/product/1600562267/
+    Status: 403 | Time: 0.5s | Size: 8497B | CT: text/html
+    Preview: '\n\n    \n\n<!DOCTYPE html><html lang="ru"><head>\n  <meta charset="UTF-8">\n  <meta http-equiv="X-UA-Compatible" content="IE=edge">\n  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">\n  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">\n  <link rel="stylesheet" href="https://cdn2.ozone.ru/s3/abt-challenge/incidents/styles_v2/common.css">\n  <title>Antibot Challenge Page</title>\n  <link rel="stylesheet" href="https://cdn2.ozone.ru/s3/abt-challenge/styl'
+
+======================================================================
+AVITO — поиск живого ID через поиск на сайте
+======================================================================
+
+--- AVITO-SEARCH ---
+    URL: https://www.avito.ru/search?q=iphone&f=ASgBAgICAkKKAQw
+    Status: 429 | Time: 1.0s | Size: 35048B | CT: text/html; charset=utf-8
+    Preview: '<!DOCTYPE html>\r\n<html lang="ru">\r\n<head>\r\n    <meta charset="UTF-8" />\r\n    <meta http-equiv="X-UA-Compatible" content="IE=edge" />\r\n    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\r\n    <title>Доступ ограничен: проблема с IP</title>\r\n    <style>\r\n        body {\r\n            margin: 0;\r\n            background-color: #fff;\r\n            color: #000;\r\n            font: 13px/1.5 Arial, \'Helvetica Neue\', Helvetica, sans-serif;\r\n        }\r\n\r\n        .firewall__header {\r\n  '
+
+--- AVITO-1096783029 ---
+    URL: https://www.avito.ru/moscow/ad/1096783029
+    Status: 429 | Time: 0.9s | Size: 35048B | CT: text/html; charset=utf-8
+    Preview: '<!DOCTYPE html>\r\n<html lang="ru">\r\n<head>\r\n    <meta charset="UTF-8" />\r\n    <meta http-equiv="X-UA-Compatible" content="IE=edge" />\r\n    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\r\n    <title>Доступ ограничен: проблема с IP</title>\r\n    <style>\r\n        body {\r\n            margin: 0;\r\n            background-color: #fff;\r\n            color: #000;\r\n            font: 13px/1.5 Arial, \'Helvetica Neue\', Helvetica, sans-serif;\r\n        }\r\n\r\n        .firewall__header {\r\n  '
+
+--- AVITO-1080000000 ---
+    URL: https://www.avito.ru/moscow/ad/1080000000
+    Status: 429 | Time: 0.9s | Size: 35048B | CT: text/html; charset=utf-8
+    Preview: '<!DOCTYPE html>\r\n<html lang="ru">\r\n<head>\r\n    <meta charset="UTF-8" />\r\n    <meta http-equiv="X-UA-Compatible" content="IE=edge" />\r\n    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\r\n    <title>Доступ ограничен: проблема с IP</title>\r\n    <style>\r\n        body {\r\n            margin: 0;\r\n            background-color: #fff;\r\n            color: #000;\r\n            font: 13px/1.5 Arial, \'Helvetica Neue\', Helvetica, sans-serif;\r\n        }\r\n\r\n        .firewall__header {\r\n  '
+
+--- AVITO-1075000000 ---
+    URL: https://www.avito.ru/moscow/ad/1075000000
+    Status: 429 | Time: 0.9s | Size: 35048B | CT: text/html; charset=utf-8
+    Preview: '<!DOCTYPE html>\r\n<html lang="ru">\r\n<head>\r\n    <meta charset="UTF-8" />\r\n    <meta http-equiv="X-UA-Compatible" content="IE=edge" />\r\n    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\r\n    <title>Доступ ограничен: проблема с IP</title>\r\n    <style>\r\n        body {\r\n            margin: 0;\r\n            background-color: #fff;\r\n            color: #000;\r\n            font: 13px/1.5 Arial, \'Helvetica Neue\', Helvetica, sans-serif;\r\n        }\r\n\r\n        .firewall__header {\r\n  '
+
+======================================================================
+FARPOST — поиск живого ID
+======================================================================
+
+--- FP-SEARCH ---
+    URL: https://www.farpost.ru/search/?q=iphone
+    Status: 404 | Time: 1.0s | Size: 15298B | CT: text/html; charset=windows-1251
+    Preview: '<!DOCTYPE html>\n<html lang="ru">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset="windows-1251" />\n<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />\n\n<meta http-equiv="x-dns-prefetch-control" content="on">\n\n\t<link rel="dns-prefetch" href="https://static.baza.farpost.ru">\n\n\t<meta name="description" content="Подать объявление. Частные объявления и предложения организаций."/>\n\n\n\n\n\t<link rel="stylesheet" href="https://www.farpost.ru/resources/assets/tokens_fp.c06ec41'
+
+--- FP-18530297982 ---
+    URL: https://www.farpost.ru/item/18530297982
+    Status: 404 | Time: 0.5s | Size: 12937B | CT: text/html; charset=windows-1251
+    Preview: '<!DOCTYPE html>\n<html lang="ru">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset="windows-1251" />\n<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />\n\n<meta http-equiv="x-dns-prefetch-control" content="on">\n\n\t<link rel="dns-prefetch" href="https://static.baza.farpost.ru">\n\n\t<meta name="description" content="Подать объявление. Частные объявления и предложения организаций."/>\n\n\n\n\n\t<link rel="stylesheet" href="https://www.farpost.ru/resources/assets/tokens_fp.c06ec41'
+
+--- FP-18500000000 ---
+    URL: https://www.farpost.ru/item/18500000000
+    Status: 404 | Time: 0.5s | Size: 13584B | CT: text/html; charset=windows-1251
+    Preview: '<!DOCTYPE html>\n<html lang="ru">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset="windows-1251" />\n<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />\n\n<meta http-equiv="x-dns-prefetch-control" content="on">\n\n\t<link rel="dns-prefetch" href="https://static.baza.farpost.ru">\n\n\t<meta name="description" content="Подать объявление. Частные объявления и предложения организаций."/>\n\n\n\n\n\t<link rel="stylesheet" href="https://www.farpost.ru/resources/assets/tokens_fp.c06ec41'
+
+--- FP-18400000000 ---
+    URL: https://www.farpost.ru/item/18400000000
+    Status: 404 | Time: 0.5s | Size: 12937B | CT: text/html; charset=windows-1251
+    Preview: '<!DOCTYPE html>\n<html lang="ru">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset="windows-1251" />\n<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />\n\n<meta http-equiv="x-dns-prefetch-control" content="on">\n\n\t<link rel="dns-prefetch" href="https://static.baza.farpost.ru">\n\n\t<meta name="description" content="Подать объявление. Частные объявления и предложения организаций."/>\n\n\n\n\n\t<link rel="stylesheet" href="https://www.farpost.ru/resources/assets/tokens_fp.c06ec41'
+
+======================================================================
+DONE
+======================================================================

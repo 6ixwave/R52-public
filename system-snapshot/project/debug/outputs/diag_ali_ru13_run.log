@@ -1,0 +1,33 @@
+06:31:50 diag_ali_ru13: V13 multi-strategy starting...
+06:31:50 r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+06:31:51 r52.collectors.aliexpress: ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile
+06:31:51 diag_ali_ru13: Browser OK
+06:31:51 r52.collectors.aliexpress: ALI PW: session already warm (12 cookies)
+06:31:51 diag_ali_ru13: Warm: 12 cookies
+06:31:51 diag_ali_ru13: === PHASE 1: Search page ===
+06:31:51 diag_ali_ru13: URL: https://aliexpress.ru/wholesale?SearchText=наушники+беспроводные
+06:31:52 diag_ali_ru13: HTTP 200
+06:31:53 diag_ali_ru13: tick=0: {'onCap': False, 'h1': None, 'body': 221607}
+06:32:01 diag_ali_ru13: Extracting search results...
+06:32:01 diag_ali_ru13: Search: 0 items, body=1252424b
+06:32:01 diag_ali_ru13: Search loaded but 0 items extracted — checking DOM...
+06:32:01 diag_ali_ru13: DOM fallback: 20 links
+06:32:01 diag_ali_ru13: === PHASE 2: Product page ===
+06:32:01 diag_ali_ru13: URL: https://ru.aliexpress.com/item/1005013496905897.html
+06:32:01 diag_ali_ru13: HTTP 200
+06:32:02 diag_ali_ru13: tick=0: {'onCap': True, 'isClick': True, 'msg': '', 'body': 98636}
+06:32:02 diag_ali_ru13: CAPTCHA on product! Trying to solve...
+06:32:04 diag_ali_ru13: Question: 356x49, 38823 bytes
+06:32:05 diag_ali_ru13: Grid: 9/9 images
+06:32:05 diag_ali_ru13: Scores: [(1, 0.684), (5, 0.722), (8, 0.743), (2, 0.753), (7, 0.753), (0, 0.766), (6, 0.776), (4, 0.818), (3, 0.861)]
+06:32:05 diag_ali_ru13: Attempt 1: [1]
+06:32:23 diag_ali_ru13: Attempt 2: [1, 5]
+06:32:42 diag_ali_ru13: Attempt 3: [1, 5, 8]
+06:33:02 diag_ali_ru13: Product CAPTCHA NOT solved
+06:33:02 diag_ali_ru13: === PHASE 3: MTOP data ===
+06:33:02 diag_ali_ru13: MTOP: 3 responses captured
+06:33:02 diag_ali_ru13:   [0] https://st.aestatic.net/mixer/ssr/1/aer-assets/ext/pdp-utils.0.15.0.js?cache=0 (2791b)
+06:33:02 diag_ali_ru13:   [1] https://st.aestatic.net/mixer/ssr/1/aer-assets/ext/snow-pdp-kit.0.1.0.js?cache=0 (2627b)
+06:33:02 diag_ali_ru13:   [2] https://aliexpress.ru/item/1005013496905897.html/_____tmd_____/gridClickReplace? (7839b)
+06:33:02 diag_ali_ru13: Saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru13_result.json
+06:33:02 diag_ali_ru13: PHASE=done search_ok=None prod_ok=None

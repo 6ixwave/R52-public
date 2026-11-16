@@ -1,0 +1,11 @@
+{
+  "ts": "2026-11-15T01:22:51.355215+10:00",
+  "avito": {
+    "got_real_page": true,
+    "bytes": 374926,
+    "url": "https://www.avito.ru/rossiya?q=тест&p=1",
+    "status": 200,
+    "ad_links": 3
+  },
+  "wb": "see log"
+}

@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie wireless Bluetooth Acer Ohr559, con design che copre completamente l’orecchio, pieghevoli, compatibili con cavo audio da 3,5 mm, qualità audio stereo ad alta definizione, riduzione del rumore durante le chiamate, autonomia della batteria ultra-lunga di 40 ore.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "74.72",
+        "amount_minor": 7472,
+        "currency": "RUB",
+        "visible_label": "74.72 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "27.29",
+        "amount_minor": 2729,
+        "currency": "RUB",
+        "visible_label": "27.29 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S3d5bd026ceaa485da614786de5269708V.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013562097398",
+    "url": "https://ru.aliexpress.com/item/1005013562097398.html",
+    "observed_at": "2026-11-13T08:02:42.577312+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

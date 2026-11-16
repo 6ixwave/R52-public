@@ -1,0 +1,33 @@
+﻿python : 2026-11-12 16:40:34,734 INFO === WILDBERRIES ===
+строка:1 знак:36
++ $ErrorActionPreference='Continue'; python diag_multi9.py 2>&1 | Out-F ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 16:4...WILDBERRIES ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 16:40:35,861 INFO WB warmup: HTTP=498 len=1136
+2026-11-12 16:40:35,863 INFO   -> WB:cffi_html: ok=False HTTP=498 len=1136 prices=[] og=None basic=[]
+2026-11-12 16:40:36,766 INFO   -> WB:cffi_card_v2: ok=False HTTP=403 first80=
+2026-11-12 16:40:48,044 INFO   -> WB:playwright_10s: ok=[] len=7590 title=... prices=[] dom=[] xhr=[]
+2026-11-12 16:41:31,982 INFO   -> WB:basket_cdn: ok=True host=basket-42.wbbasket.ru vol=10979 part=1097975 title=Смартф
+он iPhone 17 Pro Max 256 Серебряный (eSIM) keys=21
+2026-11-12 16:41:31,984 INFO === FARPOST ===
+2026-11-12 16:41:33,875 INFO FP category https://www.farpost.ru/vladivostok/electronics/: HTTP=200 len=197944
+2026-11-12 16:41:33,875 INFO FP https://www.farpost.ru/vladivostok/electronics/: 0 unique IDs
+2026-11-12 16:41:34,530 INFO FP category https://www.farpost.ru/vladivostok/: HTTP=200 len=197931
+2026-11-12 16:41:34,530 INFO FP https://www.farpost.ru/vladivostok/: 0 unique IDs
+2026-11-12 16:41:35,185 INFO FP category https://www.farpost.ru/vladivostok/mobile-phones/: HTTP=200 len=197923
+2026-11-12 16:41:35,185 INFO FP https://www.farpost.ru/vladivostok/mobile-phones/: 0 unique IDs
+2026-11-12 16:41:45,089 INFO FP: on verify page, waiting...
+2026-11-12 16:41:53,211 INFO   -> FP:playwright: ok=[] ID=138952176 url=https://www.farpost.ru/verify?u=%2Fvladivostok%
+2F138952176.html len=216616 title=Фарпост - доска объявлений prices=[] pats={'data-price': [], 'price-class': [], 'json
+-ld': False, 'og-price': [], 'rub-symbol': []}
+2026-11-12 16:41:54,935 INFO   -> FP:cffi_direct: ok=False ID=138952176 HTTP=200 len=198068 title=Фарпост - доска объяв
+лений prices=[] home=True
+2026-11-12 16:41:54,935 INFO === AVITO ===
+2026-11-12 16:42:04,547 INFO   -> AV:playwright_8s: ok=[] len=311095 prices=[] pats={'data-price': [], 'meta-og': [], '
+price-el': [], 'json-state': False, 'captcha': True, 'rub': []} xhr=[]
+2026-11-12 16:42:12,284 INFO   -> AV:playwright_m: ok=[] len=36439 prices=[] pats={'data-price': [], 'rub': [], 'captch
+a': True}
+2026-11-12 16:42:12,374 INFO Saved to C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\d9_results.json
+2026-11-12 16:42:12,374 INFO TOTAL: 97.6s

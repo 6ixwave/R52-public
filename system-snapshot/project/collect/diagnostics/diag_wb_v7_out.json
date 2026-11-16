@@ -1,0 +1,76 @@
+{
+  "photo_ir13_S800": {
+    "status": "HTTP_0",
+    "url": "https://ir-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg",
+    "ct": ""
+  },
+  "photo_ir01_S800": {
+    "status": "HTTP_0",
+    "url": "https://ir-01.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg",
+    "ct": ""
+  },
+  "photo_ir05_S800": {
+    "status": "HTTP_0",
+    "url": "https://ir-05.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg",
+    "ct": ""
+  },
+  "photo_ir10_S800": {
+    "status": "HTTP_0",
+    "url": "https://ir-10.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg",
+    "ct": ""
+  },
+  "photo_static13_S800": {
+    "status": "HTTP_0",
+    "url": "https://static-basket13.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg",
+    "ct": ""
+  },
+  "photo_static01_S800": {
+    "status": "HTTP_0",
+    "url": "https://static-basket01.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg",
+    "ct": ""
+  },
+  "photo_wbstatic_S800": {
+    "status": "HTTP_0",
+    "url": "https://wbstatic.net/vol1992/part199298/199298871/images/S800/S800.jpg",
+    "ct": ""
+  },
+  "price_card_v2_secfetch": {
+    "status": "HTTP_403",
+    "url": "https://card.wb.ru/cards/v2/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871"
+  },
+  "price_card_v1_secfetch": {
+    "status": "HTTP_403",
+    "url": "https://card.wb.ru/cards/v1/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871"
+  },
+  "price_card_v2_xrender": {
+    "status": "HTTP_403",
+    "url": "https://card.wb.ru/cards/v2/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871"
+  },
+  "price_mobile_api": {
+    "status": "HTTP_498",
+    "url": "https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=199298871"
+  },
+  "price_basket_nmjson": {
+    "status": "HTTP_404",
+    "url": "https://basket-13.wbbasket.ru/vol1992/part199298/199298871/nm.json",
+    "body": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center>"
+  },
+  "price_basket_card_alt": {
+    "status": "OK",
+    "url": "https://basket-13.wbbasket.ru/vol1992/part199298/199298871/info/ru/card.json",
+    "ct": "application/json",
+    "bytes": 9623,
+    "body": "{\"imt_id\":158033827,\"nm_id\":199298871,\"imt_name\":\"Овсяный смарт коктейль для похудения без сахара\",\"slug\":\"ovsyanyj-smart-koktejl-dlya-pokhudeniya-bez-sakhara\",\"subj_name\":\"Коктейли злаковые\",\"subj_ro"
+  },
+  "price_basket_prices_v2": {
+    "status": "HTTP_404",
+    "url": "https://basket-13.wbbasket.ru/vol1992/part199298/199298871/prices.json",
+    "body": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n<title>404 Not Found</title>\n</head>\n<body>\n<center>"
+  },
+  "html_full": {
+    "status": "HTTP_498",
+    "bytes": 0,
+    "ct": "text/html",
+    "body": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"66accc6eb7c60d69bbe69b7f3b999c4e\" data-req-ip=\"82.162.122.156\"><head><meta charset=\"U"
+  }
+}

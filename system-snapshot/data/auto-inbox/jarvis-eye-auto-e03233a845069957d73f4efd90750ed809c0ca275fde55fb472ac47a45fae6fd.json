@@ -1,0 +1,405 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Лосины теплые начес на флисе",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "EMILLISA",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 123500,
+        "amount": "1235.00",
+        "currency": "RUB",
+        "visible_label": "1235.00 руб.",
+        "variant_id": "56-58",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 123500,
+          "listing_id": "584804611",
+          "variant_id": "56-58"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 705000,
+        "amount": "7050.00",
+        "currency": "RUB",
+        "visible_label": "7050.00 руб.",
+        "variant_id": "56-58",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 705000,
+          "listing_id": "584804611",
+          "variant_id": "56-58"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 123500,
+        "amount": "1235.00",
+        "currency": "RUB",
+        "visible_label": "1235.00 руб.",
+        "variant_id": "38-40",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.product",
+          "value_minor": 123500,
+          "listing_id": "584804611",
+          "variant_id": "38-40"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 705000,
+        "amount": "7050.00",
+        "currency": "RUB",
+        "visible_label": "7050.00 руб.",
+        "variant_id": "38-40",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.basic",
+          "value_minor": 705000,
+          "listing_id": "584804611",
+          "variant_id": "38-40"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 123500,
+        "amount": "1235.00",
+        "currency": "RUB",
+        "visible_label": "1235.00 руб.",
+        "variant_id": "40-42",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.product",
+          "value_minor": 123500,
+          "listing_id": "584804611",
+          "variant_id": "40-42"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 705000,
+        "amount": "7050.00",
+        "currency": "RUB",
+        "visible_label": "7050.00 руб.",
+        "variant_id": "40-42",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.basic",
+          "value_minor": 705000,
+          "listing_id": "584804611",
+          "variant_id": "40-42"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 123500,
+        "amount": "1235.00",
+        "currency": "RUB",
+        "visible_label": "1235.00 руб.",
+        "variant_id": "44",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[3].price.product",
+          "value_minor": 123500,
+          "listing_id": "584804611",
+          "variant_id": "44"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 705000,
+        "amount": "7050.00",
+        "currency": "RUB",
+        "visible_label": "7050.00 руб.",
+        "variant_id": "44",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[3].price.basic",
+          "value_minor": 705000,
+          "listing_id": "584804611",
+          "variant_id": "44"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 123500,
+        "amount": "1235.00",
+        "currency": "RUB",
+        "visible_label": "1235.00 руб.",
+        "variant_id": "46",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[4].price.product",
+          "value_minor": 123500,
+          "listing_id": "584804611",
+          "variant_id": "46"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 705000,
+        "amount": "7050.00",
+        "currency": "RUB",
+        "visible_label": "7050.00 руб.",
+        "variant_id": "46",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[4].price.basic",
+          "value_minor": 705000,
+          "listing_id": "584804611",
+          "variant_id": "46"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 123500,
+        "amount": "1235.00",
+        "currency": "RUB",
+        "visible_label": "1235.00 руб.",
+        "variant_id": "48",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[5].price.product",
+          "value_minor": 123500,
+          "listing_id": "584804611",
+          "variant_id": "48"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 705000,
+        "amount": "7050.00",
+        "currency": "RUB",
+        "visible_label": "7050.00 руб.",
+        "variant_id": "48",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[5].price.basic",
+          "value_minor": 705000,
+          "listing_id": "584804611",
+          "variant_id": "48"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 123500,
+        "amount": "1235.00",
+        "currency": "RUB",
+        "visible_label": "1235.00 руб.",
+        "variant_id": "50",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[6].price.product",
+          "value_minor": 123500,
+          "listing_id": "584804611",
+          "variant_id": "50"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 705000,
+        "amount": "7050.00",
+        "currency": "RUB",
+        "visible_label": "7050.00 руб.",
+        "variant_id": "50",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[6].price.basic",
+          "value_minor": 705000,
+          "listing_id": "584804611",
+          "variant_id": "50"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 123500,
+        "amount": "1235.00",
+        "currency": "RUB",
+        "visible_label": "1235.00 руб.",
+        "variant_id": "52",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[7].price.product",
+          "value_minor": 123500,
+          "listing_id": "584804611",
+          "variant_id": "52"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 705000,
+        "amount": "7050.00",
+        "currency": "RUB",
+        "visible_label": "7050.00 руб.",
+        "variant_id": "52",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[7].price.basic",
+          "value_minor": 705000,
+          "listing_id": "584804611",
+          "variant_id": "52"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 123500,
+        "amount": "1235.00",
+        "currency": "RUB",
+        "visible_label": "1235.00 руб.",
+        "variant_id": "54",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[8].price.product",
+          "value_minor": 123500,
+          "listing_id": "584804611",
+          "variant_id": "54"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 705000,
+        "amount": "7050.00",
+        "currency": "RUB",
+        "visible_label": "7050.00 руб.",
+        "variant_id": "54",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[8].price.basic",
+          "value_minor": 705000,
+          "listing_id": "584804611",
+          "variant_id": "54"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 123500,
+        "amount": "1235.00",
+        "currency": "RUB",
+        "visible_label": "1235.00 руб.",
+        "variant_id": "----",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[9].price.product",
+          "value_minor": 123500,
+          "listing_id": "584804611",
+          "variant_id": "----"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 705000,
+        "amount": "7050.00",
+        "currency": "RUB",
+        "visible_label": "7050.00 руб.",
+        "variant_id": "----",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[9].price.basic",
+          "value_minor": 705000,
+          "listing_id": "584804611",
+          "variant_id": "----"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "584804611",
+    "listing_id": "584804611",
+    "title": "Лосины теплые начес на флисе",
+    "url": "https://www.wildberries.ru/catalog/584804611/detail.aspx",
+    "observed_at": "2026-11-15T23:12:42.041340+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

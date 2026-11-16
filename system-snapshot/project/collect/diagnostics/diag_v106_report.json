@@ -1,0 +1,77 @@
+{
+  "card_selling_keys": [
+    "brand_name",
+    "brand_hash",
+    "supplier_id",
+    "no_return_map"
+  ],
+  "card_selling": "{'brand_name': 'Родник Здоровья', 'brand_hash': '287D12FB814E0535', 'supplier_id': 1302193, 'no_return_map': 8191}",
+  "price_endpoints": {
+    "v1": {
+      "http": 403,
+      "bytes": 0,
+      "body200": ""
+    },
+    "v2": {
+      "http": 403,
+      "bytes": 0,
+      "body200": ""
+    },
+    "v2_nospp": {
+      "http": 403,
+      "bytes": 0,
+      "body200": ""
+    },
+    "v4": {
+      "http": 403,
+      "bytes": 0,
+      "body200": ""
+    },
+    "v5": {
+      "http": 403,
+      "bytes": 0,
+      "body200": ""
+    },
+    "batch_v2": {
+      "http": 403,
+      "bytes": 0,
+      "body200": ""
+    },
+    "web_v1": {
+      "http": 498,
+      "bytes": 1130,
+      "body200": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"e940463b39846243027324eb09f3989c\" data-req-ip=\"81.2.48.189\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-wid"
+    },
+    "web_v2": {
+      "http": 498,
+      "bytes": 1130,
+      "body200": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"0db734d473f0ad120ace3316530d8914\" data-req-ip=\"81.2.48.189\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-wid"
+    }
+  },
+  "html_price": {
+    "http": 498
+  },
+  "farpost": {
+    "warmup": {
+      "http": 200,
+      "bytes": 75719
+    },
+    "cookies": [
+      "ring",
+      "ring_session"
+    ],
+    "base_fetch": "None",
+    "direct": {
+      "http": 404,
+      "bytes": 16257,
+      "url": "https://www.farpost.ru/bulletin/130693618"
+    },
+    "direct_body300": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset=\"windows-1251\" />\n<meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />\n\n<meta http-equiv=\"x-dns-prefetch-control\" content=\"on\">\n\n\t<link rel=\"dns-prefetch\" href=\"https://static.baza.farpost.",
+    "cffi": {
+      "http": 404,
+      "bytes": 12941,
+      "url": "https://www.farpost.ru/bulletin/130693618"
+    },
+    "cffi_body300": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset=\"windows-1251\" />\n<meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />\n\n<meta http-equiv=\"x-dns-prefetch-control\" content=\"on\">\n\n\t<link rel=\"dns-prefetch\" href=\"https://static.baza.farpost."
+  }
+}

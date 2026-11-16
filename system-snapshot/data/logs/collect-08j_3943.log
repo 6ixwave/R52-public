@@ -1,0 +1,13 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 13:41:31,877 r52.autocollect.worker INFO phase=worker_start pid=12804
+2026-11-15 13:41:31,889 r52.autocollect.worker INFO source=ALIEXPRESS mode=discover phase=initialize
+2026-11-15 13:41:31,891 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-15 13:41:31,892 r52.autocollect.worker INFO source=ALIEXPRESS proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-15 13:41:31,892 r52.autocollect.worker INFO source=ALIEXPRESS phase=search_start page=1 limit=5
+2026-11-15 13:41:40,986 r52.collectors.aliexpress INFO ALI_COM: wholesale HTML OK, 241492 bytes, 9.1s
+2026-11-15 13:41:40,987 r52.collectors.aliexpress WARNING ALI: card-list not found in HTML
+2026-11-15 13:41:59,013 r52.collectors.aliexpress INFO ALI_COM: curl_cffi OK, 241469 bytes, 12.6s
+2026-11-15 13:41:59,020 r52.autocollect.worker INFO source=ALIEXPRESS phase=write_start returned=0 valid=0 stats={'requests': 2, 'success': 2, 'failed': 0, 'blocked': 0}
+2026-11-15 13:41:59,021 r52.autocollect.worker INFO source=ALIEXPRESS phase=write_complete files=0
+2026-11-15 13:41:59,021 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_start
+2026-11-15 13:41:59,022 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_complete

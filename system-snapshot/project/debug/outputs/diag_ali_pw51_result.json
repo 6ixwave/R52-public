@@ -1,0 +1,87 @@
+{
+  "product_id": "1005011813323763",
+  "url": "https://www.aliexpress.com/item/1005011813323763.html",
+  "timestamp": "2026-11-13T02:29:59.392706",
+  "phase": "done",
+  "mtop_responses": [
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794501013516&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.",
+      "status": 200,
+      "body_len": null,
+      "saved_to": "",
+      "body_head": ""
+    },
+    {
+      "url": "https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg3e629a8a54896940kjb5820c11a37ad71687c3aa43c59c58351794501014a-1168960602a-1317347523abaxc3eajrecaptcha3",
+      "status": 200,
+      "body_len": null,
+      "saved_to": "",
+      "body_head": ""
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg3e629a8a54896940kjb5820c11a37ad71687c3aa43c59c58351794501014a-1168960602a-",
+      "status": 200,
+      "body_len": null,
+      "saved_to": "",
+      "body_head": ""
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5se",
+      "status": 200,
+      "body_len": null,
+      "saved_to": "",
+      "body_head": ""
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p_url=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2",
+      "status": 200,
+      "body_len": null,
+      "saved_to": "",
+      "body_head": ""
+    },
+    {
+      "url": "https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish&query=x5",
+      "status": 200,
+      "body_len": null,
+      "saved_to": "",
+      "body_head": ""
+    },
+    {
+      "url": "https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.query%2F1.0%2F_____tmd_____%2Fpunish%3Fx5secdata%3Dxg3e629a8a54896940kjb5820c11a37ad",
+      "status": 200,
+      "body_len": null,
+      "saved_to": "",
+      "body_head": ""
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&uuid=b5820c11a37ad71687c",
+      "status": 200,
+      "body_len": null,
+      "saved_to": "",
+      "body_head": ""
+    }
+  ],
+  "pdp_data": {},
+  "dom_data": {
+    "og_title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+    "og_image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+    "title_tag": "",
+    "img_count": 11,
+    "images": [
+      "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sf826fda986cb463ca56efc2c5dcbdc9af.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S7a80d404b9df494b8c3b251efbac0b64M.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S14bdb58e79a74c9baf6e289cd745f7b5J.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sc254f5113e4a47fe823f9a8831ffaf70y.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S676b26003f3a4bfdbcb5453ce10d19f8R.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_960x960q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Saac98d6e0eb1476ca25ec46a6265fc452/150x150.gif"
+    ]
+  },
+  "tmd_handled": true,
+  "recaptcha_solved": true,
+  "errors": []
+}

@@ -1,0 +1,136 @@
+{
+  "time": "2026-11-12T15:31:04.096684+10:00",
+  "total_seconds": 43.9,
+  "results": {
+    "WB:basket_price.json": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "seconds": 1.2
+    },
+    "WB:card_v2_dest-1257786": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "seconds": 0.9
+    },
+    "WB:card_v2_dest1257786": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "seconds": 1.8
+    },
+    "WB:card_v2_dest25": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "seconds": 2.7
+    },
+    "WB:card_v1": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "seconds": 0.8
+    },
+    "WB:card.json_price_fields": {
+      "ok": false,
+      "detail": [],
+      "seconds": 1.0
+    },
+    "WB:html_mobile": {
+      "ok": false,
+      "detail": "HTTP 498",
+      "seconds": 0.9
+    },
+    "WB:basket_price_scan": {
+      "ok": false,
+      "detail": "Failed to perform, curl: (28) Resolving timed out after 5000 milliseconds. See h",
+      "seconds": 16.1
+    },
+    "WB:search_wb": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "seconds": 0.9
+    },
+    "OZON:composer_api": {
+      "ok": false,
+      "detail": "HTTP 403 body[:100]=\n\n{\"incidentId\": \"fab_chlg_20261112053045_01M773SBKWRGJT47DBANTKNRN0\", \"challengeURL\": \"https://www.",
+      "seconds": 1.7
+    },
+    "OZON:composer_v1": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "seconds": 1.0
+    },
+    "OZON:html_ssl_fix": {
+      "ok": false,
+      "detail": "HTTP 403 len=8259",
+      "seconds": 1.0
+    },
+    "OZON:mobile": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "seconds": 1.8
+    },
+    "OZON:api_ozon": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "seconds": 1.7
+    },
+    "OZON:id_3123456789": {
+      "ok": false,
+      "detail": "HTTP 403 title=Antibot Challenge Page",
+      "seconds": 1.0
+    },
+    "OZON:id_2567890123": {
+      "ok": false,
+      "detail": "HTTP 403 title=Antibot Challenge Page",
+      "seconds": 2.0
+    },
+    "AVITO:www_1045231001": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "seconds": 0.9
+    },
+    "AVITO:www_1050000001": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "seconds": 1.8
+    },
+    "AVITO:www_1060000001": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "seconds": 2.7
+    },
+    "AVITO:www_1070000001": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "seconds": 3.6
+    },
+    "AVITO:m_1045231001": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "seconds": 0.9
+    },
+    "AVITO:m_1050000001": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "seconds": 1.7
+    },
+    "AVITO:m_1060000001": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "seconds": 2.6
+    },
+    "AVITO:m_1070000001": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "seconds": 3.5
+    },
+    "AVITO:api_v1": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "seconds": 0.9
+    },
+    "AVITO:warmup_session": {
+      "ok": false,
+      "detail": "main=439 ad=404",
+      "seconds": 3.1
+    }
+  }
+}

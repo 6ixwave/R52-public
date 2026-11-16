@@ -1,0 +1,35 @@
+23:38:16 Core: port=8423 pid=14916
+23:38:16 [01] /healthz: 200 ok=True
+23:38:16 [02] /api/products: 200 total=19 first_id=19
+23:38:16 [03] UI session: 201 url=http://127.0.0.1:8423/ui?code=[REDACTED_AUTH_SECRET]
+23:38:16 [04] UI page: HTTP 200, len=1969
+23:38:16 [04] markers found: ['r-52', 'html', 'div', 'main']
+23:38:16 [04] html head: <!doctype html>
+<html lang="ru" data-motion="on">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta nam
+23:38:16 [04] cookies: [REDACTED_AUTH_SECRET]
+23:38:16 [05] Edge opened
+23:38:16 [06] Schedules: 200 count=3
+23:38:16      backup: kind=backup rule=daily enabled=1 last_run=2026-11-13T07:22:02
+23:38:16      digest: kind=digest rule=daily enabled=1 last_run=2026-11-13T07:22:02
+23:38:16      maintenance: kind=maintenance rule=daily enabled=1 last_run=2026-11-13T07:22:02
+23:38:16 [07] Task collect(pid=19): 201 {"task": {"id": "ec802c6f079e425abdf5c2b8d59d49b4", "kind": "collect", "origin": "USER", "idempotency_key": "auto:0e70001d45504d64901125a4aef2e15e", "status": "QUEUED", "attempt": 1, "progress": 0, "c
+23:38:20 [08] Task ec802c6f079e: status=FAILED result=null
+23:38:20 [09] Export: 201 file=r52-export-20261113T133820Z.zip size=4127 products=19 prices=46
+23:38:20 [10] Backup task: 202 id=6b4fd3b92afc
+23:38:23 [10b] Backup status: COMPLETED
+23:38:23 [11] Backups: 200 count=13 latest=r52-20261113T133820Z-manual.sqlite3
+23:38:23 [12] CLI restore --latest...
+23:38:24 [12] CLI restore: exit=0 stdout=
+23:38:25 [13] Post-restore status: 200 ok=True
+23:38:25 [13b] Post-restore products: 200 total=19
+23:38:25 [14] Exports: [('r52-export-20261113T133820Z.zip', 4127), ('r52-export-20261113T133509Z.zip', 4127)]
+23:38:25 [14] Backups: [('r52-20261113T133820Z-manual.sqlite3', 2072576), ('r52-20261113T133509Z-manual.sqlite3', 2072576)]
+23:38:25 
+23:38:25 === UI URL: http://127.0.0.1:8423/ui?code=[REDACTED_AUTH_SECRET] ===
+23:38:25 === Core alive 120s — LOOK AT EDGE NOW ===
+23:38:25 === VERIFY V3 DONE ===

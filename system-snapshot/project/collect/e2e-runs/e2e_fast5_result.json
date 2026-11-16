@@ -1,0 +1,326 @@
+{
+  "ts": "2026-11-12T11:27:44.815237+10:00",
+  "s": 168.6,
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "d": {
+    "WB": {
+      "verdict": "E2E_PASS",
+      "sqlite": {
+        "products": [
+          {
+            "id": 1,
+            "source": "WB",
+            "listing_id": "1097975275",
+            "title": "Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)",
+            "url": "https://www.wildberries.ru/catalog/1097975275/detail.aspx"
+          }
+        ],
+        "observations": [
+          {
+            "id": 1,
+            "product_id": 1,
+            "observed_at": "2026-11-12T01:04:12.354+00:00",
+            "availability": "UNKNOWN"
+          },
+          {
+            "id": 3,
+            "product_id": 1,
+            "observed_at": "2026-11-12T01:15:00.160+00:00",
+            "availability": "UNKNOWN"
+          },
+          {
+            "id": 5,
+            "product_id": 1,
+            "observed_at": "2026-11-12T01:19:37.833+00:00",
+            "availability": "UNKNOWN"
+          },
+          {
+            "id": 7,
+            "product_id": 1,
+            "observed_at": "2026-11-12T01:25:52.684+00:00",
+            "availability": "UNKNOWN"
+          }
+        ],
+        "price_points": [
+          {
+            "id": 1,
+            "observation_id": 1,
+            "role": "regular",
+            "amount_minor": 250148991,
+            "currency": "RUB"
+          },
+          {
+            "id": 3,
+            "observation_id": 3,
+            "role": "regular",
+            "amount_minor": 250148991,
+            "currency": "RUB"
+          },
+          {
+            "id": 5,
+            "observation_id": 5,
+            "role": "regular",
+            "amount_minor": 250148991,
+            "currency": "RUB"
+          },
+          {
+            "id": 7,
+            "observation_id": 7,
+            "role": "regular",
+            "amount_minor": 250148991,
+            "currency": "RUB"
+          }
+        ],
+        "product_count": 1,
+        "observation_count": 4,
+        "price_point_count": 4
+      },
+      "inbox": {
+        "id": 7,
+        "content_sha256": "905909a764e7da3d09fa8ba1e47470b0f86bd05473166253a22fa54c7af4f5e1",
+        "filename": "fast5-WB-905909a7.json",
+        "origin": "FAST5_WB",
+        "received_at": "2026-11-12T01:25:52.703+00:00",
+        "status": "ACCEPTED",
+        "error_code": null,
+        "decided_at": "2026-11-12T01:25:52.710+00:00",
+        "observation_id": 7,
+        "preview": {
+          "source": "WB",
+          "listing_id": "1097975275",
+          "url": "https://www.wildberries.ru/catalog/1097975275/detail.aspx",
+          "title": "Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)",
+          "observed_at": "2026-11-12T01:25:52.684+00:00",
+          "price_text": "2 501 489,91 ₽",
+          "currency": "RUB",
+          "regular_minor": 250148991,
+          "lowest_minor": 250148991,
+          "lowest_role": "regular",
+          "old_minor": null,
+          "conditional": false,
+          "prices": [
+            {
+              "role": "regular",
+              "role_label": "обычная",
+              "amount_minor": 250148991,
+              "currency": "RUB",
+              "label": null
+            }
+          ],
+          "availability": "UNKNOWN",
+          "completeness": {
+            "total": 14,
+            "known": 3,
+            "unknown": [
+              "Модификация",
+              "Отображаемая цена",
+              "Состояние",
+              "Комплект",
+              "Местонахождение продавца",
+              "Наличие",
+              "Доставка",
+              "Гарантия",
+              "Возврат",
+              "Отзывы",
+              "Вопросы покупателей"
+            ],
+            "independently_verified": 0
+          },
+          "conflicts": [],
+          "checks": [
+            {
+              "code": "VERIFY_TOTAL",
+              "text": "Уточнить применимую цену, наличие, доставку во Владивосток и все обязательные расходы."
+            },
+            {
+              "code": "VERIFY_VARIANT",
+              "text": "Сверить точный MPN по фото или маркировке и фактическую модификацию."
+            },
+            {
+              "code": "VERIFY_CONDITION_WARRANTY",
+              "text": "Уточнить состояние, историю обслуживания, комплект, гарантию и возможность проверки."
+            }
+          ],
+          "photo_count": 0,
+          "video_count": 0
+        },
+        "error_message": null,
+        "product_id": 1,
+        "observation_created": true,
+        "events": []
+      }
+    },
+    "OZON": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "inbox": null
+    },
+    "AVITO": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "inbox": null
+    },
+    "FARPOST": {
+      "verdict": "E2E_PASS",
+      "sqlite": {
+        "products": [
+          {
+            "id": 2,
+            "source": "FARPOST",
+            "listing_id": "138975631",
+            "title": "Apple iPhone 17 256Gb Green Sage (зеленый) eSim! Без RuStore! Уценка ИОН, 6.30&quot;, моноблок, б/у, в наличии. Цена: 65 000&#8381; во Владивостоке",
+            "url": "https://www.farpost.ru/vladivostok/tech/communication/cellphones/apple-iphone-17-256gb-green-sage-zelenyj-esim-bez-rustore-ucenka-ion-138975631.html"
+          }
+        ],
+        "observations": [
+          {
+            "id": 2,
+            "product_id": 2,
+            "observed_at": "2026-11-12T01:04:58.756+00:00",
+            "availability": "UNKNOWN"
+          },
+          {
+            "id": 4,
+            "product_id": 2,
+            "observed_at": "2026-11-12T01:16:49.167+00:00",
+            "availability": "UNKNOWN"
+          },
+          {
+            "id": 6,
+            "product_id": 2,
+            "observed_at": "2026-11-12T01:21:25.800+00:00",
+            "availability": "UNKNOWN"
+          },
+          {
+            "id": 8,
+            "product_id": 2,
+            "observed_at": "2026-11-12T01:27:44.790+00:00",
+            "availability": "UNKNOWN"
+          }
+        ],
+        "price_points": [
+          {
+            "id": 2,
+            "observation_id": 2,
+            "role": "regular",
+            "amount_minor": 6500000,
+            "currency": "RUB"
+          },
+          {
+            "id": 4,
+            "observation_id": 4,
+            "role": "regular",
+            "amount_minor": 6500000,
+            "currency": "RUB"
+          },
+          {
+            "id": 6,
+            "observation_id": 6,
+            "role": "regular",
+            "amount_minor": 6500000,
+            "currency": "RUB"
+          },
+          {
+            "id": 8,
+            "observation_id": 8,
+            "role": "regular",
+            "amount_minor": 6500000,
+            "currency": "RUB"
+          }
+        ],
+        "product_count": 1,
+        "observation_count": 4,
+        "price_point_count": 4
+      },
+      "inbox": {
+        "id": 8,
+        "content_sha256": "6a7c35e32b7fd6fb966ef5d178950c6e6b79886e72f2399c1c7f3aed7343b2cf",
+        "filename": "fast5-FARPOST-6a7c35e3.json",
+        "origin": "FAST5_FARPOST",
+        "received_at": "2026-11-12T01:27:44.794+00:00",
+        "status": "ACCEPTED",
+        "error_code": null,
+        "decided_at": "2026-11-12T01:27:44.802+00:00",
+        "observation_id": 8,
+        "preview": {
+          "source": "FARPOST",
+          "listing_id": "138975631",
+          "url": "https://www.farpost.ru/vladivostok/tech/communication/cellphones/apple-iphone-17-256gb-green-sage-zelenyj-esim-bez-rustore-ucenka-ion-138975631.html",
+          "title": "Apple iPhone 17 256Gb Green Sage (зеленый) eSim! Без RuStore! Уценка ИОН, 6.30&quot;, моноблок, б/у, в наличии. Цена: 65 000&#8381; во Владивостоке",
+          "observed_at": "2026-11-12T01:27:44.790+00:00",
+          "price_text": "65 000 ₽",
+          "currency": "RUB",
+          "regular_minor": 6500000,
+          "lowest_minor": 6500000,
+          "lowest_role": "regular",
+          "old_minor": null,
+          "conditional": false,
+          "prices": [
+            {
+              "role": "regular",
+              "role_label": "обычная",
+              "amount_minor": 6500000,
+              "currency": "RUB",
+              "label": null
+            }
+          ],
+          "availability": "UNKNOWN",
+          "completeness": {
+            "total": 14,
+            "known": 2,
+            "unknown": [
+              "Модель",
+              "Модификация",
+              "Отображаемая цена",
+              "Состояние",
+              "Комплект",
+              "Местонахождение продавца",
+              "Наличие",
+              "Доставка",
+              "Гарантия",
+              "Возврат",
+              "Отзывы",
+              "Вопросы покупателей"
+            ],
+            "independently_verified": 0
+          },
+          "conflicts": [],
+          "checks": [
+            {
+              "code": "VERIFY_TOTAL",
+              "text": "Уточнить применимую цену, наличие, доставку во Владивосток и все обязательные расходы."
+            },
+            {
+              "code": "VERIFY_VARIANT",
+              "text": "Сверить точный MPN по фото или маркировке и фактическую модификацию."
+            },
+            {
+              "code": "VERIFY_CONDITION_WARRANTY",
+              "text": "Уточнить состояние, историю обслуживания, комплект, гарантию и возможность проверки."
+            }
+          ],
+          "photo_count": 0,
+          "video_count": 0
+        },
+        "error_message": null,
+        "product_id": 2,
+        "observation_created": true,
+        "events": []
+      }
+    }
+  }
+}

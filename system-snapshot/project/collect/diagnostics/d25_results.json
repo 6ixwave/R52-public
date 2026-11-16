@@ -1,0 +1,41 @@
+{
+  "FP:cat_cffi": {
+    "ok": false,
+    "detail": "len=89100 ids=0 links=0 prices_role=0 prices_attr=0 titles=0 imgs=0 items=0 doc_ids=0 sample_ids=[] sample_prices=[] sample_titles=[]",
+    "s": 2.8
+  },
+  "FP:cat_pw": {
+    "ok": false,
+    "detail": "url=https://www.farpost.ru/verify?u=%2Fvladivostok%2Fauto%2Fmisc len=21967 ids=0 links=0 prices=0 titles=0 sample_ids=[] p=[] t=[]",
+    "s": 13.5
+  },
+  "FP:card_pw": {
+    "ok": false,
+    "detail": "url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F134693091.h bp=N/A sp=N/A jld_p=None jld_t= title=Фарпост - доска объявлений len=94539",
+    "s": 22.7
+  },
+  "WB:v2_detail": {
+    "ok": false,
+    "detail": "HTTP=403 len=0",
+    "s": 0.9
+  },
+  "WB:basket": {
+    "ok": false,
+    "detail": "all hosts failed",
+    "s": 8.1
+  },
+  "OZ:pw": {
+    "ok": false,
+    "detail": "sku=3481320800 jld=0 price=None title=Похоже, нет соединения len=3305",
+    "s": 15.1
+  },
+  "AV:pw": {
+    "ok": false,
+    "detail": "ids=0 ids2=0 prices=0 titles=2 len=36450 sample=[]",
+    "s": 12.6
+  },
+  "_meta": {
+    "total_s": 79.2,
+    "time": "2026-11-12 17:41:46"
+  }
+}

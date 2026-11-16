@@ -1,0 +1,136 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Брюки зимние прямые теплые с начесом",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "TRUE BALANCE",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Откройте для себя идеальный союз комфорта и стиля в прохладное время года, уже так всеми полюбившиеся – базовые теплые мужские брюки с начесом от True Balance в черном цвете.\n\nСтильные утепленные трикотажные черные штаны для мужчин выполнены из высококачественного футера плотностью 320 гр/м², что обеспечивает мягкость, долговечность и отличную терморегуляцию. Материал из которых состоят молодежные осенние брюки - трехниточный футер с начесом, благодаря чему изделие идеально сохраняет тепло даже в самые холодные дни до -20 градусов мороза.\n\nЭлегантный дизайн и современный крой делают брюки на резинке под классику универсальным дополнением к вашему гардеробу — идеально подходят как для деловых встреч, так и для прогулок на свежем воздухе. \nУтепленные мужские треники - идальный вариант для прохлады и сильных ветров, походов в горы, отдыха на природе, кемпинга, вечера у костра, рыбалки и перелетов на самолете. Практичные, теплаые и удобные для активного отдыха и путешествий.\nБлагодаря свободе движений и стильному внешнему виду брюки мужские демисезонные на резинке классические подойдут как для активного отдыха, так и для повседневной носки. \n\nЭластичная резинка на талии дополнена удобными завязками для точной регулировки посадки по фигуре. Глубокие карманы позволяют удобно хранить мелкие предметы всегда под рукой. Свободные спортивные треники прекрасно сочетаются как с кроссовками, так и с ботинками.\nЭти трикотажные спортивки мужские с начесом на резинке (в отличии от теплых трико спортивных прямых на флисе или с мехом) идеальны для осени и зимы.\n\nРазмерный ряд спортивных прямых штанов от 46 до 56 позволяет подобрать оптимальную модель для мужчин разного телосложения. Превосходный качественный пошив гарантирует долгий срок службы изделия, а современный фасон делает зимние штаны мужские с утеплением актуальным выбором на повседнев.\nВыбирая эти демисезонные полуклассические брюки с начесом - вы выбираете надежного спутника для тепла и комфорта в любое время года!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Брюки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/product/dist/v6.22.1-product-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/14.32.3-host-remoteEntry.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/mobile-app/logo.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/app-store.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/google-play.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/app-gallery.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/rustore.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/footer/download/avrora.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/i/v3/apps/qr-apps.svg",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/default-settings-ru.22f317172ab6ff43648c.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/lang-ru.0e2a353ea6bc7a37.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-vendors.88d8eda9c1885eea.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/react-app.f39d9a378793d996.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/index-spa.71cf448da12faff3.js",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://static-basket-01.wbbasket.ru/vol2/site/app/c/entry.d5d5ccc6a8b295e2.js",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Одежда > Брюки",
+    "source": "WB",
+    "id": "450917092",
+    "url": "https://www.wildberries.ru/catalog/450917092/detail.aspx",
+    "observed_at": "2026-11-16T17:41:48.742249+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

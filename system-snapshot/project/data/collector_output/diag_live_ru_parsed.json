@@ -1,0 +1,26 @@
+{
+  "query": "наушники",
+  "source": "aliexpress_ru_live_ru",
+  "fetched_at": "2026-11-12T21:35:58.441533+00:00",
+  "total": 0,
+  "with_title": 0,
+  "with_price": 0,
+  "with_images": 0,
+  "currency_breakdown": {
+    "RUB": 0,
+    "EUR": 0
+  },
+  "url_domain_breakdown": {
+    "ru": 0,
+    "it": 0
+  },
+  "locale_indicators": {
+    "RUB": 7,
+    "EUR": 0,
+    "ru.aliexpress": 1,
+    "it.aliexpress": 0,
+    "www.aliexpress": 0,
+    "Cyrillic_chars": 12902
+  },
+  "products": []
+}

@@ -1,0 +1,34 @@
+{
+  "ozon_composer": {
+    "error": "Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "ozon_ssr": {
+    "status": 403
+  },
+  "wb_card": {
+    "status": 200,
+    "nm_id": 1097975275
+  },
+  "wb_html": {
+    "status": 498
+  },
+  "wb_price_v2": {
+    "status": 403
+  },
+  "fp_138859452": {
+    "status": 200,
+    "attr": null,
+    "jsonld": null
+  },
+  "fp_138952176": {
+    "status": 200,
+    "attr": null,
+    "jsonld": null
+  },
+  "av_www.avito.ru": {
+    "status": 404
+  },
+  "av_m.avito.ru": {
+    "status": 404
+  }
+}

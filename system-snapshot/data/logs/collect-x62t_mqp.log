@@ -1,0 +1,34 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-14 03:07:00,938 r52.autocollect.worker INFO phase=worker_start pid=21348
+2026-11-14 03:07:00,947 r52.autocollect.worker INFO source=ALIEXPRESS_RU mode=refresh phase=initialize
+2026-11-14 03:07:00,947 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, режим direct
+2026-11-14 03:07:00,948 r52.autocollect.worker INFO source=ALIEXPRESS_RU proxy_pool={'total': 0, 'alive': 0, 'use_proxies': True}
+2026-11-14 03:07:00,948 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012842083149 phase=collect_product_start
+2026-11-14 03:07:03,563 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76207B, 2.6s
+2026-11-14 03:07:03,567 r52.collectors.aliexpress INFO ALI parse: title=KAMRUI LX15PRO AMD Ryzen 5 7430U Laptop da Gaming , prices=0, avail=OUT_OF_STOCK, media=1
+2026-11-14 03:07:03,567 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012842083149 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-14 03:07:03,567 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012849374380 phase=collect_product_start
+2026-11-14 03:07:11,831 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76696B, 2.6s
+2026-11-14 03:07:11,835 r52.collectors.aliexpress INFO ALI parse: title=Ninkear S14 Laptop 14, prices=0, avail=OUT_OF_STOCK, media=1
+2026-11-14 03:07:11,836 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012849374380 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-14 03:07:11,836 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005010604232754 phase=collect_product_start
+2026-11-14 03:07:30,225 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76157B, 2.6s
+2026-11-14 03:07:30,231 r52.collectors.aliexpress INFO ALI parse: title=CHUWI MiniBook X U300 / N150 Laptop 10,51 Pollici , prices=0, avail=OUT_OF_STOCK, media=1
+2026-11-14 03:07:30,232 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005010604232754 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-14 03:07:30,232 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005013182349018 phase=collect_product_start
+2026-11-14 03:07:42,174 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76178B, 2.7s
+2026-11-14 03:07:42,178 r52.collectors.aliexpress INFO ALI parse: title=Laptop da Gaming 15,6, prices=0, avail=OUT_OF_STOCK, media=1
+2026-11-14 03:07:42,178 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005013182349018 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-14 03:07:42,178 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005013374868977 phase=collect_product_start
+2026-11-14 03:07:54,139 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76793B, 2.5s
+2026-11-14 03:07:54,143 r52.collectors.aliexpress INFO ALI parse: title=Laptop Acemagic S16 Amd Ryzen 7 H255 16 Pollici 24, prices=0, avail=OUT_OF_STOCK, media=1
+2026-11-14 03:07:54,143 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005013374868977 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-14 03:07:54,143 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_start returned=5 valid=5 stats={'requests': 5, 'success': 5, 'failed': 0, 'blocked': 0}
+2026-11-14 03:07:54,144 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-0a32edb1.json
+2026-11-14 03:07:54,150 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-693a20cc.json
+2026-11-14 03:07:54,150 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-497c90d4.json
+2026-11-14 03:07:54,151 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-abb8dbd6.json
+2026-11-14 03:07:54,151 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-59d02493.json
+2026-11-14 03:07:54,152 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_complete files=5
+2026-11-14 03:07:54,153 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_start
+2026-11-14 03:07:54,153 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_complete

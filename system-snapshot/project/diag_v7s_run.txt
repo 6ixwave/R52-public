@@ -1,0 +1,76 @@
+﻿python : 2026-11-14 13:30:43,660 INFO diag_v7s: === diag_v7s — 2026-11-14 13:30:43 ===
+строка:2 знак:1
++ python -u diag_v7s.py 2>&1 | Out-File -FilePath diag_v7s_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 13:3...14 13:30:43 ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 13:30:43,660 INFO diag_v7s: Cooldown 15s...
+2026-11-14 13:30:59,517 INFO diag_v7s: ── [1] Warm-up ──
+2026-11-14 13:31:02,266 INFO diag_v7s:   [NET] https://aliexpress.ru///_____tmd_____/punish?x5secdata=xfGrGQquvWhc-PnPk
+CnzT1Sm5WJCS2zpn4JQr_j8-ym0f → HTTP 429, 86844B
+2026-11-14 13:31:02,864 INFO diag_v7s:   [NET] https://g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/main.css → H
+TTP 200, 34912B
+2026-11-14 13:31:03,044 INFO diag_v7s:   [NET] https://g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/punishpage.m
+in.js → HTTP 200, 128519B
+2026-11-14 13:31:03,179 INFO diag_v7s:   [NET] https://g.alicdn.com/sd/punish/0.0.1/qrcode.min.js → HTTP 200, 19927B
+2026-11-14 13:31:08,216 INFO diag_v7s:   Cookies: [REDACTED_AUTH_SECRET]
+2026-11-14 13:31:08,216 INFO diag_v7s: ── [2] Search ──
+2026-11-14 13:31:08,290 INFO diag_v7s:   [NET] https://g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/htmltocanvas
+.min.js → HTTP 200, 201080B
+2026-11-14 13:31:08,291 INFO diag_v7s:   [NET] https://aliexpress.ru/_____tmd_____/punishTextFetch?x5secdata=xg2951a61e
+a350d225klf030b8990960dda630 → HTTP 200, 4761B
+2026-11-14 13:31:08,291 INFO diag_v7s:   [NET] https://aliexpress.ru/_____tmd_____/report?x5secdata=xg2951a61ea350d225k
+lf030b8990960dda63022fdd2148 → HTTP 200, 111B
+2026-11-14 13:31:08,291 INFO diag_v7s:   [NET] https://aliexpress.ru/_____tmd_____/report?x5secdata=xg2951a61ea350d225k
+lf030b8990960dda63022fdd2148 → HTTP 200, 85B
+2026-11-14 13:31:08,292 INFO diag_v7s:   [NET] https://aliexpress.ru/_____tmd_____/report?x5secdata=xg2951a61ea350d225k
+lf030b8990960dda63022fdd2148 → HTTP 200, 85B
+2026-11-14 13:31:16,760 INFO diag_v7s:   URL: https://it.aliexpress.com/w/wholesale-%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B
+8%D0%BA%D0%B8.html?page=1
+2026-11-14 13:31:16,798 INFO diag_v7s:   [NET] https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/login-join
+-verify-check.js → HTTP 200, 6199B
+2026-11-14 13:31:16,886 INFO diag_v7s:   Direct: 1179847B
+2026-11-14 13:31:16,886 INFO diag_v7s: ── [6] Results analysis ──
+2026-11-14 13:31:16,964 INFO diag_v7s:   Size: 1179924B
+2026-11-14 13:31:16,964 INFO diag_v7s:   Title: наушники - Acquista наушники con spedizione gratuita su AliExpress vers
+ion
+2026-11-14 13:31:16,991 INFO diag_v7s:   Prices: 131, first 8: ['227,39', '277,54', '50,15', '521,39', '685,96', '235,3
+9', '270,12', '34,73']
+2026-11-14 13:31:17,045 INFO diag_v7s:   Currency: RUB=0 EUR=131
+2026-11-14 13:31:17,060 INFO diag_v7s:   RU words: 97 (sample: ['наушники', 'наушники', 'наушники', 'наушники', 'наушни
+ки', 'наушники', 'наушники', 'наушники'])
+2026-11-14 13:31:17,064 INFO diag_v7s:   Saved → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_v7s_
+results.html (1179924B)
+2026-11-14 13:31:17,069 INFO diag_v7s:   Cookies: [REDACTED_AUTH_SECRET]
+g_v7s_cookies.json
+2026-11-14 13:31:17,070 INFO diag_v7s:   Verify responses: 15 → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52
+-2.12\diag_v7s_verify.json
+2026-11-14 13:31:17,216 INFO diag_v7s: ── [8] API fallback ──
+2026-11-14 13:31:20,347 INFO diag_v7s:   [m-search] https://m.aliexpress.com/fn/search-pc/index?SearchText=%D0%BD%D0%B0
+%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0
+2026-11-14 13:31:22,444 INFO diag_v7s:   [m-search] HTTP 200, 0B, CT=
+2026-11-14 13:31:22,445 INFO diag_v7s:   [m-search] Body[:300]: 
+2026-11-14 13:31:24,445 INFO diag_v7s:   [fn-search] https://ru.aliexpress.com/fn/search-pc/index?SearchText=%D0%BD%D0%
+B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D
+2026-11-14 13:31:26,480 INFO diag_v7s:   [fn-search] HTTP 200, 0B, CT=
+2026-11-14 13:31:26,480 INFO diag_v7s:   [fn-search] Body[:300]: 
+2026-11-14 13:31:28,481 INFO diag_v7s:   [aer-api] https://aer-webapi.aliexpress.com/fn/search-pc/index?SearchText=%D0%
+BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8
+2026-11-14 13:31:31,522 INFO diag_v7s:   [aer-api] HTTP 200, 13874B, CT=text/html;charset=utf-8
+2026-11-14 13:31:31,522 INFO diag_v7s:   [aer-api] Body[:300]: 
+ <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/
+><meta name="robots" content="follow,index"/><meta name="referrer" content="no-referrer-when-downgrade"/><meta name="da
+ta-spm" con
+2026-11-14 13:31:33,524 INFO diag_v7s:   [h5-search] https://m.aliexpress.com/fn/search-pc/index?SearchText=%D0%BD%D0%B
+0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0
+2026-11-14 13:31:34,455 INFO diag_v7s:   [h5-search] HTTP 200, 0B, CT=
+2026-11-14 13:31:34,455 INFO diag_v7s:   [h5-search] Body[:300]: 
+2026-11-14 13:31:36,456 INFO diag_v7s: ── Summary ──
+2026-11-14 13:31:36,456 INFO diag_v7s:   TMD solved: True
+2026-11-14 13:31:36,457 INFO diag_v7s:   Results: 1179924B
+2026-11-14 13:31:36,457 INFO diag_v7s:   Cookies: [REDACTED_AUTH_SECRET]
+2026-11-14 13:31:36,457 INFO diag_v7s:   Verify responses: 15
+2026-11-14 13:31:36,457 INFO diag_v7s: === DONE ===
+2026-11-14 13:31:36,457 INFO diag_v7s: diag_v7s complete
+EXIT=0

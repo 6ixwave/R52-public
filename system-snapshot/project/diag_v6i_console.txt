@@ -1,0 +1,63 @@
+=== diag_v6i — 2026-11-14 12:00:11 ===
+Query: 'наушники', page_size=10
+
+── WB ──
+2026-11-14 12:00:12,170 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 12:00:12,170 INFO r52.collectors.wb: WB: curl_cffi доступен (impersonate=chrome)
+  Init: OK
+2026-11-14 12:00:13,047 INFO r52.collectors.wb: WB warmup www.wildberries.ru: HTTP 498
+2026-11-14 12:00:16,056 INFO r52.collectors.wb: WB warmup catalog.wb.ru: HTTP 498
+2026-11-14 12:00:16,956 INFO r52.collectors.wb: WB search: HTTP 403, retrying in 1.5s
+2026-11-14 12:00:31,421 INFO r52.collectors.wb: WB search: HTTP 403, retrying in 1.5s
+  p1: ERR SearchError: SEARCH_HTTP_403 (29.2s)
+2026-11-14 12:00:45,255 INFO r52.collectors.wb: WB search: HTTP 403, retrying in 1.5s
+2026-11-14 12:01:06,786 INFO r52.collectors.wb: WB search: HTTP 403, retrying in 1.5s
+  p2: ERR SearchError: SEARCH_HTTP_403 (32.4s)
+2026-11-14 12:01:19,776 INFO r52.collectors.wb: WB search: HTTP 403, retrying in 1.5s
+2026-11-14 12:01:37,460 INFO r52.collectors.wb: WB search: HTTP 403, retrying in 1.5s
+  Pagination check ERR: SearchError: SEARCH_HTTP_403
+  Stats: {'requests': 14, 'success': 0, 'failed': 0, 'blocked': 12}
+
+── ALIEXPRESS ──
+2026-11-14 12:01:56,495 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+  Init: OK
+2026-11-14 12:02:00,806 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 829218 bytes, 4.3s
+2026-11-14 12:02:09,756 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 76197 bytes, 1.5s
+2026-11-14 12:02:09,761 INFO r52.collectors.aliexpress: ALI parse: title=HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Ful, prices=0, avail=UNKNOWN, media=1
+2026-11-14 12:02:23,623 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 76591 bytes, 1.4s
+2026-11-14 12:02:23,629 INFO r52.collectors.aliexpress: ALI parse: title=Cuffie wireless con archetto, che offrono un suono, prices=0, avail=UNKNOWN, media=1
+2026-11-14 12:02:32,033 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 77039 bytes, 1.4s
+2026-11-14 12:02:32,038 INFO r52.collectors.aliexpress: ALI parse: title=Cuffie wireless con archetto, cuscinetti auricolar, prices=0, avail=UNKNOWN, media=1
+2026-11-14 12:02:47,796 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 76235 bytes, 1.3s
+2026-11-14 12:02:47,800 INFO r52.collectors.aliexpress: ALI parse: title=Cuffie da gaming UNICO HP2570 con audio surround 7, prices=0, avail=UNKNOWN, media=1
+2026-11-14 12:02:54,758 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 76806 bytes, 1.5s
+2026-11-14 12:02:54,763 INFO r52.collectors.aliexpress: ALI parse: title=Cuffie wireless alla moda da 400mAh con cancellazi, prices=0, avail=UNKNOWN, media=1
+2026-11-14 12:03:07,045 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 76414 bytes, 1.6s
+2026-11-14 12:03:07,051 INFO r52.collectors.aliexpress: ALI parse: title=Cuffie wireless Bluetooth FIFINE con cancellazione, prices=0, avail=UNKNOWN, media=1
+2026-11-14 12:03:25,435 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 76252 bytes, 1.3s
+2026-11-14 12:03:25,440 INFO r52.collectors.aliexpress: ALI parse: title=Originale QKZ AK6 In Ear Auricolare 6 Unità Driver, prices=0, avail=UNKNOWN, media=1
+2026-11-14 12:03:46,936 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 76268 bytes, 1.4s
+2026-11-14 12:03:46,941 INFO r52.collectors.aliexpress: ALI parse: title=Cuffie da gaming con microfono regolabile e design, prices=0, avail=UNKNOWN, media=1
+2026-11-14 12:04:03,309 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 76423 bytes, 1.3s
+2026-11-14 12:04:03,315 INFO r52.collectors.aliexpress: ALI parse: title=Cuffie Stereo Regolabili Over-Ear con Cuscinetti M, prices=0, avail=UNKNOWN, media=1
+2026-11-14 12:04:19,103 INFO r52.collectors.aliexpress: ALI_COM: curl_cffi OK, 76777 bytes, 1.3s
+2026-11-14 12:04:19,108 INFO r52.collectors.aliexpress: ALI parse: title=Cuffie cablate con connettore AUX da 3,5 mm, piegh, prices=0, avail=UNKNOWN, media=1
+  p1: OK 10 items 142.6s
+       IDs: ['1005013565057281', '1005013569410352', '1005013582572287', '1005013564277066', '1005012892557061']
+       Titles: ['', '', '']
+  Stats: {'requests': 11, 'success': 11, 'failed': 0, 'blocked': 0}
+
+── ALIEXPRESS_RU ──
+2026-11-14 12:04:19,109 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+  Init: OK
+2026-11-14 12:04:23,453 INFO r52.collectors.aliexpress: ALI_RU: wholesale HTML OK, 818425 bytes, 4.3s
+2026-11-14 12:04:23,455 INFO r52.collectors.aliexpress: ALI_RU: 12 card anchors found
+2026-11-14 12:04:23,457 INFO r52.collectors.aliexpress: ALI_RU: HTML search found 9 products
+2026-11-14 12:04:23,458 INFO r52.collectors.aliexpress: ALI_RU: collect_by_search 'наушники' → 9 products
+  p1: OK 9 items 4.3s
+       IDs: ['1005013569082995', 'None', '1005011782726555', '1005012519559118', '1005013441832940']
+       Titles: ['', '', '']
+  Stats: {'requests': 1, 'success': 1, 'failed': 0, 'blocked': 0}
+
+=== DONE ===
+2026-11-14 12:04:23,459 INFO diag_v6i: diag_v6i complete, output: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_v6i_output.txt

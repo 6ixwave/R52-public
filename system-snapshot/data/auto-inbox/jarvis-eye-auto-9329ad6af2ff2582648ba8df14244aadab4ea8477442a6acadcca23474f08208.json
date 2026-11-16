@@ -1,0 +1,81 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шапка демисезонная бини молодежная вязаная",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Warms",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 48200,
+        "amount": "482.00",
+        "currency": "RUB",
+        "visible_label": "482.00 руб.",
+        "variant_id": "52-60",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 48200,
+          "listing_id": "1475428055",
+          "variant_id": "52-60"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 200000,
+        "amount": "2000.00",
+        "currency": "RUB",
+        "visible_label": "2000.00 руб.",
+        "variant_id": "52-60",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 200000,
+          "listing_id": "1475428055",
+          "variant_id": "52-60"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "1475428055",
+    "listing_id": "1475428055",
+    "title": "Шапка демисезонная бини молодежная вязаная",
+    "url": "https://www.wildberries.ru/catalog/1475428055/detail.aspx",
+    "observed_at": "2026-11-15T20:50:27.319742+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

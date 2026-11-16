@@ -1,0 +1,16 @@
+﻿=== diag_v7m — 2026-11-14 13:01:24 ===
+python : 2026-11-14 13:01:24,617 INFO diag_v7m: Cooldown 60s...
+строка:2 знак:1
++ python -u diag_v7m.py 2>&1 | Out-File -FilePath diag_v7m_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 13:0...Cooldown 60s...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 13:02:24,618 INFO diag_v7m: ── [1] RU p1 ──
+2026-11-14 13:02:26,197 INFO diag_v7m:   HTTP 200, 1705B, 1.4s
+2026-11-14 13:02:26,197 WARNING diag_v7m:   ⚠ Small response (1705B) — likely challenge. Aborting.
+2026-11-14 13:02:26,197 INFO diag_v7m:   First 300: <script>sessionStorage.x5referer = window.location.href;var url = w
+indow.location.protocol + "//ru.aliexpress.com//wholesale/_____tmd_____/punish?x5secdata=xfsrL8ec1uDltUk8VblKaPs1ymgwrC
+f5p3bAlOIvs3x8T9646UTPcOpJJkc3UWNFY_VPRzpXPTjv3IWPycuuoUqIwamKuGR33EKQ3_t4eXB_yVnCO7VuJWhOl3sKuA3EG14xun-NhWQhWOzQ
+=== ABORT (rate limit) ===
+EXIT=0

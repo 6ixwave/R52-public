@@ -1,0 +1,21 @@
+[
+  {
+    "source": "OZON",
+    "listing_id": "1600562267",
+    "url": "https://www.ozon.ru/product/1600562267/",
+    "status": "NO_DATA",
+    "eye_errors": [],
+    "normalize_errors": [],
+    "title": null,
+    "prices": [],
+    "media": {
+      "total": 0,
+      "photos": 0,
+      "videos": 0
+    },
+    "availability": null,
+    "fields_count": 0,
+    "elapsed_sec": 81.8,
+    "error": "collect_product returned None (fetch failed or parse empty)"
+  }
+]

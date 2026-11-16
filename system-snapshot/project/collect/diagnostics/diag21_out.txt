@@ -1,0 +1,25 @@
+2026-11-12 12:59:41,313 [diag21] ============================================================
+2026-11-12 12:59:41,314 [diag21] WB: price endpoints (curl_cffi chrome)
+2026-11-12 12:59:41,314 [diag21] ============================================================
+2026-11-12 12:59:42,472 [diag21] WB [card_wb_shot]: HTTP 403, len=0
+2026-11-12 12:59:44,877 [diag21] WB [card_wb_v2]: HTTP 403, len=0
+2026-11-12 12:59:47,298 [diag21] WB [card_wb_v1]: HTTP 403, len=0
+2026-11-12 12:59:49,694 [diag21] WB [www_wb_v2]: HTTP 498, len=1136
+2026-11-12 12:59:52,124 [diag21] WB [www_wb_shot]: HTTP 498, len=1136
+2026-11-12 12:59:55,099 [diag21] WB [static_basket]: ERR Failed to perform, curl: (6) Could not resolve host: static-basket-42.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-12 12:59:56,099 [diag21] ============================================================
+2026-11-12 12:59:56,100 [diag21] AVITO: search parse + live ad hunt
+2026-11-12 12:59:56,100 [diag21] ============================================================
+2026-11-12 12:59:57,053 [diag21] AVITO search: HTTP 439, len=14382
+2026-11-12 12:59:57,054 [diag21] AVITO search: IDs found=0, sample=[]
+2026-11-12 12:59:57,054 [diag21] ============================================================
+2026-11-12 12:59:57,054 [diag21] OZON: Playwright product page
+2026-11-12 12:59:57,054 [diag21] ============================================================
+2026-11-12 12:59:57,777 [diag21] OZON: navigating to https://www.ozon.ru/product/2067947177/
+2026-11-12 13:00:12,826 [diag21] OZON: title=Видеокарта Palit GeForce RTX 5060 Ti, 8 ГБ PCI Express 5.0 DisplayPort, HDMI NE7506T019P1-GB2062D купить c доставкой на OZON по низкой цене (2067947177)
+2026-11-12 13:00:13,073 [diag21] OZON: state found, len=3000
+2026-11-12 13:00:13,172 [diag21] OZON: metas={"yandex-verification": "2bccd09858554e85", "google": "notranslate", "referrer": "no-referrer-when-downgrade", "viewport": "width=device-width, height=device-height, minimum-scale=1.0, initial-scale=1.0", "yandex-tableau-widget": "logo=https://st.ozone.ru/assets/logo2019-y.png, color=#ffffff", "description": "Palit Видеокарта GeForce RTX 5060 Ti PA-RTX5060TI DUAL 8 ГБ (NE7506T019P1-GB2062D) – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент, бонусы, рассроч
+2026-11-12 13:00:13,327 [diag21] OZON: BOT CHALLENGE detected
+2026-11-12 13:00:13,327 [diag21] OZON: API calls captured=27
+2026-11-12 13:00:13,476 [diag21] Result → C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag21_result.json
+2026-11-12 13:00:13,476 [diag21] DONE

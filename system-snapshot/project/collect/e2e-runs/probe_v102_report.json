@@ -1,0 +1,19 @@
+{
+  "basket": {
+    "host": null,
+    "found": false,
+    "keys": []
+  },
+  "price": {
+    "found": false,
+    "source": null,
+    "data": null
+  },
+  "html": {
+    "status": 498,
+    "size": 1130,
+    "title": null,
+    "og_price": null,
+    "prices": []
+  }
+}

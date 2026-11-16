@@ -1,0 +1,79 @@
+======================================================================
+0. PROXY POOL [rem=239s]
+======================================================================
+  [monosans] 200 | 713 proxies
+  [proxyscrape] 200 | 7 proxies
+  Total unique: 87
+    [ 0] 45.184.103.172:999        -> ERR ('Connection aborted.', ConnectionResetE
+    [ 1] 152.53.120.85:8080        -> ERR ('Connection aborted.', ConnectionResetE
+    [ 2] 177.69.223.57:3128        -> ERR HTTPSConnectionPool(host='www.farpost.ru
+    [ 3] 65.109.65.238:28080       -> ERR HTTPSConnectionPool(host='www.farpost.ru
+    [ 4] 186.180.19.122:8080       -> ERR ('Connection aborted.', ConnectionResetE
+    [ 5] 157.20.239.161:9090       -> ERR ('Connection aborted.', ConnectionResetE
+    [ 6] 103.39.72.221:8990        -> ERR ('Connection aborted.', ConnectionResetE
+    [ 7] 47.239.140.6:443          -> ERR ('Connection aborted.', ConnectionResetE
+    [ 8] 89.144.53.75:3128         -> ERR HTTPSConnectionPool(host='www.farpost.ru
+    [ 9] 4.144.146.21:80           -> 200 OK
+    [10] 80.252.137.246:1194       -> ERR ('Connection aborted.', ConnectionResetE
+    [11] 9.154.247.138:8080        -> ERR ('Connection aborted.', ConnectionResetE
+    [12] 217.76.46.230:8080        -> ERR ('Connection aborted.', ConnectionResetE
+    [13] 31.76.32.2:8888           -> ERR HTTPSConnectionPool(host='www.farpost.ru
+    [14] 122.144.4.226:57413       -> ERR ('Connection aborted.', ConnectionResetE
+  Working: 1/15
+  PROXY: 71.7s
+======================================================================
+1. WILDBERRIES [rem=168s]
+======================================================================
+  [card_v2] 403 | 0B
+  --- CDN DNS ---
+    basket-1990.wbbasket.ru             -> None
+    basket-1993.wbbasket.ru             -> None
+    basket-1997.wbbasket.ru             -> None
+  --- CDN HTTP ---
+    static-basket-1990: DNS fail
+    static-basket-1995: DNS fail
+  --- HTML 498 extract ---
+  [html] 498 | 1136B
+  Patterns: {'__STATE__': False, '__WB_STATE__': False, 'data-state': False, 'script#state': False, '__NEXT_DATA__': False, 'application/ld+json': False, 'og:title': False, 'wbbasket': False, 'images': False}
+  WB: 59.4s
+======================================================================
+2. OZON [rem=108s]
+======================================================================
+  [direct_home] 403 | 8377B | ck=['__Secure-ETC', 'abt_data']
+  [proxy_home px=4.144.146.21:80] 403 | 8377B | ck=['__Secure-ETC', 'abt_data']
+  [cffi_product] 403 | 8405B | JSONLD=False
+  OZON: 3.0s
+======================================================================
+3. AVITO [rem=105s]
+======================================================================
+  [home] 439 | 14889B | ck=['srv_id', 'gMltIuegZN2COuSe', '_avisc', 'pow_challenge']
+  --- Search ---
+  [search] 439 | 14889B
+  [direct_ad] 404 | 29907B | JSONLD=False
+  AVITO: 1.7s
+======================================================================
+4. FARPOST [rem=103s]
+======================================================================
+  [home] 200 | 73362B | ck=['ring', 'ring_session']
+  All hrefs: 313, item-like: 0, cat-like: 2
+    cat:  /geo/nav/city?return=%2F
+    cat:  /geo/nav/city?return=%2F
+  [geo_root] 404 | 13872B | JSONLD=True | Страница не найдена
+  [geo_msk] 404 | 13888B | JSONLD=True | Страница не найдена
+  [cat_root] 404 | 13880B | JSONLD=True | Страница не найдена
+  [ads_root] 404 | 13872B | JSONLD=True | Страница не найдена
+  [items_root] 404 | 13876B | JSONLD=True | Страница не найдена
+  [direct_item] 404 | 13896B
+  FARPOST: 2.2s
+
+======================================================================
+SUMMARY [138.8s]
+======================================================================
+  WB: 3 tests, 0 x 200
+  OZON: 3 tests, 0 x 200
+  AVITO: 3 tests, 0 x 200
+  FARPOST: 9 tests, 1 x 200
+    OK home: 73362B
+  PROXY working: 1
+
+DONE diag_v23 [138.8s]

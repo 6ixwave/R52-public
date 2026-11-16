@@ -1,0 +1,17 @@
+=== FIND IDS at 21:49:14 ===
+
+=== FARPOST ===
+Fetch: https://www.farpost.ru/vladivostok/tech/communication/cellphones/
+HTTP 200, 89899 bytes
+Found 0 listing IDs
+
+=== AVITO ===
+Fetch: https://www.avito.ru/moskva_i_mo/tech/phone/
+HTTP 429, 34382 bytes
+Fetch: https://www.avito.ru/all/telefony/
+HTTP 429, 34382 bytes
+
+=== RESULT ===
+FARPOST best: NONE
+AVITO best: NONE
+=== END ===

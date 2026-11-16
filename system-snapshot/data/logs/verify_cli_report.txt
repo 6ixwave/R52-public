@@ -1,0 +1,55 @@
+[START] verify_cli.py v8 begin
+[CORE] Not running, starting on 8423...
+[CORE] start OK port=8423
+[CORE] healthz=200 after 1s
+[TOKEN] token=[REDACTED_AUTH_SECRET]
+[UI] === 1. UI Window ===
+[UI] Session 201 code=vGB0blDD8dUo...
+[UI] HTML 200 len=1969 shell=True title=True
+[UI] main.js=200 base.css=200
+[UI] Edge: http://127.0.0.1:8423/ui?code=[REDACTED_AUTH_SECRET]
+[SCHED] === 2. Scheduler ===
+[SCHED] count=3
+[SCHED]   backup kind=backup daily=04:00 en=1 next=2026-11-13T18:00:00.000+00:00 last=2026-11-13T07:22:02.663+00:00
+[SCHED]   digest kind=digest daily=09:00 en=1 next=2026-11-13T23:00:00.000+00:00 last=2026-11-13T07:22:02.663+00:00
+[SCHED]   maintenance kind=maintenance daily=05:00 en=1 next=2026-11-13T19:00:00.000+00:00 last=2026-11-13T07:22:02.663+00:00
+[SCHED] maintenance task=37f9bd0229c54e84ab0fe514aade665a status=QUEUED
+[SCHED] after: COMPLETED
+[EXP] === 3. Export ===
+[EXP] r52-export-20261113T141056Z.zip 4127B
+[EXP] entries=['products.csv', 'prices.csv', 'watches.json', 'favorites.json', 'settings.json', 'README.txt']
+[EXP]   products.csv: 20 rows
+[EXP]     r1: 1;OZON;2067947177;Palit Видеокарта GeForce RTX 5060 Ti PA-RTX5060TI DUAL 8 ГБ (NE7506T019P1-GB2062D)
+[EXP]   prices.csv: 47 rows
+[EXP]     r1: 1;OZON;2067947177;2026-11-04T01:49:09.555+00:00;unknown;64871,00;RUB;64 871 ₽ С банками
+[BAK] === 4. Backup / Restore ===
+[BAK] before: product count=19
+[BAK]   sample: ['Palit Видеокарта GeForce RTX 5060 Ti PA-RTX5060TI ', 'Куртка Columbia Новые модели 2025 года', 'Palit Видеокарта GeForce RTX 5060 Ti DUAL 8 ГБ (NE']
+[BAK] POST /api/backups -> 202
+[BAK] file: r52-20261113T141056Z-manual.sqlite3 2084864B
+[BAK]   backup: product=19 match=True
+[BAK]   sample: ['Palit Видеокарта GeForce RTX 5060 Ti PA-RTX5060TI ', 'Куртка Columbia Новые модели 2025 года']
+[BAK] --- Restore: r52-20261113T141056Z-manual.sqlite3 ---
+[BAK] shutdown -> 202
+[BAK] WARN: core still responding, trying in-process stop...
+[BAK] in-process stop done
+[BAK] healthz after in-process stop: 200
+[BAK] cmd: C:\Python315\python.exe -m r52 restore r52-20261113T141056Z-manual.sqlite3 --yes
+[BAK] restore exit=0
+[BAK]   out: База восстановлена из r52-20261113T141056Z-manual.sqlite3.
+Прежняя база сохранена как r52-20261113T141121Z-pre-restore.sqlite3.
+[BAK] after restore: product=19 match=True
+[BAK]   sample: ['Palit Видеокарта GeForce RTX 5060 Ti PA-RTX5060TI ', 'Куртка Columbia Новые модели 2025 года', 'Palit Видеокарта GeForce RTX 5060 Ti DUAL 8 ГБ (NE']
+[BAK] restart err: [WinError 10048] Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт)
+[MIG] === 5. Migration ===
+[MIG] total=8
+[MIG]   v1: initial
+[MIG]   v2: product_media
+[MIG]   v3: product_gallery
+[MIG]   v4: assistant_openrouter
+[MIG]   v5: assistant_readonly_analysis
+[MIG]   v6: analysis_history
+[MIG]   v7: assistant_request
+[MIG]   v8: llm_call_unknown
+[MIG] assistant_llm_call: EXISTS
+[DONE] Total 35.0s

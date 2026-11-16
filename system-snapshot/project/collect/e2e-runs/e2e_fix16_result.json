@@ -1,0 +1,31 @@
+{
+  "ts": "2026-11-12T12:35:45.163328+10:00",
+  "s": 38.1,
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "d": {
+    "WB": {
+      "verdict": "DATA_FAIL",
+      "reason": "title=True price=None label=None",
+      "detail": {
+        "title": "Что-то не так...",
+        "price_minor": null,
+        "price_label": null,
+        "html_len": 7590,
+        "status": "FAIL"
+      }
+    },
+    "AVITO": {
+      "verdict": "DATA_FAIL",
+      "reason": "ad=None title=False price=None",
+      "detail": {
+        "ad_id": null,
+        "title": null,
+        "price_minor": null,
+        "price_label": null,
+        "html_len": 0,
+        "status": "FAIL",
+        "images": []
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+2026-11-12 03:59:33,289 INFO === OZON ===
+2026-11-12 03:59:33,514 INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+2026-11-12 03:59:34,423 INFO OZON: HTTP 403, retry 1/3 через 14с
+2026-11-12 03:59:48,280 INFO OZON: HTTP 403, retry 2/3 через 24с
+2026-11-12 04:00:12,197 INFO OZON: HTTP 403, retry 3/3 через 43с
+2026-11-12 04:01:10,167 INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+2026-11-12 04:01:10,171 INFO === WB ===
+2026-11-12 04:01:10,172 INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+2026-11-12 04:01:10,218 INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-12 04:01:34,164 INFO WB: vol=1382 -> basket-10.wbbasket.ru (nm_id=138278567)
+2026-11-12 04:01:36,335 INFO WB 138278567: card.json OK (13 keys, 2267B)
+2026-11-12 04:01:39,868 INFO WB 138278567: price card_v1 -> 403
+2026-11-12 04:01:41,883 INFO WB 138278567: price card_v2 -> 403
+2026-11-12 04:01:45,609 INFO WB 138278567: price card_v4 -> 403
+2026-11-12 04:01:48,114 INFO WB 138278567: price card_v5 -> 403
+2026-11-12 04:01:51,072 INFO WB 138278567: price catalog_v1 -> 403
+2026-11-12 04:01:53,304 INFO WB 138278567: price catalog_v2 -> 403
+2026-11-12 04:01:57,159 INFO WB 138278567: price web_api -> 498
+2026-11-12 04:01:57,159 INFO WB 138278567: price — все эндпоинты не дали данных
+2026-11-12 04:02:05,362 INFO WB HTML: HTTP 498
+2026-11-12 04:02:05,362 INFO === AVITO ===
+2026-11-12 04:02:13,055 INFO AVITO search: 0 IDs: []
+2026-11-12 04:02:13,157 INFO === FARPOST ===
+2026-11-12 04:02:13,158 INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+2026-11-12 04:02:14,970 INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+
+================================================================
+  SUMMARY
+================================================================
+  ozon     [FAIL] Похоже, нет соединения
+           no prices  |  playwright 3306B  |  96.9s
+  wb       [FAIL] Утюг BBK ISE-2404
+           no prices  |  basket_cdn  |  55.2s
+  avito    [FAIL] no live ID
+           no prices  |  ?  |  7.8s
+  farpost  [FAIL] Страница не найдена
+           no prices  |  playwright 12863B  |  9.6s
+
+  Total: 169.5s
+  JSON:  C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_final_results.json
+================================================================

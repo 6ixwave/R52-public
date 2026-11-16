@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "【Weltpremiere】POCO X8 Pro Max Smartphone Globale Version 8500mAh 100W HypeCharge 6,83'' 1,5K Display Dimensity 9500s NFC",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "658.45",
+        "amount_minor": 65845,
+        "currency": "CHF",
+        "visible_label": "658.45 CHF"
+      },
+      {
+        "role": "original",
+        "amount": "1086.41",
+        "amount_minor": 108641,
+        "currency": "CHF",
+        "visible_label": "1,086.41 CHF"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S4c0b2dc6978240b4910def26400efd39z.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005012046130273",
+    "listing_id": "1005012046130273",
+    "title": "【Weltpremiere】POCO X8 Pro Max Smartphone Globale Version 8500mAh 100W HypeCharge 6,83'' 1,5K Display Dimensity 9500s NFC",
+    "url": "https://www.aliexpress.com/item/1005012046130273.html",
+    "observed_at": "2026-11-16T05:13:26.487117+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

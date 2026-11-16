@@ -1,0 +1,129 @@
+{
+  "WB": [
+    {
+      "id": "199298871",
+      "method": "card_chrome124",
+      "status": 403
+    },
+    {
+      "id": "199298871",
+      "method": "card_chrome120",
+      "status": 403
+    },
+    {
+      "id": "199298871",
+      "method": "card_chrome116",
+      "status": 403
+    },
+    {
+      "id": "199298871",
+      "method": "html_chrome124",
+      "status": 498
+    },
+    {
+      "id": "314337853",
+      "method": "html_chrome124",
+      "status": 498
+    },
+    {
+      "id": "199298871",
+      "method": "wbx_wbx-content-v2.wbstatic.net",
+      "status": "Failed to perform, curl: (6) Could not resolve host: wbx-content-v2.wbstatic.net"
+    },
+    {
+      "id": "199298871",
+      "method": "wbx_wbx-content-v1.wbstatic.net",
+      "status": "Failed to perform, curl: (6) Could not resolve host: wbx-content-v1.wbstatic.net"
+    },
+    {
+      "id": "199298871",
+      "method": "catalog_search",
+      "status": 403
+    },
+    {
+      "target": "sp.wb.ru",
+      "method": "root",
+      "status": "Failed to perform, curl: (6) Could not resolve host: sp.wb.ru (DNS server return"
+    },
+    {
+      "target": "api.wb.ru",
+      "method": "root",
+      "status": "Failed to perform, curl: (6) Could not resolve host: api.wb.ru (Domain name not "
+    },
+    {
+      "target": "wbx-content-v2.wbstatic.net",
+      "method": "root",
+      "status": "Failed to perform, curl: (6) Could not resolve host: wbx-content-v2.wbstatic.net"
+    }
+  ],
+  "OZON": [
+    {
+      "target": "main",
+      "status": 403
+    },
+    {
+      "id": "3349505344",
+      "method": "html",
+      "status": 403
+    },
+    {
+      "id": "2718589061",
+      "method": "html",
+      "status": 403
+    },
+    {
+      "id": "3349505344",
+      "method": "entrypoint",
+      "status": 403
+    },
+    {
+      "id": "3349505344",
+      "method": "composer",
+      "status": 403
+    },
+    {
+      "id": "3349505344",
+      "method": "mobile",
+      "status": 403
+    }
+  ],
+  "AVITO": [
+    {
+      "target": "main",
+      "status": 439
+    },
+    {
+      "id": "7345810001",
+      "method": "html",
+      "status": 439
+    },
+    {
+      "id": "7201234567",
+      "method": "html",
+      "status": 439
+    },
+    {
+      "id": "7345810001",
+      "method": "api",
+      "path": "/api/v1/items/7345810001",
+      "status": 404
+    },
+    {
+      "id": "7345810001",
+      "method": "api",
+      "path": "/api/items/7345810001",
+      "status": 404
+    },
+    {
+      "id": "7345810001",
+      "method": "api",
+      "path": "/vladivostok/api/items/7345810001",
+      "status": 439
+    },
+    {
+      "id": "7345810001",
+      "method": "mobile",
+      "status": 403
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "url": "https://www.wildberries.ru/__internal/u-recom/personal/v9/search?ab_ranking=price_up&appType=1&curr=rub&dest=1259570991&spp=30&hide_vflags=4294967296&ab_testing=false&lang=ru&locale=ru&page=1&query=0&",
+    "status": 200,
+    "len": 241998,
+    "body_head": "{\"metadata\":{\"name\":\"1\",\"catalog_type\":\"presets\",\"catalog_value\":\"preset=1\"},\"products\":[{\"id\":404109942,\"__sort\":271127,\"ksort\":0,\"root\":379578684,\"kindId\":0,\"brand\":\"MOMI\",\"brandId\":18910,\"siteBrandId\":0,\"colors\":[{\"name\":\"голубой\",\"id\":11393254}],\"subjectId\":814,\"subjectParentId\":883,\"semanticId\":[53,49,44,242,191,290,35],\"name\":\"Дневные подгузники-трусики Super Soft 4 размер L 9-14кг 86шт\",\"entity\":\"\",\"matchId\":238083448,\"supplier\":\"NK JAX\",\"supplierId\":56236,\"supplierRating\":4.9,\"supplierFl"
+  }
+]

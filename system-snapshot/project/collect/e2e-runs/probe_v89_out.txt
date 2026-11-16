@@ -1,0 +1,62 @@
+2026-11-11 12:54:34,041 v89 INFO === V89 SETUP ===
+2026-11-11 12:54:34,043 v89 INFO Tables: ['_migration', 'source', 'product', 'observation', 'price_point', 'inbox_item', 'intake_file', 'favorite', 'compare_group', 'compare_item', 'watch', 'event', 'notification', 'task', 'task_transition', 'schedule', 'setting', 'chat_session', 'chat_message', 'assistant_action', 'import_run', 'schema_migrations']
+2026-11-11 12:54:34,043 v89 INFO PRE: {'product': 5, 'observation': 19, 'price_point': 12, 'source': 6}
+2026-11-11 12:54:34,043 v89 INFO === 1. FARPOST ===
+2026-11-11 12:54:34,104 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\collectors\proxies.json не найден, режим direct
+2026-11-11 12:54:34,106 v89 INFO FP: collecting https://www.farpost.ru/krasnoyarsk/auto/wheel/tire/shiny-127622540.html
+2026-11-11 12:54:35,426 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-11 12:54:37,096 v89 INFO FP: wrote jarvis-eye-farpost-84896d30.json (4838B)
+2026-11-11 12:54:37,113 v89 ERROR FARPOST error
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\probe_v89.py", line 702, in main
+    results["FARPOST"] = probe_farpost_e2e()
+                         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\probe_v89.py", line 297, in probe_farpost_e2e
+    inbox = Inbox(INBOX_DIR, DB_PATH)
+TypeError: Inbox.__init__() takes 2 positional arguments but 3 were given
+2026-11-11 12:54:37,138 v89 INFO === 2. WILDBERRIES ===
+2026-11-11 12:54:37,138 v89 INFO WB 199298871: vol=1992 part=298
+2026-11-11 12:54:38,106 v89 INFO WB 199298871: basket-01.wbbasket.ru HTTP 404
+2026-11-11 12:54:39,236 v89 INFO WB 199298871: basket-02.wbbasket.ru HTTP 404
+2026-11-11 12:54:40,391 v89 INFO WB 199298871: basket-03.wbbasket.ru HTTP 404
+2026-11-11 12:54:48,249 v89 INFO WB 199298871: basket-10.wbbasket.ru HTTP 404
+2026-11-11 12:54:59,691 v89 INFO WB 199298871: basket-20.wbbasket.ru HTTP 404
+2026-11-11 12:55:11,222 v89 INFO WB 199298871: basket-30.wbbasket.ru HTTP 404
+2026-11-11 12:55:22,782 v89 INFO WB 199298871: basket-40.wbbasket.ru HTTP 404
+2026-11-11 12:55:34,407 v89 INFO WB 199298871: basket-50.wbbasket.ru HTTP 404
+2026-11-11 12:55:46,010 v89 INFO WB 199298871: basket-60.wbbasket.ru HTTP 404
+2026-11-11 12:55:47,045 v89 INFO WB 199298871 API detail: HTTP 403, 0B
+2026-11-11 12:55:48,842 v89 INFO WB 199298871 API detail: HTTP 403, 0B
+2026-11-11 12:55:49,842 v89 INFO WB 1285331379: vol=12853 part=331
+2026-11-11 12:55:50,627 v89 INFO WB 1285331379: basket-01.wbbasket.ru HTTP 404
+2026-11-11 12:55:51,762 v89 INFO WB 1285331379: basket-02.wbbasket.ru HTTP 404
+2026-11-11 12:55:52,908 v89 INFO WB 1285331379: basket-03.wbbasket.ru HTTP 404
+2026-11-11 12:56:00,401 v89 INFO WB 1285331379: basket-10.wbbasket.ru HTTP 404
+2026-11-11 12:56:11,097 v89 INFO WB 1285331379: basket-20.wbbasket.ru HTTP 404
+2026-11-11 12:56:21,977 v89 INFO WB 1285331379: basket-30.wbbasket.ru HTTP 404
+2026-11-11 12:56:33,392 v89 INFO WB 1285331379: basket-40.wbbasket.ru HTTP 404
+2026-11-11 12:56:44,395 v89 INFO WB 1285331379: basket-50.wbbasket.ru HTTP 404
+2026-11-11 12:56:55,434 v89 INFO WB 1285331379: basket-60.wbbasket.ru HTTP 404
+2026-11-11 12:56:56,448 v89 INFO WB 1285331379 API detail: HTTP 403, 0B
+2026-11-11 12:56:58,256 v89 INFO WB 1285331379 API detail: HTTP 403, 0B
+2026-11-11 12:56:59,257 v89 INFO === 3. OZON ===
+2026-11-11 12:56:59,257 v89 INFO OZON 479010389: GET https://www.ozon.ru/product/479010389/
+2026-11-11 12:57:00,195 v89 INFO OZON 479010389: HTTP 403, 10571B
+2026-11-11 12:57:03,196 v89 INFO OZON 721093013: GET https://www.ozon.ru/product/721093013/
+2026-11-11 12:57:04,753 v89 INFO OZON 721093013: HTTP 403, 10691B
+2026-11-11 12:57:07,755 v89 INFO === 4. AVITO ===
+2026-11-11 12:57:07,755 v89 INFO AVITO: category page https://www.avito.ru/krasnoyarsk/telefony
+2026-11-11 12:57:08,645 v89 INFO AVITO cat: HTTP 439, 14889B
+2026-11-11 12:57:08,645 v89 INFO AVITO 8341658309: GET https://www.avito.ru/krasnoyarsk/iphone-14-128-gb-8341658309
+2026-11-11 12:57:09,535 v89 INFO AVITO 8341658309 (www): HTTP 439, 14889B
+2026-11-11 12:57:15,464 v89 INFO AVITO 8341658309 (m): HTTP 439, 14889B
+2026-11-11 12:57:20,464 v89 INFO AVITO 1154321987: GET https://www.avito.ru/krasnoyarsk/iphone-11-1154321987
+2026-11-11 12:57:21,391 v89 INFO AVITO 1154321987 (www): HTTP 439, 14889B
+2026-11-11 12:57:27,303 v89 INFO AVITO 1154321987 (m): HTTP 439, 14889B
+2026-11-11 12:57:32,307 v89 INFO POST: {'product': 5, 'observation': 19, 'price_point': 12, 'source': 6}
+2026-11-11 12:57:32,307 v89 INFO   FARPOST: UNKNOWN
+2026-11-11 12:57:32,307 v89 INFO   WB: UNKNOWN
+2026-11-11 12:57:32,307 v89 INFO   OZON: UNKNOWN
+2026-11-11 12:57:32,307 v89 INFO   AVITO: UNKNOWN
+2026-11-11 12:57:32,308 v89 INFO Saved probe_v89_result.json
+2026-11-11 12:57:32,308 v89 INFO === V89 DONE ===

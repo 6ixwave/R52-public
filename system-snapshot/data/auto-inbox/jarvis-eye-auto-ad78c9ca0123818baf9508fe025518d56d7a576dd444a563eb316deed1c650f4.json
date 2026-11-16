@@ -1,0 +1,333 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Леггинсы лосины для девочки спортивные",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Новомосковский трикотаж",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 50300,
+        "amount": "503.00",
+        "currency": "RUB",
+        "visible_label": "503.00 руб.",
+        "variant_id": "122-128",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 50300,
+          "listing_id": "181599806",
+          "variant_id": "122-128"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 72600,
+        "amount": "726.00",
+        "currency": "RUB",
+        "visible_label": "726.00 руб.",
+        "variant_id": "122-128",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 72600,
+          "listing_id": "181599806",
+          "variant_id": "122-128"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 50300,
+        "amount": "503.00",
+        "currency": "RUB",
+        "visible_label": "503.00 руб.",
+        "variant_id": "128-134",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.product",
+          "value_minor": 50300,
+          "listing_id": "181599806",
+          "variant_id": "128-134"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 72600,
+        "amount": "726.00",
+        "currency": "RUB",
+        "visible_label": "726.00 руб.",
+        "variant_id": "128-134",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.basic",
+          "value_minor": 72600,
+          "listing_id": "181599806",
+          "variant_id": "128-134"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 50300,
+        "amount": "503.00",
+        "currency": "RUB",
+        "visible_label": "503.00 руб.",
+        "variant_id": "134-140",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.product",
+          "value_minor": 50300,
+          "listing_id": "181599806",
+          "variant_id": "134-140"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 72600,
+        "amount": "726.00",
+        "currency": "RUB",
+        "visible_label": "726.00 руб.",
+        "variant_id": "134-140",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.basic",
+          "value_minor": 72600,
+          "listing_id": "181599806",
+          "variant_id": "134-140"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 50300,
+        "amount": "503.00",
+        "currency": "RUB",
+        "visible_label": "503.00 руб.",
+        "variant_id": "116-122",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[3].price.product",
+          "value_minor": 50300,
+          "listing_id": "181599806",
+          "variant_id": "116-122"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 72600,
+        "amount": "726.00",
+        "currency": "RUB",
+        "visible_label": "726.00 руб.",
+        "variant_id": "116-122",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[3].price.basic",
+          "value_minor": 72600,
+          "listing_id": "181599806",
+          "variant_id": "116-122"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 50300,
+        "amount": "503.00",
+        "currency": "RUB",
+        "visible_label": "503.00 руб.",
+        "variant_id": "140-146",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[4].price.product",
+          "value_minor": 50300,
+          "listing_id": "181599806",
+          "variant_id": "140-146"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 72600,
+        "amount": "726.00",
+        "currency": "RUB",
+        "visible_label": "726.00 руб.",
+        "variant_id": "140-146",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[4].price.basic",
+          "value_minor": 72600,
+          "listing_id": "181599806",
+          "variant_id": "140-146"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 50300,
+        "amount": "503.00",
+        "currency": "RUB",
+        "visible_label": "503.00 руб.",
+        "variant_id": "146-152",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[5].price.product",
+          "value_minor": 50300,
+          "listing_id": "181599806",
+          "variant_id": "146-152"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 72600,
+        "amount": "726.00",
+        "currency": "RUB",
+        "visible_label": "726.00 руб.",
+        "variant_id": "146-152",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[5].price.basic",
+          "value_minor": 72600,
+          "listing_id": "181599806",
+          "variant_id": "146-152"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 50300,
+        "amount": "503.00",
+        "currency": "RUB",
+        "visible_label": "503.00 руб.",
+        "variant_id": "152-158",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[6].price.product",
+          "value_minor": 50300,
+          "listing_id": "181599806",
+          "variant_id": "152-158"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 72600,
+        "amount": "726.00",
+        "currency": "RUB",
+        "visible_label": "726.00 руб.",
+        "variant_id": "152-158",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[6].price.basic",
+          "value_minor": 72600,
+          "listing_id": "181599806",
+          "variant_id": "152-158"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 50300,
+        "amount": "503.00",
+        "currency": "RUB",
+        "visible_label": "503.00 руб.",
+        "variant_id": "158-164",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[7].price.product",
+          "value_minor": 50300,
+          "listing_id": "181599806",
+          "variant_id": "158-164"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 72600,
+        "amount": "726.00",
+        "currency": "RUB",
+        "visible_label": "726.00 руб.",
+        "variant_id": "158-164",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[7].price.basic",
+          "value_minor": 72600,
+          "listing_id": "181599806",
+          "variant_id": "158-164"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "181599806",
+    "listing_id": "181599806",
+    "title": "Леггинсы лосины для девочки спортивные",
+    "url": "https://www.wildberries.ru/catalog/181599806/detail.aspx",
+    "observed_at": "2026-11-15T20:50:27.319742+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

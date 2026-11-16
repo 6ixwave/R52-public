@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Neues VIVO Y18 5G, entsperrtes Dual-SIM-Mobiltelefon, 6,56 Zoll HD+-Display, 5000 mAh Akku für lange Standby-Zeit, Android-Smartphone, 8 GB + 256 GB Speicher.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "96.23",
+        "amount_minor": 9623,
+        "currency": "CHF",
+        "visible_label": "96.23 CHF"
+      },
+      {
+        "role": "original",
+        "amount": "252.93",
+        "amount_minor": 25293,
+        "currency": "CHF",
+        "visible_label": "252.93 CHF"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S07c34451faeb4bbb907ce8f59f0eb49fM.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013600308898",
+    "listing_id": "1005013600308898",
+    "title": "Neues VIVO Y18 5G, entsperrtes Dual-SIM-Mobiltelefon, 6,56 Zoll HD+-Display, 5000 mAh Akku für lange Standby-Zeit, Android-Smartphone, 8 GB + 256 GB Speicher.",
+    "url": "https://ru.aliexpress.com/item/1005013600308898.html",
+    "observed_at": "2026-11-16T05:13:33.078733+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

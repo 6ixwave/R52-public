@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "VIVO Y18 5G Global Version Smartphone 6,56\" 90Hz Display 5000mAh 15W Ladung 50MP Kamera Dual-SIM Entsperrtes Android-Handy",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "96.23",
+        "amount_minor": 9623,
+        "currency": "CHF",
+        "visible_label": "96.23 CHF"
+      },
+      {
+        "role": "original",
+        "amount": "252.93",
+        "amount_minor": 25293,
+        "currency": "CHF",
+        "visible_label": "252.93 CHF"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S68fd13429b204684b7eb2ec1a7824ba9p.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013600328920",
+    "listing_id": "1005013600328920",
+    "title": "VIVO Y18 5G Global Version Smartphone 6,56\" 90Hz Display 5000mAh 15W Ladung 50MP Kamera Dual-SIM Entsperrtes Android-Handy",
+    "url": "https://ru.aliexpress.com/item/1005013600328920.html",
+    "observed_at": "2026-11-16T05:13:33.078612+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

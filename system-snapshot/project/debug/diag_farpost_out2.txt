@@ -1,0 +1,186 @@
+﻿Status: 200, len=186970
+
+======================================================================
+1. ALL elements with 'price' in class/id/attribute
+======================================================================
+Found 156 price elements
+
+--- price element 1 (pos 27200) ---
+>	</label>
+</div>
+	</div>
+				
+				<div class="clear">&nbsp;</div>
+
+				
+							</div>
+
+								
+			<div class="fi fi_price"
+			     data-type=""
+			     data-label="Цена"
+			     style="display:none"			>
+									<noscript>
+						<h3>Цена</h3>
+					</noscript>
+				
+									
+
+<div class="baza-range-control nowrap baza-range-control-drag-idle" data-name="price" data-mask-format="price" data-fraction-digits="0" d
+
+--- price element 2 (pos 27378) ---
+  style="display:none"			>
+									<noscript>
+						<h3>Цена</h3>
+					</noscript>
+				
+									
+
+<div class="baza-range-control nowrap baza-range-control-drag-idle" data-name="price" data-mask-format="price" data-fraction-digits="0" data-min-control="{&quot;boundary&quot;:0,&quot;id&quot;:&quot;price_min&quot;}" data-max-control="{&quot;boundary&quot;:null,&quot;id&quot;:&quot;price_max&quot;}" id="price6af86c4054a8b">
+					<input  name="price_min" class="rangeInput" type="text" role="min-value" data-mask-format="price" id="price_min"/>	
+			<span class='rageSep'>
+			до		</span>
+		<input  name="price_max" class="rangeInput
+
+--- price element 3 (pos 27868) ---
+e="min-value" data-mask-format="price" id="price_min"/>	
+			<span class='rageSep'>
+			до		</span>
+		<input  name="price_max" class="rangeInput" type="text" role="max-value" data-mask-format="price" id="price_max"/>	
+	<span class="rageSep">р.</span>
+
+	<input type="submit" value="OK" class="rageSubmit"/>
+</div>
+				
+				<div class="clear">&nbsp;</div>
+
+				
+							</div>
+
+						</div>
+
+	
+
+<div class="bzr-viewdir-stat
+
+--- price element 4 (pos 32334) ---
+
+</script>
+		
+		<div data-feed-visible="1">
+			<div class="filtersStatus viewport-padding-collapse"><div class="price-sort-drop-down item item-filter" data-name="sortBy"><label><span id="sort_label6af86c40550e6" class="price-sort-drop-down__title">Сортировать</span><select name='sortBy'  size="1" class="chosen-select" data-placeholder="Укажите значение" id="price_sort"
+
+--- price element 5 (pos 32411) ---
+port-padding-collapse"><div class="price-sort-drop-down item item-filter" data-name="sortBy"><label><span id="sort_label6af86c40550e6" class="price-sort-drop-down__title">Сортировать</span><select name='sortBy'  size="1" class="chosen-select" data-placeholder="Укажите значение" id="price_sort"><option value="">По актуальности</option><option value="pricea">По цене, сначала дешевые
+
+--- price element 6 (pos 32500) ---
+By"><label><span id="sort_label6af86c40550e6" class="price-sort-drop-down__title">Сортировать</span><select name='sortBy'  size="1" class="chosen-select" data-placeholder="Укажите значение" id="price_sort"><option value="">По актуальности</option><option value="pricea">По цене, сначала дешевые</option><option value="priced">По цене, сначала дорогие</option></select><script type='text/javascript' nonce="9
+
+--- price element 7 (pos 35632) ---
+"165" height="135" /></div><div class="descriptionCell bull-item__cell bull-item__description-cell"><div class="bull-item__price-info-container"><div class="bull-item__price-block"><div class="priceCell price-block"><div class="price-block__final-price finalPrice" data-price="14 000<i class='currency currency__rub'>&#8381;</i>"><div class="pric
+
+--- price element 8 (pos 35713) ---
+_description-cell"><div class="bull-item__price-info-container"><div class="bull-item__price-block"><div class="priceCell price-block"><div class="price-block__final-price finalPrice" data-price="14 000<i class='currency currency__rub'>&#8381;</i>"><div class="price-block__price" data-role="price">14 000<i class='currency currency__ru
+
+--- price element 9 (pos 35862) ---
+ice-block__final-price finalPrice" data-price="14 000<i class='currency currency__rub'>&#8381;</i>"><div class="price-block__price" data-role="price">14 000<i class='currency currency__rub'>&#8381;</i></div></div></div></div><div class="bull-item__delivery-block-container"><div class="bull-item__delivery-block"><div class="bull-delivery bull-delivery_city
+
+--- price element 10 (pos 38380) ---
+"180" height="135" /></div><div class="descriptionCell bull-item__cell bull-item__description-cell"><div class="bull-item__price-info-container"><div class="bull-item__price-block"><div class="priceCell price-block"><div class="price-block__final-price finalPrice" data-price="14 000<i class='currency currency__rub'>&#8381;</i>"><div class="pric
+
+--- price element 11 (pos 38461) ---
+_description-cell"><div class="bull-item__price-info-container"><div class="bull-item__price-block"><div class="priceCell price-block"><div class="price-block__final-price finalPrice" data-price="14 000<i class='currency currency__rub'>&#8381;</i>"><div class="price-block__price" data-role="price">14 000<i class='currency currency__ru
+
+--- price element 12 (pos 38610) ---
+ice-block__final-price finalPrice" data-price="14 000<i class='currency currency__rub'>&#8381;</i>"><div class="price-block__price" data-role="price">14 000<i class='currency currency__rub'>&#8381;</i></div></div></div></div><div class="bull-item__delivery-block-container"><div class="bull-item__delivery-block"><div class="bull-delivery bull-delivery_city
+
+--- price element 13 (pos 41122) ---
+"180" height="135" /></div><div class="descriptionCell bull-item__cell bull-item__description-cell"><div class="bull-item__price-info-container"><div class="bull-item__price-block"><div class="priceCell price-block"><div class="price-block__final-price finalPrice" data-price="55 000<i class='currency currency__rub'>&#8381;</i>"><div class="pric
+
+--- price element 14 (pos 41203) ---
+_description-cell"><div class="bull-item__price-info-container"><div class="bull-item__price-block"><div class="priceCell price-block"><div class="price-block__final-price finalPrice" data-price="55 000<i class='currency currency__rub'>&#8381;</i>"><div class="price-block__price" data-role="price">55 000<i class='currency currency__ru
+
+--- price element 15 (pos 41352) ---
+ice-block__final-price finalPrice" data-price="55 000<i class='currency currency__rub'>&#8381;</i>"><div class="price-block__price" data-role="price">55 000<i class='currency currency__rub'>&#8381;</i></div></div></div></div><div class="bull-item__delivery-block-container"><div class="bull-item__delivery-block"><div class="bull-delivery bull-delivery_city
+
+======================================================================
+2. Ruble sign (₽ / &#8381;) with surrounding context
+======================================================================
+Found 0 price+currency pairs
+
+======================================================================
+3. data-* price attributes
+======================================================================
+Found 70 data-price attributes
+  data-value="4" (pos 21491)
+  data-value="9" (pos 21632)
+  data-value="82" (pos 21764)
+  data-value="80" (pos 21907)
+  data-value="55" (pos 22050)
+  data-value="27" (pos 22189)
+  data-value="34" (pos 22324)
+  data-value="43" (pos 22471)
+  data-value="105" (pos 22645)
+  data-value="44" (pos 22788)
+
+======================================================================
+4. Full card structure (first bulletin, 3000 chars from card start)
+======================================================================
+Card start offset: 35921, first <a> at: 36421
+class='currency currency__rub'>&#8381;</i></div></div></div></div><div class="bull-item__delivery-block-container"><div class="bull-item__delivery-block"><div class="bull-delivery bull-delivery_city"><span class="bull-delivery__city">Владивосток</span></div><div class="bull-delivery">доставка до ТК 1 000<i class='currency currency__rub'>&#8381;</i></div><div class="bull-delivery">Доставка почтой</div></div></div></div><div class="bull-item__description"><div class="bull-item__subject-container"><a  class="bulletinLink bull-item__self-link auto-shy" data-role="bulletin-link" href="/vladivostok/zapchasti/mufta-vvti-vq25dd-vq30dd-vq25det-skyline-cedric-stagea-test-137008403.html">Муфта VVTI VQ25DD, VQ30DD, VQ25DET. Skyline, Cedric, Stagea. Тест.</a></div><div class="bull-item__annotation"><div class="bull-item__annotation-row manufacturer">Nissan</div></div></div><div class="bull-item__bull-info-container"><div class="bull-item-info"><div class="bull-item-info__content"><div class="bull-item-info__row ellipsis-text"><div class="ellipsis-text__right-side"><div class="bull-item-info__value"><div class="date">23 июля</div></div><div class="bull-item-info__value"><span  class="views nano-eye-text" title="Количество просмотров"><svg  width="16" height="16" class="nano-eye-text__icon"><use  href="/resources/img/svg/sprites/brief.svg?1#Eye-24" xlink:href="/resources/img/svg/sprites/brief.svg?1#Eye-24"></use></svg>112</span></div></div><div class="ellipsis-text__left-side">ООО «Авто-Влад»</div></div></div></div></div><button class="map-highlight" data-geo="43.157493, 131.938605" style="display: none;"></button></div><div class="bull-item__cell bull-item__right-additional-block"><div class="bull-item__additional-info-cell"></div><div class="bull-item__action-cell"></div></div></div></div></td></tr><tr  data-ctr-trackable class='bull-list-item-js -exact' data-doc-id='13700855015'><td><div data-bulletin-id="137008550" class="bull-item bull-item_inline"><div class="bull-item__content-wrapper"><a name="137008550"></a><div class="bull-item__cell bull-item__image-cell"><img  class="bull-image-preloader" src="https://static.baza.farpost.ru/v/1784778684340_block" srcset="https://static.baza.farpost.ru/v/1784778684340_brief2x 2x" loading="lazy" alt="Муфта VVTI VQ25DD, VQ30DD, VQ25DET. Skyline, Cedric, Stagea. Тест 13040-AL525 фото" width="180" height="135" /></div><div class="descriptionCell bull-item__cell bull-item__description-cell"><div class="bull-item__price-info-container"><div class="bull-item__price-block"><div class="priceCell price-block"><div class="price-block__final-price finalPrice" data-price="14 000<i class='currency currency__rub'>&#8381;</i>"><div class="price-block__price" data-role="price">14 000<i class='currency currency__rub'>&#8381;</i></div></div></div></div><div class="bull-item__delivery-block-container"><div class="bull-item__delivery-block"><div class="bull-delivery bull-delivery_city"><span class="bull-delivery__city">Владивосток</span></div><div class="bull-delivery">доставка до ТК 1 000<i class='currency currency__rub'>&#8381;</i></div><div class="bull-delivery">Доставка почтой</div></div></div></div><div class="bull-item__description"><div class="bull-item__subject-container"><a  class="bulletinLink bull-item__self-link auto-shy" data-role="bulletin-link" href="/vladivostok/zapchasti/mufta-vvti-vq25dd-vq30dd-vq25det-skyline-cedric-stagea-test-137008550.html">Муфта VVTI VQ25DD, VQ30DD, VQ25DET. Skyline, Cedric, Stagea. Тест.
+
+======================================================================
+5. 'bull-item' divs (first 5)
+======================================================================
+Found 1040 bull-item divs
+
+--- bull-item 1 (pos 35077) ---
+<div data-bulletin-id="137008403" class="bull-item bull-item_inline"><div class="bull-item__content-wrapper"><a name="137008403"></a><div class="bull-item__cell bull-item__image-cell"><img  class="bull-image-preloader" src="https://static.baza.farpost.ru/v/1784778479180_block" srcset="https://static.baza.farpost.ru/v/1784778479180_brief2x 2x" loading="lazy" alt="Муфта VVTI VQ25DD, VQ30DD, VQ25DET. Skyline, Cedric, Stagea. Тест 13040-AL525 фото" width="165" height="135" /></div><div class="descriptionCell bull-item__cell bull-item__description-cell"><div class="bu
+
+--- bull-item 2 (pos 35146) ---
+<div class="bull-item__content-wrapper"><a name="137008403"></a><div class="bull-item__cell bull-item__image-cell"><img  class="bull-image-preloader" src="https://static.baza.farpost.ru/v/1784778479180_block" srcset="https://static.baza.farpost.ru/v/1784778479180_brief2x 2x" loading="lazy" alt="Муфта VVTI VQ25DD, VQ30DD, VQ25DET. Skyline, Cedric, Stagea. Тест 13040-AL525 фото" width="165" height="135" /></div><div class="descriptionCell bull-item__cell bull-item__description-cell"><div class="bull-item__price-info-container"><div clas
+
+--- bull-item 3 (pos 35210) ---
+<div class="bull-item__cell bull-item__image-cell"><img  class="bull-image-preloader" src="https://static.baza.farpost.ru/v/1784778479180_block" srcset="https://static.baza.farpost.ru/v/1784778479180_brief2x 2x" loading="lazy" alt="Муфта VVTI VQ25DD, VQ30DD, VQ25DET. Skyline, Cedric, Stagea. Тест 13040-AL525 фото" width="165" height="135" /></div><div class="descriptionCell bull-item__cell bull-item__description-cell"><div class="bull-item__price-info-container"><div class="bull-item__price-block"><div class="priceCell price-block"><div class="p
+
+--- bull-item 4 (pos 35559) ---
+<div class="descriptionCell bull-item__cell bull-item__description-cell"><div class="bull-item__price-info-container"><div class="bull-item__price-block"><div class="priceCell price-block"><div class="price-block__final-price finalPrice" data-price="14 000<i class='currency currency__rub'>&#8381;</i>"><div class="price-block__price" data-role="price">14 000<i class='currency currency__rub'>&#8381;</i></div></div></div></div><div class="bull-item__delivery-block-container"><div class="bull-item__delivery-block"><div class="bull-delivery bull-delivery_city"><span class
+
+--- bull-item 5 (pos 35632) ---
+<div class="bull-item__price-info-container"><div class="bull-item__price-block"><div class="priceCell price-block"><div class="price-block__final-price finalPrice" data-price="14 000<i class='currency currency__rub'>&#8381;</i>"><div class="price-block__price" data-role="price">14 000<i class='currency currency__rub'>&#8381;</i></div></div></div></div><div class="bull-item__delivery-block-container"><div class="bull-item__delivery-block"><div class="bull-delivery bull-delivery_city"><span class="bull-delivery__city">Владивосток</span></di
+
+======================================================================
+6. JSON-LD / embedded JSON
+======================================================================
+Found 2 JSON-LD blocks
+
+--- JSON-LD 1 (first 500 chars) ---
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "\u0424\u0430\u0440\u043f\u043e\u0441\u0442",
+            "item": "https://www.farpost.ru/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "\u0442\u0435\u0441\u0442"
+        }
+    ]
+}
+
+--- JSON-LD 2 (first 500 chars) ---
+{
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "FarPost.ru",
+    "url": "https://www.farpost.ru"
+}
+
+Found 0 window state objects
+
+Done.

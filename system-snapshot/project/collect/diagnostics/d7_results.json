@@ -1,0 +1,46 @@
+{
+  "time": "2026-11-12T16:35:56.134779",
+  "total_s": 24.5,
+  "results": {
+    "FP:live_search": {
+      "ok": false,
+      "detail": "HTTP=404 no links found in search",
+      "s": 0.7
+    },
+    "FP:direct_138952176": {
+      "ok": false,
+      "detail": "HTTP=302 loc=/verify?u=%2Fvladivostok%2F138952176.html title=? prices=[] len=138",
+      "s": 1.1
+    },
+    "FP:cffi": {
+      "ok": false,
+      "detail": "ID=138952176 HTTP=200 len=198208 title=Фарпост - доска объявлений prices=[]",
+      "s": 2.9
+    },
+    "WB:cffi_card_v2": {
+      "ok": false,
+      "detail": "HTTP=403 len=0",
+      "s": 3.8
+    },
+    "WB:requests_card_v2": {
+      "ok": false,
+      "detail": "HTTP=403 first100=",
+      "s": 4.6
+    },
+    "WB:basket_card": {
+      "ok": false,
+      "detail": "HTTP=404",
+      "s": 4.9
+    },
+    "OZ:playwright": {
+      "ok": true,
+      "detail": "len=711840 prices=[284.0, 284.0] ld=True ld_info=[{'name': 'Маленький Принц и лис: набор добрых летних открыток для пост', 'price': '284', 'currency': 'RUB', 'avail': '//schema.org/InStock'}]",
+      "s": 18.5
+    },
+    "AV:playwright_mobile": {
+      "ok": null,
+      "detail": "len=36447 prices=[] data_price=None meta=None",
+      "s": 24.4
+    }
+  }
+}

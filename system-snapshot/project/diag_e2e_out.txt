@@ -1,0 +1,33 @@
+2026-11-13 22:25:30,533 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:25:31,243 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-13 22:25:32,728 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:25:32,728 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-13 22:26:11,305 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-13 22:26:14,109 r52.collectors.wb INFO WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-13 22:26:16,181 r52.collectors.wb INFO WB 199298871: price card_v1 -> 403
+2026-11-13 22:26:19,305 r52.collectors.wb INFO WB 199298871: price card_v2 -> 403
+2026-11-13 22:26:22,991 r52.collectors.wb INFO WB 199298871: price card_v4 -> 403
+2026-11-13 22:26:25,239 r52.collectors.wb INFO WB 199298871: price card_v5 -> 403
+2026-11-13 22:26:27,247 r52.collectors.wb INFO WB 199298871: price catalog_v1 -> 403
+2026-11-13 22:26:30,420 r52.collectors.wb INFO WB 199298871: price catalog_v2 -> 403
+2026-11-13 22:26:33,213 r52.collectors.wb INFO WB 199298871: price web_api -> 498
+2026-11-13 22:26:36,410 r52.collectors.wb INFO WB 199298871: price search_wb -> 403
+2026-11-13 22:26:36,410 r52.collectors.wb INFO WB 199298871: price — все эндпоинты не дали данных
+2026-11-13 22:26:53,199 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-13 22:26:53,199 r52.collectors.wb INFO WB 199298871: photo_count=6, found=1
+2026-11-13 22:26:53,199 r52.collectors.wb INFO WB 199298871: has_video=true, видео не найдено
+============================================================
+E2E TEST: R-52 Full Pipeline
+============================================================
+
+[0] Preparing intake dir...
+  ✓ C:\Users\aleks\OneDrive\Desktop\r52-intake
+
+[1] Collecting products...
+  FARPOST: FULL_SUCCESS
+  WB: PARTIAL_SUCCESS
+
+[2] Starting R-52 server...
+  ✗ Server not responding: <urlopen error [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение>
+  stderr: C:\Python315\python.exe: can't open file 'C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\run.py': [Errno 2] No such file or directory
+

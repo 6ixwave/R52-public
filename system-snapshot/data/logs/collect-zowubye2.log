@@ -1,0 +1,139 @@
+<frozen runpy>:130: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-17 02:17:03,450 r52.autocollect.worker INFO phase=worker_start pid=17264
+2026-11-17 02:17:03,472 r52.autocollect.worker INFO source=WB mode=discover phase=initialize
+2026-11-17 02:17:03,472 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-17 02:17:03,473 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-17 02:17:03,473 r52.autocollect.worker INFO source=WB phase=search_start page=1 limit=5
+2026-11-17 02:17:10,320 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-17 02:17:29,357 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 16 bodies, best 201368B from https://www.wildberries.ru/__internal/u-recom/personal/v9/search?ab_testing=fals
+Timeout (0:01:00)!
+Thread 0x00000924 [ThreadPoolExecutor-5_9] (most recent call first):
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001a40 [ThreadPoolExecutor-5_8] (most recent call first):
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001eb4 [ThreadPoolExecutor-5_7] (most recent call first):
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00000b38 [ThreadPoolExecutor-5_6] (most recent call first):
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00003e28 [ThreadPoolExecutor-5_5] (most recent call first):
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000043bc [ThreadPoolExecutor-5_4] (most recent call first):
+  File "C:\Python314\Lib\socket.py", line 987 in getaddrinfo
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\util\connection.py", line 60 in create_connection
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\connection.py", line 239 in _new_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\connection.py", line 827 in connect
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 1125 in _validate_conn
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 470 in _make_request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 793 in urlopen
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\requests\adapters.py", line 696 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\requests\sessions.py", line 784 in send
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\requests\sessions.py", line 651 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\requests\api.py", line 71 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\requests\api.py", line 87 in get
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 135 in probe
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001610 [ThreadPoolExecutor-5_3] (most recent call first):
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002ca8 [ThreadPoolExecutor-5_2] (most recent call first):
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00003a64 [ThreadPoolExecutor-5_1] (most recent call first):
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00003440 [ThreadPoolExecutor-5_0] (most recent call first):
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 116 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00003870 [ThreadPoolExecutor-0_1] (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python314\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 106 in _http_get
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 118 in _fetch_card_json
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 394 in fetch_card
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002cf0 [ThreadPoolExecutor-0_0] (most recent call first):
+  File "C:\Python314\Lib\threading.py", line 369 in wait
+  File "C:\Python314\Lib\threading.py", line 670 in wait
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 237 in as_completed
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 143 in _find_basket_host
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 116 in _fetch_card_json
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 394 in fetch_card
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000046f8 [Thread-1 (watch)] (most recent call first):
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python314\Lib\threading.py", line 1024 in run
+  File "C:\Python314\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\Python314\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00003788 (most recent call first):
+  File "C:\Python314\Lib\threading.py", line 369 in wait
+  File "C:\Python314\Lib\threading.py", line 670 in wait
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 237 in as_completed
+  File "C:\R52\R52-2.12\r52\collectors\wb.py", line 398 in collect_by_search
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 80 in run
+  File "C:\R52\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\R52\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\R52\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 203 in _run_module_as_main
+2026-11-17 02:18:05,461 r52.autocollect.worker INFO source=WB phase=write_start returned=5 valid=5 stats={'requests': 0, 'success': 0, 'failed': 0, 'blocked': 0}
+2026-11-17 02:18:05,462 r52.collectors INFO WB: записан jarvis-eye-wb-f54ae88d.json
+2026-11-17 02:18:05,463 r52.collectors INFO WB: записан jarvis-eye-wb-df2389c6.json
+2026-11-17 02:18:05,463 r52.collectors INFO WB: записан jarvis-eye-wb-af61a890.json
+2026-11-17 02:18:05,464 r52.collectors INFO WB: записан jarvis-eye-wb-b1c76652.json
+2026-11-17 02:18:05,465 r52.collectors INFO WB: записан jarvis-eye-wb-4b9e4339.json
+2026-11-17 02:18:05,465 r52.autocollect.worker INFO source=WB phase=write_complete files=5
+2026-11-17 02:18:05,465 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-17 02:18:05,646 r52.autocollect.worker INFO source=WB phase=close_complete

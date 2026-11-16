@@ -1,0 +1,139 @@
+{
+  "version": "v43",
+  "timestamp": "2026-11-11T05:41:04.012627+10:00",
+  "platforms": {
+    "WB": {
+      "api_v4": [
+        {
+          "nm": "199298871",
+          "url": "https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&ab_testing=false&nm=199298871",
+          "http": 403,
+          "bytes": 0,
+          "time_s": 0.8,
+          "status": "HTTP_403",
+          "body_snippet": "",
+          "has_wbaas": false
+        },
+        {
+          "nm": "314337853",
+          "url": "https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&ab_testing=false&nm=314337853",
+          "http": 403,
+          "bytes": 0,
+          "time_s": 0.81,
+          "status": "HTTP_403",
+          "body_snippet": "",
+          "has_wbaas": false
+        }
+      ],
+      "html": [
+        {
+          "nm": "199298871",
+          "url": "https://www.wildberries.ru/catalog/199298871/detail.aspx",
+          "http": 498,
+          "bytes": 1136,
+          "time_s": 0.8,
+          "has_wbaas": true,
+          "has_challenge": true,
+          "title": "...",
+          "status": "HTTP_498"
+        }
+      ]
+    },
+    "OZON": [
+      {
+        "id": "1600562267",
+        "url": "https://www.ozon.ru/product/1600562267/",
+        "http": 403,
+        "bytes": 8493,
+        "time_s": 0.9,
+        "title": "Antibot Challenge Page",
+        "has_data_widget": false,
+        "has_error_widget": false,
+        "status": "HTTP_403"
+      },
+      {
+        "id": "1317678381",
+        "url": "https://www.ozon.ru/product/1317678381/",
+        "http": 403,
+        "bytes": 8521,
+        "time_s": 0.92,
+        "title": "Antibot Challenge Page",
+        "has_data_widget": false,
+        "has_error_widget": false,
+        "status": "HTTP_403"
+      }
+    ],
+    "AVITO": {
+      "mobile": [
+        {
+          "id": "1004567890",
+          "url": "https://m.avito.ru/ad/1004567890",
+          "status": "ERR: ImpersonateError: Impersonating iphone is not supported"
+        }
+      ],
+      "api": [
+        {
+          "url": "https://www.avito.ru/web/1/js/items?path=transport&f=0&q=телефон&maxPrice=100000",
+          "http": 429,
+          "bytes": 166,
+          "time_s": 0.82,
+          "status": "HTTP_429",
+          "body": "{\"too-many-requests\":{\"message\":\"Доступ с вашего IP-адреса временно ограничен\",\"link\":\"ru.avito:\\/\\/1\\/firewall\\/captcha\\/show\"}}\n"
+        }
+      ],
+      "home": {
+        "http": 429,
+        "bytes": 35048,
+        "time_s": 0.98,
+        "has_ip_limit": true
+      }
+    },
+    "FARPOST": [
+      {
+        "id": "125103161",
+        "url": "https://www.farpost.ru/kemerovo/zapchasti/akpp-nissan-mr20de-ustanovka-garantija-reof10a-gb57-125103161.html",
+        "hint": "АКПП Nissan MR20DE",
+        "http": 200,
+        "bytes": 216669,
+        "time_s": 1.43,
+        "title": "Автозапчасти — продажа запчастей для иномарок, отечественных и грузовых автомобилей, спецтехники — контрактные, новые | ",
+        "status": "PARSED",
+        "parsed_title": "Запчасти на авто",
+        "prices": [
+          {
+            "role": "regular",
+            "amount_minor": 110000,
+            "currency": "RUB",
+            "label": "JSON-LD price"
+          }
+        ],
+        "media_count": 17,
+        "category": "Авто и мото",
+        "desc_len": 243
+      },
+      {
+        "id": "16879823067",
+        "url": "https://www.farpost.ru/vladivostok/zapchasti/datchik-kisloroda-lynxauto-art-dm-2350-g16879823067.html",
+        "hint": "Датчик кислорода LYNXauto",
+        "http": 200,
+        "bytes": 45193,
+        "time_s": 0.9,
+        "title": "Датчик кислорода LYNXauto, арт. DM-2350 купить во Владивостоке по цене: 6 099&#8381; — объявление от компании &quot;Гипе",
+        "status": "PARSED",
+        "parsed_title": "Датчик кислорода LYNXauto, арт. DM-2350",
+        "prices": [
+          {
+            "role": "regular",
+            "amount_minor": 609900,
+            "currency": "RUB",
+            "label": "JSON-LD price"
+          }
+        ],
+        "media_count": 1,
+        "category": "Авто и мото > Автозапчасти > Выхлопная система",
+        "desc_len": 147
+      }
+    ]
+  },
+  "total_time_s": 30.5
+}

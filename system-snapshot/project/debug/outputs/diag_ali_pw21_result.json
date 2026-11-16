@@ -1,0 +1,333 @@
+{
+  "url": "https://www.aliexpress.com/item/1005011813323763.html",
+  "final_url": "https://www.aliexpress.us/item/3256811627009011.html?gatewayAdapt=glo2usa4itemAdapt",
+  "elapsed": 33.0,
+  "total_responses": 61,
+  "interesting_count": 30,
+  "mtop_like_count": 1,
+  "api_count": 7,
+  "interesting": [
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/js/index.js",
+      "len": 1307571,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "price",
+        "sku",
+        "product",
+        "item",
+        "salePrice",
+        "originalPrice",
+        "HEADER_IMAGE",
+        "SKUModule",
+        "GLOBAL_DATA",
+        "description",
+        "shipping",
+        "stock",
+        "availability"
+      ],
+      "preview": "(function(){var __webpack_modules__={94411:function(e,t,n){\"use strict\";n.d(t,{Z:function(){return h}});var r=n(4942),o=n(45987),i=n(87363),a=n.n(i),c=\"\\n.comet-icon {\\n  display: inline-block;\\n  color: inherit;\\n  font-style: normal;\\n  line-height: 0;\\n  text-align: center;\\n  text-transform: non"
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__en.js",
+      "len": 861624,
+      "ct": "text/javascript",
+      "hits": [
+        "title",
+        "item",
+        "description"
+      ],
+      "preview": "(function(){/*\n\n Copyright The Closure Library Authors.\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n\n Copyright Google LLC\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n Copyright The Closure Library Authors.\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n\n Copyright 2005, 2007 Bob Ippolito. All Rights Rese"
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__en.js",
+      "len": 861624,
+      "ct": "text/javascript",
+      "hits": [
+        "title",
+        "item",
+        "description"
+      ],
+      "preview": "(function(){/*\n\n Copyright The Closure Library Authors.\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n\n Copyright Google LLC\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n Copyright The Closure Library Authors.\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n\n Copyright 2005, 2007 Bob Ippolito. All Rights Rese"
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__en.js",
+      "len": 861624,
+      "ct": "text/javascript",
+      "hits": [
+        "title",
+        "item",
+        "description"
+      ],
+      "preview": "(function(){/*\n\n Copyright The Closure Library Authors.\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n\n Copyright Google LLC\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n Copyright The Closure Library Authors.\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n\n Copyright 2005, 2007 Bob Ippolito. All Rights Rese"
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__en.js",
+      "len": 861624,
+      "ct": "text/javascript",
+      "hits": [
+        "title",
+        "item",
+        "description"
+      ],
+      "preview": "(function(){/*\n\n Copyright The Closure Library Authors.\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n\n Copyright Google LLC\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n Copyright The Closure Library Authors.\n SPDX-License-Identifier: Apache-2.0\n*/\n/*\n\n Copyright 2005, 2007 Bob Ippolito. All Rights Rese"
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/gcom/ug-comp-assets/1.1.80/batman.js",
+      "len": 848290,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "price",
+        "sku",
+        "product",
+        "item",
+        "description"
+      ],
+      "preview": "!function(e){function t(t){for(var n,r,o=t[0],i=t[1],c=0,s=[];c<o.length;c++)r=o[c],Object.prototype.hasOwnProperty.call(a,r)&&a[r]&&s.push(a[r][0]),a[r]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(u&&u(t);s.length;)s.shift()()}var n={},r={0:0},a={0:0};function o(t){if(n["
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-dida/shoppingcart/1.0.69/sidecart.js",
+      "len": 530588,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "price",
+        "sku",
+        "product",
+        "item",
+        "description",
+        "shipping",
+        "stock"
+      ],
+      "preview": "!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){\"undefined\"!=typeof Symbol&&Symbol.t"
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/a227ca/61F4nKXFqoL/0.0.4/f4e643dc9d425543fc645b3a01b9e0fa.js",
+      "len": 462777,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "item",
+        "description"
+      ],
+      "preview": "!function(){function r(){function r(r){for(var e=1;void 0!==e;){var _,s,i=7&e>>3;switch(7&e){case 0:void(1==i?(B+=4,e=2):i<1?e=4:2==i?e=24:i>2&&(e=n?8:2));break;case 1:var n=0,v=[],B=0;e=16;break;case 2:n=1;var l=B<r.length;e=l?3:0;break;case 3:var k,j,$,a,d,x,E,T,L,t,N,X=r[B]<<24|r[B+1]<<16|r[B+2]<"
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/page-header-ui/0.0.97/js/index.js",
+      "len": 382335,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "price",
+        "sku",
+        "product",
+        "item",
+        "description",
+        "shipping",
+        "availability"
+      ],
+      "preview": "!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){\"undefined\"!=typeof Symbol&&Symbol.t"
+    },
+    {
+      "url": "https://assets.alicdn.com/g/??bsop-static/sufei-punish/0.1.65/build/htmltocanvas.min.js,sd/sufei-utils/0.0.3/sufeiUtils.js",
+      "len": 214909,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "item"
+      ],
+      "preview": "!function(A){var e={};function t(r){if(e[r])return e[r].exports;var B=e[r]={i:r,l:!1,exports:{}};return A[r].call(B.exports,B,B.exports,t),B.l=!0,B.exports}t.m=A,t.c=e,t.d=function(A,e,r){t.o(A,e)||Object.defineProperty(A,e,{enumerable:!0,get:r})},t.r=function(A){\"undefined\"!=typeof Symbol&&Symbol.t"
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/findSimilar-3hO2L~gallery-9g91h~list-88mY4~rcmd-9jQqC~slider-kTGCl~waterfall-VLHdM.js",
+      "len": 210137,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "price",
+        "sku",
+        "product",
+        "item",
+        "salePrice",
+        "originalPrice",
+        "description"
+      ],
+      "preview": "(window[\"webpackJsonp-ae-fe/cosmos-1\"]=window[\"webpackJsonp-ae-fe/cosmos-1\"]||[]).push([[1,40,45],{104:function(e,t,n){\"use strict\";n.d(t,\"c\",(function(){return l})),n.d(t,\"a\",(function(){return c})),n.d(t,\"g\",(function(){return s})),n.d(t,\"e\",(function(){return u})),n.d(t,\"f\",(function(){return d})"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.us/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794494901501&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.",
+      "len": 158690,
+      "ct": "application/json;charset=UTF-8",
+      "hits": [
+        "title",
+        "item"
+      ],
+      "preview": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"abTestInfo\":{\"enableNewShading\":true},\"headerAtmosphere\":{},\"mods\":{\"itemList\":{\"content\":[{\"search_clk_action\":\"search\",\"image\":{},\"result_desc\":\"normal\",\"icon\":{},\"page_num\":0,\"action\":{\"action\":\"\",\"style\":\"\",\"content\":\"Home Sh"
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/global/0.0.3/index.js",
+      "len": 157288,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "product",
+        "item"
+      ],
+      "preview": "!function(e){var t={};function n(r){if(t[r])return t[r].exports;var i=t[r]={i:r,l:!1,exports:{}};return e[r].call(i.exports,i,i.exports,n),i.l=!0,i.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){\"undefined\"!=typeof Symbol&&Symbol.t"
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/gdpr.js",
+      "len": 144419,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "sku",
+        "product",
+        "item"
+      ],
+      "preview": "(window[\"webpackJsonp-ae-fe/cosmos-1\"]=window[\"webpackJsonp-ae-fe/cosmos-1\"]||[]).push([[18],{1007:function(e,o){},1008:function(e,o,t){var i={};for(var n in i[\"en-us\"]=t(1009),i[\"ru-ru\"]=t(1010),i[\"es-es\"]=t(1011),i[\"fr-fr\"]=t(1012),i[\"pt-br\"]=t(1013),i[\"in-id\"]=t(1014),i[\"tr-tr\"]=t(1015),i[\"th-th\""
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/gep-sdk.js",
+      "len": 135470,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "product",
+        "item"
+      ],
+      "preview": "(window[\"webpackJsonp-ae-fe/cosmos-1\"]=window[\"webpackJsonp-ae-fe/cosmos-1\"]||[]).push([[19],{1e3:function(t,e,n){\"use strict\";function r(t,e){var n;if(\"undefined\"==typeof Symbol||null==t[Symbol.iterator]){if(Array.isArray(t)||(n=function(t,e){if(!t)return;if(\"string\"==typeof t)return o(t,e);var n=O"
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/index.js",
+      "len": 112640,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "price",
+        "product"
+      ],
+      "preview": "!function(e){function t(t){for(var n,r,i=t[0],a=t[1],u=0,c=[];u<i.length;u++)r=i[u],Object.prototype.hasOwnProperty.call(o,r)&&o[r]&&c.push(o[r][0]),o[r]=0;for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(e[n]=a[n]);for(s&&s(t);c.length;)c.shift()()}var n={},r={22:0,21:0,45:0},o={22:0,21:0,45:"
+    },
+    {
+      "url": "https://g.alicdn.com/trace/trace/1.3.22/??sdk.js,resourceError-plugin.js,perf-plugin.js",
+      "len": 96152,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "description"
+      ],
+      "preview": "!function(e,t){\"object\"==typeof exports&&\"object\"==typeof module?module.exports=t():\"function\"==typeof define&&define.amd?define([],t):\"object\"==typeof exports?exports.TraceSdk=t():e.TraceSdk=t()}(this,(function(){return function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,"
+    },
+    {
+      "url": "https://www.redditstatic.com/ads/pixel.js",
+      "len": 91910,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "price",
+        "product",
+        "item",
+        "description"
+      ],
+      "preview": "!function(){var r={21:function(r,n,t){var e;r.exports=(e=e||function(r,n){var e;if(\"undefined\"!=typeof window&&window.crypto&&(e=window.crypto),\"undefined\"!=typeof self&&self.crypto&&(e=self.crypto),\"undefined\"!=typeof globalThis&&globalThis.crypto&&(e=globalThis.crypto),!e&&\"undefined\"!=typeof wind"
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/comet-pro-shipto-bLCM2~ship-to-setting.js",
+      "len": 71786,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "price",
+        "product",
+        "item",
+        "shipping"
+      ],
+      "preview": "(window[\"webpackJsonp-ae-fe/cosmos-1\"]=window[\"webpackJsonp-ae-fe/cosmos-1\"]||[]).push([[7],{1237:function(e,t,n){\"use strict\";n.r(t),n.d(t,\"queryUserAddress\",(function(){return c})),n.d(t,\"clearDefaultChangeFlag\",(function(){return w})),n.d(t,\"defaultChangeShipto\",(function(){return K})),n.d(t,\"Cou"
+    },
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/comet-pro-shipto-bLCM2~login~ship-to-setting.js",
+      "len": 64757,
+      "ct": "application/javascript",
+      "hits": [
+        "title",
+        "product"
+      ],
+      "preview": "(window[\"webpackJsonp-ae-fe/cosmos-1\"]=window[\"webpackJsonp-ae-fe/cosmos-1\"]||[]).push([[3],{100:function(e,t,r){\"use strict\";r.d(t,\"a\",(function(){return c}));var n=r(39),o=r.n(n),a=r(32),c=Object(n.createContext)({getPrefixCls:a.defaultGetPrefixCls,locale:a.defaultConfig.locale,direction:a.default"
+    }
+  ],
+  "mtop_like": [
+    {
+      "url": "https://acs.aliexpress.us/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794494900161&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0",
+      "len": 17538,
+      "preview": " mtopjsonp1({\"api\":\"mtop.aliexpress.pdp.pc.query\",\"data\":{\"result\":{\"GLOBAL_DATA\":{\"globalData\":{\"bigBossBan\":true,\"errorCode\":\"SITEM_BAN_NO_AVAIL_SKU\",\"bigBossBanTip\":\"Sorry, this item's currently unavailable in your location.\",\"i18n\":{\"SKUModule\":{\"SIZING_INFO\":\"Size Info\",\"BUST_PROMPT\":\"Please se"
+    }
+  ],
+  "api": [
+    {
+      "url": "https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/js/index.js",
+      "len": 1307571,
+      "preview": "(function(){var __webpack_modules__={94411:function(e,t,n){\"use strict\";n.d(t,{Z:function(){return h}});var r=n(4942),o=n(45987),i=n(87363),a=n.n(i),c=\"\\n.comet-icon {\\n  display: inline-block;\\n  color: inherit;\\n  font-style: normal;\\n  line-height: 0;\\n  text-align: center;\\n  text-transform: non"
+    },
+    {
+      "url": "https://acs.aliexpress.us/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794494900161&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0",
+      "len": 17538,
+      "preview": " mtopjsonp1({\"api\":\"mtop.aliexpress.pdp.pc.query\",\"data\":{\"result\":{\"GLOBAL_DATA\":{\"globalData\":{\"bigBossBan\":true,\"errorCode\":\"SITEM_BAN_NO_AVAIL_SKU\",\"bigBossBanTip\":\"Sorry, this item's currently unavailable in your location.\",\"i18n\":{\"SKUModule\":{\"SIZING_INFO\":\"Size Info\",\"BUST_PROMPT\":\"Please se"
+    },
+    {
+      "url": "https://acs.aliexpress.us/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794494901501&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.Aliexp",
+      "len": 36739,
+      "preview": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"result\":[1],\"data\":{\"layoutInfo\":[\"categories\",\"subCategories\",\"rankList\",\"searchList\"],\"trace\":{\"exposure\":{},\"custom\":{},\"click\":{},\"utLogMap\":{\"query_from\":\"category_navigate\",\"streamId\":\"3460b3ad-cb7a-4f84-88c2-70502fd93466\","
+    },
+    {
+      "url": "https://recom-acs.aliexpress.us/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794494901501&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.",
+      "len": 1086,
+      "preview": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"img_search_pc_result_title\":\"Search results\",\"img_search_pc_no_result_tip\":\"Try choosing another item or upload another image\",\"img_search_pc_search_btn\":\"Search\",\"img_search_pc_subtitle\":\"Find what you love with better prices on"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.us/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=12574478&t=1794494901501&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.",
+      "len": 158690,
+      "preview": "{\"api\":\"mtop.relationrecommend.aliexpressrecommend.recommend\",\"data\":{\"abTestInfo\":{\"enableNewShading\":true},\"headerAtmosphere\":{},\"mods\":{\"itemList\":{\"content\":[{\"search_clk_action\":\"search\",\"image\":{},\"result_desc\":\"normal\",\"icon\":{},\"page_num\":0,\"action\":{\"action\":\"\",\"style\":\"\",\"content\":\"Home Sh"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.us/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794494901502&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.",
+      "len": 587,
+      "preview": "{\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://recom-acs.aliexpress.us:443//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?x5secdata=xgb84b0331e26d2e1fkn30209aead1e2902ed39f992e641b295f1794494905a-1168960602a489235973abax"
+    },
+    {
+      "url": "https://recom-acs.aliexpress.us/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/?jsv=2.5.1&appKey=24815441&t=1794494906583&sign=[REDACTED_AUTH_SECRET]&api=mtop.relationrecommend.",
+      "len": 587,
+      "preview": "{\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://recom-acs.aliexpress.us:443//h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?x5secdata=xg5da054ca636cfb26km0e1ae35cc00837bd24d4d4f8fe6172c71794494907a-1168960602a489235973abax"
+    }
+  ],
+  "dom": {
+    "og": {
+      "og:url": "//www.aliexpress.com/item/3256811627009011.html?src=ibdm_d03p0558e02r02&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=&aff_short_key=",
+      "og:title": "2026 New Wireless Bluetooth 5.4 Headphones Business Office LED Display Ultra-Long Battery Life Anti-Slip ENC Noise Cancellation - AliExpress 44",
+      "og:type": "product",
+      "og:image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+      "og:description": "Smarter Shopping, Better Living! Aliexpress.com",
+      "og:site_name": "aliexpress."
+    },
+    "h1": "Aliexpress",
+    "titleTag": null,
+    "prices": [],
+    "jsonld": [],
+    "states": {
+      "runParams": []
+    },
+    "scriptData": [
+      {
+        "len": 179532,
+        "preview": "/*! 2026-01-08 15:03:35 v8.15.25 */\n!function(e){function i(n){if(o[n])return o[n].exports;var r=o[n]={exports:{},id:n,loaded:!1};return e[n].call(r.e"
+      },
+      {
+        "len": 1389,
+        "preview": "\n!function(){\"use strict\";!function(){try{if(window.performance&&window.MutationObserver){var e=Date.now(),t=document.body||document.documentElement,r"
+      }
+    ],
+    "bodyLen": 85214
+  }
+}

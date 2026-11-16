@@ -1,0 +1,33 @@
+{
+  "PRE": {
+    "product": 5,
+    "observation": 18,
+    "price_point": 11,
+    "source": 6
+  },
+  "POST": {
+    "product": 5,
+    "observation": 19,
+    "price_point": 12,
+    "source": 6
+  },
+  "results": {
+    "FARPOST": {
+      "status": "E2E_OK",
+      "product_id": 5,
+      "title": "Шины",
+      "price_minor": 1800000
+    },
+    "WB": {
+      "status": "NO_DATA"
+    },
+    "OZON": {
+      "status": "NO_DATA",
+      "http": 403
+    },
+    "AVITO": {
+      "status": "NO_DATA",
+      "http": 439
+    }
+  }
+}

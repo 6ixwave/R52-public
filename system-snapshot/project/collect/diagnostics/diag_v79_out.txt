@@ -1,0 +1,38 @@
+2026-11-11 11:34:43,209 v79 INFO === V79 E2E ALL ===
+2026-11-11 11:34:43,256 v79 WARNING DB migrate: cannot import name 'apply_migrations' from 'r52.db.migrate' (C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\db\migrate.py)
+2026-11-11 11:34:43,263 v79 INFO PRE: {'product': 3, 'observation': 14, 'price_point': 7, 'source': 6}
+2026-11-11 11:34:43,264 v79 INFO === 1. FARPOST ===
+2026-11-11 11:34:44,691 v79 INFO FARPOST: HTTP 200, 52761B
+2026-11-11 11:34:44,737 v79 ERROR PERSIST FARPOST error: cannot import name 'ProductStore' from 'r52.store.products' (C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\store\products.py)
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v79_e2e_all.py", line 777, in persist_observation
+    from r52.store.products import ProductStore
+ImportError: cannot import name 'ProductStore' from 'r52.store.products' (C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\store\products.py)
+2026-11-11 11:34:44,758 v79 INFO === 2. OZON ===
+2026-11-11 11:34:44,933 v79 INFO OZON S1: plain requests, full headers
+2026-11-11 11:34:50,098 v79 INFO OZON S1 479010389: HTTP 403, 10055B
+2026-11-11 11:34:50,099 v79 INFO OZON S1 479010389: saved 403 body to diag_v79_ozon_403_479010389.html
+2026-11-11 11:34:53,591 v79 INFO OZON S1 1600562267: HTTP 403, 10027B
+2026-11-11 11:34:53,592 v79 INFO OZON S1 1600562267: saved 403 body to diag_v79_ozon_403_1600562267.html
+2026-11-11 11:34:53,592 v79 INFO OZON S2: curl_cffi chrome120
+2026-11-11 11:34:57,512 v79 INFO OZON S2 479010389: HTTP 403, 10547B
+2026-11-11 11:35:01,409 v79 INFO OZON S2 1600562267: HTTP 403, 10631B
+2026-11-11 11:35:01,409 v79 INFO OZON S3: curl_cffi firefox
+2026-11-11 11:35:05,325 v79 INFO OZON S3 479010389: HTTP 403, 8428B
+2026-11-11 11:35:09,271 v79 INFO OZON S3 1600562267: HTTP 403, 8400B
+2026-11-11 11:35:09,271 v79 INFO OZON S4: composer API via requests
+2026-11-11 11:35:16,909 v79 INFO OZON S5: mobile URL
+2026-11-11 11:35:21,497 v79 INFO OZON S5 479010389: HTTP 403, 5281B
+2026-11-11 11:35:24,970 v79 INFO OZON S5 1600562267: HTTP 403, 5281B
+2026-11-11 11:35:24,970 v79 INFO === 3. WILDBERRIES ===
+2026-11-11 11:35:24,970 v79 INFO WB 1: basket CDN card.json
+2026-11-11 11:35:37,319 v79 INFO WB basket: basket-13.wbbasket.ru OK (24 keys, 9623B)
+2026-11-11 11:35:37,319 v79 INFO WB 2: price via plain requests
+2026-11-11 11:35:40,117 v79 INFO WB price card_v1_req: HTTP 403, 0B
+2026-11-11 11:35:42,501 v79 INFO WB price card_v2_req: HTTP 403, 0B
+2026-11-11 11:35:45,276 v79 INFO WB price web_api_req: HTTP 498, 1136B
+2026-11-11 11:35:47,659 v79 INFO WB price web_api_v2: HTTP 498, 1136B
+2026-11-11 11:35:47,659 v79 INFO WB 3: price via curl_cffi chrome120
+2026-11-11 11:35:50,475 v79 INFO WB price c120 card_v1_req: HTTP 403, 0B
+2026-11-11 11:35:53,280 v79 INFO WB price c120 card_v2_req: HTTP 403, 0B
+2026-11-11 11:35:53,280 v79 INFO WB 4: static-basket price.json

@@ -1,0 +1,32 @@
+{
+  "farpost_live": {
+    "error": "no live product found in first 8"
+  },
+  "ozon_composer_562267": {
+    "status": 403,
+    "dt": 1.65,
+    "len": 1081,
+    "head_2000": "\n\n{\"incidentId\": \"fab_20261113101540_01M7A6FRAKYY4M4478BZJSHRXZ\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261113101540_01M7A6FRAKYY4M4478BZJSHRXZ&token=[REDACTED_AUTH_SECRET]\n\n"
+  },
+  "ozon_entrypoint_562267": {
+    "status": 403,
+    "dt": 1.64,
+    "len": 6007,
+    "head_2000": "\n\n{\"incidentId\": \"fab_chlg_20261113101542_01M7A6FTWZ0E54J83Z37MKNA4G\", \"challengeURL\": \"https://www.ozon.ru/challenge.html?challenge=NFDNDdfNSxmYWJfY2hsZ18yMDI2MTExMzEwMTU0Ml8wMU03QTZGVFdaMEU1NEo4M1ozN01LTkE0RyxzYzpPYzFEdUozY3dXQWZmUHNyck1md1hBOmJ6NU1sYnhQZm9JNnluamRMaFBQZElyb2JFODFxWjA4Skp5Y0d5M0ZjejJfSFFjSDJBbXF3bHViYVRlZnpYOXBFUS02ZVJFOW9Gdkk4dHJpNDEwVnFEMVQ3YkxLUGdqQk1PcHRFdG16Q0h6bzYzZm1IWlJ5RVcxOEptb1Rrcm9pWHlmNzdzNW4xZWc5ZDlNWmp6Q2FLSzlqalU0Q2lqY05FNVE0TkM0bkFiYjVhb09VV2FxWEVjNXJkVUZSdDdxc2k1VlpITmpUYllUc1hOSnVObjVOcXhuRS15RkhxVU5oYzh0dWxJTnRNYlUtM21GV29DWVZyeEdPcXNONGtIWVJ6eHRQQkE2cVBWSGhfMFN6TFM5ZjdNMFZyTFFkWS1OdDY2RG4zRG1hS0p6clotcjZXREpxWk53YS1TQlF3SDBxMFBmRTJpUzQyQmFsanQyUkliSTVjU1pLaER6NUhIaWVod1VGN0Q5Rk1jajFHaXJrNm1rWmVIRnVPZXppZ1RQRzNlajJrWFR0NFBOVUJ4SV9VdWt3QjQzYUYwTDM2bHQ0RVlCT0ljNDRlc0dhMHlQckF0N3NqcnhFZVZsekNvU0lfYzZORUZvczlFZkZSaWFFSXZuTElCa2RFNXJ1SFBmaG80WlctczJkdUhNVzkycE1kMzRONWk4WUNDVHd5TGJFaHYwYk5CSnV5UkdIcjJlNU50TEVhMFc4WHBWS0tBWE1jeUJtcTA4NVVsNldFUTJMd0NpWjVURFlJcGR2SWdpdG1zRlVCYW56R0xqN2kwbm1odXRBTzd5Q3FfS2tGdlgwT3BQRkVLR3FrLTdNaUtoLThaeDVKNXktS3VBQ1ZQeEUyNDZzRVd3aHhkMXh6dzlJemtiSllHMm1Xa3dqdWpGOTFram9BS0kwMVNPcU1sT2NqcXM3NjduaVJwZWxQUndUdU9NeFJybF83eUkxTDBQQzhNSzVzbkhHZTZrY2wxYW1OUTJVZFRkMXU0dmZqSElfSlNvMzZwSnk3NVRwU1IwLXdTcjZYVXUwbWZfSzBUcnBzTFV3cXhhS1BOUFVqemJYVVZDVU81YWU0MVVyRE53empSN0pfZk5VcnpWMlFvTFRtbW5lUXdPN2lPM1Y0RUxfTEU1MlF4YTljYldNSVp2d2QzN3lLaXFDVVE3YWc5OEhWUW9GcWtXU2gzTVc4TWNUMV9ubnBVRVZoSlY4QVBiaVBoYmxmNE9BQ1RkLXUtc0dpRHBkREl4eVRmWFAyRzRlTGhwZHZOR0ZtOUYzZTlKbFBVOGlUSzZlR2J3QkFQUG9DS2V6OWt0ZDQtcm1xSkUyZ1pGamZnUHV4MmJ0NWhRSHFiOW80eWVJWU1JRUpfZGRTOXNzWEpvN3NDSkloVC1TazNaWFVyZFRtb2pwZ3VNRVFvMVRtem9kak9MMDdRZWQ4bmJmN09rbUx1dmM4cGhvMVF3QXk4RjZrSWRxQ3RISEZpQjB2OV9JTDc2VHV1SEdoZXFzR2ltRld3eWJuZlRnUThmdFJhRTltRnlFMDM0QTlSTmNlNFU0Yjl6a3lKLVcxTWFiZ2REalkzY1Q3YTN4YUxVUmlDRDNqMGQ1c3l5cVFkN3Z5MVJkYTA0SUJ0WEp1bXhRU1FhXzY2bE84dm9lNUh4VXNZZ2g3T2RRRzFycDBSX3pkQ3RqcEJCLUJhb2RNNHZIYkswTFZXcGpTbmpQTlBncXZ6ZVN0dGZJcjhjRXpTaEZaS0xMQ0VtVFo5MnFMYmlR"
+  },
+  "ozon_html_562267": {
+    "status": 403,
+    "dt": 1.04,
+    "len": 8371,
+    "has_jsonld": false,
+    "has_og_title": false,
+    "has_webprice": false,
+    "has_state": false,
+    "has_error_widget": false,
+    "has_title_tag": true,
+    "head_3000": "\n\n    \n\n<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1\">\n  <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">\n  <link rel=\"stylesheet\" href=\"https://cdn2.ozone.ru/s3/abt-challenge/incidents/styles_v2/common.css\">\n  <title>Antibot Challenge Page</title>\n  <link rel=\"stylesheet\" href=\"https://cdn2.ozone.ru/s3/abt-challenge/style_v47_5.css\">\n</head>\n\n<body>\n  <noscript>\n    <div class=\"container\">\n      <div class=\"message\">\n        <div class=\"variant\">\n          <h2 class=\"h2\">Пожалуйста, включите JavaScript для продолжения</h2>\n          <span class=\"subtitle\">Нам нужно убедиться, что вы не робот.</span>\n        </div>\n        <div class=\"variant\" lang=\"en\">\n          <h2 class=\"h2\">Please, enable JavaScript to continue</h2>\n          <span class=\"subtitle\">We need to make sure that you are not a robot.</span>\n        </div>\n      </div>\n      <div class=\"details\">\n        <span class=\"details-text\"><b>ID:</b> fab_chlg_20261113101544_01M7A6FWWP4JN6KAEGB2DY6XRD</span>,\n        <span class=\"details-text\"><b>IP:</b> 82.162.122.156</span>,\n        <span class=\"details-text\">Friday, 13-Nov-2026 10:15:44 UTC</span>\n      </div>\n    </div>\n  </noscript>\n  <div class=\"container\" id=\"container\">\n    <div class=\"content\" id=\"content\">\n      <input id=\"challenge\" type=\"hidden\" value=\"WzANDdfNSxmYWJfY2hsZ18yMDI2MTExMzEwMTU0NF8wMU03QTZGV1dQNEpONktBRUdCMkRZNlhSRCxzYzpsSGpmVkN4WHVVZEMycjl6THlTdE1BOkZQTktmSEM4VlBuY0FIWnRSR20wY3I2bENPRHlSUnlBMUxyT2thR19WSHp4V3g1ZzM2b0RPNnpkaUVFdXZFMGlMMkRRZEhITVVuZ3lhY3FDcUVmYUJsanMtTnN4VGtxWC1WQVlfdy0zS2x0Tzg1ZGhGMnhqX2NfeWRBRnlxYWVva0RGa0JaRzZ5OXhSaWt1aGlJeXA4ZkRuVml4M1NKUm1XdEVNbDM4VFk5R2YyNTlJMG9QbjJ5Y2pyMS0zZHlRMzZBYjctZUs2UmZpdW9HM3Q3WlR0WkpGcU04SG5mWnVGNEhHUGZKT2lfVFpDT1FWVmdVWkxBSTNUMGNwekNRU2ZVMkp4OFhybzdPNW5pVXU4RXU3amZEbVRGM1FpTzhGOW05aFl5c3QyVTczMzFMdDBwcDg0UmtfMlg4d1YxTG4tXzAyb0M1NUhrZ2cyWVZSeVJoS213WkhJMmM4NUVxUklEWkl6M2Jtc3JFdi1jYjdrb2JpRVdYVTk1RnI4NEVoWEtYMWVBOWNIYV9GTVQtMzlMQjI2OVdiSXMxSkZvMGNSR1N2d3c2Ry0zQjFoTTVVckxkbUJud3BWT0RWRC1xRmpNTWwzLWFwWFNTbXJwcG9xMHFiN1h6Sk8tMFQzT0FHN1FpTngyX3Q5OFpIRmhsQ0x5am1kUnBYVVJNT3BKV185U1FJandndzAxSnZLQUhQZmpfRVplcXNSaDFiMnl2cnp3NkFqTXEyVHN2N0FBV0xoSnFVRjd2QTNWSHN0eHB3QlJJamM2dVNpUVZtNzkwM0VENmljQVptY1VhTDVLbmZFVFpIMllFaE93RlpPbXQydEgwanZQZlBqZWlJTGdDNDVUbWdUQ0lMaUFqQ3VaZHJoaUVQMHBybDZ4VDhQYjFPUHRVWFl6V2J0UnRVRThkNzNCYThnUUpQVmFpUFV5VjFCVXJtbGRlcHJXYk9aZndGRzMwQzE5ZDJNTWo5eU9FaU1mVkxMOEdseldzdGpBUjhEMXBjVlFJelRnWGZNU1hvb0VoR0NuQmhMc21YZkUtZkNrNTh4bDkxRGVXUDIzdE56TVRaQjBGb2RhQ3lKWkN3a1dpRkI5QmI2eEU5bUhyS2FCdW5lQ29fQ1FENU1uY1RzZ3lZaHRYX29oNjVzQ0YtQ2RjdDFRSnRKWjVsRGRxZkczWmttSEFMNkJyajVFQUtETFdDaGh5ajNoOE0xNUNJTTRRR2NnaVV5U0huV3YzRTZuRWxEeXIyNzRSbTFoX01relIyWXVfZGJRV3U1b3U3aFdUaThsdXVhTTZ1cmtFRmEzb05ldUI4VmR2YXRGM3F3ZEZpSkZJWGlaUjM5U2VweENZeTNqLU51SFROdF9kS0JQTGtlM1VOSW45T0R4c2F5aEdOVFF5Z1BxWThnVVphUU1udTQ2UE1ITk"
+  },
+  "wb_basket": {
+    "error": "HTTPSConnectionPool(host='basket-10979.wbbasket.ru', port=443): Max retries exceeded with url: /vol109/part1097/1097975/info/ru/card.json (Caused by NameResolutionError(\"HTTPSConnection(host='basket-10979.wbbasket.ru', port=443): Failed to resolve 'basket-10979.wbbasket.ru' ([Errno 11001] getaddrinfo failed)\"))"
+  }
+}

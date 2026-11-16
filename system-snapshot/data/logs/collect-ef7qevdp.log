@@ -1,0 +1,17 @@
+<frozen runpy>:130: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-17 01:15:50,929 r52.autocollect.worker INFO phase=worker_start pid=21188
+2026-11-17 01:15:50,945 r52.autocollect.worker INFO source=WB mode=discover phase=initialize
+2026-11-17 01:15:50,946 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-17 01:15:50,952 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-17 01:15:50,953 r52.autocollect.worker INFO source=WB phase=search_start page=1 limit=5
+2026-11-17 01:15:58,249 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-17 01:16:09,611 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 16 bodies, best 196585B from https://www.wildberries.ru/__internal/u-recom/personal/v9/search?ab_testing=fals
+2026-11-17 01:16:25,498 r52.autocollect.worker INFO source=WB phase=write_start returned=5 valid=5 stats={'requests': 0, 'success': 0, 'failed': 0, 'blocked': 0}
+2026-11-17 01:16:25,499 r52.collectors INFO WB: записан jarvis-eye-wb-9595f344.json
+2026-11-17 01:16:25,500 r52.collectors INFO WB: записан jarvis-eye-wb-ddedbd68.json
+2026-11-17 01:16:25,501 r52.collectors INFO WB: записан jarvis-eye-wb-28a8fef0.json
+2026-11-17 01:16:25,502 r52.collectors INFO WB: записан jarvis-eye-wb-489ea130.json
+2026-11-17 01:16:25,503 r52.collectors INFO WB: записан jarvis-eye-wb-29903834.json
+2026-11-17 01:16:25,503 r52.autocollect.worker INFO source=WB phase=write_complete files=5
+2026-11-17 01:16:25,503 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-17 01:16:25,744 r52.autocollect.worker INFO source=WB phase=close_complete

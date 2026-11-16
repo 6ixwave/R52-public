@@ -1,0 +1,56 @@
+2026-11-11 00:02:20,514 INFO ============================================================
+2026-11-11 00:02:20,514 INFO OZON: offline parse of v35_OZON_prod1.html (new data-widget)
+2026-11-11 00:02:20,514 INFO ============================================================
+2026-11-11 00:02:20,517 INFO   Loaded 600000 chars, 1065 lines
+2026-11-11 00:02:20,518 INFO   Title: Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра
+2026-11-11 00:02:20,534 INFO   Prices found: 30
+2026-11-11 00:02:20,535 INFO            246 ₽  [246 ₽]
+2026-11-11 00:02:20,536 INFO            936 ₽  [936 ₽]
+2026-11-11 00:02:20,537 INFO            278 ₽  [278 ₽]
+2026-11-11 00:02:20,537 INFO            399 ₽  [399 ₽]
+2026-11-11 00:02:20,537 INFO            399 ₽  [399 ₽]
+2026-11-11 00:02:20,538 INFO   Category: Хобби и творчество > Рукоделие > Шитье > Ткани, подкладочные материалы и дублерин > Айхал
+2026-11-11 00:02:20,545 INFO   Rating: 4.9, Reviews: 12972
+2026-11-11 00:02:20,567 INFO   Images: 53
+2026-11-11 00:02:20,568 INFO     https://ir.ozone.ru/s3/video-73/01M4NC004MXGTQBTYAT3WZNTP3/cover/wc200/cover.jpg
+2026-11-11 00:02:20,568 INFO     https://ir.ozone.ru/s3/multimedia-1-5/wc500/11736843809.jpg
+2026-11-11 00:02:20,568 INFO     https://ir.ozone.ru/s3/video-73/01M60MN5E81EQYVB81XMP92QZP/cover/wc200/cover.jpg
+2026-11-11 00:02:20,584 INFO   Videos: 0
+2026-11-11 00:02:20,584 INFO   Description: Ткань для обивки микровелюр с шикарным абстрактным рисунком - эта коллекция пользуется широким спрос
+2026-11-11 00:02:20,584 INFO   SKU: 562267
+2026-11-11 00:02:20,585 INFO   Widgets (45): addressBookBarWeb, bigPromoPDP, blockVertical, breadCrumbs, catalogMenu, column, container, customHtml, favoriteCounter, header, headerIcon, horizontalMenu, orderInfo, paginator, pixel
+2026-11-11 00:02:20,585 INFO   OG meta: {'image': 'https://ir.ozone.ru/s3/multimedia-1-o/c600/7362987720.jpg', 'type': 'website', 'site_name': 'Ozon', 'url': 'https://www.ozon.ru/product/tkan-dlya-obivki-mebeli-velyur-s-abstraktnym-printom-otrez-3-metra-1600562267/', 'title': 'Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра ', 'description': 'Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. Распродажи, с'}
+2026-11-11 00:02:20,586 INFO   Layout paths: 44
+2026-11-11 00:02:20,587 INFO   OZON_offline_parse             PARSED          title=True prices=30 imgs=53 widgets=45
+2026-11-11 00:02:20,587 INFO ============================================================
+2026-11-11 00:02:20,587 INFO WB: card.wb.ru API with proper headers
+2026-11-11 00:02:20,587 INFO ============================================================
+2026-11-11 00:02:21,446 INFO   WB_v2_origin                   EMPTY           403 0b 0.9s
+2026-11-11 00:02:23,852 INFO   WB_v2_slim                     EMPTY           403 0b 0.4s
+2026-11-11 00:02:37,388 INFO   WB_nm_api                      ERROR           HTTPSConnectionPool(host='wbx-api.wildberries.ru', port=443): Max retries exceed
+2026-11-11 00:02:40,195 INFO   WB_web_api                     CHALLENGE       498 1136b 0.8s
+2026-11-11 00:02:43,007 INFO   WB_search_api                  EMPTY           403 0b 0.8s
+2026-11-11 00:02:45,008 INFO ============================================================
+2026-11-11 00:02:45,008 INFO AVITO: mobile + API attempts
+2026-11-11 00:02:45,008 INFO ============================================================
+2026-11-11 00:02:45,805 INFO   AVITO_m_api                    NOT_FOUND       404 153b 0.8s
+2026-11-11 00:02:48,389 INFO   AVITO_m_page                   IP_BLOCK        429 35048b 0.6s
+2026-11-11 00:02:51,026 INFO   AVITO_m_home                   IP_BLOCK        429 35048b 0.6s
+2026-11-11 00:02:53,843 INFO   AVITO_api_search               NOT_FOUND       404 555b 0.8s
+2026-11-11 00:02:55,845 INFO 
+Results → C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v36_results.json
+
+===========================================================================
+KEY                            VERDICT         NOTE
+---------------------------------------------------------------------------
+OZON_offline_parse             PARSED          title=True prices=30 imgs=53 widgets=45
+WB_v2_origin                   EMPTY           403 0b 0.9s
+WB_v2_slim                     EMPTY           403 0b 0.4s
+WB_nm_api                      ERROR           HTTPSConnectionPool(host='wbx-api.wildberries.ru',
+WB_web_api                     CHALLENGE       498 1136b 0.8s
+WB_search_api                  EMPTY           403 0b 0.8s
+AVITO_m_api                    NOT_FOUND       404 153b 0.8s
+AVITO_m_page                   IP_BLOCK        429 35048b 0.6s
+AVITO_m_home                   IP_BLOCK        429 35048b 0.6s
+AVITO_api_search               NOT_FOUND       404 555b 0.8s
+===========================================================================

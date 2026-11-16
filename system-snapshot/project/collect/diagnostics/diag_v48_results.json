@@ -1,0 +1,112 @@
+{
+  "version": "v48",
+  "timestamp": "2026-11-11T07:04:01.761587+10:00",
+  "platforms": {
+    "FARPOST": {
+      "strategies": [
+        {
+          "strategy": "cffi_recheck",
+          "id": "16879823067",
+          "url": "https://www.farpost.ru/vladivostok/zapchasti/datchik-kisloroda-lynxauto-art-dm-2350-g16879823067.html",
+          "time_s": 1.06,
+          "http": 200,
+          "html_len": 45193,
+          "jsonld_count": 3,
+          "product_name": "Датчик кислорода LYNXauto, арт. DM-2350",
+          "price": 6099,
+          "price_currency": "RUB",
+          "og_title": "",
+          "h1": "Датчик кислорода LYNXauto, арт. DM-2350 во Владивостоке",
+          "html_saved": "diag_v48_fp_16879823067.html"
+        }
+      ]
+    },
+    "WB": {
+      "strategies": [
+        {
+          "strategy": "pw_wbaas",
+          "nm": "199298871",
+          "url": "https://www.wildberries.ru/catalog/199298871/detail.aspx",
+          "time_s": 17.16,
+          "title": "...",
+          "html_len": 7590,
+          "has_wbaas": true,
+          "jsonld_count": 0,
+          "og": {},
+          "h1": "Что-то не так...",
+          "html_saved": "diag_v48_wb_199298871.html"
+        },
+        {
+          "strategy": "pw_wbaas",
+          "nm": "314337853",
+          "url": "https://www.wildberries.ru/catalog/314337853/detail.aspx",
+          "time_s": 9.15,
+          "title": "...",
+          "html_len": 7590,
+          "has_wbaas": true,
+          "jsonld_count": 0,
+          "og": {},
+          "h1": "Что-то не так...",
+          "html_saved": "diag_v48_wb_314337853.html"
+        }
+      ]
+    },
+    "OZON": {
+      "strategies": [
+        {
+          "strategy": "pw_antibot",
+          "id": "1600562267",
+          "url": "https://www.ozon.ru/product/1600562267/",
+          "time_s": 15.79,
+          "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра купить на OZON по низкой цене (1600562267)",
+          "html_len": 1087146,
+          "has_antibot": false,
+          "widgets": [],
+          "jsonld_count": 1,
+          "jsonld_0": "{\"@context\": \"http://schema.org\", \"@type\": \"Product\", \"aggregateRating\": {\"@type\": \"AggregateRating\", \"ratingValue\": \"4.9\", \"reviewCount\": \"12980\"}, \"brand\": \"Айхал\", \"description\": \"Ткань для обивки микровелюр с шикарным абстрактным рисунком - эта коллекция пользуется широким спросом, среди дизайне",
+          "og": {
+            "image": "https://ir.ozone.ru/s3/multimedia-1-o/c600/7362987720.jpg",
+            "type": "website",
+            "site_name": "Ozon",
+            "url": "https://www.ozon.ru/product/tkan-dlya-obivki-mebeli-velyur-s-abstraktnym-printom-otrez-3-metra-16005",
+            "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра ",
+            "description": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра – покупайте на OZON по выгодным "
+          },
+          "h1": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра",
+          "html_saved": "diag_v48_ozon_1600562267.html"
+        }
+      ]
+    },
+    "AVITO": {
+      "strategies": [
+        {
+          "strategy": "pw_439",
+          "url": "https://www.avito.ru/moscow/elektronika/iphone-1154321987",
+          "time_s": 10.78,
+          "http": 439,
+          "title": "Доступ ограничен: проблема с IP",
+          "html_len": 36451,
+          "has_ip_limit": true,
+          "jsonld_count": 0,
+          "og": {},
+          "h1": "Страница не загрузилась из-за проблем с&nbsp;IP",
+          "html_saved": "diag_v48_avito_iphone-1154321987.html"
+        },
+        {
+          "strategy": "pw_439",
+          "url": "https://www.avito.ru/moscow/elektronika/iphone-1198765432",
+          "time_s": 9.52,
+          "http": 429,
+          "title": "Доступ ограничен: проблема с IP",
+          "html_len": 36447,
+          "has_ip_limit": true,
+          "jsonld_count": 0,
+          "og": {},
+          "h1": "Страница не загрузилась из-за проблем с&nbsp;IP",
+          "html_saved": "diag_v48_avito_iphone-1198765432.html"
+        }
+      ]
+    }
+  },
+  "total_time_s": 77.7
+}

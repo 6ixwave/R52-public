@@ -1,0 +1,42 @@
+{
+  "WB:search_v5": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:web_base_v1": {
+    "ok": false,
+    "detail": "HTTP 498 body[:80]=<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"9cd828d5304740d"
+  },
+  "WB:card_dest0": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:html_meta": {
+    "ok": false,
+    "detail": "HTTP 498"
+  },
+  "OZON:entrypoint_api": {
+    "ok": false,
+    "detail": "HTTP 403 body[:100]=\n\n{\"incidentId\": \"fab_chlg_20261112054223_01M774ENDCJSGRKHWHN8NNHFV2\", \"challengeURL\": \"https://www."
+  },
+  "OZON:jsonld_html": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "OZON:composer_api": {
+    "ok": false,
+    "detail": "Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to g"
+  },
+  "AVITO:find_listing": {
+    "ok": false,
+    "detail": "using fallback id"
+  },
+  "AVITO:fetch_www": {
+    "ok": false,
+    "detail": "HTTP 404 len=29440"
+  },
+  "AVITO:fetch_m": {
+    "ok": false,
+    "detail": "HTTP 404 len=18752"
+  }
+}

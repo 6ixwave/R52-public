@@ -1,0 +1,2041 @@
+{
+  "ts": "2026-11-14T16:03:09.120623",
+  "db_path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\data\\test_home\\data\\r52.sqlite3",
+  "db_exists": true,
+  "sections": {
+    "all_tables": [
+      "assistant_action",
+      "assistant_analysis_request",
+      "assistant_llm_call",
+      "assistant_request",
+      "auto_delivery",
+      "auto_refresh",
+      "auto_source",
+      "auto_target",
+      "chat_message",
+      "chat_session",
+      "compare_group",
+      "compare_item",
+      "event",
+      "favorite",
+      "import_run",
+      "inbox_item",
+      "intake_file",
+      "notification",
+      "observation",
+      "price_point",
+      "product",
+      "schedule",
+      "schema_migrations",
+      "setting",
+      "source",
+      "sqlite_sequence",
+      "task",
+      "task_transition",
+      "watch"
+    ],
+    "key_tables_schema": {
+      "observation": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": true
+        },
+        {
+          "cid": 1,
+          "name": "product_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 2,
+          "name": "observed_at",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 3,
+          "name": "imported_at",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 4,
+          "name": "origin",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 5,
+          "name": "evidence_level",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 6,
+          "name": "availability",
+          "type": "TEXT",
+          "notnull": true,
+          "default": "'UNKNOWN'",
+          "pk": false
+        },
+        {
+          "cid": 7,
+          "name": "fingerprint",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 8,
+          "name": "normalized_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 9,
+          "name": "raw_json",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        }
+      ],
+      "auto_inbox": "NOT FOUND",
+      "auto_delivery": [
+        {
+          "cid": 0,
+          "name": "path",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": true
+        },
+        {
+          "cid": 1,
+          "name": "digest",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 2,
+          "name": "source",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 3,
+          "name": "listing_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        }
+      ],
+      "auto_target": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": true
+        },
+        {
+          "cid": 1,
+          "name": "source",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 2,
+          "name": "kind",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 3,
+          "name": "value",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 4,
+          "name": "enabled",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 5,
+          "name": "item_limit",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 6,
+          "name": "interval_seconds",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 7,
+          "name": "last_run",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 8,
+          "name": "page",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": "1",
+          "pk": false
+        },
+        {
+          "cid": 9,
+          "name": "origin",
+          "type": "TEXT",
+          "notnull": true,
+          "default": "'USER'",
+          "pk": false
+        }
+      ],
+      "auto_source": [
+        {
+          "cid": 0,
+          "name": "source",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": true
+        },
+        {
+          "cid": 1,
+          "name": "enabled",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": "1",
+          "pk": false
+        },
+        {
+          "cid": 2,
+          "name": "last_run",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 3,
+          "name": "last_result",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 4,
+          "name": "retry_after",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        }
+      ],
+      "auto_task": "NOT FOUND",
+      "auto_tasks": "NOT FOUND",
+      "task": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": true
+        },
+        {
+          "cid": 1,
+          "name": "kind",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 2,
+          "name": "origin",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 3,
+          "name": "params_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 4,
+          "name": "idempotency_key",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 5,
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 6,
+          "name": "attempt",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": "1",
+          "pk": false
+        },
+        {
+          "cid": 7,
+          "name": "progress",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": "0",
+          "pk": false
+        },
+        {
+          "cid": 8,
+          "name": "created_at",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 9,
+          "name": "started_at",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 10,
+          "name": "finished_at",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 11,
+          "name": "deadline_at",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 12,
+          "name": "cancel_requested",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": "0",
+          "pk": false
+        },
+        {
+          "cid": 13,
+          "name": "result_json",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 14,
+          "name": "error_code",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 15,
+          "name": "error_message",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        }
+      ],
+      "tasks": "NOT FOUND (similar: ['intake_file'])",
+      "product": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": true
+        },
+        {
+          "cid": 1,
+          "name": "source",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 2,
+          "name": "listing_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 3,
+          "name": "url",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 4,
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 5,
+          "name": "brand",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 6,
+          "name": "model",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 7,
+          "name": "origin",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 8,
+          "name": "search_text",
+          "type": "TEXT",
+          "notnull": true,
+          "default": "''",
+          "pk": false
+        },
+        {
+          "cid": 9,
+          "name": "created_at",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 10,
+          "name": "updated_at",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 11,
+          "name": "last_observation_id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 12,
+          "name": "last_seen_at",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 13,
+          "name": "last_currency",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 14,
+          "name": "last_regular_minor",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 15,
+          "name": "last_lowest_minor",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 16,
+          "name": "last_lowest_role",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 17,
+          "name": "last_availability",
+          "type": "TEXT",
+          "notnull": true,
+          "default": "'UNKNOWN'",
+          "pk": false
+        },
+        {
+          "cid": 18,
+          "name": "observation_count",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": "0",
+          "pk": false
+        },
+        {
+          "cid": 19,
+          "name": "image_data",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 20,
+          "name": "image_source_url",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 21,
+          "name": "image_observed_at",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 22,
+          "name": "category_path",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 23,
+          "name": "gallery_json",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": false
+        }
+      ],
+      "products": "NOT FOUND (similar: ['product'])",
+      "price": "NOT FOUND (similar: ['price_point'])",
+      "prices": "NOT FOUND (similar: ['price_point'])",
+      "migration": "NOT FOUND (similar: ['schema_migrations'])",
+      "migrations": "NOT FOUND (similar: ['schema_migrations'])",
+      "schema_migrations": [
+        {
+          "cid": 0,
+          "name": "version",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": true
+        },
+        {
+          "cid": 1,
+          "name": "name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 2,
+          "name": "checksum",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        },
+        {
+          "cid": 3,
+          "name": "applied_at",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": false
+        }
+      ],
+      "app_log": "NOT FOUND",
+      "log": "NOT FOUND",
+      "logs": "NOT FOUND",
+      "error_log": "NOT FOUND",
+      "observation_price": "NOT FOUND",
+      "observation_image": "NOT FOUND",
+      "observation_attr": "NOT FOUND"
+    },
+    "user_version": 0,
+    "auto_inbox_fks": [],
+    "auto_delivery_fks": [],
+    "migration_tables": [
+      "schema_migrations"
+    ],
+    "migration_data_schema_migrations": [
+      {
+        "version": 10,
+        "name": "broad_search",
+        "checksum": "0093502da448196b0e096e40ba360b863660cbcadb0ef4345d6f8847ac76a6c7",
+        "applied_at": "2026-11-14T04:43:39.542+00:00"
+      },
+      {
+        "version": 9,
+        "name": "autocollect",
+        "checksum": "558f01a73e6069d7fc314c07a7b39def1b27b444a816178cc05dab935a562482",
+        "applied_at": "2026-11-14T04:43:39.541+00:00"
+      },
+      {
+        "version": 8,
+        "name": "llm_call_unknown",
+        "checksum": "b4a9d92a5dbf69e3f36f5ef8615e973bc10377c187706087c5302a0659d3fc38",
+        "applied_at": "2026-11-14T04:43:39.539+00:00"
+      },
+      {
+        "version": 7,
+        "name": "assistant_request",
+        "checksum": "300c3905290ac689669e3ec3b86f43d191101842722aec6ebb4c803f21ec6329",
+        "applied_at": "2026-11-14T04:43:39.538+00:00"
+      },
+      {
+        "version": 6,
+        "name": "analysis_history",
+        "checksum": "bb2788253e08debc524321c649de438236ca4827d2e65536decb311b064a9032",
+        "applied_at": "2026-11-14T04:43:39.538+00:00"
+      },
+      {
+        "version": 5,
+        "name": "analysis_request_json",
+        "checksum": "c9490d8c09492c2f084325a1a5f843e5eeb1a377d9341da56ff6f5cb154c61e7",
+        "applied_at": "2026-11-14T04:43:39.537+00:00"
+      },
+      {
+        "version": 4,
+        "name": "analysis_request",
+        "checksum": "1e97213435b4310a1f0b0b21ea7dfa11a124c1685736dfb3d130ba4f3f16d0e1",
+        "applied_at": "2026-11-14T04:43:39.535+00:00"
+      },
+      {
+        "version": 3,
+        "name": "product_gallery",
+        "checksum": "09206272c889650e06be26951d09ae61f706935c9eab02d6e2291546a889c4b5",
+        "applied_at": "2026-11-13T09:48:25.540+00:00"
+      },
+      {
+        "version": 2,
+        "name": "product_media",
+        "checksum": "a4a172a9b9c64e1075b1014d2433a0db5360c64a8e321a0654d056e4b1f049fd",
+        "applied_at": "2026-11-13T09:48:25.540+00:00"
+      },
+      {
+        "version": 1,
+        "name": "initial",
+        "checksum": "94eb210a7b93bba97662a588325d893ad625b8e30ffd09f84f129cd1da0636a2",
+        "applied_at": "2026-11-13T09:48:25.540+00:00"
+      }
+    ],
+    "auto_delivery_rows": [],
+    "auto_target_rows": [
+      {
+        "id": 96,
+        "source": "WB",
+        "kind": "query",
+        "value": "продукты питания",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 95,
+        "source": "WB",
+        "kind": "query",
+        "value": "книги",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 94,
+        "source": "WB",
+        "kind": "query",
+        "value": "товары для животных",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 93,
+        "source": "WB",
+        "kind": "query",
+        "value": "косметика",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 92,
+        "source": "WB",
+        "kind": "query",
+        "value": "игрушки",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 91,
+        "source": "WB",
+        "kind": "query",
+        "value": "спортивные товары",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 90,
+        "source": "WB",
+        "kind": "query",
+        "value": "автозапчасти",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 89,
+        "source": "WB",
+        "kind": "query",
+        "value": "инструменты",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 88,
+        "source": "WB",
+        "kind": "query",
+        "value": "мебель",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 87,
+        "source": "WB",
+        "kind": "query",
+        "value": "обувь",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 86,
+        "source": "WB",
+        "kind": "query",
+        "value": "одежда",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 85,
+        "source": "WB",
+        "kind": "query",
+        "value": "бытовая техника",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 84,
+        "source": "WB",
+        "kind": "query",
+        "value": "мониторы",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 83,
+        "source": "WB",
+        "kind": "query",
+        "value": "видеокарты",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 82,
+        "source": "WB",
+        "kind": "query",
+        "value": "ноутбуки",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 81,
+        "source": "WB",
+        "kind": "query",
+        "value": "смартфоны",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 80,
+        "source": "OZON",
+        "kind": "query",
+        "value": "продукты питания",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 79,
+        "source": "OZON",
+        "kind": "query",
+        "value": "книги",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 78,
+        "source": "OZON",
+        "kind": "query",
+        "value": "товары для животных",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      },
+      {
+        "id": 77,
+        "source": "OZON",
+        "kind": "query",
+        "value": "косметика",
+        "enabled": 1,
+        "item_limit": 5,
+        "interval_seconds": null,
+        "last_run": null,
+        "page": 1,
+        "origin": "CATALOG"
+      }
+    ],
+    "auto_source_rows": [
+      {
+        "source": "ALIEXPRESS_RU",
+        "enabled": 1,
+        "last_run": null,
+        "last_result": null,
+        "retry_after": null
+      },
+      {
+        "source": "ALIEXPRESS",
+        "enabled": 1,
+        "last_run": null,
+        "last_result": null,
+        "retry_after": null
+      },
+      {
+        "source": "FARPOST",
+        "enabled": 1,
+        "last_run": null,
+        "last_result": null,
+        "retry_after": null
+      },
+      {
+        "source": "AVITO",
+        "enabled": 1,
+        "last_run": null,
+        "last_result": null,
+        "retry_after": null
+      },
+      {
+        "source": "OZON",
+        "enabled": 1,
+        "last_run": null,
+        "last_result": null,
+        "retry_after": null
+      },
+      {
+        "source": "WB",
+        "enabled": 1,
+        "last_run": null,
+        "last_result": null,
+        "retry_after": null
+      }
+    ],
+    "observation_rows": [
+      {
+        "id": 2,
+        "product_id": 2,
+        "observed_at": "2026-11-13T09:50:27.650+00:00",
+        "imported_at": "2026-11-13T09:50:27.722+00:00",
+        "origin": "COLLECTOR",
+        "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+        "availability": "IN_STOCK",
+        "fingerprint": "44e160ce69df9a9d3ff9fd260463a1d1021461423dca7e7b37a9e4a8cb938263",
+        "normalized_json": "{\"media\": {\"items\": [{\"type\": \"image\", \"image_data\": null, \"source_url\": \"https://ae-pic-a1.aliexpress-media.com/kf/S08eb8e349f354b599f25075127fa71e0k.jpg_480x480q75.jpg_.avif\"}], \"image_data\": null, \"source_url\": \"https://ae-pic-a1.aliexpress-media.com/kf/S08eb8e349f354b599f25075127fa71e0k.jpg_480x480q75.jpg_.avif\", \"method\": \"USER_APPROVED_PRODUCT_GALLERY\"}, \"category_path\": null, \"version\": \"R52_NORMALIZED_3\", \"scope\": \"USER_EYE_EXPORT\", \"source\": \"ALIEXPRESS_RU\", \"listing_id\": \"1005013440836642\", \"url\": \"https://ru.aliexpress.com/item/1005013440836642.html\", \"observed_at\": \"2026-11-13T09:50:27.650+00:00\", \"title\": \"2026 NUOVO iPad 17 PRO MAX Tablet Android 24GB+2TB Tablet Android 16 Snapdragon8gen3 Tablet PC Custodia protettiva per e-book Tablet PC\", \"brand\": null, \"model\": null, \"fields\": {\"title\": {\"state\": \"OBSERVED\", \"value\": \"2026 NUOVO iPad 17 PRO MAX Tablet Android 24GB+2TB Tablet Android 16 Snapdragon8gen3 Tablet PC Custodia protettiva per e-book Tablet PC\", \"method\": \"WHOLESALE_HTML\", \"evidence\": {\"method\": \"WHOLESALE_HTML\", \"source\": \"ALIEXPRESS_RU\"}, \"independently_verified\": false}, \"model\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"variant\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"displayed_price\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"price_conditions\": {\"state\": \"OBSERVED\", \"value\": [\"136.14 EUR\", \"128.39 EUR\"], \"method\": \"PRICE_CANDIDATES\", \"evidence\": null, \"independently_verified\": false}, \"condition\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"bundle\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"seller_location\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"availability\": {\"state\": \"SELLER_CLAIM\", \"value\": \"IN_STOCK\", \"method\": \"COLLECTOR\", \"evidence\": {\"method\": \"COLLECTOR\", \"source\": \"ALIEXPRESS_RU\"}, \"independently_verified\": false}, \"delivery\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"warranty\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"returns\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"reviews\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"questions\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}}, \"prices\": [{\"role\": \"regular\", \"role_origin\": \"SOURCE_ROLE\", \"source_role\": \"current\", \"amount_minor\": 13614, \"currency\": \"EUR\", \"label\": \"136.14 EUR\", \"variant_association\": \"UNKNOWN\", \"evidence\": null, \"applicability_verified\": false}, {\"role\": \"unknown\", \"role_origin\": \"UNRESOLVED\", \"source_role\": \"original\", \"amount_minor\": 12839, \"currency\": \"EUR\", \"label\": \"128.39 EUR\", \"variant_association\": \"UNKNOWN\", \"evidence\": null, \"applicability_verified\": false}], \"characteristics\": [], \"description_hints\": [], \"condition\": {\"code\": \"UNKNOWN\", \"origin\": null, \"independently_verified\": false}, \"availability\": \"IN_STOCK\", \"delivery\": {\"requested_destination\": \"Владивосток\", \"destination_mentioned\": false, \"destination_confirmed\": false, \"terms\": null, \"terms_state\": \"UNKNOWN\", \"cost_minor\": null, \"cost_state\": \"UNKNOWN\"}, \"page_region\": null, \"conflicts\": [], \"checks\": [{\"code\": \"VERIFY_TOTAL\", \"text\": \"Уточнить применимую цену, наличие, доставку во Владивосток и все обязательные расходы.\"}, {\"code\": \"VERIFY_VARIANT\", \"text\": \"Сверить точный MPN по фото или маркировке и фактическую модификацию.\"}, {\"code\": \"VERIFY_CONDITION_WARRANTY\", \"text\": \"Уточнить состояние, историю обслуживания, комплект, гарантию и возможность проверки.\"}], \"full_cost_blockers\": [\"price_applicability\", \"exact_physical_variant\", \"availability_confirmed\", \"delivery_to_Vladivostok\", \"delivery_cost\", \"mandatory_additional_costs\"], \"completeness\": {\"total\": 14, \"known\": 3, \"unknown\": [\"Модель\", \"Модификация\", \"Отображаемая цена\", \"Состояние\", \"Комплект\", \"Местонахождение продавца\", \"Доставка\", \"Гарантия\", \"Возврат\", \"Отзывы\", \"Вопросы покупателей\"], \"independently_verified\": 0}, \"eye\": {\"status\": \"PARTIAL_SUCCESS\", \"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTML\", \"http_status\": 200}}",
+        "raw_json": "{\"fields\": {\"title\": {\"status\": \"KNOWN\", \"value\": \"2026 NUOVO iPad 17 PRO MAX Tablet Android 24GB+2TB Tablet Android 16 Snapdragon8gen3 Tablet PC Custodia protettiva per e-book Tablet PC\", \"method\": \"WHOLESALE_HTML\", \"evidence\": {\"method\": \"WHOLESALE_HTML\", \"source\": \"ALIEXPRESS_RU\"}}, \"availability\": {\"status\": \"KNOWN\", \"value\": \"IN_STOCK\", \"method\": \"COLLECTOR\", \"evidence\": {\"method\": \"COLLECTOR\", \"source\": \"ALIEXPRESS_RU\"}}}, \"price_candidates\": [{\"role\": \"current\", \"amount\": \"136.14\", \"amount_minor\": 13614, \"currency\": \"EUR\", \"visible_label\": \"136.14 EUR\"}, {\"role\": \"original\", \"amount\": \"128.39\", \"amount_minor\": 12839, \"currency\": \"EUR\", \"visible_label\": \"128.39 EUR\"}], \"availability\": \"IN_STOCK\", \"category_path\": null, \"source\": \"ALIEXPRESS_RU\", \"id\": \"1005013440836642\", \"url\": \"https://ru.aliexpress.com/item/1005013440836642.html\", \"observed_at\": \"2026-11-13T19:50:27.650753+10:00\", \"status\": \"PARTIAL_SUCCESS\", \"product_content\": true, \"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTML\", \"http_status\": 200, \"media\": {\"items\": [{\"type\": \"image\", \"image_data\": null, \"source_url\": \"https://ae-pic-a1.aliexpress-media.com/kf/S08eb8e349f354b599f25075127fa71e0k.jpg_480x480q75.jpg_.avif\"}], \"image_data\": null, \"source_url\": \"https://ae-pic-a1.aliexpress-media.com/kf/S08eb8e349f354b599f25075127fa71e0k.jpg_480x480q75.jpg_.avif\", \"method\": \"USER_APPROVED_PRODUCT_GALLERY\"}}"
+      },
+      {
+        "id": 1,
+        "product_id": 1,
+        "observed_at": "2026-11-13T09:48:25.415+00:00",
+        "imported_at": "2026-11-13T09:48:25.558+00:00",
+        "origin": "COLLECTOR",
+        "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+        "availability": "UNKNOWN",
+        "fingerprint": "2f901006bced2ab3f9c6f4874a2beb38af1e66c89ab0604633c1e357bd1cdd9a",
+        "normalized_json": "{\"media\": {\"items\": [{\"type\": \"image\", \"image_data\": null, \"source_url\": \"https://basket-42.wbbasket.ru/vol10979/part1097975/1097975275/images/S800/S800.jpg\"}], \"image_data\": null, \"source_url\": \"https://basket-42.wbbasket.ru/vol10979/part1097975/1097975275/images/S800/S800.jpg\", \"method\": \"USER_APPROVED_PRODUCT_GALLERY\"}, \"category_path\": \"Смартфоны и гаджеты > Смартфоны\", \"version\": \"R52_NORMALIZED_3\", \"scope\": \"USER_EYE_EXPORT\", \"source\": \"WB\", \"listing_id\": \"1097975275\", \"url\": \"https://www.wildberries.ru/catalog/1097975275/detail.aspx\", \"observed_at\": \"2026-11-13T09:48:25.415+00:00\", \"title\": \"Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)\", \"brand\": \"Apple\", \"model\": \"17 Pro Max 256\", \"fields\": {\"title\": {\"state\": \"OBSERVED\", \"value\": \"Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)\", \"method\": \"CARD_JSON\", \"evidence\": {\"method\": \"CARD_JSON\", \"source\": \"WB\"}, \"independently_verified\": false}, \"model\": {\"state\": \"SELLER_CLAIM\", \"value\": \"17 Pro Max 256\", \"method\": \"CARD_JSON\", \"evidence\": {\"method\": \"CARD_JSON\", \"source\": \"WB\"}, \"independently_verified\": false}, \"variant\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"displayed_price\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"price_conditions\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"condition\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"bundle\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"seller_location\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"availability\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"delivery\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"warranty\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"returns\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"reviews\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"questions\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}}, \"prices\": [], \"characteristics\": [], \"description_hints\": [], \"condition\": {\"code\": \"UNKNOWN\", \"origin\": null, \"independently_verified\": false}, \"availability\": \"UNKNOWN\", \"delivery\": {\"requested_destination\": \"Владивосток\", \"destination_mentioned\": false, \"destination_confirmed\": false, \"terms\": null, \"terms_state\": \"UNKNOWN\", \"cost_minor\": null, \"cost_state\": \"UNKNOWN\"}, \"page_region\": null, \"conflicts\": [], \"checks\": [{\"code\": \"VERIFY_TOTAL\", \"text\": \"Уточнить применимую цену, наличие, доставку во Владивосток и все обязательные расходы.\"}, {\"code\": \"VERIFY_VARIANT\", \"text\": \"Сверить точный MPN по фото или маркировке и фактическую модификацию.\"}, {\"code\": \"VERIFY_CONDITION_WARRANTY\", \"text\": \"Уточнить состояние, историю обслуживания, комплект, гарантию и возможность проверки.\"}], \"full_cost_blockers\": [\"price_applicability\", \"exact_physical_variant\", \"availability_confirmed\", \"delivery_to_Vladivostok\", \"delivery_cost\", \"mandatory_additional_costs\"], \"completeness\": {\"total\": 14, \"known\": 2, \"unknown\": [\"Модификация\", \"Отображаемая цена\", \"Условия цены\", \"Состояние\", \"Комплект\", \"Местонахождение продавца\", \"Наличие\", \"Доставка\", \"Гарантия\", \"Возврат\", \"Отзывы\", \"Вопросы покупателей\"], \"independently_verified\": 0}, \"eye\": {\"status\": \"PARTIAL_SUCCESS\", \"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTTP\", \"http_status\": 200}}",
+        "raw_json": "{\"fields\": {\"title\": {\"status\": \"KNOWN\", \"value\": \"Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)\", \"method\": \"CARD_JSON\", \"evidence\": {\"method\": \"CARD_JSON\", \"source\": \"WB\"}}, \"brand\": {\"status\": \"KNOWN\", \"value\": \"Apple\", \"method\": \"CARD_JSON\", \"evidence\": {\"method\": \"CARD_JSON\", \"source\": \"WB\"}}, \"model\": {\"status\": \"KNOWN\", \"value\": \"17 Pro Max 256\", \"method\": \"CARD_JSON\", \"evidence\": {\"method\": \"CARD_JSON\", \"source\": \"WB\"}}, \"description\": {\"status\": \"KNOWN\", \"value\": \"Товар в наличии, находится на складе в МО. Смартфон Apple iPhone 17 Pro Max объемом памяти 256 ГБ - максимум экрана и возможностей в линейке. Огромная диагональ с почти незаметными рамками, высокая яркость и плавная частота обновления дарят глубокое погружение в фильмы, игры и работу, а контент остаётся читаемым даже под солнцем. Корпус из премиальных материалов ощущается монолитным и надёжным, защита от брызг, воды и пыли помогает спокойно пережить насыщенный день.\\n\\nКамеры уровня Pro созданы для выразительных снимков в любых условиях. Крупные сенсоры, продвинутый автофокус и улучшенная стабилизация обеспечивают детальные фото и чёткое видео при слабом освещении, а дальнобойное оптическое приближение позволяет снимать издалека без заметной потери качества. Портреты с регулируемой глубиной резкости, выразительное макро и поддержка профессиональных форматов съёмки открывают больше свободы для творчества и контента.\\n\\nФлагманская производительность с ускоренным нейромодулем даёт мгновенный отклик, быструю обработку фото и видео и стабильные кадры в играх. Автономность рассчитана на долгий день, поддерживаются быстрая и беспроводная зарядка, а магнитные аксессуары упрощают повседневные задачи. Современные беспроводные стандарты, надёжная защита данных и глубокая интеграция с экосистемой Apple делают Смартфон iPhone 17 Pro Max идеальным выбором для работы, путешествий и развлечений.\\n\\n\\nПоддерживает только карты eSIM; не поддерживает физические SIM-карты.\\n\\nСовершенно новый и подлинный, неактивированный и неоткрытый.Без RuStore!\", \"method\": \"CARD_JSON\", \"evidence\": {\"method\": \"CARD_JSON\", \"source\": \"WB\"}}, \"category\": {\"status\": \"KNOWN\", \"value\": \"Смартфоны и гаджеты > Смартфоны\", \"method\": \"CARD_JSON\", \"evidence\": {\"method\": \"CARD_JSON\", \"source\": \"WB\"}}, \"options\": {\"status\": \"KNOWN\", \"value\": \"Длина упаковки: 25 см\\nШирина упаковки: 13 см\\nВысота упаковки: 6 см\\nВес с упаковкой (кг): 0.4 кг\\nЦвет: серебро; серебристый\\nОбязательное предустановленное российское ПО: нет\\nМодель: 17 Pro Max 256\\nОперационная система: iOS\\nТип SIM карты: eSIM\\nВерсия операционной системы: iOS 26\\nГарантийный срок: 1 год\\nСтепень пылевлагозащиты: IP68\\nОбъем встроенной памяти (Гб): 256\\nДиагональ экрана: 6.9\\\"\\nТип дисплея/экрана: OLED Super Retina XDR с технологией ProMotion\\nРазрешение экрана: 1320x2868\\nЧастота обновления: 120 Гц\\nЗащитное покрытие экрана: Ceramic Shield\\nОсновная камера (млн. пикс.): 48 Мп\\nВстроенная вспышка: да\\nЕмкость аккумулятора (мА/ч): 5088 мА*ч\\nВремя работы от аккумулятора, до: 24\\nВремя работы при прослушивании музыки: 24 час\\nВремя работы при воспроизведении видео: 24 час\\nПроцессор: Apple A19 Pro\", \"method\": \"CARD_JSON\", \"evidence\": {\"method\": \"CARD_JSON\", \"source\": \"WB\"}}}, \"price_candidates\": [], \"availability\": \"UNKNOWN\", \"category_path\": \"Смартфоны и гаджеты > Смартфоны\", \"source\": \"WB\", \"id\": \"1097975275\", \"url\": \"https://www.wildberries.ru/catalog/1097975275/detail.aspx\", \"observed_at\": \"2026-11-13T19:48:25.415168+10:00\", \"status\": \"PARTIAL_SUCCESS\", \"product_content\": true, \"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTTP\", \"http_status\": 200, \"media\": {\"items\": [{\"type\": \"image\", \"image_data\": null, \"source_url\": \"https://basket-42.wbbasket.ru/vol10979/part1097975/1097975275/images/S800/S800.jpg\"}], \"image_data\": null, \"source_url\": \"https://basket-42.wbbasket.ru/vol10979/part1097975/1097975275/images/S800/S800.jpg\", \"method\": \"USER_APPROVED_PRODUCT_GALLERY\"}}"
+      }
+    ],
+    "observation_count": 2,
+    "validate_export_hits": [
+      {
+        "file": "debug\\diag_schema_intake.py",
+        "line": 8,
+        "text": "4. Поиск validate_export в исходном коде проекта."
+      },
+      {
+        "file": "debug\\diag_schema_intake.py",
+        "line": 169,
+        "text": "# --- 4. Поиск validate_export ------------------------------------------------"
+      },
+      {
+        "file": "debug\\diag_schema_intake.py",
+        "line": 170,
+        "text": "def section_validate_export():"
+      },
+      {
+        "file": "debug\\diag_schema_intake.py",
+        "line": 171,
+        "text": "\"\"\"Поиск импортов и определений validate_export в .py файлах проекта.\"\"\""
+      },
+      {
+        "file": "debug\\diag_schema_intake.py",
+        "line": 172,
+        "text": "pattern = re.compile(r\"validate_export\", re.IGNORECASE)"
+      },
+      {
+        "file": "debug\\diag_schema_intake.py",
+        "line": 188,
+        "text": "report[\"sections\"][\"validate_export_hits\"] = hits"
+      },
+      {
+        "file": "debug\\diag_schema_intake.py",
+        "line": 189,
+        "text": "report[\"sections\"][\"validate_export_count\"] = len(hits)"
+      },
+      {
+        "file": "debug\\diag_schema_intake.py",
+        "line": 259,
+        "text": "section_validate_export()"
+      }
+    ],
+    "validate_export_count": 8,
+    "intake_code": {
+      "r52/intake/eye.py": {
+        "total_lines": 190,
+        "matched": [
+          {
+            "line": 4,
+            "text": "(capture_action EXPLICIT_POPUP_CLICK и fully_autonomous false). Неподходящий файл не"
+          },
+          {
+            "line": 14,
+            "text": "from ..domain.normalize import EYE_SCOPE, fingerprint, normalize_eye"
+          },
+          {
+            "line": 20,
+            "text": "FORMATS = (\"JARVIS_BR02_EYE_USER_CAPTURE\", \"JARVIS_EYE_REVIEW_1\", \"JARVIS_BR02_COLLECTOR_AUTONOMOUS\")"
+          },
+          {
+            "line": 24,
+            "text": "def parse_export_bytes(data):"
+          },
+          {
+            "line": 26,
+            "text": "raise AppError(\"EXPORT_TOO_LARGE\", status=413)"
+          },
+          {
+            "line": 33,
+            "text": "def check_export(document):"
+          },
+          {
+            "line": 37,
+            "text": "if fmt == \"JARVIS_BR02_COLLECTOR_AUTONOMOUS\":"
+          },
+          {
+            "line": 38,
+            "text": "if document.get(\"capture_action\") != \"COLLECTOR_RUN\" or document.get(\"fully_autonomous\") is not True:"
+          },
+          {
+            "line": 41,
+            "text": "if document.get(\"capture_action\") != \"EXPLICIT_POPUP_CLICK\" or document.get(\"fully_autonomous\") is not False:"
+          },
+          {
+            "line": 49,
+            "text": "def preview(normalized):"
+          },
+          {
+            "line": 73,
+            "text": "def item_dict(row):"
+          },
+          {
+            "line": 78,
+            "text": "data[\"error_message\"] = MESSAGES.get(data[\"error_code\"]) if data[\"error_code\"] else None"
+          },
+          {
+            "line": 82,
+            "text": "def _dump(value):"
+          },
+          {
+            "line": 86,
+            "text": "class Inbox:"
+          },
+          {
+            "line": 87,
+            "text": "def __init__(self, app):"
+          },
+          {
+            "line": 90,
+            "text": "def stage_bytes(self, data, filename=None, origin=\"API\"):"
+          },
+          {
+            "line": 93,
+            "text": "status, error_code, payload, shown = \"PENDING\", None, None, None"
+          },
+          {
+            "line": 101,
+            "text": "status, error_code = \"INVALID\", error.code"
+          },
+          {
+            "line": 105,
+            "text": "existing = conn.execute(\"SELECT * FROM inbox_item WHERE content_sha256 = ?\", (digest,)).fetchone()"
+          },
+          {
+            "line": 107,
+            "text": "if existing[\"status\"] == \"INVALID\" and status == \"PENDING\":"
+          },
+          {
+            "line": 109,
+            "text": "\"UPDATE inbox_item SET status = ?, error_code = NULL, payload_json = ?, preview_json = ?, received_at = ? WHERE id = ?\","
+          },
+          {
+            "line": 110,
+            "text": "(status, _dump(payload), _dump(shown), now, existing[\"id\"]),"
+          },
+          {
+            "line": 112,
+            "text": "row = conn.execute(\"SELECT * FROM inbox_item WHERE id = ?\", (existing[\"id\"],)).fetchone()"
+          },
+          {
+            "line": 119,
+            "text": "\"INSERT INTO inbox_item(content_sha256, filename, origin, received_at, status, error_code, payload_json, \""
+          },
+          {
+            "line": 121,
+            "text": "(digest, name, origin, now, status, error_code, _dump(payload), _dump(shown)),"
+          },
+          {
+            "line": 123,
+            "text": "row = conn.execute(\"SELECT * FROM inbox_item WHERE id = ?\", (item_id,)).fetchone()"
+          },
+          {
+            "line": 124,
+            "text": "log.info(\"Во входящие добавлен файл %s: %s %s\", name, status, error_code or \"\")"
+          },
+          {
+            "line": 125,
+            "text": "if status == \"PENDING\" and self.app.settings.get(\"intake.auto_accept\"):"
+          },
+          {
+            "line": 129,
+            "text": "def accept(self, item_id):"
+          },
+          {
+            "line": 132,
+            "text": "row = conn.execute(\"SELECT * FROM inbox_item WHERE id = ?\", (item_id,)).fetchone()"
+          },
+          {
+            "line": 134,
+            "text": "raise AppError(\"INBOX_ITEM_NOT_FOUND\", status=404)"
+          },
+          {
+            "line": 135,
+            "text": "if row[\"status\"] != \"PENDING\":"
+          },
+          {
+            "line": 136,
+            "text": "raise AppError(\"INBOX_ITEM_DECIDED\", status=409)"
+          },
+          {
+            "line": 138,
+            "text": "fmt = payload_doc.get(\"format\", \"JARVIS_BR02_EYE_USER_CAPTURE\")"
+          },
+          {
+            "line": 139,
+            "text": "origin = \"COLLECTOR\" if fmt == \"JARVIS_BR02_COLLECTOR_AUTONOMOUS\" else \"EYE\""
+          },
+          {
+            "line": 148,
+            "text": "evidence_level=str(normalized[\"eye\"][\"evidence_level\"] or (\"COLLECTOR_AUTONOMOUS_HTTP\" if origin == \"COLLECTOR\" else \"EYE_USER_CAPTURE\")),"
+          },
+          {
+            "line": 155,
+            "text": "\"UPDATE inbox_item SET status = 'ACCEPTED', decided_at = ?, observation_id = ? WHERE id = ?\","
+          },
+          {
+            "line": 158,
+            "text": "row = conn.execute(\"SELECT * FROM inbox_item WHERE id = ?\", (item_id,)).fetchone()"
+          },
+          {
+            "line": 163,
+            "text": "def reject(self, item_id):"
+          },
+          {
+            "line": 166,
+            "text": "row = conn.execute(\"SELECT status FROM inbox_item WHERE id = ?\", (item_id,)).fetchone()"
+          },
+          {
+            "line": 168,
+            "text": "raise AppError(\"INBOX_ITEM_NOT_FOUND\", status=404)"
+          },
+          {
+            "line": 169,
+            "text": "if row[\"status\"] not in (\"PENDING\", \"INVALID\"):"
+          },
+          {
+            "line": 170,
+            "text": "raise AppError(\"INBOX_ITEM_DECIDED\", status=409)"
+          },
+          {
+            "line": 171,
+            "text": "conn.execute(\"UPDATE inbox_item SET status = 'REJECTED', decided_at = ? WHERE id = ?\", (now, item_id))"
+          },
+          {
+            "line": 172,
+            "text": "return item_dict(conn.execute(\"SELECT * FROM inbox_item WHERE id = ?\", (item_id,)).fetchone())"
+          },
+          {
+            "line": 174,
+            "text": "def list(self, status=None, limit=100):"
+          },
+          {
+            "line": 177,
+            "text": "if status == \"ALL\":"
+          },
+          {
+            "line": 178,
+            "text": "rows = conn.execute(\"SELECT * FROM inbox_item ORDER BY id DESC LIMIT ?\", (limit,)).fetchall()"
+          },
+          {
+            "line": 179,
+            "text": "elif status:"
+          },
+          {
+            "line": 181,
+            "text": "\"SELECT * FROM inbox_item WHERE status = ? ORDER BY id DESC LIMIT ?\", (status, limit)).fetchall()"
+          },
+          {
+            "line": 184,
+            "text": "\"SELECT * FROM inbox_item WHERE status IN ('PENDING', 'INVALID') ORDER BY id DESC LIMIT ?\","
+          },
+          {
+            "line": 188,
+            "text": "def pending_count(self):"
+          },
+          {
+            "line": 190,
+            "text": "return conn.execute(\"SELECT count(*) FROM inbox_item WHERE status = 'PENDING'\").fetchone()[0]"
+          }
+        ]
+      },
+      "r52/intake/folder.py": {
+        "total_lines": 130,
+        "matched": [
+          {
+            "line": 15,
+            "text": "from .eye import MAX_BYTES"
+          },
+          {
+            "line": 23,
+            "text": "class FolderWatcher:"
+          },
+          {
+            "line": 24,
+            "text": "def __init__(self, app, folders):"
+          },
+          {
+            "line": 34,
+            "text": "def _candidates(self):"
+          },
+          {
+            "line": 55,
+            "text": "def scan(self):"
+          },
+          {
+            "line": 83,
+            "text": "def _ingest(self, path, size, mtime):"
+          },
+          {
+            "line": 96,
+            "text": "item, created = self.app.inbox.stage_bytes(data, filename=Path(path).name, origin=\"FOLDER\")"
+          },
+          {
+            "line": 98,
+            "text": "result = item[\"status\"] if created else \"DUPLICATE\""
+          },
+          {
+            "line": 109,
+            "text": "def start(self):"
+          },
+          {
+            "line": 116,
+            "text": "def _loop(self):"
+          },
+          {
+            "line": 124,
+            "text": "def stop(self, timeout=10):"
+          },
+          {
+            "line": 129,
+            "text": "def alive(self):"
+          }
+        ]
+      },
+      "r52/intake/__init__.py": {
+        "total_lines": 1,
+        "matched": []
+      }
+    },
+    "runner_code": {
+      "r52/collectors/runner.py": {
+        "total_lines": 254,
+        "matched": [
+          {
+            "line": 1,
+            "text": "\"\"\"Subprocess-раннер для сборщиков маркетплейсов."
+          },
+          {
+            "line": 7,
+            "text": "python -m r52.collectors.runner --source WB --ids 123,456 --output-dir <path>"
+          },
+          {
+            "line": 10,
+            "text": "from r52.collectors.runner import run_collector_subprocess"
+          },
+          {
+            "line": 11,
+            "text": "result = run_collector_subprocess(\"WB\", [\"123\", \"456\"], output_dir)"
+          },
+          {
+            "line": 17,
+            "text": "import subprocess"
+          },
+          {
+            "line": 27,
+            "text": "PER_ITEM_TIMEOUT = 120"
+          },
+          {
+            "line": 29,
+            "text": "TOTAL_TIMEOUT = 3600"
+          },
+          {
+            "line": 32,
+            "text": "def _get_collector_class(source: str):"
+          },
+          {
+            "line": 44,
+            "text": "raise ValueError(f\"Неизвестный источник: {source}. Доступны: {list(mapping.keys())}\")"
+          },
+          {
+            "line": 50,
+            "text": "def run_collector(source: str, listing_ids: list[str], output_dir: Path,"
+          },
+          {
+            "line": 53,
+            "text": "\"\"\"Запускает сборщик в текущем процессе (для subprocess-режима).\"\"\""
+          },
+          {
+            "line": 57,
+            "text": "results = []"
+          },
+          {
+            "line": 63,
+            "text": "results = collector.collect_by_search(query)"
+          },
+          {
+            "line": 64,
+            "text": "written = collector.write_observations(results, output_dir)"
+          },
+          {
+            "line": 70,
+            "text": "\"total_items\": len(results),"
+          },
+          {
+            "line": 71,
+            "text": "\"collected\": len(results),"
+          },
+          {
+            "line": 78,
+            "text": "log.info(\"Runner %s (search): итог %s\", source, json.dumps(summary, ensure_ascii=False))"
+          },
+          {
+            "line": 82,
+            "text": "if time.monotonic() - total_start > TOTAL_TIMEOUT:"
+          },
+          {
+            "line": 83,
+            "text": "log.warning(\"Runner %s: общий таймаут %ds исчерпан\", source, TOTAL_TIMEOUT)"
+          },
+          {
+            "line": 91,
+            "text": "results.append(observation)"
+          },
+          {
+            "line": 93,
+            "text": "results.append({"
+          },
+          {
+            "line": 94,
+            "text": "\"format\": \"JARVIS_BR02_COLLECTOR_AUTONOMOUS\","
+          },
+          {
+            "line": 102,
+            "text": "\"status\": \"FAILED\","
+          },
+          {
+            "line": 103,
+            "text": "\"error\": \"parse_returned_none\","
+          },
+          {
+            "line": 105,
+            "text": "\"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTTP\","
+          },
+          {
+            "line": 106,
+            "text": "\"http_status\": 200,"
+          },
+          {
+            "line": 111,
+            "text": "results.append({"
+          },
+          {
+            "line": 112,
+            "text": "\"format\": \"JARVIS_BR02_COLLECTOR_AUTONOMOUS\","
+          },
+          {
+            "line": 120,
+            "text": "\"status\": \"FAILED\","
+          },
+          {
+            "line": 121,
+            "text": "\"error\": str(e)[:500],"
+          },
+          {
+            "line": 123,
+            "text": "\"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTTP\","
+          },
+          {
+            "line": 124,
+            "text": "\"http_status\": 200,"
+          },
+          {
+            "line": 137,
+            "text": "written = collector.write_observations(results, output_dir)"
+          },
+          {
+            "line": 142,
+            "text": "\"collected\": sum(1 for r in results if r.get(\"observation\", {}).get(\"status\") == \"PARTIAL_SUCCESS\"),"
+          },
+          {
+            "line": 143,
+            "text": "\"failed\": sum(1 for r in results if r.get(\"observation\", {}).get(\"status\") == \"FAILED\"),"
+          },
+          {
+            "line": 149,
+            "text": "log.info(\"Runner %s: итог %s\", source, json.dumps(summary, ensure_ascii=False))"
+          },
+          {
+            "line": 153,
+            "text": "def run_collector_subprocess(source: str, listing_ids: list[str], output_dir: Path,"
+          },
+          {
+            "line": 156,
+            "text": "\"\"\"Запускает сборщик в отдельном subprocess (изоляция сети от ядра).\"\"\""
+          },
+          {
+            "line": 157,
+            "text": "output_dir.mkdir(parents=True, exist_ok=True)"
+          },
+          {
+            "line": 159,
+            "text": "# JSON-файл с параметрами для subprocess"
+          },
+          {
+            "line": 160,
+            "text": "params_file = output_dir / f\"runner-{source.lower()}-params.json\""
+          },
+          {
+            "line": 164,
+            "text": "\"output_dir\": str(output_dir),"
+          },
+          {
+            "line": 169,
+            "text": "params_file.write_text(json.dumps(params, ensure_ascii=False), encoding=\"utf-8\")"
+          },
+          {
+            "line": 177,
+            "text": "log.info(\"Runner %s: запуск subprocess: %s\", source, \" \".join(cmd))"
+          },
+          {
+            "line": 179,
+            "text": "proc = subprocess.run("
+          },
+          {
+            "line": 181,
+            "text": "capture_output=True,"
+          },
+          {
+            "line": 183,
+            "text": "timeout=TOTAL_TIMEOUT + 60,"
+          },
+          {
+            "line": 188,
+            "text": "result_file = output_dir / f\"runner-{source.lower()}-result.json\""
+          },
+          {
+            "line": 189,
+            "text": "if result_file.exists():"
+          },
+          {
+            "line": 190,
+            "text": "return json.loads(result_file.read_text(encoding=\"utf-8\"))"
+          },
+          {
+            "line": 191,
+            "text": "return {\"source\": source, \"status\": \"OK\", \"note\": \"result file not found\"}"
+          },
+          {
+            "line": 195,
+            "text": "\"status\": \"ERROR\","
+          },
+          {
+            "line": 199,
+            "text": "except subprocess.TimeoutExpired:"
+          },
+          {
+            "line": 200,
+            "text": "return {\"source\": source, \"status\": \"TIMEOUT\", \"timeout_sec\": TOTAL_TIMEOUT + 60}"
+          },
+          {
+            "line": 202,
+            "text": "log.exception(\"Runner %s: ошибка subprocess: %s\", source, e)"
+          },
+          {
+            "line": 203,
+            "text": "return {\"source\": source, \"status\": \"ERROR\", \"error\": str(e)[:500]}"
+          },
+          {
+            "line": 206,
+            "text": "def main():"
+          },
+          {
+            "line": 211,
+            "text": "parser.add_argument(\"--output-dir\", type=str, help=\"Папка для вывода\")"
+          },
+          {
+            "line": 228,
+            "text": "output_dir = Path(params[\"output_dir\"])"
+          },
+          {
+            "line": 233,
+            "text": "if not args.source or not args.output_dir:"
+          },
+          {
+            "line": 234,
+            "text": "parser.error(\"Нужно --source, --output-dir (и --ids или --query) или --params\")"
+          },
+          {
+            "line": 236,
+            "text": "parser.error(\"Нужно --ids или --query\")"
+          },
+          {
+            "line": 239,
+            "text": "output_dir = Path(args.output_dir)"
+          },
+          {
+            "line": 244,
+            "text": "summary = run_collector(source, listing_ids, output_dir, data_dir, use_proxies, query=query)"
+          },
+          {
+            "line": 247,
+            "text": "result_file = output_dir / f\"runner-{source.lower()}-result.json\""
+          },
+          {
+            "line": 248,
+            "text": "result_file.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding=\"utf-8\")"
+          },
+          {
+            "line": 249,
+            "text": "print(json.dumps(summary, ensure_ascii=False))"
+          }
+        ]
+      },
+      "r52/core/autocollect.py": {
+        "total_lines": 343,
+        "matched": [
+          {
+            "line": 8,
+            "text": "import subprocess"
+          },
+          {
+            "line": 15,
+            "text": "from ..errors import AppError"
+          },
+          {
+            "line": 23,
+            "text": "WORKER_MAX_SECONDS = 900"
+          },
+          {
+            "line": 24,
+            "text": "WORKER_ITEM_SECONDS = 120"
+          },
+          {
+            "line": 27,
+            "text": "def enabled(app, source=None):"
+          },
+          {
+            "line": 36,
+            "text": "class SourceDisabled(Exception):"
+          },
+          {
+            "line": 40,
+            "text": "class BatchFailure(ValueError):"
+          },
+          {
+            "line": 43,
+            "text": "def __init__(self, reason, published, diagnostic):"
+          },
+          {
+            "line": 49,
+            "text": "def check_enabled(app, source):"
+          },
+          {
+            "line": 58,
+            "text": "def accept_deliveries(app):"
+          },
+          {
+            "line": 65,
+            "text": "SELECT d.path, d.source, d.listing_id, i.id, i.status FROM auto_delivery d"
+          },
+          {
+            "line": 67,
+            "text": "JOIN inbox_item i ON i.content_sha256=d.digest LIMIT 100"
+          },
+          {
+            "line": 74,
+            "text": "except FileNotFoundError:"
+          },
+          {
+            "line": 77,
+            "text": "if row[\"status\"] == \"PENDING\":"
+          },
+          {
+            "line": 79,
+            "text": "app.inbox.accept(row[\"id\"])"
+          },
+          {
+            "line": 80,
+            "text": "except AppError as error:"
+          },
+          {
+            "line": 81,
+            "text": "if error.code != \"INBOX_ITEM_DECIDED\":"
+          },
+          {
+            "line": 82,
+            "text": "log.warning(\"Auto intake %s: %s\", row[\"id\"], error.code)"
+          },
+          {
+            "line": 85,
+            "text": "decision = conn.execute(\"SELECT status,observation_id,error_code FROM inbox_item WHERE id=?\","
+          },
+          {
+            "line": 87,
+            "text": "log.log(logging.INFO if decision[\"status\"] == \"ACCEPTED\" else logging.WARNING,"
+          },
+          {
+            "line": 88,
+            "text": "\"Autocollect phase=intake source=%s listing=%s inbox=%s status=%s observation=%s error=%s\","
+          },
+          {
+            "line": 89,
+            "text": "row[\"source\"], row[\"listing_id\"], row[\"id\"], decision[\"status\"],"
+          },
+          {
+            "line": 90,
+            "text": "decision[\"observation_id\"], decision[\"error_code\"])"
+          },
+          {
+            "line": 94,
+            "text": "def invoke(app, ctx, params, directory):"
+          },
+          {
+            "line": 95,
+            "text": "(directory / \"request\").write_text(json.dumps(dict(params, home=str(app.paths.home))), encoding=\"utf-8\")"
+          },
+          {
+            "line": 97,
+            "text": "with (directory / \"worker.log\").open(\"wb\") as output, subprocess.Popen("
+          },
+          {
+            "line": 98,
+            "text": "command, cwd=Path(__file__).resolve().parents[2], stdin=subprocess.DEVNULL,"
+          },
+          {
+            "line": 99,
+            "text": "stdout=output, stderr=subprocess.STDOUT,"
+          },
+          {
+            "line": 100,
+            "text": "creationflags=getattr(subprocess, \"CREATE_NO_WINDOW\", 0)"
+          },
+          {
+            "line": 102,
+            "text": "deadline = time.monotonic() + min(WORKER_MAX_SECONDS, WORKER_ITEM_SECONDS * (1 + params[\"limit\"]))"
+          },
+          {
+            "line": 108,
+            "text": "log.error(\"Autocollect %s worker pid=%s exceeded deadline; see %s\","
+          },
+          {
+            "line": 110,
+            "text": "raise TimeoutError(\"WORKER_TIMEOUT\")"
+          },
+          {
+            "line": 113,
+            "text": "reason = directory / \"error.txt\""
+          },
+          {
+            "line": 117,
+            "text": "raise ValueError(code)"
+          },
+          {
+            "line": 124,
+            "text": "def publish(app, params, directory):"
+          },
+          {
+            "line": 125,
+            "text": "dest = app.paths.home / \"auto-inbox\""
+          },
+          {
+            "line": 129,
+            "text": "errors = 0"
+          },
+          {
+            "line": 135,
+            "text": "raise ValueError(\"EXPORT_SYMLINK\")"
+          },
+          {
+            "line": 137,
+            "text": "raise ValueError(\"EXPORT_TOO_LARGE\")"
+          },
+          {
+            "line": 140,
+            "text": "if doc.get(\"format\") != \"JARVIS_BR02_COLLECTOR_AUTONOMOUS\":"
+          },
+          {
+            "line": 141,
+            "text": "raise ValueError(\"BAD_FORMAT\")"
+          },
+          {
+            "line": 143,
+            "text": "if obs.get(\"status\") in (\"FAILED\", \"BLOCKED\"):"
+          },
+          {
+            "line": 144,
+            "text": "raise ValueError(\"FAILED_OBSERVATION\")"
+          },
+          {
+            "line": 148,
+            "text": "raise ValueError(\"WRONG_LISTING\")"
+          },
+          {
+            "line": 168,
+            "text": "except FileNotFoundError:"
+          },
+          {
+            "line": 172,
+            "text": "except (ValueError, TypeError, KeyError, AttributeError, OSError, AppError) as error:"
+          },
+          {
+            "line": 173,
+            "text": "errors += 1"
+          },
+          {
+            "line": 175,
+            "text": "params[\"source\"], path.name, getattr(error, \"code\", str(error)), exc_info=True)"
+          },
+          {
+            "line": 176,
+            "text": "return len(found), errors, already_known"
+          },
+          {
+            "line": 179,
+            "text": "def batch(app, ctx, params):"
+          },
+          {
+            "line": 186,
+            "text": "worker_error = None"
+          },
+          {
+            "line": 189,
+            "text": "except (ValueError, TimeoutError, OSError) as error:"
+          },
+          {
+            "line": 190,
+            "text": "worker_error = error"
+          },
+          {
+            "line": 193,
+            "text": "result = publish(app, params, directory)"
+          },
+          {
+            "line": 195,
+            "text": "params[\"source\"], params[\"mode\"], *result, directory.name + \".log\")"
+          },
+          {
+            "line": 196,
+            "text": "if worker_error is not None:"
+          },
+          {
+            "line": 197,
+            "text": "raise BatchFailure(str(worker_error), result, directory.name + \".log\") from worker_error"
+          },
+          {
+            "line": 199,
+            "text": "return result"
+          },
+          {
+            "line": 209,
+            "text": "except OSError:"
+          },
+          {
+            "line": 219,
+            "text": "except OSError:"
+          },
+          {
+            "line": 223,
+            "text": "def run(app, ctx, params):"
+          },
+          {
+            "line": 231,
+            "text": "totals = {\"found\": 0, \"refreshed\": 0, \"errors\": 0, \"sources\": {}}"
+          },
+          {
+            "line": 243,
+            "text": "except AppError as error:"
+          },
+          {
+            "line": 244,
+            "text": "if error.code != \"LOCAL_TASK_DEADLINE\":"
+          },
+          {
+            "line": 246,
+            "text": "raise TaskOutcome(\"PARTIAL\", error.code, totals) from error"
+          },
+          {
+            "line": 249,
+            "text": "result = {\"found\": 0, \"refreshed\": 0, \"errors\": 0}"
+          },
+          {
+            "line": 261,
+            "text": "previous = conn.execute(\"SELECT last_result FROM auto_source WHERE source=?\", (source,)).fetchone()[0]"
+          },
+          {
+            "line": 285,
+            "text": "result[\"search\"] = {\"origin\": t[\"origin\"], \"query\": t[\"value\"], \"page\": t[\"page\"]}"
+          },
+          {
+            "line": 287,
+            "text": "n, errors, known = batch(app, ctx, dict(source=source, mode=\"discover\", kind=t[\"kind\"], value=t[\"value\"],"
+          },
+          {
+            "line": 289,
+            "text": "result[\"found\"] += n"
+          },
+          {
+            "line": 291,
+            "text": "result[\"errors\"] += errors"
+          },
+          {
+            "line": 293,
+            "text": "raise ValueError(\"EMPTY_OR_UNAVAILABLE\")"
+          },
+          {
+            "line": 302,
+            "text": "n, errors, _ = batch(app, ctx, dict(source=source, mode=\"refresh\", ids=ids, limit=len(ids)))"
+          },
+          {
+            "line": 303,
+            "text": "result[\"refreshed\"] = n"
+          },
+          {
+            "line": 304,
+            "text": "result[\"errors\"] += max(errors, len(ids)-n)"
+          },
+          {
+            "line": 310,
+            "text": "except AppError as error:"
+          },
+          {
+            "line": 311,
+            "text": "if error.code != \"LOCAL_TASK_DEADLINE\":"
+          },
+          {
+            "line": 314,
+            "text": "result.update(reason=error.code, failed_mode=mode)"
+          },
+          {
+            "line": 315,
+            "text": "result[\"errors\"] += 1"
+          },
+          {
+            "line": 316,
+            "text": "except (ValueError, TimeoutError, OSError) as error:"
+          }
+        ]
+      },
+      "r52/collectors/auto_worker.py": {
+        "total_lines": 108,
+        "matched": [
+          {
+            "line": 15,
+            "text": "def follow_parent(pid):"
+          },
+          {
+            "line": 20,
+            "text": "kernel = ctypes.WinDLL(\"kernel32\", use_last_error=True)"
+          },
+          {
+            "line": 25,
+            "text": "raise RuntimeError(\"CORE_GONE\")"
+          },
+          {
+            "line": 27,
+            "text": "def watch():"
+          },
+          {
+            "line": 31,
+            "text": "class Basic(ctypes.Structure):"
+          },
+          {
+            "line": 37,
+            "text": "class Limits(ctypes.Structure):"
+          },
+          {
+            "line": 46,
+            "text": "raise ctypes.WinError(ctypes.get_last_error())"
+          },
+          {
+            "line": 50,
+            "text": "def watch():"
+          },
+          {
+            "line": 57,
+            "text": "def run(params, directory):"
+          },
+          {
+            "line": 68,
+            "text": "status = row.get(\"observation\", {}).get(\"status\") if row else \"NO_RESULT\""
+          },
+          {
+            "line": 69,
+            "text": "log.info(\"source=%s listing=%s phase=collect_product_return status=%s\", source, listing_id, status)"
+          },
+          {
+            "line": 70,
+            "text": "if not row or status in (\"FAILED\", \"BLOCKED\"):"
+          },
+          {
+            "line": 71,
+            "text": "log.warning(\"source=%s listing=%s result=%s remaining_not_attempted=%s\","
+          },
+          {
+            "line": 72,
+            "text": "source, listing_id, status, params[\"ids\"][index + 1:])"
+          },
+          {
+            "line": 82,
+            "text": "r.get(\"observation\", {}).get(\"status\") not in (\"FAILED\", \"BLOCKED\")]"
+          },
+          {
+            "line": 92,
+            "text": "def main(folder, parent_pid):"
+          },
+          {
+            "line": 99,
+            "text": "except Exception as error:"
+          },
+          {
+            "line": 101,
+            "text": "message = str(error)"
+          },
+          {
+            "line": 102,
+            "text": "code = message if re.fullmatch(r\"[A-Z0-9_]{1,80}\", message) else type(error).__name__.upper()"
+          },
+          {
+            "line": 103,
+            "text": "(folder / \"error.txt\").write_text(code, encoding=\"ascii\")"
+          }
+        ]
+      }
+    }
+  },
+  "errors": []
+}

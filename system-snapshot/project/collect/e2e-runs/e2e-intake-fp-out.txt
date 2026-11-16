@@ -1,0 +1,56 @@
+2026-11-12 02:55:19,648 r52.sources INFO Sources: зарегистрировано 4 сборщиков
+2026-11-12 02:55:19,652 e2e-intake-fp INFO === E2E Farpost Intake (fresh home) ===
+2026-11-12 02:55:19,674 e2e-intake-fp INFO Home: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-fresh-home
+2026-11-12 02:55:19,674 e2e-intake-fp INFO DB: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-fresh-home\data\r52.sqlite3
+2026-11-12 02:55:19,674 e2e-intake-fp INFO Intake folders: (WindowsPath('C:/Users/aleks/Downloads'),)
+2026-11-12 02:55:19,682 r52.db INFO Миграция 1 (initial) применена
+2026-11-12 02:55:19,683 r52.db INFO Миграция 2 (product_media) применена
+2026-11-12 02:55:19,684 r52.db INFO Миграция 3 (product_gallery) применена
+2026-11-12 02:55:19,687 r52.service INFO Применены миграции базы: [1, 2, 3]
+2026-11-12 02:55:19,694 e2e-intake-fp INFO App открыт. Миграции применены.
+2026-11-12 02:55:19,695 e2e-intake-fp INFO Найдено файлов: 2
+2026-11-12 02:55:19,695 e2e-intake-fp INFO   jarvis-eye-farpost-65c1950c.json (4714 байт)
+2026-11-12 02:55:19,695 e2e-intake-fp INFO   jarvis-eye-farpost-b9b6aaed.json (6695 байт)
+2026-11-12 02:55:19,695 e2e-intake-fp INFO 
+--- Stage: jarvis-eye-farpost-65c1950c.json ---
+2026-11-12 02:55:19,702 r52.intake INFO Во входящие добавлен файл jarvis-eye-farpost-65c1950c.json: PENDING 
+2026-11-12 02:55:19,702 e2e-intake-fp INFO   status=PENDING created=True elapsed=0.01s
+2026-11-12 02:55:19,702 e2e-intake-fp INFO   error_code=None
+2026-11-12 02:55:19,702 e2e-intake-fp INFO   -> Accept item_id=1
+2026-11-12 02:55:19,709 e2e-intake-fp INFO   accepted: product_id=1 obs_created=True events=[] elapsed=0.01s
+2026-11-12 02:55:19,709 e2e-intake-fp INFO 
+--- Stage: jarvis-eye-farpost-b9b6aaed.json ---
+2026-11-12 02:55:19,714 r52.intake INFO Во входящие добавлен файл jarvis-eye-farpost-b9b6aaed.json: PENDING 
+2026-11-12 02:55:19,714 e2e-intake-fp INFO   status=PENDING created=True elapsed=0.00s
+2026-11-12 02:55:19,714 e2e-intake-fp INFO   error_code=None
+2026-11-12 02:55:19,714 e2e-intake-fp INFO   -> Accept item_id=2
+2026-11-12 02:55:19,721 e2e-intake-fp INFO   accepted: product_id=2 obs_created=True events=[] elapsed=0.01s
+2026-11-12 02:55:19,721 e2e-intake-fp INFO 
+=== Проверка SQLite ===
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Products: 2
+2026-11-12 02:55:19,724 e2e-intake-fp INFO   #1 FARPOST/129606872 | Контрактный двигатель 1ZZ-FE цена с навесным! | brand=Toyota | origin=EYE
+2026-11-12 02:55:19,724 e2e-intake-fp INFO   #2 FARPOST/130693618 | Triangle IcelynX TI501, 205/55 R16 94T XL | brand=Triangle | origin=EYE
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Observations: 2
+2026-11-12 02:55:19,724 e2e-intake-fp INFO   #1 product=1 | EYE | COLLECTOR_AUTONOMOUS_HTTP | avail=IN_STOCK | fp=8fd1955589d503ad...
+2026-11-12 02:55:19,724 e2e-intake-fp INFO   #2 product=2 | EYE | COLLECTOR_AUTONOMOUS_HTTP | avail=IN_STOCK | fp=b3211dacc81068ad...
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Price points: 2
+2026-11-12 02:55:19,724 e2e-intake-fp INFO   #1 obs=1 product=1 | regular 13500000 RUB | label=data-bulletin-price | 2026-11-11T16:33:06.851+00:00
+2026-11-12 02:55:19,724 e2e-intake-fp INFO   #2 obs=2 product=2 | regular 2440000 RUB | label=data-bulletin-price | 2026-11-11T16:32:54.128+00:00
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Product summary:
+2026-11-12 02:55:19,724 e2e-intake-fp INFO   #1 FARPOST/129606872 | reg=13500000 low=13500000 | avail=IN_STOCK | obs_count=1
+2026-11-12 02:55:19,724 e2e-intake-fp INFO   #2 FARPOST/130693618 | reg=2440000 low=2440000 | avail=IN_STOCK | obs_count=1
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Inbox items: 2
+2026-11-12 02:55:19,724 e2e-intake-fp INFO   #1 jarvis-eye-farpost-65c1950c.json | ACCEPTED | FOLDER | obs_id=1
+2026-11-12 02:55:19,724 e2e-intake-fp INFO   #2 jarvis-eye-farpost-b9b6aaed.json | ACCEPTED | FOLDER | obs_id=2
+2026-11-12 02:55:19,724 e2e-intake-fp INFO 
+=== ИТОГ E2E ===
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Файлов обработано: 2
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Успешно принято: 2
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Invalid: 0
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Products в БД: 2
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Observations в БД: 2
+2026-11-12 02:55:19,724 e2e-intake-fp INFO Price points в БД: 2
+2026-11-12 02:55:19,724 e2e-intake-fp INFO E2E STATUS: PASS
+2026-11-12 02:55:19,725 e2e-intake-fp INFO Результат: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-intake-fp-result.json
+2026-11-12 02:55:19,727 r52.service INFO Ядро R-52 остановлено
+2026-11-12 02:55:19,727 e2e-intake-fp INFO === Done ===

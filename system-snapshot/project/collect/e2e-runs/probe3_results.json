@@ -1,0 +1,56 @@
+{
+  "time": "2026-11-12T16:11:03.777057+10:00",
+  "total_s": 33.7,
+  "results": {
+    "WB:selling": {
+      "ok": true,
+      "detail": "selling={\"brand_name\": \"Apple\", \"brand_hash\": \"6F8A1C9991FE5BC9\", \"supplier_id\": 250148991, \"no_return_map\": 4351}",
+      "s": 0.9
+    },
+    "WB:colors": {
+      "ok": true,
+      "detail": "full_colors[0:2]=[{\"nm_id\": 1097975273}, {\"nm_id\": 1097975275}] colors[0:2]=[1097975273, 1097975275]",
+      "s": 0.9
+    },
+    "WB:media": {
+      "ok": true,
+      "detail": "media_keys=['photo_count'] photos=0",
+      "s": 0.9
+    },
+    "WB:pw_html": {
+      "ok": false,
+      "detail": "Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+      "s": 5.9
+    },
+    "WB:host_42": {
+      "ok": true,
+      "detail": "host=basket-42.wbbasket.ru selling={\"brand_name\": \"Apple\", \"brand_hash\": \"6F8A1C9991FE5BC9\", \"supplier_id\": 250148991, \"no_return_map\":",
+      "s": 0.9
+    },
+    "WB:api_scan": {
+      "ok": false,
+      "detail": "Failed to perform, curl: (6) Could not resolve host: app.wildberries.ru (DNS ser",
+      "s": 2.4
+    },
+    "OZON:pw_deep": {
+      "ok": true,
+      "detail": "len=1065497 fab=False prices=['ld={\"@context\": \"http://schema.org\", \"@type\": \"Product\", \"aggregateRating\": {\"@type\": \"AggregateRating\", \"ratingValue\": \"5.0\", \"reviewCount\": \"352\"}, \"brand\": \"Станислав Миков\", \"description\": \"Набор отк', 're:\"price\"\\\\s*:\\\\s*\"?([\\\\d=284', 'ctx_262=...5.108 3.153 23.66",
+      "s": 7.3
+    },
+    "OZON:pw_id2": {
+      "ok": false,
+      "detail": "oid=761659557 len=718548 fab=False prices=[]",
+      "s": 5.7
+    },
+    "AVITO:url_scan": {
+      "ok": false,
+      "detail": "tried 3 urls",
+      "s": 3.6
+    },
+    "AVITO:pw_cat": {
+      "ok": false,
+      "detail": "len=36454 ad_links=[] ad_ids=[] data=[] state=False",
+      "s": 5.7
+    }
+  }
+}

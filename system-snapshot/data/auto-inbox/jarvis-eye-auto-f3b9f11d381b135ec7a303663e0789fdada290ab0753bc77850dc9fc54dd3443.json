@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Джинсы широкие трубы y2k багги",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Feimailis",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "XJ2512#0113",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Представляем вам классические мужские джинсы трубы, идеальные для весны и лета. Состав -\nхлопок 100%. Эта модель выполнена в универсальном синем темном цвете, что позволяет легко сочетать их с любыми  любыми образами. Прямой крой обеспечивает комфорт и стильный внешний вид, а средняя посадка гарантирует удобство в течение всего дня. Широкие багги джинсы оснащены надежной застежкой на пуговицу и молнию, а также практичными накладными карманами. Изготовленные из прочного материала, эти джинсы отличаются высокой устойчивостью к истиранию, что делает их идеальным выбором для ежедневной носки.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Джинсы",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Состав: хлопок 100%\nЦвет: синий\nПол: Мужской\nСезон: Демисезон\nРазмер на модели: 30\nРост модели на фото: 190 см\nТип посадки: средняя\nВид застежки: молния; пуговицы\nТип карманов: прорезные; накладные\nФактура материала: деним\nОсобенности модели: дышащий материал; устойчивость к истиранию\nДекоративные элементы: без элементов\nУтеплитель: без утеплителя\nУход за вещами: гладить при t не более 110°C\nКомплектация: Джинсы мужские 1 шт\nСтрана производства: Китай",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 949900,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "9499.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 270700,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "2707.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-37.wbbasket.ru/vol8298/part829829/829829020/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-37.wbbasket.ru/vol8298/part829829/829829020/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-37.wbbasket.ru/vol8298/part829829/829829020/images/S800/1.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Одежда > Джинсы",
+    "source": "WB",
+    "id": "829829020",
+    "url": "https://www.wildberries.ru/catalog/829829020/detail.aspx",
+    "observed_at": "2026-11-16T05:37:37.322406+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Трусы женские набор 9 штук",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Velissima",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "бардовая 9 шт",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Женские трусы — основа повседневного комфорта и аккуратного образа. Наш набор — это практичное решение для тех, кто ценит качество и удобство. Трусы женские выполнены из мягкого дышащего материала: трусы женские хлопок приятны к телу, не вызывают дискомфорта и подходят для ежедневной носки.\n\nСлипы с продуманной посадкой: они не сдавливают, хорошо тянутся и сохраняют форму после стирки. Трусы женские набор — это универсальный вариант на каждый день: дома, на работе или в дороге. Лаконичный дизайн легко сочетается с любой одеждой.\n\nЕсли вы ищете удобные и практичные трусы, этот набор станет отличным выбором. Трусы и слипы обеспечивают комфорт, надежную посадку и аккуратный внешний вид.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Белье > Трусы",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Состав: хлопок 95%; спандекс 5%\nЦвет: черный; белый; розовый; желтый\nКоличество предметов в упаковке (шт.): 9 шт.\nМодель трусов: слипы\nТип посадки: средняя\nФактура материала белья: хлопок\nДекоративные элементы: в рубчик\nУход за вещами: стирка при t не более 30°C; гладить на низкой температуре\nПолное наименование товара: Трусы женские набор",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 231900,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "2319.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 88700,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "887.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-41.wbbasket.ru/vol9910/part991056/991056121/images/S800/1.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Белье > Трусы",
+    "source": "WB",
+    "id": "991056121",
+    "url": "https://www.wildberries.ru/catalog/991056121/detail.aspx",
+    "observed_at": "2026-11-16T05:21:58.653772+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

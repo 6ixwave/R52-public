@@ -1,0 +1,68 @@
+[02:32:35] === pw52: AliExpress TMD bypass + MTOP PDP (fixed) ===
+[02:32:35] Product: 1005011813323763
+[02:32:35] URL: https://www.aliexpress.com/item/1005011813323763.html
+[02:32:36] === Phase 1: Warm-up ===
+[02:32:48]   MTOP: 200 https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/mtop.js
+[02:32:48]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:32:48]   MTOP: 200 https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.5.1&appKey=12574478&t=1794501165247
+[02:32:48]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:32:48]   Cookies: [REDACTED_AUTH_SECRET]
+[02:32:48] === Phase 2: Load product page ===
+[02:32:58]   MTOP: 200 https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794501169691&sign=[REDACTED_AUTH_SECRET]
+[02:32:58]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:32:58]   MTOP: 200 https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg51ea01398e797642kjc4ef3
+[02:32:58]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:32:58]   MTOP: 200 https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secd
+[02:32:58]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:32:58]   MTOP: 200 https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.co
+[02:32:58]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:32:58]   MTOP: 200 https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%
+[02:32:58]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:32:58]   MTOP: 200 https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.quer
+[02:32:58]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:32:58]   MTOP: 200 https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p_url=https%3A%2F%2Fa
+[02:32:58]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:32:58]   Title: 
+[02:32:58]   MTOP so far: 7
+[02:32:58]   Screenshot: diag_ali_pw52_after_load.png
+[02:32:58] === Phase 3: TMD detection ===
+[02:32:58]   TMD iframes: 1
+[02:32:58]     [0] https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg51ea01398e797642kjc4ef3da01ce1cb2541e121578c641c4
+[02:32:58]   → TMD active
+[02:32:58] === Phase 4: reCAPTCHA bypass ===
+[02:32:58]   → TMD frame: https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg51ea01398e797642kjc4ef3
+[02:32:58]   Waiting for reCAPTCHA widget...
+[02:33:06]   MTOP: 200 https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/report?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBN
+[02:33:06]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:33:13]   reCAPTCHA error: Frame.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("#recaptcha-anchor, .recaptcha-checkbox, input[type='checkbox']") to be visible
+
+[02:33:13] === Phase 5: Reload & capture PDP ===
+[02:33:24]   After reload: 0 MTOP
+[02:33:24]   MTOP: 200 https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794501194023&sign=[REDACTED_AUTH_SECRET]
+[02:33:24]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:33:24]   MTOP: 200 https://acs.aliexpress.com//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xga886af9bca532d95kj7bfbf
+[02:33:24]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:33:24]   MTOP: 200 https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secd
+[02:33:24]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:33:24]   MTOP: 200 https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Fit.aliexpress.com%2F&scr=1366x900&_p_url=https%3A%2F%2Fa
+[02:33:24]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:33:24]   MTOP: 200 https://log.mmstat.com/y.gif?logtype=0&title=&pre=https%3A%2F%2Facs.aliexpress.com%2F%2Fh5%2Fmtop.aliexpress.pdp.pc.quer
+[02:33:24]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:33:24]   MTOP: 200 https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=QRCode%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.com%
+[02:33:24]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:33:24]   MTOP: 200 https://gm.mmstat.com/fsp.1.1?code=[REDACTED_AUTH_SECRET]&msg=Feedback%20init%20success&pid=sufeiPunish&page=https%3A%2F%2Facs.aliexpress.co
+[02:33:24]     body_error: Response.body() got an unexpected keyword argument 'timeout'
+[02:33:24]   Screenshot: diag_ali_pw52_after_reload.png
+[02:33:24] === Phase 6: DOM extraction ===
+[02:33:24]   DOM: title=Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Dis, price=none, imgs=11
+[02:33:24]   Screenshot: diag_ali_pw52_final.png
+[02:33:24] === DONE ===
+[02:33:24]   MTOP total: 7
+[02:33:24]   TMD: True, reCAPTCHA: False
+[02:33:24]   PDP keys: empty
+[02:33:24]   DOM title: Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a
+[02:33:24]   DOM price: none
+[02:33:24]   Errors: ['recaptcha: Frame.wait_for_selector: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator("#recaptcha-anchor, .recaptcha-checkbox, input[type=\'checkbox\']") to be visible\n']
+[02:33:25] Result: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_pw52_result.json (4894 B)

@@ -1,0 +1,25 @@
+=== ALIEXPRESS DIAG at 21:49:10 ===
+URL: https://www.aliexpress.com/item/1005006564853571.html
+HTTP: 200, 74600 bytes (2.7s)
+HTML saved: diag_ali_page.html
+HTML len: 74268
+
+--- PATTERN SEARCH ---
+<title>: NOT FOUND
+<h1>: NOT FOUND
+JSON-LD blocks: 0
+og:title: 
+  [class*=price]: 0 matches, first=—
+  [data-pl=price]: 0 matches, first=—
+  [json price]: 0 matches, first=—
+  [US$ pattern]: 2 matches, first=[',', ',']
+  [N USD]: 0 matches, first=—
+  [formattedPrice]: 0 matches, first=—
+  [priceText]: 0 matches, first=—
+
+TMD/captcha detected: False
+
+--- COLLECTOR PARSE ---
+parse_page → None (0.0s)
+
+=== END at 21:49:13 ===

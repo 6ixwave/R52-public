@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Футболка женская в стиле скимс набор 2 шт",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Insolito",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Женская утягивающая футболка в стиле скимс теперь в наборе из 2 штук. Приталенный дизайн позволит подчеркнуть талию и корректирует фигуру. Обтягивающая слим футболка станет универсальным решением для девушек и подростков, которые стремятся выглядеть модно. Облегающий фасон создает эффект приталенности, а короткий рукав добавляет комфорт во время движений. Футболка белая, розовая, черная в обтяг подойдет для танцев и занятий в спортзале. Skims футболка будет как в весной, так и жарким летом. Базовая однотонная футболка скинни не только для всесезонной носки, но и для летних жарких дней, занятий спортом, йогой или танцами. Базовая однотонная футболка скинни с коротким рукавом подойдет для повседневной носки, дома, офиса или даже для активных тренировок и бега. Эта модель слим как из пинтерест станет незаменимой частью базового гардероба.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Футболки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 274000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "2740.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 99200,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "992.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Одежда > Футболки",
+    "source": "WB",
+    "id": "893322100",
+    "url": "https://www.wildberries.ru/catalog/893322100/detail.aspx",
+    "observed_at": "2026-11-17T01:40:02.723110+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

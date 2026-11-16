@@ -1,0 +1,53 @@
+2026-11-11 06:59:55,876 [INFO] diag_v47: === diag_v47 START | cffi=True ===
+2026-11-11 06:59:55,876 [INFO] diag_v47: === WB (v47) ===
+2026-11-11 06:59:55,876 [INFO] diag_v47: WB S1: CDN через cffi (basket-01..05, static-basket)
+2026-11-11 06:59:55,876 [INFO] diag_v47:   nm=199298871 vol=1992 part=98
+2026-11-11 06:59:56,796 [INFO] diag_v47:     basket-01.wbbasket.ru: HTTP 404 196B (0.9s)
+2026-11-11 06:59:58,070 [INFO] diag_v47:     basket-02.wbbasket.ru: HTTP 404 196B (0.8s)
+2026-11-11 06:59:59,526 [INFO] diag_v47:     basket-03.wbbasket.ru: HTTP 404 196B (1.0s)
+2026-11-11 07:00:00,819 [INFO] diag_v47:     basket-04.wbbasket.ru: HTTP 404 196B (0.8s)
+2026-11-11 07:00:02,271 [INFO] diag_v47:     basket-05.wbbasket.ru: HTTP 404 196B (0.9s)
+2026-11-11 07:00:03,709 [INFO] diag_v47:     static-basket-01.wbbasket.ru: HTTP 404 0B (0.9s)
+2026-11-11 07:00:05,509 [WARNING] diag_v47: cffi_get ERR https://img.wbbasket.ru/vol1992/part98/199298871/images/big/: Failed to perform, curl: (6) Could not resolve host: img.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 07:00:05,509 [INFO] diag_v47:     img.wbbasket.ru: HTTP ERR 0B (1.3s)
+2026-11-11 07:00:06,010 [INFO] diag_v47: WB S2: wbx-content-v1 через cffi
+2026-11-11 07:00:07,360 [WARNING] diag_v47: cffi_get ERR https://wbx-content-v1.wbbasket.ru/vol1992/part98/199298871/: Failed to perform, curl: (6) Could not resolve host: wbx-content-v1.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 07:00:07,360 [INFO] diag_v47:   wbx cffi nm=199298871: HTTP ERR (1.3s)
+2026-11-11 07:00:09,827 [WARNING] diag_v47: cffi_get ERR https://wbx-content-v1.wbbasket.ru/vol3143/part37/314337853/: Failed to perform, curl: (6) Could not resolve host: wbx-content-v1.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 07:00:09,827 [INFO] diag_v47:   wbx cffi nm=314337853: HTTP ERR (0.5s)
+2026-11-11 07:00:11,827 [INFO] diag_v47: WB S3: card.wb.ru v2 (мин params)
+2026-11-11 07:00:12,612 [INFO] diag_v47:   v2 min nm=199298871: HTTP 403 (0.8s)
+2026-11-11 07:00:15,962 [INFO] diag_v47:   v2 min nm=314337853: HTTP 403 (1.3s)
+2026-11-11 07:00:17,963 [INFO] diag_v47: WB S4: card.wb.ru v4 (мин params)
+2026-11-11 07:00:18,781 [INFO] diag_v47:   v4 min nm=199298871: HTTP 403 (0.8s)
+2026-11-11 07:00:20,781 [INFO] diag_v47: WB S5: search.wb.ru (поиск)
+2026-11-11 07:00:21,576 [INFO] diag_v47:   search 'телефон': HTTP 403 items=0 (0.8s)
+2026-11-11 07:00:25,379 [INFO] diag_v47:   search 'iphone': HTTP 403 items=0 (0.8s)
+2026-11-11 07:00:28,379 [INFO] diag_v47: WB S6: HTML detail (body analysis)
+2026-11-11 07:00:29,157 [INFO] diag_v47:   HTML body nm=199298871: HTTP 498 (0.8s) saved=diag_v47_wb_html_199298871.html
+2026-11-11 07:00:29,157 [INFO] diag_v47: === OZON (v47) ===
+2026-11-11 07:00:29,157 [INFO] diag_v47: OZON S1: api.ozon.ru (verify=False)
+2026-11-11 07:00:30,644 [INFO] diag_v47:   api verify_off nm=1600562267: HTTP 403 (1.5s)
+2026-11-11 07:00:33,644 [INFO] diag_v47: OZON S2: Session (home → composer)
+2026-11-11 07:00:34,601 [INFO] diag_v47:   Home: HTTP 403 (8406B)
+2026-11-11 07:00:34,601 [INFO] diag_v47:   Cookies: [REDACTED_AUTH_SECRET]
+2026-11-11 07:00:37,723 [INFO] diag_v47:   Session composer nm=1600562267: HTTP 403 (1081B)
+2026-11-11 07:00:40,724 [INFO] diag_v47: OZON S3: SSR HTML (session)
+2026-11-11 07:00:41,646 [INFO] diag_v47:   Home: HTTP 403
+2026-11-11 07:00:44,774 [INFO] diag_v47:   SSR session nm=1600562267: HTTP 403 widgets=False (8633B)
+2026-11-11 07:00:47,775 [INFO] diag_v47: OZON S4: Mobile session
+2026-11-11 07:00:48,728 [INFO] diag_v47:   Mobile home: HTTP 403
+2026-11-11 07:00:51,856 [INFO] diag_v47:   Mobile nm=1600562267: HTTP 403 (8548B)
+2026-11-11 07:00:51,859 [INFO] diag_v47: === AVITO (v47) ===
+2026-11-11 07:00:51,859 [INFO] diag_v47: AVITO S1: Web API items (разные params)
+2026-11-11 07:00:52,766 [INFO] diag_v47:   API electronics&f=0&q=iphone&maxPr: HTTP 439 items=0 (0.9s)
+2026-11-11 07:01:01,673 [INFO] diag_v47:   API electronics&f=0&q=iphone: HTTP 439 items=0 (0.9s)
+2026-11-11 07:01:10,570 [INFO] diag_v47:   API electronics&f=0: HTTP 439 items=0 (0.9s)
+2026-11-11 07:01:19,498 [INFO] diag_v47:   API transport&f=0&q=автомобиль: HTTP 439 items=0 (0.9s)
+2026-11-11 07:01:28,380 [INFO] diag_v47:   API realty&f=0&q=квартира: HTTP 439 items=0 (0.9s)
+2026-11-11 07:01:36,381 [INFO] diag_v47: AVITO S2: Найти живые ID
+2026-11-11 07:01:36,381 [INFO] diag_v47:   valid_ids: []
+2026-11-11 07:01:36,381 [INFO] diag_v47: AVITO S4: Home (IP check)
+2026-11-11 07:01:52,298 [INFO] diag_v47:   Home: HTTP 439 ip_limit=True
+2026-11-11 07:01:52,298 [INFO] diag_v47: === diag_v47 DONE in 116.4s ===
+2026-11-11 07:01:52,299 [INFO] diag_v47: Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v47_results.json (9401 B)

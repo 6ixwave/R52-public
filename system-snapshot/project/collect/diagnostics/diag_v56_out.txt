@@ -1,0 +1,66 @@
+============================================================
+DIAG v56: WB headless=new + AVITO proxy | 2026-11-11T08:02:09.400082
+============================================================
+
+============================================================
+WILDBERRIES (headless=new + persistent + 65s)
+============================================================
+
+--- W1: WB main (WBAAS 65s wait) ---
+  t+10s: 7590B wbaas=True title=...
+  t+15s: 7590B wbaas=True title=...
+  t+20s: 7590B wbaas=True title=...
+  t+25s: 7590B wbaas=True title=...
+  t+30s: 7590B wbaas=True title=...
+  t+35s: 7590B wbaas=True title=...
+  t+40s: 7590B wbaas=True title=...
+  t+45s: 7590B wbaas=True title=...
+  t+50s: 7590B wbaas=True title=...
+  t+55s: 7590B wbaas=True title=...
+  t+60s: 7590B wbaas=True title=...
+  t+65s: 1905B wbaas=True title=...
+  Cookies (1): ['x_wbaas_token']
+  WBAAS cookies: [REDACTED_AUTH_SECRET]
+
+--- W2: WB product pages ---
+  nm=199298871: ERR Error: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+  nm=314337853: ERR Error: Page.goto: Navigation to "https://www.wildberries.ru/catalog/314337853/detail.aspx" is interrupted by another navigation to "https://www.wildberries.r
+  nm=110835207: 7590B wbaas=True jsonld=False title=...
+
+--- W3: catalog.wb.ru API (session) ---
+  API nm=199298871: HTTP 403, len=0
+  API nm=314337853: HTTP 403, len=0
+  API nm=110835207: HTTP 403, len=0
+
+--- W4: WB search ---
+  search: 7590B wbaas=True title=...
+  Live IDs: []
+
+WB RESULT: ok=False
+
+============================================================
+AVITO (proxy + mobile)
+============================================================
+
+--- A1: Avito desktop (proxy) ---
+  Main (proxy): 36459B ip_limit=True title=Доступ ограничен: проблема с IP
+  IDs: []
+  Cat telefony: 36450B ip_limit=True
+  Cat IDs: []
+  Ad 1154321987: 29378B ip_limit=False 404=True title=Ошибка 404. Страница не найдена
+
+--- A2: Avito mobile (proxy) ---
+  Mobile main: 36436B ip_limit=True title=Доступ ограничен: проблема с IP
+  Mobile IDs: []
+  Mobile ad 1154321987: 19102B ip_limit=False 404=False
+    Saved: diag_v56_avito_mob_1154321987.html
+
+AVITO RESULT: ok=True, ids=[]
+
+============================================================
+SUMMARY
+============================================================
+  WB:    ok=False
+  AVITO: ok=True, ids=[]
+  Time:  205.0s
+  DONE:  2026-11-11T08:05:34.386398

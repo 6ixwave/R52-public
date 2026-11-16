@@ -1,0 +1,50 @@
+diff --git a/r52/db/schema.py b/r52/db/schema.py
+--- a/r52/db/schema.py
++++ b/r52/db/schema.py
+@@ -306,6 +306,26 @@
+ CREATE INDEX llm_call_created ON assistant_llm_call(created_at);
+ """
+ 
++V9_AUTOCOLLECT = """
++CREATE TABLE auto_source(
++ source TEXT PRIMARY KEY, enabled INTEGER NOT NULL DEFAULT 1 CHECK(enabled IN(0,1)),
++ last_run TEXT, last_result TEXT, retry_after TEXT
++) STRICT;
++INSERT INTO auto_source(source) VALUES ('WB'),('OZON'),('AVITO'),('FARPOST'),('ALIEXPRESS'),('ALIEXPRESS_RU');
++CREATE TABLE auto_target(
++ id INTEGER PRIMARY KEY AUTOINCREMENT, source TEXT NOT NULL REFERENCES auto_source(source),
++ kind TEXT NOT NULL CHECK(kind IN('query','category','url')), value TEXT NOT NULL,
++ enabled INTEGER NOT NULL CHECK(enabled IN(0,1)), item_limit INTEGER NOT NULL CHECK(item_limit BETWEEN 1 AND 50),
++ interval_seconds INTEGER CHECK(interval_seconds BETWEEN 60 AND 2592000), last_run TEXT,
++ page INTEGER NOT NULL DEFAULT 1, UNIQUE(source,kind,value)
++) STRICT;
++CREATE TABLE auto_refresh(product_id INTEGER PRIMARY KEY REFERENCES product(id) ON DELETE CASCADE, attempted TEXT NOT NULL) STRICT;
++CREATE TABLE auto_delivery(
++ path TEXT PRIMARY KEY, digest TEXT NOT NULL, source TEXT NOT NULL, listing_id TEXT NOT NULL
++) STRICT;
++CREATE INDEX auto_delivery_listing ON auto_delivery(source,listing_id);
++"""
++
+ MIGRATIONS = [
+     (1, "initial", V1_INITIAL),
+     (2, "product_media", V2_MEDIA),
+@@ -315,4 +335,5 @@
+     (6, "analysis_history", V6_ANALYSIS_HISTORY),
+     (7, "assistant_request", V7_ASSISTANT_REQUEST),
+     (8, "llm_call_unknown", V8_LLM_CALL_UNKNOWN),
++    (9, "autocollect", V9_AUTOCOLLECT),
+ ]
+diff --git a/r52/core/settings.py b/r52/core/settings.py
+--- a/r52/core/settings.py
++++ b/r52/core/settings.py
+@@ -59,6 +59,10 @@
+ 
+ 
+ SPEC = {
++    "autocollect.enabled": (True, _bool),
++    "autocollect.refresh_seconds": (21600, _int_range(60, 2592000)),
++    "autocollect.discovery_seconds": (3600, _int_range(60, 2592000)),
++    "autocollect.new_limit": (20, _int_range(1, 200)),
+     "notifications.enabled": (True, _bool),
+     "notifications.quiet_hours": ("23:00-08:00", _quiet),
+     "digest.enabled": (True, _bool),

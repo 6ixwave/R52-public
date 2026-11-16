@@ -1,0 +1,142 @@
+﻿python : 2026-11-12 06:25:54,168 e2e4 INFO === E2E v4 PARALLEL START 2026-11-12T06:25:54.167965+10:00 ===
+строка:1 знак:67
++ ...  $ErrorActionPreference='Continue'; python e2e_speed4.py 2>&1 | Out-F ...
++                                         ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 06:2...67965+10:00 ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 06:25:54,168 e2e4 INFO IDs: {'WB': '100000001', 'OZON': '2795954097', 'AVITO': '8211140068', 'FARPOST': '139
+122082'}
+2026-11-12 06:25:54,318 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json н
+е найден, режим direct
+2026-11-12 06:25:54,319 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json н
+е найден, режим direct
+2026-11-12 06:25:54,319 e2e4 INFO AVITO URL: https://www.avito.ru/ad/8211140068
+2026-11-12 06:25:54,318 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json н
+е найден, режим direct
+2026-11-12 06:25:54,319 e2e4 INFO OZON URL: https://www.ozon.ru/product/2795954097/
+2026-11-12 06:25:54,319 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json н
+е найден, режим direct
+2026-11-12 06:25:54,319 e2e4 INFO FARPOST URL: https://www.farpost.ru/vladivostok/139122082.html
+2026-11-12 06:25:54,447 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-12 06:25:54,447 e2e4 INFO WB URL: https://www.wildberries.ru/catalog/100000001/detail.aspx
+2026-11-12 06:25:55,128 r52.collectors.avito INFO AVITO 8211140068: www.avito.ru -> HTTP 404
+2026-11-12 06:25:55,599 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 06:25:55,619 urllib3.connectionpool WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None,
+ status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certi
+ficate verify failed: unable to get local issuer certificate (_ssl.c:1147)'))': /composer-api.bx/page/json/v2?url=/prod
+uct/2795954097/
+2026-11-12 06:25:57,888 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None,
+ status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certi
+ficate verify failed: unable to get local issuer certificate (_ssl.c:1147)'))': /composer-api.bx/page/json/v2?url=/prod
+uct/2795954097/
+2026-11-12 06:26:02,143 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None,
+ status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certi
+ficate verify failed: unable to get local issuer certificate (_ssl.c:1147)'))': /composer-api.bx/page/json/v2?url=/prod
+uct/2795954097/
+2026-11-12 06:26:02,405 r52.collectors.ozon INFO OZON 2795954097: composer v2 error: HTTPSConnectionPool(host='api.ozon
+.ru', port=443): Max retries exceeded with url: /composer-api.bx/page/json/v2?url=/product/2795954097/ (Caused by SSLEr
+ror(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer
+ certificate (_ssl.c:1147)')))
+2026-11-12 06:26:06,577 r52.collectors.wb INFO WB: vol=1000 -> basket-05.wbbasket.ru (nm_id=100000001)
+2026-11-12 06:26:10,115 r52.collectors.wb INFO WB 100000001: card.json OK (17 keys, 5066B)
+2026-11-12 06:26:12,158 r52.collectors.avito INFO AVITO 8211140068: m.avito.ru -> HTTP 404
+2026-11-12 06:26:12,599 r52.collectors.ozon INFO OZON 2795954097: 2795954097 -> HTTP 403
+2026-11-12 06:26:12,989 r52.collectors.wb INFO WB 100000001: price card_v1 -> 403
+2026-11-12 06:26:13,168 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True)
+2026-11-12 06:26:16,010 r52.collectors.wb INFO WB 100000001: price card_v2 -> 403
+2026-11-12 06:26:19,675 r52.collectors.wb INFO WB 100000001: price card_v4 -> 403
+2026-11-12 06:26:22,118 r52.collectors.wb INFO WB 100000001: price card_v5 -> 403
+2026-11-12 06:26:25,403 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/2795954097/ -> 403 (3307
+B, 12.2s)
+2026-11-12 06:26:25,407 r52.collectors.ozon INFO OZON 2795954097: PW status=403 len=3307
+2026-11-12 06:26:25,470 r52.collectors.wb INFO WB 100000001: price catalog_v1 -> 403
+2026-11-12 06:26:25,638 r52.collectors INFO OZON: HTTP 403, retry 1/3 через 14с
+2026-11-12 06:26:28,587 r52.collectors.wb INFO WB 100000001: price catalog_v2 -> 403
+2026-11-12 06:26:30,888 r52.collectors.wb INFO WB 100000001: price web_api -> 498
+2026-11-12 06:26:30,888 r52.collectors.wb INFO WB 100000001: price — все эндпоинты не дали данных
+2026-11-12 06:26:39,813 r52.collectors INFO OZON: HTTP 403, retry 2/3 через 24с
+2026-11-12 06:26:46,637 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-12 06:26:46,638 r52.collectors.wb INFO WB 100000001: photo_count=3, found=1
+2026-11-12 06:27:04,070 r52.collectors INFO OZON: HTTP 403, retry 3/3 через 44с
+2026-11-12 06:27:48,707 e2e4 INFO === E2E v4 DONE in 114.5s ===
+2026-11-12 06:27:48,707 e2e4 INFO SUMMARY:
+2026-11-12 06:27:48,707 e2e4 INFO === VERDICT: 1/4 ===
+{
+  "FARPOST": {
+    "verdict": "DATA_OK",
+    "title": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красн",
+    "prices": 1,
+    "media": 1,
+    "status": "PARTIAL_SUCCESS",
+    "elapsed": 2.7
+  },
+  "AVITO": {
+    "verdict": "FAIL",
+    "title": "",
+    "prices": 0,
+    "media": 0,
+    "status": "NONE",
+    "elapsed": 28.6
+  },
+  "WB": {
+    "verdict": "DATA_WEAK",
+    "title": "Белизна отбеливатель средство для уборки",
+    "prices": 0,
+    "media": 1,
+    "status": "PARTIAL_SUCCESS",
+    "elapsed": 52.3
+  },
+  "OZON": {
+    "verdict": "FAIL",
+    "title": "",
+    "prices": 0,
+    "media": 0,
+    "status": "NONE",
+    "elapsed": 114.4
+  }
+}
+E2E_V4_DONE ok=1/4 total=115s
+2026-11-12 06:27:48,730 asyncio ERROR Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Connection.run_as_sync() running at C:\Users\aleks\AppData\Roaming\Python\Pytho
+n315\site-packages\playwright\_impl\_connection.py:340> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_run_unti
+l_complete_cb() at C:\Python315\Lib\asyncio\base_events.py:183]>
+Exception ignored while calling deallocator <function _ProactorBasePipeTransport.__del__ at 0x0000019A0BFFC3B0>:
+Traceback (most recent call last):
+  File "C:\Python315\Lib\asyncio\proactor_events.py", line 118, in __del__
+    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
+                               ^^^^^^^^
+  File "C:\Python315\Lib\asyncio\proactor_events.py", line 81, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+                      ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\asyncio\windows_utils.py", line 109, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe
+Exception ignored while calling deallocator <function StreamWriter.__del__ at 0x0000019A0BF77060>:
+Traceback (most recent call last):
+  File "C:\Python315\Lib\asyncio\streams.py", line 421, in __del__
+    warnings.warn(f"unclosed {self!r}", ResourceWarning)
+                             ^^^^^^^^
+  File "C:\Python315\Lib\asyncio\streams.py", line 341, in __repr__
+    info = [self.__class__.__name__, f'transport={self._transport!r}']
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python315\Lib\asyncio\proactor_events.py", line 81, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+                      ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\asyncio\windows_utils.py", line 109, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe
+Exception ignored while calling deallocator <function BaseSubprocessTransport.__del__ at 0x0000019A0BF66560>:
+Traceback (most recent call last):
+  File "C:\Python315\Lib\asyncio\base_subprocess.py", line 134, in __del__
+    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
+                               ^^^^^^^^
+  File "C:\Python315\Lib\asyncio\base_subprocess.py", line 73, in __repr__
+    info.append(f'stdin={stdin.pipe}')
+                        ^^^^^^^^^^^^
+  File "C:\Python315\Lib\asyncio\proactor_events.py", line 81, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+                      ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\asyncio\windows_utils.py", line 109, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe

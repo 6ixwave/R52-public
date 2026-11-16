@@ -1,0 +1,8 @@
+[
+  {
+    "url": "https://hcaptcha.com/1/api.js?hl=ru&recaptchacompat=off",
+    "status": 200,
+    "len": 420418,
+    "body": "/* { \"version\": \"1\", \"hash\": \"MEQCIHwViCyjzi6hE5nSa6jh0R2vCrNwmZq3RSCXs5pJRxUXAiBdUVFX2Cz5lY5wRqCY1Hdcam2X1uvseahsUb9jDEjo6A==\" } */\n/* https://hcaptcha.com/license */\n!function(){\"use strict\";function e(e){var t=this.constructor;return this.then((function(n){return t.resolve(e()).then((function(){return n}))}),(function(n){return t.resolve(e()).then((function(){return t.reject(n)}))}))}function t(e){return new this((function(t,n){if(!e||\"undefined\"==typeof e.length)return n(new TypeError(typeof e+\" \"+e+\" is not iterable(cannot read property Symbol(Symbol.iterator))\"));var r=Array.prototype.sl"
+  }
+]

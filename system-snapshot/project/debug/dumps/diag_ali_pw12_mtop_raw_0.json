@@ -1,0 +1,1918 @@
+{
+  "api": "mtop.aliexpress.pdp.pc.query",
+  "data": {
+    "result": {
+      "POPUP": {
+        "popupMap": {},
+        "sortedPopup": []
+      },
+      "HEADER_IMAGE_PC": {
+        "currentSkuImages": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/Se8cad3c144834f3ab0bbb8abe991ca50h.jpg"
+        ],
+        "imagePathList": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/S53346c3c02414c0a97b9071de2453043g.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S59651f326ae14c64987c4216d69e5a5ec.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sc7d57bcb415245c2a5f4622522a192e3o.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S6776495954d0400fa397cc95f4da3fcbY.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S7bd67d2253184eee9b7808d507b82abax.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S900da750f4d44cfbac64ced964f1fbfbh.jpg?has_lang=1&ver=1"
+        ],
+        "imgList": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/S53346c3c02414c0a97b9071de2453043g.jpg_960x960.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S59651f326ae14c64987c4216d69e5a5ec.jpg_960x960.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sc7d57bcb415245c2a5f4622522a192e3o.jpg_960x960.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S6776495954d0400fa397cc95f4da3fcbY.jpg_960x960.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S7bd67d2253184eee9b7808d507b82abax.jpg_960x960.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S900da750f4d44cfbac64ced964f1fbfbh.jpg_960x960.jpg?has_lang=1&ver=1"
+        ],
+        "mainImages": [
+          {
+            "imageKey": "S53346c3c02414c0a97b9071de2453043g.jpg",
+            "imageUrl": "https://ae-pic-a1.aliexpress-media.com/kf/S53346c3c02414c0a97b9071de2453043g.jpg_960x960.jpg?has_lang=1&ver=1"
+          },
+          {
+            "imageKey": "S59651f326ae14c64987c4216d69e5a5ec.jpg",
+            "imageUrl": "https://ae-pic-a1.aliexpress-media.com/kf/S59651f326ae14c64987c4216d69e5a5ec.jpg_960x960.jpg?has_lang=1&ver=1"
+          },
+          {
+            "imageKey": "Sc7d57bcb415245c2a5f4622522a192e3o.jpg",
+            "imageUrl": "https://ae-pic-a1.aliexpress-media.com/kf/Sc7d57bcb415245c2a5f4622522a192e3o.jpg_960x960.jpg?has_lang=1&ver=1"
+          },
+          {
+            "imageKey": "S6776495954d0400fa397cc95f4da3fcbY.jpg",
+            "imageUrl": "https://ae-pic-a1.aliexpress-media.com/kf/S6776495954d0400fa397cc95f4da3fcbY.jpg_960x960.jpg?has_lang=1&ver=1"
+          },
+          {
+            "imageKey": "S7bd67d2253184eee9b7808d507b82abax.jpg",
+            "imageUrl": "https://ae-pic-a1.aliexpress-media.com/kf/S7bd67d2253184eee9b7808d507b82abax.jpg_960x960.jpg?has_lang=1&ver=1"
+          },
+          {
+            "imageKey": "S900da750f4d44cfbac64ced964f1fbfbh.jpg",
+            "imageUrl": "https://ae-pic-a1.aliexpress-media.com/kf/S900da750f4d44cfbac64ced964f1fbfbh.jpg_960x960.jpg?has_lang=1&ver=1"
+          }
+        ],
+        "pageBarShiftLeft": false,
+        "productVideo": {
+          "posterUrl": "https://ae-pic-a1.aliexpress-media.com/kf/S52b239d4e6eb457d93cb56b90ed1252ad.jpg",
+          "videoId": 5000406970922,
+          "videoPlayInfo": {
+            "androidPhoneUrl": "https://video.aliexpress-media.com/play/u/ae_sg_item/3000926640211/p/1/e/6/t/10301/5000406970922.mp4",
+            "iphoneUrl": "https://video.aliexpress-media.com/play/u/ae_sg_item/3000926640211/p/1/e/6/t/10301/5000406970922.mp4",
+            "webUrl": "https://video.aliexpress-media.com/play/u/ae_sg_item/3000926640211/p/1/e/6/t/10301/5000406970922.mp4"
+          }
+        },
+        "showColorTab": false,
+        "showLongImage": false,
+        "skuImagesMap": {
+          "12000053026925109": [
+            "https://ae-pic-a1.aliexpress-media.com/kf/Se8cad3c144834f3ab0bbb8abe991ca50h.jpg"
+          ]
+        },
+        "summImagePathList": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/S53346c3c02414c0a97b9071de2453043g.jpg_80x80.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S59651f326ae14c64987c4216d69e5a5ec.jpg_80x80.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/Sc7d57bcb415245c2a5f4622522a192e3o.jpg_80x80.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S6776495954d0400fa397cc95f4da3fcbY.jpg_80x80.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S7bd67d2253184eee9b7808d507b82abax.jpg_80x80.jpg?has_lang=1&ver=1",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S900da750f4d44cfbac64ced964f1fbfbh.jpg_80x80.jpg?has_lang=1&ver=1"
+        ]
+      },
+      "PC_RATING": {
+        "aiSell": {},
+        "otherText": "4.000+ venduti",
+        "rating": "4.6",
+        "separator": "౹",
+        "totalValidNum": 397
+      },
+      "QUANTITY_PC": {
+        "allSkuQuantityView": {
+          "12000053026925109": {
+            "currentCount": 1,
+            "hintText": "Max. 3 pz/acquirente a questo prezzo",
+            "maxBuyCount": 3
+          }
+        },
+        "currentSkuQuantityView": {
+          "currentCount": 1,
+          "hintText": "Max. 3 pz/acquirente a questo prezzo",
+          "maxBuyCount": 3
+        },
+        "title": "Q.tà",
+        "totalAvailableInventory": 532
+      },
+      "PRICE_EXTEND": {
+        "buildText": "<span style=\\\"color: #979797;\\\">Il prezzo include l'IVA | I dazi vengono calcolati al checkout</span> <img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S18deb03c8e9b43fd9b3e89bdf614da156/36x36.png\"width=\"12\"height=\"12\"/>; <span style=\\\"color: #979797;\\\">Sconto extra del 1%</span>",
+        "priceExtendViews": [
+          {
+            "content": "Il prezzo include l'IVA | I dazi vengono calcolati al checkout",
+            "helpIcon": "https://ae-pic-a1.aliexpress-media.com/kf/S18deb03c8e9b43fd9b3e89bdf614da156/36x36.png",
+            "helpTitle": "Imposta sulle importazioni",
+            "popText": "IVA, dazi e oneri di sdoganamento possono variare in base alle normative doganali del Paese di destinazione. Il totale finale sarà confermato prima del pagamento nella pagina di check out.",
+            "popTitle": "Imposta sulle importazioni",
+            "type": "tax"
+          },
+          {
+            "content": "Sconto extra del 1%"
+          }
+        ],
+        "seperator": "; ",
+        "taxInfo": {
+          "content": "Il prezzo include l'IVA | I dazi vengono calcolati al checkout",
+          "explanationInfo": {
+            "text": "IVA, dazi e oneri di sdoganamento possono variare in base alle normative doganali del Paese di destinazione. Il totale finale sarà confermato prima del pagamento nella pagina di check out.",
+            "title": "Imposta sulle importazioni"
+          }
+        }
+      },
+      "SHIPPING": {
+        "bgColor": "#FFFFFF",
+        "deliveryExt": "[{\"d0\":\"412.34\",\"d1\":\"CNY\",\"itemScene\":\"newGlobal\",\"p0\":\"12000053026925109\",\"p1\":\"399.62\",\"p10\":[2075420,86914,2075419,2075418,2075417,290957,2022549,299658,648839,243218,2025103,306962,1976581,284824,236830,2083134,2083130,2082488,2075443,2075442,2075441,2006319,2034478,64947,64948,2075435,1966891,2075434,2075433,2075432,2020390,2075431,2075430,339135,1961383,2075429,2075428,2082980,2075427,2075426,2075425,526666,2028251,2082520,2082519,2082518,2082517,2082516,2082514,2080080,1694922,2065739,526940,2082506,2019016,2000201,1998022,1998021,2083138,2067136,2083136,2077309,56804,86884,1098872,242413,1517927,1997551,1961321,2080875,273138,111478,2066528],\"p16\":true,\"p18\":\"default\",\"p24\":\"{\\\"eval\\\":\\\"1\\\",\\\"scenario\\\":\\\"pcMainScreen\\\",\\\"fromPage\\\":\\\"recommend\\\",\\\"sceneId\\\":\\\"3562\\\",\\\"spu_best_type\\\":\\\"price\\\",\\\"order\\\":\\\"4208\\\"}\",\"p25\":\"\",\"p3\":\"CNY\",\"p4\":\"400000010580026\",\"p5\":\"50008276002\",\"p6\":\"0.220000\",\"p7\":\"{\\\"scItemId\\\":\\\"1005180162875\\\"}\",\"p9\":\"CN￥ 399.62\"}]",
+        "deliveryLayoutInfo": [
+          {
+            "additionLayout": [
+              {
+                "blockGroup": "others-0",
+                "blockType": "others",
+                "componentId": "138017",
+                "content": "Tracking disponibile",
+                "displayCondition": "tracking=visible",
+                "distance": 1,
+                "medusaKey": "[REDACTED_AUTH_SECRET]",
+                "order": 4,
+                "type": "textWithMark",
+                "useInDeliveryOptionPanel": true,
+                "useInDetailFirstScreen": false,
+                "useInSkuSwitch": false
+              }
+            ],
+            "bizData": {
+              "patternId": 2728001,
+              "logisticsComposeThreshold": "10,00€",
+              "discount": 0,
+              "tracking": "visible",
+              "workDayOneFourBeforeCutTime": "no",
+              "gtpProvider": "OPERATOR",
+              "delayCompensationTime": "0",
+              "displayTomorrow": "no",
+              "itemScene": "newGlobal",
+              "shipToCode": "IT",
+              "thresholdOverZero": "yes",
+              "delayCompensationOriginalCurrency": "EUR",
+              "delayCompensationOriginalAmount": "1",
+              "shipFrom": "China",
+              "deliveryDayMax": 14,
+              "displayEtaMinDate": "18 nov",
+              "guaranteedDeliveryTime": 60,
+              "etaVersionDisplayType": "deliveryDateInterval",
+              "meetLogisticsComposeThreshold": "yes",
+              "freightCommitDay": "90",
+              "etaTraceId": "6#14#OPERATOR#1795011562784#1795702762784#CAINIAO_FULFILLMENT_STD#DGU400#CN#1794493162784#CHOICE#ONE_STOP_SERVICE#NON#NON#IT#101#14706019#NON#",
+              "delayCompensationAmountDisplay": "1,00€",
+              "etaVersionStrategyId": 98,
+              "gtpEtaTraceId": "6#14#OPERATOR#1795011562784#1795702762784#CAINIAO_FULFILLMENT_STD#DGU400#CN#1794493162784#CHOICE#ONE_STOP_SERVICE#NON#NON#IT#101#14706019#NON#",
+              "workDayOneFiveBeforeCutTime": "no",
+              "delayCompensationType": "delivery",
+              "itemId": 1005010630311352,
+              "solutionBusinessType": "qtgSelectSingleX",
+              "etaVersionSceneId": 304,
+              "displayAmount": 1.99,
+              "shippingFee": "charge",
+              "displayEtaMaxDate": "26 nov",
+              "deliveryDayMin": 6,
+              "delayCompensationMode": "passive",
+              "warehouseType": "own_warehouse",
+              "solutionId": 1766001,
+              "deliveryOptionCode": "CAINIAO_FULFILLMENT_STD",
+              "leadTimeSort": [
+                9999
+              ],
+              "deliveryProviderName": "AliExpress Selection Standard Shipping",
+              "subWarehouseType": "AE_China_Warehouse",
+              "utParams": "{\"buyerId\":0,\"categoryId\":141714,\"cmd\":false,\"crowdTypes\":\"{\\\"eta_sensitive_tag\\\":\\\"-730838169\\\",\\\"shipping_cost_sensitive\\\":\\\"-1315857875\\\"}\",\"currency\":\"EUR\",\"deliveryDate\":\"2026-11-26\",\"deliveryDateMin\":\"2026-11-18\",\"deliveryDayMax\":14,\"deliveryDayMin\":6,\"fAmount\":1.99,\"fCurrency\":\"EUR\",\"gtpEtaTraceId\":\"6#14#OPERATOR#1795011562784#1795702762784#CAINIAO_FULFILLMENT_STD#DGU400#CN#1794493162784#CHOICE#ONE_STOP_SERVICE#NON#NON#IT#101#14706019#NON#\",\"itemId\":1005010630311352,\"meetLogisticsComposeThreshold\":\"yes\",\"preOrder\":false,\"productId\":1005010630311352,\"provider\":\"operator\",\"serviceName\":\"CAINIAO_FULFILLMENT_STD\",\"shipFrom\":\"CN\",\"shipToCountry\":\"IT\",\"shippingFee\":\"1.99\",\"traceId\":\"0b1585c117944931626403357e0eec\",\"trackingAvailable\":true,\"warehouseCode\":\"DGU400\"}",
+              "warehouseCode": "DGU400",
+              "existEtaMinTime": "yes",
+              "dayOfWeek": "giovedì",
+              "provider": "operator",
+              "itemShipFromType": "same",
+              "identityType": "ONE_STOP_SERVICE",
+              "currency": "CNY",
+              "company": "AliExpress Selection Standard",
+              "deliveryDate": "26 nov",
+              "formattedAmount": "1,99€",
+              "passiveDelayCompensationDelayDisplay": "visible",
+              "choiceFreeShipping": "yes",
+              "quantity": 532,
+              "leadTimeType": "cn_select_wh_qtg",
+              "showMoreCount": "1",
+              "existEtaMaxTime": "yes",
+              "solutionBusinessXDays": 0,
+              "guaranteedDeliveryTimeProviderName": "decision_committed_time",
+              "showXDayDeliveryTips": "yes",
+              "shipFromCode": "CN",
+              "displayCurrency": "EUR",
+              "deliveryProviderCode": "CAINIAO_FULFILLMENT_STD",
+              "shipTo": "Italy"
+            },
+            "contentLayout": [
+              [
+                {
+                  "blockGroup": "freight-1",
+                  "blockType": "freight",
+                  "componentId": "137986",
+                  "content": "<span style=\"color: #191919;\"><strong>Consegna: nov 18 - 26</strong></span>",
+                  "displayCondition": "default=visible",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 1,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                }
+              ],
+              [
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137990",
+                  "content": "<span style=\"color: #666666;\">Società di corrieri:</span>",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 1,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137991",
+                  "content": "<img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sdc387740f7a64c5cb788e6e82beb2dddP/79x79.png\" width=\"18px\" height=\"18px\"> ",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 2,
+                  "type": "icon",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137992",
+                  "content": "<span style=\"color: #191919;\">Poste Italiane</span>",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 3,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137993",
+                  "content": "<img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sdcd9c3675d3947ba98a45accebf89d7f0/79x79.png\" width=\"18px\" height=\"18px\"> ",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 4,
+                  "type": "icon",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137994",
+                  "content": "<span style=\"color: #191919;\">Paack</span>",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 5,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137999",
+                  "content": "<span style=\"color: #191919;\">,ecc. </span>",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 10,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                }
+              ]
+            ],
+            "deliveryOptionPanelDisplayList": [
+              "138002",
+              "138003",
+              "138005",
+              "137986",
+              "137990",
+              "137991",
+              "137992",
+              "137993",
+              "137994",
+              "137999",
+              "138017"
+            ],
+            "detailFirstScreenDisplayList": [
+              "138002",
+              "138003",
+              "138005",
+              "137986",
+              "137990",
+              "137991",
+              "137992",
+              "137993",
+              "137994",
+              "137999"
+            ],
+            "finalPatternId": 2728001,
+            "skuSwitchDisplayList": [
+              "138002",
+              "138003",
+              "138005",
+              "137986",
+              "137990",
+              "137991",
+              "137992",
+              "137993",
+              "137994",
+              "137999"
+            ],
+            "titleLayout": [
+              [
+                {
+                  "blockGroup": "title-0",
+                  "blockType": "title",
+                  "componentId": "138002",
+                  "content": "<span style=\"color: #009966;\"><strong>Punti di ritiro</strong></span>",
+                  "displayCondition": "default=visible",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 1,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "title-0",
+                  "blockType": "title",
+                  "componentId": "138003",
+                  "content": "<span style=\"color: #009966;\"><strong><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sbe2853ee5e6f44b785a057218efa6a70y/52x48.png\" width=\"14\" height=\"14\"></strong></span>",
+                  "displayCondition": "default=visible",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 2,
+                  "type": "icon",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                }
+              ],
+              [
+                {
+                  "blockGroup": "title-1",
+                  "blockType": "title",
+                  "componentId": "138005",
+                  "content": "<span style=\"color: #191919;\"><strong>Spedizione gratuita</strong></span>",
+                  "displayCondition": "shippingFee=charge&&thresholdOverZero=yes&&choiceFreeShipping=yes&&meetLogisticsComposeThreshold=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 2,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                }
+              ]
+            ]
+          }
+        ],
+        "hideDelivery": false,
+        "icon": "https://ae-pic-a1.aliexpress-media.com/kf/S9e723ca0d10848499e4e3fb33be2224do.png",
+        "originalLayoutResultList": [
+          {
+            "additionLayout": [
+              {
+                "blockGroup": "others-0",
+                "blockType": "others",
+                "componentId": "138017",
+                "content": "Tracking disponibile",
+                "displayCondition": "tracking=visible",
+                "distance": 1,
+                "medusaKey": "[REDACTED_AUTH_SECRET]",
+                "order": 4,
+                "type": "textWithMark",
+                "useInDeliveryOptionPanel": true,
+                "useInDetailFirstScreen": false,
+                "useInSkuSwitch": false
+              }
+            ],
+            "bizData": {
+              "patternId": 2728001,
+              "logisticsComposeThreshold": "10,00€",
+              "discount": 0,
+              "tracking": "visible",
+              "workDayOneFourBeforeCutTime": "no",
+              "gtpProvider": "OPERATOR",
+              "delayCompensationTime": "0",
+              "displayTomorrow": "no",
+              "itemScene": "newGlobal",
+              "shipToCode": "IT",
+              "thresholdOverZero": "yes",
+              "delayCompensationOriginalCurrency": "EUR",
+              "delayCompensationOriginalAmount": "1",
+              "shipFrom": "China",
+              "deliveryDayMax": 14,
+              "displayEtaMinDate": "18 nov",
+              "guaranteedDeliveryTime": 60,
+              "etaVersionDisplayType": "deliveryDateInterval",
+              "meetLogisticsComposeThreshold": "yes",
+              "freightCommitDay": "90",
+              "etaTraceId": "6#14#OPERATOR#1795011562784#1795702762784#CAINIAO_FULFILLMENT_STD#DGU400#CN#1794493162784#CHOICE#ONE_STOP_SERVICE#NON#NON#IT#101#14706019#NON#",
+              "delayCompensationAmountDisplay": "1,00€",
+              "etaVersionStrategyId": 98,
+              "gtpEtaTraceId": "6#14#OPERATOR#1795011562784#1795702762784#CAINIAO_FULFILLMENT_STD#DGU400#CN#1794493162784#CHOICE#ONE_STOP_SERVICE#NON#NON#IT#101#14706019#NON#",
+              "workDayOneFiveBeforeCutTime": "no",
+              "delayCompensationType": "delivery",
+              "itemId": 1005010630311352,
+              "solutionBusinessType": "qtgSelectSingleX",
+              "etaVersionSceneId": 304,
+              "displayAmount": 1.99,
+              "shippingFee": "charge",
+              "displayEtaMaxDate": "26 nov",
+              "deliveryDayMin": 6,
+              "delayCompensationMode": "passive",
+              "warehouseType": "own_warehouse",
+              "solutionId": 1766001,
+              "deliveryOptionCode": "CAINIAO_FULFILLMENT_STD",
+              "leadTimeSort": [
+                9999
+              ],
+              "deliveryProviderName": "AliExpress Selection Standard Shipping",
+              "subWarehouseType": "AE_China_Warehouse",
+              "utParams": "{\"buyerId\":0,\"categoryId\":141714,\"cmd\":false,\"crowdTypes\":\"{\\\"eta_sensitive_tag\\\":\\\"-730838169\\\",\\\"shipping_cost_sensitive\\\":\\\"-1315857875\\\"}\",\"currency\":\"EUR\",\"deliveryDate\":\"2026-11-26\",\"deliveryDateMin\":\"2026-11-18\",\"deliveryDayMax\":14,\"deliveryDayMin\":6,\"fAmount\":1.99,\"fCurrency\":\"EUR\",\"gtpEtaTraceId\":\"6#14#OPERATOR#1795011562784#1795702762784#CAINIAO_FULFILLMENT_STD#DGU400#CN#1794493162784#CHOICE#ONE_STOP_SERVICE#NON#NON#IT#101#14706019#NON#\",\"itemId\":1005010630311352,\"meetLogisticsComposeThreshold\":\"yes\",\"preOrder\":false,\"productId\":1005010630311352,\"provider\":\"operator\",\"serviceName\":\"CAINIAO_FULFILLMENT_STD\",\"shipFrom\":\"CN\",\"shipToCountry\":\"IT\",\"shippingFee\":\"1.99\",\"traceId\":\"0b1585c117944931626403357e0eec\",\"trackingAvailable\":true,\"warehouseCode\":\"DGU400\"}",
+              "warehouseCode": "DGU400",
+              "existEtaMinTime": "yes",
+              "dayOfWeek": "giovedì",
+              "provider": "operator",
+              "itemShipFromType": "same",
+              "identityType": "ONE_STOP_SERVICE",
+              "currency": "CNY",
+              "company": "AliExpress Selection Standard",
+              "deliveryDate": "26 nov",
+              "formattedAmount": "1,99€",
+              "passiveDelayCompensationDelayDisplay": "visible",
+              "choiceFreeShipping": "yes",
+              "quantity": 532,
+              "leadTimeType": "cn_select_wh_qtg",
+              "showMoreCount": "1",
+              "existEtaMaxTime": "yes",
+              "solutionBusinessXDays": 0,
+              "guaranteedDeliveryTimeProviderName": "decision_committed_time",
+              "showXDayDeliveryTips": "yes",
+              "shipFromCode": "CN",
+              "displayCurrency": "EUR",
+              "deliveryProviderCode": "CAINIAO_FULFILLMENT_STD",
+              "shipTo": "Italy"
+            },
+            "contentLayout": [
+              [
+                {
+                  "blockGroup": "freight-1",
+                  "blockType": "freight",
+                  "componentId": "137986",
+                  "content": "<span style=\"color: #191919;\"><strong>Consegna: nov 18 - 26</strong></span>",
+                  "displayCondition": "default=visible",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 1,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                }
+              ],
+              [
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137990",
+                  "content": "<span style=\"color: #666666;\">Società di corrieri:</span>",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 1,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137991",
+                  "content": "<img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sdc387740f7a64c5cb788e6e82beb2dddP/79x79.png\" width=\"18px\" height=\"18px\"> ",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 2,
+                  "type": "icon",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137992",
+                  "content": "<span style=\"color: #191919;\">Poste Italiane</span>",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 3,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137993",
+                  "content": "<img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sdcd9c3675d3947ba98a45accebf89d7f0/79x79.png\" width=\"18px\" height=\"18px\"> ",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 4,
+                  "type": "icon",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137994",
+                  "content": "<span style=\"color: #191919;\">Paack</span>",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 5,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "freight-2",
+                  "blockType": "freight",
+                  "componentId": "137999",
+                  "content": "<span style=\"color: #191919;\">,ecc. </span>",
+                  "displayCondition": "operationalShow=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 10,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                }
+              ]
+            ],
+            "deliveryOptionPanelDisplayList": [
+              "138002",
+              "138003",
+              "138005",
+              "137986",
+              "137990",
+              "137991",
+              "137992",
+              "137993",
+              "137994",
+              "137999",
+              "138017"
+            ],
+            "detailFirstScreenDisplayList": [
+              "138002",
+              "138003",
+              "138005",
+              "137986",
+              "137990",
+              "137991",
+              "137992",
+              "137993",
+              "137994",
+              "137999"
+            ],
+            "finalPatternId": 2728001,
+            "skuSwitchDisplayList": [
+              "138002",
+              "138003",
+              "138005",
+              "137986",
+              "137990",
+              "137991",
+              "137992",
+              "137993",
+              "137994",
+              "137999"
+            ],
+            "titleLayout": [
+              [
+                {
+                  "blockGroup": "title-0",
+                  "blockType": "title",
+                  "componentId": "138002",
+                  "content": "<span style=\"color: #009966;\"><strong>Punti di ritiro</strong></span>",
+                  "displayCondition": "default=visible",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 1,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                },
+                {
+                  "blockGroup": "title-0",
+                  "blockType": "title",
+                  "componentId": "138003",
+                  "content": "<span style=\"color: #009966;\"><strong><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sbe2853ee5e6f44b785a057218efa6a70y/52x48.png\" width=\"14\" height=\"14\"></strong></span>",
+                  "displayCondition": "default=visible",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 2,
+                  "type": "icon",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                }
+              ],
+              [
+                {
+                  "blockGroup": "title-1",
+                  "blockType": "title",
+                  "componentId": "138005",
+                  "content": "<span style=\"color: #191919;\"><strong>Spedizione gratuita</strong></span>",
+                  "displayCondition": "shippingFee=charge&&thresholdOverZero=yes&&choiceFreeShipping=yes&&meetLogisticsComposeThreshold=yes",
+                  "distance": 1,
+                  "medusaKey": "[REDACTED_AUTH_SECRET]",
+                  "order": 2,
+                  "type": "htmlText",
+                  "useInDeliveryOptionPanel": true,
+                  "useInDetailFirstScreen": true,
+                  "useInSkuSwitch": true
+                }
+              ]
+            ]
+          }
+        ],
+        "selectedDeliveryOptionCode": "CAINIAO_FULFILLMENT_STD",
+        "styleCode": "default",
+        "systemFeature": {
+          "hideShipFrom": true
+        },
+        "title": "Spedizione"
+      },
+      "DESC": {
+        "descFoldThreshold": 8,
+        "instructionInfo": {
+          "action": "Visualizza",
+          "bgColor": "#F5F5F5",
+          "content": "Manuale utente",
+          "mediaType": "PDF",
+          "mediaUrl": "https://ae-pic-a1.aliexpress-media.com/kf/S3e12c729fc6d408aaf68fa3a97bd3194j.pdf",
+          "title": "Documenti e guide agli articoli"
+        },
+        "isLocalSeller": false,
+        "msiteDescUrl": "https://pdp.aliexpress-media.com/product/description/msite/v2/it_IT/desc.htm?productId=1005010630311352&key=[REDACTED_AUTH_SECRET]&token=[REDACTED_AUTH_SECRET]",
+        "nativeDescUrl": "https://pdp.aliexpress-media.com/product/description/stdmobile/v2/it_IT/desc.json?productId=1005010630311352&key=[REDACTED_AUTH_SECRET]&token=[REDACTED_AUTH_SECRET]",
+        "pcDescUrl": "https://pdp.aliexpress-media.com/product/description/pc/v2/it_IT/desc.htm?productId=1005010630311352&key=[REDACTED_AUTH_SECRET]&token=[REDACTED_AUTH_SECRET]",
+        "reportText": "report",
+        "sellingPointInfo": {
+          "limitCnt": 3,
+          "title": "Punti salienti",
+          "viewLessText": "visualizzare meno",
+          "viewMoreText": "Sapere di Più"
+        },
+        "storeId": 1105215145,
+        "title": "Dettagli del prodotto",
+        "urlMatchList": [
+          "^(https?:\\/\\/)?([a-zA-Z0-9-]+\\.)*aliexpress\\.us(?:/.*)?$",
+          "^(https?:\\/\\/)?([a-zA-Z0-9-]+\\.)*aliexpress\\.com(?:/.*)?$",
+          "^(https?:\\/\\/)?([a-zA-Z0-9-]+\\.)*aliexpress-media\\.com(?:/.*)?$"
+        ]
+      },
+      "TRAFFIC_IDENTIFY": {
+        "targetTraffic": false
+      },
+      "AFTER_SALE_SERVICE_BLOCK": {
+        "icon": "https://ae-pic-a1.aliexpress-media.com/kf/S64c04957a1244dffbab7086d6e1a7cad7.png",
+        "params": {
+          "sceneType": "ONLY_CHOICE",
+          "promiseIds": "27",
+          "extParams": "{33:{\"amount\":\"1\",\"promiseIds\":\"33\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"mode\":\"passive\",\"contentShowType\":\"dynamic\",\"deliveryDays\":45,\"sceneType\":\"ONLY_CHOICE\",\"ruleVersion\":\"V4\",\"displayVersion\":\"fourPoint\",\"currency\":\"EUR\",\"moneyFormat\":\"1,00€\",\"status\":\"0\",\"sellerRegion\":\"CN\",\"shipTo\":\"IT\"},36:{\"promiseIds\":\"36\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"sceneType\":\"ONLY_CHOICE\",\"currency\":\"EUR\",\"sellerRegion\":\"CN\",\"status\":\"0\",\"shipTo\":\"IT\"},39:{\"promiseIds\":\"39\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"sceneType\":\"ONLY_CHOICE\",\"currency\":\"EUR\",\"sellerRegion\":\"CN\",\"status\":\"0\",\"shipTo\":\"IT\"},27:{\"freeReturnsDisplayDays\":\"withDays\",\"displayNode\":\"after_placed\",\"promiseIds\":\"27\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"sceneType\":\"ONLY_CHOICE\",\"currency\":\"EUR\",\"displayDays\":90,\"sellerRegion\":\"CN\",\"status\":\"0\",\"shipTo\":\"IT\"}}",
+          "scene": "popup"
+        },
+        "popupTitle": "Resi gratuiti entro 90 giorni",
+        "promiseId": 27,
+        "shortTitle": "Resi gratuiti",
+        "title": "Resi gratuiti entro 90 giorni",
+        "titleBold": true,
+        "titleColor": "#000000"
+      },
+      "COMPLIANCE_PC": {
+        "complianceList": [
+          {
+            "content": "Per gli articoli consegnati al di fuori dell'Unione europea, potresti essere soggetto a commissioni aggiuntive per l'IVA e, ove applicabile, per i dazi doganali del tuo paese. Se AliExpress è obbligata per legge ad applicare l'IVA, al momento del pagamento vedrai il prezzo con IVA inclusa. Per maggiori informazioni su questi costi, contatta le autorità fiscali e doganali del tuo paese.",
+            "position": "2",
+            "showH5Popup": false,
+            "title": "Info prezzo"
+          },
+          {
+            "content": "Venduto da Shop1105215145 Store. Logistica di AliExpress.",
+            "position": "2",
+            "showH5Popup": false
+          },
+          {
+            "popId": "product_compliance_information",
+            "popText": "<p><p><strong>Informazioni sul produttore </strong><br>Nome: Shanghai Runjinxin Trading Co., Ltd.<br />Indirizzo: Room 101, Building 6, No. 2222 Huancheng Road, Juyuan New District, Jiading District, Shanghai<br />E-mail: qddwt003@163.com<br />Telefono: 15517392318<br><br></p><p><strong>Informazioni sul responsabile dell'UE</strong><br>Nome: GOLDENCLICK SL<br />Indirizzo: Calle del cincel 18, Nave 1.6\n<br />E-mail: es@shi-duo.top<br />Telefono: 910602659<br><br></p><p><strong><strong>Identificatore di prodotto</strong></strong><br><span style=\"color: #95a5a6;\">L'identificatore di prodotto &egrave; un dato utilizzato per identificare un prodotto (come il tipo, il numero di lotto o di serie, il codice EAN o qualsiasi altra informazione che consente di identificare il prodotto).</span><br>12000053026925109-dwdcf921nbzongse</p></p>",
+            "popTitle": "Informazioni sulla conformità dei prodotti",
+            "position": "2",
+            "showH5Popup": true,
+            "title": "Informazioni sulla conformità dei prodotti",
+            "url": "https://www.aliexpress.com/p/secondaryPage/app-pop.html?popTitle=Informazioni%20sulla%20conformit%C3%A0%20dei%20prodotti&popText=%3Cp%3E%3Cp%3E%3Cstrong%3EInformazioni%20sul%20produttore%20%3C%2Fstrong%3E%3Cbr%3ENome%3A%20Shanghai%20Runjinxin%20Trading%20Co.%2C%20Ltd.%3Cbr%20%2F%3EIndirizzo%3A%20Room%20101%2C%20Building%206%2C%20No.%202222%20Huancheng%20Road%2C%20Juyuan%20New%20District%2C%20Jiading%20District%2C%20Shanghai%3Cbr%20%2F%3EE-mail%3A%20qddwt003%40163.com%3Cbr%20%2F%3ETelefono%3A%2015517392318%3Cbr%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%3Cstrong%3EInformazioni%20sul%20responsabile%20dell%27UE%3C%2Fstrong%3E%3Cbr%3ENome%3A%20GOLDENCLICK%20SL%3Cbr%20%2F%3EIndirizzo%3A%20Calle%20del%20cincel%2018%2C%20Nave%201.6%0A%3Cbr%20%2F%3EE-mail%3A%20es%40shi-duo.top%3Cbr%20%2F%3ETelefono%3A%20910602659%3Cbr%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%3Cstrong%3E%3Cstrong%3EIdentificatore%20di%20prodotto%3C%2Fstrong%3E%3C%2Fstrong%3E%3Cbr%3E%3Cspan%20style%3D%22color%3A%20%2395a5a6%3B%22%3EL%27identificatore%20di%20prodotto%20%26egrave%3B%20un%20dato%20utilizzato%20per%20identificare%20un%20prodotto%20%28come%20il%20tipo%2C%20il%20numero%20di%20lotto%20o%20di%20serie%2C%20il%20codice%20EAN%20o%20qualsiasi%20altra%20informazione%20che%20consente%20di%20identificare%20il%20prodotto%29.%3C%2Fspan%3E%3Cbr%3E12000053026925109-dwdcf921nbzongse%3C%2Fp%3E%3C%2Fp%3E"
+          },
+          {
+            "content": "Disclaimer: Le immagini e le informazioni sui prodotti presenti in questa pagina potrebbero essere tradotte automaticamente dall'intelligenza artificiale. Queste traduzioni sono fornite \"così come sono\" e solo per comodità, e potrebbero contenere inesattezze o incongruenze.",
+            "popId": "translation",
+            "popText": "Nessuna garanzia viene fornita e nessuna responsabilità viene assunta per l'accuratezza, l'affidabilità o la completezza del contenuto tradotto o della funzione di traduzione AI. Se hai domande o necessiti di confermare i dettagli del prodotto, ti invitiamo a fare riferimento alla versione originale o a contattare il Servizio Clienti.",
+            "popTitle": "Dichiarazione di non responsabilità",
+            "popUrl": "https://www.aliexpress.com/p/secondaryPage/app-pop.html?popText=Nessuna%20garanzia%20viene%20fornita%20e%20nessuna%20responsabilit%C3%A0%20viene%20assunta%20per%20l%27accuratezza%2C%20l%27affidabilit%C3%A0%20o%20la%20completezza%20del%20contenuto%20tradotto%20o%20della%20funzione%20di%20traduzione%20AI.%20Se%20hai%20domande%20o%20necessiti%20di%20confermare%20i%20dettagli%20del%20prodotto%2C%20ti%20invitiamo%20a%20fare%20riferimento%20alla%20versione%20originale%20o%20a%20contattare%20il%20Servizio%20Clienti.",
+            "position": "2",
+            "showH5Popup": true,
+            "title": "Dichiarazione di non responsabilità"
+          }
+        ],
+        "listCount": 3,
+        "pidBlockComponents": false,
+        "title": "Dichiarazione di conformità"
+      },
+      "PRICE_BANNER": {
+        "atmosphereCode": "girdle_aplus_big_sale",
+        "atmosphereCodeMap": {
+          "12000053026925109": "girdle_aplus_big_sale"
+        },
+        "skuBannerMap": {
+          "12000053026925109": {
+            "atmosphereCode": "girdle_aplus_big_sale",
+            "background": "https://ae-pic-a1.aliexpress-media.com/kf/S0f53e98feb224f169fbe399b5fc2cadcB.png",
+            "borderLineColor": "#ff2751",
+            "endTimer": {
+              "endTime": 1795042799000,
+              "showCountdown": "false",
+              "text": "Termina : ",
+              "timeColor": "#ffffff"
+            },
+            "originalPriceFontColor": "#8E90A1",
+            "priceFontColor": "#000000",
+            "pricePromotionTextBackground": "#FEF3F5",
+            "slogan": "https://ae-pic-a1.aliexpress-media.com/kf/Sabb8494fb8a149e5ab646c9afcf0020fr.png",
+            "supplementaryText": "<strong><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S26d37b92952a4294946f404012515ecbx/24x48.png\"width=\"10\"height=\"14\"><span style=\"color: #F00633;\">Risparmia 12,07€</span></strong>",
+            "umpPromotionId": "5000000220537960"
+          }
+        },
+        "targetSkuBanner": {
+          "atmosphereCode": "girdle_aplus_big_sale",
+          "background": "https://ae-pic-a1.aliexpress-media.com/kf/S0f53e98feb224f169fbe399b5fc2cadcB.png",
+          "borderLineColor": "#ff2751",
+          "endTimer": {
+            "endTime": 1795042799000,
+            "showCountdown": "false",
+            "text": "Termina : ",
+            "timeColor": "#ffffff"
+          },
+          "originalPriceFontColor": "#8E90A1",
+          "priceFontColor": "#000000",
+          "pricePromotionTextBackground": "#FEF3F5",
+          "slogan": "https://ae-pic-a1.aliexpress-media.com/kf/Sabb8494fb8a149e5ab646c9afcf0020fr.png",
+          "supplementaryText": "<strong><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S26d37b92952a4294946f404012515ecbx/24x48.png\"width=\"10\"height=\"14\"><span style=\"color: #F00633;\">Risparmia 12,07€</span></strong>",
+          "umpPromotionId": "5000000220537960"
+        }
+      },
+      "PRODUCT_PROP_PC": {
+        "outerProps": [
+          {
+            "attrName": "Elettrificato",
+            "attrValue": "No"
+          },
+          {
+            "attrName": "Mobile",
+            "attrValue": "Sì"
+          },
+          {
+            "attrName": "portatile",
+            "attrValue": "Sì"
+          }
+        ],
+        "propGroups": [],
+        "sexy": false,
+        "showOnAbove": false,
+        "showPropGroups": false,
+        "showPropOuter": false,
+        "showedProps": [
+          {
+            "attrName": "Elettrificato",
+            "attrValue": "No"
+          },
+          {
+            "attrName": "Mobile",
+            "attrValue": "Sì"
+          },
+          {
+            "attrName": "portatile",
+            "attrValue": "Sì"
+          },
+          {
+            "attrName": "Batteria inclusa",
+            "attrValue": "no"
+          },
+          {
+            "attrName": "Prodotti chimici ad alto impatto",
+            "attrValue": "Nessuno"
+          },
+          {
+            "attrName": "Fonte di alimentazione",
+            "attrValue": "Batteria"
+          },
+          {
+            "attrName": "Personalizzato",
+            "attrValue": "Sì"
+          },
+          {
+            "attrName": "Peso",
+            "attrValue": "1.1"
+          },
+          {
+            "attrName": "Numero di modello",
+            "attrValue": "DCF921"
+          },
+          {
+            "attrName": "Tensione nominale",
+            "attrValue": "20 V"
+          },
+          {
+            "attrName": "Origine",
+            "attrValue": "CN (Origine)"
+          },
+          {
+            "attrName": "Marca",
+            "attrValue": "DEWALT"
+          },
+          {
+            "attrName": "Torque massimo",
+            "attrValue": "450 N.m"
+          },
+          {
+            "attrName": "Fonte di alimentazione",
+            "attrValue": "ELETTROICITÀ"
+          },
+          {
+            "attrName": "Tipo",
+            "attrValue": "Chiave pneumatica"
+          },
+          {
+            "attrValue": "DCF921"
+          },
+          {
+            "attrName": "Uso",
+            "attrValue": "Squadra di ristrutturazione"
+          },
+          {
+            "attrName": "Motore",
+            "attrValue": "Senza spazzole"
+          },
+          {
+            "attrName": "Fonte di energia",
+            "attrValue": "Batteria"
+          }
+        ],
+        "showedPropsMap": {
+          "33": {
+            "attrName": "Fonte di energia",
+            "attrValue": "Batteria"
+          },
+          "2": {
+            "attrName": "Marca",
+            "attrValue": "DEWALT"
+          },
+          "3": {
+            "attrName": "Numero di modello",
+            "attrValue": "DCF921"
+          },
+          "1124": {
+            "attrName": "Fonte di alimentazione",
+            "attrValue": "ELETTROICITÀ"
+          },
+          "6": {
+            "attrName": "Tipo",
+            "attrValue": "Chiave pneumatica"
+          },
+          "200000611": {
+            "attrName": "Motore",
+            "attrValue": "Senza spazzole"
+          },
+          "521": {
+            "attrName": "Uso",
+            "attrValue": "Squadra di ristrutturazione"
+          },
+          "400086002": {
+            "attrName": "Mobile",
+            "attrValue": "Sì"
+          },
+          "400089204": {
+            "attrName": "Elettrificato",
+            "attrValue": "No"
+          },
+          "400000603": {
+            "attrName": "Prodotti chimici ad alto impatto",
+            "attrValue": "Nessuno"
+          },
+          "140": {
+            "attrName": "Peso",
+            "attrValue": "1.1"
+          },
+          "278442389": {
+            "attrName": "Batteria inclusa",
+            "attrValue": "no"
+          },
+          "400086806": {
+            "attrName": "portatile",
+            "attrValue": "Sì"
+          },
+          "560": {
+            "attrName": "Tensione nominale",
+            "attrValue": "20 V"
+          },
+          "326568390": {
+            "attrValue": "DCF921"
+          },
+          "200006480": {
+            "attrName": "Fonte di alimentazione",
+            "attrValue": "Batteria"
+          },
+          "219": {
+            "attrName": "Origine",
+            "attrValue": "CN (Origine)"
+          },
+          "859": {
+            "attrName": "Torque massimo",
+            "attrValue": "450 N.m"
+          },
+          "200000631": {
+            "attrName": "Personalizzato",
+            "attrValue": "Sì"
+          }
+        },
+        "textCertifications": []
+      },
+      "GLOBAL_DATA": {
+        "globalData": {
+          "hitHideShipToExp": true,
+          "curPagePriceInfo": {
+            "pageType": "C",
+            "promotionInfo": "{\"n_tag\":\"-29919\",\"d\":\"d99a58ad\",\"u\":\"0\",\"m03_new_user\":\"-29895\",\"pisId\":\"5000000221069874\",\"disPrice\":\"57.06\"}"
+          },
+          "subject": "Dewalt DCF921 Avvitatore elettrico senza spazzole a batteria Luce LED a coppia elevata 406N.m Utensile elettrico professionale leggero",
+          "pcFeature202507": true,
+          "wishlistParams": {},
+          "dp": null,
+          "localStr": "it_IT",
+          "scene": "GLOBAL",
+          "pdp2pdpParam": "{\"itemStockChannelId\":400000010580026}",
+          "sellerId": 6003888199,
+          "minidetailFloating": false,
+          "siteType": "followCartPdpChoice",
+          "msiteFeature202506": false,
+          "category2": "141714",
+          "traceId": "0b1585c117944931626403357e0eec",
+          "category3": "1417",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S53346c3c02414c0a97b9071de2453043g.jpg?has_lang=1&ver=1",
+          "regionProvinceName": null,
+          "productId": "1005010630311352",
+          "pc30": true,
+          "af": null,
+          "categoryPath": "1420/1417/141714",
+          "category1": "1420",
+          "i18n": {
+            "SKUModule": {
+              "SIZING_INFO": "Guida alle taglie",
+              "BUST_PROMPT": "SI prega di selezionare la taglia del seno.",
+              "GLASSES_DIALOG_TITLE": "Dettaglio della prescrizione",
+              "NV_ADD": "Sometimes seen on your prescription as \"NV, ADD, Near, Reading, or Reading Addition.\"  \"NV\" stands for \"Near-Vision.\"  This number indicates the additional magnification that is added to the distance prescription to get the reading portion of the lens in a multi-focal prescription.  We display a single NV-ADD field since it is almost always the same value for both eyes.",
+              "SPH": "SPHERE (SPH), or Spherical, refers to the refractive correction in the prescription. Minus (-) stands for near sightedness, and Plus (+) stands for far sightedness. If \"PL\" or \"Plano\" is written for the either SPH value on your prescription, you should select a value of 0.00.\r\r\nOD-SPH is spherical correction for your right eye.\r\r\nOS-SPH is spherical correction for your left eye.\r\r\nOD-SPH is spherical correction for your RIGHT eye.\r\r\nOS-SPH is spherical correction for your LEFT eye.",
+              "PUPILLARY_PROMPT": "Please select PD (Pupillary Distance).",
+              "SIZE_HOVER_TITLE": "Potrebbero esserci differenze con la taglia locale, si prega di consultare la guida alle taglie per maggiori informazioni.",
+              "FLOOR_CONTENT": "Begin at the hollow space between the collarbones and pull tape straight down to the floor.",
+              "CUSTOM_SIZE_CONTENT": "Misure del tuo corpo",
+              "NV_ADD_PROMPT": "Si prega di selezionare NV-ADD.",
+              "PLEASE_ENTER": "Si prega di inserire",
+              "WAIST_TITLE": "Girovita",
+              "WAIST_CONTENT": "Measure the smallest part of the waist.\r\r\nKeep tape slightly loose to allow for breathing room.",
+              "CYL": "CYLINDER (CYL), or Cylinder, refers to the strength of the correction for the astigmatism in the eye. It can be either positive or negative. If there is a CYL value for an eye, there must be an Axis value for that eye.\r\r\nIf \"DS\" or \"SPH\" or \"spherical\" is noted in the CYL space on your prescription, you have no astigmatism in that eye.  In that case, enter 0.00 in both the CYL and Axis.\r\r\nOD-CYL is cylinder correction for your right eye.\r\r\nOS-CYL is cylinder correction for your left eye.",
+              "SERVICE": "Servizio",
+              "BUST_CONTENT": "Wear an unpadded bra (your dress will have a built-in bra).\r\r\nPull tape across the fullest part of the bust (at nipple level).",
+              "SIZE_INFO": "Informazioni sulle taglie",
+              "SIZE_INFO_DESC": "*These charts are for reference only. Fit may vary depending on the construction, materials and manufacturer.",
+              "ITEM_CONDITION_TIP": "Condizioni",
+              "BTN_CANCEL": "Annulla",
+              "HOW_TO_MEASURE": "Come misurare",
+              "SKU_HOT_IMAGE": "https://gw.alicdn.com/imgextra/i4/O1CN01sNmYfJ24of5aszfMD_!!6000000007438-2-tps-24-24.png",
+              "SIZE_INFO_TIP": "once you know your body measurements,consult the Size Chart on the product pages for actual item measurements to determine which size you should purchase.",
+              "FLOOR_PROMPT": "Please select the hollow to floor measurement.",
+              "FLOOR_TITLE": "FLoor",
+              "SIZE_INFO_COMPARE_TIP": "Per scegliere la taglia più adatta, misura il tuo corpo come indicato di seguito",
+              "UNIT_PROMPT": "Si prega di selezionare l'unità.",
+              "SELECT": "Seleziona",
+              "HIPS_TITLE": "Fianchi",
+              "HEIGHT_PROMPT": "Si prega di selezionare l'altezza del tacco.",
+              "WAIST_PROMPT": "Si prega di selezionare la taglia del girovita.",
+              "BTN_SAVE": "Salva",
+              "TITLE_OPTIONAL": "Garanzia di riparazione locale in {country} <span>(opzionale)</span>",
+              "SIZE_DIALOG_TITLE": "Taglia personalizzata",
+              "GLASSES_TIP": "Please provide the information from your medical prescription. If you have any special needs or have any questions, please contact the seller.",
+              "SIZE_CHART": "Guida alle taglie",
+              "HIPS_PROMPT": "Si prega di selezionare la taglia dei fianchi.",
+              "SPH_PROMPT": "It looks like you forgot to enter your prescription. Please fill in the sphere, cylinder and axis.",
+              "HIPS_CONTENT": "Find the widest part of the hips or run the measurement tape around your hipbone.",
+              "BUST_TITLE": "Bust",
+              "AXIS": "AXS, or Axis, refers to the angle of the correction for the astigmatism in the eye (if one exists) from 1 to 180.  If there is an Axis value on an eye, there must be a CYL (Cylinder) value on that eye.  If there is no Cylinder value or if the value is zero, the OD Axis value is entered as 0.00.\r\r\nThe Axis value is usually written as 3 digits, which means if your Axis value is 5, it is often written as 005. This Axis value is still 5, regardless of how it is displayed.\r\r\nOD Axis is Axis correction for your right eye.\r\r\nOS Axis is Axis correction for your left eye."
+            },
+            "priceGuarantee": {
+              "brief": "",
+              "name": "",
+              "desc": ""
+            },
+            "ActionModule": {
+              "VIEW_DETAIL": "Visualizza dettagli",
+              "WISH_MAX_NOTICE": "Oops, sembra che hai già raggiunto l'elenco esaustivo.",
+              "BUYER_ABLE": "Questa funzionalità è disponibile solo per gli acquirenti.",
+              "WISHLIST_SAVE_BUTTON": "Salva",
+              "WISH_MOVE_TO_ANOTHER_LIST_TIPS": "Sposta in un’altra lista",
+              "ADD_X_MORE": "Congratulazioni! Hai guadagnato <div class=\"before-coin-count\"></div>{coinCount} monete. Oggi hai {number} possibilità di continuare a guadagnare monete.",
+              "COMING_SOON": "Prossimamente",
+              "ADD_TO_CART_FAILED_TOAST": "add to cart failed",
+              "SC_ADD_SUCC": "È stato aggiunto un nuovo articolo al tuo carrello.",
+              "WISHLIST_PUBLIC_NOTICE": "(Chiunque può vedere questa lista e condividerla)",
+              "WISH_DETAULT_LIST": "wish List",
+              "WISH_CREATE_LIST": "Creare una lista dei desideri",
+              "WL_ERROR": "Il sistema è occupato, riprova.",
+              "WISH_NAME_ALREADY_USE": "Questo nome Wish List è già in uso.",
+              "HANDLE_PC_404": "Scusa, questa pagina non è disponibile. Ti abbiamo reinviato a una nuova pagina articolo.",
+              "WISH_REVISELIST": "Modifica la tua lista",
+              "ADD_TO_MY_PICKS": "Aggiungi al carrello",
+              "SC_ADD_FAILED": "Non è stato possibile procedere all'aggiunta, ti preghiamo di aggiornare la pagina e cliccare nuovamente \"Aggiungi al carrello\"",
+              "SKU_CONTINUE": "Continua",
+              "SC_HAVE": "Ora hai {{number}} articoli nel tuo carrello.",
+              "ADD_TO_CART": "Aggiungi al carrello",
+              "WISH_CANCEL_WISHLIST": "Annulla",
+              "BUY_NOW": "Acquista ora",
+              "ADD_TO_CART_TOAST": "Nel carrello!",
+              "WISH_SYSTEM_ERROR": "Hai fatto un errore di sistema. Riprova.",
+              "SC_ADD_MAX": "Puoi aggiungere al carrello {{number}} articoli al massimo. Rimuovi alcuni elementi prima di aggiungerne altri.",
+              "SC_VIEW": "Vedi carrello",
+              "WISH_YOUMAYLIKE": "Potrebbe piacerti anche",
+              "WISH_VIEW_WISH_LIST": "Visualizza Wish List",
+              "SC_RECOMMEND": "Gli acquirenti che hanno comprato questo articolo hanno comprato anche:",
+              "CONTINUE": "Continua gli acquisti",
+              "ADDED_TO": "Aggiunto a {wishlist}",
+              "ORDER_NOW": "Ordina ora",
+              "SELECT_TIP": "Selezionare tutte le opzioni del prodotto",
+              "NO_LONGER_AVAILABLE": "Spiacenti, questo articolo non è più disponibile!",
+              "PREVIEW_PERIOD": "2019/3/21 00:00:00 GMT-0700,2019/3/27 23:59:59 GMT-0700",
+              "WISH_MAX_GROUP": "Spiacenti, non puoi creare altre liste dei desideri",
+              "FIND_SIMILAR": "Trova articoli simili",
+              "WISHLIST_PUBLIC_TIP": "Pubblico"
+            },
+            "StoreModule": {
+              "COUSTOMER_SERVICE": "Assistenza clienti",
+              "VISIT_STORE": "Vedi il mio negozio",
+              "CONTACT_SELLER": "Contatti",
+              "FOLLOWING_STATE": "Elementi seguiti",
+              "UNFOLLOWING_STATE": "Segui",
+              "POSITIVE_FEEDBACK": "Recensioni positive",
+              "FOLLOWERS": "Seguiti",
+              "FOLLOWER": "Follower",
+              "TOP_SELLER": "Migliori marche",
+              "STORE_CATEGORIES": "Categorie del Negozio"
+            },
+            "RecommendModule": {
+              "MORE_FROM_THIS_SELLER": "I consigli del venditore",
+              "YOU_MAY_LIKE": "Consigliato per te",
+              "TOP_SELLING": "I più venduti",
+              "FROM_OTHER_SELLER": "Potrebbero piacerti anche",
+              "VIEW_MORE_LINK": "Visualizza altro",
+              "PRODUCT_SOLD": "venduti"
+            },
+            "StoreInfo": {
+              "shippingSpeed": "Velocità di Spedizione",
+              "below_average": "Below Average",
+              "plCompliance": "The seller is responsible for delivery. AliExpress may assist in facilitating delivery by offering optional logistical support. For more details, please refer to business information page.",
+              "soldBy": "Venduto da",
+              "trader": "(Commerciante)",
+              "higher_seller": "{0} out of 5 ({1} ratings), {2}% higher than other sellers",
+              "storeId": "N. negozio:",
+              "openSince": "Aperto dal ",
+              "above_average": "Above Average",
+              "itemAsDescribed": "Articolo come Descritto",
+              "lower_seller": "{0} out of 5 ({1} ratings), {2}% lower than other sellers",
+              "businessInfo": "Informazioni aziendali",
+              "equal": "Equal",
+              "storeName": "Nome",
+              "storeInfo": "Informazioni sul negozio",
+              "storeRating": "Valutazioni dettagliate dei venditori",
+              "businessAddress": "Ubicazione",
+              "communication": "Comunicazione",
+              "equal_seller": "{0} out of 5 ({1} ratings), equal to other sellers"
+            },
+            "ItemDetailResp": {
+              "VIEW_MORE": "Vedi di più",
+              "ASK_BUYERS": "Domande & Risposte dell'acquirente",
+              "PAGE_NOT_FOUND_NOTICE": "Spiacenti, articolo temporaneamente non disponibile",
+              "VIEW_5_MORE_ANSWERS": "VEDERE PIÙ",
+              "PAGE_NOT_FOUND_RCMD_TITLE": "Spiacenti, la pagina richiesta non è stata trovata :("
+            },
+            "bpFreeReturn30": {
+              "brief": "",
+              "name": "",
+              "id": "",
+              "desc": ""
+            },
+            "bpLocalDomesticReturn": {
+              "brief": "",
+              "name": "",
+              "id": "",
+              "desc": ""
+            },
+            "PriceModule": {
+              "LOT": "lotto",
+              "INSTALLMENT": "Rata",
+              "DEPOSIT": "Anticipo",
+              "PRE_ORDER_PRICE": "Prezzo del pre-ordine"
+            },
+            "ShippingModule": {
+              "HAB_BALLOON_TRAKING_AVAILABLE": "Traccia lo stato dell'ordine dall'inizio alla fine.",
+              "GENERAL_SHIPPING_TO": "to {0}",
+              "SELECT_SHIP_FROM_TIP": "Si prega di selezionare il Paese da dove si intende effettuare la consegna",
+              "SHIPPING_TO": "Spedizione:",
+              "HAB_SHIPPING_TO": "a",
+              "CARRIER": "Vettore",
+              "TO_PROVINCE": "In {provinceName}",
+              "TO_COUNTRY": "In {countryName}",
+              "TO_CITY": "A {cityName}",
+              "CAN_NOE_DELIVER_NOTE": "Questo Fornitore/Spedizioniere non effettua la consegna nel paese/regione selezionato.",
+              "ESTIMATED_DELIVERT_ON_DAYS": "Consegna stimata: {0}giorni",
+              "CHOOSE_DELIVERT_METHOD": "Metodo di spedizione",
+              "HAB_BALLOON_DOOR_DELIVERY": "Prodotti consegnati direttamente a casa tua",
+              "DELIVERED_BY": "Consegnato entro {date} o rimborso totale",
+              "HBA_SHIPPING_INFO": "In {countryName} in  {time} giorni tramite  {companyName}",
+              "IN": "in",
+              "SEARCH": "Stato/Provincia/Regione",
+              "SELECT_SHIP_FROM": "Si prega di selezionare il Paese da dove si intende effettuare la spedizione.",
+              "LOGISTIC_COMPOSE_AE": "Gestito e garantito da AliExpress",
+              "HBA_BALLOON_TIPS": "hba balloon tips",
+              "GENERAL_SHIPPING_DELIVERY": "Spedisce a",
+              "VAT_DE_DETAIL": "L'acquirente è un dichiarante di importazione tedesco",
+              "SELECTED": "Selezionato",
+              "HBA_DOR_DELIVERY": "COD Available on APP",
+              "ESTIMATED_DELIVERT_ON_DATE": "Consegna stimata il {date}",
+              "OR_FULL_REFOUND": "Rimborso completo",
+              "LOGISTIC_COMPOSE_BRAND_MIND": "Consegna combinata",
+              "PLAZA_SHOP_NOW_RECEIVE_ON": "Buy it now and receive it on {date} (est.)",
+              "LOGISTIC_COMPOSE_ORDERS_OVER": "Per ordini superiori a {0}",
+              "FAST_SHIPPING": "Spedizione Veloce",
+              "CAN_NOT_DELIVER": "Non è possibile consegnare",
+              "HBA_TRAKING_AVAILABLE": "Tracking disponibile",
+              "DAYS": "giorni",
+              "GENERAL_SHIPPIING_FROM": "From {0}",
+              "GENERAL_SHPPING_MORE": "Altre opzioni",
+              "FREE_SHIPPING": "Spedizione gratuita",
+              "COST": "Costo",
+              "BALLOON_TIP": "Se completi il pagamento oggi, l'ordine arriverà entro il tempo stimato di consegna.",
+              "SHIP_MY_ITEM_TO": "Spedire in",
+              "HAB_BALLOON_VAT_INCLUDED": "Articolo prezzo indicato comprende IVA.",
+              "TRACKING": "Tracciabilità",
+              "LOGISTIC_COMPOSE_SPEED_UP": "Vai direttamente al ",
+              "PLAZA_BALLOON_TIP": "This delivery date is estimated. The calculation is based on several factors, including the address, shipping option selected and the availability shown on the product detail page.",
+              "HBA_TVAT_INCLUDED": "IVA inclusa",
+              "ESTIMATED_DELIVERY": "Consegna stimata",
+              "TO_WHERE": "To where",
+              "VAT_NUMBER": "VAT number:",
+              "TO_VIA": "in {countryName} tramite {companyName}",
+              "APPLY": "Applica"
+            },
+            "BuyerProtectionModule": {
+              "PLAZA_BUYER_PROTECTION_CONTENT": "",
+              "PLAZA_BUYER_PROTECTION_TITLE": "",
+              "PLAZA_BUYER_PROTECTION_TIP": ""
+            },
+            "bpSpainFreeReturn": {
+              "brief": "",
+              "name": "",
+              "id": "",
+              "desc": ""
+            },
+            "Common": {
+              "recommendationsFrom": "Consigliato da {0}\n\n ",
+              "sharePc": "Condividi\n\n",
+              "sharePcContent": "Condividi su SNS",
+              "skuEditSelection": "Modifica\n\n ",
+              "description": "Visualizza di più ",
+              "specification": "Visualizza di più ",
+              "miniDetailCopyResp": "Copiato",
+              "locale-app-81|M7YmEk_zk6LmT": "Nota: questo contenuto è generato da IA e non rappresenta l'opinione del venditore. La piattaforma e il venditore non si assumono alcuna responsabilità legale.",
+              "plusSizeSkipToast": "Hai cambiato con un articolo simile",
+              "skuSelections": "Selezioni",
+              "feedback": "Visualizza di più",
+              "youMayAlsoLike": "Potrebbe piacerti anche\n\n ",
+              "miniDetailCopyLink": "Copia link articolo",
+              "deliveryBlockTitle": "Consegna",
+              "outOfStock": "Out of stock",
+              "toast4MinLimitCount": "L'ordine minimo è di {count} pezzi, ma la disponibilità del venditore non è sufficiente",
+              "topSellingsFrom": "I più venduti da {0}\n\n ",
+              "similarRecommond": "Articoli correlati",
+              "youMayAlsoLikeSeeMore": "Visualizza di più ",
+              "qanda": "Visualizza di più",
+              "locale-app-81|lcuT2LGELZuu7": "Panoramica prodotto con IA"
+            },
+            "buyerProtection": {
+              "brief": "",
+              "name": "",
+              "desc": ""
+            },
+            "BusinessModule": {
+              "downloadImageButton": "Scaricare",
+              "addToCartMaximumTips": "Aggiunti con successo {0} pezzi (quantità massima acquistabile).",
+              "downloadImageSelectAll": "Seleziona tutti",
+              "downloadImageTitle": "Scarica immagini"
+            },
+            "QuantityModule": {
+              "LOT": "lotto",
+              "LOTS": "lotti",
+              "BUY_LIMIT": "{Limite} {unità} al massimo per cliente",
+              "QUANTITY": "Quantità",
+              "OFF_OR_MORE": "{discount}% di sconto su ({number} {unit} o superiore)",
+              "ONLY_QUANTITY_LEFT": "Solo {availQuantity} rimasti",
+              "ADDTIONAL": "Ulteriore",
+              "QUANTITY_AVAILABLE": "{availQuantity} {unit} disponibili"
+            },
+            "OtherServiceModule": {
+              "TAB_SPECS": "Specifiche",
+              "PLAZA_SERVICE_SUBTITLE_PC": "Garantía en España",
+              "PLAZA_SERVICE_WARRANTY_EMAIL": "Email",
+              "PLAZA_SERVICE_WARRANTY_PHONE": "Teléfono",
+              "TAB_STORE": "Negozio",
+              "PLAZA_SERVICE_WARRANTY_HOURS": "Horario",
+              "TAB_CUSTOMER_REVIEWS": "Recensioni dei clienti",
+              "PLAZA_SERVICE_WARRANTY_WEBSITE": "Página web",
+              "TAB_OVERVIEW": "Panoramica",
+              "PLAZA_SERVICE_WARRANTY_BRAND": "Marca",
+              "PLAZA_SERVICE_WARRANTY_CATEGORY": "Categoría",
+              "PLAZA_SERVICE_TITLE_PC": "Garantías Plaza Tecnología",
+              "PLAZA_SERVICE_CONTENT3_3_PC": "- El sello de seguridad no esté dañado y se conserven todas las etiquetas.",
+              "TAB_CUSTOMER_SHOW": "Spettacolo clienti",
+              "PLAZA_SERVICE_WARRANTY_TITLE": "Servicio técnico oficial",
+              "TAB_REPORT_ITEM": "Segnala l'articolo",
+              "TAB_SERVICE": "Servizio",
+              "PLAZA_SERVICE_CONTENT3_1_PC": "Dispones de 15 días para devolver tu pedido de Plaza Tecnología siempre y cuando:",
+              "PLAZA_SERVICE_CONTENT3_2_PC": "- Se encuentre en perfectas condiciones y en el embalaje original.",
+              "PLAZA_SERVICE_CONTENT1_PC": "Todos los artículos de Plaza Tecnología son 100% originales, están cubiertos por la protección al comprador de AliExpress y tienen una garantía oficial de 2 años en España a tramitar en el servicio técnico oficial en España designado por el fabricante.",
+              "PLAZA_SERVICE_SUBTITLE2_PC": "Envío y entrega",
+              "PLAZA_SERVICE_CONTENT2_PC": "Los envíos son gratis sin compra mínima. Realizamos todos nuestros envíos desde España, por lo que no existen gastos adicionales de aranceles o aduanas. El tiempo de entrega en cualquier punto de la península es de 1 a 3 días laborables desde el momento de la compra. De momento no enviamos a Canarias, Ceuta ni Melilla.",
+              "PLAZA_SERVICE_SUBTITLE3_PC": "Devoluciones"
+            },
+            "CrossLinkModule": {
+              "BREADCRUMB_PART2": "e puoi trovare prodotti simili su",
+              "BREADCRUMB_PART1": "Questo prodotto appartiene a",
+              "CROSSLINK_RELATED_SEARCHES": "Le persone hanno cercato anche"
+            },
+            "bpLocalReturn15": {
+              "brief": "",
+              "name": "",
+              "id": "",
+              "desc": ""
+            },
+            "TitleModule": {
+              "REVIEWS": "Recensioni",
+              "VIEW_ALL_REVIEWS": "Tutte le Recensioni",
+              "REVIEW": "Recensione",
+              "VIEW_OTHER_TITLE": "Visualizza titolo in più lingue (traduzione automatica)",
+              "VIEW_EN_TITLE": "Guarda titolo originale in inglese",
+              "FREEBIE_REVIEW": "Review Of Freebies ",
+              "FREEBIE_REVIEWS": "Recensioni degli omaggi"
+            },
+            "MiddleBannerModule": {
+              "END_IN": "",
+              "DAYS": "",
+              "DAY": "",
+              "STARTS_IN": ""
+            },
+            "CouponModule": {
+              "GET_COUPONS": "Ottieni coupon",
+              "SCP_ERR_HAVE": "Spiacenti, hai già ottenuto il buono da questo negozio! Usa il buono ora!",
+              "OFF_ON": "{money1} di sconto su {money2}",
+              "ORDER_OVER": "Ordini superiori a ",
+              "code52Title": "Siamo spiacenti, ma tutti i coupon disponibili sono già stati richiesti.",
+              "GET_IT": "Ottieni",
+              "GET_NOW": "Ottieni",
+              "GET_MORE": "Ottieni di più",
+              "systemError": "Qualcosa è andato storto. Ti preghiamo di riprovare.",
+              "OFF_PER": "{money1} di sconto per {money2}",
+              "STORE_COUPON": "Coupon Negozio",
+              "SHOP_COUPONE_TIME_START_END": "",
+              "NEW_USER_COUPON_ACQUIRE_FAIL_ALREADY_HAVE": "Siamo spiacenti, hai già ottenuto il Coupon Nuovo Cliente.",
+              "code50Title": "Spiacenti, non abbiamo potuto emettere il coupon. Riprova.",
+              "NEW_USER_COUPON_ACQUIRE_FAIL_NOT_AVAILABLE_NOW": "Siamo spiacenti, i Coupon Nuovo Utente non sono disponibili ora.",
+              "NEW_USER_COUPON_ACQUIRE_FAIL_GROUP_LIMIT": "Siamo spiacenti, hai già ottenuto la quantità massima di Coupon Nuovo Utente.",
+              "code14Title": "Hai un numero sufficiente di coupon selezionati. Lasciane un po' anche agli altri :)",
+              "NEW_USER_COUPON_ACQUIRE_FAIL_NOT_NEW_USER": "Siamo spiacenti, solo i nuovi utenti hanno diritto a ricevere questo coupon.",
+              "SHOP_PROMO_CODE_COPIED": "Codice promozionale copiato!",
+              "ADDED": "Aggiunto",
+              "NEW_USER_COUPON_ACQUIRE_FAIL_SECURITY": "Per proteggere la sicurezza del tuo account, usa un altro dispositivo per accedere.",
+              "SHOP_PROMO_CODE_TITLE": "Codice promozionale del negozio",
+              "NEW_USER_COUPON_ACQUIRE_FAIL": "Spiacenti, si è verificato un errore! Riprova.",
+              "NEW_USER_COUPON_ACQUIRE_FAIL_LIMIT_DAY": "Siamo spiacenti, i Coupon Nuovo Utente non sono disponibili oggi.",
+              "NEW_USER_COUPON_ACQUIRE_FAIL_REGISTER_COUNTRY_LIMIT": "Verifica che questo coupon sia riscattabile nel tuo paese di residenza.",
+              "SCP_ERR_NONE": "Spiacenti! Tutti questi buoni sono stati già assegnati.",
+              "NEW_USER_COUPON_ACQUIRE_FAIL_GRANT_ERROR": "Siamo spiacenti, non sei riuscito a ottenere questo coupon.",
+              "code17Title": "Siamo spiacenti, ma questo coupon non è più disponibile.",
+              "SHOP_COUPONE_TIME_EXPIRES": "Scade il {0}",
+              "SHOPPONG_CREDIT": "SHOPPONG CREDIT",
+              "EXCHANGE_MORE": "Scambia di più",
+              "NEW_USER_COUPON_ACQUIRE_FAIL_SYSTEM_ERROR": "Spiacenti, si è verificato un errore! Riprova.",
+              "MY_BALANCE": "Saldo",
+              "INSTANT_DISCOUNT": "Sconto immediato",
+              "EXCHANGE_NOW": "Scambia ora",
+              "CROSS_STORE_VOUCHER_TIP": "Risparmia fino a {money1} su ordini superiori a {money2}",
+              "NEW_USER_COUPON": "Coupon nuovo cliente",
+              "GET": "OTTIENI",
+              "SHOP_PROMO_CODE_COP_FAILED": "Copia non riuscita. Riprova",
+              "code-30005Title": "Uh oh, sembra che non abbiate ancora abbastanza monete...",
+              "MY_COINS": "Le mie monete",
+              "BUY_GET_OFF": "acquista {fullpiece} unità e ottieni uno sconto del {fulldiscount}",
+              "code51Title": "",
+              "PANEL_TITLE": "Sconto Coupon",
+              "NEW_USER_COUPON_ACQUIRE_FAIL_LIMIT_HOUR": "Siamo spiacenti, i Coupon Nuovo Utente non sono disponibili al momento.",
+              "CROSS_STORE_VOUCHER": "Seleziona coupon"
+            },
+            "bpDomesticReturn7": {
+              "brief": "",
+              "name": "",
+              "id": "",
+              "desc": ""
+            }
+          },
+          "productInfo": {
+            "categoryId": 141714,
+            "detailUrl": "https://www.aliexpress.com/item/1005010630311352.html",
+            "hasStock": true,
+            "productId": "1005010630311352",
+            "sexyItemShow": false
+          },
+          "relationProductId": null,
+          "eventInfo": {
+            "clcEvent": {
+              "discountRate": 17,
+              "orderAvailable": true,
+              "originalPriceCent": 6913,
+              "promotions": "platformItemSubsidy-ITEM-5000000221069874,realSuperDeals-ITEM-5000000220537960",
+              "itemTags": [
+                2075420,
+                86914,
+                2075419,
+                2075418,
+                2075417,
+                290957,
+                2022549,
+                299658,
+                648839,
+                306962,
+                1976581,
+                284824,
+                236830,
+                2075443,
+                2075442,
+                2075441,
+                2006319,
+                2034478,
+                64947,
+                64948,
+                2075435,
+                1966891,
+                2075434,
+                2075433,
+                2075432,
+                2020390,
+                2075431,
+                2075430,
+                339135,
+                1961383,
+                2075429,
+                2075428,
+                2075427,
+                2075426,
+                2075425,
+                526666,
+                2028251,
+                2080080,
+                1694922,
+                2065739,
+                526940,
+                2019016,
+                2000201,
+                1998022,
+                1998021,
+                2067136,
+                56804,
+                1098872,
+                242413,
+                1517927,
+                1997551,
+                1961321,
+                273138,
+                111478,
+                2066528
+              ],
+              "discountPriceCent": 5706,
+              "imageUrl": "https://ae-pic-a1.aliexpress-media.com/kf/S53346c3c02414c0a97b9071de2453043g.jpg_960x960.jpg?has_lang=1&ver=1",
+              "skuId": "12000053026925109",
+              "categoryInfo": {
+                "categoryIds": [
+                  1420,
+                  1417,
+                  141714
+                ],
+                "leafCategoryId": "141714",
+                "rootCategoryId": "1420"
+              }
+            }
+          },
+          "regionCityName": null,
+          "crawler": false,
+          "offlineInfo": {
+            "itemStatus": 0
+          },
+          "hideQA": false,
+          "buriedLogInfo": {
+            "buriedData": "{\"choice\":true,\"choice3\":false}",
+            "priceCenterBuriedData": "0.1384!499.47"
+          },
+          "aff_platform": null,
+          "hideCartSideBar": false,
+          "toolCodes": [
+            "flexiCoin",
+            "platformCoupon",
+            "platformFreeShipping"
+          ],
+          "callHouyiPop": false,
+          "reviewNewStyle": true,
+          "regionCountryName": "Italia",
+          "productTagInfo": {
+            "mergeChoice": true,
+            "oneStopServiceProduct": true,
+            "otherAppTagMap": {
+              "eticketStructContent": "false"
+            },
+            "otherPcTagMap": {
+              "eticketStructContent": false
+            }
+          },
+          "httpStatus": 0,
+          "itemStatus": 0,
+          "sk": null,
+          "storeName": "Shop1105215145 Store",
+          "choiceIcon": "https://ae-pic-a1.aliexpress-media.com/kf/Sd0319ac189e74bfeada4437630b1e37aS/232x98.png",
+          "eticketStructContent": false,
+          "imageOptimize": true,
+          "recommendInfo": {
+            "recommendInfo": {
+              "categoryId": 141714,
+              "productType": 1,
+              "sellerAdminSeq": 6003888199,
+              "status": 0,
+              "storeId": 1105215145,
+              "supportRecommend": true,
+              "supportSellerRecommend": true
+            },
+            "sellerRecommendCount": 10,
+            "needRecommendByTag": false,
+            "recommendCount": 20,
+            "storeRecommendHoriztal": true,
+            "recommendForYouCount": 0,
+            "newPlatformRecommendParams": "{\"appId\":\"668\",\"bizRecgScene\":\"app#USDetail\",\"currentItemList\":\"1005006573054251\",\"recommendInfo\":\"{\\\"categoryId\\\":21110708,\\\"productType\\\":0,\\\"sellerAdminSeq\\\":239234800,\\\"status\\\":0,\\\"storeId\\\":5241042,\\\"supportRecommend\\\":true,\\\"supportSellerRecommend\\\":true}\",\"scenario\":\"appDetailPlatformRecommend\",\"totalCnt\":\"200\"}",
+            "newSellerRecommendParams": "{\"appId\":\"668\",\"bizRecgScene\":\"app#USDetail\",\"cellStyle\":\"grid\",\"currentItemList\":\"1005006573054251\",\"lineNum\":\"2\",\"recommendInfo\":\"{\\\"categoryId\\\":21110708,\\\"productType\\\":0,\\\"sellerAdminSeq\\\":239234800,\\\"status\\\":0,\\\"storeId\\\":5241042,\\\"supportRecommend\\\":true,\\\"supportSellerRecommend\\\":true}\",\"scenario\":\"appDetailStoreTopRecommend\",\"totalNum\":\"20\"}"
+          },
+          "aeOrderFrom": "main_detail",
+          "topCategoryId": "1420",
+          "stealthSelection": false,
+          "superLinkProduct": false,
+          "cn": null,
+          "storeId": 1105215145,
+          "securityToken": null,
+          "cv": null,
+          "breadcrumb": {
+            "categoryName": "Home",
+            "categoryUrl": "//it.aliexpress.com/",
+            "displayCatId": -1,
+            "kidBaby": false,
+            "pathList": [
+              {
+                "cateId": 0,
+                "name": "Home",
+                "remark": "",
+                "url": "//it.aliexpress.com/"
+              }
+            ]
+          },
+          "categoryTagInfo": {
+            "canAddSkuSeries": false,
+            "virtualProduct": false,
+            "voucherProduct": false
+          },
+          "aff_trace_key": null,
+          "complaintUrl": "https://m.aliexpress.com/p/complaint-center/index.html#/complaint/report?itemUrl=%2F%2Fwww.aliexpress.com%2Fitem%2F1005010630311352.html",
+          "currencyCode": "EUR",
+          "categoryId": "141714"
+        }
+      },
+      "PRICE": {
+        "dailyPriceExplanationView": {
+          "content": "Il prezzo più basso degli ultimi 30 giorni per questo oggetto su AliExpress prima della riduzione, inclusi i prezzi promozionali.",
+          "originalPrice": "69,13€",
+          "text": "Prezzo più basso degli ultimi 30 giorni prima dello sconto",
+          "title": "30-day lowest price"
+        },
+        "discountExt": "{\"p0\":\"qtgSelectSingleX\",\"p1\":\"CAINIAO_FULFILLMENT_STD\",\"p3\":12000053026925109}",
+        "isLot": false,
+        "priceLocalConfig": "{\"from\":{\"currencySymbol\":\"€\",\"currencySymbolAndPriceAddBlank\":false,\"currencySymbolPosition\":\"end\",\"decimalPointChar\":\",\",\"showDecimal\":true,\"thousandsChar\":\".\"},\"roundOffZero\":false,\"separatorStr\":\" - \",\"single\":{\"currencySymbol\":\"€\",\"currencySymbolAndPriceAddBlank\":false,\"currencySymbolPosition\":\"end\",\"decimalPointChar\":\",\",\"showDecimal\":true,\"thousandsChar\":\".\"},\"to\":{\"currencySymbol\":\"€\",\"currencySymbolAndPriceAddBlank\":false,\"currencySymbolPosition\":\"end\",\"decimalPointChar\":\",\",\"showDecimal\":true,\"thousandsChar\":\".\"},\"useful\":true,\"version\":\"v1\"}",
+        "productId": 1005010630311352,
+        "region": "IT",
+        "reverseDiscountAndPrice": false,
+        "selectedSkuId": 12000053026925109,
+        "skuIdStrPriceInfoMap": {
+          "12000053026925109": {
+            "monthlyLowestPrice": "69,13€",
+            "priceFontColor": "#FD384F",
+            "salePriceLocal": "57,06€|57|06",
+            "salePriceString": "57,06€",
+            "sellerByLot": false
+          }
+        },
+        "skuPriceInfoMap": {
+          "12000053026925109": {
+            "monthlyLowestPrice": "69,13€",
+            "priceFontColor": "#FD384F",
+            "salePriceLocal": "57,06€|57|06",
+            "salePriceString": "57,06€",
+            "sellerByLot": false
+          }
+        },
+        "skuSecondPriceInfoMap": {},
+        "targetSkuPriceInfo": {
+          "monthlyLowestPrice": "69,13€",
+          "priceFontColor": "#FD384F",
+          "salePriceLocal": "57,06€|57|06",
+          "salePriceString": "57,06€",
+          "sellerByLot": false
+        }
+      },
+      "SELLING_POINT_PC": {},
+      "WISHLIST": {
+        "favorited": false,
+        "storeWished": false,
+        "storeWishedCount": 79,
+        "wishItemCount": 1887
+      },
+      "SHOP_CARD_PC": {
+        "benefitInfoList": [
+          {
+            "title": "# Venduti in 180 giorni",
+            "value": "10,000+"
+          },
+          {
+            "title": "recensioni positive",
+            "value": "94.1%"
+          }
+        ],
+        "fontColor": "#000000",
+        "hasStoreFeedback": false,
+        "hideTrader": false,
+        "licenseInfo": {
+          "actionTarget": "https://shoprenderview.aliexpress.com/credential/showcredential.htm?storeNum=1105215145&_lang=it_IT&_currency=EUR",
+          "text": "Informazioni aziendali"
+        },
+        "logo": "https://ae-pic-a1.aliexpress-media.com/kf/Se90fceedf9d34ad1a8979283c98a1e45I/144x144.png",
+        "sellerInfo": {
+          "adminSeq": 6003888199,
+          "aeRuSelfOperation": false,
+          "boutiqueSeller": false,
+          "companyId": 6003888199,
+          "countryCompleteName": "China",
+          "esRetailOrConsignment": false,
+          "formatOpenTime": "nov 2, 2025",
+          "hasStore": false,
+          "localSeller": false,
+          "openTime": "2025-11-02 03:33:19",
+          "openedYear": 1,
+          "payPalAccount": false,
+          "plazaElectronicSeller": false,
+          "province": "",
+          "ruConsignmentAndMarketPlace": false,
+          "ruSelfOperation": false,
+          "showPlazaHeader": false,
+          "spanishPlaza": false,
+          "storeNum": 1105215145,
+          "storeURL": "//it.aliexpress.com/store/1105215145",
+          "topRatedSeller": false
+        },
+        "sellerLevel": "22-s",
+        "sellerPositiveNum": 1116,
+        "sellerPositiveRate": "94.2",
+        "sellerScore": 1128,
+        "sellerTotalNum": 1377,
+        "showStoreInfo": true,
+        "storeAllProductPage": "https://campaign.aliexpress.com/wow/gcp/shop-framework/index?wx_navbar_hidden=true&wx_navbar_transparent=true&shopId=1105215145&sellerId=6003888199&extParams=&productIds=&expAppPageFrameVersion=&pagePath=allProduct.htm&invitationCode=&wh_weex=true",
+        "storeHeaderResult": {
+          "tabList": []
+        },
+        "storeHomePage": "https://m.aliexpress.com/store/storeHome.htm?sellerAdminSeq=6003888199",
+        "storeName": "Shop1105215145 Store",
+        "storeNameKey": "Venduto da",
+        "storeStyle": "DEFAULT"
+      },
+      "RECOMMEND_PC": {
+        "hideMsiteStoreRecommend": true,
+        "hidePlatformRecommend": false,
+        "hideSimilarRecommend": false,
+        "hideStoreButton": false,
+        "hideStoreInfo": false,
+        "hideStoreRecommend": false,
+        "isSlider": true,
+        "platformPageTotalCnt": 0,
+        "recommendCount": 20,
+        "recommendForYouCount": 3,
+        "sellerRecommendCount": 10,
+        "showChoiceStoreCard": true,
+        "similarPageSize": 12,
+        "similarScenario": "pcDetailTopMoreOtherSeller"
+      },
+      "BOTTOM_BAR_PC": {
+        "bottomBarType": "default",
+        "buttonMap": {
+          "wishList": {
+            "buttonType": "wishList",
+            "enable": true,
+            "extraMap": {
+              "iconSelectedAddress": "https://ae-pic-a1.aliexpress-media.com/kf/S96a404bd2ff64135ac92bb85871460a2t/96x96.png",
+              "wishItemCount": "1887",
+              "wishState": false
+            },
+            "iconAddress": "https://ae-pic-a1.aliexpress-media.com/kf/S601c7f2489bc4c2592cc78636043de15F/96x96.png"
+          },
+          "buyNow": {
+            "bgColorEnd": "#F00633",
+            "bgColorStart": "#F00633",
+            "buttonType": "buyNow",
+            "enable": true,
+            "extraMap": {},
+            "textColor": "#FFFFFE",
+            "textContent": "Acquista ora"
+          },
+          "addToCart": {
+            "bgColorEnd": "#FFFFFE",
+            "bgColorStart": "#FFFFFE",
+            "buttonType": "addToCart",
+            "enable": true,
+            "extraMap": {
+              "pdpCartParams": {
+                "sourceType": ""
+              }
+            },
+            "strokeColor": "#000000",
+            "textColor": "#000000",
+            "textContent": "Aggiungi al carrello"
+          },
+          "store": {
+            "actionTarget": "https://m.aliexpress.com/store/storeHome.htm?sellerAdminSeq=6003888199",
+            "buttonType": "store",
+            "enable": true,
+            "extraMap": {},
+            "iconAddress": "https://ae-pic-a1.aliexpress-media.com/kf/S1a4260465a2f4f8eb24f56766a46f27d2/96x96.png"
+          },
+          "message": {
+            "actionTarget": "https://www.aliexpress.com/p/message/index.html?fromCode=product&accountType=12&sessionType=103&productId=1005010630311352&accountid=6003888199&sellerSeq=6003888199&sellerAdminSeq=6003888199&digest=432f05b3b6a67cb77ee7ef9e139cbc9b5b4b33ba7a0a67ee3fe05a67ed37ed73",
+            "buttonType": "message",
+            "enable": true,
+            "extraMap": {
+              "textContent": "Messaggio"
+            },
+            "iconAddress": "https://ae-pic-a1.aliexpress-media.com/kf/S401b1fb8046b4c14bc9c23807a1a26b5f/96x96.png",
+            "textContent": "Messaggio"
+          }
+        },
+        "extraInfo": {
+          "wishItemCount": "1887",
+          "quickOrder": true,
+          "wishState": false
+        },
+        "fastCheckout": false,
+        "hideAddCart": false,
+        "hideBuyNow": false,
+        "maxPurchaseNum": 3,
+        "orderUrl": "https://www.aliexpress.com/p/trade/confirm.html",
+        "pdpBuyParams": {},
+        "pdpCartParams": {
+          "sourceType": ""
+        },
+        "shoppingCartUrl": "https://www.aliexpress.com/p/shoppingcart/index.html",
+        "showCoinPromotionMark": false
+      },
+      "MIND": {
+        "bgImage": "https://ae-pic-a1.aliexpress-media.com/kf/Se77f95348d5f4c2cb16e3cab23c48f9ee.png",
+        "content": "Impegno AliExpress",
+        "icon": "https://ae-pic-a1.aliexpress-media.com/kf/S16183c3f12904fbbaf3f8aef523f0b73T.png",
+        "textColor": "#2ABD05",
+        "useV2": false
+      },
+      "PRODUCT_TITLE": {
+        "text": "Dewalt DCF921 Avvitatore elettrico senza spazzole a batteria Luce LED a coppia elevata 406N.m Utensile elettrico professionale leggero",
+        "titleMaxLine": "2"
+      },
+      "PERSONAL_INFORMATION_SECURITY": {
+        "icon": "https://ae-pic-a1.aliexpress-media.com/kf/Sb100bd23552d499c9fa8e1499f3c46dbw.png",
+        "params": {
+          "sceneType": "ONLY_CHOICE",
+          "promiseIds": "36",
+          "extParams": "{33:{\"amount\":\"1\",\"promiseIds\":\"33\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"mode\":\"passive\",\"contentShowType\":\"dynamic\",\"deliveryDays\":45,\"sceneType\":\"ONLY_CHOICE\",\"ruleVersion\":\"V4\",\"displayVersion\":\"fourPoint\",\"currency\":\"EUR\",\"moneyFormat\":\"1,00€\",\"status\":\"0\",\"sellerRegion\":\"CN\",\"shipTo\":\"IT\"},36:{\"promiseIds\":\"36\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"sceneType\":\"ONLY_CHOICE\",\"currency\":\"EUR\",\"sellerRegion\":\"CN\",\"status\":\"0\",\"shipTo\":\"IT\"},39:{\"promiseIds\":\"39\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"sceneType\":\"ONLY_CHOICE\",\"currency\":\"EUR\",\"sellerRegion\":\"CN\",\"status\":\"0\",\"shipTo\":\"IT\"},27:{\"freeReturnsDisplayDays\":\"withDays\",\"displayNode\":\"after_placed\",\"promiseIds\":\"27\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"sceneType\":\"ONLY_CHOICE\",\"currency\":\"EUR\",\"displayDays\":90,\"sellerRegion\":\"CN\",\"status\":\"0\",\"shipTo\":\"IT\"}}",
+          "scene": "popup"
+        },
+        "popupTitle": "Sicurezza e privacy",
+        "promiseId": 36,
+        "subTitle": "Pagamenti sicuri·Dettagli personali sicuri",
+        "title": "Sicurezza e privacy",
+        "titleBold": true,
+        "titleColor": "#000000"
+      },
+      "INSTALLMENT": {
+        "actionTarget": "https://www.aliexpress.com/ssr/300000437/pWJJTzbMSb?disableNav=YES&pha_manifest=ssr&_immersiveMode=true&wh_ttid=adc&isSmbShow=false&skipPopHalfH5=yes&adc_popup_ratio=0.8&adc_popup=true",
+        "hide": false,
+        "icon": "https://ae-pic-a1.aliexpress-media.com/kf/Sb7f281b05a6d4139adafaba9df0e5fe14.png",
+        "newStyle": true,
+        "popTitle": "Spiegazione della rata",
+        "showH5": true,
+        "tailIconList": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/S4f6eedd15a6b494faf2d566091941780M/216x144.png"
+        ],
+        "text": "Fino a 45 € di sconto con PayPal Pay Later. Si applicano Termini e Condizioni."
+      },
+      "COUPON_BLOCK_PC": {
+        "arrowColor": "#D3031C",
+        "discountPanelTitle": "Codici sconto e coupon",
+        "discountPanelUrl": "https://www.aliexpress.com/p/pdp-marketing/index.html?_hideProgress=true&productId=1005010630311352&clientType=pc&sourceType=&channel=&discountExt=%7B%22p0%22%3A%22qtgSelectSingleX%22%2C%22p1%22%3A%22CAINIAO_FULFILLMENT_STD%22%2C%22p3%22%3A12000053026925109%2C%22p5%22%3Afalse%7D",
+        "endColor": "#FFF5F5",
+        "hideCouponBlock": false,
+        "newCouponBlock": true,
+        "productId": 1005010630311352,
+        "startColor": "#FFE5E8",
+        "textColor": "#191919",
+        "upperCouponBlockViewList": [
+          {
+            "atmosphereCode": "coupon_big_sale_atm",
+            "icon": "https://ae-pic-a1.aliexpress-media.com/kf/Sa6dfa4ec1ae34f9aad15fc579d3c8bf2T.png",
+            "text": "<span style=\"color:#F00633;\">6,00€ di sconto su 39,00€</span>",
+            "umpPromotionId": "5000000220360198"
+          }
+        ],
+        "webCouponBlockParam": {
+          "channel": "",
+          "clientType": "pc",
+          "cutFlow": "true",
+          "discountExt": "{\"p0\":\"qtgSelectSingleX\",\"p1\":\"CAINIAO_FULFILLMENT_STD\",\"p3\":12000053026925109}",
+          "sourceType": "",
+          "targetPanel": "global"
+        }
+      },
+      "SKU": {
+        "extraInfo": {
+          "skuCountThreshold4ShowSmallImage": 20
+        },
+        "hasSkuImage": true,
+        "hasSkuImagePropertyId": 14,
+        "inSkuAboveBlacklist": false,
+        "selectedSkuAttr": "14:350686#No Battery",
+        "selectedSkuId": 12000053026925109,
+        "selectedSkuIdStr": "12000053026925109",
+        "selectedSkuSaleable": true,
+        "skuImageSize": 1,
+        "skuPaths": [
+          {
+            "path": "14:350686",
+            "salable": true,
+            "skuAttr": "14:350686#No Battery",
+            "skuId": 12000053026925109,
+            "skuIdStr": "12000053026925109",
+            "skuStock": 532
+          }
+        ],
+        "skuProperties": [
+          {
+            "hasSkuImage": true,
+            "isShowTypeColor": false,
+            "showType": "none",
+            "showTypeColor": false,
+            "sizeInfo": {
+              "hasSizeInfo": false,
+              "icon": "https://ae-pic-a1.aliexpress-media.com/kf/Sbc534a10bc2044448f9aa271540236800/36x36.png",
+              "sizeInfoUrl": "https://www.aliexpress.com/p/secondaryPage/size-chart.html?_pid=1005010630311352&mid=6003888199&_locale=it_IT&version=2",
+              "title": "Tabella taglie"
+            },
+            "skuPropertyId": 14,
+            "skuPropertyName": "Colore",
+            "skuPropertyValues": [
+              {
+                "propertyValueDefinitionName": "No Battery",
+                "propertyValueDisplayName": "No Battery",
+                "propertyValueIdLong": 350686,
+                "propertyValueName": "Marrone",
+                "showHot": false,
+                "skuPropertyImagePath": "https://ae-pic-a1.aliexpress-media.com/kf/Se8cad3c144834f3ab0bbb8abe991ca50h.jpg",
+                "skuPropertyImageSummPath": "https://ae-pic-a1.aliexpress-media.com/kf/Se8cad3c144834f3ab0bbb8abe991ca50h.jpg_120x120.jpg_.webp"
+              }
+            ]
+          }
+        ],
+        "skuSupportClothes": false,
+        "stealthSelection": false,
+        "supportClothesSku": false
+      },
+      "DELIVERY_GUARANTEE_SERVICE": {
+        "hideDeliveryGuaranteeService": false,
+        "icon": "https://ae-pic-a1.aliexpress-media.com/kf/S6773df40cde9455581b0427e09de7689v.png",
+        "params": {
+          "sceneType": "ONLY_CHOICE",
+          "promiseIds": "33",
+          "extParams": "{33:{\"amount\":\"1\",\"promiseIds\":\"33\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"mode\":\"passive\",\"contentShowType\":\"dynamic\",\"deliveryDays\":45,\"sceneType\":\"ONLY_CHOICE\",\"ruleVersion\":\"V4\",\"displayVersion\":\"fourPoint\",\"currency\":\"EUR\",\"moneyFormat\":\"1,00€\",\"status\":\"0\",\"sellerRegion\":\"CN\",\"shipTo\":\"IT\"},36:{\"promiseIds\":\"36\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"sceneType\":\"ONLY_CHOICE\",\"currency\":\"EUR\",\"sellerRegion\":\"CN\",\"status\":\"0\",\"shipTo\":\"IT\"},39:{\"promiseIds\":\"39\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"sceneType\":\"ONLY_CHOICE\",\"currency\":\"EUR\",\"sellerRegion\":\"CN\",\"status\":\"0\",\"shipTo\":\"IT\"},27:{\"freeReturnsDisplayDays\":\"withDays\",\"displayNode\":\"after_placed\",\"promiseIds\":\"27\",\"platformType\":\"DESKTOP\",\"extendPlatform\":\"PC\",\"crowdValueList\":\"-29926\",\"CROWD_TYPE_notAllSiteNewUser\":\"notAllSiteNewUser\",\"userId\":9999,\"countryTo\":\"IT\",\"scene\":\"detail\",\"sceneType\":\"ONLY_CHOICE\",\"currency\":\"EUR\",\"displayDays\":90,\"sellerRegion\":\"CN\",\"status\":\"0\",\"shipTo\":\"IT\"}}",
+          "scene": "popup"
+        },
+        "popupTitle": "Consegna veloce e ottieni il rimborso per qualsiasi problema",
+        "promiseId": 33,
+        "shortTitle": "Consegna veloce",
+        "subContents": [
+          {
+            "content": "Codice coupon di 1,00€ per la consegna in ritardo",
+            "icon": "https://ae-pic-a1.aliexpress-media.com/kf/S13490c66d6d24422b5e09634794aeb50j.png"
+          },
+          {
+            "content": "Rimborso se gli articoli arrivano rovinati",
+            "icon": "https://ae-pic-a1.aliexpress-media.com/kf/S13490c66d6d24422b5e09634794aeb50j.png"
+          },
+          {
+            "content": "Rimborso se il pacchetto è smarrito",
+            "icon": "https://ae-pic-a1.aliexpress-media.com/kf/S13490c66d6d24422b5e09634794aeb50j.png"
+          },
+          {
+            "content": "Rimborso se non consegnato dopo 45 giorni",
+            "icon": "https://ae-pic-a1.aliexpress-media.com/kf/S13490c66d6d24422b5e09634794aeb50j.png"
+          }
+        ],
+        "title": "Consegna veloce",
+        "titleBold": true,
+        "titleColor": "#000000"
+      }
+    }
+  },
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "traceId": "0b1585c117944931626403357e0eec",
+  "v": "1.0"
+}

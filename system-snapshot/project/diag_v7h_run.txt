@@ -1,0 +1,43 @@
+﻿=== diag_v7h — 2026-11-14 12:52:58 ===
+Query: 'наушники'
+
+── [1] COM wholesale (EN/USD cookies) ──
+python : 2026-11-14 12:52:58,930 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\prox
+ies.json не найден, режим direct
+строка:2 знак:1
++ python -u diag_v7h.py 2>&1 | Out-File -FilePath diag_v7h_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 12:5...н, режим direct:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 12:53:03,113 INFO r52.collectors.aliexpress: ALI_COM: wholesale HTML OK, 737459 bytes, 4.2s
+  OK: 737459 bytes, 4.2s
+  Locale: IT=0, EN=0, RU=1
+  pdp_npi currencies: {'EUR'}
+2026-11-14 12:53:03,120 INFO r52.collectors.aliexpress: ALI: 12 card anchors found
+  Parsed: 12 products
+  [0] title='Cuffie Bluetooth Wireless Over-Ear Open-Ear con Design Rotan'
+      price=7.99 EUR
+
+── [2] RU search API (X-Requested-With) ──
+2026-11-14 12:53:03,123 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json 
+не найден, режим direct
+2026-11-14 12:53:05,871 WARNING r52.collectors.aliexpress: ALI_RU: search API returned HTML (404 page?), len=13828
+  None in 2.7s
+  --- Manual API probes ---
+  [aer-webapi/v1/search] HTTP 200, 13828B, 7.8s, JSON=False
+  [api/search] HTTP 200, 13828B, 2.7s, JSON=False
+  [wholesale (HTML fallback)] HTTP 200, 742071B, 3.6s, JSON=False
+
+── [3] COM Playwright locale check ──
+2026-11-14 12:53:19,998 INFO r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json 
+не найден, режим direct
+2026-11-14 12:53:20,626 INFO r52.collectors.aliexpress: ALI PW: browser started, profile=C:\Users\aleks\.local\share\r5
+2\aliexpress_pw_profile, domain=com
+  _ensure_browser: True in 0.6s
+  navigator.language=en-US
+  navigator.languages=["en-US"]
+
+=== DONE ===
+2026-11-14 12:53:20,750 INFO diag_v7h: diag_v7h complete
+EXIT=0

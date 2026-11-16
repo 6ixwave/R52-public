@@ -1,0 +1,39 @@
+=== diag_v6h — 2026-11-14 11:56:42 ===
+Query: 'наушники'
+
+── Cooldown 60s ──
+── OZON: Composer API (search) ──
+  URL: https://api.ozon.ru/composer-api.bx/page/json/v2?url=/search/?text=%25D0%25BD%25D0%25B0%25D1%2583%25
+  HTTP 403, 1095B, 1.6s
+  BLOCKED: 403
+  Body: '\n\n{"incidentId": "fab_20261114015747_01M7BWCV03EZ4B8PAQTRR4785K", "supportURL": "https://www.ozon.ru/complaint/support/?incident_id=fab_20261114015747_01M7BWCV03EZ4B8PAQTRR4785K&token=[REDACTED_AUTH_SECRET]
+  URL: https://api.ozon.ru/composer-api.bx/page/json/v2?url=/search/?text=%25D0%25BD%25D0%25B0%25D1%2583%25
+  HTTP 403, 1095B, 1.0s
+  BLOCKED: 403
+  Body: '\n\n{"incidentId": "fab_20261114015751_01M7BWCYWS6QFKQ143M58FG3MG", "supportURL": "https://www.ozon.ru/complaint/support/?incident_id=fab_20261114015751_01M7BWCYWS6QFKQ143M58FG3MG&token=[REDACTED_AUTH_SECRET]
+
+── OZON: PwFetcher wait_for_url ──
+  PwFetcher started: True
+  goto: HTTP 403, 1.6s
+  #challenge element: FOUND
+  Waiting 20s for potential JS redirect...
+  wait_for_url: redirect to search detected! (0.4s)
+  Waiting 10s for product tiles...
+  Product tiles: not found after 10s
+  Final: 3312B, 10.4s total
+  URL: https://www.ozon.ru/search/?text=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8&from_global=true&page=1&__rr=1
+  Title: Похоже, нет соединения
+  Cookies: [REDACTED_AUTH_SECRET]
+    __Secure-ETC (domain=.ozon.ru)
+    abt_data (domain=.ozone.ru)
+    abt_data (domain=.ozon.ru)
+  /product/ IDs: 0 (first 5: [])
+  data-tid: 0 (first 5: [])
+  Still blocked. Trying reload...
+  After reload: 3313B, title=Похоже, нет соединения
+  /product/ IDs after reload: 0 (first 5: [])
+
+── FARPOST: p1 only ──
+  p1: ERR SearchError: SEARCH_ACCESS_CHALLENGE (4.2s)
+
+=== DONE ===

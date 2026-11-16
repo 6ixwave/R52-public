@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Лосины теплые начес на флисе",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "EMILLISA",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "леггинсы 007",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Леггинсы утепленные - идеально сохраняют тепло, оставаясь при этом мягкими и удобными. Благодаря внутреннему меховому подкладу и начесу, изделие приятно к телу и надежно защищают от холода. Теплые осенние лосины с высокой посадкой и широкой резинкой подчеркивают фигуру. Плотный материал внутри делает их комфортными и долговечными, а большой размерный ряд позволяет выбрать подходящий вариант для любой фигуры. ",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Леггинсы",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Состав: эластан 15%; полиамид 85%\nЦвет: черный\nПол: Женский\nСезон: Демисезон\nТип посадки: высокая\nТип карманов: без\nРазмер на модели: 42\nРост модели на фото: 169 см\nУтеплитель: искусственный мех\nФактура материала: флис\nОсобенности модели: эластичный материал; корректирующий эффект\nДекоративные элементы: широкий пояс\nУход за вещами: стирка при t не более 30°C; отбеливание запрещено\nКомплектация: леггинсы 1 шт.\nСтрана производства: Китай",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 705000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "7050.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 123500,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1235.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-30.wbbasket.ru/vol5848/part584804/584804611/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-30.wbbasket.ru/vol5848/part584804/584804611/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-30.wbbasket.ru/vol5848/part584804/584804611/images/S800/1.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Одежда > Леггинсы",
+    "source": "WB",
+    "id": "584804611",
+    "url": "https://www.wildberries.ru/catalog/584804611/detail.aspx",
+    "observed_at": "2026-11-16T05:21:18.425262+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

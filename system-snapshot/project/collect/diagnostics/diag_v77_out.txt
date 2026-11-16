@@ -1,0 +1,146 @@
+2026-11-11 11:12:05,151 v77 INFO === DB INIT ===
+2026-11-11 11:12:05,177 v77 INFO БД: r52.db, applied=[], version=3
+2026-11-11 11:12:05,179 v77 INFO ДО: {'product': 3, 'observation': 11, 'price_point': 6, 'source': 6}
+2026-11-11 11:12:05,384 v77 INFO === 1. FARPOST ===
+2026-11-11 11:12:05,438 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 11:12:05,438 v77 INFO FARPOST: strategy A - category page
+2026-11-11 11:12:06,679 v77 INFO FARPOST cat https://www.farpost.ru/krasnoyarsk/auto/wheel/tire/: HTTP 200, 401856 bytes
+2026-11-11 11:12:06,682 v77 INFO FARPOST cat: found 50 bulletin IDs
+2026-11-11 11:12:06,682 v77 INFO FARPOST: target bulletin=130693618 url=https://www.farpost.ru/bulletin/130693618
+2026-11-11 11:12:08,132 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-11 11:12:11,105 v77 INFO FARPOST card: HTTP 404, 12941 bytes
+2026-11-11 11:12:11,105 v77 ERROR FARPOST FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v77_e2e_all.py", line 170, in <module>
+    raise RuntimeError(f"FARPOST: HTTP {resp_cffi.status_code}, {len(resp_cffi.text)} bytes")
+RuntimeError: FARPOST: HTTP 404, 12941 bytes
+2026-11-11 11:12:11,126 v77 INFO === 2. OZON ===
+2026-11-11 11:12:11,126 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 11:12:11,126 v77 INFO OZON: trying id=479010389 url=https://www.ozon.ru/product/kardamon-zelenyy-molotyy-priprava-100-g-universalnye-pripravy-i-spetsii-479010389/
+2026-11-11 11:12:12,635 v77 INFO OZON 479010389 cffi: HTTP 403, 8400 bytes
+2026-11-11 11:12:17,186 v77 INFO OZON 479010389 requests: HTTP 403, 10131 bytes
+2026-11-11 11:12:19,186 v77 INFO OZON: trying id=1600562267 url=https://www.ozon.ru/product/1600562267/
+2026-11-11 11:12:20,128 v77 INFO OZON 1600562267 cffi: HTTP 403, 8288 bytes
+2026-11-11 11:12:23,655 v77 INFO OZON 1600562267 requests: HTTP 403, 10083 bytes
+2026-11-11 11:12:25,655 v77 ERROR OZON FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v77_e2e_all.py", line 255, in <module>
+    raise RuntimeError("OZON: не получен HTML (оба ID)")
+RuntimeError: OZON: не получен HTML (оба ID)
+2026-11-11 11:12:25,657 v77 INFO === 3. WILDBERRIES ===
+2026-11-11 11:12:25,657 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 11:12:25,657 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 11:13:02,603 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-11 11:13:06,236 r52.collectors.wb INFO WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-11 11:13:06,236 v77 INFO WB: basket CDN OK (24 keys)
+2026-11-11 11:13:07,034 v77 INFO WB price card_v1: HTTP 403
+2026-11-11 11:13:08,875 v77 INFO WB price card_v2: HTTP 403
+2026-11-11 11:13:10,676 v77 INFO WB price card_v4: HTTP 403
+2026-11-11 11:13:13,064 v77 INFO WB price card_v5: HTTP 403
+2026-11-11 11:13:14,865 v77 INFO WB price catalog: HTTP 403
+2026-11-11 11:13:15,420 v77 WARNING WB price static-basket error: Failed to perform, curl: (6) Could not resolve host: static-basket-13.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 11:13:16,330 v77 INFO WB price basket: HTTP 404
+2026-11-11 11:13:17,129 v77 INFO WB HTML: HTTP 498, 1136 bytes
+2026-11-11 11:13:17,129 r52.collectors.wb INFO WB 199298871: photo_count=6, found=1
+2026-11-11 11:13:17,129 r52.collectors.wb INFO WB 199298871: has_video=true, видео не найдено
+2026-11-11 11:13:17,141 v77 INFO WB: pid=3 prices=0 avail=UNKNOWN basket=True price_api=False(?) html=False
+2026-11-11 11:13:17,141 v77 INFO === 4. AVITO ===
+2026-11-11 11:13:17,141 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 11:13:17,141 v77 INFO AVITO: strategy A - mobile category
+2026-11-11 11:13:18,040 v77 INFO AVITO m-cat telefony: HTTP 439, 14382 bytes
+2026-11-11 11:13:20,967 v77 INFO AVITO m-cat noutbuki: HTTP 439, 14382 bytes
+2026-11-11 11:13:23,878 v77 INFO AVITO m-cat elektro: HTTP 439, 14382 bytes
+2026-11-11 11:13:25,878 v77 INFO AVITO: strategy B - desktop category
+2026-11-11 11:13:26,782 v77 INFO AVITO d-cat telefony: HTTP 439, 14382 bytes
+2026-11-11 11:13:29,697 v77 INFO AVITO d-cat noutbuki: HTTP 439, 14382 bytes
+2026-11-11 11:13:32,784 v77 INFO AVITO d-cat legkovye_avto: HTTP 439, 14382 bytes
+2026-11-11 11:13:34,784 v77 INFO AVITO: strategy C - known IDs
+2026-11-11 11:13:35,582 v77 INFO AVITO test 8341658309: HTTP 404, 29440 bytes
+2026-11-11 11:13:37,389 v77 INFO AVITO test 1045236789: HTTP 404, 29440 bytes
+2026-11-11 11:13:39,217 v77 INFO AVITO test 1154321987: HTTP 404, 29440 bytes
+2026-11-11 11:13:41,043 v77 INFO AVITO test 8500000001: HTTP 404, 29440 bytes
+2026-11-11 11:13:42,854 v77 INFO AVITO test 8500000002: HTTP 404, 29440 bytes
+2026-11-11 11:13:44,672 v77 INFO AVITO test 1200000001: HTTP 404, 29440 bytes
+2026-11-11 11:13:46,474 v77 INFO AVITO test 1200000002: HTTP 404, 29440 bytes
+2026-11-11 11:13:48,456 v77 INFO AVITO test 1200000003: HTTP 404, 29440 bytes
+2026-11-11 11:13:50,281 v77 INFO AVITO test 9500000001: HTTP 404, 29440 bytes
+2026-11-11 11:13:52,115 v77 INFO AVITO test 9500000002: HTTP 404, 29440 bytes
+2026-11-11 11:13:53,116 v77 INFO AVITO: strategy D - search
+2026-11-11 11:13:53,943 v77 INFO AVITO search https://www.avito.ru/api/search/krasnoyarsk: HTTP 404, 555 bytes
+2026-11-11 11:13:56,718 v77 INFO AVITO search https://m.avito.ru/krasnoyarsk/telefony: HTTP 439, 179 bytes
+2026-11-11 11:13:59,541 v77 INFO AVITO search https://www.avito.ru/krasnoyarsk/telefony: HTTP 439, 179 bytes
+2026-11-11 11:14:01,542 v77 ERROR AVITO FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v77_e2e_all.py", line 590, in <module>
+    raise RuntimeError("AVITO: не найдено живое объявление (все 4 стратегии)")
+RuntimeError: AVITO: не найдено живое объявление (все 4 стратегии)
+2026-11-11 11:14:01,543 v77 INFO === 5. VERIFICATION ===
+2026-11-11 11:14:01,545 v77 INFO ПОСЛЕ: {'product': 3, 'observation': 12, 'price_point': 6, 'source': 6}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: not all arguments converted during string formatting (required 8, got 9)
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v77_e2e_all.py", line 687, in <module>
+    log.info("  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s",
+Message: '  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s'
+Arguments: ('FARPOST', 1, '130693618', 'Triangle IcelynX TI501, 205/55 R16 94T X', 2440000, 'RUB', 'IN_STOCK', 3, '2026-11-11T00:39:00.246+00:00')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: not all arguments converted during string formatting (required 8, got 9)
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v77_e2e_all.py", line 687, in <module>
+    log.info("  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s",
+Message: '  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s'
+Arguments: ('OZON', 2, '1600562267', 'Ткань для обивки мебели, Велюр с абстрак', 229500, 'RUB', 'IN_STOCK', 3, '2026-11-11T00:39:00.972+00:00')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: not all arguments converted during string formatting (required 8, got 9)
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v77_e2e_all.py", line 687, in <module>
+    log.info("  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s",
+Message: '  [%s] id=%s lid=%s | %s | %s %s | obs=%s | %s'
+Arguments: ('WB', 3, '199298871', 'Овсяный смарт коктейль для похудения без', None, None, 'UNKNOWN', 6, '2026-11-11T01:13:17.129+00:00')
+2026-11-11 11:14:01,549 v77 INFO   PP [FARPOST]: count=3 range=2440000..2440000
+2026-11-11 11:14:01,549 v77 INFO   PP [OZON]: count=3 range=229500..229500
+
+============================================================
+V77 E2E ALL: PARTIAL
+  ✗ FARPOST: prices=0 avail=? bid=?
+  ✗ OZON: prices=0 avail=? oid=?
+  ✓ WB: prices=0 avail=UNKNOWN basket=True api=False(None) | Овсяный смарт коктейль для похудения без
+  ✗ AVITO: prices=0 avail=? ad=?
+  DB: {'product': 3, 'observation': 11, 'price_point': 6, 'source': 6} → {'product': 3, 'observation': 12, 'price_point': 6, 'source': 6}
+============================================================

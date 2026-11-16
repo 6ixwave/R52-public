@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie Bluetooth 6.0 con Montaggio a Testa, Ultra Bass, Pulsante, 50 Ore di Autonomia, Wireless, per Gamer, Musica, ANC, Cancellazione del Rumore",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "84.68",
+        "amount_minor": 8468,
+        "currency": "RUB",
+        "visible_label": "84.68 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "78.39",
+        "amount_minor": 7839,
+        "currency": "RUB",
+        "visible_label": "78.39 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sd8e111d44e324742a3344fb02eacdf14U.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005012735907794",
+    "url": "https://ru.aliexpress.com/item/1005012735907794.html",
+    "observed_at": "2026-11-13T08:40:33.104743+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

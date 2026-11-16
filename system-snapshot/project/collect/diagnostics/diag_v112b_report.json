@@ -1,0 +1,38 @@
+{
+  "farpost": {
+    "http": 200,
+    "bytes": 60036,
+    "title": "Нерка ПБГ 2025-2026 год. Разные размеры. Камчатка. Доставка, в наличии. Цена: 1 100&#8381; во Владив",
+    "price": "1100",
+    "jsonld_name": "Нерка ПБГ 2025-2026 год. Разные размеры. Камчатка. Доставка",
+    "jsonld_price": "1100",
+    "gallery": 14
+  },
+  "ozon": {
+    "http": 403,
+    "bytes": 8464,
+    "final": "https://www.ozon.ru/product/5699176004/?__rr=1",
+    "altcha": true
+  },
+  "avito": {
+    "home_http": 429,
+    "cookies": [
+      "srv_id",
+      "gMltIuegZN2COuSe",
+      "_avisc"
+    ],
+    "pow_script": "",
+    "cat_http": 429,
+    "cat_bytes": 35048
+  },
+  "wb": {
+    "card_http": 200,
+    "card_bytes": 9623,
+    "name": "Овсяный смарт коктейль для похудения без сахара",
+    "brand": "Родник Здоровья",
+    "options": 18,
+    "media": 0,
+    "price_http": 403,
+    "price_bytes": 0
+  }
+}

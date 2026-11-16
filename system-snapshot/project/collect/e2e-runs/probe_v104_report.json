@@ -1,0 +1,21 @@
+{
+  "basket": {
+    "host": null,
+    "found": false,
+    "vol": 2596,
+    "part": 671,
+    "path": "/vol2596/part671/259671175/info/ru/card.json"
+  },
+  "498": {
+    "web_api": {
+      "code": 498,
+      "size": 1130,
+      "body": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"1a69c56b6a660d6a81684c3dd54a02a1\" data-req-ip=\"81.2.48.189\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Date.n"
+    },
+    "html": {
+      "code": 498,
+      "size": 1130,
+      "body": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"def5dd9c0f642f93212d40b2b000e322\" data-req-ip=\"81.2.48.189\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><link rel=\"icon\" href=\"data:,\"><script>window.LOAD_START=Date.n"
+    }
+  }
+}

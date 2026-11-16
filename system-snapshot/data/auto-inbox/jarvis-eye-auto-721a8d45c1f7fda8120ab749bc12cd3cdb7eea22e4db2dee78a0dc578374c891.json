@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Подгузники трусики ULTRA CARE 5 размер XL 12-20 кг MEGA 50шт",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "MOMI",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Подгузники трусики для малышей MOMI Ultra Care, разработаны в Японии, изготовлены с использованием самых качественных материалов. MOMI Ultra Care трусики подгузники - это подгузники, которые рекомендованы дерматологами. \n\nПри изготовлении подгузников трусиков используются гипоаллергенные материалы, которые быстро впитывают и удерживают влагу. Кожа малыша будет оставаться сухой до 12 часов как днем, так и ночью. Благодаря эластичному пояску вся жидкость остается внутри трусиков, а новый супер-дышащий внутренний слой быстро распределяет влагу и не дает ей слеживаться. Оборочки вокруг ног предотвращают протекание. Индикатор наполнения даст вам понять, когда пришло время менять трусики. Даже у самых активных малышей подгузники Momi Ultra Care не сползают, не смещаются в стороны, всегда остаются на месте, без образования комков и не стесняют движения ребенка. Подгузники трусики Momi Ultra Care подходят как для мальчиков, так и для девочек. \n\nПочему MOMI Ultra Care? - 3D поверхность; - Технология мгновенного впитывания; - Индикатор влаги; - Форма подгузников - Т; - Лента утилизации; - Гипоаллергенные и экологичные материалы; - Супер-мягкий эластичный поясок; - Закругленные мягкие липучки безопасны для детской кожи; - Бортики не натирают; - Подходят для использования как днем, так и ночью. \n\nПодгузники продаются в размерах 3 (M 6-10 кг), 4 (L 9-14 кг), 5 (XL 12-20 кг). Их легко надеть и снять, попробуйте и убедитесь!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Товары для малышей > Подгузники детские",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 199200,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "1992.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 42800,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "428.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Товары для малышей > Подгузники детские",
+    "source": "WB",
+    "id": "207437227",
+    "url": "https://www.wildberries.ru/catalog/207437227/detail.aspx",
+    "observed_at": "2026-11-16T17:44:37.818021+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

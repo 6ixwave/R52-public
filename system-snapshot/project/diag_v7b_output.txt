@@ -1,0 +1,73 @@
+=== diag_v7b — 2026-11-14 12:32:03 ===
+Query: 'наушники'
+
+═══ PART 1: AE_RU wholesale HTML ═══
+
+URL: https://ru.aliexpress.com/wholesale?SearchText=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8&page=1&_lang=ru_RU&_currency=RUB&gatewayAdapt=glo2rus
+HTTP 200, 833726 bytes, 4.9s
+card-list at index: 193650
+Primary pattern: 12 matches
+
+── Card [0] ──
+  href: //it.aliexpress.com/item/1005013556597717.html?algo_pvid=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4&algo_exp_id=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4-0&pdp_e
+  item_id: 1005013556597717
+  pdp_npi raw: 6@dis!EUR!26.73!15.78!!!26.73!15.78!@210393bd17946235271837491e0bd0!12000061453025842!sea!IT!0!X!1!0!n_tag:-29919;d:34b6
+  pdp_npi parts: ['6@dis', 'EUR', '26.73', '15.78', '', '', '26.73', '15.78']
+    parts[1] (currency?): EUR
+    parts[2] (orig?):     26.73
+    parts[3] (sale?):     15.78
+  title: Cuffie cablate pieghevoli con archetto, driver da 40 mm, audio Hi-Fi stereo, mic
+  ── PRICE TRACE ──
+  [1] aria-label: NOT FOUND
+  [2] DOM price inner (206 chars): '<div class="new--price-sale--1W8OQh-"><span style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);clip-path:inset(50%);white-space:nowrap;border:0">'
+      → regex matched: '1'
+  [3] currency from nearby: EUR
+  ── RAW CARD (first 800 chars) ──
+  <a class="new--container--2JoVFQS cards--card--3PJxwBm search-card-item" href="//it.aliexpress.com/item/1005013556597717.html?algo_pvid=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4&amp;algo_exp_id=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4-0&amp;pdp_ext_f=%7B%22order%22%3A%22-1%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&amp;pdp_npi=6%40dis%21EUR%2126.73%2115.78%21%21%2126.73%2115.78%21%40210393bd17946235271837491e0bd0%2112000061453025842%21sea%21IT%210%21X%211%210%21n_tag%3A-29919%3Bd%3A34b6212f%3Bm03_new_user%3A-29895&amp;curPageLogUid=Kg4cTMz3Ieyj&amp;utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005013556597717%7C_p_origin_prod%3A" target="_blank" rel="nofollow"><div class="new--image--1T2RxUf new--imagesGallery--1kzSGQf"><div class=
+
+── Card [1] ──
+  href: //it.aliexpress.com/item/1005012286974779.html?algo_pvid=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4&algo_exp_id=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4-1&pdp_e
+  item_id: 1005012286974779
+  pdp_npi raw: 6@dis!EUR!362.31!327.16!!!362.31!327.16!@210393bd17946235271837491e0bd0!12000057981920344!sea!IT!0!X!1!0!n_tag:-29919;d:
+  pdp_npi parts: ['6@dis', 'EUR', '362.31', '327.16', '', '', '362.31', '327.16']
+    parts[1] (currency?): EUR
+    parts[2] (orig?):     362.31
+    parts[3] (sale?):     327.16
+  title: Cuffie Wireless Over-Ear Originali Sony WH-1000XM6 con Chip QN3, 12 Microfoni, A
+  ── PRICE TRACE ──
+  [1] aria-label: NOT FOUND
+  [2] DOM price inner (207 chars): '<div class="new--price-sale--1W8OQh-"><span style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);clip-path:inset(50%);white-space:nowrap;border:0">'
+      → regex matched: '1'
+  [3] currency from nearby: €
+  ── RAW CARD (first 800 chars) ──
+  <a class="new--container--2JoVFQS cards--card--3PJxwBm search-card-item" href="//it.aliexpress.com/item/1005012286974779.html?algo_pvid=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4&amp;algo_exp_id=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4-1&amp;pdp_ext_f=%7B%22order%22%3A%2217%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&amp;pdp_npi=6%40dis%21EUR%21362.31%21327.16%21%21%21362.31%21327.16%21%40210393bd17946235271837491e0bd0%2112000057981920344%21sea%21IT%210%21X%211%210%21n_tag%3A-29919%3Bd%3A34b6212f%3Bm03_new_user%3A-29895&amp;curPageLogUid=iVyeL9gzSFLk&amp;utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005012286974779%7C_p_origin_prod%3A" target="_blank" rel="follow"><div class="new--image--1T2RxUf new--imagesGallery--1kzSGQf"><div class="images--multiImage--2ZwOlcj"><div
+
+── Card [2] ──
+  href: //it.aliexpress.com/item/1005013569082995.html?algo_pvid=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4&algo_exp_id=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4-2&pdp_e
+  item_id: 1005013569082995
+  pdp_npi raw: 6@dis!EUR!19.80!17.79!!!142.56!128.08!@210393bd17946235271837491e0bd0!12000061515288060!sea!IT!0!X!1!0!n_tag:-29919;d:34
+  pdp_npi parts: ['6@dis', 'EUR', '19.80', '17.79', '', '', '142.56', '128.08']
+    parts[1] (currency?): EUR
+    parts[2] (orig?):     19.80
+    parts[3] (sale?):     17.79
+  title: Cuffie stereo con microfono e cavo, comode, ideali per studenti durante le lezio
+  ── PRICE TRACE ──
+  [1] aria-label: NOT FOUND
+  [2] DOM price inner (206 chars): '<div class="new--price-sale--1W8OQh-"><span style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);clip-path:inset(50%);white-space:nowrap;border:0">'
+      → regex matched: '1'
+  [3] currency from nearby: €
+  ── RAW CARD (first 800 chars) ──
+  <a class="new--container--2JoVFQS cards--card--3PJxwBm search-card-item" href="//it.aliexpress.com/item/1005013569082995.html?algo_pvid=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4&amp;algo_exp_id=daa17ce6-c5a5-4119-b2f8-a58a8432e0f4-2&amp;pdp_ext_f=%7B%22order%22%3A%22-1%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&amp;pdp_npi=6%40dis%21EUR%2119.80%2117.79%21%21%21142.56%21128.08%21%40210393bd17946235271837491e0bd0%2112000061515288060%21sea%21IT%210%21X%211%210%21n_tag%3A-29919%3Bd%3A34b6212f%3Bm03_new_user%3A-29895&amp;curPageLogUid=1DZI6omU2hQp&amp;utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005013569082995%7C_p_origin_prod%3A" target="_blank" rel="nofollow"><div class="new--image--1T2RxUf new--imagesGallery--1kzSGQf"><div class="images--multiImage--2ZwOlcj"><div
+
+═══ PART 2: AE_COM product page ═══
+
+Testing: https://www.aliexpress.com/item/1005013565057281.html
+HTTP 200, 76242 bytes, 2.6s
+  ── Price patterns in product page ──
+  __INIT_DATA_STATE__: NOT FOUND
+  runParams: found (23 chars)
+  meta price: []
+  price class elements: 0 found
+  <title>: 
+
+=== DONE ===

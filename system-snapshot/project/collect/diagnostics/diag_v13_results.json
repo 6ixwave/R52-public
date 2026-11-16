@@ -1,0 +1,235 @@
+{
+  "wb": {
+    "static-basket-05": {
+      "http": 404,
+      "len": 0,
+      "t": 1.1
+    },
+    "basket-05": {
+      "http": 404,
+      "len": 196,
+      "t": 1.0
+    },
+    "static-basket-5": {
+      "err": "Failed to perform, curl: (6) Could not resolve host: static-",
+      "t": 0.7
+    },
+    "shard_scan": {
+      "0": "Failed to perform, curl: (6) C",
+      "1": 404,
+      "2": 404,
+      "3": 404,
+      "4": "Failed to perform, curl: (6) C",
+      "5": 404,
+      "6": "Failed to perform, curl: (6) C",
+      "7": 404,
+      "8": 404,
+      "9": 404
+    },
+    "sess_html": {
+      "http": 498,
+      "len": 1136,
+      "t": 0.1,
+      "498_saved": true,
+      "498_len": 1136,
+      "498_title": "...",
+      "498_scripts": [
+        "/__wbaas/challenges/antibot/__static/v2/index-DL5hnmG4.js",
+        "/__wbaas/challenges/antibot/__static/v2/browser-check.js"
+      ]
+    },
+    "sess_api": {
+      "http": 403,
+      "len": 0,
+      "t": 0.9
+    }
+  },
+  "farpost": {
+    "card1": {
+      "url": "https://www.farpost.ru/krasnoyarsk/auto/wheel/tire/shiny-139122082.html",
+      "len": 40192,
+      "n_ld": 2,
+      "attr_price": 8499,
+      "og_title": "LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C - Купить шины в Красноярске на",
+      "og_price": null,
+      "og_image": "https://static.baza.farpost.ru/farpost_catalog/1669597715957_bulletin",
+      "title_tag": "LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C - Купить шины в Красноярске на",
+      "h1": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красноярске",
+      "n_photos": 5,
+      "first_photos": [
+        "https://static.baza.farpost.ru/farpost_catalog/1669597715957_bulletin",
+        "https://static.baza.farpost.ru/farpost_catalog/1669597715957_bulletin",
+        "https://static.baza.farpost.ru/farpost_catalog/1669597715957_bulletin"
+      ],
+      "n_specs": 19,
+      "specs_sample": [
+        [
+          "subject",
+          "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 "
+        ],
+        [
+          "price",
+          "8 499"
+        ],
+        [
+          "model~tireFirmAndModel",
+          "LingLong GREEN-Max Winter Grip Van 2"
+        ],
+        [
+          "inSetQuantity",
+          "\n\t\t\t\t\t\t\t\t\t\t\t\t\t1 шт\t\t\t\n\t\t\t\t\t"
+        ],
+        [
+          "quantity",
+          "\n\t\t\t\t\t\t\t\t\t\t\t\t\t100&nbsp;шт\t\t\t\n\t\t\t\t\t"
+        ]
+      ],
+      "bulletin_id": "139122082",
+      "category": null,
+      "http": 200,
+      "t": 0.4
+    },
+    "cat": {
+      "http": 200,
+      "len": 189634,
+      "t": 0.5,
+      "n_links": 30,
+      "first_links": [
+        "/vladivostok/tech/electronics/umnyj-dom-vkonnektu-88005649.html",
+        "/vladivostok/tech/electronics/generator-invertornyj-kraton-igg-2800-2800vt-maloshumnyj-garantija-128861033.html",
+        "/vladivostok/tech/electronics/generator-invertornyj-patriot-3000i-3-0-3-5kvt-maloshumnyj-63db-85875417.html",
+        "/vladivostok/tech/electronics/generator-benzinovyj-kraton-gg-6500em-6-6-5kvt-el-start-garantija-85689220.html",
+        "/vladivostok/tech/electronics/generator-benzinovyj-kraton-gg-6500-3rem-220-380v-trehfaznyj-80967703.html"
+      ],
+      "n_prices": 0,
+      "first_prices": [],
+      "n_titles": 0,
+      "first_titles": []
+    },
+    "card2": {
+      "url": "https://www.farpost.ru/vladivostok/tech/electronics/umnyj-dom-vkonnektu-88005649",
+      "len": 62153,
+      "n_ld": 3,
+      "ld_name": "Умный Дом \"VkonnektU\"",
+      "ld_desc": "Прочая электроника. Цена: 9 999&#8381;. Новый. В наличии. Внимание! Снижение цен на всё оборудование",
+      "ld_price": 9999,
+      "ld_currency": "RUB",
+      "ld_availability": "https://schema.org/InStock",
+      "ld_imgs": [],
+      "n_ld_imgs": 0,
+      "attr_price": 9999,
+      "og_title": "Умный Дом &quot;VkonnektU&quot;, новый, в наличии. Цена: 9 999&#8381; во Владиво",
+      "og_price": null,
+      "og_image": "https://static.baza.farpost.ru/v/1606801042499_bulletin",
+      "title_tag": "Умный Дом &quot;VkonnektU&quot;, новый, в наличии. Цена: 9 999&#8381; во Владиво",
+      "h1": "Умный Дом &quot;VkonnektU&quot; во Владивостоке",
+      "n_photos": 52,
+      "first_photos": [
+        "https://static.baza.farpost.ru/v/1606801042499_bulletin",
+        "https://static.baza.farpost.ru/v/1606801042499_bulletin",
+        "https://static.baza.farpost.ru/v/1606801042499_bulletin"
+      ],
+      "n_specs": 8,
+      "specs_sample": [
+        [
+          "subject",
+          "Умный Дом &quot;VkonnektU&quot; "
+        ],
+        [
+          "price",
+          "9 999"
+        ],
+        [
+          "goodPresentState",
+          "\n\t\t\tВ наличии\t\t\t\t\t"
+        ],
+        [
+          "condition",
+          "\n\t\t\t\t\t\t\t\t\t\t\t\t\tНовый\t\t\t\n\t\t\t\t\t"
+        ],
+        [
+          "text",
+          "\n\tВнимание! Снижение цен на всё оборудование умного дома!"
+        ]
+      ],
+      "bulletin_id": "88005649",
+      "category": null,
+      "http": 200,
+      "t": 0.3
+    }
+  },
+  "ozon": {
+    "firefox": {
+      "http": 403,
+      "len": 8185,
+      "t": 1.0
+    },
+    "safari": {
+      "http": 403,
+      "len": 9866,
+      "t": 1.0
+    },
+    "sess_home": {
+      "http": 403,
+      "cookies": [
+        "__Secure-ETC",
+        "abt_data"
+      ],
+      "t": 1.0
+    },
+    "sess_product": {
+      "http": 403,
+      "len": 8342,
+      "t": 0.1,
+      "403_saved": true,
+      "has_js": true,
+      "scripts": [
+        "https://cdn2.ozone.ru/s3/abt-challenge/script_v47_2.js"
+      ]
+    },
+    "no_slash": {
+      "http": 403,
+      "len": 8314,
+      "t": 1.0
+    },
+    "search": {
+      "http": 403,
+      "len": 8321,
+      "t": 1.0
+    }
+  },
+  "avito": {
+    "home": {
+      "http": 439,
+      "len": 14382,
+      "cookies": [
+        "srv_id",
+        "gMltIuegZN2COuSe",
+        "_avisc",
+        "pow_challenge"
+      ],
+      "t": 1.0
+    },
+    "search": {
+      "http": 429,
+      "len": 34116,
+      "t": 0.3,
+      "blocked": true,
+      "has_iframe": false,
+      "has_form": true,
+      "title": "Доступ ограничен: проблема с IP"
+    },
+    "cat2": {
+      "http": 429,
+      "len": 34116,
+      "t": 0.2
+    },
+    "api": {
+      "http": 404,
+      "len": 555,
+      "t": 0.1
+    }
+  },
+  "total_s": 39.5,
+  "time": "2026-11-12T19:12:53.360292+10:00"
+}

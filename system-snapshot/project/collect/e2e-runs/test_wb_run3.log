@@ -1,0 +1,12 @@
+2026-11-11 08:51:43,739 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+2026-11-11 08:51:43,878 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 08:54:52,904 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-11 08:55:03,205 r52.collectors.wb INFO WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-11 08:55:17,385 r52.collectors.wb INFO WB 199298871: price card_v1 -> 403
+2026-11-11 08:55:26,010 r52.collectors.wb INFO WB 199298871: price card_v2 -> 403
+2026-11-11 08:55:39,308 r52.collectors.wb INFO WB 199298871: price card_v4 -> 403
+2026-11-11 08:55:49,919 r52.collectors.wb INFO WB 199298871: price card_v5 -> 403
+2026-11-11 08:56:04,426 r52.collectors.wb INFO WB 199298871: price web_api -> 498
+2026-11-11 08:56:23,838 r52.collectors.wb WARNING WB cffi error https://wbx-content-v2.wbbasket.ru/vol1992/part199298/199298871/info/ru/card.jso: Failed to perform, curl: (6) Could not resolve host: wbx-content-v2.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 08:56:42,578 r52.collectors.wb WARNING WB cffi error https://wbx-content.wbbasket.ru/vol1992/part199298/199298871/info/ru/card.json: Failed to perform, curl: (6) Could not resolve host: wbx-content.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 08:56:42,578 r52.collectors.wb INFO WB 199298871: price — все эндпоинты не дали данных

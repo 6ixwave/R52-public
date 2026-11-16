@@ -1,0 +1,49 @@
+TMP_HOME: C:\Users\aleks\AppData\Local\Temp\r52-e2e-ozon-80mgtaa_
+Config: db=C:\Users\aleks\AppData\Local\Temp\r52-e2e-ozon-80mgtaa_\data\r52.sqlite3, intake=(WindowsPath('C:/Users/aleks/Downloads/R52-2.12/R52-2.12/test-intake-e2e-ozon'),)
+App opened OK
+
+HTML loaded: 1087146 bytes
+
+--- Parsing via OzonCollector.parse_page ---
+
+Eye JSON written: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\test-intake-e2e-ozon\jarvis-eye-ozon-1600562267.json (14043 bytes)
+
+--- Pipeline: stage_bytes → accept ---
+Stage: status=PENDING, created=True, id=1
+Accept: product_id=1, observation_created=True
+
+============================================================
+SQLITE VERIFICATION (OZON)
+============================================================
+
+Products (OZON): 1
+
+  ID=1 listing=1600562267
+  Title: Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра
+  Brand: Айхал
+  URL: https://www.ozon.ru/product/tkan-dlya-obivki-mebeli-velyur-s-abstraktnym-printom-otrez-3-metra-1600562267/
+  Availability: UNKNOWN
+  Price regular: 229500 minor (2295)
+  Price lowest: 229500 minor
+  Observations: 1
+  Category: Хобби и творчество > Рукоделие > Шитье > Ткани, подкладочные материалы и дублерин > Айхал
+
+Observations: 1
+  obs_id=1 product=1 at=2026-11-10T21:18:33.953+00:00 origin=EYE evidence=COLLECTOR_AUTONOMOUS_HTTP avail=UNKNOWN norm=8985B raw=7124B
+
+Price points: 1
+  pp_id=1 role=regular amount=229500 (2295 RUB) label=JSON-LD price
+
+Gallery data:
+  product=1: 40 media items
+    type=image url=https://ir.ozone.ru/s3/cms/e3/tc1/wc200/group_2087330924.png
+    type=image url=https://ir.ozone.ru/s3/multimedia-1-o/wc50/7362987720.jpg
+    type=image url=https://ir.ozone.ru/s3/multimedia-1-m/wc50/7158491914.jpg
+    type=image url=https://ir.ozone.ru/s3/multimedia-1-0/wc50/7340757300.jpg
+    type=image url=https://ir.ozone.ru/s3/multimedia-1-l/wc50/7158491877.jpg
+    ... and 35 more
+
+============================================================
+SUMMARY: PASS — 1 product(s), 1 price point(s), 1 observation(s)
+
+App stopped. TMP_HOME=C:\Users\aleks\AppData\Local\Temp\r52-e2e-ozon-80mgtaa_

@@ -1,0 +1,8 @@
+[
+  {
+    "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794492493093&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.0&timeout=15000&dataType=originaljsonp&callback=mtopjsonp1&data=%7B%22productId%22%3A%221005011813323763%22%2C%22_lang%22%3A%22it_IT%22%2C%22_currency%22%3A%22EUR%22%2C%22country%22%3A%22IT%22%2C%22province%22%3A%22%22%2C%22city%22%3A%22%22%2C%22channel%22%3A%22%22%2C%22pdp_ext_f%22%3A%22%22%2C%22pdpNPI%22%3A%22%22%2C%22sourceType%22%3A%22%22%2C%22clientType%22%3A%22pc%22%2C%22ext%22%3A%22%7B%5C%22foreverRandomToken%5C%22%3A%5C%22f84b386ad51f463a8744b3e9474b20f8%5C%22%2C%5C%22site%5C%22%3A%5C%22ita%5C%22%2C%5C%22crawler%5C%22%3Afalse%2C%5C%22x-m-biz-bx-region%5C%22%3A%5C%22%5C%22%2C%5C%22signedIn%5C%22%3Afalse%2C%5C%22host%5C%22%3A%5C%22it.aliexpress.com%5C%22%7D%22%7D",
+    "status": 200,
+    "len": 543,
+    "body": "mtopjsonp1({\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg3df20f7dfc8414cakjbe4e414b9ac48df1d0215731008517ca1794492493a-1168960602a-1317347523abaxc3eajrecaptcha33b0e6ba5d561c3a9841d4588c53c487421__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}},\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}})"
+  }
+]

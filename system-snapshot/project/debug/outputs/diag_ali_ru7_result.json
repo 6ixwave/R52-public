@@ -1,0 +1,40 @@
+{
+  "pid": "1005013496905897",
+  "ts": "2026-11-12T20:21:07.129438+00:00",
+  "phase": "done",
+  "log": [
+    "[06:21:07] Starting v7 diagnostic...",
+    "[06:21:07] Browser OK",
+    "[06:21:07] Warm: 13 cookies",
+    "[06:21:07] URL: https://ru.aliexpress.com/item/1005013496905897.html",
+    "[06:21:10] HTTP 200",
+    "[06:21:11] tick=0: {'cap': 'click', 'body': 98658}",
+    "[06:21:11] Captcha found, extracting images...",
+    "[06:21:13] Question saved: 38328 bytes",
+    "[06:21:13] Grid saved: 9/9 cells",
+    "[06:21:13] Running comparison v2...",
+    "[06:21:13] Selected: [6, 1, 3]",
+    "[06:21:15] Submitted",
+    "[06:21:16] result tick=0: {'onCap': True, 'msg': ''}",
+    "[06:21:17] result tick=1: {'onCap': True, 'msg': ''}",
+    "[06:21:18] result tick=2: {'onCap': True, 'msg': ''}",
+    "[06:21:19] result tick=3: {'onCap': True, 'msg': ''}",
+    "[06:21:20] result tick=4: {'onCap': True, 'msg': ''}",
+    "[06:21:21] result tick=5: {'onCap': True, 'msg': ''}",
+    "[06:21:22] result tick=6: {'onCap': True, 'msg': ''}",
+    "[06:21:23] result tick=7: {'onCap': True, 'msg': ''}",
+    "[06:21:24] result tick=8: {'onCap': True, 'msg': ''}",
+    "[06:21:25] result tick=9: {'onCap': True, 'msg': ''}",
+    "[06:21:26] result tick=10: {'onCap': True, 'msg': ''}",
+    "[06:21:27] result tick=11: {'onCap': True, 'msg': ''}",
+    "[06:21:28] result tick=12: {'onCap': True, 'msg': ''}",
+    "[06:21:29] result tick=13: {'onCap': True, 'msg': ''}",
+    "[06:21:30] result tick=14: {'onCap': True, 'msg': ''}"
+  ],
+  "solved": false,
+  "selected": [
+    6,
+    1,
+    3
+  ]
+}

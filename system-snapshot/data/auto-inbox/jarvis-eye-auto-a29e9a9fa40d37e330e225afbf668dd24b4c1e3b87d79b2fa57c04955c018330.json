@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шапка демисезонная бини молодежная вязаная",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Warms",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Шапка мужская - это идеальный выбор для холодных осенних дней. Изготовленная из мягкого и теплого акрила, она обеспечит комфорт и уют даже в прохладные дни. Благодаря своей вязаной фактуре и бесшовной конструкции, шапка плотно прилегает к голове, защищая от ветра и холода.  Температурный режим от +5 °C до -10 °C  позволяет носить ее как в ранний зимний, так и в демисезонный период. Шапка выполнена в классическом черном цвете, что делает ее универсальной и подходящей к любому стилю. Головной убор тонкий, вязаный, не имеет застежки, что обеспечивает удобство и простоту носки.  Осенняя шапка станет отличным подарком для брата, друга или любого мужчины, который ценит комфорт и стиль. Ухаживать за шапкой просто: стирка при температуре не более 30°C, деликатный отжим, скручивание запрещено. Эта теплая шапка бини с отворотом станет незаменимым аксессуаром в прохладную осень и зиму.  Мужская модель с локаничным дизайном, без помпона и рисунка, подойдет как для повседневной носки, так и для занятий спортом или походов в школу.  Благодаря крупной вязке и эластичному материалу шапка хорошо сидит на голове, не сковывая движений. ",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Головные уборы > Шапки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 200000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "2000.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 47300,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "473.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Головные уборы > Шапки",
+    "source": "WB",
+    "id": "1475428055",
+    "url": "https://www.wildberries.ru/catalog/1475428055/detail.aspx",
+    "observed_at": "2026-11-17T01:38:16.851313+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

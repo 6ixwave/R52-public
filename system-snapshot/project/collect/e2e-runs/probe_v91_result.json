@@ -1,0 +1,99 @@
+{
+  "probe": "v91",
+  "started_at": "2026-11-11T13:33:18.912340",
+  "elapsed_sec": 490.3,
+  "sqlite_before": {
+    "product": 6,
+    "observation": 21,
+    "price_point": 12,
+    "source": 6,
+    "inbox_item": 3
+  },
+  "sqlite_after": {
+    "product": 7,
+    "observation": 23,
+    "price_point": 12,
+    "source": 6,
+    "inbox_item": 5
+  },
+  "delta": {
+    "product": 1,
+    "observation": 2,
+    "price_point": 0,
+    "source": 0,
+    "inbox_item": 2
+  },
+  "marketplaces": {
+    "WB": {
+      "source": "WB",
+      "items": [
+        {
+          "nm_id": 199298871,
+          "product_id": 3,
+          "title": "WB-199298871"
+        },
+        {
+          "nm_id": 314337853,
+          "product_id": 7,
+          "title": "WB-314337853"
+        }
+      ],
+      "inbox_accepted": 2,
+      "stats": {
+        "requests": 132,
+        "success": 0,
+        "failed": 120,
+        "blocked": 12
+      }
+    },
+    "OZON": {
+      "source": "OZON",
+      "items": [
+        {
+          "lid": "479010389",
+          "status": "NO_DATA"
+        },
+        {
+          "lid": "1600562267",
+          "status": "NO_DATA"
+        }
+      ],
+      "inbox_accepted": 0
+    },
+    "AVITO": {
+      "source": "AVITO",
+      "items": [
+        {
+          "lid": "1154321987",
+          "status": "NO_DATA"
+        },
+        {
+          "lid": "8341658309",
+          "status": "NO_DATA"
+        }
+      ],
+      "inbox_accepted": 0
+    },
+    "FARPOST": {
+      "source": "FARPOST",
+      "items": [
+        {
+          "lid": "127622540",
+          "status": "NO_DATA"
+        },
+        {
+          "lid": "130693618",
+          "status": "NO_DATA"
+        }
+      ],
+      "inbox_accepted": 0,
+      "stats": {
+        "requests": 2,
+        "success": 0,
+        "failed": 2,
+        "blocked": 0
+      }
+    }
+  },
+  "total_inbox_accepted": 2
+}

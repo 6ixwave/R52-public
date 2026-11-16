@@ -1,0 +1,261 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Комплект дисков Rays G25 R17 7.5J ET35 5*100 (450)",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Продажа Комплект дисков Rays G25 R17 7.5J ET35 5*100 (450) во Владивостоке",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Авто и мото > Шины и диски > Диски > Диски RAYS Volk Racing",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "RAYS",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "RAYS Volk Racing G25",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "inSetQuantity": {
+            "label": "Количество дисков в комплекте",
+            "value": "4 шт"
+          },
+          "quantity": {
+            "label": "Количество комплектов",
+            "value": "1&nbsp;шт"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Новый"
+          },
+          "wheelDiameter": {
+            "label": "Диаметр",
+            "value": "17\""
+          },
+          "wheelWeight": {
+            "label": "Масса диска",
+            "value": "7,6&nbsp;кг."
+          },
+          "wheelPcd": {
+            "label": "Сверловка (PCD)",
+            "value": "5x100"
+          },
+          "diskType": {
+            "label": "Тип",
+            "value": "Литые диски"
+          },
+          "diskHoleDiameter": {
+            "label": "Диаметр ЦО (DIA)",
+            "value": "73,1&nbsp;мм."
+          },
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller": {
+        "status": "KNOWN",
+        "value": "wheelsdisk",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "seller_url": {
+        "status": "KNOWN",
+        "value": "https://www.farpost.ru/user/wheelsdisk/",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "136342005",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 3800000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "38000.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781657753834_bulletin",
+          "image_data": null,
+          "alt": "RAYS Volk Racing G25. 7.5x17&quot;, 5x100, ET35, ЦО 73,1 мм. фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 1265
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781657753941_bulletin",
+          "image_data": null,
+          "alt": "RAYS Volk Racing G25. 7.5x17&quot;, 5x100, ET35, ЦО 73,1 мм. фото",
+          "label": "",
+          "is_main": true,
+          "width": 1277,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781657754970_bulletin",
+          "image_data": null,
+          "alt": "RAYS Volk Racing G25. 7.5x17&quot;, 5x100, ET35, ЦО 73,1 мм. фото",
+          "label": "",
+          "is_main": false,
+          "width": 1247,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781657755864_bulletin",
+          "image_data": null,
+          "alt": "RAYS Volk Racing G25. 7.5x17&quot;, 5x100, ET35, ЦО 73,1 мм. фото",
+          "label": "",
+          "is_main": false,
+          "width": 1220,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781657757141_bulletin",
+          "image_data": null,
+          "alt": "RAYS Volk Racing G25. 7.5x17&quot;, 5x100, ET35, ЦО 73,1 мм. фото",
+          "label": "",
+          "is_main": false,
+          "width": 1127,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781657758183_bulletin",
+          "image_data": null,
+          "alt": "RAYS Volk Racing G25. 7.5x17&quot;, 5x100, ET35, ЦО 73,1 мм. фото",
+          "label": "",
+          "is_main": false,
+          "width": 1135,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781657759191_bulletin",
+          "image_data": null,
+          "alt": "RAYS Volk Racing G25. 7.5x17&quot;, 5x100, ET35, ЦО 73,1 мм. фото",
+          "label": "",
+          "is_main": false,
+          "width": 1152,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781657760219_bulletin",
+          "image_data": null,
+          "alt": "RAYS Volk Racing G25. 7.5x17&quot;, 5x100, ET35, ЦО 73,1 мм. фото",
+          "label": "",
+          "is_main": false,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781657761235_bulletin",
+          "image_data": null,
+          "alt": "RAYS Volk Racing G25. 7.5x17&quot;, 5x100, ET35, ЦО 73,1 мм. фото",
+          "label": "",
+          "is_main": false,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1781657762397_bulletin",
+          "image_data": null,
+          "alt": "RAYS Volk Racing G25. 7.5x17&quot;, 5x100, ET35, ЦО 73,1 мм. фото",
+          "label": "",
+          "is_main": false,
+          "width": 960,
+          "height": 1280
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Авто и мото > Шины и диски > Диски > Диски RAYS Volk Racing",
+    "source": "FARPOST",
+    "id": "136342005",
+    "url": "https://www.farpost.ru/vladivostok/136342005.html",
+    "observed_at": "2026-11-12T01:48:39.190717+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

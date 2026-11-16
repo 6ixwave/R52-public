@@ -1,0 +1,112 @@
+=== STDOUT ===
+SCRIPT START
+
+============================================================
+PERSIST ALL v69: PARTIAL
+  ✓ FARPOST: OK  title=Triangle IcelynX TI501, 205/55 R16 94T XL  prices=1
+  ✓ WB: OK  title=Овсяный смарт коктейль для похудения без сахара  prices=0
+  ✓ OZON: OK  title=Ткань для обивки мебели, Велюр с абстрактным принт  prices=1
+  ✗ AVITO: ERROR  title=?  prices=0
+  DB counts: {'source': 6, 'product': 3, 'observation': 5, 'price_point': 4} → {'source': 6, 'product': 3, 'observation': 8, 'price_point': 6}
+============================================================
+JSON: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v69_result.json
+
+DONE
+
+=== STDERR ===
+2026-11-11 10:39:00,081 persist_all INFO Постоянная БД: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\r52\data\r52.db, миграции: []
+2026-11-11 10:39:00,083 persist_all INFO ДО: {'source': 6, 'product': 3, 'observation': 5, 'price_point': 4}
+2026-11-11 10:39:00,084 persist_all INFO === FARPOST ===
+2026-11-11 10:39:00,085 persist_all INFO FP HTML: 52072 байт, enc=utf-8(replace)
+2026-11-11 10:39:00,243 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 10:39:00,252 persist_all INFO FP: product=1 created=False obs=6
+2026-11-11 10:39:00,252 persist_all INFO === WILDBERRIES ===
+2026-11-11 10:39:00,252 persist_all INFO WB card: id=199298871 title=Овсяный смарт коктейль для похудения без brand=Родник Здоровья media=6
+2026-11-11 10:39:00,634 persist_all WARNING WB price API: HTTP 403
+2026-11-11 10:39:00,634 persist_all WARNING WB: цены не получены, ставим UNKNOWN
+2026-11-11 10:39:00,635 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 10:39:00,780 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 10:39:00,780 persist_all INFO WB: evidence добавлен в 6 полей
+2026-11-11 10:39:00,787 persist_all INFO WB: product=3 created=False obs=7 prices=0
+2026-11-11 10:39:00,788 persist_all INFO === OZON ===
+2026-11-11 10:39:00,789 persist_all INFO OZON HTML: 1088241 байт, enc=utf-8
+2026-11-11 10:39:00,789 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 10:39:00,977 persist_all INFO OZON: product=2 created=False obs=8
+2026-11-11 10:39:00,977 persist_all INFO === AVITO ===
+2026-11-11 10:39:00,977 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 10:39:00,977 persist_all INFO AVITO fetch: https://www.avito.ru/ad/8341658309
+2026-11-11 10:39:01,785 persist_all INFO AVITO HTTP: 404, 29440 байт
+2026-11-11 10:39:01,785 persist_all ERROR AVITO FAILED
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v69_persist_all.py", line 422, in <module>
+    raise RuntimeError(f"AVITO HTTP {av_resp.status_code}")
+RuntimeError: AVITO HTTP 404
+2026-11-11 10:39:01,804 persist_all INFO === VERIFICATION ===
+2026-11-11 10:39:01,806 persist_all INFO ПОСЛЕ: {'source': 6, 'product': 3, 'observation': 8, 'price_point': 6}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: format argument 7: %d requires a real number, not str
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v69_persist_all.py", line 508, in <module>
+    log.info("  P%d [%s] %s | %s | %s %s | obs=%d | %s",
+Message: '  P%d [%s] %s | %s | %s %s | obs=%d | %s'
+Arguments: (1, 'FARPOST', '130693618', 'Triangle IcelynX TI501, 205/55 R16 94T XL', 2440000, 'RUB', 'IN_STOCK', 3, '2026-11-11T00:39:00.246+00:00')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: format argument 7: %d requires a real number, not str
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v69_persist_all.py", line 508, in <module>
+    log.info("  P%d [%s] %s | %s | %s %s | obs=%d | %s",
+Message: '  P%d [%s] %s | %s | %s %s | obs=%d | %s'
+Arguments: (2, 'OZON', '1600562267', 'Ткань для обивки мебели, Велюр с абстрактным принт', 229500, 'RUB', 'IN_STOCK', 3, '2026-11-11T00:39:00.972+00:00')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python315\Lib\logging\__init__.py", line 1154, in emit
+    msg = self.format(record)
+  File "C:\Python315\Lib\logging\__init__.py", line 1002, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Python315\Lib\logging\__init__.py", line 712, in format
+    record.message = record.getMessage()
+                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\logging\__init__.py", line 397, in getMessage
+    msg = msg % self.args
+          ~~~~^~~~~~~~~~~
+TypeError: format argument 7: %d requires a real number, not str
+Call stack:
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v69_persist_all.py", line 508, in <module>
+    log.info("  P%d [%s] %s | %s | %s %s | obs=%d | %s",
+Message: '  P%d [%s] %s | %s | %s %s | obs=%d | %s'
+Arguments: (3, 'WB', '199298871', 'Овсяный смарт коктейль для похудения без сахара', None, None, 'UNKNOWN', 2, '2026-11-11T00:39:00.780+00:00')
+2026-11-11 10:39:01,810 persist_all INFO   OBS FARPOST: id=1 prod=1 origin=PERSIST_FP avail=IN_STOCK pp=1 fp=bf817f110567e25e...
+2026-11-11 10:39:01,810 persist_all INFO   OBS FARPOST: id=3 prod=1 origin=PERSIST_FP avail=IN_STOCK pp=1 fp=124e785b5eb93b55...
+2026-11-11 10:39:01,810 persist_all INFO   OBS FARPOST: id=6 prod=1 origin=PERSIST_FP avail=IN_STOCK pp=1 fp=f9eadfde5ed1c93a...
+2026-11-11 10:39:01,810 persist_all INFO   OBS WB: id=4 prod=3 origin=PERSIST_WB avail=UNKNOWN pp=0 fp=c2d0b3ccf88eaab4...
+2026-11-11 10:39:01,810 persist_all INFO   OBS WB: id=7 prod=3 origin=PERSIST_WB avail=UNKNOWN pp=0 fp=9a184d96a5a5ed7a...
+2026-11-11 10:39:01,810 persist_all INFO   OBS OZON: id=2 prod=2 origin=PERSIST_OZON avail=IN_STOCK pp=1 fp=d576571aaf572fdd...
+2026-11-11 10:39:01,810 persist_all INFO   OBS OZON: id=5 prod=2 origin=PERSIST_OZON avail=IN_STOCK pp=1 fp=2dbbba099824ea55...
+2026-11-11 10:39:01,810 persist_all INFO   OBS OZON: id=8 prod=2 origin=PERSIST_OZON avail=IN_STOCK pp=1 fp=768b1a097fc0b915...
+
+=== EXIT: 0 | 2.0s ===

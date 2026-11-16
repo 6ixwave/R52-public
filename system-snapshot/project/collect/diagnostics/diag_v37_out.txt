@@ -1,0 +1,44 @@
+2026-11-11 00:46:39,760 [INFO] diag_v37: === DIAG V37: все 4 площадки ===
+2026-11-11 00:46:39,760 [INFO] diag_v37: === OZON: офлайн-парсинг ===
+2026-11-11 00:46:39,956 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 00:46:39,956 [INFO] diag_v37: OZON prod1: читаю v35_OZON_prod1.html
+2026-11-11 00:46:39,959 [INFO] diag_v37: OZON prod1: 600000 байт, 1065 строк
+2026-11-11 00:46:40,063 [INFO] diag_v37: OZON prod1: title=Ткань для обивки мебели, Велюр с абстрактным принт, prices=1, imgs=60 (product=39, icons=4, covers=5, other=12)
+2026-11-11 00:46:40,063 [INFO] diag_v37: OZON prod2: читаю v35_OZON_prod2.html
+2026-11-11 00:46:40,066 [INFO] diag_v37: OZON prod2: 592953 байт, 1063 строк
+2026-11-11 00:46:40,066 [WARNING] r52.collectors.ozon: OZON 2: 404-страница (widget=error)
+2026-11-11 00:46:40,067 [INFO] diag_v37: === WB: онлайн-стратегии ===
+2026-11-11 00:46:40,067 [INFO] diag_v37: WB A: card.wb.ru/cards/v2/detail
+2026-11-11 00:46:40,879 [INFO] diag_v37: WB A nm=199298871: HTTP 403, 0 байт
+2026-11-11 00:46:44,253 [INFO] diag_v37: WB A nm=123456789: HTTP 403, 0 байт
+2026-11-11 00:46:47,253 [INFO] diag_v37: WB B: mobile/catalog/{nm}/info.aspx
+2026-11-11 00:46:47,636 [INFO] diag_v37: WB B nm=199298871: HTTP 498, 1136 байт, challenge=True
+2026-11-11 00:46:51,037 [INFO] diag_v37: WB B nm=123456789: HTTP 498, 1136 байт, challenge=True
+2026-11-11 00:46:54,038 [INFO] diag_v37: WB C: detail.aspx mobile UA
+2026-11-11 00:46:54,436 [INFO] diag_v37: WB C nm=199298871: HTTP 498, 1136 байт, challenge=True, jsonld=False
+2026-11-11 00:46:57,811 [INFO] diag_v37: WB C nm=123456789: HTTP 498, 1136 байт, challenge=True, jsonld=False
+2026-11-11 00:47:00,811 [INFO] diag_v37: WB D: card.wb.ru/cards/v2/batch
+2026-11-11 00:47:01,224 [INFO] diag_v37: WB D nm=199298871: HTTP 403, 0 байт
+2026-11-11 00:47:04,595 [INFO] diag_v37: WB D nm=123456789: HTTP 403, 0 байт
+2026-11-11 00:47:07,598 [INFO] diag_v37: === AVITO: онлайн-стратегии ===
+2026-11-11 00:47:07,599 [INFO] diag_v37: AVITO A: m.avito.ru
+2026-11-11 00:47:08,390 [INFO] diag_v37: AVITO A id=1000000000: HTTP 404, 18752 байт, blocked=False
+2026-11-11 00:47:14,194 [INFO] diag_v37: AVITO A id=1234567890: HTTP 404, 18752 байт, blocked=False
+2026-11-11 00:47:19,194 [INFO] diag_v37: AVITO B: www.avito.ru mobile UA
+2026-11-11 00:47:19,979 [INFO] diag_v37: AVITO B id=1000000000: HTTP 404, 18752 байт, blocked=False
+2026-11-11 00:47:25,361 [INFO] diag_v37: AVITO B id=1234567890: HTTP 404, 18752 байт, blocked=False
+2026-11-11 00:47:30,362 [INFO] diag_v37: AVITO C: RSS
+2026-11-11 00:47:31,182 [INFO] diag_v37: AVITO C id=1000000000: HTTP 404, 29440 байт, xml=False
+2026-11-11 00:47:36,606 [INFO] diag_v37: AVITO C id=1234567890: HTTP 404, 29440 байт, xml=False
+2026-11-11 00:47:41,608 [INFO] diag_v37: === FARPOST: интеграция со штатным intake ===
+2026-11-11 00:47:41,609 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 00:47:41,609 [INFO] diag_v37: FARPOST 123456: https://www.farpost.ru/bulletin/123456
+2026-11-11 00:47:42,671 [INFO] diag_v37: FARPOST 789012: https://www.farpost.ru/bulletin/789012
+2026-11-11 00:47:51,126 [INFO] diag_v37: FARPOST: проверка формата intake
+2026-11-11 00:47:51,127 [INFO] diag_v37: FARPOST: intake format match = True
+2026-11-11 00:47:51,129 [INFO] diag_v37: === V37 завершено за 71.4с → diag_v37_results.json ===
+2026-11-11 00:47:51,129 [INFO] diag_v37: --- СВОДКА ---
+2026-11-11 00:47:51,129 [INFO] diag_v37: OZON: {"prod1": {"status": "PARSED", "html_bytes": 600000, "fields": {"title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра", "description": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра – покупайте на OZON по выгодным ценам! Быстрая и бес", "category": "Хобб
+2026-11-11 00:47:51,129 [INFO] diag_v37: WB: {"A_api_199298871": {"status_code": 403, "bytes": 0, "snippet": ""}, "A_api_123456789": {"status_code": 403, "bytes": 0, "snippet": ""}, "B_mobile_199298871": {"status_code": 498, "bytes": 1136, "is_challenge": true, "snippet": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"7
+2026-11-11 00:47:51,130 [INFO] diag_v37: AVITO: {"A_mobile_1000000000": {"status_code": 404, "bytes": 18752, "is_blocked": false, "has_jsonld": false, "has_preloaded": false, "title_match": "Авито — Объявления на сайте Авито", "snippet": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"vie
+2026-11-11 00:47:51,130 [INFO] diag_v37: FARPOST: {"123456": {"status": "FETCH_NONE"}, "789012": {"status": "FETCH_NONE"}, "intake_format_match": true}

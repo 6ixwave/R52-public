@@ -1,0 +1,118 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Поршни 4D35 Mitsubishi Canter ME018825",
+        "method": "JSONLD"
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Поршни 4D35 Mitsubishi Canter ME018825 во Владивостоке. Стоимость: 27 500&#8381;. Смотрите все товары из категории «поршень» на FarPost.",
+        "method": "JSONLD"
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Авто и мото > Автозапчасти > блок ДВС и детали",
+        "method": "BREADCRUMB"
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Mitsubishi",
+        "method": "JSONLD"
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          },
+          "condition": {
+            "label": "Состояние",
+            "value": "Новый"
+          },
+          "autoPartsAuthenticity": {
+            "label": "Оригинальность",
+            "value": "Оригинал"
+          },
+          "manufacturer": {
+            "label": "Производитель",
+            "value": "Mitsubishi"
+          }
+        },
+        "method": "HTML"
+      },
+      "seller": {
+        "status": "KNOWN",
+        "value": "DR.DIESEL",
+        "method": "HTML"
+      },
+      "seller_url": {
+        "status": "KNOWN",
+        "value": "https://www.farpost.ru/user/DoctorDiezel/",
+        "method": "HTML"
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "98836529",
+        "method": "HTML"
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 2750000,
+        "currency": "RUB",
+        "label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1644381040560_bulletin?ni=yes",
+          "image_data": null,
+          "alt": "Поршни 4D35 Mitsubishi Canter ME018825 ME018825 фото",
+          "label": "",
+          "is_main": true,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1644381040815_bulletin?ni=yes",
+          "image_data": null,
+          "alt": "Поршни 4D35 Mitsubishi Canter ME018825 ME018825 фото",
+          "label": "",
+          "is_main": false,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1644381041772_bulletin?ni=yes",
+          "image_data": null,
+          "alt": "Поршни 4D35 Mitsubishi Canter ME018825 ME018825 фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Авто и мото > Автозапчасти > блок ДВС и детали",
+    "source": "FARPOST",
+    "id": "98836529",
+    "url": "https://www.farpost.ru/vladivostok/98836529.html",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

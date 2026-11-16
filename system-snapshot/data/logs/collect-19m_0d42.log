@@ -1,0 +1,34 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-14 03:01:00,016 r52.autocollect.worker INFO phase=worker_start pid=16424
+2026-11-14 03:01:00,031 r52.autocollect.worker INFO source=ALIEXPRESS_RU mode=refresh phase=initialize
+2026-11-14 03:01:00,031 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, режим direct
+2026-11-14 03:01:00,031 r52.autocollect.worker INFO source=ALIEXPRESS_RU proxy_pool={'total': 0, 'alive': 0, 'use_proxies': True}
+2026-11-14 03:01:00,032 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012101399509 phase=collect_product_start
+2026-11-14 03:01:02,610 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76229B, 2.6s
+2026-11-14 03:01:02,615 r52.collectors.aliexpress INFO ALI parse: title=POCO X8 Pro Max 256GB/512GB Versione EEA MediaTek , prices=0, avail=OUT_OF_STOCK, media=1
+2026-11-14 03:01:02,615 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012101399509 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-14 03:01:02,615 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012330093922 phase=collect_product_start
+2026-11-14 03:01:17,744 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76254B, 2.6s
+2026-11-14 03:01:17,748 r52.collectors.aliexpress INFO ALI parse: title=realme 16 Pro Plus 5G Smartphone 6.8, prices=0, avail=OUT_OF_STOCK, media=1
+2026-11-14 03:01:17,748 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012330093922 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-14 03:01:17,748 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012775947416 phase=collect_product_start
+2026-11-14 03:01:27,155 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76290B, 2.5s
+2026-11-14 03:01:27,160 r52.collectors.aliexpress INFO ALI parse: title=POCO F8 Pro 5G, versione internazionale, smartphon, prices=0, avail=OUT_OF_STOCK, media=1
+2026-11-14 03:01:27,160 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012775947416 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-14 03:01:27,160 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005011994231096 phase=collect_product_start
+2026-11-14 03:01:37,382 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76187B, 2.6s
+2026-11-14 03:01:37,386 r52.collectors.aliexpress INFO ALI parse: title=POCO X8 Pro 5G 256GB/512GB Versione EEA NFC, Dimen, prices=0, avail=OUT_OF_STOCK, media=1
+2026-11-14 03:01:37,386 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005011994231096 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-14 03:01:37,386 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012910483472 phase=collect_product_start
+2026-11-14 03:01:47,425 r52.collectors.aliexpress INFO ALI_RU: product page OK (try 1), 76843B, 2.7s
+2026-11-14 03:01:47,429 r52.collectors.aliexpress INFO ALI parse: title=Smartphone HONOR 600 Pro 5G Versione EU Snapdragon, prices=0, avail=OUT_OF_STOCK, media=1
+2026-11-14 03:01:47,429 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012910483472 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-14 03:01:47,429 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_start returned=5 valid=5 stats={'requests': 5, 'success': 5, 'failed': 0, 'blocked': 0}
+2026-11-14 03:01:47,430 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-5502c96b.json
+2026-11-14 03:01:47,430 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-2120947e.json
+2026-11-14 03:01:47,431 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-2da58e4b.json
+2026-11-14 03:01:47,431 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-6171a458.json
+2026-11-14 03:01:47,431 r52.collectors INFO ALIEXPRESS_RU: записан jarvis-eye-aliexpress_ru-70436f4e.json
+2026-11-14 03:01:47,433 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_complete files=5
+2026-11-14 03:01:47,433 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_start
+2026-11-14 03:01:47,433 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_complete

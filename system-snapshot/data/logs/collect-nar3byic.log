@@ -1,0 +1,21 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 02:22:29,112 r52.autocollect.worker INFO phase=worker_start pid=13308
+2026-11-15 02:22:29,123 r52.autocollect.worker INFO source=FARPOST mode=refresh phase=initialize
+2026-11-15 02:22:29,124 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 02:22:29,124 r52.collectors.farpost INFO FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-15 02:22:29,124 r52.autocollect.worker INFO source=FARPOST proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-15 02:22:29,124 r52.autocollect.worker INFO source=FARPOST listing=135709466 phase=collect_product_start
+2026-11-15 02:22:29,831 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-15 02:22:31,321 r52.autocollect.worker INFO source=FARPOST listing=135709466 phase=collect_product_return status=FULL_SUCCESS
+2026-11-15 02:22:31,321 r52.autocollect.worker INFO source=FARPOST listing=138919104 phase=collect_product_start
+2026-11-15 02:22:44,454 r52.autocollect.worker INFO source=FARPOST listing=138919104 phase=collect_product_return status=FULL_SUCCESS
+2026-11-15 02:22:44,454 r52.autocollect.worker INFO source=FARPOST listing=135612629 phase=collect_product_start
+2026-11-15 02:23:01,302 r52.collectors.farpost WARNING FARPOST 135612629: /verify soft-block detected (generic title, no data)
+2026-11-15 02:23:01,302 r52.autocollect.worker INFO source=FARPOST listing=135612629 phase=collect_product_return status=NO_RESULT
+2026-11-15 02:23:01,302 r52.autocollect.worker WARNING source=FARPOST listing=135612629 result=NO_RESULT remaining_not_attempted=['135710046', '139074721']
+2026-11-15 02:23:01,302 r52.autocollect.worker INFO source=FARPOST phase=write_start returned=2 valid=2 stats={'requests': 3, 'success': 3, 'failed': 0, 'blocked': 0}
+2026-11-15 02:23:01,303 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-01c19feb.json
+2026-11-15 02:23:01,304 r52.collectors INFO FARPOST: записан jarvis-eye-farpost-24cbd8e1.json
+2026-11-15 02:23:01,305 r52.autocollect.worker INFO source=FARPOST phase=write_complete files=2
+2026-11-15 02:23:01,305 r52.autocollect.worker INFO source=FARPOST phase=close_start
+2026-11-15 02:23:01,307 r52.autocollect.worker INFO source=FARPOST phase=close_complete

@@ -1,0 +1,22 @@
+{
+  "basket_card.json": {
+    "status": 200,
+    "keys": [
+      "imt_id",
+      "nm_id",
+      "imt_name",
+      "slug",
+      "subj_name",
+      "subj_root_name",
+      "vendor_code",
+      "description",
+      "options",
+      "certificate",
+      "nm_colors_names",
+      "colors",
+      "full_colors",
+      "selling",
+      "media"
+    ]
+  }
+}

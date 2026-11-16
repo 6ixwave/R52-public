@@ -1,0 +1,34 @@
+=== STDOUT ===
+
+[1/3] ID=16879823067
+  URL: https://www.farpost.ru/vladivostok/zapchasti/datchik-kisloroda-lynxauto-art-dm-2350-g16879823067.html
+  FETCH OK: 200, 46152 bytes, 2.5s
+  NORMALIZE OK: title='Датчик кислорода LYNXauto, арт. DM-2350'
+  Prices: 1, Media: 1
+  Availability: UNKNOWN
+  Written: jarvis-eye-farpost-16879823067.json
+
+[2/3] ID=125103161
+  URL: https://www.farpost.ru/vladivostok/zapchasti/zaпчасти-na-auto-g125103161.html
+  FETCH FAILED (10.1s), stats={'requests': 2, 'success': 1, 'failed': 1, 'blocked': 0}
+
+[3/3] ID=17260583280
+  URL: https://www.farpost.ru/vladivostok/zapchasti/zaпчасти-na-auto-g17260583280.html
+  FETCH OK: 200, 62728 bytes, 17.9s
+  NORMALIZE OK: title='Фильтр топливный LYNXauto, арт. LF-1073M'
+  Prices: 1, Media: 1
+  Availability: UNKNOWN
+  Written: jarvis-eye-farpost-17260583280.json
+
+============================================================
+SUMMARY: 2/3 OK
+  16879823067: OK Датчик кислорода LYNXauto, арт. DM-2350
+  125103161: FETCH_FAIL 
+  17260583280: OK Фильтр топливный LYNXauto, арт. LF-1073M
+Stats: {'requests': 3, 'success': 2, 'failed': 1, 'blocked': 0}
+
+=== STDERR ===
+2026-11-11 06:29:30,754 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 06:29:32,032 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+
+=== EXIT CODE: 0 ===

@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Dodocool Adattatore hub USB-C 7 in 2 in lega di alluminio con 2 connettori Thunderbolt 3 Porta USB tipo C PD Porta di trasferimento dati USB-C 4K",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "133.63",
+        "amount_minor": 13363,
+        "currency": "RUB",
+        "visible_label": "133.63 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "48.99",
+        "amount_minor": 4899,
+        "currency": "RUB",
+        "visible_label": "48.99 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S8aa30cab735f47379ba957b6d94b711a9.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005008665887144",
+    "url": "https://ru.aliexpress.com/item/1005008665887144.html",
+    "observed_at": "2026-11-13T07:48:13.476920+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

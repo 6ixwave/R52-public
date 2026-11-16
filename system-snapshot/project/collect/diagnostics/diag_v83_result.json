@@ -1,0 +1,43 @@
+{
+  "version": "v83",
+  "timestamp": "2026-11-11T02:15:46.813+00:00",
+  "pre": {
+    "product": 5,
+    "observation": 16,
+    "price_point": 9,
+    "source": 6
+  },
+  "post": {
+    "product": 5,
+    "observation": 17,
+    "price_point": 10,
+    "source": 6
+  },
+  "results": {
+    "FARPOST": {
+      "status": "OK",
+      "product_id": 5,
+      "product_created": false,
+      "observation_id": 17,
+      "obs_created": true,
+      "prices_count": 1,
+      "price_minor": 1800000,
+      "availability": "UNKNOWN",
+      "title": "Шины",
+      "url": "https://www.farpost.ru/krasnoyarsk/auto/wheel/tire/shiny-127622540.html"
+    },
+    "WB": {
+      "status": "NO_DATA",
+      "note": "no title from any strategy"
+    },
+    "AVITO": {
+      "status": "NO_LIVE_LISTING",
+      "note": "all attempts 429/439/404/timeout"
+    },
+    "OZON": {
+      "status": "ALL_FAILED",
+      "note": "all impersonations/URLs failed"
+    }
+  },
+  "overall": "PARTIAL"
+}

@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie stereo Bluetooth WOOX, ampie, sovraurali, pieghevoli, completamente wireless, con batteria da 200 mAh, 6 ore di riproduzione musicale, cancellazione del rumore, archetto, qualità audio HIFI, chiamate BT, ideali per casa, viaggi, ufficio, cuffie alla moda.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "34.80",
+        "amount_minor": 3480,
+        "currency": "RUB",
+        "visible_label": "34.80 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "27.13",
+        "amount_minor": 2713,
+        "currency": "RUB",
+        "visible_label": "27.13 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S0e9fa3a11b8144b692939f046f5dc2c3n.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013513441564",
+    "url": "https://ru.aliexpress.com/item/1005013513441564.html",
+    "observed_at": "2026-11-13T08:28:48.059640+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie wireless pieghevoli da esterno WOOX, auricolari stereo WOOX, cuffie Bluetooth per ascoltare la musica, ideali per sport/viaggi, casa/ufficio, giochi/lettore musicale, cuffie BT alla moda per iPhone 17/iPad, telefoni Android e tablet.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "33.99",
+        "amount_minor": 3399,
+        "currency": "RUB",
+        "visible_label": "33.99 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "25.45",
+        "amount_minor": 2545,
+        "currency": "RUB",
+        "visible_label": "25.45 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf9a58eba2b824bc69e3cb2c62be6fe6dc.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013479597850",
+    "url": "https://ru.aliexpress.com/item/1005013479597850.html",
+    "observed_at": "2026-11-13T08:20:52.445842+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

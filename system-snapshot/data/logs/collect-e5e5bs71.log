@@ -1,0 +1,106 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 05:35:43,052 r52.autocollect.worker INFO phase=worker_start pid=26788
+2026-11-16 05:35:43,065 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-16 05:35:43,065 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 05:35:43,066 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-16 05:35:43,066 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 05:35:43,070 r52.autocollect.worker INFO source=WB listing=1475428055 phase=collect_product_start
+2026-11-16 05:35:43,981 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-16 05:35:46,514 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-16 05:36:00,430 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=933
+2026-11-16 05:36:01,868 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=117
+2026-11-16 05:36:04,829 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=114
+2026-11-16 05:36:04,829 r52.collectors.wb INFO WB 1475428055: HTTP API partial/blocked (card=False, price=False), switching to Playwright
+2026-11-16 05:36:06,752 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-16 05:36:06,752 r52.collectors.wb INFO WB 1475428055: starting Playwright fallback
+2026-11-16 05:36:17,230 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 147 bodies, best 1879B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 05:36:17,322 r52.collectors.wb INFO WB 1475428055: XHR partial or empty, fetching DOM
+2026-11-16 05:36:24,215 r52.collectors.pw_fetch INFO PwFetcher: https://www.wildberries.ru/catalog/1475428055/detail.aspx -> 200 (1980329B, 6.9s)
+2026-11-16 05:36:24,793 r52.autocollect.worker INFO source=WB listing=1475428055 phase=collect_product_return status=SUCCESS
+2026-11-16 05:36:24,794 r52.autocollect.worker INFO source=WB listing=446653020 phase=collect_product_start
+2026-11-16 05:36:38,962 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True http=200 bytes=11866 ms=1071
+2026-11-16 05:36:41,625 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=780
+Timeout (0:01:00)!
+Thread 0x00004e78 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00005c38 (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 135 in _fast_throttle
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 142 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 392 in _fetch_price
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 276 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 05:36:43,961 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=856
+2026-11-16 05:36:47,180 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=877
+2026-11-16 05:36:47,181 r52.collectors.wb INFO WB 446653020: HTTP API partial/blocked (card=True, price=False), switching to Playwright
+2026-11-16 05:36:47,181 r52.collectors.wb INFO WB 446653020: starting Playwright fallback
+2026-11-16 05:36:56,344 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 210 bodies, best 1598B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 05:36:59,311 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=112
+2026-11-16 05:36:59,312 r52.autocollect.worker INFO source=WB listing=446653020 phase=collect_product_return status=SUCCESS
+2026-11-16 05:36:59,312 r52.autocollect.worker INFO source=WB listing=829829020 phase=collect_product_start
+2026-11-16 05:37:13,292 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=1027
+2026-11-16 05:37:16,579 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=978
+2026-11-16 05:37:18,448 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=111
+2026-11-16 05:37:18,448 r52.collectors.wb INFO WB 829829020: HTTP API partial/blocked (card=False, price=False), switching to Playwright
+2026-11-16 05:37:18,448 r52.collectors.wb INFO WB 829829020: starting Playwright fallback
+2026-11-16 05:37:27,820 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 222 bodies, best 10420B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 05:37:37,321 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=115
+2026-11-16 05:37:37,322 r52.autocollect.worker INFO source=WB listing=829829020 phase=collect_product_return status=SUCCESS
+2026-11-16 05:37:37,322 r52.autocollect.worker INFO source=WB listing=26950668 phase=collect_product_start
+2026-11-16 05:37:41,062 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True http=200 bytes=10743 ms=929
+Timeout (0:01:00)!
+Thread 0x00004e78 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x00005c38 (most recent call first):
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\curl.py", line 627 in perform
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1043 in _request_once
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1117 in request
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\curl_cffi\requests\session.py", line 1167 in get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 164 in _http_get
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 392 in _fetch_price
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\wb.py", line 276 in collect_product
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 67 in run
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 222 in main
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\runner.py", line 254 in <module>
+  File "<frozen runpy>", line 87 in _run_code
+  File "<frozen runpy>", line 201 in _run_module_as_main
+2026-11-16 05:37:43,130 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=112
+2026-11-16 05:37:47,424 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=776
+2026-11-16 05:37:49,590 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=113
+2026-11-16 05:37:49,590 r52.collectors.wb INFO WB 26950668: HTTP API partial/blocked (card=True, price=False), switching to Playwright
+2026-11-16 05:37:49,590 r52.collectors.wb INFO WB 26950668: starting Playwright fallback
+2026-11-16 05:37:58,765 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 220 bodies, best 1827B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 05:37:58,964 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=120
+2026-11-16 05:37:58,964 r52.autocollect.worker INFO source=WB listing=26950668 phase=collect_product_return status=SUCCESS
+2026-11-16 05:37:58,964 r52.autocollect.worker INFO source=WB listing=41128682 phase=collect_product_start
+2026-11-16 05:38:03,763 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True http=200 bytes=5877 ms=1097
+2026-11-16 05:38:05,832 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=112
+2026-11-16 05:38:09,361 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=124
+2026-11-16 05:38:11,520 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=113
+2026-11-16 05:38:11,521 r52.collectors.wb INFO WB 41128682: HTTP API partial/blocked (card=True, price=False), switching to Playwright
+2026-11-16 05:38:11,521 r52.collectors.wb INFO WB 41128682: starting Playwright fallback
+2026-11-16 05:38:21,053 r52.collectors.pw_fetch INFO PwFetcher.get_xhr: 224 bodies, best 1976B from https://www.wildberries.ru/__internal/u-card/cards/v4/detail?appType=1&curr=rub&
+2026-11-16 05:38:24,680 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=192
+2026-11-16 05:38:24,681 r52.autocollect.worker INFO source=WB listing=41128682 phase=collect_product_return status=SUCCESS
+2026-11-16 05:38:24,681 r52.autocollect.worker INFO source=WB phase=write_start returned=5 valid=5 stats={'requests': 24, 'success': 3, 'failed': 0, 'blocked': 19}
+2026-11-16 05:38:24,683 r52.collectors INFO WB: записан jarvis-eye-wb-b4e90ecd.json
+2026-11-16 05:38:24,688 r52.collectors INFO WB: записан jarvis-eye-wb-cef548cb.json
+2026-11-16 05:38:24,688 r52.collectors INFO WB: записан jarvis-eye-wb-876f7e1d.json
+2026-11-16 05:38:24,689 r52.collectors INFO WB: записан jarvis-eye-wb-4810845e.json
+2026-11-16 05:38:24,690 r52.collectors INFO WB: записан jarvis-eye-wb-5413181b.json
+2026-11-16 05:38:24,692 r52.autocollect.worker INFO source=WB phase=write_complete files=5
+2026-11-16 05:38:24,692 r52.autocollect.worker INFO source=WB phase=close_start
+2026-11-16 05:38:25,511 r52.autocollect.worker INFO source=WB phase=close_complete

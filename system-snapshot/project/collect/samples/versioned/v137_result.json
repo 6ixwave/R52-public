@@ -1,0 +1,95 @@
+{
+  "version": "v137",
+  "timestamp": "2026-11-12 02:31:39",
+  "total": 3,
+  "success": 3,
+  "failed": 0,
+  "results": [
+    {
+      "id": "130693618",
+      "url": "https://www.farpost.ru/vladivostok/130693618.html",
+      "http_status": 200,
+      "content_length": 51560,
+      "content_type": "text/html; charset=windows-1251",
+      "html_head_300": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<title>Triangle IcelynX TI501, 205/55 R16 94T XL ! ABИATOPOB 3/4 ! - Купить шины в Красноярске на Фарпост</title>\n\n<meta charset=\"windows-1251\" />\n<meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />\n\n<meta http-equiv=\"x-dns-prefetch-contr",
+      "parse_result": "OK",
+      "parse_error": null,
+      "parse_none_reason": null,
+      "title": "Triangle IcelynX TI501, 205/55 R16 94T XL",
+      "price_candidates": [
+        {
+          "role": "regular",
+          "amount_minor": 2440000,
+          "currency": "RUB",
+          "label": "data-bulletin-price"
+        }
+      ],
+      "media_count": 5,
+      "fields_keys": [
+        "title",
+        "description",
+        "category",
+        "brand",
+        "model",
+        "specs",
+        "seller",
+        "seller_url",
+        "bulletin_id"
+      ],
+      "elapsed_sec": 17.68,
+      "availability": "IN_STOCK"
+    },
+    {
+      "id": "129606872",
+      "url": "https://www.farpost.ru/vladivostok/129606872.html",
+      "http_status": 200,
+      "content_length": 48929,
+      "content_type": "text/html; charset=windows-1251",
+      "html_head_300": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<title>Контрактный двигатель 1ZZ-FE цена с навесным! купить в Красноярске по цене: 135 000&#8381; — частное объявление | ФарПост</title>\n\n<meta charset=\"windows-1251\" />\n<meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />\n\n<meta http-equi",
+      "parse_result": "OK",
+      "parse_error": null,
+      "parse_none_reason": null,
+      "title": "Контрактный двигатель 1ZZ-FE цена с навесным!",
+      "price_candidates": [
+        {
+          "role": "regular",
+          "amount_minor": 13500000,
+          "currency": "RUB",
+          "label": "data-bulletin-price"
+        }
+      ],
+      "media_count": 2,
+      "fields_keys": [
+        "title",
+        "description",
+        "category",
+        "brand",
+        "specs",
+        "seller",
+        "seller_url",
+        "bulletin_id"
+      ],
+      "elapsed_sec": 15.86,
+      "availability": "IN_STOCK"
+    },
+    {
+      "id": "98836529",
+      "url": "https://www.farpost.ru/vladivostok/98836529.html",
+      "http_status": 200,
+      "content_length": 198656,
+      "content_type": "text/html;charset=utf-8",
+      "html_head_300": "<!DOCTYPE html>\n<html lang=\"ru\">\n\n\n\n<head>\n\t<title>Р¤Р°СЂРїРѕСЃС‚ - РґРѕСЃРєР° РѕР±СЉСЏРІР»РµРЅРёР№</title>\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\t<meta charset=\"UTF-8\" />\n\t<meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />\n\t<meta name=\"descripti",
+      "parse_result": "OK",
+      "parse_error": null,
+      "parse_none_reason": null,
+      "title": "Фарпост - доска объявлений",
+      "price_candidates": [],
+      "media_count": 0,
+      "fields_keys": [
+        "title"
+      ],
+      "elapsed_sec": 8.9,
+      "availability": "UNKNOWN"
+    }
+  ]
+}

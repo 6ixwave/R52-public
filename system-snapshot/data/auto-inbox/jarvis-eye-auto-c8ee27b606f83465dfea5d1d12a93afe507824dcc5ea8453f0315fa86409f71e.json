@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шапка зимняя детская для мальчика с помпоном и снудом",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "РусБубон",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "ШапкаиснудОленьЗимаРита00-0029416",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Шапка детская зимняя со снудом — тёплый вязаный комплект для мальчика и для девочки на морозную погоду, температурный режим от −5 до −25 °C. Подходит детям от 6 месяцев до 10 лет: на 1 год, 2 года, 3 года, 4, 5, 6, 7, 8, 9 и 10 лет. Размер удобно выбрать по возрасту и обхвату головы.\n\nЗимняя шапка связана крупным рубчиком из мягкой пряжи (акрил 100%). Внутри подкладка из натурального хлопка и утеплитель синтепон. Отворот и закрытые уши защищают от ветра, а завязки надёжно держат шапку на голове во время игр и прогулок.\n\nСверху большой пышный бубон из искусственного меха, сбоку небольшая нашивка с оленем. В комплект входит тёплый снуд в 2 оборота: он хорошо тянется, не колется и плотно закрывает шею. Его удобно носить под курткой или поверх неё.\n\nКомплект шапка и снуд подойдёт для прогулок, детского сада и школы, а также станет хорошим подарком ребёнку на зиму.\n\nУход: бережная стирка при температуре не выше 30 °C.\n\nШапка подойдёт, если вы ищете: шапка для мальчика, шапка зимняя для мальчика, шапка для мальчика осень, зимняя шапка для мальчика.\n\nПоисковые запросы: шапка зимняя для мальчиков; шапка зима для мальчика; шапка зимняя на мальчика; шапка для мальчика зима; шапка детская зимняя для мальчика; шапка зимняя для подростка мальчика; зимние шапки для мальчиков",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Головные уборы > Шапки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Состав: акрил 100%\nЦвет: черный; глубокий черный\nСезон: Зима\nМатериал подкладки: хлопок\nТип комплекта: со снудом\nУтеплитель: синтепон\nТемпературный режим: от -5 до -25С\nФактура материала: вязаный\nВид застежки: на завязках\nМатериал помпона: искусственный мех\nДекоративные элементы: помпон\nОсобенности модели: с утеплением\nУход за вещами: Бережная стирка +30С\nКомплектация: шапка-1 шт; Снуд-1 шт\nСтрана производства: Россия",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 409800,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "4098.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 123500,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1235.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-09.wbbasket.ru/vol1204/part120477/120477816/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-09.wbbasket.ru/vol1204/part120477/120477816/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-09.wbbasket.ru/vol1204/part120477/120477816/images/S800/1.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Головные уборы > Шапки",
+    "source": "WB",
+    "id": "120477816",
+    "url": "https://www.wildberries.ru/catalog/120477816/detail.aspx",
+    "observed_at": "2026-11-16T05:27:56.063985+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

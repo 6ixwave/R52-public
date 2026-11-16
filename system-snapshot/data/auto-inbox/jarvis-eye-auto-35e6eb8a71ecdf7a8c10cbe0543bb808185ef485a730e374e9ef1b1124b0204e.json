@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Monitor da gioco curvo Titan Army C49SHC da 49 pollici 32:9 DFHD 3840x1080 144Hz HVA USB-C 65W RJ45 Ethernet PIP PBP con supporto regolabile in altezza per simulazione di guida, ufficio e produttività",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "551.89",
+        "amount_minor": 55189,
+        "currency": "EUR",
+        "visible_label": "551.89 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "668.19",
+        "amount_minor": 66819,
+        "currency": "EUR",
+        "visible_label": "668.19 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/A04f58fc40edf4a2786f85ee72861be9ej.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005013549913775",
+    "listing_id": "1005013549913775",
+    "title": "Monitor da gioco curvo Titan Army C49SHC da 49 pollici 32:9 DFHD 3840x1080 144Hz HVA USB-C 65W RJ45 Ethernet PIP PBP con supporto regolabile in altezza per simulazione di guida, ufficio e produttività",
+    "url": "https://www.aliexpress.com/item/1005013549913775.html",
+    "observed_at": "2026-11-15T02:37:52.094353+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

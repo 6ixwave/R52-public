@@ -1,0 +1,35 @@
+﻿[OK] Playwright imported
+
+============================================================
+[WB] Wildberries nm_id=138278567
+============================================================
+  goto: 498
+  ERROR: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+
+============================================================
+[OZON] Ozon pid=1600562267
+============================================================
+  goto: 403
+  wait[0]: size=732784 challenge=False
+  RESULT: size=733096 prices=2 title=Ткань для обивки мебели, Велюр с абстрактным принт
+    {'source': 'json-price', 'value': 2295}
+    {'source': 'jsonld', 'value': 2295.0, 'cur': 'RUB'}
+
+============================================================
+[AVITO] Avito
+============================================================
+  [1] Opening search...
+  search goto: 439
+  search: size=36455
+  IDs found: []
+  [WARN] No IDs. Saved search page.
+
+============================================================
+SUMMARY
+============================================================
+  wb    : ERROR Page.content: Unable to retrieve content because the page is
+  ozon  : price=True count=2 size=733096 title=Ткань для обивки мебели, Велюр с абстрак
+  avito : ERROR No live IDs found in search page
+
+Saved -> C:\Users\aleks\Downloads\R52-2.12\R52-2.12\multi_pw_result.json
+DONE

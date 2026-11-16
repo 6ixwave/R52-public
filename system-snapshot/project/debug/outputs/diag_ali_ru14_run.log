@@ -1,0 +1,71 @@
+06:36:32 diag_ali_ru14: Starting browser...
+06:36:32 r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+06:36:33 r52.collectors.aliexpress: ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile
+06:36:33 diag_ali_ru14: Browser OK
+06:36:33 r52.collectors.aliexpress: ALI PW: session already warm (42 cookies)
+06:36:33 diag_ali_ru14: Warm: 42 cookies
+06:36:33 diag_ali_ru14: === PHASE 1: Search page ===
+06:36:33 diag_ali_ru14: URL: https://aliexpress.ru/wholesale?SearchText=наушники+беспроводные
+06:36:34 diag_ali_ru14:   MTOP: https://aliexpress.ru/wholesale?SearchText=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8+%D0%B1%D0%B5%D1%81%D0%BF%D1% (247888b)
+06:36:42 diag_ali_ru14:   MTOP: https://prodmp.ru/client/hit?condition=Y2xpZW50SWQ9MjM1NyZjb3VudGVySWQ9MTc2Mg==&hitid=50a8a10b-172e-4e6c-9e86-0ceaab6a71 (313b)
+06:36:42 diag_ali_ru14:   MTOP: https://ad.adriver.ru/cgi-bin/erle.cgi?rnd=742552&sid=227399&bt=62&gid1=1315573191.1794515516&yid1=1794515516753786817&l (2782b)
+06:36:42 diag_ali_ru14:   MTOP: https://ad.adriver.ru/cgi-bin/erle.cgi?sid=226929&bt=62&custom=128%3D1827.2000000029802%3B129%3D1.11.29%3B153%3D336d5ebc (2865b)
+06:36:42 diag_ali_ru14:   MTOP: https://mc.yandex.ru/watch/64660789/1?wmode=7&page-url=https%3A%2F%2Faliexpress.ru%2Fwholesale%3FSearchText%3D%25D0%25BD (4015b)
+06:36:42 diag_ali_ru14:   MTOP: https://mc.yandex.ru/watch/29739640/1?wmode=7&page-url=https%3A%2F%2Faliexpress.ru%2Fwholesale%3FSearchText%3D%25D0%25BD (4768b)
+06:36:42 diag_ali_ru14:   MTOP: https://aliexpress.ru/aer-webapi/v1/search (1223599b)
+06:36:42 diag_ali_ru14:   MTOP: https://aliexpress.ru/aer-jsonapi/v1/bx/searchSuggest/1?_bx-v=2.5.37 (4300b)
+06:36:42 diag_ali_ru14: State: {'onCap': False, 'body': 1250982, 'title': 'наушники беспроводные с бесплатной доставкой на AliExpress'}
+06:36:42 diag_ali_ru14: Extracting embedded JSON...
+06:36:42 diag_ali_ru14: Embedded keys: ['__awsc_et__', '__etModule', '__baxia__', '__AER_DATA__', '__defProp', '__typeError', '__defNormalProp', '__publicField', '__accessCheck', '__privateGet', '__privateAdd', '__umModule', '__acjs', '__acjs_awsc_140', '__umjsonCall', '__fyModule']
+06:36:42 diag_ali_ru14: Scripts found: 4
+06:36:42 diag_ali_ru14: JSON-LD: 0
+06:36:42 diag_ali_ru14: Extracting DOM cards...
+06:36:43 diag_ali_ru14: DOM cards: 30
+06:36:43 diag_ali_ru14: First card: title=Выберите категорию, prices=['1\xa0278\xa0₽-72%', '1\xa0278\xa0₽', '361\xa0₽', '929\xa0₽-55%', '929\xa0₽']
+06:36:43 diag_ali_ru14: Search HTML saved: 1471571 bytes
+06:36:43 diag_ali_ru14: === PHASE 2: Product page ===
+06:36:43 diag_ali_ru14: URL: https://aliexpress.ru/item/1005013496905897.html
+06:36:43 diag_ali_ru14:   MTOP: https://aliexpress.ru/item/1005013496905897.html (137329b)
+06:36:49 diag_ali_ru14:   MTOP: https://ad.adriver.ru/cgi-bin/erle.cgi?rnd=944047&sid=227399&bt=62&gid1=1315573191.1794515516&yid1=1794515516753786817&l (2370b)
+06:36:49 diag_ali_ru14:   MTOP: https://mc.yandex.ru/watch/29739640?wmode=7&page-url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005013496905897.html&charset= (4768b)
+06:36:49 diag_ali_ru14:   MTOP: https://mc.yandex.ru/watch/64660789?wmode=7&page-url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005013496905897.html&charset= (4015b)
+06:36:49 diag_ali_ru14:   MTOP: https://prodmp.ru/client/hit?condition=Y2xpZW50SWQ9MjM1NyZjb3VudGVySWQ9MTc2Mg==&hitid=b9416396-b3e2-4898-bd4f-2e26f9129e (313b)
+06:36:49 diag_ali_ru14:   MTOP: https://ad.adriver.ru/cgi-bin/erle.cgi?sid=226929&bt=62&custom=128%3D1269.2000000029802%3B129%3D1.11.29%3B153%3D336d5ebc (2427b)
+06:36:49 diag_ali_ru14: Product state: {'onCap': False, 'h1': None, 'body': 358676}
+06:36:49 diag_ali_ru14: Extracting product data...
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru14.py", line 364, in <module>
+    prod_data = page.evaluate("""
+        () => {
+    ...<42 lines>...
+        }
+    """)
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\sync_api\_generated.py", line 16843, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\_impl\_sync_base.py", line 111, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\_impl\_page.py", line 476, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\_impl\_frame.py", line 346, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\_impl\_connection.py", line 78, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\_impl\_connection.py", line 636, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: SyntaxError: Invalid or unexpected token
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:370:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)

@@ -1,0 +1,51 @@
+{
+  "db": "C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\r52\\data\\r52.db",
+  "pre": {
+    "product": 3,
+    "observation": 12,
+    "price_point": 6,
+    "source": 6
+  },
+  "post": {
+    "product": 3,
+    "observation": 14,
+    "price_point": 7,
+    "source": 6
+  },
+  "platforms": {
+    "FARPOST": {
+      "status": "OK",
+      "product_id": 1,
+      "created": false,
+      "prices": 1,
+      "availability": "IN_STOCK",
+      "media": 5,
+      "http": 200,
+      "bytes": 49986,
+      "bulletin_id": "130693618",
+      "title": "Triangle IcelynX TI501, 205/55 R16 94T XL"
+    },
+    "OZON": {
+      "status": "ERROR",
+      "error": "OZON: не получен HTML (все стратегии, оба ID)"
+    },
+    "WB": {
+      "status": "OK",
+      "product_id": 3,
+      "created": false,
+      "prices": 0,
+      "availability": "UNKNOWN",
+      "media": 1,
+      "basket": true,
+      "price_api": false,
+      "price_source": null,
+      "html": false,
+      "title": "Овсяный смарт коктейль для похудения без сахара"
+    },
+    "AVITO": {
+      "status": "ERROR",
+      "error": "AVITO: не найдено живое объявление (все 4 стратегии)"
+    }
+  },
+  "timestamp": "2026-11-11T01:16:04.169294+00:00"
+}

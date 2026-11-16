@@ -1,0 +1,33 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Пройдите проверку",
+        "method": "PW_DOM",
+        "evidence": {
+          "method": "PW_DOM",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1006710909",
+    "url": "https://ru.aliexpress.com/item/1006710909.html",
+    "observed_at": "2026-11-13T06:58:22.025935+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,7 @@
+classes: WB=WBCollector OZON=OzonCollector
+ERR OZON: SearchError: SEARCH_HTTP_403 (65.8s)
+RESULT WB: 5 items in 60.9s
+  - id=357083889 | Одеяло 2 спальное всесезонное
+  - id=325022821 | Шампунь для волос женский и бальзам RESTART 2.0
+  - id=1201217694 | Джинсы клеш от колена с высокой посадкой
+DONE total_items=4

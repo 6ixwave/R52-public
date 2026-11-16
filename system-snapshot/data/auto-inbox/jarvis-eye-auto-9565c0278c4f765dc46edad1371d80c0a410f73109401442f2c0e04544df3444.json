@@ -1,0 +1,57 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Ninkear S14 Laptop 14' 2.2K IPS AMD Ryzen 5 6600H 6-Core 4.55GHz 16GB LPDDR5X 1TB PCIe SSD WiFi 6 BT5.3 PD65W Ricarica Rapida 1kg Ultra Leggero Type-C Windows 11,180 °   Hinge Fingerprint Il regalo perfetto per compute",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "702.61",
+        "amount_minor": 70261,
+        "currency": "EUR",
+        "visible_label": "702.61 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "508.69",
+        "amount_minor": 50869,
+        "currency": "EUR",
+        "visible_label": "508.69 EUR"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005012849374380",
+    "url": "https://ru.aliexpress.com/item/1005012849374380.html",
+    "observed_at": "2026-11-14T03:06:08.935174+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

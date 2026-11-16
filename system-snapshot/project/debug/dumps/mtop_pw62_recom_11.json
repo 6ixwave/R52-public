@@ -1,0 +1,98 @@
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=CP6seL3-5RtB-Ue781AlJCvwY3jedp-19ijnVuy8J9A3h3trZljoimEUeEhn_lL32_snCzBmg26z5z3RAtaNmgzkKIl4pWYlfDcatbat5BYTeZ8OL5IyasgdJlCmaLH7nMGpgNnZQT_c1mYPSK7Rd0xW5FoduoFAg75-_7N36LjykPGlSMbqv4x-vybdAY8tCuxVEcWIPluGfbA6eyveptnvTLarwsbObBW4VmS8MRheIpZNoxB6fZgMYQS4K_u2VGJJDR1oZ96bwdf-fHbRTBBcaYTXZ2REGF6j3XuKjGYJIndAWOs8Kvtg0LGB9bKcY5wQsuD7TyiWIjIj_ok60mUzMBdxsjKtmA4dY1VqoWoR3_ve8D9SlrD5S0GX9rIitDK6TMAES0tB8TjIdkbNLCrbEA-okyNfQaNpm-QehV7dBXBUrVpHYto4FChTfGYcJWJckvaDXKigde-dJmwTCiuvd8rPNQtWCCn-nJUJak52RdJPCEMPyT6V8ZlYO1GLJY3PlkzuD-5C6ltytUiGjOZ5aFR3xUpH98irwLFBQXfSXd1O0npIS5lawzjZWZNT" charset="UTF-8"></script><script charset="utf-8" src="//g.alicdn.com/mtb/lib-windvane/3.0.6/windvane.js" crossorigin></script>
+    <script charset="utf-8" async
+        src="//g.alicdn.com/bsop-static/sufei-punish/0.1.130/build/htmltocanvas.min.js"
+        crossorigin></script>
+    <script src="//g.alicdn.com/code/lib/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="//g.alicdn.com/sd/sufei-utils/0.0.3/sufeiUtils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+      	#bx-pu-qrcode-wrap {
+      		max-width: 110px !important;
+      	}
+    </style>
+</head>
+
+<body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=21038a3017945030362482231e1991&asid=AQAAAAB88fVqF/nobgAAAADlq54H02l/3Q==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+    <iframe src="//recom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0&uuid=e12ae970081a96209ee3ba6fe14994e8&qrcode=4SrpcAgaliCe47pv4UmU6A|avXxfA|HSkmBQ_0|BfzktA|1&redirectURL=https%3a%2f%2frecom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0%2F_____tmd_____%2Fpage%2Fthird_validate_close_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3De12ae970081a96209ee3ba6fe14994e8%26x5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0"
+        style="border:none;height: 100%;" width="100%" height="100%"
+        allow="publickey-credentials-get *"></iframe>
+    <div id="bx-pu-qrcode-wrap">
+        <div id="qrcode"></div>
+        <div id="feedback"></div>
+    </div>
+    <script>
+        window._config_ = {
+            "action": "captcharecaptcha",
+      		"HOST": "recom-acs.aliexpress.com:443",
+            "PATH": "/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0",
+            "NCTOKENSTR": "[REDACTED_AUTH_SECRET]",
+            "SECDATA": "xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0",
+            "url": "//recom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0/_____tmd_____/punish?recaptcha=1&iframe=1&x5step=3&x5secdata=xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0&uuid=e12ae970081a96209ee3ba6fe14994e8&qrcode=4SrpcAgaliCe47pv4UmU6A|avXxfA|HSkmBQ_0|BfzktA|1&redirectURL=https%3a%2f%2frecom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0%2F_____tmd_____%2Fpage%2Fthird_validate_close_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3De12ae970081a96209ee3ba6fe14994e8%26x5secdata%3Dxg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0"
+        };
+    </script>
+    <!--rgv587_flag:sm-->
+  	<script>
+      	var custom_config = {"templateName":"AE默认模板"};
+      	var templateName = "";
+      	if (typeof custom_config === "object") {
+      		templateName = custom_config["templateName"] || "";
+      		window._custom_config_ = window._custom_config_ || {};
+      		for (var key in custom_config) {
+      			window._custom_config_[key] = custom_config[key];
+      		}
+      	}
+    </script>
+    <script charset="utf-8" type="text/javascript"
+        src="https://g.alicdn.com/trace/trace/1.3.22/??sdk.js,resourceError-plugin.js,perf-plugin.js"
+        crossorigin></script>
+    <script type="text/javascript">
+      	sufeiUtils.clearX5SecData();
+      	sufeiUtils.initListener();
+
+        // 将二维码渲染至指定父容器
+        sufeiUtils.renderQRCode({
+            id: "qrcode",
+            qrcode: "4SrpcAgaliCe47pv4UmU6A|avXxfA|HSkmBQ_0|BfzktA|1"
+        });
+
+        // 将二维码渲染至指定父容器
+        sufeiUtils.renderFeedbackLink({
+            id: "feedback",
+            x5secdata: "xg3bd4a8cb975a647bkje12ae970081a96209ee3ba6fe14994e81794503036a-1168960602a489235973abaxc3eajrecaptcha33b9a2ef75afdd10a15581374dd7f0e4a92__bx__recom-acs.aliexpress.com:443/h5/mtop.relationrecommend.aliexpressrecommend.recommend/1.0",
+            uuid: "e12ae970081a96209ee3ba6fe14994e8",
+            type: "thirdValidate"
+        }, true);
+
+        var tracker = TraceSdk({
+            pid: 'punish-page',
+            env: 'prod',
+            plugins: [
+                [TracePerfPlugin, { enableLCP: false }],
+                [TraceResourceErrorPlugin]
+            ]
+        });
+        tracker.install();
+        tracker.log({
+            code: 11,  // 系统自动生成，请勿修改 100%
+            c1: 'e12ae970081a96209ee3ba6fe14994e8',
+            c2: '0.1.130',
+            msg: '三方通用解封页 - ' + window._config_.action,  // 异常信息，推荐传入
+            sampling: 1,  // 目前采样率为 100.00%
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "OZON",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "OZON-5634313816",
+        "method": "SEARCH_HTML",
+        "evidence": {
+          "method": "SEARCH_HTML",
+          "source": "OZON"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "OZON"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "254.00",
+        "amount_minor": 25400,
+        "currency": "RUB",
+        "visible_label": "254 руб."
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ir.ozone.ru/s3/multimedia-1-g/wc500/14606877652.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "OZON",
+    "id": "5634313816",
+    "listing_id": "5634313816",
+    "title": "OZON-5634313816",
+    "url": "https://www.ozon.ru/product/5634313816/",
+    "observed_at": "2026-11-15T20:13:50.836477+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

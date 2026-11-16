@@ -1,0 +1,226 @@
+{
+  "version": "v49",
+  "timestamp": "2026-11-11T07:07:28.888414+10:00",
+  "platforms": {
+    "OZON": {
+      "strategies": [
+        {
+          "strategy": "offline_parse",
+          "id": "1600562267",
+          "html_len": 1087146,
+          "html_file": "diag_v48_ozon_1600562267.html",
+          "jsonld_count": 1,
+          "product_name": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра",
+          "product_brand": "Айхал",
+          "product_desc": "Ткань для обивки микровелюр с шикарным абстрактным рисунком - эта коллекция пользуется широким спросом, среди дизайнеров интерьеров, производителей мягкой и декоративной мебели. Ткань произведена по современной технологии, которая позволяет наносить полноцветные изображения без потери качества и ярк",
+          "product_img": "https://ir.ozone.ru/s3/multimedia-1-o/7362987720.jpg",
+          "price": "2295",
+          "price_currency": "RUB",
+          "availability": "http://schema.org/InStock",
+          "rating": "4.9",
+          "review_count": "12980",
+          "jsonld_full": "{\"@context\": \"http://schema.org\", \"@type\": \"Product\", \"aggregateRating\": {\"@type\": \"AggregateRating\", \"ratingValue\": \"4.9\", \"reviewCount\": \"12980\"}, \"brand\": \"Айхал\", \"description\": \"Ткань для обивки микровелюр с шикарным абстрактным рисунком - эта коллекция пользуется широким спросом, среди дизайнеров интерьеров, производителей мягкой и декоративной мебели. Ткань произведена по современной технологии, которая позволяет наносить полноцветные изображения без потери качества и яркости цветов на мебельные ткани. Тем самым мы получаем высокую износостойкость данной ткани, глубокий насыщенный рисунок, и высокую детализацию. Дизайн принта расположен по ширине полотна (от кромки к кромке).Состав ткани 100% ПолиэстерШирина 140 см.Устойчивость к истиранию 20.000 циклов по тесту Мартиндейла.Плотность ткани 300 гр/кв.м.Уход за тканью:·Стирка в бытовой стиральной машине при температуре 30 градусов (без хлорсодержащих компонентов.Глажение с изнаночной стороны.\", \"image\": \"https://ir.ozone.ru/s3/multimedia-1-o/7362987720.jpg\", \"name\": \"Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://www.ozon.ru/product/tkan-dlya-obivki-mebeli-velyur-s-abstraktnym-printom-otrez-3-metra-1600562267/\", \"availability\": \"http://schema.org/InStock\", \"price\": \"2295\", \"priceCurrency\": \"RUB\"}, \"sku\": \"1600562267\"}",
+          "og": {
+            "image": "https://ir.ozone.ru/s3/multimedia-1-o/c600/7362987720.jpg",
+            "type": "website",
+            "site_name": "Ozon",
+            "url": "https://www.ozon.ru/product/tkan-dlya-obivki-mebeli-velyur-s-abstraktnym-printom-otrez-3-metra-1600562267/",
+            "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра ",
+            "description": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассо"
+          },
+          "h1": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра",
+          "prices_text": [
+            {
+              "amount": 149.0,
+              "minor": 14900,
+              "raw": "149 ₽"
+            },
+            {
+              "amount": 246.0,
+              "minor": 24600,
+              "raw": "246 ₽"
+            },
+            {
+              "amount": 900.0,
+              "minor": 90000,
+              "raw": "900 ₽"
+            },
+            {
+              "amount": 761.0,
+              "minor": 76100,
+              "raw": "761 ₽"
+            },
+            {
+              "amount": 278.0,
+              "minor": 27800,
+              "raw": "278 ₽"
+            },
+            {
+              "amount": 399.0,
+              "minor": 39900,
+              "raw": "399 ₽"
+            },
+            {
+              "amount": 871.0,
+              "minor": 87100,
+              "raw": "871 ₽"
+            },
+            {
+              "amount": 722.0,
+              "minor": 72200,
+              "raw": "722 ₽"
+            },
+            {
+              "amount": 256.0,
+              "minor": 25600,
+              "raw": "256 ₽"
+            },
+            {
+              "amount": 649.0,
+              "minor": 64900,
+              "raw": "649 ₽"
+            }
+          ],
+          "images_count": 40,
+          "images_sample": [
+            "https://ir.ozone.ru/s3/cms/e3/tc1/wc200/group_2087330924.png",
+            "https://ir.ozone.ru/s3/multimedia-1-o/wc50/7362987720.jpg",
+            "https://ir.ozone.ru/s3/multimedia-1-m/wc50/7158491914.jpg",
+            "https://ir.ozone.ru/s3/multimedia-1-0/wc50/7340757300.jpg",
+            "https://ir.ozone.ru/s3/multimedia-1-l/wc50/7158491877.jpg",
+            "https://ir.ozone.ru/s3/multimedia-1-5/wc50/8209411169.jpg",
+            "https://ir.ozone.ru/s3/multimedia-1-1/wc50/7158491893.jpg",
+            "https://ir.ozone.ru/s3/multimedia-1-k/wc50/7158491876.jpg"
+          ],
+          "videos_count": 1,
+          "videos_sample": [
+            "https://st.ozone.ru/s3/ozon-webmanifests/frontend-ozon-ru/desktop.webmanifest"
+          ],
+          "widgets": [
+            "header",
+            "webSharingButton",
+            "webCreateQuestion",
+            "orderInfo",
+            "breadCrumbs",
+            "webGallery",
+            "webProductHeading",
+            "pixel",
+            "blockVertical",
+            "webReviewProductScore",
+            "container",
+            "webInstallmentPurchase",
+            "webAnchor",
+            "addressBookBarWeb",
+            "webReviewsVariantMode",
+            "webListPhotos",
+            "webShortCharacteristics",
+            "textBlock",
+            "footer",
+            "webSale"
+          ],
+          "data_hids": [
+            "name::application-name",
+            "property::og:image",
+            "name::description",
+            "property::og:site_name",
+            "name::msapplication-starturl",
+            "property::og:description",
+            "viewport",
+            "property::fb:app_id",
+            "name::msapplication-config",
+            "property::og:url",
+            "property::og:title",
+            "property::og:type",
+            "name::msapplication-tooltip"
+          ],
+          "state_blobs": [
+            [
+              "@context",
+              "@type",
+              "aggregateRating",
+              "brand",
+              "description",
+              "image",
+              "name",
+              "offers",
+              "sku"
+            ],
+            [
+              "prerender"
+            ]
+          ],
+          "title_tag": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра купить на OZON по низкой цене (1600562267)"
+        }
+      ]
+    },
+    "FARPOST": {
+      "strategies": [
+        {
+          "strategy": "cffi",
+          "id": "16879823067",
+          "http": 200,
+          "html_len": 46248,
+          "time_s": 0.91,
+          "jsonld_count": 3,
+          "name": "Датчик кислорода LYNXauto, арт. DM-2350",
+          "price": 6099,
+          "currency": "RUB",
+          "og_title": "",
+          "h1": "Датчик кислорода LYNXauto, арт. DM-2350 во Владивостоке",
+          "prices": [],
+          "images_count": 0
+        }
+      ]
+    },
+    "WB": {
+      "strategies": [
+        {
+          "strategy": "pw_wbaas_reload",
+          "error": "Page.content: Unable to retrieve content because the page is navigating and changing the content."
+        }
+      ]
+    },
+    "AVITO": {
+      "strategies": [
+        {
+          "strategy": "mobile_ad",
+          "url": "https://m.avito.ru/moscow/elektronika/iphone-1154321987",
+          "time_s": 13.2,
+          "http": 429,
+          "title": "Доступ ограничен: проблема с IP",
+          "html_len": 36443,
+          "ip_limit": true,
+          "redirected_url": "https://m.avito.ru/brands/moscow/elektronika/iphone-1154321987",
+          "jsonld_count": 0,
+          "og": {},
+          "h1": "Страница не загрузилась из-за проблем с&nbsp;IP",
+          "prices": [],
+          "images_count": 2,
+          "images_sample": [
+            "https://www.avito.st/s/captcha/gt4.js",
+            "https://www.avito.st/static/ims/graphic_library_ru_403_2_error_no_entry_light_1000x1000.png"
+          ],
+          "html_saved": "diag_v49_avito_mobile_ad_iphone-1154321987.html"
+        },
+        {
+          "strategy": "desktop_ad",
+          "url": "https://www.avito.ru/ad/1154321987",
+          "time_s": 12.1,
+          "http": 404,
+          "title": "Ошибка 404. Страница не найдена",
+          "html_len": 29378,
+          "ip_limit": false,
+          "redirected_url": "https://www.avito.ru/ad/1154321987",
+          "jsonld_count": 0,
+          "og": {},
+          "h1": "Такой страницы нe существует",
+          "prices": [],
+          "images_count": 0,
+          "images_sample": [],
+          "html_saved": "diag_v49_avito_desktop_ad_1154321987.html"
+        }
+      ]
+    }
+  },
+  "total_time_s": 118.9
+}

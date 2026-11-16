@@ -1,0 +1,36 @@
+[OK] curl_cffi available
+
+======================================================================
+1. FARPOST — fetch challengeurl + solve + POST  [0.1s]
+   Remaining: 180s
+======================================================================
+  [FP page] 200 | 89817B [1.9s]
+  challengeurl: ?r=1&u=%2Fgeo%2Fmoskva%2Fl%2Ftelefony%2F&f=2&a=1794307468025
+  [Challenge] 404 | 14060B [2.1s]
+  Content-Type: text/html; charset=windows-1251
+  Body[:500]: <!DOCTYPE html>
+<html lang="ru">
+<head>
+		<title>Страница не найдена</title>
+
+<meta charset="windows-1251" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+<meta http-equiv="x-dns-prefetch-control" content="on">
+
+	<link rel="dns-prefetch" href="https://static.baza.farpost.ru">
+
+	<meta name="description" content="Подать объявление. Частные объявления и предложения организаций."/>
+
+
+
+
+	<link rel="stylesheet" href="https://www.farpost.ru/resources/assets/tokens_fp.c06ec41
+
+======================================================================
+2. WILDBERRIES — search + CDN parallel  [2.1s]
+   Remaining: 178s
+======================================================================
+  [Search v5] 403 | 0B [2.9s]
+
+  --- CDN images (parallel) --- [2.9s]

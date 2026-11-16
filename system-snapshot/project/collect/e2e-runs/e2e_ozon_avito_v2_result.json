@@ -1,0 +1,15 @@
+{
+  "ts": "2026-11-12T11:31:42.488672+10:00",
+  "results": {
+    "ozon": {
+      "verdict": "E2E_FAIL",
+      "detail": []
+    },
+    "avito": {
+      "verdict": "E2E_FAIL",
+      "detail": []
+    }
+  },
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "total": 2
+}

@@ -1,0 +1,140 @@
+======================================================================
+SECTION 1: WB via curl CLI (native libcurl, different TLS)
+======================================================================
+
+  [WB main curl] https://www.wildberries.ru/
+    498 | 1136B | 0.920199s
+    ERROR: '>' not supported between instances of 'str' and 'int'
+
+  [WB card curl 199298871] https://card.wb.ru/cards/v2/detail?nm=199298871
+    403 | 0B | 2.096100s
+    ERROR: '>' not supported between instances of 'str' and 'int'
+
+  [WB card curl 314337853] https://card.wb.ru/cards/v2/detail?nm=314337853
+    403 | 0B | 0.402057s
+    ERROR: '>' not supported between instances of 'str' and 'int'
+
+  [WB content wbx-content-v2.wbstatic.net 199298871] https://wbx-content-v2.wbstatic.net/ru/199298871/
+    000 | 0B | 8.014600s
+
+  [WB content wbx-content-v1.wbstatic.net 199298871] https://wbx-content-v1.wbstatic.net/ru/199298871/
+    000 | 0B | 8.009223s
+
+  [WB content wbx-content.wbstatic.net 199298871] https://wbx-content.wbstatic.net/ru/199298871/
+    000 | 0B | 5.479512s
+
+  [WB content wbx-content-v2.wbstatic.net 314337853] https://wbx-content-v2.wbstatic.net/ru/314337853/
+    000 | 0B | 8.012068s
+
+  [WB content wbx-content-v1.wbstatic.net 314337853] https://wbx-content-v1.wbstatic.net/ru/314337853/
+    000 | 0B | 8.003783s
+
+  [WB content wbx-content.wbstatic.net 314337853] https://wbx-content.wbstatic.net/ru/314337853/
+    000 | 0B | 5.030765s
+
+  [WB mobile-UA 199298871] https://www.wildberries.ru/catalog/199298871/detail.aspx
+    498 | 1136B | 0.413468s
+    ERROR: '>' not supported between instances of 'str' and 'int'
+
+  [WB mobile-UA 314337853] https://www.wildberries.ru/catalog/314337853/detail.aspx
+    498 | 1136B | 0.396247s
+    ERROR: '>' not supported between instances of 'str' and 'int'
+
+  [WB supersale.wildberries.ru] https://supersale.wildberries.ru/
+    000 | 0B | 8.012813s
+
+  [WB promo.wildberries.ru] https://promo.wildberries.ru/
+    000 | 0B | 0.467297s
+
+  [WB api.wildberries.ru] https://api.wildberries.ru/
+    000 | 0B | 8.010725s
+
+======================================================================
+SECTION 2: OZON
+======================================================================
+
+  [Ozon main]
+    403 | 8405B
+
+  [Ozon product 3349505344]
+    403 | 8493B
+
+  [Ozon product 2718589061]
+    403 | 8493B
+
+  [Ozon API 3349505344]
+    ERROR: Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+  [Ozon API 2718589061]
+    ERROR: Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+  [Ozon mobile 3349505344]
+    403 | 8408B
+
+======================================================================
+SECTION 3: AVITO
+======================================================================
+
+  [Avito main]
+    439 | 14889B
+
+  [Avito 7345810001]
+    439 | 14889B
+    Body: <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.
+
+  [Avito 7201234567]
+    439 | 14889B
+    Body: <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.
+
+  [Avito API 7345810001]
+    404 | 555B
+
+  [Avito mobile 7345810001]
+    439 | 14889B
+
+======================================================================
+SUMMARY
+======================================================================
+
+WB:
+  {'target': 'main', 'method': 'curl', 'status': -1}
+  {'id': '199298871', 'method': 'card_curl', 'status': -1}
+  {'id': '314337853', 'method': 'card_curl', 'status': -1}
+  {'id': '199298871', 'method': 'content_wbx-content-v2.wbstatic.net', 'status': 0}
+  {'id': '199298871', 'method': 'content_wbx-content-v1.wbstatic.net', 'status': 0}
+  {'id': '199298871', 'method': 'content_wbx-content.wbstatic.net', 'status': 0}
+  {'id': '314337853', 'method': 'content_wbx-content-v2.wbstatic.net', 'status': 0}
+  {'id': '314337853', 'method': 'content_wbx-content-v1.wbstatic.net', 'status': 0}
+  {'id': '314337853', 'method': 'content_wbx-content.wbstatic.net', 'status': 0}
+  {'id': '199298871', 'method': 'mobile_ua', 'status': -1}
+  {'id': '314337853', 'method': 'mobile_ua', 'status': -1}
+  {'target': 'supersale.wildberries.ru', 'method': 'curl', 'status': 0}
+  {'target': 'promo.wildberries.ru', 'method': 'curl', 'status': 0}
+  {'target': 'api.wildberries.ru', 'method': 'curl', 'status': 0}
+
+OZON:
+  {'target': 'main', 'status': 403}
+  {'id': '3349505344', 'method': 'html', 'status': 403}
+  {'id': '2718589061', 'method': 'html', 'status': 403}
+  {'id': '3349505344', 'method': 'composer_api', 'status': 'Failed to perform, curl: (60) SSL certificate Open'}
+  {'id': '2718589061', 'method': 'composer_api', 'status': 'Failed to perform, curl: (60) SSL certificate Open'}
+  {'id': '3349505344', 'method': 'mobile', 'status': 403}
+
+AVITO:
+  {'target': 'main', 'status': 439}
+  {'id': '7345810001', 'method': 'html', 'status': 439}
+  {'id': '7201234567', 'method': 'html', 'status': 439}
+  {'id': '7345810001', 'method': 'api', 'status': 404}
+  {'id': '7345810001', 'method': 'mobile', 'status': 439}
+
+Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_all_v1_results.json

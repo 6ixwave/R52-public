@@ -1,0 +1,465 @@
+{
+  "FARPOST_ITEMS": {
+    "shiny-139122082.html": {
+      "jsonld_count": 2,
+      "jsonld_parsed": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Фарпост Красноярск",
+              "item": "https://www.farpost.ru/krasnoyarsk/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Авто и мото",
+              "item": "https://www.farpost.ru/krasnoyarsk/auto/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Шины и диски",
+              "item": "https://www.farpost.ru/krasnoyarsk/auto/wheel/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Шины",
+              "item": "https://www.farpost.ru/krasnoyarsk/auto/wheel/tire/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Шины LingLong GREEN-Max Winter",
+              "item": "https://www.farpost.ru/krasnoyarsk/auto/wheel/tire/+/LingLong+GREEN-Max+Winter/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "LingLong GREEN-Max Winter Grip Van 2",
+              "item": "https://www.farpost.ru/krasnoyarsk/auto/wheel/tire/+/LingLong+GREEN-Max+Winter+Grip+Van+2/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "FarPost.ru",
+          "url": "https://www.farpost.ru"
+        }
+      ],
+      "og": {
+        "title": "LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C - Купить шины в Красноярске на Фарпост",
+        "description": "Продажа LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C в Красноярске Зимние, Шипованные, Новый, 1 шт",
+        "url": "https://www.farpost.ru/ni/krasnoyarsk/auto/wheel/tire/shiny-139122082.html",
+        "site_name": "FarPost.ru",
+        "image": "https://static.baza.farpost.ru/farpost_catalog/1669597715957_bulletin",
+        "image:secure_url": "https://static.baza.farpost.ru/farpost_catalog/1669597715957_bulletin",
+        "type": "website"
+      },
+      "title": "LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C - Купить шины в Красноярске на Фарпост",
+      "prices": [
+        "",
+        "",
+        "8 499",
+        "/ 1 шт"
+      ],
+      "photos_count": 6,
+      "photos_sample": [
+        "https://static.baza.farpost.ru/farpost_company/1779254022044_thumbnail120",
+        "\\/personal\\/bookmark\\/note",
+        "https:\\/\\/static.baza.farpost.ru\\/farpost_catalog\\/1669597715957_default",
+        "https://static.baza.farpost.ru/farpost_catalog/1669597715957_default",
+        "\\/get-application-link",
+        "https://www.farpost.ru"
+      ],
+      "videos": [],
+      "description": "Продажа LingLong GREEN-Max Winter Grip Van 2, 205/75 R16C в Красноярске Зимние, Шипованные, Новый, 1 шт",
+      "specs_count": 0,
+      "specs_sample": [],
+      "gallery_blocks": 4,
+      "data_imgs": []
+    },
+    "shiny-michelin-x-ice-snow-suv-275-50r21-": {
+      "jsonld_count": 3,
+      "jsonld_parsed": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Фарпост Хабаровск",
+              "item": "https://www.farpost.ru/khabarovsk/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Авто и мото",
+              "item": "https://www.farpost.ru/khabarovsk/auto/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Шины и диски",
+              "item": "https://www.farpost.ru/khabarovsk/auto/wheel/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Шины",
+              "item": "https://www.farpost.ru/khabarovsk/auto/wheel/tire/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Шины Michelin X-Ice",
+              "item": "https://www.farpost.ru/khabarovsk/auto/wheel/tire/+/Michelin+X-Ice/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Michelin X-Ice Snow SUV",
+              "item": "https://www.farpost.ru/khabarovsk/auto/wheel/tire/+/Michelin+X-Ice+Snow+SUV/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Michelin X-Ice Snow SUV, 275/50 R21"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "Шины Michelin X-Ice snow SUV 275/50R21",
+          "description": "Продажа Michelin X-Ice Snow SUV, 275/50 R21 в Хабаровске Зимние, Без шипов, Новый, 1 шт",
+          "image": [
+            "https://static.baza.farpost.ru/v/1788239426475_bulletin",
+            "https://static.baza.farpost.ru/v/1788239474303_bulletin",
+            "https://static.baza.farpost.ru/v/1788239487782_bulletin",
+            "https://static.baza.farpost.ru/v/1788239489726_bulletin",
+            "https://static.baza.farpost.ru/v/1788239491802_bulletin",
+            "https://static.baza.farpost.ru/v/1788239505459_bulletin",
+            "https://static.baza.farpost.ru/v/1788239519111_bulletin",
+            "https://static.baza.farpost.ru/v/1788239519818_bulletin",
+            "https://static.baza.farpost.ru/v/1788239520717_bulletin",
+            "https://static.baza.farpost.ru/v/1788239521400_bulletin",
+            "https://static.baza.farpost.ru/v/1788239522051_bulletin",
+            "https://static.baza.farpost.ru/v/1788239535808_bulletin",
+            "https://static.baza.farpost.ru/v/1788239536714_bulletin",
+            "https://static.baza.farpost.ru/v/1788239538751_bulletin",
+            "https://static.baza.farpost.ru/v/1788239540871_bulletin",
+            "https://static.baza.farpost.ru/v/1788239541749_bulletin",
+            "https://static.baza.farpost.ru/v/1788239547117_bulletin",
+            "https://static.baza.farpost.ru/v/1790733422803_bulletin"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Michelin"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.farpost.ru/khabarovsk/auto/wheel/tire/shiny-michelin-x-ice-snow-suv-275-50r21-137723592.html",
+            "priceCurrency": "RUB",
+            "price": 40000,
+            "itemCondition": "http://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "FarPost.ru",
+          "url": "https://www.farpost.ru"
+        }
+      ],
+      "og": {
+        "title": "Michelin X-Ice Snow SUV, 275/50 R21 - Купить шины в Хабаровске на Фарпост",
+        "description": "Продажа Michelin X-Ice Snow SUV, 275/50 R21 в Хабаровске Зимние, Без шипов, Новый, 1 шт",
+        "url": "https://www.farpost.ru/khabarovsk/auto/wheel/tire/shiny-michelin-x-ice-snow-suv-275-50r21-137723592.html",
+        "site_name": "FarPost.ru",
+        "image": "https://static.baza.farpost.ru/v/1790733422803_bulletin",
+        "image:secure_url": "https://static.baza.farpost.ru/v/1790733422803_bulletin",
+        "type": "website"
+      },
+      "title": "Michelin X-Ice Snow SUV, 275/50 R21 - Купить шины в Хабаровске на Фарпост",
+      "prices": [
+        "",
+        "",
+        "40 000",
+        "/ 1 шт"
+      ],
+      "photos_count": 36,
+      "photos_sample": [
+        "https://static.baza.farpost.ru/v/1788239426475_bulletin",
+        "https://static.baza.farpost.ru/v/1788239536714_bulletin",
+        "\\/personal\\/bookmark\\/note",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1788239491802_default",
+        "https://static.baza.farpost.ru/v/1788239519818_bulletin",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1788239519818_default",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1788239540871_default",
+        "https://www.farpost.ru/khabarovsk/auto/wheel/tire/shiny-michelin-x-ice-snow-suv-275-50r21-137723592.html",
+        "https://static.baza.farpost.ru/v/1788239489726_bulletin",
+        "https://static.baza.farpost.ru/v/1788239521400_bulletin",
+        "https://static.baza.farpost.ru/v/1788239522051_bulletin",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1788239426475_default",
+        "https://static.baza.farpost.ru/v/1788239505459_bulletin",
+        "https://static.baza.farpost.ru/v/1788239474303_bulletin",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1790733422803_default"
+      ],
+      "videos": [],
+      "description": "Продажа Michelin X-Ice Snow SUV, 275/50 R21 в Хабаровске Зимние, Без шипов, Новый, 1 шт",
+      "specs_count": 0,
+      "specs_sample": [],
+      "gallery_blocks": 61,
+      "data_imgs": []
+    },
+    "gruzovaja-shina-long-march-lm777-425-85r": {
+      "jsonld_count": 3,
+      "jsonld_parsed": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Фарпост Хабаровск",
+              "item": "https://www.farpost.ru/khabarovsk/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Авто и мото",
+              "item": "https://www.farpost.ru/khabarovsk/auto/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Шины и диски",
+              "item": "https://www.farpost.ru/khabarovsk/auto/wheel/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Шины",
+              "item": "https://www.farpost.ru/khabarovsk/auto/wheel/tire/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Шины Long March",
+              "item": "https://www.farpost.ru/khabarovsk/auto/wheel/tire/+/Long+March/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Long March LM777",
+              "item": "https://www.farpost.ru/khabarovsk/auto/wheel/tire/+/Long+March+LM777/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Long March LM777, C 425/85 R21 24PR"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "Грузовая шина Long March LM777 425/85R21 24PR 173C",
+          "description": "Продажа Long March LM777, C 425/85 R21 24PR в Хабаровске Всесезонные, Без шипов, Новый, 1 шт",
+          "image": [
+            "https://static.baza.farpost.ru/v/1786928237600_bulletin",
+            "https://static.baza.farpost.ru/v/1786928237854_bulletin",
+            "https://static.baza.farpost.ru/v/1786928238500_bulletin",
+            "https://static.baza.farpost.ru/v/1786928239351_bulletin",
+            "https://static.baza.farpost.ru/v/1786928239973_bulletin",
+            "https://static.baza.farpost.ru/v/1786928240613_bulletin",
+            "https://static.baza.farpost.ru/v/1786928241137_bulletin"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Long March"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.farpost.ru/ni/khabarovsk/auto/wheel/tire/gruzovaja-shina-long-march-lm777-425-85r21-24pr-173c-137440009.html",
+            "priceCurrency": "RUB",
+            "price": 58050,
+            "itemCondition": "http://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "FarPost.ru",
+          "url": "https://www.farpost.ru"
+        }
+      ],
+      "og": {
+        "title": "Long March LM777, C 425/85 R21 24PR - Купить шины в Хабаровске на Фарпост",
+        "description": "Продажа Long March LM777, C 425/85 R21 24PR в Хабаровске Всесезонные, Без шипов, Новый, 1 шт",
+        "url": "https://www.farpost.ru/ni/khabarovsk/auto/wheel/tire/gruzovaja-shina-long-march-lm777-425-85r21-24pr-173c-137440009.html",
+        "site_name": "FarPost.ru",
+        "image": "https://static.baza.farpost.ru/v/1786928237600_bulletin",
+        "image:secure_url": "https://static.baza.farpost.ru/v/1786928237600_bulletin",
+        "type": "website"
+      },
+      "title": "Long March LM777, C 425/85 R21 24PR - Купить шины в Хабаровске на Фарпост",
+      "prices": [
+        "",
+        "",
+        "58 050",
+        "/ 1 шт"
+      ],
+      "photos_count": 19,
+      "photos_sample": [
+        "\\/personal\\/bookmark\\/note",
+        "https://static.baza.farpost.ru/farpost_company/1789455313613_thumbnail120",
+        "https://static.baza.farpost.ru/v/1786928237854_bulletin?ni=yes",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1786928239351_default?ni=yes",
+        "https://static.baza.farpost.ru/v/1786928238500_bulletin?ni=yes",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1786928237854_default?ni=yes",
+        "https://static.baza.farpost.ru/v/1786928239973_bulletin?ni=yes",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1786928239973_default?ni=yes",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1786928238500_default?ni=yes",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1786928241137_default?ni=yes",
+        "https://static.baza.farpost.ru/v/1786928240613_bulletin?ni=yes",
+        "https:\\/\\/static.baza.farpost.ru\\/v\\/1786928237600_default?ni=yes",
+        "https://static.baza.farpost.ru/v/1786928239351_bulletin?ni=yes",
+        "\\/get-application-link",
+        "https://www.farpost.ru/ni/khabarovsk/auto/wheel/tire/gruzovaja-shina-long-march-lm777-425-85r21-24pr-173c-137440009.html"
+      ],
+      "videos": [],
+      "description": "Продажа Long March LM777, C 425/85 R21 24PR в Хабаровске Всесезонные, Без шипов, Новый, 1 шт",
+      "specs_count": 0,
+      "specs_sample": [],
+      "gallery_blocks": 32,
+      "data_imgs": []
+    },
+    "cdn_test": {
+      "url": "https://static.baza.farpost.ru/farpost_company/1779254022044_thumbnail120",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 1009
+    },
+    "search_cycle": {
+      "status": 200,
+      "items_found": 21,
+      "sample": [
+        "/khabarovsk/tech/communication/cellphones/iphone-15-256gb-zelenyj-novyj-115745730.html",
+        "/vladivostok/tech/communication/cellphones/iphone-15-256gb-trade-in-kredit-garantija-1-god-101495613.html",
+        "/khabarovsk/tech/communication/cellphones/iphone-15-128-rozovyj-novye-garantija-magazin-118776784.html",
+        "/vladivostok/tech/communication/cellphones/iphone-15-128gb-trade-in-kredit-garantija-1-god-116360652.html",
+        "/khabarovsk/tech/communication/cellphones/iphone-15-256-gb-black-novyj-114882035.html"
+      ]
+    }
+  },
+  "PROXY_NEW": {
+    "WB": {
+      "home": 498,
+      "card": 498,
+      "card_size": 1130,
+      "antibot": true
+    },
+    "OZON": {
+      "home": -1,
+      "card": -1,
+      "card_size": 0,
+      "jsonld": false
+    },
+    "AVITO": {
+      "home": -1,
+      "search": -1,
+      "search_size": 0,
+      "pow": false
+    },
+    "FARPOST": {
+      "home": -1,
+      "item": 200,
+      "item_size": 198843
+    },
+    "OLD_PROXY": {
+      "fp_home": 200,
+      "fp_size": 73362
+    }
+  },
+  "FARPOST_DEEP": {
+    "all_img_tags": 2,
+    "img_src": [
+      "https://static.baza.farpost.ru/farpost_catalog/1669597715957_default",
+      "https://static.baza.farpost.ru/farpost_company/1779254022044_thumbnail120"
+    ],
+    "img_data_src": [],
+    "data_urls": [],
+    "big_scripts": [
+      [
+        0,
+        1029
+      ],
+      [
+        1,
+        1695
+      ],
+      [
+        3,
+        1940
+      ],
+      [
+        4,
+        323
+      ],
+      [
+        5,
+        343
+      ],
+      [
+        8,
+        257
+      ],
+      [
+        9,
+        343
+      ],
+      [
+        11,
+        977
+      ],
+      [
+        30,
+        228
+      ],
+      [
+        31,
+        485
+      ]
+    ],
+    "script_contexts": [],
+    "iframes": [],
+    "reqsig": [],
+    "bulletin_id": [
+      "139122082"
+    ],
+    "photo_classes": [
+      "class=\"image-gallery__big-image\"",
+      "class=\"image-gallery image-gallery_b\"",
+      "class=\"image-caption image-caption_hidden\"",
+      "class=\"image-gallery__big-image-container\""
+    ],
+    "meta_count": 23,
+    "body_tag": "<body  class=\"fixed1280 desktop no-touch\" data-cookie-host=\".farpost.ru\" data-dir-id=\"234\" data-city-id=\"451\" data-page-name=\"viewbull\">"
+  }
+}

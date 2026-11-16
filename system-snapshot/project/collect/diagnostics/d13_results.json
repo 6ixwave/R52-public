@@ -1,0 +1,94 @@
+{
+  "WB:1_price_json": {
+    "ok": false,
+    "detail": "all sub-paths 404",
+    "s": 3.7
+  },
+  "WB:2_html_xrw": {
+    "ok": false,
+    "detail": "HTTP=498 len=1136 (498=WB custom block)",
+    "s": 0.9
+  },
+  "WB:3_mobile": {
+    "ok": false,
+    "detail": "ERR Failed to perform, curl: (6) Could not resolve host: m.wildberries.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "s": 0.6
+  },
+  "WB:4_card_dest": {
+    "ok": false,
+    "detail": "all combos failed, last HTTP=403",
+    "s": 8.4
+  },
+  "WB:5_static_basket": {
+    "ok": false,
+    "detail": "ERR Failed to perform, curl: (6) Could not resolve host: static-basket-10979.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "s": 0.6
+  },
+  "WB:6_search_wb": {
+    "ok": false,
+    "detail": "HTTP=403 len=0",
+    "s": 0.9
+  },
+  "OZ:1_composer_xo3": {
+    "ok": false,
+    "detail": "ERR Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "s": 1.4
+  },
+  "OZ:2_entrypoint": {
+    "ok": false,
+    "detail": "ERR Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "s": 0.7
+  },
+  "OZ:3_warmup_session": {
+    "ok": false,
+    "detail": "warmup=403 cookies=[REDACTED_AUTH_SECRET]",
+    "s": 2.6
+  },
+  "OZ:4_mobile": {
+    "ok": false,
+    "detail": "ERR Failed to perform, curl: (6) Could not resolve host: mobile.ozon.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "s": 1.5
+  },
+  "OZ:5_pw_full": {
+    "ok": false,
+    "detail": "HTTP=403 len=3305",
+    "s": 8.7
+  },
+  "FP:1_search_api": {
+    "ok": false,
+    "detail": "HTTP=404 len=13003",
+    "s": 1.0
+  },
+  "FP:2_url_patterns": {
+    "ok": false,
+    "detail": "/bulletin/138859452/=404 | /bulletin/138859452=404 | /announcement/138859452=404 | /vladivostok/bulletin/13885945=404 | /138859452.h=404 | /vladivostok/138859452.h/=404",
+    "s": 8.7
+  },
+  "FP:3_api_v2": {
+    "ok": false,
+    "detail": "all API 404/err, last=404",
+    "s": 5.0
+  },
+  "FP:4_404_content": {
+    "ok": false,
+    "detail": "HTTP=404 len=15298 title='Страница не найдена'",
+    "s": 0.9
+  },
+  "AV:1_warmup_delay": {
+    "ok": false,
+    "detail": "warmup=429 cookies=[REDACTED_AUTH_SECRET]",
+    "s": 4.2
+  },
+  "AV:2_playwright": {
+    "ok": false,
+    "detail": "HTTP=302 len=36451 CAPTCHA",
+    "s": 12.7
+  },
+  "AV:3_mobile": {
+    "ok": false,
+    "detail": "HTTP=403 len=9043",
+    "s": 0.9
+  },
+  "total_s": 63.6,
+  "time": "2026-11-12T16:52:33.419855"
+}

@@ -1,0 +1,74 @@
+======================================================================
+1. FARPOST — глубокий разбор item-URL
+======================================================================
+  [cat /auto/wheel/] 200 | 167987B
+    saved farpost_cat_wheel.html
+    [bulletin] 0 matches: []
+    [numeric_path] 0 matches: []
+    [data-ad-id] 0 matches: []
+    [data-bulletin] 22 matches: ['139122082', '136993039', '138849730']
+    [item-class] 21 matches: ['/ni/khabarovsk/auto/wheel/tire/gruzovaja-shina-long-march-lm777-425-85r21-24pr-173c-137440009.html', '/ni/krasnoyarsk/auto/wheel/tire/shiny-139122082.html', '/khabarovsk/auto/wheel/tire/shiny-michelin-x-ice-snow-suv-275-50r21-137723592.html']
+    [href-numeric] 0 matches: []
+    [all-hrefs-with-num] 0 matches: []
+    [bulletin_blocks] 21
+    [data_attrs] 1: ['1161']
+    [inline_json] 2 blocks
+    [item /auto/wheel/tire/] 200 | 406012B | jsonld=True price=False img=False
+    [item /bulletin/] 404 | 13882B | jsonld=True price=False img=False
+    [item /ad/] 404 | 13870B | jsonld=True price=False img=False
+    [search iphone15] 200 | 215460B | items=0
+    saved farpost_search_sample.html
+  FARPOST: 3.5s
+======================================================================
+2. WILDBERRIES — session + cookie + alt endpoints
+======================================================================
+  [home] 498 | 1136B | ck=[]
+  [card_session] 498 | 1136B | antibot=True
+  [catalog.wb] 403 | 0B
+  [cdn_static] 404 | 0B
+  [batch_v2] 403 | 0B
+  [cffi_session] home=498 card=498 | 1136B
+  [card_referrer] 498 | 1136B
+  [proxy_session] home=498 card=498 | 1134B
+  WB: 11.2s
+======================================================================
+3. OZON — session + cookie + API
+======================================================================
+  [home] 403 | 8377B | ck=['abt_data']
+  [card_session] 403 | 9939B
+  [composer_api] 403 | 6923B
+  [proxy_session] home=403 card=403
+  [mobile] 403 | 5201B
+  [api.ozon.ru] -1 | 0B
+  OZON: 18.9s
+======================================================================
+4. AVITO — mobile session + pow + real ID
+======================================================================
+  [home_mob] 403 | 9043B | ck=['srv_id', 'gMltIuegZN2COuSe', '_avisc']
+  [search_mob] 403 | 9043B | ids=0
+  [card_mob fallback] 404 | 18870B
+  [desktop_search] 439 | 14889B | ids=0
+  [proxy] home=439 search=439
+  AVITO: 24.4s
+======================================================================
+5. PROXY — дополнительные источники
+======================================================================
+  [openproxylist] 200 | 8247 proxies
+  [freeproxylist] 404 | 0 proxies
+    [1.0.171.213:8080] ERR: ('Connection aborted.', ConnectionResetError(10054, 'Удаленн
+    [1.0.205.87:8080] ERR: ('Connection aborted.', ConnectionResetError(10054, 'Удаленн
+    [1.1.189.58:8080] ERR: ('Connection aborted.', ConnectionResetError(10054, 'Удаленн
+    [1.1.220.63:8080] ERR: ('Connection aborted.', ConnectionResetError(10054, 'Удаленн
+    [1.10.133.83:8081] 200 | 75719B | 4.7s
+    New working: ['1.10.133.83:8081']
+  PROXY: 53.0s
+======================================================================
+SUMMARY [53.0s]
+======================================================================
+    FARPOST: 3 x 200
+    WB: 0 x 200
+    OZON: 0 x 200
+    AVITO: 0 x 200
+    PROXY: 1 x 200
+  Saved diag_v25_results.json
+  DONE diag_v25 [53.0s]

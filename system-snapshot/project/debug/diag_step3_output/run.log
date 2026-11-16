@@ -1,0 +1,57 @@
+2026-11-14 15:03:23,718 [diag.step3] INFO: ============================================================
+2026-11-14 15:03:23,719 [diag.step3] INFO: TEST 1: OZON Composer API (286156832)
+2026-11-14 15:03:23,719 [diag.step3] INFO: ============================================================
+2026-11-14 15:03:24,042 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:03:25,022 [r52.collectors.ozon] INFO: OZON 286156832: v2 -> HTTP 403
+2026-11-14 15:03:33,590 [r52.collectors.ozon] INFO: OZON 286156832: 286156832 -> HTTP 403
+2026-11-14 15:03:51,460 [r52.collectors.ozon] INFO: OZON 286156832: v2 -> HTTP 403
+2026-11-14 15:03:51,461 [diag.step3] INFO: [TEST] OZON/composer_api: {"status": "NONE", "elapsed_s": 27.42, "detail": "all endpoints failed or no data"}
+2026-11-14 15:03:51,461 [diag.step3] INFO: ============================================================
+2026-11-14 15:03:51,461 [diag.step3] INFO: TEST 2: OZON collect_product (full pipeline)
+2026-11-14 15:03:51,461 [diag.step3] INFO: ============================================================
+2026-11-14 15:03:51,461 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:03:52,457 [r52.collectors.ozon] INFO: OZON 286156832: v2 -> HTTP 403
+2026-11-14 15:04:00,975 [r52.collectors.ozon] INFO: OZON 286156832: 286156832 -> HTTP 403
+2026-11-14 15:04:13,959 [r52.collectors.ozon] INFO: OZON 286156832: v2 -> HTTP 403
+2026-11-14 15:04:14,545 [r52.collectors.pw_fetch] INFO: PwFetcher: browser started (headless=True, proxy=no)
+2026-11-14 15:04:27,374 [r52.collectors.pw_fetch] WARNING: PwFetcher: https://www.ozon.ru/product/286156832/ -> 403 (3306B, 12.8s)
+2026-11-14 15:04:27,380 [r52.collectors.ozon] INFO: OZON 286156832: PW status=403 len=3306
+2026-11-14 15:04:31,837 [r52.collectors.ozon] INFO: OZON 286156832: cffi HTTP status=403 len=8315
+2026-11-14 15:04:46,689 [r52.collectors] INFO: OZON: HTTP 403, retry 1/3 через 11с
+2026-11-14 15:04:58,290 [r52.collectors] INFO: OZON: HTTP 403, retry 2/3 через 20с
+2026-11-14 15:05:18,693 [r52.collectors] INFO: OZON: HTTP 403, retry 3/3 через 40с
+2026-11-14 15:05:59,511 [diag.step3] INFO: [TEST] OZON/collect_product: {"status": "NONE", "elapsed_s": 128.05}
+2026-11-14 15:05:59,618 [diag.step3] INFO: ============================================================
+2026-11-14 15:05:59,618 [diag.step3] INFO: TEST 3: OZON anti-bot / 404 detection
+2026-11-14 15:05:59,618 [diag.step3] INFO: ============================================================
+2026-11-14 15:05:59,618 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:05:59,620 [r52.collectors.ozon] WARNING: OZON 286156832: ANTI-BOT challenge page (len=8287)
+2026-11-14 15:05:59,620 [diag.step3] INFO: [TEST] OZON/anti_bot_detect: {"input_len": 8287, "result": "NONE", "pass_": true}
+2026-11-14 15:05:59,621 [r52.collectors.ozon] WARNING: OZON 999: 404-страница (widget=error)
+2026-11-14 15:05:59,621 [diag.step3] INFO: [TEST] OZON/404_detect: {"result": "NONE", "pass_": true}
+2026-11-14 15:05:59,621 [diag.step3] INFO: ============================================================
+2026-11-14 15:05:59,621 [diag.step3] INFO: TEST 4: FARPOST collect_product
+2026-11-14 15:05:59,621 [diag.step3] INFO: ============================================================
+2026-11-14 15:05:59,621 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:05:59,621 [r52.collectors.farpost] INFO: FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-14 15:05:59,621 [diag.step3] INFO: FARPOST try: id=139122082 url=https://www.farpost.ru/vladivostok/139122082.html
+2026-11-14 15:06:00,949 [r52.collectors.farpost] INFO: FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-14 15:06:02,343 [diag.step3] INFO: [TEST] FARPOST/collect_139122082: {"status": "SUCCESS", "elapsed_s": 2.72, "obs_status": "FULL_SUCCESS", "title": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красн", "prices": 1, "price_detail": [{"role": "regular", "amount": "8499.00", "currency": "RUB"}], "media_count": 1, "evidence": "COLLECTOR_AUTONOMOUS_HTTP"}
+2026-11-14 15:06:02,344 [diag.step3] INFO: ============================================================
+2026-11-14 15:06:02,345 [diag.step3] INFO: TEST 5: FARPOST 404 detection
+2026-11-14 15:06:02,345 [diag.step3] INFO: ============================================================
+2026-11-14 15:06:02,345 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:06:02,345 [r52.collectors.farpost] INFO: FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-14 15:06:02,345 [r52.collectors.farpost] WARNING: FARPOST 999: 404-страница (Страница не найдена, len=2020)
+2026-11-14 15:06:02,345 [diag.step3] INFO: [TEST] FARPOST/404_detect: {"result": "NONE", "pass_": true}
+2026-11-14 15:06:02,345 [r52.collectors.farpost] WARNING: FARPOST 111: короткий ответ (5 байт)
+2026-11-14 15:06:02,345 [diag.step3] INFO: [TEST] FARPOST/short_detect: {"result": "NONE", "pass_": true}
+2026-11-14 15:06:02,345 [diag.step3] INFO: ============================================================
+2026-11-14 15:06:02,345 [diag.step3] INFO: TEST 6: FARPOST discovery (collect_links)
+2026-11-14 15:06:02,345 [diag.step3] INFO: ============================================================
+2026-11-14 15:06:02,346 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:06:02,346 [r52.collectors.farpost] INFO: FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-14 15:06:02,346 [diag.step3] INFO: FARPOST discovery: https://www.farpost.ru/vladivostok/search/?q=смартфоны
+2026-11-14 15:06:03,066 [r52.collectors.farpost] INFO: FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-14 15:06:04,237 [diag.step3] INFO: [TEST] FARPOST/discovery: {"status": "ERROR", "error": "LISTING_HTTP_UNAVAILABLE", "trace": "out-Fix_LASTUI\\R52-2.12\\debug\\diag_step3.py\", line 244, in <module>\n    items = collect_links(fcol, \"FARPOST\", search_url, limit=3, page=1)\n  File \"C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\coll
+2026-11-14 15:06:04,237 [diag.step3] INFO: Report: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\diag_step3_output\diag_step3_report.json

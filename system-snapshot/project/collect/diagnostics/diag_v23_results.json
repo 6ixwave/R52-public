@@ -1,0 +1,126 @@
+{
+  "PROXY": {
+    "monosans": 713,
+    "proxyscrape": 7,
+    "total": 87,
+    "tested": 15,
+    "working": [
+      "4.144.146.21:80"
+    ]
+  },
+  "WB": {
+    "card_v2": {
+      "status": 403,
+      "size": 0
+    },
+    "html": {
+      "status": 498,
+      "size": 1136
+    },
+    "html_patterns": {
+      "__STATE__": false,
+      "__WB_STATE__": false,
+      "data-state": false,
+      "script#state": false,
+      "__NEXT_DATA__": false,
+      "application/ld+json": false,
+      "og:title": false,
+      "wbbasket": false,
+      "images": false
+    }
+  },
+  "OZON": {
+    "direct_home": {
+      "status": 403,
+      "size": 8377,
+      "cookies": [
+        "__Secure-ETC",
+        "abt_data"
+      ]
+    },
+    "proxy_home": {
+      "status": 403,
+      "size": 8377,
+      "proxy": "4.144.146.21:80",
+      "cookies": [
+        "__Secure-ETC",
+        "abt_data"
+      ]
+    },
+    "cffi": {
+      "status": 403,
+      "size": 8405,
+      "jsonld": false
+    }
+  },
+  "AVITO": {
+    "home": {
+      "status": 439,
+      "size": 14889,
+      "cookies": [
+        "srv_id",
+        "gMltIuegZN2COuSe",
+        "_avisc",
+        "pow_challenge"
+      ]
+    },
+    "search": {
+      "status": 439,
+      "size": 14889
+    },
+    "direct_ad": {
+      "status": 404,
+      "size": 29907,
+      "jsonld": false
+    }
+  },
+  "FARPOST": {
+    "home": {
+      "status": 200,
+      "size": 73362,
+      "cookies": [
+        "ring",
+        "ring_session"
+      ]
+    },
+    "home_items": [],
+    "home_cats": [
+      "/geo/nav/city?return=%2F",
+      "/geo/nav/city?return=%2F"
+    ],
+    "geo_root": {
+      "status": 404,
+      "size": 13872,
+      "jsonld": true,
+      "title": "Страница не найдена"
+    },
+    "geo_msk": {
+      "status": 404,
+      "size": 13888,
+      "jsonld": true,
+      "title": "Страница не найдена"
+    },
+    "cat_root": {
+      "status": 404,
+      "size": 13880,
+      "jsonld": true,
+      "title": "Страница не найдена"
+    },
+    "ads_root": {
+      "status": 404,
+      "size": 13872,
+      "jsonld": true,
+      "title": "Страница не найдена"
+    },
+    "items_root": {
+      "status": 404,
+      "size": 13876,
+      "jsonld": true,
+      "title": "Страница не найдена"
+    },
+    "direct_item": {
+      "status": 404,
+      "size": 13896
+    }
+  }
+}

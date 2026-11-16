@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie Bluetooth alla moda 2026, auricolari wireless pieghevoli over-ear WOOX con cancellazione del rumore, fascia per la testa, riproduzione musicale 6H, cuffie HIFI per chiamate telefoniche, casa, viaggi, ufficio, esterni/giochi",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "34.56",
+        "amount_minor": 3456,
+        "currency": "RUB",
+        "visible_label": "34.56 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "34.56",
+        "amount_minor": 3456,
+        "currency": "RUB",
+        "visible_label": "34.56 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S165127b31c864ec1810a71a9b78380268.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013513477571",
+    "url": "https://ru.aliexpress.com/item/1005013513477571.html",
+    "observed_at": "2026-11-13T08:20:52.445790+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

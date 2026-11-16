@@ -1,0 +1,65 @@
+{
+  "FARPOST": [],
+  "WB": [
+    {
+      "s": "html",
+      "id": "172636515",
+      "error": "Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    {
+      "s": "html",
+      "id": "169774481",
+      "url": "https://www.wildberries.ru/catalog/169774481/detail.aspx",
+      "title": null,
+      "prices": [],
+      "meta_desc": null,
+      "og_image": null,
+      "is_real": false,
+      "size": 7590
+    }
+  ],
+  "OZON": [
+    {
+      "s": "direct",
+      "url": "https://www.ozon.ru/product/279845716/",
+      "title": "DUDU&DIDI Мультяшные милые мягкие животные, плюшевые игрушки, подушка для девочки, офисное кресло, подушка, подушка, животное, перекрестное плюшевое украшение, домашние игрушки ",
+      "prices": [
+        625,
+        433,
+        280,
+        393,
+        807
+      ],
+      "meta_desc": "DUDU&DIDI Мультяшные милые мягкие животные, плюшевые игрушки, подушка для девочки, офисное кресло, подушка, подушка, животное, перекрестное плюшевое украшение, домашние игрушки – покупайте на OZON по ",
+      "og_image": null,
+      "not_found": true,
+      "size": 587947
+    },
+    {
+      "s": "direct",
+      "url": "https://www.ozon.ru/product/1126996368/",
+      "title": "LotsPrints Модульная картина ",
+      "prices": [
+        1382,
+        5000,
+        5000,
+        178,
+        475
+      ],
+      "meta_desc": "LotsPrints Модульная картина – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупате",
+      "og_image": null,
+      "not_found": true,
+      "size": 590758
+    }
+  ],
+  "AVITO": [
+    {
+      "s": "direct",
+      "title": "Доступ ограничен: проблема с IP",
+      "prices": [],
+      "meta_desc": null,
+      "og_image": null,
+      "size": 36451
+    }
+  ]
+}

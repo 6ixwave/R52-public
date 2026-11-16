@@ -1,0 +1,40 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "source": "FARPOST",
+    "id": "139122082",
+    "url": "https://www.farpost.ru/vladivostok/139122082.html",
+    "observed_at": "2026-11-14T15:10:00+10:00",
+    "status": "FULL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200,
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16",
+        "method": "SSR"
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount": "8499.00",
+        "currency": "RUB",
+        "amount_minor": 849900
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "url": "https://static.baza.farpost.ru/img/139122082_bulletin.jpg"
+        }
+      ]
+    },
+    "availability": "IN_STOCK"
+  }
+}

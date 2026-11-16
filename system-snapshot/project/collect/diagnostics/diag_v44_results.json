@@ -1,0 +1,236 @@
+{
+  "version": "v44",
+  "timestamp": "2026-11-11T05:43:33.881766+10:00",
+  "platforms": {
+    "WB": {
+      "api_v4": [
+        {
+          "nm": "199298871",
+          "url": "https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&ab_testing=false&nm=199298871",
+          "http": 403,
+          "bytes": 0,
+          "time_s": 0.78,
+          "status": "HTTP_403",
+          "body_snippet": "",
+          "has_wbaas": false,
+          "has_json": false,
+          "resp_headers": {
+            "date": "Tue, 10 Nov 2026 19:43:34 GMT",
+            "content-type": "text/plain",
+            "status-no-id": "PG-43-EL",
+            "server": "wbaas",
+            "x-request-id": "cf4f5df3f711dd0b4578994c639fcf89",
+            "report-to": "{ \"group\": \"nel\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/reports\"}] }, { \"group\": \"csp\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/csp\"}] }",
+            "nel": "{ \"report_to\": \"nel\", \"max_age\": 604800, \"include_subdomains\": false, \"success_fraction\": 0.0, \"failure_fraction\": 1.0 }",
+            "strict-transport-security": "max-age=31536000; preload; always",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY always",
+            "access-control-allow-methods": "*",
+            "access-control-allow-headers": "*",
+            "content-length": "0"
+          }
+        },
+        {
+          "nm": "314337853",
+          "url": "https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&ab_testing=false&nm=314337853",
+          "http": 403,
+          "bytes": 0,
+          "time_s": 0.84,
+          "status": "HTTP_403",
+          "body_snippet": "",
+          "has_wbaas": false,
+          "has_json": false,
+          "resp_headers": {
+            "date": "Tue, 10 Nov 2026 19:43:38 GMT",
+            "content-type": "text/plain",
+            "status-no-id": "PG-41-XS",
+            "server": "wbaas",
+            "x-request-id": "bfcf145e31a55bb60ba14245ba30712c",
+            "report-to": "{ \"group\": \"nel\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/reports\"}] }, { \"group\": \"csp\", \"max_age\": 604800, \"endpoints\": [{\"url\": \"https://nel.wb.ru/csp\"}] }",
+            "nel": "{ \"report_to\": \"nel\", \"max_age\": 604800, \"include_subdomains\": false, \"success_fraction\": 0.0, \"failure_fraction\": 1.0 }",
+            "strict-transport-security": "max-age=31536000; preload; always",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY always",
+            "access-control-allow-methods": "*",
+            "access-control-allow-headers": "*",
+            "content-length": "0"
+          }
+        }
+      ],
+      "html": [
+        {
+          "nm": "199298871",
+          "url": "https://www.wildberries.ru/catalog/199298871/detail.aspx",
+          "http": 498,
+          "bytes": 1136,
+          "time_s": 0.8,
+          "has_wbaas": true,
+          "has_challenge": true,
+          "title": "...",
+          "has_og_title": false,
+          "has_jsonld": false,
+          "has_state": false,
+          "status": "HTTP_498"
+        }
+      ]
+    },
+    "OZON": [
+      {
+        "id": "1600562267",
+        "url": "https://www.ozon.ru/product/1600562267/",
+        "http": 403,
+        "bytes": 8493,
+        "time_s": 1.6,
+        "title": "Antibot Challenge Page",
+        "has_data_widget": false,
+        "has_error_widget": false,
+        "has_og": false,
+        "status": "HTTP_403",
+        "body_snippet": "\n\n    \n\n<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1\">\n  <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">\n  <link rel=\"styl"
+      },
+      {
+        "id": "1317678381",
+        "url": "https://www.ozon.ru/product/1317678381/",
+        "http": 403,
+        "bytes": 8437,
+        "time_s": 0.92,
+        "title": "Antibot Challenge Page",
+        "has_data_widget": false,
+        "has_error_widget": false,
+        "has_og": false,
+        "status": "HTTP_403",
+        "body_snippet": "\n\n    \n\n<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1\">\n  <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">\n  <link rel=\"styl"
+      }
+    ],
+    "AVITO": {
+      "home": {
+        "http": 429,
+        "bytes": 35048,
+        "time_s": 0.98,
+        "has_ip_limit": true,
+        "has_captcha": true
+      },
+      "api": [
+        {
+          "url": "https://www.avito.ru/web/1/js/items?path=transport&f=0&q=%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD&maxPrice=100000",
+          "http": 429,
+          "bytes": 166,
+          "time_s": 0.8,
+          "status": "HTTP_429",
+          "body": "{\"too-many-requests\":{\"message\":\"Доступ с вашего IP-адреса временно ограничен\",\"link\":\"ru.avito:\\/\\/1\\/firewall\\/captcha\\/show\"}}\n"
+        }
+      ],
+      "ad": [
+        {
+          "id": "1004567890",
+          "url": "https://www.avito.ru/ad/1004567890",
+          "http": 404,
+          "bytes": 29907,
+          "final_url": "https://www.avito.ru/ad/1004567890",
+          "time_s": 0.84,
+          "has_captcha": false,
+          "has_ip_limit": false,
+          "title": "Ошибка 404. Страница не найдена",
+          "has_jsonld": false,
+          "has_state": false,
+          "status": "HTTP_404"
+        }
+      ]
+    },
+    "FARPOST": [
+      {
+        "id": "125103161",
+        "url": "https://www.farpost.ru/kemerovo/zapchasti/akpp-nissan-mr20de-ustanovka-garantija-reof10a-gb57-125103161.html",
+        "hint": "АКПП Nissan MR20DE",
+        "http": 200,
+        "bytes": 257151,
+        "time_s": 1.49,
+        "title": "Автозапчасти — продажа запчастей для иномарок, отечественных и грузовых автомобилей, спецтехники — контрактные, новые | ",
+        "status": "PARSED",
+        "parsed_title": "Запчасти на авто",
+        "prices": [
+          {
+            "role": "regular",
+            "amount_minor": 110000,
+            "currency": "RUB",
+            "label": "JSON-LD price"
+          }
+        ],
+        "media_count": 17,
+        "category": "Авто и мото",
+        "desc_len": 243,
+        "availability": "IN_STOCK",
+        "fields_keys": [
+          "title",
+          "description",
+          "category"
+        ]
+      },
+      {
+        "id": "16879823067",
+        "url": "https://www.farpost.ru/vladivostok/zapchasti/datchik-kisloroda-lynxauto-art-dm-2350-g16879823067.html",
+        "hint": "Датчик кислорода LYNXauto",
+        "http": 200,
+        "bytes": 45193,
+        "time_s": 0.92,
+        "title": "Датчик кислорода LYNXauto, арт. DM-2350 купить во Владивостоке по цене: 6 099&#8381; — объявление от компании &quot;Гипе",
+        "status": "PARSED",
+        "parsed_title": "Датчик кислорода LYNXauto, арт. DM-2350",
+        "prices": [
+          {
+            "role": "regular",
+            "amount_minor": 609900,
+            "currency": "RUB",
+            "label": "JSON-LD price"
+          }
+        ],
+        "media_count": 1,
+        "category": "Авто и мото > Автозапчасти > Выхлопная система",
+        "desc_len": 147,
+        "availability": "IN_STOCK",
+        "fields_keys": [
+          "title",
+          "description",
+          "category",
+          "brand",
+          "specs",
+          "seller",
+          "seller_url"
+        ]
+      },
+      {
+        "id": "17260583280",
+        "url": "https://www.farpost.ru/vladivostok/zapchasti/filtr-toplivnyj-lynxauto-art-lf-1073m-g17260583280.html",
+        "hint": "Фильтр топливный LYNXauto",
+        "http": 200,
+        "bytes": 64126,
+        "time_s": 0.89,
+        "title": "Фильтр топливный LYNXauto, арт. LF-1073M купить во Владивостоке по цене: 8 399&#8381; — объявление от компании &quot;Гип",
+        "status": "PARSED",
+        "parsed_title": "Фильтр топливный LYNXauto, арт. LF-1073M",
+        "prices": [
+          {
+            "role": "regular",
+            "amount_minor": 839900,
+            "currency": "RUB",
+            "label": "JSON-LD price"
+          }
+        ],
+        "media_count": 1,
+        "category": "Авто и мото > Автозапчасти > Фильтр",
+        "desc_len": 157,
+        "availability": "IN_STOCK",
+        "fields_keys": [
+          "title",
+          "description",
+          "category",
+          "brand",
+          "specs",
+          "seller",
+          "seller_url"
+        ]
+      }
+    ]
+  },
+  "total_time_s": 69.0
+}

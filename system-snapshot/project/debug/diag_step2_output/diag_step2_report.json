@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-11-14T15:01:29",
+  "tests": [
+    {
+      "source": "OZON",
+      "name": "composer_api",
+      "status": "NONE",
+      "detail": "all endpoints failed"
+    },
+    {
+      "source": "OZON",
+      "name": "parse_anti_bot",
+      "input_len": 8287,
+      "result": "NONE",
+      "pass": true
+    },
+    {
+      "source": "OZON",
+      "name": "parse_short",
+      "result": "NONE",
+      "pass": true
+    },
+    {
+      "source": "FARPOST",
+      "name": "discovery_collect",
+      "status": "ERROR",
+      "error": "'FarpostCollector' object has no attribute 'search'",
+      "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\debug\\diag_step2_collectors.py\", line 127, in <module>\n    tiles = fcol.search(\"смартфоны\", page=1, limit=5)\n            ^^^^^^^^^^^\nAttributeError: 'FarpostCollector' object has no attribute 'search'\n"
+    },
+    {
+      "source": "OZON",
+      "name": "discovery_collect",
+      "status": "ERROR",
+      "error": "'OzonCollector' object has no attribute 'search'",
+      "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\debug\\diag_step2_collectors.py\", line 196, in <module>\n    tiles = ocol.search(\"смартфоны\", page=1, limit=5)\n            ^^^^^^^^^^^\nAttributeError: 'OzonCollector' object has no attribute 'search'\n"
+    }
+  ]
+}

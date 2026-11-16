@@ -1,0 +1,117 @@
+﻿python : 2026-11-12 16:29:12,955 INFO === FARPOST deep ===
+строка:1 знак:36
++ $ErrorActionPreference='Continue'; python diag_multi5.py 2>&1 | Out-F ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 16:2...ARPOST deep ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 16:29:12,957 INFO FP: raw=199470 bytes, decoded=199470 chars
+2026-11-12 16:29:13,094 INFO OK  FP:deep_saved: title=Р¤Р°СЂРїРѕСЃС‚ - РґРѕСЃРєР° РѕР±СЉСЏРІР»РµРЅРёР№ h1=? big_nums=['
+80000', '1114', '200', '100', '700'] classes=[] data_f=[] rub=[] markers={'view
+2026-11-12 16:29:17,752 INFO FAIL FP:live_v2: HTTP=200 verify=True len=89123 url=https://www.farpost.ru/verify?u=%2Fvla
+divostok%2F138952176.h nums=['80000', '1114', '7189', '7189', '66303'] data_f
+2026-11-12 16:29:19,389 INFO FAIL FP:cffi: HTTP=200 verify=True len=198101 nums=['80000', '1114', '7189', '7189', '6630
+3']
+2026-11-12 16:29:19,390 INFO === WB deep ===
+2026-11-12 16:29:20,273 INFO FAIL WB:card_deep: keys=['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_na
+me', 'vendor_code', 'description', 'options', 'certificate', 'nm_colors_names',
+2026-11-12 16:29:27,483 INFO FAIL WB:basket_paths: suppliers.json=404 price.json=404 ru.json=404 options.json=404 feedb
+acks.json=404 sizes.json=404
+2026-11-12 16:29:33,056 INFO FAIL WB:card_dest: dest=0:403 dest=-1:403 dest=-1257786:403 dest=-1257787:403
+2026-11-12 16:29:43,700 INFO OK  WB:file_scan: card.json=200 photos.json=404 feedbacks.json=404 options.json=404 sizes.
+json=404 suppliers.json=404 price.json=404 info.json=404 meta.json=404 seo.jso
+2026-11-12 16:29:43,700 INFO === OZON (requests, no SSL issue) ===
+2026-11-12 16:29:44,472 INFO FAIL OZ:composer_req: err=HTTPSConnectionPool(host='api.ozon.ru', port=443): Max retries e
+xceeded with url: /composer-api.bx/page/json/v2?url=/product/259671175/ (Caused by
+2026-11-12 16:29:45,479 INFO FAIL OZ:html_req: HTTP=403 len=10049 prices=[] og=? widgets=[]
+2026-11-12 16:29:45,747 INFO FAIL OZ:pdp_req: err=HTTPSConnectionPool(host='api.ozon.ru', port=443): Max retries exceed
+ed with url: /api/entrypoint/pdp/259671175 (Caused by SSLError(SSLCertVerific
+2026-11-12 16:29:46,715 INFO FAIL OZ:cffi_noverify: HTTP=403
+2026-11-12 16:29:46,715 INFO === AVITO ===
+2026-11-12 16:29:47,597 INFO FAIL AV:m_avito: HTTP=403 len=8601 prices=[] ld=False
+2026-11-12 16:29:53,824 INFO FAIL AV:city_path: HTTP=429 len=34116 prices=[] url=https://www.avito.ru/vladivostok/11543
+21987
+2026-11-12 16:30:01,623 INFO FAIL AV:api_v2: offers=404 1154321987=404 offers=404 offers=404 1154321987=403
+2026-11-12 16:30:06,741 INFO FAIL AV:cffi_session: HTTP=429 len=34116 prices=[]
+2026-11-12 16:30:06,742 INFO Saved to C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag5_results.json
+{
+  "time": "2026-11-12T16:30:06.741749+10:00",
+  "total_s": 53.8,
+  "results": {
+    "FP:deep_saved": {
+      "ok": true,
+      "detail": "title=Р¤Р°СЂРїРѕСЃС‚ - РґРѕСЃРєР° РѕР±СЉСЏРІР»РµРЅРёР№ h1=? big_nums=['80000', '1114', '200', '100', '700'] classes=[] data_f=[] rub=[] markers={'viewbull': False, 'bulletinText': False, 'subject': False, 'bulletinId': False, 'lightbox': False, 'jsonld': False, 'og:': True, 'company': False, 'field_container': False} ld=[] divs=[]",
+      "s": 0.1
+    },
+    "FP:live_v2": {
+      "ok": false,
+      "detail": "HTTP=200 verify=True len=89123 url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F138952176.h nums=['80000', '1114', '7189', '7189', '66303'] data_fields=[]",
+      "s": 4.7
+    },
+    "FP:cffi": {
+      "ok": false,
+      "detail": "HTTP=200 verify=True len=198101 nums=['80000', '1114', '7189', '7189', '66303']",
+      "s": 1.6
+    },
+    "WB:card_deep": {
+      "ok": false,
+      "detail": "keys=['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'options', 'certificate', 'nm_colors_names', 'colors', 'full_colors', 'selling', 'media', 'data', 'grouped_options', 'need_kiz', 'user_flags', 'update_date', 'create_date'] selling={\"brand_name\": \"Apple\", \"brand_hash\": \"6F8A1C9991FE5BC9\", \"supplier_id\": 250148991, \"no_return_map\": size0=none price_occ=0 ctx=[]",
+      "s": 0.9
+    },
+    "WB:basket_paths": {
+      "ok": false,
+      "detail": "suppliers.json=404 price.json=404 ru.json=404 options.json=404 feedbacks.json=404 sizes.json=404",
+      "s": 7.2
+    },
+    "WB:card_dest": {
+      "ok": false,
+      "detail": "dest=0:403 dest=-1:403 dest=-1257786:403 dest=-1257787:403",
+      "s": 5.6
+    },
+    "WB:file_scan": {
+      "ok": true,
+      "detail": "card.json=200 photos.json=404 feedbacks.json=404 options.json=404 sizes.json=404 suppliers.json=404 price.json=404 info.json=404 meta.json=404 seo.json=404",
+      "s": 10.6
+    },
+    "OZ:composer_req": {
+      "ok": false,
+      "detail": "err=HTTPSConnectionPool(host='api.ozon.ru', port=443): Max retries exceeded with url: /composer-api.bx/page/json/v2?url=/product/259671175/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)')))",
+      "s": 0.8
+    },
+    "OZ:html_req": {
+      "ok": false,
+      "detail": "HTTP=403 len=10049 prices=[] og=? widgets=[]",
+      "s": 1.0
+    },
+    "OZ:pdp_req": {
+      "ok": false,
+      "detail": "err=HTTPSConnectionPool(host='api.ozon.ru', port=443): Max retries exceeded with url: /api/entrypoint/pdp/259671175 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)')))",
+      "s": 0.3
+    },
+    "OZ:cffi_noverify": {
+      "ok": false,
+      "detail": "HTTP=403",
+      "s": 1.0
+    },
+    "AV:m_avito": {
+      "ok": false,
+      "detail": "HTTP=403 len=8601 prices=[] ld=False",
+      "s": 0.9
+    },
+    "AV:city_path": {
+      "ok": false,
+      "detail": "HTTP=429 len=34116 prices=[] url=https://www.avito.ru/vladivostok/1154321987",
+      "s": 6.2
+    },
+    "AV:api_v2": {
+      "ok": false,
+      "detail": "offers=404 1154321987=404 offers=404 offers=404 1154321987=403",
+      "s": 7.8
+    },
+    "AV:cffi_session": {
+      "ok": false,
+      "detail": "HTTP=429 len=34116 prices=[]",
+      "s": 5.1
+    }
+  }
+}

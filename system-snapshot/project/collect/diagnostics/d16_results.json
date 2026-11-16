@@ -1,0 +1,54 @@
+{
+  "FP:1_id_138859452": {
+    "ok": false,
+    "detail": "all urls failed for 138859452",
+    "s": 3.1
+  },
+  "FP:1_id_138952176": {
+    "ok": false,
+    "detail": "all urls failed for 138952176",
+    "s": 7.3
+  },
+  "FP:2_full_extract": {
+    "ok": true,
+    "detail": "price=500 title=Вскрытие авто без ключа Открыть машину Вскрыть авт imgs=1 specs=2 desc=1272b",
+    "s": 8.4
+  },
+  "WB:1_sweep": {
+    "ok": false,
+    "detail": "hosts 01-30 all 404/err",
+    "s": 42.1
+  },
+  "WB:2_v1_detail": {
+    "ok": false,
+    "detail": "HTTP=403 len=0",
+    "s": 43.0
+  },
+  "WB:3_v2_detail": {
+    "ok": false,
+    "detail": "HTTP=403",
+    "s": 45.9
+  },
+  "WB:4_basket_c": {
+    "ok": false,
+    "detail": "c.json all 404",
+    "s": 50.1
+  },
+  "OZ:2_product": {
+    "ok": false,
+    "detail": "price=None title= ptitle=Похоже, нет соединения len=3305",
+    "s": 61.7
+  },
+  "AV:1_mobile": {
+    "ok": false,
+    "detail": "len=36443 offers=0 ptitle=Доступ ограничен: проблема с IP",
+    "s": 67.5
+  },
+  "AV:2_www": {
+    "ok": false,
+    "detail": "len=36446 offers=0 ip_blocked=True ptitle=Доступ ограничен: проблема с IP",
+    "s": 76.6
+  },
+  "total_s": 76.7,
+  "time": "2026-11-12T16:58:53"
+}

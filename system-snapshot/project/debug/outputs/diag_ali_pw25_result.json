@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-11-12T14:58:12.261852+00:00",
+  "script": "diag_ali_pw25",
+  "results": [
+    {
+      "product_id": "1005011813323763",
+      "http_status": 200,
+      "html_len": 76269,
+      "elapsed": 3.46,
+      "final_url": "https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita",
+      "has_init_state": false,
+      "has_run_params": false,
+      "jsonld_count": 0,
+      "og": {
+        "url": "//it.aliexpress.com/item/1005011813323763.html?src=ibdm_d03p0558e02r02&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=&aff_short_key=",
+        "title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+        "type": "product",
+        "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+        "description": "Smarter Shopping, Better Living! Aliexpress.com",
+        "site_name": "aliexpress."
+      },
+      "prices_html": [],
+      "images_html": [
+        "https://assets.alicdn.com/g/alilog/??aplus_plugin_aefront/index.js,mlog/aplus_v2.js",
+        "https://assets.aliexpress-media.com/g/ae-fe/global/0.0.3/index.js",
+        "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/index.js",
+        "https://assets.alicdn.com/g/lzd_sec/LWSC-G/index.js",
+        "https://assets.aliexpress-media.com/g/ae-fe/page-header-ui/0.0.97/js/index.js",
+        "https://assets.aliexpress-media.com/g/code/npm/@alife/nano-cross-page-loader/0.0.53/_cross_page_loader_.js",
+        "https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/js/index.js"
+      ],
+      "h1": null,
+      "title_tag": "",
+      "summary": {
+        "title_found": true,
+        "price_found": false,
+        "images_found": true
+      }
+    },
+    {
+      "product_id": "3256811627009011",
+      "http_status": 200,
+      "html_len": 76267,
+      "elapsed": 2.59,
+      "final_url": "https://it.aliexpress.com/item/1005011813323763.html?gatewayAdapt=glo2ita4itemAdapt",
+      "has_init_state": false,
+      "has_run_params": false,
+      "jsonld_count": 0,
+      "og": {
+        "url": "//it.aliexpress.com/item/1005011813323763.html?src=ibdm_d03p0558e02r02&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=&aff_short_key=",
+        "title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+        "type": "product",
+        "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+        "description": "Smarter Shopping, Better Living! Aliexpress.com",
+        "site_name": "aliexpress."
+      },
+      "prices_html": [],
+      "images_html": [
+        "https://assets.alicdn.com/g/alilog/??aplus_plugin_aefront/index.js,mlog/aplus_v2.js",
+        "https://assets.aliexpress-media.com/g/ae-fe/global/0.0.3/index.js",
+        "https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.454/pc/index.js",
+        "https://assets.alicdn.com/g/lzd_sec/LWSC-G/index.js",
+        "https://assets.aliexpress-media.com/g/ae-fe/page-header-ui/0.0.97/js/index.js",
+        "https://assets.aliexpress-media.com/g/code/npm/@alife/nano-cross-page-loader/0.0.53/_cross_page_loader_.js",
+        "https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.142/js/index.js"
+      ],
+      "h1": null,
+      "title_tag": "",
+      "summary": {
+        "title_found": true,
+        "price_found": false,
+        "images_found": true
+      }
+    }
+  ]
+}

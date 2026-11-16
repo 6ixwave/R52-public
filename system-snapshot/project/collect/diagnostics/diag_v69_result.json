@@ -1,0 +1,53 @@
+{
+  "db": "C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\r52\\data\\r52.db",
+  "pre_counts": {
+    "source": 6,
+    "product": 3,
+    "observation": 5,
+    "price_point": 4
+  },
+  "post_counts": {
+    "source": 6,
+    "product": 3,
+    "observation": 8,
+    "price_point": 6
+  },
+  "platforms": {
+    "FARPOST": {
+      "status": "OK",
+      "product_id": 1,
+      "created": false,
+      "observation_id": 6,
+      "observation_created": true,
+      "title": "Triangle IcelynX TI501, 205/55 R16 94T XL",
+      "prices": 1,
+      "availability": "IN_STOCK"
+    },
+    "WB": {
+      "status": "OK",
+      "product_id": 3,
+      "created": false,
+      "observation_id": 7,
+      "observation_created": true,
+      "title": "Овсяный смарт коктейль для похудения без сахара",
+      "prices": 0,
+      "availability": "UNKNOWN",
+      "price_api_live": false
+    },
+    "OZON": {
+      "status": "OK",
+      "product_id": 2,
+      "created": false,
+      "observation_id": 8,
+      "observation_created": true,
+      "title": "Ткань для обивки мебели, Велюр с абстрактным принтом, отрез ",
+      "prices": 1,
+      "availability": "IN_STOCK"
+    },
+    "AVITO": {
+      "status": "ERROR",
+      "error": "AVITO HTTP 404"
+    }
+  },
+  "timestamp": "2026-11-11T00:39:00.084+00:00"
+}

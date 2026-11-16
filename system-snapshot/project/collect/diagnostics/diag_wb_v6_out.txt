@@ -1,0 +1,70 @@
+﻿C:\Python315\python.exe : 2026-11-12 03:42:11,781 diag_wb_v6 INFO curl_cffi доступен
+строка:2 знак:1
++ C:\Python315\python.exe diag_wb_v6.py 2>&1 | Out-File -FilePath diag_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 03:4...l_cffi доступен:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 03:42:11,781 diag_wb_v6 INFO ============================================================
+2026-11-12 03:42:11,781 diag_wb_v6 INFO PRICE ENDPOINTS
+2026-11-12 03:42:11,781 diag_wb_v6 INFO ============================================================
+2026-11-12 03:42:12,594 diag_wb_v6 INFO [card_v2_dest] 403 text/plain | 
+2026-11-12 03:42:13,916 diag_wb_v6 INFO [card_v1_dest] 403 text/plain | 
+2026-11-12 03:42:15,220 diag_wb_v6 INFO [card_v2_nodest] 403 text/plain | 
+2026-11-12 03:42:16,530 diag_wb_v6 INFO [card_v2_dest2] 403 text/plain | 
+2026-11-12 03:42:17,816 diag_wb_v6 INFO [card_no_ver] 403 text/plain | 
+2026-11-12 03:42:19,094 diag_wb_v6 INFO [web_v1] 498 text/html | <!doctype html><html lang="ru" data-theme="light" data
+-req-uuid="1ac5690a7c37f2581c368e04dcf2d75d" data-req-ip="82.162.1
+2026-11-12 03:42:20,374 diag_wb_v6 INFO [web_v2] 498 text/html | <!doctype html><html lang="ru" data-theme="light" data
+-req-uuid="f00c0c8e10322e670f122e3dc71b9622" data-req-ip="82.162.1
+2026-11-12 03:42:21,815 diag_wb_v6 INFO [basket_prices] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv=
+"content-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:23,251 diag_wb_v6 INFO [basket_price] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="
+content-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:24,539 diag_wb_v6 INFO [basket_info] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="c
+ontent-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:25,039 diag_wb_v6 INFO ============================================================
+2026-11-12 03:42:25,039 diag_wb_v6 INFO PHOTO PATTERNS
+2026-11-12 03:42:25,039 diag_wb_v6 INFO ============================================================
+2026-11-12 03:42:25,980 diag_wb_v6 INFO [S800_primary] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="
+content-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:27,075 diag_wb_v6 INFO [S800_2] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="conten
+t-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:28,138 diag_wb_v6 INFO [S800_3] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="conten
+t-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:29,203 diag_wb_v6 INFO [S800_4] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="conten
+t-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:30,290 diag_wb_v6 INFO [S120_primary] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="
+content-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:31,366 diag_wb_v6 INFO [S120_2] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="conten
+t-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:32,433 diag_wb_v6 INFO [S120_3] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="conten
+t-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:33,523 diag_wb_v6 INFO [S120_4] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="conten
+t-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:34,615 diag_wb_v6 INFO [S120_5] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="conten
+t-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:35,695 diag_wb_v6 INFO [S120_6] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="conten
+t-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:36,776 diag_wb_v6 INFO [S800_img1] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="con
+tent-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:37,857 diag_wb_v6 INFO [S800_img2] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="con
+tent-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:38,935 diag_wb_v6 INFO [no_sub_S800] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="c
+ontent-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:40,016 diag_wb_v6 INFO [no_sub_S800_2] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv=
+"content-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:40,317 diag_wb_v6 INFO ============================================================
+2026-11-12 03:42:40,317 diag_wb_v6 INFO VIDEO PATTERNS
+2026-11-12 03:42:40,317 diag_wb_v6 INFO ============================================================
+2026-11-12 03:42:41,112 diag_wb_v6 INFO [video_mp4] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="con
+tent-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:42,221 diag_wb_v6 INFO [video_webm] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="co
+ntent-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:43,325 diag_wb_v6 INFO [video_root] 404 text/html | <!DOCTYPE html> <html> <head> <meta http-equiv="co
+ntent-type" content="text/html; charset=utf-8"> <title>404 Not Found</
+2026-11-12 03:42:43,625 diag_wb_v6 INFO ============================================================
+2026-11-12 03:42:43,625 diag_wb_v6 INFO RESULTS SUMMARY
+2026-11-12 03:42:43,625 diag_wb_v6 INFO ============================================================
+2026-11-12 03:42:43,626 diag_wb_v6 INFO Saved: diag_wb_v6_out.json
+DONE

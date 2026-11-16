@@ -1,0 +1,80 @@
+test_advanced_explicit_model_only (test_analysis.AnalysisTests.test_advanced_explicit_model_only) ... ok
+test_advanced_reserve_is_larger (test_analysis.AnalysisTests.test_advanced_reserve_is_larger) ... ok
+test_advanced_unknown_reserve_persisted (test_analysis.AnalysisTests.test_advanced_unknown_reserve_persisted) ... ok
+test_ai_comment_uses_fact_references (test_analysis.AnalysisTests.test_ai_comment_uses_fact_references) ... ok
+test_bad_fact_reference_falls_back_with_reason (test_analysis.AnalysisTests.test_bad_fact_reference_falls_back_with_reason) ... ok
+test_compare_ordinary_price_groups_currency (test_analysis.AnalysisTests.test_compare_ordinary_price_groups_currency) ... ok
+test_duplicate_request_cached (test_analysis.AnalysisTests.test_duplicate_request_cached) ... ok
+test_invalid_modes_ids_and_boolean_types (test_analysis.AnalysisTests.test_invalid_modes_ids_and_boolean_types) ... ok
+test_invented_number_rejected (test_analysis.AnalysisTests.test_invented_number_rejected) ... ok
+test_local_report_is_free (test_analysis.AnalysisTests.test_local_report_is_free) ... ok
+test_missing_product_not_charged (test_analysis.AnalysisTests.test_missing_product_not_charged) ... ok
+test_model_whitelist (test_analysis.AnalysisTests.test_model_whitelist) ... ok
+test_no_automatic_fallback_to_advanced (test_analysis.AnalysisTests.test_no_automatic_fallback_to_advanced) ... ok
+test_no_unverified_trend (test_analysis.AnalysisTests.test_no_unverified_trend) ... ok
+test_no_writes_to_product_tables (test_analysis.AnalysisTests.test_no_writes_to_product_tables) ... ok
+test_off_does_not_call_cloud (test_analysis.AnalysisTests.test_off_does_not_call_cloud) ... ok
+test_parallel_paid_once (test_analysis.AnalysisTests.test_parallel_paid_once) ... ok
+test_reference_cannot_accept_cards (test_analysis.AnalysisTests.test_reference_cannot_accept_cards) ... ok
+test_reference_explicitly_separate_from_facts (test_analysis.AnalysisTests.test_reference_explicitly_separate_from_facts) ... ok
+test_requires_explicit_paid_confirmation (test_analysis.AnalysisTests.test_requires_explicit_paid_confirmation) ... ok
+test_response_plan_cannot_contain_actions (test_analysis.AnalysisTests.test_response_plan_cannot_contain_actions) ... ok
+test_same_key_changed_body_rejected (test_analysis.AnalysisTests.test_same_key_changed_body_rejected) ... ok
+test_same_titles_only_candidates_for_duplicate (test_analysis.AnalysisTests.test_same_titles_only_candidates_for_duplicate) ... ok
+test_clarification_can_reference_supplied_model_number (test_analysis.ChatFixTests.test_clarification_can_reference_supplied_model_number) ... ok
+test_rejection_reason_and_useful_facts (test_analysis.ChatFixTests.test_rejection_reason_and_useful_facts) ... ok
+test_unverified_price_in_answer_still_rejected (test_analysis.ChatFixTests.test_unverified_price_in_answer_still_rejected) ... ok
+test_failed_model_result_is_still_saved (test_history.HistoryTests.test_failed_model_result_is_still_saved) ... ok
+test_history_scopes_exact_not_partial (test_history.HistoryTests.test_history_scopes_exact_not_partial) ... ok
+test_local_and_two_models_all_preserved (test_history.HistoryTests.test_local_and_two_models_all_preserved) ... ok
+test_missing_saved_report (test_history.HistoryTests.test_missing_saved_report) ... ok
+test_new_instance_can_read_saved_results (test_history.HistoryTests.test_new_instance_can_read_saved_results) ... ok
+test_pagination (test_history.HistoryTests.test_pagination) ... ok
+test_saved_snapshots_are_historical_not_live (test_history.HistoryTests.test_saved_snapshots_are_historical_not_live) ... ok
+test_unfinished_report_blocks_repayment (test_history.HistoryTests.test_unfinished_report_blocks_repayment) ... ok
+test_v5_results_backfilled_not_deleted (test_history.HistoryTests.test_v5_results_backfilled_not_deleted) ... ok
+test_default_blocks_external (test_openrouter.GuardTests.test_default_blocks_external) ... ok
+test_exception_does_not_leak_to_other_thread (test_openrouter.GuardTests.test_exception_does_not_leak_to_other_thread) ... ok
+test_fixed_dns_scope_and_port (test_openrouter.GuardTests.test_fixed_dns_scope_and_port) ... ok
+test_private_dns_rejected (test_openrouter.GuardTests.test_private_dns_rejected) ... ok
+test_action_only_after_confirmation_and_idempotent (test_openrouter.IntegrationTests.test_action_only_after_confirmation_and_idempotent) ... ok
+test_argument_validation (test_openrouter.IntegrationTests.test_argument_validation) ... ok
+test_bad_plan_still_accounts_cost (test_openrouter.IntegrationTests.test_bad_plan_still_accounts_cost) ... ok
+test_budget_blocks_before_http (test_openrouter.IntegrationTests.test_budget_blocks_before_http) ... ok
+test_cloud_usage_and_replay (test_openrouter.IntegrationTests.test_cloud_usage_and_replay) ... ok
+test_defaults_and_old_modes (test_openrouter.IntegrationTests.test_defaults_and_old_modes) ... ok
+test_exact_commands_no_paid_call (test_openrouter.IntegrationTests.test_exact_commands_no_paid_call) ... ok
+test_greeting_and_identity_are_free (test_openrouter.IntegrationTests.test_greeting_and_identity_are_free) ... ok
+test_history_bounded (test_openrouter.IntegrationTests.test_history_bounded) ... ok
+test_key_conflict (test_openrouter.IntegrationTests.test_key_conflict) ... ok
+test_missing_key_fallback_no_reservation (test_openrouter.IntegrationTests.test_missing_key_fallback_no_reservation) ... ok
+test_network_error_fallback_unknown_cost_no_retry (test_openrouter.IntegrationTests.test_network_error_fallback_unknown_cost_no_retry) ... ok
+test_off_no_cloud (test_openrouter.IntegrationTests.test_off_no_cloud) ... ok
+test_ollama_kept (test_openrouter.IntegrationTests.test_ollama_kept) ... /usr/lib64/python3.13/unittest/mock.py:799: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f1457fea200>
+  def __setattr__(self, name, value):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_parallel_same_message_paid_once (test_openrouter.IntegrationTests.test_parallel_same_message_paid_once) ... ok
+test_persistent_claim_after_interruption (test_openrouter.IntegrationTests.test_persistent_claim_after_interruption) ... ok
+test_scope_blocks_writes (test_openrouter.IntegrationTests.test_scope_blocks_writes) ... ok
+test_scope_rejects_other_id (test_openrouter.IntegrationTests.test_scope_rejects_other_id) ... ok
+test_scoped_payload_has_no_outside_history (test_openrouter.IntegrationTests.test_scoped_payload_has_no_outside_history) ... ok
+test_status_contains_no_secret (test_openrouter.IntegrationTests.test_status_contains_no_secret) ... ok
+test_unsupported_number_rejected (test_openrouter.IntegrationTests.test_unsupported_number_rejected) ... ok
+test_upgrade_v3_preserves_existing_settings (test_openrouter.IntegrationTests.test_upgrade_v3_preserves_existing_settings) ... ok
+test_bad_json (test_openrouter.TransportTests.test_bad_json) ... ok
+test_cost_missing_is_not_zero (test_openrouter.TransportTests.test_cost_missing_is_not_zero) ... ok
+test_empty_or_truncated_answer_rejected (test_openrouter.TransportTests.test_empty_or_truncated_answer_rejected) ... ok
+test_error_reason_visible_and_secret_redacted (test_openrouter.TransportTests.test_error_reason_visible_and_secret_redacted) ... ok
+test_http_errors (test_openrouter.TransportTests.test_http_errors) ... ok
+test_non_json_error_is_not_dumped (test_openrouter.TransportTests.test_non_json_error_is_not_dumped) ... ok
+test_nonfinite_cost_rejected (test_openrouter.TransportTests.test_nonfinite_cost_rejected) ... ok
+test_request (test_openrouter.TransportTests.test_request) ... ok
+test_timeout (test_openrouter.TransportTests.test_timeout) ... ok
+test_transport_errors_are_distinct (test_openrouter.TransportTests.test_transport_errors_are_distinct) ... ok
+test_unknown_function_not_executed (test_openrouter.TransportTests.test_unknown_function_not_executed) ... ok
+
+----------------------------------------------------------------------
+Ran 72 tests in 1.200s
+
+OK

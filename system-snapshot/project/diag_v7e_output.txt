@@ -1,0 +1,58 @@
+=== diag_v7e — 2026-11-14 12:36:38 ===
+Query: 'наушники'
+
+── [1] ALIEXPRESS (COM, base class) ──
+  p1: 10 items 4.2s
+  No-price: 0/10
+  Bad-price (<=1.00): 0/10
+  [0] id=1005013099443801
+      title='Cuffie Gaming Professionali con Microfono, Audio Stereo con '
+      price=current EUR 18.07 | original EUR 20.75
+      images=1
+  [1] id=1005013037146888
+      title='CMF Headphone Pro - Fino a 100 ore di autonomia, Hi-Res con '
+      price=current EUR 89.71 | original EUR 96.05
+      images=1
+  [2] id=1005008490098233
+      title='QCY H3 ANC Cuffie wireless Audio ad alta risoluzione Cuffie '
+      price=current EUR 38.29 | original EUR 41.85
+      images=1
+  [3] id=1005006995878553
+      title='Auricolari wireless Pro 6 TWS con microfono, auricolari Blue'
+      price=current EUR 3.61
+      images=1
+  [4] id=1005012226691301
+      title='Cuffie Bluetooth Wireless Over-Ear Open-Ear con Design Rotan'
+      price=current EUR 7.99 | original EUR 15.96
+      images=1
+  Stats: {'requests': 1, 'success': 1, 'failed': 0, 'blocked': 0}
+
+── [2] ALIEXPRESS_RU (subclass) ──
+  p1: 12 items 4.5s
+  No-price: 0/12
+  [0] id=1005013423878416 price=current EUR 21.89 | original EUR 27.81
+  [1] id=1005013513477571 price=current EUR 34.56 | original EUR 34.56
+  [2] id=1005008490098233 price=current EUR 38.29 | original EUR 41.85
+  Stats: {'requests': 1, 'success': 1, 'failed': 0, 'blocked': 0}
+
+── [3] 6-SOURCE QUICK SCAN ──
+
+  [1/6] ALIEXPRESS
+    8 items 4.3s | no_price=0 first_price=EUR 327.16
+
+  [2/6] ALIEXPRESS_RU
+    12 items 4.2s | no_price=0 first_price=EUR 34.56
+
+  [3/6] WB
+    ERR ModuleNotFoundError: No module named 'r52.collectors.wildberries'
+
+  [4/6] OZON
+    0 items 34.1s | no_price=0
+
+  [5/6] AVITO
+    ERR SearchError: SEARCH_ACCESS_CHALLENGE
+
+  [6/6] FARPOST
+    ERR SearchError: SEARCH_ACCESS_CHALLENGE
+
+=== DONE ===

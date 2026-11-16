@@ -1,0 +1,42 @@
+2026-11-11 07:07:28,888 [INFO] diag_v49: === diag_v49 START ===
+2026-11-11 07:07:28,888 [INFO] diag_v49: === OZON offline parse (saved HTML) ===
+2026-11-11 07:07:28,892 [INFO] diag_v49:   Loaded 1087146 bytes from diag_v48_ozon_1600562267.html
+2026-11-11 07:07:29,103 [INFO] diag_v49:   OZON: jsonld=1 prices=20 imgs=40 widgets=62 h1=Ткань для обивки мебели, Велюр с абстрактным принт
+2026-11-11 07:07:29,104 [INFO] diag_v49:   OZON product: Ткань для обивки мебели, Велюр с абстрактным принтом, отрез 3 метра price=2295 brand=Айхал
+2026-11-11 07:07:29,105 [INFO] diag_v49: === FARPOST re-check ===
+2026-11-11 07:07:30,246 [INFO] diag_v49:   FP: 0.9s HTTP 200 jsonld=3 name=Датчик кислорода LYNXauto, арт. DM-2350 price=6099
+2026-11-11 07:07:30,246 [INFO] diag_v49: === WB Playwright (WBAAS auto-reload) ===
+2026-11-11 07:07:31,627 [INFO] diag_v49:   WB 199298871: waiting 65s for WBAAS auto-reload...
+2026-11-11 07:08:36,687 [INFO] diag_v49:   WB 199298871 after 65s: title= wbaas=True html=1905B
+2026-11-11 07:08:36,687 [INFO] diag_v49:   WB 199298871: still WBAAS, manual reload...
+2026-11-11 07:08:51,877 [ERROR] diag_v49:   WB PW ERR: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v49_all.py", line 314, in run_wb
+    html2 = page.content()
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\sync_api\_generated.py", line 16365, in content
+    self._sync(self._impl_obj.content(includeShadow=include_shadow))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\_impl\_sync_base.py", line 111, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\_impl\_page.py", line 547, in content
+    return await self._main_frame.content(includeShadow=includeShadow)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\_impl\_frame.py", line 501, in content
+    return await self._channel.send("content", None, locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\_impl\_connection.py", line 78, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\_impl\_connection.py", line 636, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+
+2026-11-11 07:08:51,877 [INFO] diag_v49: === Avito Playwright (mobile + /ad/{id}) ===
+2026-11-11 07:09:05,435 [INFO] diag_v49:   Avito [mobile_ad]: 13.2s HTTP 429 ip_limit=True jsonld=0 h1=Страница не загрузилась из-за проблем с&nbsp;IP url=https://m.avito.ru/brands/moscow/elektronika/iphone-11543219
+2026-11-11 07:09:22,715 [INFO] diag_v49:   Avito [desktop_ad]: 12.1s HTTP 404 ip_limit=False jsonld=0 h1=Такой страницы нe существует url=https://www.avito.ru/ad/1154321987
+2026-11-11 07:09:27,836 [INFO] diag_v49: === diag_v49 DONE 118.9s ===
+2026-11-11 07:09:27,837 [INFO] diag_v49: Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v49_results.json (10822 B)

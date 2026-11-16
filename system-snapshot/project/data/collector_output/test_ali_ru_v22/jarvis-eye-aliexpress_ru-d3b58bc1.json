@@ -1,0 +1,48 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "683.49",
+        "amount_minor": 68349,
+        "currency": "EUR",
+        "visible_label": "683.49 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "539.39",
+        "amount_minor": 53939,
+        "currency": "EUR",
+        "visible_label": "539.39 EUR"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013565057281",
+    "url": "https://it.aliexpress.com/item/1005013565057281.html",
+    "observed_at": "2026-11-13T07:38:31.263435+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Schede grafiche SOYO NVIDIA GT740 4G GDDR3 Scheda video 128bit HDMI + DP + DVI Per componenti di computer da gioco desktop GPU GT 740",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "57.10",
+        "amount_minor": 5710,
+        "currency": "EUR",
+        "visible_label": "57.10 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "68.87",
+        "amount_minor": 6887,
+        "currency": "EUR",
+        "visible_label": "68.87 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Scd0c75a48d274b8aa4bccfb9285d0dbfe.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013565193050",
+    "listing_id": "1005013565193050",
+    "title": "Schede grafiche SOYO NVIDIA GT740 4G GDDR3 Scheda video 128bit HDMI + DP + DVI Per componenti di computer da gioco desktop GPU GT 740",
+    "url": "https://ru.aliexpress.com/item/1005013565193050.html",
+    "observed_at": "2026-11-15T02:17:00.006317+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

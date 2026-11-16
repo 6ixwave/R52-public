@@ -1,0 +1,25 @@
+=== diag_v6i — 2026-11-14 12:04:41 ===
+Query: 'наушники', page_size=10
+
+── WB ──
+  Init: OK
+  p1: ERR SearchError: SEARCH_HTTP_403 (30.1s)
+  p2: ERR SearchError: SEARCH_HTTP_403 (33.7s)
+  Pagination check ERR: SearchError: SEARCH_HTTP_403
+  Stats: {'requests': 13, 'success': 0, 'failed': 0, 'blocked': 12}
+
+── ALIEXPRESS ──
+  Init: OK
+  p1: OK 10 items 127.3s
+       IDs: ['1005013565057281', '1005012417611123', '1005013569410352', '1005013582572287', '1005012892557061']
+       Titles: ['', '', '']
+  Stats: {'requests': 11, 'success': 11, 'failed': 0, 'blocked': 0}
+
+── ALIEXPRESS_RU ──
+  Init: OK
+  p1: OK 12 items 4.7s
+       IDs: ['1005013565057281', '1005013569410352', '1005013582572287', 'None', '1005013564277066']
+       Titles: ['', '', '']
+  Stats: {'requests': 1, 'success': 1, 'failed': 0, 'blocked': 0}
+
+=== DONE ===

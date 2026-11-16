@@ -1,0 +1,32 @@
+2026-11-13 22:28:49,519 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:28:50,629 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-13 22:28:52,054 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:28:52,054 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-13 22:29:31,068 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-13 22:29:33,604 r52.collectors.wb INFO WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-13 22:29:37,139 r52.collectors.wb INFO WB 199298871: price card_v1 -> 403
+2026-11-13 22:29:39,937 r52.collectors.wb INFO WB 199298871: price card_v2 -> 403
+2026-11-13 22:29:43,537 r52.collectors.wb INFO WB 199298871: price card_v4 -> 403
+2026-11-13 22:29:45,730 r52.collectors.wb INFO WB 199298871: price card_v5 -> 403
+2026-11-13 22:29:48,915 r52.collectors.wb INFO WB 199298871: price catalog_v1 -> 403
+2026-11-13 22:29:52,080 r52.collectors.wb INFO WB 199298871: price catalog_v2 -> 403
+2026-11-13 22:29:54,300 r52.collectors.wb INFO WB 199298871: price web_api -> 498
+2026-11-13 22:29:57,525 r52.collectors.wb INFO WB 199298871: price search_wb -> 403
+2026-11-13 22:29:57,525 r52.collectors.wb INFO WB 199298871: price — все эндпоинты не дали данных
+2026-11-13 22:30:11,314 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-13 22:30:11,315 r52.collectors.wb INFO WB 199298871: photo_count=6, found=1
+2026-11-13 22:30:11,315 r52.collectors.wb INFO WB 199298871: has_video=true, видео не найдено
+============================================================
+E2E v2: R-52 Full Pipeline
+============================================================
+
+[0] Preparing...
+  ✓ config.toml: port=8420, intake=C:\Users\aleks\.local\share\r52\intake_test
+
+[1] Collecting...
+  FARPOST: FULL_SUCCESS
+  WB: PARTIAL_SUCCESS
+
+[2] Starting server...
+  ✗ Server died (code=0)
+  stderr: 

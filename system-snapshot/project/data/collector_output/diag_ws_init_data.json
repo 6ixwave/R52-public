@@ -1,0 +1,1 @@
+{var t=window._dida_config_,i=t.pageName,n=t.pageVersion,a=t.headers,r=void 0===a?{}:a,s=t.needLogin,c=void 0!==s&&s,l=t.data,d=void 0===l?{}:l,p=t.passQuery;if(i){var u="/fn/".concat(i,"/index");d.pageVersion=n,c&&(d.needLogin=!0),window._page_config_=window._page_config_||{},window._page_config_.prefetch={url:u,data:d,headers:r,withCredentials:!0,passQuery:p}}}

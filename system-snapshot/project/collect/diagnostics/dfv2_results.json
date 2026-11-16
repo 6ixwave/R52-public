@@ -1,0 +1,51 @@
+{
+  "time": "2026-11-12T16:20:26.352076+10:00",
+  "total_s": 14.4,
+  "results": {
+    "WB:card_cdn": {
+      "ok": false,
+      "detail": "Failed to perform, curl: (6) Could not resolve host: basket-10979.wbbasket.ru (Domain name not found",
+      "s": 0.6
+    },
+    "WB:price_all": {
+      "ok": false,
+      "detail": "last=498",
+      "s": 2.6
+    },
+    "WB:html_price": {
+      "ok": false,
+      "detail": "HTTP=498 len=1136 prices=[]",
+      "s": 0.9
+    },
+    "OZON:composer_api": {
+      "ok": false,
+      "detail": "last=403",
+      "s": 2.6
+    },
+    "OZON:html_jsonld": {
+      "ok": false,
+      "detail": "HTTP=403 len=8398 no-LD vis_prices=[]",
+      "s": 1.7
+    },
+    "FARPOST:html": {
+      "ok": false,
+      "detail": "HTTP=200 len=197949 vis=[]",
+      "s": 2.1
+    },
+    "FARPOST:html2": {
+      "ok": true,
+      "detail": "lid=138952176 HTTP=200 attr=? vis=[]",
+      "s": 1.8
+    },
+    "AVITO:html_desktop": {
+      "ok": false,
+      "detail": "HTTP=429 len=34116 ld=False title=Страница не загрузилась из-за проблем с& prices=[]",
+      "s": 1.1
+    },
+    "AVITO:html_mobile": {
+      "ok": false,
+      "detail": "HTTP=403 len=8601 title=Страница не загрузилась из-за проблем с  prices=[]",
+      "s": 0.9
+    }
+  }
+}

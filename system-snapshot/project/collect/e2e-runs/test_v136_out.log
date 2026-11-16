@@ -1,0 +1,40 @@
+02:26:12 [v136] INFO: === v136 START budget=150s nm=199298871 ===
+02:26:12 [v136] INFO: === PLAYWRIGHT FULL nm=199298871 ===
+02:26:13 [v136] INFO:   goto: 640 ms
+02:26:18 [v136] INFO:   Challenge resolved at poll 3, body=7015B
+02:26:18 [v136] INFO:   Waiting for networkidle...
+02:26:19 [v136] INFO:   networkidle: 517 ms
+02:27:07 [v136] INFO:   No product selector found, waiting extra 5s
+02:27:12 [v136] INFO:   Final HTML: 7590B
+02:27:12 [v136] INFO:   H1: Что-то не так...
+02:27:12 [v136] INFO:   Total <img> tags: 0
+02:27:12 [v136] INFO:   Images: 0, Videos: 0
+02:27:12 [v136] INFO:   Cookies (1):
+02:27:12 [v136] INFO:     x_wbaas_token = 1.1000.a55a7902aeb742ab81e440061f0d15d9. (dom=www.wildberries.ru)
+02:27:12 [v136] INFO:   === XHR/Fetch captured: 11 ===
+02:27:12 [v136] INFO:     [498] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token -> 0B
+02:27:12 [v136] INFO:     [200] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/find-frontend-settings -> 0B
+02:27:12 [v136] INFO:     [200] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token -> 0B
+02:27:12 [v136] INFO:     [498] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token -> 0B
+02:27:12 [v136] INFO:     [498] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token -> 0B
+02:27:12 [v136] INFO:     [200] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/find-frontend-settings -> 0B
+02:27:12 [v136] INFO:     [200] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token -> 0B
+02:27:12 [v136] INFO:     [200] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/frontend-analytics -> 0B
+02:27:12 [v136] INFO:     [200] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/find-frontend-settings -> 0B
+02:27:12 [v136] INFO:     [200] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token -> 0B
+02:27:12 [v136] INFO:     [200] POST https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/report -> 2B
+02:27:12 [v136] INFO: === API WITH TOKEN =[REDACTED_AUTH_SECRET]
+02:27:12 [v136] INFO:   Token: [REDACTED_AUTH_SECRET]
+02:27:13 [v136] INFO:   card.wb.ru v2 (with token): 403 0B
+02:27:14 [v136] INFO:   catalog_v2: 403 0B
+02:27:15 [v136] INFO:   catalog_v1: 403 0B
+02:27:16 [v136] INFO:   price_v2: 403 0B
+02:27:18 [v136] INFO:   basket-13 card.json: 404 196B
+02:27:19 [v136] INFO:   basket-12 card.json: 404 196B
+02:27:20 [v136] INFO:   basket-11 card.json: 404 196B
+02:27:21 [v136] INFO:   basket-10 card.json: 404 196B
+02:27:21 [v136] INFO: === v136 SUMMARY ===
+02:27:21 [v136] INFO:   PW: price=None imgs=0 vids=0 html=7590B xhr=11
+02:27:21 [v136] INFO:   API: {}
+02:27:21 [v136] INFO:   Total: 68.9s
+02:27:21 [v136] INFO: === v136 DONE ===

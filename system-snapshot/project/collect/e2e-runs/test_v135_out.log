@@ -1,0 +1,38 @@
+02:22:07 [v135] INFO: === v135 START budget=120s ===
+02:22:07 [v135] INFO: --- A) BROWSER-CHECK.JS ---
+02:22:09 [v135] INFO:   browser-check.js: 888B
+02:22:09 [v135] INFO:   pattern 'navigator': 1 hits
+02:22:09 [v135] INFO:   JS[:500]: !function(){var e=(navigator.userAgent||"").match(/\b(?:Chromium|Chrome|CriOS)\/(\d+)/),t=!!(e&&+e[1]<80);if(window.IS_OUTDATED_BROWSER=t,t){(document.querySelector(".w")||document.body).insertAdjacentHTML("beforeend",'<div id="legacy_browser" class="support support-outdated-browser"><div class="support-header"><h1 class="support-title">Ваш браузер устарел</h1><p class="support-subtitle no-js-support-subtitle">Ваша версия браузера устарела&nbsp;&mdash; из-за этого сайт может работать некорректно
+02:22:10 [v135] INFO:   index.js: 86741B
+02:22:10 [v135] INFO:   idx pattern 'cookie': 35 hits
+02:22:10 [v135] INFO:   idx pattern 'document.cookie': 6 hits
+02:22:10 [v135] INFO:   idx pattern 'fetch': 19 hits
+02:22:10 [v135] INFO:   idx pattern 'navigator': 10 hits
+02:22:10 [v135] INFO:   idx pattern 'token': 36 hits
+02:22:10 [v135] INFO:   idx pattern 'antibot': 4 hits
+02:22:10 [v135] INFO:   idx pattern 'redirect': 3 hits
+02:22:10 [v135] INFO:   idx pattern 'challenge': 29 hits
+02:22:10 [v135] INFO:   idx pattern 'solve': 40 hits
+02:22:10 [v135] INFO: --- B) PLAYWRIGHT nm=%d ---
+02:22:21 [v135] INFO:   goto: 8331 ms, title=...
+02:22:21 [v135] INFO:   wait[0]: body=957B title=...
+02:22:23 [v135] INFO:   wait[1]: body=957B title=...
+02:22:25 [v135] INFO:   wait[2]: body=957B title=...
+02:22:26 [v135] INFO:   wait[3]: body=7015B title=...
+02:22:26 [v135] INFO:   Challenge resolved after 3 polls
+02:22:26 [v135] INFO:   Final HTML: 7590B
+02:22:26 [v135] INFO:   Images: 0, Videos: 0
+02:22:26 [v135] INFO:   Cookies after challenge (1):
+02:22:26 [v135] INFO:     x_wbaas_token = 1.1000.e53fbb28cf014ac3884b43e (domain=www.wildberries.ru)
+02:22:26 [v135] INFO:   Playwright done: price=None, imgs=0, vids=0, html=7590B
+02:22:26 [v135] INFO: --- C) card.wb.ru MOBILE ---
+02:22:27 [v135] INFO:   mobile_ua -> 403 0B
+02:22:28 [v135] INFO:   android_ua -> 403 0B
+02:22:30 [v135] INFO:   no_ua -> 403 0B
+02:22:31 [v135] INFO:   curl_ua -> 403 0B
+02:22:32 [v135] INFO: === v135 SUMMARY ===
+02:22:32 [v135] INFO:   browser-check.js: OK
+02:22:32 [v135] INFO:   Playwright: price=None imgs=0 html=7590B
+02:22:32 [v135] INFO:   card.wb mobile: none
+02:22:32 [v135] INFO:   Total: 24.2s
+02:22:32 [v135] INFO: === v135 DONE ===

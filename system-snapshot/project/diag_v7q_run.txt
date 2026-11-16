@@ -1,0 +1,55 @@
+﻿python : 2026-11-14 13:26:14,643 INFO diag_v7q: === diag_v7q — 2026-11-14 13:26:14 ===
+строка:2 знак:1
++ python -u diag_v7q.py 2>&1 | Out-File -FilePath diag_v7q_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 13:2...14 13:26:14 ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 13:26:14,643 INFO diag_v7q: Cooldown 20s...
+2026-11-14 13:26:34,644 INFO diag_v7q: ── [1] Playwright TMD solve ──
+2026-11-14 13:26:35,466 INFO diag_v7q:   [warmup] Home page...
+2026-11-14 13:26:48,660 INFO diag_v7q:   [warmup] Cookies after home: 10
+2026-11-14 13:26:48,661 INFO diag_v7q:     aer_rh = [REDACTED_AUTH_SECRET]... (domain=.aliexpress.ru)
+2026-11-14 13:26:48,661 INFO diag_v7q:     aer_ec = aGBZ3/gVhTtcA2yQ+5GDIQ0YOE0Fbt1+/m2x53pa... (domain=.aliexpress.ru)
+2026-11-14 13:26:48,661 INFO diag_v7q:     aep_usuc_f = b_locale=ru_RU&c_tp=RUB&region=RU&site=r... (domain=.aliexpress
+.ru)
+2026-11-14 13:26:48,661 INFO diag_v7q:     aer_abid = [REDACTED_AUTH_SECRET]... (domain=.aliexpress.ru)
+2026-11-14 13:26:48,661 INFO diag_v7q:     a_r_t_info = %7B%22name%22%3A%22%22%2C%22id%22%3A%22%... (domain=.aliexpress
+.ru)
+2026-11-14 13:26:48,661 INFO diag_v7q:   [search] → https://ru.aliexpress.com/wholesale?SearchText=%D0%BD%D0%B0%D1%83%D
+1%88%D0%BD%D0%B8%D0%BA%D0%B8&page=1
+2026-11-14 13:26:51,668 INFO diag_v7q:   [search] URL: https://ru.aliexpress.com//wholesale/_____tmd_____/punish?x5secd
+ata=xfrcTjg6F_c-CxFluO2bR0R-G4gJvchxQDOL4yWFladqEFbATjDyN15LyrUd-NcrKR1Fnwk5ouLwfTYbV2y86ulNQKrJYLeAW-0ji6CTc6d7eZHSZ0B
+t5W3qN2EvSjLd6sdTF2_ankRtYyTUIZxmE4w_F4mGtBRpYZIgfSz-Wgb8S7WffLtY17Ef15vPfDU6juVcHIuj79PdGabfD3qlEsBG8L4ajp9qXhvLhMtOc9
+LchZshwzIeG0sStN25SN6n7f-QZUnYF_dPev_KvrvELvmnsYI-zqI-DYWynRVSem423X7LkRiRG55pxF0U95zxU2f5n4Y6zAxuIGYOGsiyPBR4MeTid9i1l
+wYgSmObEvli5Qwt801WpxSVF34px_IfXu_siUBNiRDygS7zv3I2tmDsajq8-h_LXbxLoRbVARuPtlYdTboFfrEPhhJsVtETQWc7LpPgR_z79tuqTfYO4yV9
+kktgTf9VYR82M8Ik30fi2eltjTllChWgK2KeLCqgry_hvXboK7Eh8ok_Lh8SY1-P1hjr68lUXvyxzz8DCuDxhN5EkfmRa67KNR-y3bQOnOjAuduIKKhNRMQ
+0uK9RPsEhgVlX38Nf5kiflIkXS7ZDzi3Lsa-QyMVQUT1bntZ0nR__bx__ru.aliexpress.com%2fwholesale&x5step=1
+2026-11-14 13:26:51,668 INFO diag_v7q:   [search] Title: 
+2026-11-14 13:26:51,668 INFO diag_v7q:   [search] TMD page detected. Waiting for JS to solve...
+2026-11-14 13:26:51,668 INFO diag_v7q:   [solve] Waiting up to 20s for auto-redirect...
+2026-11-14 13:27:11,676 INFO diag_v7q:   [solve] No auto-redirect in 20s: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for n
+2026-11-14 13:27:14,680 INFO diag_v7q:   [solve] x5secdata cookies: [REDACTED_AUTH_SECRET]
+2026-11-14 13:27:14,705 INFO diag_v7q:   [solve] Found button/captcha element, clicking...
+2026-11-14 13:27:19,770 INFO diag_v7q:   [solve] After click: 0 x5secdata cookies
+2026-11-14 13:27:19,786 INFO diag_v7q:   [solve] Page content: 232594B
+2026-11-14 13:27:19,786 INFO diag_v7q:   ✓ Full page loaded after TMD!
+2026-11-14 13:27:19,790 INFO diag_v7q:   [final] Total cookies: [REDACTED_AUTH_SECRET]
+2026-11-14 13:27:19,790 INFO diag_v7q: ── [2] Page analysis ──
+2026-11-14 13:27:19,806 INFO diag_v7q:   lang='?'
+2026-11-14 13:27:19,806 INFO diag_v7q:   title: Проверка CAPTCHA
+2026-11-14 13:27:19,815 INFO diag_v7q:   Prices: 0, first 5: []
+2026-11-14 13:27:19,815 INFO diag_v7q:   Domains: it=0, ru=7
+2026-11-14 13:27:19,817 INFO diag_v7q:   Saved → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_v7q_
+search.html (232594B)
+2026-11-14 13:27:19,818 INFO diag_v7q:   Card-like elements: 0
+2026-11-14 13:27:19,820 INFO diag_v7q:   Cookies saved → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\d
+iag_v7q_cookies.json
+2026-11-14 13:27:19,953 INFO diag_v7q: ── Summary ──
+2026-11-14 13:27:19,953 INFO diag_v7q:   TMD solved: True
+2026-11-14 13:27:19,953 INFO diag_v7q:   New x5secdata: None
+2026-11-14 13:27:19,953 INFO diag_v7q: === DONE ===
+2026-11-14 13:27:19,953 INFO diag_v7q: diag_v7q complete
+EXIT=0

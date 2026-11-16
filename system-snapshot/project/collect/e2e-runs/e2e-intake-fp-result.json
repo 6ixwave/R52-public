@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-11-12T02:55:19",
+  "fresh_home": "C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\e2e-fresh-home",
+  "files_processed": 2,
+  "results": [
+    {
+      "file": "jarvis-eye-farpost-65c1950c.json",
+      "stage": "PENDING->ACCEPTED",
+      "product_id": 1,
+      "observation_created": true,
+      "events": []
+    },
+    {
+      "file": "jarvis-eye-farpost-b9b6aaed.json",
+      "stage": "PENDING->ACCEPTED",
+      "product_id": 2,
+      "observation_created": true,
+      "events": []
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "source": "FARPOST",
+      "listing_id": "129606872",
+      "title": "Контрактный двигатель 1ZZ-FE цена с навесным!",
+      "brand": "Toyota",
+      "model": null,
+      "url": "https://www.farpost.ru/vladivostok/129606872.html",
+      "origin": "EYE",
+      "created_at": "2026-11-11T16:55:19.702+00:00",
+      "updated_at": "2026-11-11T16:55:19.702+00:00"
+    },
+    {
+      "id": 2,
+      "source": "FARPOST",
+      "listing_id": "130693618",
+      "title": "Triangle IcelynX TI501, 205/55 R16 94T XL",
+      "brand": "Triangle",
+      "model": "Triangle IcelynX TI501",
+      "url": "https://www.farpost.ru/vladivostok/130693618.html",
+      "origin": "EYE",
+      "created_at": "2026-11-11T16:55:19.714+00:00",
+      "updated_at": "2026-11-11T16:55:19.714+00:00"
+    }
+  ],
+  "product_summary": [
+    {
+      "id": 1,
+      "source": "FARPOST",
+      "listing_id": "129606872",
+      "title": "Контрактный двигатель 1ZZ-FE цена с навесным!",
+      "last_regular_minor": 13500000,
+      "last_lowest_minor": 13500000,
+      "last_availability": "IN_STOCK",
+      "observation_count": 1
+    },
+    {
+      "id": 2,
+      "source": "FARPOST",
+      "listing_id": "130693618",
+      "title": "Triangle IcelynX TI501, 205/55 R16 94T XL",
+      "last_regular_minor": 2440000,
+      "last_lowest_minor": 2440000,
+      "last_availability": "IN_STOCK",
+      "observation_count": 1
+    }
+  ],
+  "observations": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "observed_at": "2026-11-11T16:33:06.851+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "8fd1955589d503ad6785f2d29825be694d357174cfe9aa9cbc1b143418c72815"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "observed_at": "2026-11-11T16:32:54.128+00:00",
+      "origin": "EYE",
+      "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+      "availability": "IN_STOCK",
+      "fingerprint": "b3211dacc81068adf994799b023b0c7c00946daf8448d7d7c9584ad6bbaa40a0"
+    }
+  ],
+  "price_points": [
+    {
+      "id": 1,
+      "observation_id": 1,
+      "product_id": 1,
+      "role": "regular",
+      "amount_minor": 13500000,
+      "currency": "RUB",
+      "label": "data-bulletin-price",
+      "observed_at": "2026-11-11T16:33:06.851+00:00"
+    },
+    {
+      "id": 2,
+      "observation_id": 2,
+      "product_id": 2,
+      "role": "regular",
+      "amount_minor": 2440000,
+      "currency": "RUB",
+      "label": "data-bulletin-price",
+      "observed_at": "2026-11-11T16:32:54.128+00:00"
+    }
+  ],
+  "inbox_items": [
+    {
+      "id": 1,
+      "filename": "jarvis-eye-farpost-65c1950c.json",
+      "origin": "FOLDER",
+      "status": "ACCEPTED",
+      "error_code": null,
+      "received_at": "2026-11-11T16:55:19.696+00:00",
+      "decided_at": "2026-11-11T16:55:19.702+00:00",
+      "observation_id": 1
+    },
+    {
+      "id": 2,
+      "filename": "jarvis-eye-farpost-b9b6aaed.json",
+      "origin": "FOLDER",
+      "status": "ACCEPTED",
+      "error_code": null,
+      "received_at": "2026-11-11T16:55:19.710+00:00",
+      "decided_at": "2026-11-11T16:55:19.714+00:00",
+      "observation_id": 2
+    }
+  ],
+  "status": "PASS"
+}

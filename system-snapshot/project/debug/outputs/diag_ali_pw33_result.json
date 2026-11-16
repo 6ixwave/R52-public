@@ -1,0 +1,111 @@
+{
+  "product_id": "1005011813323763",
+  "url": "https://www.aliexpress.com/item/1005011813323763.html",
+  "timestamp": "2026-11-12T15:17:08.838268+00:00",
+  "script": "diag_ali_pw33",
+  "strategies": {
+    "mtop_cffi": {
+      "success": false,
+      "ret": [
+        "FAIL_SYS_USER_VALIDATE",
+        "RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试"
+      ],
+      "tmd_url": "https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xg1c6c1b31eb6c97ddkj723a020c91251d99dcec07c9fd8ff7371794496645a-1168960602a-1317347523abaxc3eajrecapt",
+      "is_tmd": true
+    },
+    "tmd_bypass": {
+      "error": "'function' object has no attribute 'query_selector'"
+    },
+    "fallback": {
+      "source": "meta_fallback",
+      "og_title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+      "og_image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_220x220q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf826fda986cb463ca56efc2c5dcbdc9af.jpg_220x220q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S7a80d404b9df494b8c3b251efbac0b64M.jpg_220x220q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S14bdb58e79a74c9baf6e289cd745f7b5J.jpg_220x220q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sc254f5113e4a47fe823f9a8831ffaf70y.jpg_220x220q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S676b26003f3a4bfdbcb5453ce10d19f8R.jpg_220x220q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Saac98d6e0eb1476ca25ec46a6265fc452/150x150.gif"
+      ],
+      "prices_found": [],
+      "page_config": {
+        "prefetch": {
+          "api": "mtop.aliexpress.pdp.pc.query",
+          "type": "GET",
+          "v": "1.0",
+          "timeout": 15000,
+          "dataType": "originaljsonp",
+          "data": {
+            "productId": "1005011813323763",
+            "_lang": "it_IT",
+            "_currency": "EUR",
+            "country": "IT",
+            "province": "",
+            "city": "",
+            "channel": "",
+            "pdp_ext_f": "",
+            "pdpNPI": "",
+            "sourceType": "",
+            "clientType": "pc",
+            "ext": "{\"foreverRandomToken\":\"[REDACTED_AUTH_SECRET]\",\"site\":\"ita\",\"crawler\":false,\"x-m-biz-bx-region\":\"\",\"signedIn\":false,\"host\":\"it.aliexpress.com\"}"
+          }
+        }
+      },
+      "body_snippet": "Per le spedizioni extra UE si applicano oneri di importazione\nAliExpress\nScarica l'app AliExpress\nIT/\nEUR\nBenvenuto\nAccedi / Registrazione\n0\nCarrello\nSupporto\nCentro assistenza, Dispute e rapporti, Politica di reso e rimborso, Segnala un'infrazione del Diritto di Proprietà Intellettuale, Informazioni DSA/OSA , Rispetto dell'integrità , Centro di trasparenza, Invio reclami (utenti non registrati), Politica di restituzione\nSiti multilingua di AliExpress\nPусский, Portuguese, Spanish, French, German, Italian, Dutch, Turkish, Japanese, Korean, Thai, Arabic, Hebrew, Polish\nSfoglia per categoria\nTutti i più popolari , Prodotto , Promozione , Prezzo basso , Grande Valore , Recensioni , Wiki, Blog, Video\nAlibaba Group\nAlibaba Group Website, AliExpress, Alimama, Fliggy, Alibaba Cloud, Alibaba International, AliTelecom, DingTalk, Juhuasuan, Taobao Marketplace, Tmall, Taobao Global, AliOS, 1688\nIntellectual Property Protection - Privacy Policy - Preferenze per i cookie - Mappa del Sito - Contratto di adesione gratuita ad AliExpress.com - Informazioni per i consumatori dell'UE - Accordo sui servizi di transazione per consumatori non UE/Regno Unito - Termini e Condizioni per i Consumatori UE/SEE/UK - User Information Legal Enquiry Guide ©️ 2010-2025 AliExpress.com. All rights reserved.\n关闭",
+      "title_tag": ""
+    }
+  },
+  "final_data": {
+    "source": "meta_fallback",
+    "og_title": "Nuove Cuffie Wireless Bluetooth 5.4 2026 per Ufficio con Display LED, Batteria a Lunga Durata, Antiscivolo e Cancellazione del Rumore ENC - AliExpress 44",
+    "og_image": "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg",
+    "images": [
+      "https://ae-pic-a1.aliexpress-media.com/kf/S1ac69564080f4f3d9d4ab0e5c5c14689C/30x30.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sf826fda986cb463ca56efc2c5dcbdc9af.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S7a80d404b9df494b8c3b251efbac0b64M.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S14bdb58e79a74c9baf6e289cd745f7b5J.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sc254f5113e4a47fe823f9a8831ffaf70y.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S676b26003f3a4bfdbcb5453ce10d19f8R.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S9de4ab410eec4d9b8f0b0c97990e3e4bL.jpg_960x960q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Saac98d6e0eb1476ca25ec46a6265fc452/150x150.gif"
+    ],
+    "prices_found": [],
+    "page_config": {
+      "prefetch": {
+        "api": "mtop.aliexpress.pdp.pc.query",
+        "type": "GET",
+        "v": "1.0",
+        "timeout": 15000,
+        "dataType": "originaljsonp",
+        "data": {
+          "productId": "1005011813323763",
+          "_lang": "it_IT",
+          "_currency": "EUR",
+          "country": "IT",
+          "province": "",
+          "city": "",
+          "channel": "",
+          "pdp_ext_f": "",
+          "pdpNPI": "",
+          "sourceType": "",
+          "clientType": "pc",
+          "ext": "{\"foreverRandomToken\":\"[REDACTED_AUTH_SECRET]\",\"site\":\"ita\",\"crawler\":false,\"x-m-biz-bx-region\":\"\",\"signedIn\":false,\"host\":\"it.aliexpress.com\"}"
+        }
+      }
+    },
+    "body_snippet": "Per le spedizioni extra UE si applicano oneri di importazione\nAliExpress\nScarica l'app AliExpress\nIT/\nEUR\nBenvenuto\nAccedi / Registrazione\n0\nCarrello\nSupporto\nCentro assistenza, Dispute e rapporti, Politica di reso e rimborso, Segnala un'infrazione del Diritto di Proprietà Intellettuale, Informazioni DSA/OSA , Rispetto dell'integrità , Centro di trasparenza, Invio reclami (utenti non registrati), Politica di restituzione\nSiti multilingua di AliExpress\nPусский, Portuguese, Spanish, French, German, Italian, Dutch, Turkish, Japanese, Korean, Thai, Arabic, Hebrew, Polish\nSfoglia per categoria\nTutti i più popolari , Prodotto , Promozione , Prezzo basso , Grande Valore , Recensioni , Wiki, Blog, Video\nAlibaba Group\nAlibaba Group Website, AliExpress, Alimama, Fliggy, Alibaba Cloud, Alibaba International, AliTelecom, DingTalk, Juhuasuan, Taobao Marketplace, Tmall, Taobao Global, AliOS, 1688\nIntellectual Property Protection - Privacy Policy - Preferenze per i cookie - Mappa del Sito - Contratto di adesione gratuita ad AliExpress.com - Informazioni per i consumatori dell'UE - Accordo sui servizi di transazione per consumatori non UE/Regno Unito - Termini e Condizioni per i Consumatori UE/SEE/UK - User Information Legal Enquiry Guide ©️ 2010-2025 AliExpress.com. All rights reserved.\n关闭",
+    "title_tag": ""
+  },
+  "errors": [
+    "tmd: 'function' object has no attribute 'query_selector'"
+  ]
+}

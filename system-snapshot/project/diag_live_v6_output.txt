@@ -1,0 +1,64 @@
+=== R-52 diag_live_v6 — 2026-11-14 11:11:02 ===
+Query: 'наушники'
+R52_HOME: C:\Users\aleks\AppData\Local\R52
+use_proxies: False (direct, no proxy file)
+
+── Инициализация ──
+  WB: OK (WBCollector)
+  OZON: OK (OzonCollector)
+  AVITO: OK (AvitoCollector)
+  FARPOST: OK (FarpostCollector)
+  ALIEXPRESS: OK (AliExpressCollector)
+  ALIEXPRESS_RU: OK (AliExpressRUCollector)
+
+── Live-тест (p1 + p2) ──
+  WB: testing...
+    p1: HTTP_BLOCK | 0 items | 33.9s | SearchError: SEARCH_HTTP_403
+    p2: HTTP_BLOCK | 0 items | 45.4s | SearchError: SEARCH_HTTP_403
+
+  OZON: testing...
+    p1: EMPTY | 0 items | 27.8s | 0 items returned
+    p2: EMPTY | 0 items | 4.2s | 0 items returned
+
+  AVITO: testing...
+    p1: WAF | 0 items | 16.0s | SearchError: SEARCH_ACCESS_CHALLENGE
+    p2: SEARCH_ERR | 0 items | 0.0s | SearchError: SEARCH_REQUEST_FAILED
+
+  FARPOST: testing...
+    p1: OK | 10 items | 3.9s | 
+    p2: OK | 10 items | 18.7s | 
+
+  ALIEXPRESS: testing...
+    p1: OK | 10 items | 161.0s | 
+    p2: TIMEOUT (source deadline 55s)
+
+  ALIEXPRESS_RU: testing...
+    p1: OK | 10 items | 4.4s | 
+    p2: OK | 9 items | 12.5s | 
+
+── ИТОГ ──
+Source         P1         P1#   P2         P2#   P1s    P2s   
+------------------------------------------------------------
+WB             HTTP_BLOCK 0     HTTP_BLOCK 0     33.9   45.4  
+OZON           EMPTY      0     EMPTY      0     27.8   4.2   
+AVITO          WAF        0     SEARCH_ERR 0     16.0   0.0   
+FARPOST        OK         10    OK         10    3.9    18.7  
+ALIEXPRESS     OK         10    TIMEOUT    0     161.0  0     
+ALIEXPRESS_RU  OK         10    OK         9     4.4    12.5  
+
+Live OK p1: 3/6
+Live OK p2: 2/6
+
+── ID-детали ──
+  FARPOST p1: 10 items, first 5 IDs: ['138088942', '138089008', '135023432', '135023441', '135023456']
+  FARPOST p2: 10 items, first 5 IDs: ['138088942', '138089008', '135023432', '135023441', '135023456']
+  ALIEXPRESS p1: 10 items, first 5 IDs: ['1005013565057281', '1005013569410352', '1005012417611123', '1005013564277066', '1005012892557061']
+  ALIEXPRESS_RU p1: 10 items, first 5 IDs: ['1005009045264533', '1005012519559118', 'None', '1005013585509579', '1005013571233360']
+  ALIEXPRESS_RU p2: 9 items, first 5 IDs: ['None', '1005009806888270', '1005005192265099', '1005005585261297', '1005013516043530']
+
+── Повторяемость p1/p2 ──
+  FARPOST: p1=10 p2=10 overlap=10
+    WARNING: p2 IDs fully overlap p1 (pagination may be broken)
+  ALIEXPRESS_RU: p1=10 p2=9 overlap=1
+
+=== DONE ===

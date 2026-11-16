@@ -1,0 +1,93 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "НЕ Дорого. Утилизация, вывоз бытовой техники во Владивостоке, пригороде",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Вывоз бытовой техники,быстро и НЕ ДОРОГО Любая техника! -холодильники. -стирки. -сушки. -печки,плиты. -посудомойки. -телевизоры. -Быстро приедем и аккуратно все сделаем. -можем отключить и подключить технику. Так же занимаемся переездом,в день обращения -грузчики-русские,молодые,спортивные ребята. ЗВОНИТЕ 24/7 не стесняйтесь,интересуйтесь. ПИШИТЕ Max,What’s App,Telegram.",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Услуги > Грузоперевозки > Вывоз мусора, мебели, техники",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "driverservices": {
+            "label": "Услуги водителя",
+            "value": "С водителем"
+          },
+          "dalnost-perevozki": {
+            "label": "Дальность перевозки",
+            "value": "По городу, Между городами"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "138557574",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1791886314627_bulletin",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Услуги > Грузоперевозки > Вывоз мусора, мебели, техники",
+    "source": "FARPOST",
+    "id": "138557574",
+    "url": "https://www.farpost.ru/vladivostok/138557574.html",
+    "observed_at": "2026-11-15T19:14:52.650654+10:00",
+    "status": "DEGRADED",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

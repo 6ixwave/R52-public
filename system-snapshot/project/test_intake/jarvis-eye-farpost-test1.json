@@ -1,0 +1,190 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "IPhone 17 256Gb. Trade-IN. Кредит. Гарантия 1 год",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Смартфоны и сотовые телефоны. Цена: 71 999&#8381;. Apple iPhone 17. 256 Гб. 6.30&quot;. Моноблок. Синий. 3G, 4G LTE, 5G, Защищенный, NFC, eSIM, Беспроводная зарядка. Новый. В наличии. УЧАСТНИКАМ СВО И ВЕТЕРАНАМ БОЕВЫХ ДЕЙСТВИЙ ОСОБЫЕ СКИДКИ! ИНВАЛИДАМ ОСОБЫЕ СКИДКИ! СКИДКА СЕМЬЯМ С 2 И БОЛЕЕ ДЕТЬМИ (Многодетным семьям) ! Скидка 1.000руб или бронепленка в подарок в День Рождения Все скидки действительны при покупке на сумму от 20.000руб или при наличии нашей скидочной карты Выросло количество РЕФРЕШЕЙ и ПОДДЕЛОК... Владивосток",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Техника > Телефоны и связь > Смартфоны и сотовые телефоны > Телефоны Apple iPhone",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Apple iPhone",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          },
+          "model": {
+            "label": "Модель телефона",
+            "value": "Apple iPhone 17"
+          },
+          "internalMemory": {
+            "label": "Встроенная память",
+            "value": "256 Гб"
+          },
+          "diagonal": {
+            "label": "Диагональ",
+            "value": "6.30&nbsp;дюймов (16&nbsp;см)"
+          },
+          "formFactor": {
+            "label": "Тип корпуса",
+            "value": "Моноблок"
+          },
+          "color": {
+            "label": "Цвет",
+            "value": "Синий"
+          },
+          "function": {
+            "label": "Функции",
+            "value": "3G, 4G LTE, 5G, Защищенный, NFC, eSIM, Беспроводная зарядка"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Новый"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "116361427",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 7199900,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "71999.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1758268985893_bulletin",
+          "image_data": null,
+          "alt": "Apple iPhone 17. Новый, 256 Гб, Синий, 3G, 4G LTE, 5G, Защищенный, NFC, eSIM, Беспроводная зарядка фото",
+          "label": "",
+          "is_main": true,
+          "width": 1160,
+          "height": 819
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1758013461444_bulletin",
+          "image_data": null,
+          "alt": "Apple iPhone 17. Новый, 256 Гб, Синий, 3G, 4G LTE, 5G, Защищенный, NFC, eSIM, Беспроводная зарядка фото",
+          "label": "",
+          "is_main": false,
+          "width": 810,
+          "height": 872
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1758013461605_bulletin",
+          "image_data": null,
+          "alt": "Apple iPhone 17. Новый, 256 Гб, Синий, 3G, 4G LTE, 5G, Защищенный, NFC, eSIM, Беспроводная зарядка фото",
+          "label": "",
+          "is_main": false,
+          "width": 936,
+          "height": 1018
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1758013461888_bulletin",
+          "image_data": null,
+          "alt": "Apple iPhone 17. Новый, 256 Гб, Синий, 3G, 4G LTE, 5G, Защищенный, NFC, eSIM, Беспроводная зарядка фото",
+          "label": "",
+          "is_main": false,
+          "width": 962,
+          "height": 890
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1758013462479_bulletin",
+          "image_data": null,
+          "alt": "Apple iPhone 17. Новый, 256 Гб, Синий, 3G, 4G LTE, 5G, Защищенный, NFC, eSIM, Беспроводная зарядка фото",
+          "label": "",
+          "is_main": false,
+          "width": 972,
+          "height": 910
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1758013463451_bulletin",
+          "image_data": null,
+          "alt": "Apple iPhone 17. Новый, 256 Гб, Синий, 3G, 4G LTE, 5G, Защищенный, NFC, eSIM, Беспроводная зарядка фото",
+          "label": "",
+          "is_main": false,
+          "width": 984,
+          "height": 1012
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Техника > Телефоны и связь > Смартфоны и сотовые телефоны > Телефоны Apple iPhone",
+    "source": "FARPOST",
+    "id": "116361427",
+    "url": "https://www.farpost.ru/vladivostok/116361427.html",
+    "observed_at": "2026-11-13T22:22:54.663402+10:00",
+    "status": "FULL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

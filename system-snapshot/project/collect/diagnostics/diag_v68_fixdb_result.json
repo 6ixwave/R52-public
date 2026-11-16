@@ -1,0 +1,71 @@
+{
+  "db": "C:\\Users\\aleks\\Downloads\\R52-2.12\\R52-2.12\\r52\\data\\r52.db",
+  "exists": true,
+  "size": 217088,
+  "tables": [
+    "_migration",
+    "assistant_action",
+    "chat_message",
+    "chat_session",
+    "compare_group",
+    "compare_item",
+    "event",
+    "favorite",
+    "import_run",
+    "inbox_item",
+    "intake_file",
+    "notification",
+    "observation",
+    "price_point",
+    "product",
+    "schedule",
+    "schema_migrations",
+    "setting",
+    "source",
+    "task",
+    "task_transition",
+    "watch"
+  ],
+  "count__migration": 3,
+  "count_assistant_action": 0,
+  "count_chat_message": 0,
+  "count_chat_session": 0,
+  "count_compare_group": 0,
+  "count_compare_item": 0,
+  "count_event": 0,
+  "count_favorite": 0,
+  "count_import_run": 0,
+  "count_inbox_item": 0,
+  "count_intake_file": 0,
+  "count_notification": 0,
+  "count_observation": 0,
+  "count_price_point": 0,
+  "count_product": 0,
+  "count_schedule": 0,
+  "count_schema_migrations": 0,
+  "count_setting": 0,
+  "count_source": 6,
+  "count_task": 0,
+  "count_task_transition": 0,
+  "count_watch": 0,
+  "schema_migrations_exists": true,
+  "migrations": [],
+  "code_max_version": 3,
+  "code_migrations": [
+    [
+      1,
+      "initial"
+    ],
+    [
+      2,
+      "product_media"
+    ],
+    [
+      3,
+      "product_gallery"
+    ]
+  ],
+  "applied_max": 0,
+  "has_key_tables": true,
+  "action": "FIXED: inserted versions 1..3"
+}

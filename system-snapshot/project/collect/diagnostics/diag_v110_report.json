@@ -1,0 +1,63 @@
+{
+  "fp_homepage": {
+    "http": 200,
+    "ids_bulletin": [],
+    "ids_seo": [],
+    "ids_any": [],
+    "total": 0
+  },
+  "fp_131630486": {
+    "http": 404,
+    "bytes": 14104,
+    "final": "https://www.farpost.ru/vladivostok/bulletin/131630486",
+    "url": "https://www.farpost.ru/vladivostok/bulletin/131630486",
+    "note": "404"
+  },
+  "fp_66422428": {
+    "http": 404,
+    "bytes": 14102,
+    "final": "https://www.farpost.ru/vladivostok/bulletin/66422428",
+    "url": "https://www.farpost.ru/vladivostok/bulletin/66422428",
+    "note": "404"
+  },
+  "fp_134164000": {
+    "http": 404,
+    "bytes": 14104,
+    "final": "https://www.farpost.ru/vladivostok/bulletin/134164000",
+    "url": "https://www.farpost.ru/vladivostok/bulletin/134164000",
+    "note": "404"
+  },
+  "ozon_api": {
+    "http": 403,
+    "bytes": 7003
+  },
+  "ozon_error": "Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+  "av_search": {
+    "urls": 3,
+    "ids": []
+  },
+  "av_1165432100": {
+    "http": 404,
+    "bytes": 29907,
+    "note": "404 (ID not found)"
+  },
+  "av_1172345600": {
+    "http": 404,
+    "bytes": 29907,
+    "note": "404 (ID not found)"
+  },
+  "wb": {
+    "http": 200,
+    "bytes": 9623,
+    "data_keys": [
+      "subject_id",
+      "subject_root_id",
+      "chrt_ids",
+      "tech_size"
+    ],
+    "grouped_options_count": 4,
+    "go_": "",
+    "properties_count": 0,
+    "compositions": "[{'name': 'дигидрокверцетин, стевия, пшеничные отруби, арабиногалактан, амарант, зерно овса цельное'}]"
+  }
+}

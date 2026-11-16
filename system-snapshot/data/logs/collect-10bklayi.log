@@ -1,0 +1,42 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 02:39:28,085 r52.autocollect.worker INFO phase=worker_start pid=24904
+2026-11-15 02:39:28,101 r52.autocollect.worker INFO source=ALIEXPRESS mode=refresh phase=initialize
+2026-11-15 02:39:28,101 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 02:39:28,102 r52.autocollect.worker INFO source=ALIEXPRESS proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-15 02:39:28,102 r52.autocollect.worker INFO source=ALIEXPRESS listing=1005013549913775 phase=collect_product_start
+2026-11-15 02:39:29,319 r52.collectors.aliexpress INFO ALI_COM: curl_cffi 200 but short (2379 bytes), trying PW
+2026-11-15 02:39:30,361 r52.collectors.aliexpress INFO ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile, domain=com
+2026-11-15 02:39:30,391 r52.collectors.aliexpress INFO ALI PW: session already warm (19 cookies)
+2026-11-15 02:39:33,783 r52.collectors.aliexpress INFO ALI PW: navigate https://www.aliexpress.com/item/1005013549913775.html -> 200
+2026-11-15 02:39:34,775 r52.collectors.aliexpress INFO ALI PW: MTOP PDP captured, 543 bytes
+2026-11-15 02:39:34,824 r52.collectors.aliexpress INFO ALI PW: solving TMD...
+2026-11-15 02:39:39,965 r52.collectors.aliexpress INFO ALI PW: TMD checkbox clicked: #recaptcha-anchor
+2026-11-15 02:39:47,041 r52.collectors.aliexpress INFO ALI PW: done in 16.6s, mtop=1, rendered=False, dom_prices=[]
+2026-11-15 02:39:47,075 r52.collectors.aliexpress INFO ALI PW: MTOP ret=['FAIL_SYS_USER_VALIDATE', 'RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试'] (not success)
+2026-11-15 02:39:47,075 r52.collectors.aliexpress INFO ALI parse: title=Monitor da gioco curvo Titan Army C49SHC da 49 pol, prices=0, avail=UNKNOWN, media=12
+2026-11-15 02:39:47,075 r52.autocollect.worker INFO source=ALIEXPRESS listing=1005013549913775 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-15 02:39:47,075 r52.autocollect.worker INFO source=ALIEXPRESS listing=1005013572195570 phase=collect_product_start
+2026-11-15 02:39:48,318 r52.collectors.aliexpress INFO ALI_COM: curl_cffi 200 but short (2379 bytes), trying PW
+2026-11-15 02:39:49,049 r52.collectors.aliexpress INFO ALI PW: navigate https://www.aliexpress.com/item/1005013572195570.html -> 200
+2026-11-15 02:39:49,194 r52.collectors.aliexpress INFO ALI PW: MTOP PDP captured, 543 bytes
+2026-11-15 02:39:50,068 r52.collectors.aliexpress INFO ALI PW: solving TMD...
+2026-11-15 02:39:55,179 r52.collectors.aliexpress INFO ALI PW: TMD checkbox clicked: #recaptcha-anchor
+2026-11-15 02:40:02,257 r52.collectors.aliexpress INFO ALI PW: done in 13.9s, mtop=1, rendered=False, dom_prices=[]
+2026-11-15 02:40:02,286 r52.collectors.aliexpress INFO ALI PW: MTOP ret=['FAIL_SYS_USER_VALIDATE', 'RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试'] (not success)
+2026-11-15 02:40:02,286 r52.collectors.aliexpress INFO ALI parse: title=Monitor da gaming KTC H32D6S 31,5' 2K QHD 144Hz VA, prices=0, avail=UNKNOWN, media=12
+2026-11-15 02:40:02,287 r52.autocollect.worker INFO source=ALIEXPRESS listing=1005013572195570 phase=collect_product_return status=PARTIAL_SUCCESS
+2026-11-15 02:40:02,287 r52.autocollect.worker INFO source=ALIEXPRESS listing=1005009813246509 phase=collect_product_start
+2026-11-15 02:40:03,521 r52.collectors.aliexpress INFO ALI_COM: curl_cffi 200 but short (2379 bytes), trying PW
+2026-11-15 02:40:04,512 r52.collectors.aliexpress INFO ALI PW: navigate https://www.aliexpress.com/item/1005009813246509.html -> 200
+2026-11-15 02:40:05,526 r52.collectors.aliexpress INFO ALI PW: solving TMD...
+2026-11-15 02:40:10,593 r52.collectors.aliexpress INFO ALI PW: TMD checkbox clicked: #recaptcha-anchor
+2026-11-15 02:40:17,659 r52.collectors.aliexpress INFO ALI PW: done in 14.1s, mtop=0, rendered=False, dom_prices=[]
+2026-11-15 02:40:17,678 r52.collectors.aliexpress WARNING ALI: neither title nor price extracted
+2026-11-15 02:40:17,678 r52.autocollect.worker INFO source=ALIEXPRESS listing=1005009813246509 phase=collect_product_return status=NO_RESULT
+2026-11-15 02:40:17,678 r52.autocollect.worker WARNING source=ALIEXPRESS listing=1005009813246509 result=NO_RESULT remaining_not_attempted=['1005012258539556', '1005013031421695']
+2026-11-15 02:40:17,678 r52.autocollect.worker INFO source=ALIEXPRESS phase=write_start returned=2 valid=2 stats={'requests': 6, 'success': 2, 'failed': 1, 'blocked': 0}
+2026-11-15 02:40:17,679 r52.collectors INFO ALIEXPRESS: записан jarvis-eye-aliexpress-639714bf.json
+2026-11-15 02:40:17,681 r52.collectors INFO ALIEXPRESS: записан jarvis-eye-aliexpress-87931d5d.json
+2026-11-15 02:40:17,683 r52.autocollect.worker INFO source=ALIEXPRESS phase=write_complete files=2
+2026-11-15 02:40:17,683 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_start
+2026-11-15 02:40:17,840 r52.autocollect.worker INFO source=ALIEXPRESS phase=close_complete

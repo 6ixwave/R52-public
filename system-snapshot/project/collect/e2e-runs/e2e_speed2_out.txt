@@ -1,0 +1,67 @@
+﻿2026-11-12 06:08:12,717 e2e2 INFO === E2E v2 START 2026-11-12T06:08:12.717613+10:00 ===
+2026-11-12 06:08:12,717 e2e2 INFO --- WB id=100000001 budget=40s ---
+2026-11-12 06:08:13,404 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 06:08:13,605 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-12 06:08:28,244 r52.collectors.wb INFO WB: vol=1000 -> basket-05.wbbasket.ru (nm_id=100000001)
+2026-11-12 06:08:30,347 r52.collectors.wb INFO WB 100000001: card.json OK (17 keys, 5066B)
+2026-11-12 06:08:33,382 r52.collectors.wb INFO WB 100000001: price card_v1 -> 403
+2026-11-12 06:08:36,839 r52.collectors.wb INFO WB 100000001: price card_v2 -> 403
+2026-11-12 06:08:40,552 r52.collectors.wb INFO WB 100000001: price card_v4 -> 403
+2026-11-12 06:08:43,664 r52.collectors.wb INFO WB 100000001: price card_v5 -> 403
+2026-11-12 06:08:47,013 r52.collectors.wb INFO WB 100000001: price catalog_v1 -> 403
+2026-11-12 06:08:50,792 r52.collectors.wb INFO WB 100000001: price catalog_v2 -> 403
+2026-11-12 06:08:52,729 e2e2 WARNING WB: TIMEOUT 40s
+2026-11-12 06:08:52,729 e2e2 INFO --- OZON id=278346543 budget=30s ---
+2026-11-12 06:08:52,730 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 06:08:53,635 e2e2 INFO OZON cffi: HTTP 403 (8345B)
+2026-11-12 06:08:54,308 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True)
+2026-11-12 06:08:54,718 r52.collectors.wb INFO WB 100000001: price web_api -> 498
+2026-11-12 06:08:54,718 r52.collectors.wb INFO WB 100000001: price — все эндпоинты не дали данных
+2026-11-12 06:09:06,328 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/278346543/ -> 403 (3307B, 12.0s)
+2026-11-12 06:09:06,334 r52.collectors.ozon INFO OZON 278346543: PW status=403 len=3307
+2026-11-12 06:09:06,862 r52.collectors INFO OZON: HTTP 403, retry 1/1 через 13с
+2026-11-12 06:09:08,297 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-12 06:09:08,297 r52.collectors.wb INFO WB 100000001: photo_count=3, found=1
+2026-11-12 06:09:20,347 e2e2 INFO [OZON] 278346543: status=NO_DATA title='' prices=0 media=0 elapsed=27.6s verdict=DATA_WEAK
+2026-11-12 06:09:20,347 e2e2 INFO --- AVITO id=1102345678 budget=15s ---
+2026-11-12 06:09:20,347 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 06:09:21,154 e2e2 INFO [AVITO] 1102345678: status=NO_DATA title='' prices=0 media=0 elapsed=0.8s verdict=DATA_WEAK
+2026-11-12 06:09:21,154 e2e2 INFO --- FARPOST id=139122082 budget=10s ---
+2026-11-12 06:09:21,155 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 06:09:22,360 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 06:09:23,730 e2e2 INFO [FARPOST] 139122082: status=PARTIAL_SUCCESS title='Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R' prices=1 media=1 elapsed=2.6s verdict=DATA_OK
+2026-11-12 06:09:23,731 e2e2 INFO === E2E v2 DONE in 71.0s ===
+2026-11-12 06:09:23,731 e2e2 INFO SUMMARY:
+{
+  "WB": {
+    "verdict": "UNKNOWN",
+    "title": "",
+    "prices": 0,
+    "media": 0,
+    "elapsed": 0
+  },
+  "OZON": {
+    "verdict": "DATA_WEAK",
+    "title": "",
+    "prices": 0,
+    "media": 0,
+    "elapsed": 27.6
+  },
+  "AVITO": {
+    "verdict": "DATA_WEAK",
+    "title": "",
+    "prices": 0,
+    "media": 0,
+    "elapsed": 0.8
+  },
+  "FARPOST": {
+    "verdict": "DATA_OK",
+    "title": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красн",
+    "prices": 1,
+    "media": 1,
+    "elapsed": 2.6
+  }
+}
+2026-11-12 06:09:23,732 e2e2 INFO === VERDICT: 1/4 ===
+
+E2E_V2_DONE ok=1/4 total=71s

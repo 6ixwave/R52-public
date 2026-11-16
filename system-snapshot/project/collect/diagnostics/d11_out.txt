@@ -1,0 +1,37 @@
+﻿C:\Python315\python.exe : 2026-11-12 16:46:32,965 === diag_multi11 START ===
+строка:1 знак:36
++ ... ence='Continue'; C:\Python315\python.exe diag_multi11.py 2>&1 | Out-F ...
++                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 16:4...lti11 START ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 16:46:34,111 WB:card_v1 HTTP=403
+2026-11-12 16:46:35,519 WB:card_v2 HTTP=403
+2026-11-12 16:46:36,942 WB:card_v4 HTTP=403
+2026-11-12 16:46:38,360 WB:card_v5 HTTP=403
+2026-11-12 16:46:39,772 WB:catalog_v1 HTTP=403
+2026-11-12 16:46:41,189 WB:web_api HTTP=498
+2026-11-12 16:46:42,624 WB:search_wb HTTP=403
+2026-11-12 16:46:44,496 OZON:composer_v2 err=Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unabl
+e to g
+2026-11-12 16:46:46,504 OZON:pdp_entry HTTP=403 len=6059
+2026-11-12 16:46:49,166 OZON:api_card HTTP=403 len=6085
+2026-11-12 16:46:50,962 FP:v2 warmup HTTP=200 cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 16:46:54,620 FP:v2[0] HTTP=200 len=89024 verify=True url=https://www.farpost.ru/verify?u=%2Fvladivostok%2F13
+8859452.h prices=[] cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 16:46:57,801 FP:v2[1] HTTP=404 len=13900 verify=False url=https://www.farpost.ru/bulletin/138859452 prices=[
+] cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 16:47:01,852 AV:v2[0] HTTP=429 len=34116 captcha=True prices=[]
+2026-11-12 16:47:04,978 AV:v2[1] HTTP=429 len=34116 captcha=True prices=[]
+2026-11-12 16:47:06,979 === diag_multi11 DONE in 34.0s ===
+2026-11-12 16:47:06,979   WB:price         ok=False all endpoints failed
+2026-11-12 16:47:06,979   OZON:composer_v2 ok=False err=Failed to perform, curl: (60) SSL certificate OpenSSL verify re
+sult: unable to g
+2026-11-12 16:47:06,979   OZON:pdp_entry   ok=False HTTP=403
+2026-11-12 16:47:06,979   OZON:api_card    ok=False HTTP=403
+2026-11-12 16:47:06,979   FP:v2_0          ok=False HTTP=200 len=89024 verify=True url=https://www.farpost.ru/verify?u=
+%2Fvladivostok%2F138859452.h prices=[] cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 16:47:06,979   FP:v2_1          ok=False HTTP=404 len=13900 verify=False url=https://www.farpost.ru/bulletin
+/138859452 prices=[] cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 16:47:06,979   AV:v2_0          ok=False HTTP=429 len=34116 captcha=True prices=[]
+2026-11-12 16:47:06,979   AV:v2_1          ok=False HTTP=429 len=34116 captcha=True prices=[]

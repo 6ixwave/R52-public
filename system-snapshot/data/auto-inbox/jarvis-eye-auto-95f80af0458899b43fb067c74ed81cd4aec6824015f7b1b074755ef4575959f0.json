@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Колготки теплые с мехом",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Denvi",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "kolgotki_black",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Наши колготки имеют высокую посадку и удобную широкую резинку. Внутри находится приятный мех с начесом, который приятен для кожи и имеет термоэффект.  Мягкий ворс с кашемиром обеспечит надежную защиту от холодного осеннего ветра. Прочная и эластичная модель на флисе ",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Белье > Колготки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Состав: бамбук 70%; шерсть 20%; полиамид 8%; Эластан 2%\nЦвет: черный\nПлотность плетения: 8800 ден\nТип посадки: высокая\nРост модели на фото: 175 см\nДекоративные элементы: без элементов\nОсобенности белья: плоские швы\nКомплектация: колготки женские -1 шт.\nСтрана производства: Россия",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 500000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "5000.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 54800,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "548.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-16.wbbasket.ru/vol2550/part255059/255059226/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-16.wbbasket.ru/vol2550/part255059/255059226/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-16.wbbasket.ru/vol2550/part255059/255059226/images/S800/1.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Белье > Колготки",
+    "source": "WB",
+    "id": "255059226",
+    "url": "https://www.wildberries.ru/catalog/255059226/detail.aspx",
+    "observed_at": "2026-11-16T05:24:13.184778+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

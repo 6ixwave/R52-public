@@ -1,0 +1,33 @@
+[04:25:11] PHASE3 START (cffi=True)
+[04:25:11] === FARPOST P3 ===
+[04:25:11] === WB P3 ===
+[04:25:11] === OZON P3 ===
+[04:25:11] === AVITO P3 ===
+[04:25:12] WB warmup: 498 cookies=[REDACTED_AUTH_SECRET]
+[04:25:12] Saved avito_m_main.html (34116 bytes)
+[04:25:12] Avito m-main: 429 size=34116 ads=0
+[04:25:13] Saved fp_item_full.html (89152 bytes)
+[04:25:13] FP item: 200 size=89152 scripts=4 data_attrs=0 item_hrefs=1
+[04:25:14] Saved wb_detail_full.html (1136 bytes)
+[04:25:14] Saved fp_cat_full.html (89139 bytes)
+[04:25:14] FP cat: 200 size=89139 item_hrefs=0 data_ids=0
+[04:25:14] === FARPOST P3 DONE ===
+[04:25:18] Ozon entrypoint: 403
+[04:25:21] Saved ozon_product_full.html (5142 bytes)
+[04:25:21] Ozon HTML session: 403 size=5142 antibot=True
+[04:25:21] === OZON P3 DONE ===
+[04:25:22] Avito : 429
+[04:25:23] Avito fony: 429
+[04:25:25] Avito ka/telefony: 429
+[04:25:30] Avito share: 404
+[04:25:30] === AVITO P3 DONE ===
+[04:26:07] WB basket scan: 0/41 OK
+[04:26:08] WB search: 498 size=1136 products=0
+[04:26:08] === WB P3 DONE ===
+[04:26:08] PHASE3 DONE in 56.8s
+[04:26:08] Saved: diag_phase3_result.json
+[04:26:08] --- SUMMARY ---
+[04:26:08]   FARPOST: 2/2 → ['item-analysis', 'cat-analysis']
+[04:26:08]   WB: 0/4 → []
+[04:26:08]   OZON: 0/8 → []
+[04:26:08]   AVITO: 0/10 → []

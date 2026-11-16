@@ -1,0 +1,32 @@
+2026-11-14 15:01:01,546 [diag.step2] INFO: ============================================================
+2026-11-14 15:01:01,546 [diag.step2] INFO: TEST 1: OZON Composer API (286156832)
+2026-11-14 15:01:01,546 [diag.step2] INFO: ============================================================
+2026-11-14 15:01:29,149 [diag.step2] INFO: ============================================================
+2026-11-14 15:01:29,149 [diag.step2] INFO: TEST 1: OZON Composer API (286156832)
+2026-11-14 15:01:29,149 [diag.step2] INFO: ============================================================
+2026-11-14 15:01:29,484 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:01:30,914 [r52.collectors.ozon] INFO: OZON 286156832: composer v2 error: Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-14 15:01:42,440 [r52.collectors.ozon] INFO: OZON 286156832: 286156832 -> HTTP 403
+2026-11-14 15:01:54,878 [r52.collectors.ozon] INFO: OZON 286156832: composer v2 error: Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-14 15:01:54,878 [diag.step2] INFO: [TEST] OZON / composer_api: {"status": "NONE", "detail": "all endpoints failed"}
+2026-11-14 15:01:54,878 [diag.step2] INFO: ============================================================
+2026-11-14 15:01:54,878 [diag.step2] INFO: TEST 2: OZON parse_page anti-bot detection
+2026-11-14 15:01:54,878 [diag.step2] INFO: ============================================================
+2026-11-14 15:01:54,878 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:01:54,879 [r52.collectors.ozon] WARNING: OZON 286156832: ANTI-BOT challenge page (len=8287)
+2026-11-14 15:01:54,879 [diag.step2] INFO: [TEST] OZON / parse_anti_bot: {"input_len": 8287, "result": "NONE", "pass": true}
+2026-11-14 15:01:54,879 [r52.collectors.ozon] WARNING: OZON 123: короткий ответ (5 байт)
+2026-11-14 15:01:54,879 [diag.step2] INFO: [TEST] OZON / parse_short: {"result": "NONE", "pass": true}
+2026-11-14 15:01:54,879 [diag.step2] INFO: ============================================================
+2026-11-14 15:01:54,879 [diag.step2] INFO: TEST 3: FARPOST discovery + collect_product
+2026-11-14 15:01:54,879 [diag.step2] INFO: ============================================================
+2026-11-14 15:01:54,879 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:01:54,879 [r52.collectors.farpost] INFO: FARPOST: curl_cffi доступен (impersonate=chrome)
+2026-11-14 15:01:54,879 [diag.step2] INFO: FARPOST discovery: query='смартфоны'
+2026-11-14 15:01:54,898 [diag.step2] INFO: [TEST] FARPOST / discovery_collect: {"status": "ERROR", "error": "'FarpostCollector' object has no attribute 'search'", "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-
+2026-11-14 15:01:54,898 [diag.step2] INFO: ============================================================
+2026-11-14 15:01:54,898 [diag.step2] INFO: TEST 4: OZON discovery
+2026-11-14 15:01:54,898 [diag.step2] INFO: ============================================================
+2026-11-14 15:01:54,899 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-14 15:01:54,899 [diag.step2] INFO: [TEST] OZON / discovery_collect: {"status": "ERROR", "error": "'OzonCollector' object has no attribute 'search'", "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.1
+2026-11-14 15:01:54,900 [diag.step2] INFO: Report saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\debug\diag_step2_output\diag_step2_report.json

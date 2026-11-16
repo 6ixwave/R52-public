@@ -1,0 +1,11 @@
+{
+  "product_id": "1005011813323763",
+  "url": "https://www.aliexpress.com/item/1005011813323763.html",
+  "timestamp": "2026-11-12T15:25:57.006717+00:00",
+  "script": "diag_ali_pw36",
+  "strategies": {},
+  "final_data": null,
+  "errors": [
+    "main: 'BrowserContext' object has no attribute 'frames'"
+  ]
+}

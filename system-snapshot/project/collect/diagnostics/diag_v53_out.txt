@@ -1,0 +1,87 @@
+============================================================
+DIAG v53: WB + AVITO  |  2026-11-11T07:43:39.933309
+============================================================
+
+============================================================
+WILDBERRIES
+============================================================
+
+--- W1: catalog.wb.ru via curl_cffi ---
+  cffi nm=199298871: HTTP 403, len=0
+    Headers: {'date': 'Tue, 10 Nov 2026 21:43:41 GMT', 'content-type': 'text/plain', 'status-no-id': 'PG-42-XS', 'server': 'wbaas', 'x-request-id': 'a059d1ae16d84070364d736c3bee7df9', 'report-to': '{ "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }', 'nel': '{ "report_to": "nel", "max_age": 604800, "include_subdomains": false, "success_fraction": 0.0, "failure_fraction": 1.0 }', 'strict-transport-security': 'max-age=31536000; preload; always'}
+  cffi nm=110835207: HTTP 403, len=0
+    Headers: {'date': 'Tue, 10 Nov 2026 21:43:43 GMT', 'content-type': 'text/plain', 'status-no-id': 'PG-42-XS', 'server': 'wbaas', 'x-request-id': '93ce80c1dafdd1fb2ac48305d8c3d1d7', 'report-to': '{ "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }', 'nel': '{ "report_to": "nel", "max_age": 604800, "include_subdomains": false, "success_fraction": 0.0, "failure_fraction": 1.0 }', 'strict-transport-security': 'max-age=31536000; preload; always'}
+  cffi nm=188497640: HTTP 403, len=0
+    Headers: {'date': 'Tue, 10 Nov 2026 21:43:46 GMT', 'content-type': 'text/plain', 'status-no-id': 'PG-41-EL', 'server': 'wbaas', 'x-request-id': 'e2caf241fba317664d92c20b8918c1ab', 'report-to': '{ "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }', 'nel': '{ "report_to": "nel", "max_age": 604800, "include_subdomains": false, "success_fraction": 0.0, "failure_fraction": 1.0 }', 'strict-transport-security': 'max-age=31536000; preload; always'}
+  cffi nm=12736071: HTTP 403, len=0
+    Headers: {'date': 'Tue, 10 Nov 2026 21:43:49 GMT', 'content-type': 'text/plain', 'status-no-id': 'PG-43-XC', 'server': 'wbaas', 'x-request-id': '318427b1b67b3d5dd97f42c2e8e23242', 'report-to': '{ "group": "nel", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/reports"}] }, { "group": "csp", "max_age": 604800, "endpoints": [{"url": "https://nel.wb.ru/csp"}] }', 'nel': '{ "report_to": "nel", "max_age": 604800, "include_subdomains": false, "success_fraction": 0.0, "failure_fraction": 1.0 }', 'strict-transport-security': 'max-age=31536000; preload; always'}
+
+--- W2: catalog.wb.ru via requests ---
+  req nm=199298871: HTTP 403, len=0
+  req nm=110835207: HTTP 403, len=0
+  req nm=188497640: HTTP 403, len=0
+
+--- W3: card.wb.ru/cards/v2/detail ---
+  card v2 nm=199298871: HTTP 403, len=0
+  card v2 nm=110835207: HTTP 403, len=0
+  card v2 nm=188497640: HTTP 403, len=0
+
+--- W4: WB search API for live IDs ---
+  search: HTTP 403, len=0
+  search body[:100]: 
+
+WB RESULT: api_ok=False
+
+============================================================
+AVITO
+============================================================
+
+--- A1: Find real Avito ad IDs ---
+  cat /moscow/telefony: HTTP 429, len=34116
+    IDs: 0 (p1=0, p2=0, p3=0, p4=0)
+  cat /moscow/noutbuki: HTTP 429, len=34116
+    IDs: 0 (p1=0, p2=0, p3=0, p4=0)
+  cat /moscow/avto: HTTP 429, len=34116
+    IDs: 0 (p1=0, p2=0, p3=0, p4=0)
+  cat /spb/telefony: HTTP 404, len=29440
+    IDs: 1 (p1=1, p2=0, p3=0, p4=0)
+      200026938
+  cat /moscow/kvartiry: HTTP 429, len=34116
+    IDs: 0 (p1=0, p2=0, p3=0, p4=0)
+
+--- A2: Avito search page ---
+  search /search?q=iphone&f=0: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    IDs: 0
+  search /moscow/search?q=noutbuk&f=0: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    IDs: 0
+  search /search?query=телефон: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    IDs: 0
+
+--- A3: Test ad pages with real IDs ---
+  Testing IDs: ['200026938']
+  id=200026938 /ad/200026938: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False, 404=True
+  id=200026938 /200026938: HTTP 429, len=34116
+    Title: Доступ ограничен: проблема с IP
+    CAPTCHA=True, JSON-LD=False, 404=False
+
+--- A4: Full browser session ---
+  Main: HTTP 429, len=35048
+  Ad 200026938: HTTP 404, len=29440
+    Title: Ошибка 404. Страница не найдена
+    CAPTCHA=False, JSON-LD=False, 404=True
+
+AVITO RESULT: page_ok=False, real_ids=['200026938']
+
+============================================================
+SUMMARY
+============================================================
+  WB:    api_ok=False
+  AVITO: page_ok=False, ids=['200026938']
+  DONE: 2026-11-11T07:44:55.401764
+
+Full log: 72 lines (via shell redirect)

@@ -1,0 +1,26 @@
+{
+  "scope": "collector audit, offline regression and isolated R52.cmd startup",
+  "tests": {
+    "passed": 105,
+    "subtests_passed": 66,
+    "exit_code": 0,
+    "seconds": 8.53
+  },
+  "app": {
+    "home": "C:\\Users\\aleks\\AppData\\Local\\Temp\\R52-acceptance-xomxmb3l",
+    "port": 55934,
+    "source_count": 6,
+    "disabled_run": "AUTOCOLLECT_DISABLED",
+    "shutdown_verified": true,
+    "visual_click_acceptance": false
+  },
+  "new_live_products_this_continuation": 0,
+  "gate": "NOT READY",
+  "sha256": {
+    "r52/collectors/aliexpress.py": "9f364e54d945c0be690b8316837701a7299aee1ef7f74ed5793601a62db3171d",
+    "tests/test_collector_contracts.py": "3d8baebfe19189684153c4cc38d8bbceadff5dfe5301dcbb21a1f2dc2ae86672",
+    "tests/test_autocollect.py": "abef23dbfe9cbfdf283846b1876ba595217a6143e01570c842db9a5d28f376ae",
+    "docs/autocollect/PROXY-AND-DIAGNOSTICS-RU.md": "c851c9a91738bb8017228a508c1dc6a4175c4e76abde01aebbc8226f834c53da",
+    "docs/autocollect/NEXT-MODEL-PROMPT-RU.md": "13938f97c5ac167f2b5523aa303954f9f8e0d4ebb8121fc2e86154f84467ada7"
+  }
+}

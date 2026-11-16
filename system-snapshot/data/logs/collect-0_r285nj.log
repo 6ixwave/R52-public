@@ -1,0 +1,41 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 18:08:30,178 r52.autocollect.worker INFO phase=worker_start pid=12000
+2026-11-15 18:08:30,195 r52.autocollect.worker INFO source=OZON mode=discover phase=initialize
+2026-11-15 18:08:30,218 r52.collectors.proxy INFO Загружено прокси: 1000
+2026-11-15 18:08:30,224 r52.autocollect.worker INFO source=OZON proxy_pool={'total': 1000, 'alive': 1000, 'use_proxies': True, 'fail_closed': True}
+2026-11-15 18:08:30,224 r52.autocollect.worker INFO source=OZON phase=search_start page=1 limit=5
+2026-11-15 18:08:32,884 r52.collectors.ozon INFO OZON warmup: HTTP 403
+2026-11-15 18:08:45,889 r52.collectors.ozon INFO OZON search: HTTP 403, retrying in 3s
+2026-11-15 18:08:49,822 r52.collectors.ozon INFO OZON search: HTTP 403, retrying in 3s
+2026-11-15 18:08:53,290 r52.collectors.ozon WARNING OZON search: HTTP 403 for 'видеокарты'
+2026-11-15 18:08:54,308 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-15 18:08:54,308 r52.collectors.ozon INFO OZON search: HTTP 403 → PwFetcher (direct)
+2026-11-15 18:09:09,664 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/search/?text=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%8 -> 403 (3310B, 15.4s)
+2026-11-15 18:09:09,671 r52.collectors.ozon WARNING OZON search: PwFetcher short (3310 bytes)
+Timeout (0:01:00)!
+Thread 0x00003910 [Thread-1 (watch)] (most recent call first):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 28 in watch
+  File "C:\Python315\Lib\threading.py", line 1161 in run
+  File "C:\Python315\Lib\threading.py", line 1219 in _bootstrap_inner
+  File "C:\Python315\Lib\threading.py", line 1181 in _bootstrap
+
+Thread 0x000038ec (most recent call first):
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 771 in _poll
+  File "C:\Python315\Lib\asyncio\windows_events.py", line 445 in select
+  File "C:\Python315\Lib\asyncio\base_events.py", line 2032 in _run_once
+  File "C:\Python315\Lib\asyncio\base_events.py", line 682 in run_forever
+  File "C:\Python315\Lib\asyncio\base_events.py", line 711 in run_until_complete
+  File "C:\Users\aleks\AppData\Roaming\Python\Python315\site-packages\playwright\sync_api\_context_manager.py", line 60 in greenlet_main
+2026-11-15 18:09:37,544 r52.collectors.pw_fetch WARNING PwFetcher.get_xhr: no matching XHR captured
+2026-11-15 18:09:37,551 r52.autocollect.worker INFO source=OZON phase=close_start
+2026-11-15 18:09:37,909 r52.autocollect.worker INFO source=OZON phase=close_complete
+2026-11-15 18:09:37,910 root ERROR phase=worker_failed code=SEARCH_HTTP_403
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 98, in main
+    run(json.loads((folder / "request").read_text("utf-8")), folder)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\auto_worker.py", line 80, in run
+    rows = collector.collect_by_search(params["value"], page=params["page"], page_size=params["limit"])
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\collectors\ozon.py", line 1181, in collect_by_search
+    raise SearchError(f"SEARCH_HTTP_{_sc}")
+r52.collectors.discovery.SearchError: SEARCH_HTTP_403

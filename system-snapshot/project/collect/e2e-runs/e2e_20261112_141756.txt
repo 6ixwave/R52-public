@@ -1,0 +1,33 @@
+2026-11-12 14:17:56,897 E2E                INFO  E2E ALL  2026-11-12 14:17:56
+2026-11-12 14:17:56,897 E2E                INFO  DB path: C:\Users\aleks\AppData\Local\R52\data\r52.sqlite3 (exists=True)
+2026-11-12 14:17:56,897 E2E                INFO  Log file: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\e2e_20261112_141756.txt
+2026-11-12 14:17:57,236 E2E                INFO  App + Inbox ready (db=C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\e2e_test_home\data\r52.sqlite3)
+2026-11-12 14:17:57,238 E2E                INFO  BASELINE: prod=3 obs=4 pp=2
+2026-11-12 14:17:57,240 E2E                INFO    OZON       prod=0 obs=0 pp=0
+2026-11-12 14:17:57,240 E2E                INFO    WB         prod=1 obs=2 pp=0
+2026-11-12 14:17:57,240 E2E                INFO    FARPOST    prod=2 obs=2 pp=2
+2026-11-12 14:17:57,240 E2E                INFO    AVITO      prod=0 obs=0 pp=0
+2026-11-12 14:17:57,240 E2E                INFO  --- WB: starting (timeout=90s) ---
+2026-11-12 14:17:57,241 E2E                INFO  === WB  listing=1097975275 ===
+2026-11-12 14:17:57,244 E2E                INFO    URL: https://www.wildberries.ru/catalog/1097975275/detail.aspx
+2026-11-12 14:19:27,242 E2E                WARNING --- WB: TIMEOUT after 90.0s (limit 90s) ---
+2026-11-12 14:20:35,178 E2E                INFO    collector OK  157.9s  status=PARTIAL_SUCCESS  prices=0
+2026-11-12 14:20:35,178 E2E                INFO    payload 5759 bytes
+2026-11-12 14:20:35,185 E2E                INFO    stage_bytes -> id=6 created=True status=PENDING err=None
+2026-11-12 14:20:35,191 E2E                INFO    accept      -> product_id=1 obs_created=True events=0
+2026-11-12 14:20:35,694 E2E                INFO    DELTA  +prod=0  +obs=1  +pp=0
+2026-11-12 14:20:35,695 E2E                INFO    => PARTIAL (no new pp, dedup?)
+2026-11-12 14:20:35,695 E2E                INFO  --- FARPOST: starting (timeout=90s) ---
+2026-11-12 14:20:35,696 E2E                INFO  === FARPOST  listing=https://www.farpost.ru/ni/irkutsk/zapchasti/dvigatel-nissan- ===
+2026-11-12 14:20:35,697 E2E                INFO    URL: https://www.farpost.ru/ni/irkutsk/zapchasti/dvigatel-nissan-cga3-ustanovka-v-podarok-garantija-do-goda-138859452.html
+2026-11-12 14:20:38,342 E2E                INFO    collector OK  2.6s  status=PARTIAL_SUCCESS  prices=1
+2026-11-12 14:20:38,342 E2E                INFO      regular  10850000 RUB  'data-bulletin-price'
+2026-11-12 14:20:38,342 E2E                INFO    payload 5140 bytes
+2026-11-12 14:20:38,348 E2E                INFO    stage_bytes -> id=7 created=True status=INVALID err=CARD_IDENTITY_NOT_CONFIRMED
+2026-11-12 14:20:38,348 E2E                WARNING   stage not PENDING (status=INVALID, err=CARD_IDENTITY_NOT_CONFIRMED)
+2026-11-12 14:20:38,851 E2E                INFO    DELTA  +prod=0  +obs=0  +pp=0
+2026-11-12 14:20:38,852 E2E                INFO    => PARTIAL (no new pp, dedup?)
+2026-11-12 14:20:38,853 E2E                INFO  --- FARPOST: done in 3.2s, ok=False ---
+2026-11-12 14:20:38,854 E2E                INFO  --- OZON: starting (timeout=90s) ---
+2026-11-12 14:20:38,854 E2E                INFO  === OZON  listing=2067947177 ===
+2026-11-12 14:20:38,857 E2E                INFO    URL: https://www.ozon.ru/product/2067947177/

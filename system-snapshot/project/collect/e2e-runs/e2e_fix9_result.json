@@ -1,0 +1,84 @@
+{
+  "ts": "2026-11-12T11:54:04.214201+10:00",
+  "s": 43.4,
+  "pass": "[REDACTED_AUTH_SECRET]",
+  "d": {
+    "WB": {
+      "verdict": "E2E_PASS",
+      "sqlite": {
+        "products": [
+          {
+            "id": 1,
+            "source": "WB",
+            "listing_id": "1097975275",
+            "url": "https://www.wildberries.ru/catalog/1097975275/detail.aspx",
+            "title": "Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)",
+            "brand": "Apple",
+            "model": null,
+            "origin": "EYE",
+            "search_text": "смартфон iphone 17 pro max 256 серебряный (esim) apple 1097975275",
+            "created_at": "2026-11-12T01:53:22.167+00:00",
+            "updated_at": "2026-11-12T01:53:22.167+00:00",
+            "last_observation_id": 1,
+            "last_seen_at": "2026-11-12T01:53:22.142+00:00",
+            "last_currency": "RUB",
+            "last_regular_minor": 250148991,
+            "last_lowest_minor": 250148991,
+            "last_lowest_role": "regular",
+            "last_availability": "UNKNOWN",
+            "observation_count": 1,
+            "image_data": null,
+            "image_source_url": null,
+            "image_observed_at": null,
+            "category_path": "Смартфоны и гаджеты > Смартфоны",
+            "gallery_json": null
+          }
+        ],
+        "observations": [
+          {
+            "id": 1,
+            "product_id": 1,
+            "observed_at": "2026-11-12T01:53:22.142+00:00",
+            "imported_at": "2026-11-12T01:53:22.167+00:00",
+            "origin": "EYE",
+            "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+            "availability": "UNKNOWN",
+            "fingerprint": "2ca8e90f79f30f86adacc68f7471b3876c5ad4f34c61adafadbf8f40b287734d",
+            "normalized_json": "{\"media\": null, \"category_path\": \"Смартфоны и гаджеты > Смартфоны\", \"version\": \"R52_NORMALIZED_3\", \"scope\": \"USER_EYE_EXPORT\", \"source\": \"WB\", \"listing_id\": \"1097975275\", \"url\": \"https://www.wildberries.ru/catalog/1097975275/detail.aspx\", \"observed_at\": \"2026-11-12T01:53:22.142+00:00\", \"title\": \"Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)\", \"brand\": \"Apple\", \"model\": null, \"fields\": {\"title\": {\"state\": \"OBSERVED\", \"value\": \"Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)\", \"method\": \"HTTP\", \"evidence\": {\"method\": \"HTTP\", \"source\": \"WB\"}, \"independently_verified\": false}, \"model\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"variant\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"displayed_price\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"price_conditions\": {\"state\": \"OBSERVED\", \"value\": [\"2 501 489,91 ₽\"], \"method\": \"PRICE_CANDIDATES\", \"evidence\": null, \"independently_verified\": false}, \"condition\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"bundle\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"seller_location\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"availability\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"delivery\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"warranty\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"returns\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"reviews\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}, \"questions\": {\"state\": \"UNKNOWN\", \"value\": null, \"method\": null, \"evidence\": null, \"independently_verified\": false}}, \"prices\": [{\"role\": \"regular\", \"role_origin\": \"SOURCE_ROLE\", \"source_role\": \"regular\", \"amount_minor\": 250148991, \"currency\": \"RUB\", \"label\": null, \"variant_association\": \"UNKNOWN\", \"evidence\": null, \"applicability_verified\": false}], \"characteristics\": [], \"description_hints\": [], \"condition\": {\"code\": \"UNKNOWN\", \"origin\": null, \"independently_verified\": false}, \"availability\": \"UNKNOWN\", \"delivery\": {\"requested_destination\": \"Владивосток\", \"destination_mentioned\": false, \"destination_confirmed\": false, \"terms\": null, \"terms_state\": \"UNKNOWN\", \"cost_minor\": null, \"cost_state\": \"UNKNOWN\"}, \"page_region\": null, \"conflicts\": [], \"checks\": [{\"code\": \"VERIFY_TOTAL\", \"text\": \"Уточнить применимую цену, наличие, доставку во Владивосток и все обязательные расходы.\"}, {\"code\": \"VERIFY_VARIANT\", \"text\": \"Сверить точный MPN по фото или маркировке и фактическую модификацию.\"}, {\"code\": \"VERIFY_CONDITION_WARRANTY\", \"text\": \"Уточнить состояние, историю обслуживания, комплект, гарантию и возможность проверки.\"}], \"full_cost_blockers\": [\"price_applicability\", \"exact_physical_variant\", \"availability_confirmed\", \"delivery_to_Vladivostok\", \"delivery_cost\", \"mandatory_additional_costs\"], \"completeness\": {\"total\": 14, \"known\": 2, \"unknown\": [\"Модель\", \"Модификация\", \"Отображаемая цена\", \"Состояние\", \"Комплект\", \"Местонахождение продавца\", \"Наличие\", \"Доставка\", \"Гарантия\", \"Возврат\", \"Отзывы\", \"Вопросы покупателей\"], \"independently_verified\": 0}, \"eye\": {\"status\": \"PARTIAL_SUCCESS\", \"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTTP\", \"http_status\": 200}}",
+            "raw_json": "{\"fields\": {\"title\": {\"status\": \"KNOWN\", \"value\": \"Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)\", \"method\": \"HTTP\", \"evidence\": {\"method\": \"HTTP\", \"source\": \"WB\"}}, \"brand\": {\"status\": \"KNOWN\", \"value\": \"Apple\", \"method\": \"HTTP\", \"evidence\": {\"method\": \"HTTP\", \"source\": \"WB\"}}, \"description\": {\"status\": \"KNOWN\", \"value\": \"Товар в наличии, находится на складе в МО. Смартфон Apple iPhone 17 Pro Max объемом памяти 256 ГБ - максимум экрана и возможностей в линейке. Огромная диагональ с почти незаметными рамками, высокая яркость и плавная частота обновления дарят глубокое погружение в фильмы, игры и работу, а контент остаётся читаемым даже под солнцем. Корпус из премиальных материалов ощущается монолитным и надёжным, защита от брызг, воды и пыли помогает спокойно пережить насыщенный день.\\n\\nКамеры уровня Pro созданы для выразительных снимков в любых условиях. Крупные сенсоры, продвинутый автофокус и улучшенная стабилизация обеспечивают детальные фото и чёткое видео при слабом освещении, а дальнобойное оптическое приближение позволяет снимать издалека без заметной потери качества. Портреты с регулируемой глубиной резкости, выразительное макро и поддержка профессиональных форматов съёмки открывают больше свободы для творчества и контента.\\n\\nФлагманская производительность с ускоренным нейромодулем даёт мгновенный отклик, быструю обработку фото и видео и стабильные кадры в играх. Автономность рассчитана на долгий день, поддерживаются быстрая и беспроводная зарядка, а магнитные аксессуары упрощают повседневные задачи. Современные беспроводные стандарты, надёжная защита данных и глубокая интеграция с экосистемой Apple делают Смартфон iPhone 17 Pro Max идеальным выбором для работы, путешествий и развлечений.\\n\\n\\nПоддерживает только карты eSIM; не поддерживает физические SIM-карты.\\n\\nСовершенно новый и подлинный, неактивированный и неоткрытый.Без RuStore!\", \"method\": \"HTTP\", \"evidence\": {\"method\": \"HTTP\", \"source\": \"WB\"}}, \"category\": {\"status\": \"KNOWN\", \"value\": \"Смартфоны и гаджеты > Смартфоны\", \"method\": \"HTTP\", \"evidence\": {\"method\": \"HTTP\", \"source\": \"WB\"}}}, \"price_candidates\": [{\"role\": \"regular\", \"amount_minor\": 250148991, \"currency\": \"RUB\", \"label\": \"Cena\"}], \"availability\": \"UNKNOWN\", \"category_path\": \"Смартфоны и гаджеты > Смартфоны\", \"source\": \"WB\", \"id\": \"1097975275\", \"url\": \"https://www.wildberries.ru/catalog/1097975275/detail.aspx\", \"observed_at\": \"2026-11-12T11:53:22.142703+10:00\", \"status\": \"PARTIAL_SUCCESS\", \"product_content\": true, \"evidence_level\": \"COLLECTOR_AUTONOMOUS_HTTP\", \"http_status\": 200}"
+          }
+        ],
+        "price_points": [
+          {
+            "id": 1,
+            "observation_id": 1,
+            "product_id": 1,
+            "role": "regular",
+            "amount_minor": 250148991,
+            "currency": "RUB",
+            "label": null,
+            "observed_at": "2026-11-12T01:53:22.142+00:00"
+          }
+        ],
+        "product_count": 1,
+        "observation_count": 1,
+        "price_point_count": 1
+      },
+      "price_source": "selling.supplier_id"
+    },
+    "AVITO": {
+      "verdict": "E2E_FAIL",
+      "sqlite": {
+        "products": [],
+        "observations": [],
+        "price_points": [],
+        "product_count": 0,
+        "observation_count": 0,
+        "price_point_count": 0
+      },
+      "inbox": null,
+      "ad_ids_tried": [],
+      "reason": "no ad fetched"
+    }
+  }
+}

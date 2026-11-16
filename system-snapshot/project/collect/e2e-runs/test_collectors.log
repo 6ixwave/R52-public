@@ -1,0 +1,56 @@
+2026-11-12 19:51:41,870 [test] INFO: START test_collectors at 19:51:41
+2026-11-12 19:51:41,871 [test] INFO: ============================================================
+2026-11-12 19:51:41,871 [test] INFO: TEST: WB / 211321120
+2026-11-12 19:51:42,163 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 19:51:42,164 [r52.collectors.wb] INFO: WB: curl_cffi доступен (impersonate=chrome)
+2026-11-12 19:51:42,164 [test] INFO: URL: https://www.wildberries.ru/catalog/211321120/detail.aspx
+2026-11-12 19:52:27,146 [r52.collectors.wb] INFO: WB: vol=2113 -> basket-14.wbbasket.ru (nm_id=211321120)
+2026-11-12 19:52:30,196 [r52.collectors.wb] INFO: WB 211321120: card.json OK (30 keys, 7582B)
+2026-11-12 19:52:33,721 [r52.collectors.wb] INFO: WB 211321120: price card_v1 -> 403
+2026-11-12 19:52:37,422 [r52.collectors.wb] INFO: WB 211321120: price card_v2 -> 403
+2026-11-12 19:52:40,561 [r52.collectors.wb] INFO: WB 211321120: price card_v4 -> 403
+2026-11-12 19:52:43,595 [r52.collectors.wb] INFO: WB 211321120: price card_v5 -> 403
+2026-11-12 19:52:46,678 [r52.collectors.wb] INFO: WB 211321120: price catalog_v1 -> 403
+2026-11-12 19:52:48,802 [r52.collectors.wb] INFO: WB 211321120: price catalog_v2 -> 403
+2026-11-12 19:52:51,835 [r52.collectors.wb] INFO: WB 211321120: price web_api -> 498
+2026-11-12 19:52:55,358 [r52.collectors.wb] INFO: WB 211321120: price search_wb -> 403
+2026-11-12 19:52:55,358 [r52.collectors.wb] INFO: WB 211321120: price — все эндпоинты не дали данных
+2026-11-12 19:53:12,784 [r52.collectors.wb] INFO: WB HTML: HTTP 498
+2026-11-12 19:53:12,784 [r52.collectors.wb] INFO: WB 211321120: photo_count=18, found=1
+2026-11-12 19:53:12,784 [test] INFO: RESULT: Wildberries | 90.9s | title=Толстовка укороченная оверсайз с начесом на молнии | prices=0 | media=1 | status=PARTIAL_SUCCESS
+2026-11-12 19:53:12,785 [test] INFO: Saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\test_output\wb_211321120.json
+2026-11-12 19:53:12,785 [test] INFO:   media: image https://basket-14.wbbasket.ru/vol2113/part211321/211321120/images/S800/S800.jpg
+2026-11-12 19:53:12,785 [test] INFO: ============================================================
+2026-11-12 19:53:12,785 [test] INFO: TEST: OZON / 1161549185
+2026-11-12 19:53:12,785 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 19:53:12,786 [test] INFO: URL: https://www.ozon.ru/product/1161549185/
+2026-11-12 19:53:14,170 [r52.collectors.ozon] INFO: OZON 1161549185: composer v2 error: Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-12 19:53:31,821 [r52.collectors.ozon] INFO: OZON 1161549185: 1161549185 -> HTTP 403
+2026-11-12 19:53:32,357 [r52.collectors.pw_fetch] INFO: PwFetcher: browser started (headless=True)
+2026-11-12 19:53:45,679 [r52.collectors.pw_fetch] WARNING: PwFetcher: https://www.ozon.ru/product/1161549185/ -> 403 (3305B, 13.3s)
+2026-11-12 19:53:45,684 [r52.collectors.ozon] INFO: OZON 1161549185: PW status=403 len=3305
+2026-11-12 19:53:46,209 [r52.collectors] INFO: OZON: HTTP 403, retry 1/3 через 11с
+2026-11-12 19:53:57,079 [r52.collectors] INFO: OZON: HTTP 403, retry 2/3 через 22с
+2026-11-12 19:54:18,873 [r52.collectors] INFO: OZON: HTTP 403, retry 3/3 через 44с
+2026-11-12 19:55:04,147 [test] WARNING: RESULT: None (parse returned nothing) | 111.4s
+2026-11-12 19:55:04,225 [test] INFO: ============================================================
+2026-11-12 19:55:04,226 [test] INFO: TEST: AVITO / 21964448
+2026-11-12 19:55:04,226 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 19:55:04,226 [test] INFO: URL: https://www.avito.ru/ad/21964448
+2026-11-12 19:55:05,149 [r52.collectors.avito] INFO: AVITO 21964448: www.avito.ru -> HTTP 404
+2026-11-12 19:55:16,009 [r52.collectors.avito] INFO: AVITO 21964448: m.avito.ru -> HTTP 404
+2026-11-12 19:55:28,994 [test] WARNING: RESULT: None (parse returned nothing) | 24.8s
+2026-11-12 19:55:28,997 [test] INFO: ============================================================
+2026-11-12 19:55:28,997 [test] INFO: TEST: FARPOST / 1234567890
+2026-11-12 19:55:28,997 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-12 19:55:28,998 [test] INFO: URL: https://www.farpost.ru/vladivostok/1234567890.html
+2026-11-12 19:55:30,232 [r52.collectors.farpost] INFO: FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-12 19:55:31,417 [test] WARNING: RESULT: None (parse returned nothing) | 2.4s
+2026-11-12 19:55:31,419 [test] INFO: ============================================================
+2026-11-12 19:55:31,419 [test] INFO: SUMMARY:
+2026-11-12 19:55:31,419 [test] INFO:   [OK] WB/211321120: PARTIAL_SUCCESS | title=Толстовка укороченная оверсайз с начесом на молнии | P=0 M=1 | 90.9s
+2026-11-12 19:55:31,419 [test] INFO:   [FAIL] OZON/1161549185: NONE | title= | P=0 M=0 | 111.4s
+2026-11-12 19:55:31,419 [test] INFO:   [FAIL] AVITO/21964448: NONE | title= | P=0 M=0 | 24.8s
+2026-11-12 19:55:31,419 [test] INFO:   [FAIL] FARPOST/1234567890: NONE | title= | P=0 M=0 | 2.4s
+2026-11-12 19:55:31,420 [test] INFO: Summary: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\test_output\summary.json
+2026-11-12 19:55:31,420 [test] INFO: DONE: 1/4 OK

@@ -1,0 +1,89 @@
+TMP_HOME: C:\Users\aleks\AppData\Local\Temp\r52-e2e-farpost-uyb5509o
+2026-11-11 06:32:47,708 r52.sources INFO Sources: зарегистрировано 4 сборщиков
+Config: db=C:\Users\aleks\AppData\Local\Temp\r52-e2e-farpost-uyb5509o\data\r52.sqlite3, intake=(WindowsPath('C:/Users/aleks/Downloads/R52-2.12/R52-2.12/test-intake-e2e'),)
+2026-11-11 06:32:47,741 r52.db INFO Миграция 1 (initial) применена
+2026-11-11 06:32:47,742 r52.db INFO Миграция 2 (product_media) применена
+2026-11-11 06:32:47,743 r52.db INFO Миграция 3 (product_gallery) применена
+2026-11-11 06:32:47,745 r52.service INFO Применены миграции базы: [1, 2, 3]
+App opened OK
+
+Found 3 JSON files:
+  jarvis-eye-farpost-125103161.json (931 bytes)
+  jarvis-eye-farpost-16879823067.json (3787 bytes)
+  jarvis-eye-farpost-17260583280.json (3703 bytes)
+
+--- jarvis-eye-farpost-125103161.json ---
+2026-11-11 06:32:47,758 r52.intake INFO Во входящие добавлен файл jarvis-eye-farpost-125103161.json: PENDING 
+  Stage: status=PENDING, created=True, id=1
+  Accept: product_id=1, observation_created=True
+
+--- jarvis-eye-farpost-16879823067.json ---
+2026-11-11 06:32:47,767 r52.intake INFO Во входящие добавлен файл jarvis-eye-farpost-16879823067.json: PENDING 
+  Stage: status=PENDING, created=True, id=2
+  Accept: product_id=2, observation_created=True
+
+--- jarvis-eye-farpost-17260583280.json ---
+2026-11-11 06:32:47,779 r52.intake INFO Во входящие добавлен файл jarvis-eye-farpost-17260583280.json: PENDING 
+  Stage: status=PENDING, created=True, id=3
+  Accept: product_id=3, observation_created=True
+
+============================================================
+SQLITE VERIFICATION
+============================================================
+
+Products (FARPOST): 3
+
+  ID=1 listing=125103161
+  Title: Фарпост - доска объявлений
+  Brand: None
+  URL: https://www.farpost.ru/vladivostok/zapchasti/zaпчасти-na-auto-g125103161.html
+  Availability: UNKNOWN
+  Price regular: None minor (?)
+  Price lowest: None minor
+  Observations: 1
+  Category: None
+
+  ID=2 listing=16879823067
+  Title: Датчик кислорода LYNXauto, арт. DM-2350
+  Brand: LYNXauto
+  URL: https://www.farpost.ru/vladivostok/zapchasti/datchik-kisloroda-lynxauto-art-dm-2350-g16879823067.html
+  Availability: UNKNOWN
+  Price regular: 609900 minor (6099)
+  Price lowest: 609900 minor
+  Observations: 1
+  Category: Авто и мото > Автозапчасти > Выхлопная система
+
+  ID=3 listing=17260583280
+  Title: Фильтр топливный LYNXauto, арт. LF-1073M
+  Brand: LYNXauto
+  URL: https://www.farpost.ru/vladivostok/zapchasti/zaпчасти-na-auto-g17260583280.html
+  Availability: UNKNOWN
+  Price regular: 839900 minor (8399)
+  Price lowest: 839900 minor
+  Observations: 1
+  Category: Авто и мото > Автозапчасти > Фильтр
+
+Observations: 3
+  obs_id=1 product=1 at=2026-11-10T20:03:49.419+00:00 origin=EYE evidence=COLLECTOR_AUTONOMOUS_HTTP avail=UNKNOWN norm=3415B raw=526B
+  obs_id=2 product=2 at=2026-11-10T20:29:33.251+00:00 origin=EYE evidence=COLLECTOR_AUTONOMOUS_HTTP avail=UNKNOWN norm=4064B raw=2384B
+  obs_id=3 product=3 at=2026-11-10T20:30:04.247+00:00 origin=EYE evidence=COLLECTOR_AUTONOMOUS_HTTP avail=UNKNOWN norm=4033B raw=2326B
+
+Price points: 2
+  pp_id=1 role=regular amount=609900 (6099 RUB) label=JSON-LD price
+  pp_id=2 role=regular amount=839900 (8399 RUB) label=JSON-LD price
+
+Gallery data:
+  product=1: 0 media items
+  product=2: 1 media items
+    type=image url=https://static.baza.farpost.ru/v/1790916653843_bulletin
+  product=3: 1 media items
+    type=image url=https://static.baza.farpost.ru/v/1790276738304_bulletin
+
+============================================================
+SUMMARY: 3/3 files fully accepted
+  jarvis-eye-farpost-125103161.json: ACCEPTED 
+  jarvis-eye-farpost-16879823067.json: ACCEPTED 
+  jarvis-eye-farpost-17260583280.json: ACCEPTED 
+2026-11-11 06:32:47,788 r52.service INFO Ядро R-52 остановлено
+
+App stopped. TMP_HOME=C:\Users\aleks\AppData\Local\Temp\r52-e2e-farpost-uyb5509o (can be deleted)

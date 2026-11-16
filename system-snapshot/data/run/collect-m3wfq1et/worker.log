@@ -1,0 +1,16 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-16 04:48:43,039 r52.autocollect.worker INFO phase=worker_start pid=3436
+2026-11-16 04:48:43,061 r52.autocollect.worker INFO source=WB mode=refresh phase=initialize
+2026-11-16 04:48:43,061 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-16 04:48:43,063 r52.collectors.wb INFO WB: curl_cffi Session доступен (impersonate=chrome)
+2026-11-16 04:48:43,063 r52.autocollect.worker INFO source=WB proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-16 04:48:43,067 r52.autocollect.worker INFO source=WB listing=222002219 phase=collect_product_start
+2026-11-16 04:48:43,947 r52.collectors.wb INFO WB warmup www.wildberries.ru: HTTP 498
+2026-11-16 04:48:46,270 r52.collectors.wb INFO WB warmup catalog.wb.ru: HTTP 498
+2026-11-16 04:48:48,613 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=True http=200 bytes=9620 ms=1058
+2026-11-16 04:48:51,682 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=954
+2026-11-16 04:48:54,797 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=403 bytes=0 ms=120
+2026-11-16 04:48:57,984 r52.collectors.wb INFO WB stage=http_get transport=curl_cffi direct=False http=498 bytes=1136 ms=365
+2026-11-16 04:48:57,984 r52.collectors.wb INFO WB 222002219: HTTP API partial/blocked (card=True, price=False), switching to Playwright
+2026-11-16 04:49:00,029 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=False, proxy=no)
+2026-11-16 04:49:00,029 r52.collectors.wb INFO WB 222002219: starting Playwright fallback

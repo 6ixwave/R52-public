@@ -1,0 +1,77 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Брюки утепленные с начесом школьные классические на резинке",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Full of Beans",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Утепленные школьные брюки на резинке с начесом бренда Full of beans идеально подойдут для мальчика, который ценит комфорт и стиль. Благодаря своей плотной износостойкой ткани, они подойдут как на лето, так и на весну или демисезонный период. Эта модель не садится и не скатывается, обеспечивая максимальное удобство во время носки. Зимние брюки с утеплением на флисе ( еврофлисе ) синие детские имеют широкие прямые штанины, что делает их модной и удобной основой гардероба вашего подростка. Благодаря сочетанию синего цвета и классического дизайна, эти спортивные джоггеры можно носить как на уроках, так и в повседневной жизни. Они представляют собой джинсы со средней посадкой, что делает эту модель еще более универсальнойи и подходящей для школьной формы. Кроме того, они легкие и подходят как для занятий спортом в школе, так и для прогулок с друзьями после уроков. Брюки классические осень зима подростковые обладают ровными и прочными швами, что гарантирует долгий срок службы изделия. Карманы добавляют им функциональности - теперь ваш ребенок всегда сможет носить при себе необходимые мелочи. Идеальная посадка по фигуре обеспечивает комфорт при движении, а состав ткани из 85% хлопка делает эти брюки для детей еще более приятными к телу. В них ваш мальчик будет чувствовать себя уверенно в любой обстановке. Приобретите эти стильные штанишки для вашего мальчика уже сегодня!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Брюки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 180100,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "1801.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 121500,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1215.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Одежда > Брюки",
+    "source": "WB",
+    "id": "257988612",
+    "url": "https://www.wildberries.ru/catalog/257988612/detail.aspx",
+    "observed_at": "2026-11-17T01:40:23.260659+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

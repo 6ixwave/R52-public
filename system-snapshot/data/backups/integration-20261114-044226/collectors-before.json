@@ -1,0 +1,16 @@
+{
+  "r52\\collectors\\aliexpress.py": "9f364e54d945c0be690b8316837701a7299aee1ef7f74ed5793601a62db3171d",
+  "r52\\collectors\\auto_worker.py": "3715b0dfabea09506191130969f71681cdef8d2b0ab6fae19f3664149878d481",
+  "r52\\collectors\\avito.py": "7fec8113a6b3cd4031854ff4f4dfda83bf0fdb720dbdb585eda70bd453833853",
+  "r52\\collectors\\base.py": "48e96eaba24a9d76b6b3c6a044c642e86770b4c34b0898daec10fc3e1038da2a",
+  "r52\\collectors\\discovery.py": "dec6172f5c1d2af3e1d5be56ff0a15f5ef90d46a632b909abdd72c8d205cd448",
+  "r52\\collectors\\farpost.py": "c8113a53f2e5a63476d7376ed4d684dce65d765c0d0a7a059745f5186858b849",
+  "r52\\collectors\\integration_test.py": "22fc0be0a487e1d2489b6dee597195750e60b03d4683e7ac5550fbf34b28539f",
+  "r52\\collectors\\ozon.py": "889fa3ebc41c35a0355af8920617837a85c2a9bb93d87f4592b0bfb5ffd26519",
+  "r52\\collectors\\proxy_pool.py": "de227b34e4617268e7ded3b8fde56e49d806d295a239d246866084b76d454ed4",
+  "r52\\collectors\\pw_fetch.py": "4ddcbbdc8e66ef9eb9397d7b6711cb2eec6e00dbc6fb0e043f5c0c23e773770e",
+  "r52\\collectors\\runner.py": "11fef85932e294ed5cce909b8cc24f363019ca276c60cdb6b46f9404a58bf655",
+  "r52\\collectors\\test_collectors.py": "9515ab2783b2f41ca0bd67c626c3bcc7f8c1dc115f892b04d1ce03b363507dea",
+  "r52\\collectors\\wb.py": "639d5179cf6667aa688d669e38c660acf4a8a87ae88ac0dae8859b13e447ad8c",
+  "r52\\collectors\\__init__.py": "c9572a74e8abbc2838ac633448f69c4a8d8033cd0b78ed4d8367e94415c3fc1f"
+}

@@ -1,0 +1,146 @@
+﻿python : 2026-11-12 06:40:06,557 diag7 INFO === DIAG7 START 2026-11-12T06:40:06.557766+10:00 ===
+строка:1 знак:67
++ ... f-8'; $ErrorActionPreference='Continue'; python diag7.py 2>&1 | Out-F ...
++                                              ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-12 06:4...57766+10:00 ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-12 06:40:06,779 diag7 INFO AVITO: search page...
+2026-11-12 06:40:06,811 diag7 INFO WB: https://basket-05.wbbasket.ru/vol1000/part100000/100000001/info/ru/card.json
+2026-11-12 06:40:06,818 diag7 INFO OZON PW: warmup homepage...
+2026-11-12 06:40:07,397 r52.collectors.pw_fetch INFO PwFetcher: browser started (headless=True)
+2026-11-12 06:40:07,616 diag7 INFO AVITO search: HTTP 404, 29440 bytes
+2026-11-12 06:40:07,763 diag7 INFO WB card.json: HTTP 200, 5066 bytes
+2026-11-12 06:40:07,763 diag7 INFO WB top keys (17): ['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_na
+me', 'vendor_code', 'description', 'options', 'certificate', 'colors', 'contents', 'full_colors', 'selling', 'media', '
+data', 'grouped_options']
+2026-11-12 06:40:07,763 diag7 INFO WB selling: {"no_return_map": 4351, "brand_name": "Omelika shop", "brand_hash": "3CB
+BB2B6875DAADE", "supplier_id": 233669}
+2026-11-12 06:40:07,763 diag7 INFO WB sizes: 0 items
+2026-11-12 06:40:07,763 diag7 INFO WB price-like (>100): 4 fields
+2026-11-12 06:40:07,763 diag7 INFO   .selling.no_return_map=4351
+2026-11-12 06:40:07,763 diag7 INFO   .selling.supplier_id=233669
+2026-11-12 06:40:07,763 diag7 INFO   .data.subject_id=3538
+2026-11-12 06:40:07,763 diag7 INFO   .data.subject_root_id=8614
+2026-11-12 06:40:08,006 diag7 INFO AVITO 482962662: HTTP 404 final=https://www.avito.ru/ad/482962662
+2026-11-12 06:40:12,041 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/ -> 403 (3307B, 4.6s)
+2026-11-12 06:40:12,046 diag7 INFO OZON PW: homepage status=403 len=3307
+2026-11-12 06:40:14,046 diag7 INFO OZON PW: product page...
+2026-11-12 06:40:19,448 r52.collectors.pw_fetch WARNING PwFetcher: https://www.ozon.ru/product/2795954097/ -> 403 (3306
+B, 5.4s)
+2026-11-12 06:40:19,451 diag7 INFO OZON PW: product status=403 len=3306
+2026-11-12 06:40:19,451 diag7 INFO OZON PW: fab=1 snippet=<!DOCTYPE html><html lang="ru"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale
+2026-11-12 06:40:19,451 diag7 ERROR OZON PW error
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag7.py", line 117, in diag_ozon
+    pw.close()
+    ^^^^^^^^
+AttributeError: 'PwFetcher' object has no attribute 'close'
+2026-11-12 06:40:19,470 diag7 INFO OZON cffi: HTML page...
+2026-11-12 06:40:20,382 diag7 INFO OZON cffi HTML: HTTP 403, 8470 bytes
+2026-11-12 06:40:20,384 diag7 INFO === DIAG7 DONE in 13.8s ===
+{
+  "WB": {
+    "ok": true,
+    "top_keys": [
+      "imt_id",
+      "nm_id",
+      "imt_name",
+      "slug",
+      "subj_name",
+      "subj_root_name",
+      "vendor_code",
+      "description",
+      "options",
+      "certificate",
+      "colors",
+      "contents",
+      "full_colors",
+      "selling",
+      "media",
+      "data",
+      "grouped_options"
+    ],
+    "selling": {
+      "no_return_map": 4351,
+      "brand_name": "Omelika shop",
+      "brand_hash": "3CBBB2B6875DAADE",
+      "supplier_id": 233669
+    },
+    "sizes_count": 0,
+    "sizes_0": null,
+    "price_fields": [
+      ".selling.no_return_map=4351",
+      ".selling.supplier_id=233669",
+      ".data.subject_id=3538",
+      ".data.subject_root_id=8614"
+    ]
+  },
+  "AVITO": {
+    "search": {
+      "status": 404
+    },
+    "festima_id": {
+      "status": 404,
+      "final": "https://www.avito.ru/ad/482962662"
+    }
+  },
+  "OZON": {
+    "playwright": {
+      "error": "'PwFetcher' object has no attribute 'close'"
+    },
+    "cffi_html": {
+      "status": 403,
+      "len": 8470,
+      "fab": true,
+      "title": null
+    }
+  }
+}
+DIAG7_DONE total=14s
+2026-11-12 06:40:20,402 asyncio ERROR Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Connection.run_as_sync() running at C:\Users\aleks\AppData\Roaming\Python\Pytho
+n315\site-packages\playwright\_impl\_connection.py:340> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_run_unti
+l_complete_cb() at C:\Python315\Lib\asyncio\base_events.py:183]>
+Exception ignored while calling deallocator <function _ProactorBasePipeTransport.__del__ at 0x000001C3B772BB60>:
+Traceback (most recent call last):
+  File "C:\Python315\Lib\asyncio\proactor_events.py", line 118, in __del__
+    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
+                               ^^^^^^^^
+  File "C:\Python315\Lib\asyncio\proactor_events.py", line 81, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+                      ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\asyncio\windows_utils.py", line 109, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe
+Exception ignored while calling deallocator <function StreamWriter.__del__ at 0x000001C3B76A61F0>:
+Traceback (most recent call last):
+  File "C:\Python315\Lib\asyncio\streams.py", line 421, in __del__
+    warnings.warn(f"unclosed {self!r}", ResourceWarning)
+                             ^^^^^^^^
+  File "C:\Python315\Lib\asyncio\streams.py", line 341, in __repr__
+    info = [self.__class__.__name__, f'transport={self._transport!r}']
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python315\Lib\asyncio\proactor_events.py", line 81, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+                      ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\asyncio\windows_utils.py", line 109, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe
+Exception ignored while calling deallocator <function BaseSubprocessTransport.__del__ at 0x000001C3B7729C70>:
+Traceback (most recent call last):
+  File "C:\Python315\Lib\asyncio\base_subprocess.py", line 134, in __del__
+    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
+                               ^^^^^^^^
+  File "C:\Python315\Lib\asyncio\base_subprocess.py", line 73, in __repr__
+    info.append(f'stdin={stdin.pipe}')
+                        ^^^^^^^^^^^^
+  File "C:\Python315\Lib\asyncio\proactor_events.py", line 81, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+                      ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\asyncio\windows_utils.py", line 109, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe

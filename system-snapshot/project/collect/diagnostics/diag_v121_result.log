@@ -1,0 +1,134 @@
+================================================================
+DIAG V121: FARPOST DIRECT + WB IMAGES/PRICE  (2026-11-11)
+================================================================
+
+================================================================
+PART 1: FARPOST URL PATTERNS
+================================================================
+
+[Warmup] GET https://www.farpost.ru/
+  HTTP 200, 73362B, cookies=[REDACTED_AUTH_SECRET]
+
+[A] Direct: https://www.farpost.ru/ni/krasnoyarsk/zapchasti/kontraktnyj-dvigatel-1zz-fe-cena
+
+[A] HTTP 404, 14150B, enc=windows-1251
+
+[B] Bulletin: https://www.farpost.ru/bulletin/129606872
+
+[B] HTTP 404, 13900B, enc=windows-1251
+
+[C] Full+f=1: https://www.farpost.ru/ni/krasnoyarsk/zapchasti/kontraktnyj-dvigatel-1zz-fe-cena?f=1
+
+[C] HTTP 404, 14162B, enc=windows-1251
+
+[D] ?u= redirect: https://www.farpost.ru?u=%2Fni%2Fkrasnoyarsk%2Fzapchasti%2Fkontraktnyj-dvigatel-1zz-fe-cena&f=1
+  final_url=https://www.farpost.ru/?u=%2Fni%2Fkrasnoyarsk%2Fzapchasti%2Fkontraktnyj-dvigatel-1zz-fe-cena&f=1
+
+[D] HTTP 200, 85327B, enc=windows-1251
+  <title>: Фарпост — Доска объявлений
+  og:title = Фарпост — Доска объявлений
+  og:description = Подать объявление. Частные объявления и предложения организаций.
+  og:url = https://www.farpost.ru/
+  og:site_name = FarPost.ru
+  og:image = https://www.farpost.ru/resources/img/apple-touch-icon/apple-touch-icon.png
+  og:type = website
+  PRICE: not found
+  JSON-LD blocks: 1
+    [0] type=WebSite name=FarPost.ru
+  Gallery: data-image-info=0, lightbox=0, CDN imgs=1
+  Altcha: False
+  Specs blocks: 0
+
+[E] Fresh session, direct full path
+
+[E] HTTP 404, 13191B, enc=windows-1251
+
+================================================================
+PART 2: WB IMAGE URL PATTERNS
+================================================================
+
+mn_id=259671175, imt_id=236868886, vol=2596, part=259671
+  card.json OK → basket-16.wbbasket.ru
+
+Testing 40 image patterns...
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S800/236868886.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S800/236868886_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S800/259671175.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S800/259671175_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S120/236868886.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S120/236868886_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S120/259671175.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S120/259671175_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S50/236868886.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S50/236868886_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S50/259671175.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/S50/259671175_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/1000x0/236868886.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/1000x0/236868886_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/1000x0/259671175.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/1000x0/259671175_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/big/236868886.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/big/236868886_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/big/259671175.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/big/259671175_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/thumbnail/236868886.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/thumbnail/236868886_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/thumbnail/259671175.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/thumbnail/259671175_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/120x120/236868886.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/120x120/236868886_1.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/120x120/259671175.jpg
+  [xx] 404    196B text/html                 /vol2596/part259671/259671175/images/120x120/259671175_1.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-1.wbxs ir-1.wbxstatic.net/S800/259671175.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-1.wbxs ir-1.wbxstatic.net/S800/236868886.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-2.wbxs ir-2.wbxstatic.net/S800/259671175.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-2.wbxs ir-2.wbxstatic.net/S800/236868886.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-3.wbxs ir-3.wbxstatic.net/S800/259671175.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-3.wbxs ir-3.wbxstatic.net/S800/236868886.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-4.wbxs ir-4.wbxstatic.net/S800/259671175.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-4.wbxs ir-4.wbxstatic.net/S800/236868886.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-5.wbxs ir-5.wbxstatic.net/S800/259671175.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-5.wbxs ir-5.wbxstatic.net/S800/236868886.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-6.wbxs ir-6.wbxstatic.net/S800/259671175.jpg
+  [??]  -1  error: HTTPSConnectionPool(host='ir-6.wbxs ir-6.wbxstatic.net/S800/236868886.jpg
+
+  Summary: 0/40 OK
+
+================================================================
+PART 3: WB PRICE ENDPOINTS
+================================================================
+
+[card_v1] https://card.wb.ru/cards/v1/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=259671175
+  HTTP 403, 0B
+
+[card_v2] https://card.wb.ru/cards/v2/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=259671175
+  HTTP 403, 0B
+
+[card_v4] https://card.wb.ru/cards/v4/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=259671175
+  HTTP 403, 0B
+
+[card_v5] https://card.wb.ru/cards/v5/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=259671175
+  HTTP 403, 0B
+
+[basket] https://basket-16.wbbasket.ru/vol2596/part259671/259671175/info/ru/card.json
+  HTTP 200, 5041B
+
+[web_v1] https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=259671175
+  HTTP 498, 1136B
+
+[web_v1b] https://www.wildberries.ru/web/api/catalog/cards/v1?nm=259671175
+  HTTP 498, 1136B
+
+[search5] https://search.wb.ru/exactmatch/ru/common/v5/search?appType=1&curr=rub&dest=-1257786&nm=259671175
+  HTTP 403, 0B
+
+================================================================
+PART 4: WB HTML (detail.aspx)
+================================================================
+
+https://www.wildberries.ru/catalog/259671175/detail.aspx
+  [cffi] HTTP 498, 1136B
+
+================================================================
+DIAG V121 DONE
+================================================================

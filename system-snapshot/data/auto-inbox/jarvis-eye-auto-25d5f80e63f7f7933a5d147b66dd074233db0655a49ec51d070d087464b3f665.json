@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Брюки спортивные повседневные джоггеры",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "DreamFit",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "brykimuj01/черный",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Спортивные штаны мужские - настоящий must-have для мужчин в любом возрасте, идеальный выбор для повседневного использования как дома, так и на улице. Брюки спортивные летние сочетают в себе легкость и удобство спортивного стиля. Изготовленные из высококачественного хлопка, трико обеспечивают максимальный комфорт в жаркие дни. Трикотажная ткань позволяет коже дышать, а широкий крой создает приятное ощущение свободы движений. Дизайн этих джоггеров треко подходит как для молодежи, так и для мужчин любого возраста и стиля. Их универсальность заключается в том, что треники подходят как для подростка, так и взрослым, благодаря разнообразию размеров, включая большие размеры. Стильные и модные черные джоггеры, подчеркнут вашу индивидуальность, широкий крой оверсайз подойдет для любого типа фигуры, обеспечивая комфорт и свободу движений, при этом зауженный крой по низу создает модный и стильный образ. Эластичный пояс с регулируемой завязкой обеспечивает идеальную посадку на талии и комфортную посадку на бедрах. Наличие карманов позволяет удобно хранить мелочи или мобильный телефон. Штаны демисезонные легкие как для повседневного ношения дома, так и для активного отдыха или спорта, для зала или занятий на открытом воздухе. Джогеры oversize - идеальный выбор для летнего сезона благодаря легкой и дышащей ткани. В размерной сетке представлены размерры, как для высокий, так и большие размеры. Эти брюки домашние хлопок - отличный вариант для тех, кто ценит комфорт и стиль в одном исполнении. Не упустите шанс добавить эти стильные джоггеры к вашему гардеробу!",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Брюки",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Состав: хлопок 76%; полиэстер 19%; Эластан 5%\nЦвет: черный\nПол: Мужской\nСезон: Круглогодичный\nРазмер на модели: 48\nРост модели на фото: 188 см\nТип посадки: средняя\nТип карманов: боковые\nВид застежки: на завязках; на шнуровке\nФактура материала: футер\nОсобенности модели: дышащий материал; унисекс; высокое качество\nДекоративные элементы: без элементов\nКомплектация: Брюки мужские спортивные черные - 1 шт.\nСтрана производства: Россия",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 910000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "9100.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 146300,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "1463.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-02.wbbasket.ru/vol148/part14890/14890618/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-02.wbbasket.ru/vol148/part14890/14890618/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-02.wbbasket.ru/vol148/part14890/14890618/images/S800/1.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Одежда > Брюки",
+    "source": "WB",
+    "id": "14890618",
+    "url": "https://www.wildberries.ru/catalog/14890618/detail.aspx",
+    "observed_at": "2026-11-16T05:32:10.849647+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

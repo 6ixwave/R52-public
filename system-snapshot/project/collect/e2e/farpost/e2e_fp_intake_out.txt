@@ -1,0 +1,45 @@
+﻿[22:10:22] === ШАГ 1: Чтение HTML ===
+[22:10:22] HTML: 61923 байт
+[22:10:22] === ШАГ 2: Парсинг ===
+[22:10:23] За 0.004s: title=IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гаранти... prices=1 media=4 avail=IN_STOCK
+[22:10:23] === ШАГ 3: Обёртка в формат intake ===
+[22:10:23] format=JARVIS_BR02_EYE_USER_CAPTURE
+[22:10:23] capture_action=EXPLICIT_POPUP_CLICK
+[22:10:23] fully_autonomous=False
+[22:10:23] observation keys: ['fields', 'price_candidates', 'media', 'availability', 'category_path', 'source', 'id', 'listing_id', 'url', 'observed_at']...
+[22:10:23] Файл: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-final-work\intake_inbox\jarvis-eye-farpost-a1f84272.json (7821 байт)
+[22:10:23] === ШАГ 4: Inbox.stage_bytes() ===
+[22:10:23] stage_bytes: status=PENDING created=True id=14
+[22:10:23]   error_code=None
+[22:10:23]   preview={"source": "FARPOST", "listing_id": "29958239", "url": "https://www.farpost.ru/vladivostok/tech/communication/cellphones/iphone-18-pro-max-256gb-trade-in-kredit-garantija-1-god-29958239.html", "title"
+[22:10:23] === ШАГ 5: Inbox.accept() ===
+[22:10:23] accept: status=ACCEPTED product_id=13 obs_created=True
+[22:10:23]   events=[]
+[22:10:23] === ШАГ 6: Проверка SQLite ===
+[22:10:23] Product #13: [FARPOST] 29958239 | IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год
+[22:10:23]   price_lowest=12099900 avail=IN_STOCK obs_count=2
+[22:10:23] Наблюдений товара: 2
+[22:10:23]   obs#33 2026-11-12T12:10:23.208+00:00 EYE COLLECTOR_AUTONOMOUS_HTTP IN_STOCK
+[22:10:23]   obs#32 2026-11-12T12:01:42.091397+00:00 REAL_USER_CAPTURED COLLECTOR_AUTONOMOUS_HTTP IN_STOCK
+[22:10:23] Точек цен: 2
+[22:10:23]   regular 12099900 RUB data-bulletin-price
+[22:10:23]   regular 12099900 RUB data-bulletin-price
+[22:10:23] Галерея: 4 медиа
+[22:10:23] Origin товара: REAL_USER_CAPTURED
+[22:10:23] === ШАГ 7: Дедупликация ===
+[22:10:23] Повторный stage: created=False status=ACCEPTED
+[22:10:23] === ИТОГ ===
+[22:10:23] {
+  "all_ok": true,
+  "product_id": 13,
+  "title": "IPhone 18 Pro Max 256Gb. Trade-IN. Кредит. Гарантия 1 год",
+  "price_lowest": 12099900,
+  "availability": "IN_STOCK",
+  "obs_count": 2,
+  "price_points": 2,
+  "gallery": 4,
+  "origin": "REAL_USER_CAPTURED"
+}
+[22:10:23] Результаты: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\e2e-final-work\e2e_fp_intake.json
+
+DONE

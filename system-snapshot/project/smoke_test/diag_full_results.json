@@ -1,0 +1,30 @@
+{
+  "WB": {
+    "status": "PARTIAL_SUCCESS",
+    "title": "Овсяный смарт коктейль для похудения без сахара",
+    "prices": 0,
+    "time": 80.7
+  },
+  "FARPOST": {
+    "status": "PARTIAL_SUCCESS",
+    "title": "IPhone 18 Pro Max 512Gb. Trade-IN. Кредит. Гарантия 1 год",
+    "prices": 1,
+    "time": 2.0
+  },
+  "AVITO": {
+    "status": "NO_DATA",
+    "time": 48.1
+  },
+  "OZON": {
+    "status": "NO_DATA",
+    "time": 136.0
+  },
+  "ALIEXPRESS": {
+    "status": "NO_DATA",
+    "time": 2.8
+  },
+  "ALIEXPRESS_RU": {
+    "status": "NO_DATA",
+    "time": 45.8
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "WB:card_v1_full": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:card_v2_full": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:card_v4_full": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:card_v5_full": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:catalog_v1": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:catalog_v2": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:mobile_api": {
+    "ok": false,
+    "detail": "Failed to perform, curl: (6) Could not resolve host: app.wil"
+  },
+  "WB:web_api_v1": {
+    "ok": false,
+    "detail": "HTTP 498"
+  },
+  "WB:web_api_v2": {
+    "ok": false,
+    "detail": "HTTP 498"
+  },
+  "WB:web_api_v5": {
+    "ok": false,
+    "detail": "HTTP 498"
+  },
+  "WB:search_?appType=1&curr=rub&dest=": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:search_?curr=rub&nm=1097975275": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "WB:card_cookie": "[REDACTED_AUTH_SECRET]",
+  "OZON:composer_req_2067947177": {
+    "ok": false,
+    "detail": "HTTP 403 body=\n\n{\"incidentId\": \"fab_20261112055326_01M7752WHBQ1Q5P1FNEWG4RVMT\", \"supportURL\": "
+  },
+  "OZON:composer_req_3481320800": {
+    "ok": false,
+    "detail": "HTTP 403 body=\n\n{\"incidentId\": \"fab_20261112055328_01M7752Y0225MDEBXNVFZ58H52\", \"supportURL\": "
+  },
+  "OZON:composer_req_1753035248": {
+    "ok": false,
+    "detail": "HTTP 403 body=\n\n{\"incidentId\": \"fab_20261112055329_01M7752ZFMB42NW8X2YJENZ7R0\", \"supportURL\": "
+  },
+  "OZON:composer_cffi_1753035248": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "OZON:composer_cffi_2679464956": {
+    "ok": false,
+    "detail": "HTTP 403"
+  },
+  "OZON:html_req_2067947177": {
+    "ok": false,
+    "detail": "HTTP 403 len=5278"
+  },
+  "OZON:html_req_3481320800": {
+    "ok": false,
+    "detail": "HTTP 403 len=5278"
+  },
+  "OZON:mobile_2067947177": {
+    "ok": false,
+    "detail": "HTTP 403 len=5309"
+  },
+  "AVITO:cat_telefony-i-smartfony": {
+    "ok": false,
+    "detail": "HTTP 404 len=29440"
+  },
+  "AVITO:cat_noutbuki": {
+    "ok": false,
+    "detail": "HTTP 429 len=34116"
+  },
+  "AVITO:m_cat": {
+    "ok": false,
+    "detail": "HTTP 429 len=34116"
+  },
+  "AVITO:fetch": {
+    "ok": false,
+    "detail": "no listing found"
+  },
+  "FARPOST:138859452": {
+    "ok": false,
+    "detail": "19.9s None"
+  },
+  "FARPOST:138952176": {
+    "ok": false,
+    "detail": "34.2s None"
+  }
+}

@@ -1,0 +1,79 @@
+﻿=== diag_v7j — 2026-11-14 12:57:01 ===
+python : 2026-11-14 12:57:01,642 INFO diag_v7j: ── [1] RU wholesale embedded state ──
+строка:2 знак:1
++ python -u diag_v7j.py 2>&1 | Out-File -FilePath diag_v7j_run.txt -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-14 12:5...bedded state ──:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-14 12:57:06,453 INFO diag_v7j: HTTP 200, 749472 bytes, 4.6s
+2026-11-14 12:57:06,454 INFO diag_v7j:   <html lang='it'>
+2026-11-14 12:57:06,454 INFO diag_v7j:   meta locale: 'NOT FOUND'
+2026-11-14 12:57:06,454 INFO diag_v7j:   meta currency: 'NOT FOUND'
+2026-11-14 12:57:06,455 INFO diag_v7j:   og:locale: 'NOT FOUND'
+2026-11-14 12:57:06,455 INFO diag_v7j:   window.runParams: NOT FOUND
+2026-11-14 12:57:06,455 INFO diag_v7j:   window.__INIT_DATA__: NOT FOUND
+2026-11-14 12:57:06,456 INFO diag_v7j:   window._dida_config: NOT FOUND
+2026-11-14 12:57:06,456 INFO diag_v7j:   window.__NEXT_DATA__: NOT FOUND
+2026-11-14 12:57:06,457 INFO diag_v7j:   window.pageConfig: NOT FOUND
+2026-11-14 12:57:06,457 INFO diag_v7j:   window.initData: NOT FOUND
+2026-11-14 12:57:06,461 INFO diag_v7j:   gatewayAdapt in HTML: 'NOT FOUND'
+2026-11-14 12:57:06,462 INFO diag_v7j:   pdp_npi currencies (all cards): set()
+2026-11-14 12:57:06,472 INFO diag_v7j:   Language markers (first 100KB of cards): IT=227, RU=4, EN=102
+2026-11-14 12:57:06,473 INFO diag_v7j:   <title>: наушники - Acquista наушники con spedizione gratuita su AliExpress ve
+rsion
+2026-11-14 12:57:06,473 INFO diag_v7j:   HTML contains 'it.aliexpress': 209 times
+2026-11-14 12:57:06,473 INFO diag_v7j:   HTML contains 'ru.aliexpress': 1 times
+2026-11-14 12:57:06,473 INFO diag_v7j:   HTML contains 'www.aliexpress': 62 times
+2026-11-14 12:57:06,474 INFO diag_v7j:   Header set-cookie: [REDACTED_AUTH_SECRET]
+e4b969ab1618d558aadf3&intl_locale=it_IT; Domain=.aliexpress.com; Expires=Tue, 09-Nov-2027 02:57:05 GMT; Path=/; Secure;
+ SameSite=None, intl_l
+2026-11-14 12:57:06,475 INFO diag_v7j: ── [2] RU Search API deep probe ──
+2026-11-14 12:57:06,475 INFO diag_v7j:   2a. GET https://ru.aliexpress.com/aer-webapi/v1/search?SearchText=%D0%BD%D0%B0
+%D1%83%D1%88%D0%BD%D0%B8%D0%BA
+2026-11-14 12:57:09,163 INFO diag_v7j:   GET: HTTP 200, 13828B, JSON=False
+2026-11-14 12:57:09,163 INFO diag_v7j:   GET body first 200: <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta na
+me="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="follow,index"/><meta name="re
+ferrer" content="no-ref
+2026-11-14 12:57:09,164 INFO diag_v7j:   → Looks like SPA shell, not API response
+2026-11-14 12:57:09,164 INFO diag_v7j:   2b. POST with JSON body
+2026-11-14 12:57:11,766 INFO diag_v7j:   POST: HTTP 200, 13828B, JSON=False
+2026-11-14 12:57:11,766 INFO diag_v7j:   POST body first 200: <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta n
+ame="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="follow,index"/><meta name="r
+eferrer" content="no-ref
+2026-11-14 12:57:18,567 INFO diag_v7j:   2c. GET /aer-webapi/v2/search → HTTP 200, 13828B, JSON=False
+2026-11-14 12:57:22,182 INFO diag_v7j:   2c. GET /aer-webapi/v1/search/items → HTTP 200, 2895B, JSON=False
+2026-11-14 12:57:24,799 INFO diag_v7j:   2c. GET /api/search → HTTP 200, 13828B, JSON=False
+2026-11-14 12:57:27,336 INFO diag_v7j:   2c. GET /wholesale/api/search → HTTP 200, 13828B, JSON=False
+2026-11-14 12:57:27,336 INFO diag_v7j:   2d. SPA shell analysis
+2026-11-14 12:57:27,337 INFO diag_v7j:     Scripts: ['aplus_int.js', 'index.umd.es5.production.js', 'index.umd.es5.prod
+uction.js', 'p_404.js', 'framework.js']
+2026-11-14 12:57:27,337 INFO diag_v7j: ── [3] Warm-up: homepage → search ──
+2026-11-14 12:57:27,337 INFO diag_v7j:   3a. Fetching ru.aliexpress.com homepage
+2026-11-14 12:57:29,569 INFO diag_v7j:   Homepage: HTTP 200, 2037B
+2026-11-14 12:57:29,569 INFO diag_v7j:   Set-Cookie (first 300): x5secdata=xfsj7l9mvyTGZGm3M4GVPuxX_snoUouUGv_UO5uUUTxW
+fcULQpJZjTjxd6wYVwHeIL7vey9WTyzi-bFEyjt7wvXpiwVFfZbTxhP7jJTbDK_GUdUAQo7nCcOwtn2oLtUjSRcJT_lSk1eBpEKJzrYyWXWXUp0i7E1gy24
+jj5N3a_0OIk5t9bRz6vSfPA-jvVVUu3is7HrpSq2t5qi54H8XXlSAmf8rmA-f_xYSS74ePWl301lu58kjMfN3E1NqfzJpNTU8gclGkiGQ35gDbe7-S2u7dG
+_xTsxo3o
+2026-11-14 12:57:29,569 INFO diag_v7j:   Session cookies collected: ['x5secdata', '; Max-Age', '; Path', '; Domain']
+2026-11-14 12:57:29,569 INFO diag_v7j:   Homepage <html lang='NOT FOUND'>
+2026-11-14 12:57:34,808 INFO diag_v7j:   Search (warm): HTTP 200, 845125B
+2026-11-14 12:57:34,808 INFO diag_v7j:   Warm search <html lang='it'>
+2026-11-14 12:57:34,808 INFO diag_v7j:   Warm search pdp_npi currencies: set()
+2026-11-14 12:57:34,809 INFO diag_v7j:   First title (warm): Cuffie Wireless Over-Ear Originali Sony WH-1000XM6 con Chi
+p QN3, 12 Microfoni, Audio Hi-Res LDAC, 30
+2026-11-14 12:57:34,809 INFO diag_v7j:   3c. Search API with warm session
+2026-11-14 12:57:37,382 INFO diag_v7j:   Warm API: HTTP 200, 13828B, JSON=False
+2026-11-14 12:57:37,382 INFO diag_v7j:   Warm API body[:200]: <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta n
+ame="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="follow,index"/><meta name="r
+eferrer" content="no-ref
+2026-11-14 12:57:37,382 INFO diag_v7j: ── [4] COM comparison ──
+2026-11-14 12:57:41,613 INFO diag_v7j:   COM: HTTP 200, 814501B
+2026-11-14 12:57:41,613 INFO diag_v7j:   COM <html lang='it'>
+2026-11-14 12:57:41,614 INFO diag_v7j:   COM pdp_npi currencies: set()
+2026-11-14 12:57:41,614 INFO diag_v7j:   COM first title: HIFIMAN HE400SE Stealth Magnets Cuffie Over-Ear Open-Back Ful
+l-Size Planar Magnetic con Filo
+2026-11-14 12:57:41,619 INFO diag_v7j:   COM gatewayAdapt in HTML: 'NOT FOUND'
+=== DONE ===
+2026-11-14 12:57:41,619 INFO diag_v7j: diag_v7j complete
+EXIT=0

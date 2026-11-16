@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-11-14T14:53:21.890079+10:00",
+  "tests": [
+    {
+      "source": "OZON",
+      "steps": [
+        {
+          "name": "http_fetch",
+          "url": "https://www.ozon.ru/product/286156832/",
+          "client": "curl_cffi",
+          "status": 403,
+          "html_len": 8287,
+          "first_200": "\n\n    \n\n<!DOCTYPE html><html lang=\"ru\"><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minim",
+          "html_saved": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\debug\\diag_live_output\\ozon_286156832_raw.html",
+          "markers": {
+            "data-widget": false,
+            "og:title": false,
+            "JSON-LD": false,
+            "webPrice": false,
+            "h1_tag": false,
+            "title_tag": true,
+            "price_rub": false,
+            "error_widget": false,
+            "not_found_text": false,
+            "state_var": false
+          },
+          "parse_result": "SUCCESS",
+          "title": "Antibot Challenge Page",
+          "prices": [],
+          "media_count": 0,
+          "availability": "UNKNOWN",
+          "obs_saved": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\debug\\diag_live_output\\ozon_286156832_observation.json"
+        },
+        {
+          "name": "full_collect_OZON",
+          "listing_id": "286156832",
+          "result": "NONE"
+        }
+      ]
+    },
+    {
+      "source": "FARPOST",
+      "steps": [
+        {
+          "name": "http_fetch",
+          "url": "https://www.farpost.ru/vladivostok/287654321.html",
+          "client": "requests",
+          "status": 404,
+          "content_type": "text/html; charset=windows-1251",
+          "encoding": "windows-1251 (from header)",
+          "html_len": 13899,
+          "first_200": "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<title>Страница не найдена</title>\n\n<meta charset=\"windows-1251\" />\n<meta name=\"SKYPE_TOOLBAR\" content=\"SKYPE_TOOLBAR_PARSER_COMPATIBLE\" />\n\n<meta http-equiv=",
+          "html_saved": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\debug\\diag_live_output\\farpost_287654321_raw.html",
+          "markers": {
+            "JSON-LD": true,
+            "og:title": true,
+            "h1_subject": false,
+            "price_attr": false,
+            "price_class": false,
+            "title_tag": true,
+            "price_rub": false,
+            "gallery": false,
+            "lightbox": false
+          },
+          "parse_result": "SUCCESS",
+          "title": "Страница не найдена",
+          "prices": [],
+          "media_count": 0,
+          "availability": "UNKNOWN",
+          "obs_saved": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\debug\\diag_live_output\\farpost_287654321_observation.json"
+        },
+        {
+          "name": "full_collect_FARPOST",
+          "listing_id": "287654321",
+          "result": "NONE"
+        }
+      ]
+    }
+  ]
+}

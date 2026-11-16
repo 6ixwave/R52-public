@@ -1,0 +1,50 @@
+06:22:56 diag_ali_ru8: Starting v8 diagnostic...
+06:22:56 r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+06:22:57 r52.collectors.aliexpress: ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile
+06:22:57 diag_ali_ru8: Browser OK
+06:22:57 r52.collectors.aliexpress: ALI PW: session already warm (13 cookies)
+06:22:57 diag_ali_ru8: Warm: 13 cookies
+06:22:57 diag_ali_ru8: URL: https://ru.aliexpress.com/item/1005013496905897.html
+06:22:58 diag_ali_ru8: HTTP 200
+06:22:59 diag_ali_ru8: tick=0: {'cap': 'click', 'body': 98660}
+06:22:59 diag_ali_ru8: Captcha found, extracting...
+06:23:01 diag_ali_ru8: Question: 36536b
+06:23:02 diag_ali_ru8: Grid: 9/9
+06:23:02 diag_ali_ru8: Compare v3...
+06:23:02 diag_ali_ru8: Question: 356x49
+06:23:02 diag_ali_ru8: Question object bbox: (0, 0, 355, 48) (w=355 h=48)
+06:23:02 diag_ali_ru8:   grid[0]: ncc=0.844 edge=0.906 hist=0.516 mad=0.267 => 0.651
+06:23:02 diag_ali_ru8:   grid[1]: ncc=1.000 edge=0.935 hist=0.125 mad=0.288 => 0.813
+06:23:02 diag_ali_ru8:   grid[2]: ncc=0.932 edge=0.931 hist=0.142 mad=0.220 => 0.771
+06:23:02 diag_ali_ru8:   grid[3]: ncc=0.835 edge=0.936 hist=0.075 mad=0.568 => 0.824
+06:23:02 diag_ali_ru8:   grid[4]: ncc=0.935 edge=0.850 hist=0.736 mad=0.194 => 0.602
+06:23:02 diag_ali_ru8:   grid[5]: ncc=0.871 edge=0.905 hist=0.101 mad=0.266 => 0.764
+06:23:02 diag_ali_ru8:   grid[6]: ncc=0.886 edge=0.923 hist=0.068 mad=0.542 => 0.836
+06:23:02 diag_ali_ru8:   grid[7]: ncc=1.000 edge=0.908 hist=0.034 mad=0.717 => 0.917
+06:23:02 diag_ali_ru8:   grid[8]: ncc=0.783 edge=0.681 hist=0.320 mad=0.096 => 0.599
+06:23:02 diag_ali_ru8: Sorted: [(8, np.float64(0.5993)), (4, np.float64(0.6021)), (0, np.float64(0.651)), (5, np.float64(0.7639)), (2, np.float64(0.7711)), (1, np.float64(0.8134)), (3, np.float64(0.8243)), (6, np.float64(0.8362)), (7, np.float64(0.9165))]
+06:23:02 diag_ali_ru8: Moderate confidence (ratio=0.65), selecting 2: [8, 4]
+06:23:02 diag_ali_ru8: Selected: [8, 4]
+06:23:04 diag_ali_ru8: Submit disabled=False
+06:23:04 diag_ali_ru8: Submitted
+06:23:05 diag_ali_ru8: result[0]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:06 diag_ali_ru8: result[1]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:07 diag_ali_ru8: result[2]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:08 diag_ali_ru8: result[3]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:09 diag_ali_ru8: result[4]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:10 diag_ali_ru8: result[5]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:11 diag_ali_ru8: result[6]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:12 diag_ali_ru8: result[7]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:13 diag_ali_ru8: result[8]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:14 diag_ali_ru8: result[9]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:15 diag_ali_ru8: result[10]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:16 diag_ali_ru8: result[11]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:17 diag_ali_ru8: result[12]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:18 diag_ali_ru8: result[13]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:19 diag_ali_ru8: result[14]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:20 diag_ali_ru8: result[15]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:21 diag_ali_ru8: result[16]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:22 diag_ali_ru8: result[17]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:23 diag_ali_ru8: result[18]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:24 diag_ali_ru8: result[19]: {'onCap': True, 'visible': True, 'msg': ''}
+06:23:24 diag_ali_ru8: Saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru8_result.json

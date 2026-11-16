@@ -1,0 +1,19 @@
+2026-11-11 05:41:04,211 [INFO] diag_v43: === diag_v43 START | cffi=True ===
+2026-11-11 05:41:04,211 [INFO] diag_v43: === WB ===
+2026-11-11 05:41:05,010 [INFO] diag_v43: WB v4 nm=199298871: HTTP_403 (0.8s)
+2026-11-11 05:41:07,816 [INFO] diag_v43: WB v4 nm=314337853: HTTP_403 (0.8s)
+2026-11-11 05:41:10,612 [INFO] diag_v43: WB HTML nm=199298871: HTTP_498 (0.8s)
+2026-11-11 05:41:10,612 [INFO] diag_v43: === OZON ===
+2026-11-11 05:41:11,509 [INFO] diag_v43: OZON 1600562267: HTTP_403 (0.9s)
+2026-11-11 05:41:15,425 [INFO] diag_v43: OZON 1317678381: HTTP_403 (0.9s)
+2026-11-11 05:41:18,426 [INFO] diag_v43: === AVITO ===
+2026-11-11 05:41:19,408 [INFO] diag_v43: AVITO home: HTTP 429
+2026-11-11 05:41:22,410 [INFO] diag_v43: AVITO mobile 1004567890: ERR: ImpersonateError: Impersonating iphone is not supported
+2026-11-11 05:41:26,225 [INFO] diag_v43: AVITO API: HTTP_429
+2026-11-11 05:41:26,225 [INFO] diag_v43: === FARPOST ===
+2026-11-11 05:41:27,750 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:41:27,768 [INFO] diag_v43: FARPOST 125103161: PARSED (1.4s)
+2026-11-11 05:41:31,666 [INFO] r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-11 05:41:31,669 [INFO] diag_v43: FARPOST 16879823067: PARSED (0.9s)
+2026-11-11 05:41:34,670 [INFO] diag_v43: === diag_v43 DONE in 30.5s ===
+2026-11-11 05:41:34,671 [INFO] diag_v43: Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_v43_results.json (4662 B)

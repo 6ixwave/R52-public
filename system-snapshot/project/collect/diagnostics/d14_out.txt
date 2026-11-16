@@ -1,0 +1,26 @@
+﻿=== diag_multi14 START 16:55:17 ===
+[FP:1_category] FAIL | HTTP=404 len=13770
+[WB:1_card_v2] FAIL | HTTP=403 len=0
+[WB:2_basket_n] FAIL | all basket hosts 404
+[WB:3_selling] FAIL | HTTP=403
+[WB:4_web_card] FAIL | HTTP=498 len=1136
+[OZ:2_product] FAIL | HTTP_ok title= price=None page_title=Похоже, нет соединения len=3306
+[OZ:3_composer_fetch] FAIL | status=403 body=
+
+{"incidentId": "fab_chlg_20261112065535_01M778MNMNW1NEPP3WMJTTNF34", "challengeURL": "https://www.ozon.ru/challenge.html?challenge=caZNDdfMSxmYWJfY2hsZ18yMDI2MTExMjA2NTUzNV8wMU03NzhNTk1OVzFORVBQM1dN
+[AV:1_category] FAIL | len=36451 offers=0 sample=[]
+[AV:2_offer] FAIL | no offers found
+
+=== SUMMARY (23.4s) ===
+  FAIL FP:1_category: HTTP=404 len=13770
+  FAIL WB:1_card_v2: HTTP=403 len=0
+  FAIL WB:2_basket_n: all basket hosts 404
+  FAIL WB:3_selling: HTTP=403
+  FAIL WB:4_web_card: HTTP=498 len=1136
+  FAIL OZ:2_product: HTTP_ok title= price=None page_title=Похоже, нет соединения len=3306
+  FAIL OZ:3_composer_fetch: status=403 body=
+
+{"incidentId": "fab_chlg_20261112065535_01M778MNMNW1NEPP3WMJTTNF34", "challengeURL
+  FAIL AV:1_category: len=36451 offers=0 sample=[]
+  FAIL AV:2_offer: no offers found
+EXIT=0

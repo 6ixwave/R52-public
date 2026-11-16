@@ -1,0 +1,148 @@
+=== diag_v6k — 2026-11-14 12:16:11 ===
+
+── AE COM: full item dump ──
+  Got 3 items in 46.1s
+  ── Item[0] full JSON ──
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Auricolari Sportivi Wireless BT con Ganci per Orecchie, Cuffie In-Ear per Corsa VV2 - AliExpress 44",
+        "method": "OPEN_GRAPH",
+        "evidence": {
+          "method": "OPEN_GRAPH",
+          "source": "ALIEXPRESS"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S654edb7588b940a1acda6ccab7018cc5n.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "ALIEXPRESS",
+    "id": "1005009045264533",
+    "url": "https://it.aliexpress.com/item/1005009045264533.html?algo_pvid=0c326afe-9096-41ab-bfa9-f5214b37e7ff&algo_exp_id=0c326afe-9096-41ab-bfa9-f5214b37e7ff-0&pdp_ext_f=%7B%22order%22%3A%2213683%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005009045264533%22%2C%22orig_item_id%22%3A%221005007166519305%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%219.85%218.76%21%21%2170.92%2163.07%21%400b884b4717946225749327457e0e87%2112000047698670074%21sea%21IT%210%21X%211%210%21n_tag%3A-29919%3Bd%3Aa187e8df%3Bm03_new_user%3A-29895%3BpisId%3A5000000221083209&curPageLogUid=SF5QAuFyR3N4&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009045264533%7C_p_origin_prod%3A1005007166519305",
+    "observed_at": "2026-11-14T12:16:31.063221+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}
+  ── Item[1] observation keys ──
+  keys: ['fields', 'price_candidates', 'media', 'availability', 'category_path', 'source', 'id', 'url', 'observed_at', 'status', 'product_content', 'evidence_level', 'http_status']
+  fields keys: ['title']
+    title: value='Cuffie stereo con microfono e cavo, comode, ideali per studenti durante le lezio' src=
+
+── AE_RU: full item dump + None-ID hunt ──
+  Got 9 items in 4.5s
+  [None-ID #1] index=1
+    full obs: {
+  "fields": {
+    "title": {
+      "status": "KNOWN",
+      "value": "Cuffie Wireless Over-Ear, Stereo Pieghevoli, Jerry 5.3, Lunga Durata della Batteria, Cancellazione Intelligente del Rumore per Gaming",
+      "method": "WHOLESALE_HTML",
+      "evidence": {
+        "method": "WHOLESALE_HTML",
+        "source": "ALIEXPRESS_RU"
+      }
+    },
+    "availability": {
+      "status": "KNOWN",
+      "value": "IN_STOCK",
+      "method": "COLLECTOR",
+      "evidence": {
+        "method": "COLLECTOR",
+        "source": "ALIEXPRESS_RU"
+      }
+    }
+  },
+  "price_candidates": [],
+  "media": {
+    "items": [
+      {
+        "type": "image",
+        "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/A6c5e3da6f5444b119137648b24475243j.jpg_480x480q75.jpg_.avif",
+        "image_data": null
+     
+  ── Item[0] full JSON ──
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie stereo con microfono e cavo, comode, ideali per studenti durante le lezioni online e per le chiamate telefoniche del servizio clienti.",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "19.80",
+        "amount_minor": 1980,
+        "currency": "EUR",
+        "visible_label": "19.80 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "17.79",
+        "amount_minor": 1779,
+        "currency": "EUR",
+        "visible_label": "17.79 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa703c461fd13456286e520372e5521f8v.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005013569082995",
+    "url": "https://ru.aliexpress.com/item/1005013569082995.html",
+    "observed_at": "2026-11-14T12:17:02.299977+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}
+  None-ID total: 1/9
+
+=== DONE ===

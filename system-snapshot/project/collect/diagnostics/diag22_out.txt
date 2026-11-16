@@ -1,0 +1,20 @@
+2026-11-12 13:01:01,443 [diag22] ============================================================
+2026-11-12 13:01:01,443 [diag22] OZON: deep Playwright extraction
+2026-11-12 13:01:01,443 [diag22] ============================================================
+2026-11-12 13:01:02,017 [diag22] OZON: goto https://www.ozon.ru/product/2067947177/
+2026-11-12 13:01:09,642 [diag22] OZON LD[0]: {"@context":"http://schema.org","@type":"Product","aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"7"},"brand":"Palit","description":"Видеокарта Palit PA-RTX5060TI DUAL 
+2026-11-12 13:01:09,786 [diag22] ============================================================
+2026-11-12 13:01:09,787 [diag22] WB: Playwright WBAAS + price
+2026-11-12 13:01:09,787 [diag22] ============================================================
+2026-11-12 13:01:10,912 [diag22] WB: goto https://www.wildberries.ru/catalog/1097975275/detail.aspx
+2026-11-12 13:01:12,045 [diag22] WB: waiting 12s for WBAAS...
+2026-11-12 13:01:24,061 [diag22] WB: title=Loading https://www.wildberries.ru/catalog/1097975275/detail.aspx
+2026-11-12 13:01:24,272 [diag22] WB ERR: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+2026-11-12 13:01:24,272 [diag22] ============================================================
+2026-11-12 13:01:24,272 [diag22] AVITO: Playwright search + ad
+2026-11-12 13:01:24,272 [diag22] ============================================================
+2026-11-12 13:01:24,912 [diag22] AVITO: goto https://www.avito.ru/moskva/search?query=iphone
+2026-11-12 13:01:31,059 [diag22] AVITO search: title=Доступ ограничен: проблема с IP, body=36450
+2026-11-12 13:01:31,065 [diag22] AVITO search: 0 IDs, sample=[]
+2026-11-12 13:01:31,188 [diag22] Result -> C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag22_result.json
+2026-11-12 13:01:31,189 [diag22] DONE

@@ -1,0 +1,17 @@
+{
+  "WB": {
+    "status": "HTTP_403",
+    "count": 0,
+    "elapsed": 1.2
+  },
+  "OZON_p1": {
+    "status": "HTTP_403",
+    "elapsed": 1.0
+  },
+  "OZON_p2": {
+    "status": "OK",
+    "links": 0,
+    "unique": 0,
+    "elapsed": 1.2
+  }
+}

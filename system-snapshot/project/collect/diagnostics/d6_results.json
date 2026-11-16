@@ -1,0 +1,96 @@
+{
+  "time": "2026-11-12T16:33:34.727540",
+  "total_s": 67.3,
+  "results": {
+    "FP:html_full": {
+      "ok": false,
+      "detail": "HTTP=200 len=197869 prices=[] ld=False og=False data=False cls=False",
+      "s": 2.9
+    },
+    "FP:api_v1": {
+      "ok": false,
+      "detail": "HTTP=404 price=None keys=[]",
+      "s": 4.7
+    },
+    "FP:ajax": {
+      "ok": false,
+      "detail": "HTTP=404 len=13912 prices=[]",
+      "s": 5.2
+    },
+    "FP:cffi": {
+      "ok": false,
+      "detail": "HTTP=200 len=89311 prices=[]",
+      "s": 6.9
+    },
+    "WB:card_v2": {
+      "ok": false,
+      "detail": "err=Expecting value: line 1 column 1 (char 0)",
+      "s": 7.9
+    },
+    "WB:basket_42": {
+      "ok": false,
+      "detail": "HTTP=404",
+      "s": 8.7
+    },
+    "WB:basket_10": {
+      "ok": false,
+      "detail": "HTTP=404",
+      "s": 9.8
+    },
+    "WB:basket_20": {
+      "ok": false,
+      "detail": "HTTP=404",
+      "s": 10.8
+    },
+    "WB:basket_30": {
+      "ok": false,
+      "detail": "HTTP=404",
+      "s": 11.7
+    },
+    "WB:html_ssr": {
+      "ok": false,
+      "detail": "HTTP=498 len=1136 prices=[]",
+      "s": 59.2
+    },
+    "OZ:html": {
+      "ok": false,
+      "detail": "HTTP=403 len=10225 prices=[] ld=False",
+      "s": 61.1
+    },
+    "OZ:composer_www": {
+      "ok": false,
+      "detail": "HTTP=403 len=1081",
+      "s": 61.8
+    },
+    "OZ:cffi_html": {
+      "ok": false,
+      "detail": "HTTP=403 len=8454 prices=[]",
+      "s": 62.8
+    },
+    "OZ:cffi_composer": {
+      "ok": false,
+      "detail": "HTTP=403",
+      "s": 64.4
+    },
+    "AV:mobile": {
+      "ok": false,
+      "detail": "HTTP=429 len=34116 prices=[]",
+      "s": 65.5
+    },
+    "AV:api_offer": {
+      "ok": false,
+      "detail": "HTTP=404",
+      "s": 65.8
+    },
+    "AV:cffi_desktop": {
+      "ok": false,
+      "detail": "HTTP=429 len=34116 prices=[]",
+      "s": 66.9
+    },
+    "AV:search_api": {
+      "ok": false,
+      "detail": "HTTP=404",
+      "s": 67.3
+    }
+  }
+}

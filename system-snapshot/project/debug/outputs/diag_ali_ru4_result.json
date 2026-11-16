@@ -1,0 +1,69 @@
+{
+  "pid": "1005013496905897",
+  "ts": "2026-11-13T06:03:55.209599+10:00",
+  "phase": "done",
+  "log": [
+    "[06:03:55] Browser OK",
+    "[06:04:00] Warm: 117 cookies",
+    "[06:04:03] Product HTTP 200",
+    "[06:04:04] tick=0: h1=None prices=[] ifr=1",
+    "[06:04:04] MTOP: 543b status=200",
+    "[06:04:05] tick=1: h1=None prices=[] ifr=2",
+    "[06:04:05] TMD solve...",
+    "[06:04:15]   Clicked: #recaptcha-anchor",
+    "[06:04:15] RELOAD after TMD...",
+    "[06:04:19] MTOP: 543b status=200",
+    "[06:04:39] Post-reload: rendered=False, mtop_all=2",
+    "[06:04:39] MTOP biggest: 543b",
+    "[06:04:39] DOM extract...",
+    "[06:04:39] DOM: title= prices=[] imgs=11 jsonld=0",
+    "[06:04:39] Shot saved"
+  ],
+  "mtop_all": [
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794513843053&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.",
+      "status": 200,
+      "len": 543
+    },
+    {
+      "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794513859213&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.",
+      "status": 200,
+      "len": 543
+    }
+  ],
+  "rendered": false,
+  "tmd_found": true,
+  "tmd_solved": true,
+  "dom": {
+    "title": "",
+    "prices": [],
+    "images": [
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sa976459fb7724bf1bca6e153a425a8ebg.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sf683a50b80cc4690a747a857f150abc8p/48x48.png",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S95575c8422c349558e7dd8a26c0b93dee.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S25a59806b9904d5db6b4cc4c2c8ceb1e2.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S30cb47c2f3fc4b9b803117ad06a3b0fay.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S80453fbd34264d75a7318b5f82ca153eN.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S35e86b998506478fa27c3395e4e5d0b4u.jpeg_220x220q75.jpeg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sa82027f5380d4a1b8a64fba53f109c21b.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S65eb7cced1df4fe2b54d16cb2fb6d925H.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg_960x960q75.jpg_.avif"
+    ],
+    "jsonld": [],
+    "meta": {},
+    "og:url": "//it.aliexpress.com/item/1005013496905897.html?src=ibdm_d03p0558e02r02&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=&aff_short_key=",
+    "og:title": "Stock UE Schermo Radio Auto Linux 10.25'' 12.3'' Lettore Multimediale per Mercedes Benz C W205 GLC X253 Classe V V447 2014-2018 NTG5.0 Carplay Wireless Android Auto WIFI BT - AliExpress 34",
+    "og:type": "product",
+    "og:image": "https://ae-pic-a1.aliexpress-media.com/kf/S5510d89468d243318f0969de88a6adacD.jpg",
+    "og:description": "Smarter Shopping, Better Living! Aliexpress.com",
+    "og:site_name": "aliexpress.",
+    "bodyLen": 74153
+  },
+  "mtop_big": {
+    "url": "https://acs.aliexpress.com/h5/mtop.aliexpress.pdp.pc.query/1.0/?jsv=2.5.1&appKey=12574478&t=1794513843053&sign=[REDACTED_AUTH_SECRET]&api=mtop.aliexpress.pdp.pc.query&type=originaljsonp&v=1.",
+    "status": 200,
+    "len": 543,
+    "body": "mtopjsonp1({\"ret\":[\"FAIL_SYS_USER_VALIDATE\",\"RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试\"],\"data\":{\"url\":\"https://acs.aliexpress.com:443//h5/mtop.aliexpress.pdp.pc.query/1.0/_____tmd_____/punish?x5secdata=xge828eb566de85b96kja6e60c205bf4e3826f12a10f5b65be3b1794513845a-1168960602a-1317347523abaxc3eajrecaptcha33bff26d5933fd9d095beba56b5c6163965__bx__acs.aliexpress.com:443/h5/mtop.aliexpress.pdp.pc.query/1.0&x5step=2&action=captcharecaptcha&pureCaptcha=\",\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}},\"dialogSize\":{\"width\":\"420px\",\"height\":\"480px\"}})"
+  }
+}

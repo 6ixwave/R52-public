@@ -1,0 +1,58 @@
+[
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\__init__.py",
+    "Hash": "C9572A74E8ABBC2838AC633448F69C4A8D8033CD0B78ED4D8367E94415C3FC1F"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\aliexpress.py",
+    "Hash": "2925A639D06EACADF3E47CA6FC5A01B9BF722D7B11A37CD5DB34421A950CD597"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\auto_worker.py",
+    "Hash": "3715B0DFABEA09506191130969F71681CDEF8D2B0AB6FAE19F3664149878D481"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\avito.py",
+    "Hash": "74C752090A27D922019F9604B0AAEA566303572A6E20E69235060A3BB58D432A"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\base.py",
+    "Hash": "48E96EABA24A9D76B6B3C6A044C642E86770B4C34B0898DAEC10FC3E1038DA2A"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\discovery.py",
+    "Hash": "BDCEF63EB1F4D7364CE7F16874CF74F2630746C0DE4280235B60030192DAE68D"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\farpost.py",
+    "Hash": "8B0A8E9837F73153535D680089288C70E495C0E43900637DAB4CF12A5F10D3FF"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\integration_test.py",
+    "Hash": "22FC0BE0A487E1D2489B6DEE597195750E60B03D4683E7AC5550FBF34B28539F"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\ozon.py",
+    "Hash": "035DDCD6E7920C1A5ED7D41713297BC9791519F15E4B22C92E0DDF5F8CE62CD9"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\proxy_pool.py",
+    "Hash": "0F7A7394825C9D3CC247A4CAB2126D7836C209E066B4D2ABB89C03C6F0A984D3"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\pw_fetch.py",
+    "Hash": "4DDCBBDC8E66EF9EB9397D7B6711CB2EEC6E00DBC6FB0E043F5C0C23E773770E"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\runner.py",
+    "Hash": "11FEF85932E294ED5CCE909B8CC24F363019CA276C60CDB6B46F9404A58BF655"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\test_collectors.py",
+    "Hash": "9515AB2783B2F41CA0BD67C626C3BCC7F8C1DC115F892B04D1CE03B363507DEA"
+  },
+  {
+    "Path": "C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\wb.py",
+    "Hash": "7A23A82A2EA96A78A48938D62681F18ED7CE622F776F36F346B4C9600912E894"
+  }
+]

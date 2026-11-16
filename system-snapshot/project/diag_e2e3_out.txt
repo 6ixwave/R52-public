@@ -1,0 +1,67 @@
+2026-11-13T12:38:20.962+00:00 INFO r52.service [MainThread] Ядро R-52 2.12.0 запущено на 127.0.0.1:8422
+2026-11-13T12:38:21.964+00:00 INFO r52.collectors.proxy [MainThread] Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13T12:38:27.970+00:00 WARNING r52.collectors.farpost [MainThread] FARPOST: warm-up error: HTTPSConnectionPool(host='www.farpost.ru', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.farpost.ru', port=443): Failed to establish a new connection: NETWORK_BLOCKED"))
+2026-11-13T12:38:34.974+00:00 WARNING r52.collectors.farpost [MainThread] FARPOST 116361427: fetch error: HTTPSConnectionPool(host='www.farpost.ru', port=443): Max retries exceeded with url: /vladivostok/116361427.html (Caused by NewConnectionError("HTTPSConnection(host='www.farpost.ru', port=443): Failed to establish a new connection: NETWORK_BLOCKED"))
+2026-11-13T12:38:34.974+00:00 INFO r52.collectors.proxy [MainThread] Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13T12:38:34.975+00:00 INFO r52.collectors.wb [MainThread] WB: curl_cffi доступен (impersonate=chrome)
+2026-11-13T12:39:10.724+00:00 INFO r52.collectors.wb [MainThread] WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-13T12:39:13.149+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-13T12:39:17.127+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price card_v1 -> 403
+2026-11-13T12:39:20.725+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price card_v2 -> 403
+2026-11-13T12:39:23.045+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price card_v4 -> 403
+2026-11-13T12:39:25.916+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price card_v5 -> 403
+2026-11-13T12:39:28.668+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price catalog_v1 -> 403
+2026-11-13T12:39:31.744+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price catalog_v2 -> 403
+2026-11-13T12:39:35.136+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price web_api -> 498
+2026-11-13T12:39:37.892+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price search_wb -> 403
+2026-11-13T12:39:37.892+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: price — все эндпоинты не дали данных
+2026-11-13T12:39:50.895+00:00 INFO r52.collectors.wb [MainThread] WB HTML: HTTP 498
+2026-11-13T12:39:50.896+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: photo_count=6, found=1
+2026-11-13T12:39:50.896+00:00 INFO r52.collectors.wb [MainThread] WB 199298871: has_video=true, видео не найдено
+2026-11-13T12:39:53.188+00:00 INFO r52.intake [r52-intake] Во входящие добавлен файл jarvis-eye-wb-e2e3.json: PENDING 
+2026-11-13T12:39:58.912+00:00 DEBUG r52.api [Thread-1 (process_request_thread)] 127.0.0.1 "GET /api/status HTTP/1.1" 401 -
+2026-11-13T12:39:58.915+00:00 DEBUG r52.api [Thread-2 (process_request_thread)] 127.0.0.1 "GET /api/inbox HTTP/1.1" 401 -
+2026-11-13T12:39:58.916+00:00 DEBUG r52.api [Thread-3 (process_request_thread)] 127.0.0.1 "GET /api/products HTTP/1.1" 401 -
+2026-11-13T12:39:59.424+00:00 INFO r52.service [MainThread] Ядро R-52 остановлено
+============================================================
+E2E v3: R-52 Full Pipeline (in-process)
+============================================================
+
+[1] Writing config...
+  config: port=8422, intake=C:/Users/aleks/.local/share/r52/intake_test
+  intake cleaned
+  removed stale lock
+
+[2] Starting server...
+  Server started: port=8422, running=True
+  Health: {'service': 'r52-core', 'version': '2.12.0', 'instance': 'e05791f996f34b67b971fc001c37e020', 'ok': True, 'components': {'worker': True, 'scheduler': True, 'intake': True}}
+
+[3] Collecting products...
+  FARPOST: returned None
+  WB: status=PARTIAL_SUCCESS, title=?
+
+[4] Writing JSON to intake...
+  jarvis-eye-wb-e2e3.json (7744B)
+
+[5] Waiting 8s for FolderWatcher...
+
+[6] Querying API...
+  GET /api/status failed: HTTP Error 401: Unauthorized
+  GET /api/inbox failed: HTTP Error 401: Unauthorized
+  Inbox: fetch failed
+  GET /api/products failed: HTTP Error 401: Unauthorized
+  Products: fetch failed
+
+============================================================
+E2E v3 SUMMARY
+============================================================
+  FARPOST collected:    N
+  WB collected:         Y
+  FARPOST in inbox:     N
+  WB in inbox:          N
+  FARPOST in products:  N
+  WB in products:       N
+============================================================
+
+[8] Stopping server...
+DONE

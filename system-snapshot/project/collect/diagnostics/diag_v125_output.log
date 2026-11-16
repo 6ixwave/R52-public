@@ -1,0 +1,37 @@
+======================================================================
+DIAG V125: WB IR-CDN + PRICE V2 + FARPOST ITEM (2026-11-12)
+======================================================================
+
+======================================================================
+PART 1: WB IMAGES — ir-XX.wbstatic.net
+======================================================================
+
+  --- nm=259671175 vol=2596 photos=15 ---
+  [ir-5 big 259671175-1] ERR ConnectionError
+  [ir-5 big 259671175-2] ERR ConnectionError
+  [ir-10 big 259671175-1] ERR ConnectionError
+  [ir-10 big 259671175-2] ERR ConnectionError
+  [ir-15 big 259671175-1] ERR ConnectionError
+  [ir-15 big 259671175-2] ERR ConnectionError
+  [ir-20 big 259671175-1] ERR ConnectionError
+  [ir-20 big 259671175-2] ERR ConnectionError
+  [ir-25 big 259671175-1] ERR ConnectionError
+  [ir-25 big 259671175-2] ERR ConnectionError
+  [ir-30 big 259671175-1] ERR ConnectionError
+  [ir-30 big 259671175-2] ERR ConnectionError
+  [ir-40 big 259671175-1] ERR ConnectionError
+  [ir-40 big 259671175-2] ERR ConnectionError
+  [ir-50 big 259671175-1] ERR ConnectionError
+  [ir-50 big 259671175-2] ERR ConnectionError
+  [basket t259671/259671175/images/259671175-1.jpg] 404 ?B 
+  [basket 671/259671175/images/big/259671175-1.jpg] 404 ?B 
+  [basket 9671/259671175/images/S800/259671175.jpg] 404 ?B 
+  [basket 6/part259671/259671175/img/S800/S800.jpg] 404 ?B 
+  [basket part259671/259671175/photo/S800/S800.jpg] 404 ?B 
+
+  --- nm=199298871 vol=1992 photos=6 ---
+  [ir-5 big 199298871-1] ERR ConnectionError
+  [ir-5 big 199298871-2] ERR ConnectionError
+  [ir-10 big 199298871-1] ERR ConnectionError
+  [ir-10 big 199298871-2] ERR ConnectionError
+  [ir-15 big 199298871-1] ERR ConnectionError

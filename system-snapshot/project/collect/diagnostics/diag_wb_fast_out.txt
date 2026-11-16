@@ -1,0 +1,49 @@
+﻿[OK] curl_cffi
+
+============================================================
+WB FAST DIAG — nm_id=138278567
+============================================================
+
+[1] COOKIE SESSION
+    main page: 498 (1136B)
+    cookies: [REDACTED_AUTH_SECRET]
+    card_v2: 403 (0B)
+    still 403 (cookie didn't help)
+    card_v1: 403 (0B)
+    still 403 (cookie didn't help)
+    HTML(session): 498 (1136B)
+
+[2] SAFARI IMPERSONATE
+    card_v2(safari): 403 (0B)
+    card_v1(safari): 403 (0B)
+
+[3] SEARCH.WB.RU
+    search.wb.rusuggest... -> 403 (0B)
+    search.wb.ruapi... -> 403 (0B)
+    search.wb.rucatalog... -> 403 (0B)
+    search.wb.rucards... -> 403 (0B)
+
+[4] CARD.WB.RU MINIMAL
+    nm=138278567... -> 403 (0B)
+    nm=138278567... -> 403 (0B)
+    curr=rub&nm=138278567... -> 403 (0B)
+    nm=138278567... -> 403 (0B)
+
+[5] BASKET CDN EXTRA PATHS
+    card_full.json: 404 (196B)
+    full.json: 404 (196B)
+    price_info.json: 404 (196B)
+    selling.json: 404 (196B)
+    card.json?full=1: 200 (2267B)
+      has_price_hint=False, keys=['imt_id', 'nm_id', 'imt_name', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'grouped_options']
+    card.json?withPrice=1: 200 (2267B)
+      has_price_hint=False, keys=['imt_id', 'nm_id', 'imt_name', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'grouped_options']
+    card.json?price=1: 200 (2267B)
+      has_price_hint=False, keys=['imt_id', 'nm_id', 'imt_name', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'grouped_options']
+
+[BONUS] CARD.WB.RU WB-SPECIFIC HEADERS
+    403 (0B)
+
+============================================================
+DONE
+============================================================

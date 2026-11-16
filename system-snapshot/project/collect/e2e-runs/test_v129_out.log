@@ -1,0 +1,62 @@
+02:02:46 [v129] INFO: v129 started, budget=115s
+02:02:46 [v129] INFO: ============================================================
+02:02:46 [v129] INFO: WB MEDIA: find real photo URLs on basket CDN
+02:02:46 [v129] INFO: ============================================================
+02:02:46 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+02:02:46 [r52.collectors.wb] INFO: WB: curl_cffi доступен (impersonate=chrome)
+02:03:20 [r52.collectors.wb] INFO: WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+02:03:20 [v129] INFO:   base: https://basket-13.wbbasket.ru/vol1992/part199298/199298871
+02:03:22 [v129] INFO:   [ 0] HTTP 404      0B ?                    bbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg
+02:03:25 [v129] INFO:   [ 1] HTTP 404      0B ?                    3.wbbasket.ru/vol1992/part199298/199298871/images/S800/1.jpg
+02:03:29 [v129] INFO:   [ 2] HTTP 404      0B ?                    3.wbbasket.ru/vol1992/part199298/199298871/images/S800/2.jpg
+02:03:31 [v129] INFO:   [ 3] HTTP 404      0B ?                    3.wbbasket.ru/vol1992/part199298/199298871/images/S800/3.jpg
+02:03:35 [v129] INFO:   [ 4] HTTP 404      0B ?                    3.wbbasket.ru/vol1992/part199298/199298871/images/S800/4.jpg
+02:03:37 [v129] INFO:   [ 5] HTTP 404      0B ?                    3.wbbasket.ru/vol1992/part199298/199298871/images/S800/5.jpg
+02:03:41 [v129] INFO:   [ 6] HTTP 404      0B ?                    3.wbbasket.ru/vol1992/part199298/199298871/images/S800/6.jpg
+02:03:43 [v129] INFO:   [ 7] HTTP 404      0B ?                    asket.ru/vol1992/part199298/199298871/images/S1200/S1200.jpg
+02:03:45 [v129] INFO:   [ 8] HTTP 404      0B ?                    .wbbasket.ru/vol1992/part199298/199298871/images/S1200/1.jpg
+02:03:48 [v129] INFO:   [ 9] HTTP 404      0B ?                    .wbbasket.ru/vol1992/part199298/199298871/images/S1200/2.jpg
+02:03:52 [v129] INFO:   [10] HTTP 404      0B ?                    bbasket.ru/vol1992/part199298/199298871/images/S500/S500.jpg
+02:03:53 [v129] INFO:   [11] HTTP 404      0B ?                    3.wbbasket.ru/vol1992/part199298/199298871/images/S500/1.jpg
+02:03:56 [v129] INFO:   [12] HTTP 404      0B ?                    ket-13.wbbasket.ru/vol1992/part199298/199298871/images/1.jpg
+02:04:00 [v129] INFO:   [13] HTTP 404      0B ?                    ket-13.wbbasket.ru/vol1992/part199298/199298871/images/2.jpg
+02:04:03 [r52.collectors.wb] WARNING: WB cffi error https://ir.wbstatic.net/big/199298871.jpg: Failed to perform, curl: (6) Could not resolve host: ir.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:04:04 [r52.collectors.wb] WARNING: WB cffi error https://ir.wbstatic.net/preview/199298871.jpg: Failed to perform, curl: (6) Could not resolve host: ir.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:04:07 [r52.collectors.wb] WARNING: WB cffi error https://ir.wbstatic.net/big2/199298871.jpg: Failed to perform, curl: (6) Could not resolve host: ir.wbstatic.net (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+02:04:07 [v129] INFO:   FOUND: 0 real images
+02:04:07 [v129] INFO: 
+  --- card.json media field ---
+02:04:09 [v129] INFO:   media: {"has_video": true, "photo_count": 6}
+02:04:09 [v129] INFO:   full_colors: [{"nm_id": 173121919}, {"nm_id": 173036660}, {"nm_id": 199298871}]
+02:04:09 [v129] INFO: 
+============================================================
+02:04:09 [v129] INFO: WB PRICE: try alternative endpoints
+02:04:09 [v129] INFO: ============================================================
+02:04:09 [r52.collectors.proxy] INFO: Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+02:04:09 [r52.collectors.wb] INFO: WB: curl_cffi доступен (impersonate=chrome)
+02:04:09 [v129] INFO: 
+  --- basket_price ---
+02:04:10 [v129] INFO:   HTTP 404, 0B
+02:04:10 [v129] INFO: 
+  --- catalog_v1 ---
+02:04:14 [v129] INFO:   HTTP 403, 0B
+02:04:14 [v129] INFO: 
+  --- catalog_v2 ---
+02:04:19 [v129] INFO:   HTTP 403, 0B
+02:04:19 [v129] INFO: 
+  --- card_mobile ---
+02:04:20 [v129] INFO:   HTTP 403, 0B
+02:04:20 [v129] INFO: 
+  --- basket_price_json ---
+02:04:23 [v129] INFO:   HTTP 404, 0B
+02:04:23 [v129] INFO: 
+  --- html_detail ---
+02:04:27 [v129] INFO:   HTTP 498, 0B
+02:04:27 [v129] INFO: 
+  PRICE RESULTS: [{'label': 'basket_price', 'status': 404}, {'label': 'catalog_v1', 'status': 403}, {'label': 'catalog_v2', 'status': 403}, {'label': 'card_mobile', 'status': 403}, {'label': 'basket_price_json', 'status': 404}, {'label': 'html_detail', 'status': 498}]
+02:04:27 [v129] INFO: 
+============================================================
+02:04:27 [v129] INFO: v129 DONE in 101.4s
+02:04:27 [v129] INFO: MEDIA: 0 found
+02:04:27 [v129] INFO: PRICE: [{'label': 'basket_price', 'status': 404}, {'label': 'catalog_v1', 'status': 403}, {'label': 'catalog_v2', 'status': 403}, {'label': 'card_mobile', 'status': 403}, {'label': 'basket_price_json', 'status': 404}, {'label': 'html_detail', 'status': 498}]
+02:04:27 [v129] INFO: ============================================================

@@ -1,0 +1,75 @@
+{
+  "format": "JARVIS_BR02_EYE_USER_CAPTURE",
+  "capture_action": "EXPLICIT_POPUP_CLICK",
+  "fully_autonomous": false,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Утюг BBK ISE-2404",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "NE618-655",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Полнофункциональная модель утюга ISE-2404 станет отличным помощником любой хозяйке. Функция интенсивной подачи пара и вертикальное отпаривание разглаживают даже самые сложные складки и расправляют заломы в неподатливых и плотных тканях. Керамическое покрытие подошвы и плавная регулировка температуры позволяют гладить даже деликатные ткани, не боясь повредить их. Функция Anti-calcium защищает от образования накипи при глажении с паром и помогает продлить срок службы устройства, а системы самоочистки Self-Cleaning - очищать систему пароувлажнения от накипи. Стоит отметить, что утюг оснащен системой, помогающей избежать подтекания воды из сопел на подошве при глажении с невысокой температурой. Наличие автоматического отключения устройства служит дополнительной гарантией надежного и безопасного использования.",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Бытовая техника > Утюги",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Длина упаковки: 30 см\nВысота упаковки: 15 см\nШирина упаковки: 12 см",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-10.wbbasket.ru/vol1382/part138278/138278567/images/S800/S800.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Бытовая техника > Утюги",
+    "source": "WB",
+    "id": "138278567",
+    "url": "https://www.wildberries.ru/catalog/138278567/detail.aspx",
+    "observed_at": "2026-11-12T02:34:37.912255+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

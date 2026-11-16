@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Cuffie ibride con cancellazione attiva del rumore Cuffie wireless Bluetooth 5.4 sopra l'orecchio con microfono 200 ore di riproduzione, trasparenza, app personalizzata",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "64.39",
+        "amount_minor": 6439,
+        "currency": "RUB",
+        "visible_label": "64.39 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "64.39",
+        "amount_minor": 6439,
+        "currency": "RUB",
+        "visible_label": "64.39 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S7e26e8a3075941b3a2c884fa7a8c6ad5x.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005009881514863",
+    "url": "https://ru.aliexpress.com/item/1005009881514863.html",
+    "observed_at": "2026-11-13T08:40:33.104680+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

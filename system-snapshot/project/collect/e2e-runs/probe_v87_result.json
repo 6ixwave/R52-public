@@ -1,0 +1,23 @@
+{
+  "WB": {
+    "api_edge": {
+      "error": "Impersonating edge124 is not supported"
+    }
+  },
+  "OZON": {
+    "edge": {
+      "error": "Impersonating edge124 is not supported"
+    }
+  },
+  "AVITO": {
+    "cat_edge": {
+      "error": "Impersonating edge124 is not supported"
+    },
+    "ad_8341658309": {
+      "error": "Impersonating edge124 is not supported"
+    }
+  },
+  "FARPOST": {
+    "error": "ensure_source() takes from 2 to 4 positional arguments but 5 were given"
+  }
+}

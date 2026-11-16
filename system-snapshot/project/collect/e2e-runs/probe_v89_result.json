@@ -1,0 +1,55 @@
+{
+  "PRE": {
+    "product": 5,
+    "observation": 19,
+    "price_point": 12,
+    "source": 6
+  },
+  "POST": {
+    "product": 5,
+    "observation": 19,
+    "price_point": 12,
+    "source": 6
+  },
+  "results": {
+    "FARPOST": {
+      "error": "Inbox.__init__() takes 2 positional arguments but 3 were given"
+    },
+    "WB": {
+      "199298871": {
+        "vol": 1992,
+        "part": 298,
+        "host": null,
+        "status": "NO_BASKET"
+      },
+      "1285331379": {
+        "vol": 12853,
+        "part": 331,
+        "host": null,
+        "status": "NO_BASKET"
+      }
+    },
+    "OZON": {
+      "479010389": {
+        "http": 403,
+        "body_size": 10571
+      },
+      "721093013": {
+        "http": 403,
+        "body_size": 10691
+      }
+    },
+    "AVITO": {
+      "8341658309": {
+        "http": 439,
+        "url": "https://m.avito.ru/krasnoyarsk/iphone-14-128-gb-8341658309",
+        "note": "bot-challenge"
+      },
+      "1154321987": {
+        "http": 439,
+        "url": "https://m.avito.ru/krasnoyarsk/iphone-11-1154321987",
+        "note": "bot-challenge"
+      }
+    }
+  }
+}

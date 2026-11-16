@@ -1,0 +1,75 @@
+﻿[OK] curl_cffi
+
+============================================================
+WB V5 — nm_id=138278567 basket=basket-10.wbbasket.ru
+============================================================
+
+[A] API.WB.RU
+    /cards/v2/detail?nm=138278567&curr= ERR: Failed to perform, curl: (6) Could not resolve hos
+    /cards/v1/detail?nm=138278567 ERR: Failed to perform, curl: (6) Could not resolve hos
+    /cards/v2/detail?nm=138278567&curr= ERR: Failed to perform, curl: (6) Could not resolve hos
+    /cards/v1?nm=138278567 ERR: Failed to perform, curl: (6) Could not resolve hos
+    /v1/cards/detail?nm=138278567 ERR: Failed to perform, curl: (6) Could not resolve hos
+    /nm-tiles/v1?nm=138278567 ERR: Failed to perform, curl: (6) Could not resolve hos
+    /nm-details/v1?nm=138278567 ERR: Failed to perform, curl: (6) Could not resolve hos
+
+[B] BASKET CDN DEEP PATHS
+    /info/ru/card.json: 200 (2267B)
+      FULL card.json keys: ['imt_id', 'nm_id', 'imt_name', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'grouped_options', 'options', 'certificate', 'selling', 'media', 'data']
+        imt_id = 118274015
+        nm_id = 138278567
+        imt_name = Утюг BBK ISE-2404
+        subj_name = Утюги
+        subj_root_name = Бытовая техника
+        vendor_code = NE618-655
+        grouped_options = [{"group_name": "Габариты", "options": [{"name": "Длина упаковки", "value": "[REDACTED_AUTH_SECRET]"}, {"name": "Высо
+        options = [{"name": "Длина упаковки", "value": "[REDACTED_AUTH_SECRET]"}, {"name": "Высота упаковки", "value": "[REDACTED_AUTH_SECRET]"}, {"name
+        certificate = {...} (0 keys)
+        selling = {...} (2 keys)
+        media = {...} (1 keys)
+        data = {...} (3 keys)
+    /info/ru/card.json: 200 (2267B)
+      FULL card.json keys: ['imt_id', 'nm_id', 'imt_name', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'grouped_options', 'options', 'certificate', 'selling', 'media', 'data']
+        imt_id = 118274015
+        nm_id = 138278567
+        imt_name = Утюг BBK ISE-2404
+        subj_name = Утюги
+        subj_root_name = Бытовая техника
+        vendor_code = NE618-655
+        grouped_options = [{"group_name": "Габариты", "options": [{"name": "Длина упаковки", "value": "[REDACTED_AUTH_SECRET]"}, {"name": "Высо
+        options = [{"name": "Длина упаковки", "value": "[REDACTED_AUTH_SECRET]"}, {"name": "Высота упаковки", "value": "[REDACTED_AUTH_SECRET]"}, {"name
+        certificate = {...} (0 keys)
+        selling = {...} (2 keys)
+        media = {...} (1 keys)
+        data = {...} (3 keys)
+    /price/ru/price.json: 404 (196B)
+    /price/price.json: 404 (196B)
+    /price.json: 404 (196B)
+    /info/price.json: 404 (196B)
+    /info/ru/price.json: 404 (196B)
+    /selling/ru/selling.json: 404 (196B)
+    /selling/selling.json: 404 (196B)
+    /info/ru/nm.json: 404 (196B)
+    /info/ru/product.json: 404 (196B)
+    /info/ru/details.json: 404 (196B)
+    /info/ru/card_full.json: 404 (196B)
+    /card.json: 404 (196B)
+    /info/ru/card.json?format=full: 200 (2267B)
+
+[C] 498 HTML CHALLENGE ANALYSIS
+    first GET: 498 (1136B)
+    cookies after: {}
+    markers: {'wbaas': True, 'altcha': False, 'challenge': True, 'set-cookie-js': False, 'meta-refresh': False, 'data-req-uuid': True, 'script-count': 3}
+    second GET: 498 (1136B)
+
+[D] STATIC BASKET (media test)
+    -01.wbbasket.ru/vol0/part138278/13827856: 404 ? (0B)
+    ERR: Failed to perform, curl: (6) Could not resolve hos
+    -02.wbbasket.ru/vol0/part138278/13827856: 404 ? (0B)
+
+[E] SECOND NM_ID (1097975275)
+    No basket found for 1097975275
+
+============================================================
+DONE
+============================================================

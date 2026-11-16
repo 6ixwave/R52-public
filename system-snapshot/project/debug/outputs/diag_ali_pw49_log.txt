@@ -1,0 +1,38 @@
+[02:23:08] Warmup: us.aliexpress.com
+[02:23:19]   cookies: [REDACTED_AUTH_SECRET]
+[02:23:19] === TEST 1: US region, product 1 ===
+[02:23:19]   Region [US]: https://us.aliexpress.com
+[02:23:34] === TEST 2: Global (www), product 1 ===
+[02:23:34]   Region [global]: https://www.aliexpress.com
+[02:23:44]     MTOP: 200 len=151
+[02:23:44]     MTOP: 200 len=543
+[02:23:44]     MTOP: 200 len=6319
+[02:23:45]     MTOP: 200 len=8384
+[02:23:52]     MTOP: 200 len=85
+[02:23:58]     MTOP saved → mtop_global_13323763.json (151 bytes)
+[02:23:58]     MTOP saved → mtop_global_13323763.json (543 bytes)
+[02:23:58]     MTOP saved → mtop_global_13323763.json (6319 bytes)
+[02:23:58]     MTOP saved → mtop_global_13323763.json (8384 bytes)
+[02:23:58]     MTOP saved → mtop_global_13323763.json (85 bytes)
+[02:23:58] === TEST 3: US region, product 2 ===
+[02:23:58]   Region [US_p2]: https://us.aliexpress.com
+[02:24:13] === TEST 4: IT region (control), product 1 ===
+[02:24:13]   Region [IT]: https://it.aliexpress.com
+[02:24:14]     MTOP: 200 len=543
+[02:24:15]     MTOP: 200 len=6319
+[02:24:15]     MTOP: 200 len=8384
+[02:24:17]     MTOP: 200 len=85
+[02:24:31]     MTOP saved → mtop_IT_13323763.json (543 bytes)
+[02:24:31]     MTOP saved → mtop_IT_13323763.json (6319 bytes)
+[02:24:31]     MTOP saved → mtop_IT_13323763.json (8384 bytes)
+[02:24:31]     MTOP saved → mtop_IT_13323763.json (85 bytes)
+[02:24:31] Merging best data…
+[02:24:32] FATAL:
+Traceback (most recent call last):
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_pw49.py", line 379, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_pw49.py", line 351, in main
+    best["sku_count"] = len([s for s in result["regions"].get("us_p1", {}).get("mtop", [{}])[0].get("data", {}).get("sku_found", [])]) if result["regions"].get("us_p1") else 0
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range

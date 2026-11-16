@@ -1,0 +1,59 @@
+2026-11-11 09:06:06,724 diag_wb_v7 INFO ============================================================
+2026-11-11 09:06:06,724 diag_wb_v7 INFO PHOTO: расширенный поиск
+2026-11-11 09:06:06,725 diag_wb_v7 INFO ============================================================
+2026-11-11 09:06:08,082 diag_wb_v7 WARNING [ir13_S800] ERROR: Failed to perform, curl: (6) Could not resolve host: ir-13.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 09:06:09,654 diag_wb_v7 WARNING [ir01_S800] ERROR: Failed to perform, curl: (6) Could not resolve host: ir-01.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 09:06:11,321 diag_wb_v7 WARNING [ir05_S800] ERROR: Failed to perform, curl: (6) Could not resolve host: ir-05.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 09:06:12,905 diag_wb_v7 WARNING [ir10_S800] ERROR: Failed to perform, curl: (6) Could not resolve host: ir-10.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 09:06:14,476 diag_wb_v7 WARNING [static13_S800] ERROR: Failed to perform, curl: (6) Could not resolve host: static-basket13.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 09:06:16,113 diag_wb_v7 WARNING [static01_S800] ERROR: Failed to perform, curl: (6) Could not resolve host: static-basket01.wbbasket.ru (Domain name not found). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 09:06:17,192 diag_wb_v7 INFO [b13_S100] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:18,287 diag_wb_v7 INFO [b13_S200] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:19,384 diag_wb_v7 INFO [b13_S220] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:20,484 diag_wb_v7 INFO [b13_S300] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:21,573 diag_wb_v7 INFO [b13_S400] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:22,654 diag_wb_v7 INFO [b13_S500] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:23,765 diag_wb_v7 INFO [b13_S600] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:24,847 diag_wb_v7 INFO [b13_S700] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:25,946 diag_wb_v7 INFO [b13_S800] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:27,022 diag_wb_v7 INFO [b13_S120] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:28,134 diag_wb_v7 INFO [b13_flat] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:29,241 diag_wb_v7 INFO [b13_flat2] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:30,326 diag_wb_v7 INFO [b13_num1] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:31,413 diag_wb_v7 INFO [b13_num2] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:37,200 diag_wb_v7 WARNING [wbstatic_S800] ERROR: Failed to perform, curl: (35) Recv failure: Connection was reset. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-11 09:06:38,290 diag_wb_v7 INFO [b13_root] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:38,591 diag_wb_v7 INFO ============================================================
+2026-11-11 09:06:38,591 diag_wb_v7 INFO PRICE: расширенный поиск
+2026-11-11 09:06:38,591 diag_wb_v7 INFO ============================================================
+2026-11-11 09:06:39,389 diag_wb_v7 INFO [card_v2_secfetch] 403 text/plain 0B | 
+2026-11-11 09:06:40,676 diag_wb_v7 INFO [card_v1_secfetch] 403 text/plain 0B | 
+2026-11-11 09:06:41,977 diag_wb_v7 INFO [card_v2_xrender] 403 text/plain 0B | 
+2026-11-11 09:06:43,266 diag_wb_v7 INFO [mobile_api] 498 text/html 0B | <!doctype html><html lang="ru" data-theme="light" data-req-uuid="7bb6af921401ebc592182c9b944e9b2f" d
+2026-11-11 09:06:44,563 diag_wb_v7 INFO [basket_nmjson] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:45,902 diag_wb_v7 INFO [basket_card_alt] 200 application/json 9623B | {"imt_id":158033827,"nm_id":199298871,"imt_name":"Овсяный смарт коктейль для похудения без сахара","
+2026-11-11 09:06:47,413 diag_wb_v7 INFO [basket_prices_v2] 404 text/html 0B | <!DOCTYPE html> <html> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <t
+2026-11-11 09:06:47,913 diag_wb_v7 INFO ============================================================
+2026-11-11 09:06:47,914 diag_wb_v7 INFO HTML detail.aspx
+2026-11-11 09:06:47,914 diag_wb_v7 INFO ============================================================
+2026-11-11 09:06:49,183 diag_wb_v7 INFO [html_full] 498 text/html 0B | <!doctype html><html lang="ru" data-theme="light" data-req-uuid="66accc6eb7c60d69bbe69b7f3b999c4e" d
+2026-11-11 09:06:49,184 diag_wb_v7 INFO ============================================================
+2026-11-11 09:06:49,184 diag_wb_v7 INFO RESULTS
+2026-11-11 09:06:49,184 diag_wb_v7 INFO ============================================================
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   photo_ir13_S800: {"status": "HTTP_0", "url": "https://ir-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg", "ct": ""}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   photo_ir01_S800: {"status": "HTTP_0", "url": "https://ir-01.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg", "ct": ""}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   photo_ir05_S800: {"status": "HTTP_0", "url": "https://ir-05.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg", "ct": ""}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   photo_ir10_S800: {"status": "HTTP_0", "url": "https://ir-10.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg", "ct": ""}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   photo_static13_S800: {"status": "HTTP_0", "url": "https://static-basket13.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg", "ct": ""}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   photo_static01_S800: {"status": "HTTP_0", "url": "https://static-basket01.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg", "ct": ""}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   photo_wbstatic_S800: {"status": "HTTP_0", "url": "https://wbstatic.net/vol1992/part199298/199298871/images/S800/S800.jpg", "ct": ""}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   price_card_v2_secfetch: {"status": "HTTP_403", "url": "https://card.wb.ru/cards/v2/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871"}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   price_card_v1_secfetch: {"status": "HTTP_403", "url": "https://card.wb.ru/cards/v1/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871"}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   price_card_v2_xrender: {"status": "HTTP_403", "url": "https://card.wb.ru/cards/v2/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm=199298871"}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   price_mobile_api: {"status": "HTTP_498", "url": "https://www.wildberries.ru/web/api/catalog/cards/v1/detail?nm=199298871"}
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   price_basket_nmjson: {"status": "HTTP_404", "url": "https://basket-13.wbbasket.ru/vol1992/part199298/199298871/nm.json", "body": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; cha
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   price_basket_card_alt: {"status": "OK", "url": "https://basket-13.wbbasket.ru/vol1992/part199298/199298871/info/ru/card.json", "ct": "application/json", "bytes": 9623, "body": "{\"imt_id\":158033827,\"nm_id\":199298871,\"im
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   price_basket_prices_v2: {"status": "HTTP_404", "url": "https://basket-13.wbbasket.ru/vol1992/part199298/199298871/prices.json", "body": "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html;
+2026-11-11 09:06:49,184 diag_wb_v7 INFO   html_full: {"status": "HTTP_498", "bytes": 0, "ct": "text/html", "body": "<!doctype html><html lang=\"ru\" data-theme=\"light\" data-req-uuid=\"66accc6eb7c60d69bbe69b7f3b999c4e\" data-req-ip=\"82.162.122.156\"><
+2026-11-11 09:06:49,185 diag_wb_v7 INFO Saved: diag_wb_v7_out.json
+DONE

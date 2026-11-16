@@ -1,0 +1,111 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Джинсы бананы с высокой посадкой mom",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Feimailis",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "model": {
+        "status": "KNOWN",
+        "value": "AB984-53E-2",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Джинсы женские бананы или момы синие, зауженные к низу - это базовая повседневная классика для любой девушки. Джинсы выполнены из качественной денимовой ткани с добавлением натурального хлопка, что обеспечивает комфорт и прочность изделия. ",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Одежда > Джинсы",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      },
+      "options": {
+        "status": "KNOWN",
+        "value": "Состав: хлопок; полиэстер; спандекс\nЦвет: синий; темно-синий джинсовый; джинс; джинсовый меланж\nПол: Женский\nСезон: Круглогодичный\nРазмер на модели: 40\nРост модели на фото: 175 см\nПараметры модели на фото (ОГ-ОТ-ОБ): 88-60-92\nТип посадки: высокая\nВид застежки: молния; пуговицы\nТип карманов: накладные; прорезные\nОсобенности модели: эластичный материал\nДекоративные элементы: без элементов\nУтеплитель: без утеплителя\nУход за вещами: стирка при t не более 30°C; гладить с изнанки\nКомплектация: Джинсы женские - 1 шт\nСтрана производства: Китай",
+        "method": "CARD_JSON",
+        "evidence": {
+          "method": "CARD_JSON",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 598000,
+        "currency": "RUB",
+        "label": "price_api.basic",
+        "amount": "5980.00",
+        "visible_label": "price_api.basic"
+      },
+      {
+        "role": "regular",
+        "amount_minor": 266400,
+        "currency": "RUB",
+        "label": "price_api.product",
+        "amount": "2664.00",
+        "visible_label": "price_api.product"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://basket-02.wbbasket.ru/vol171/part17195/17195801/images/big/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-02.wbbasket.ru/vol171/part17195/17195801/images/c516x688/1.webp",
+          "image_data": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://basket-02.wbbasket.ru/vol171/part17195/17195801/images/S800/1.jpg",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "UNKNOWN",
+    "category_path": "Одежда > Джинсы",
+    "source": "WB",
+    "id": "17195801",
+    "url": "https://www.wildberries.ru/catalog/17195801/detail.aspx",
+    "observed_at": "2026-11-16T05:23:25.494242+10:00",
+    "status": "SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

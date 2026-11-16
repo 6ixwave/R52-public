@@ -1,0 +1,182 @@
+[
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "ERR:ProxyError",
+    "lat_ms": 233,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "ERR:ProxyError",
+    "lat_ms": 237,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "ERR:ConnectionError",
+    "lat_ms": 240,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "ERR:ConnectionError",
+    "lat_ms": 254,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "ERR:ProxyError",
+    "lat_ms": 268,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "ERR:ConnectionError",
+    "lat_ms": 272,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "ERR:ConnectionError",
+    "lat_ms": 1283,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3014,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3024,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3025,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3022,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3017,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3014,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3013,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3010,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3016,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3022,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3022,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3021,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "WB-403",
+    "lat_ms": 2700,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3007,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3023,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3007,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3007,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3007,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3011,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3025,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3010,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3020,
+    "size": 0
+  },
+  {
+    "proxy": "http://proxy.example.invalid:8080",
+    "status": "TIMEOUT",
+    "lat_ms": 3036,
+    "size": 0
+  }
+]

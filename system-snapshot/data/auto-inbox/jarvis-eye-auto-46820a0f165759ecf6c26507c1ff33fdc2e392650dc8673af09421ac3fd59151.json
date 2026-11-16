@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "UPERFECT Monitor Portatile Touch da 15,6 Pollici per Gaming 1920*1080P 300cd/m2 Schermo PC Esteso per TV Laptop Secondo Schermo XBox PS4/5",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "129.99",
+        "amount_minor": 12999,
+        "currency": "EUR",
+        "visible_label": "129.99 EUR"
+      },
+      {
+        "role": "original",
+        "amount": "144.83",
+        "amount_minor": 14483,
+        "currency": "EUR",
+        "visible_label": "144.83 EUR"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S2296bfe03dc343cfaf5ba514779a0abcx.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005009813246509",
+    "listing_id": "1005009813246509",
+    "title": "UPERFECT Monitor Portatile Touch da 15,6 Pollici per Gaming 1920*1080P 300cd/m2 Schermo PC Esteso per TV Laptop Secondo Schermo XBox PS4/5",
+    "url": "https://ru.aliexpress.com/item/1005009813246509.html",
+    "observed_at": "2026-11-15T02:37:04.918189+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

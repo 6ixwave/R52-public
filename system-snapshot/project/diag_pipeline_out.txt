@@ -1,0 +1,94 @@
+2026-11-13 22:22:51,827 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:22:53,170 r52.collectors.farpost INFO FARPOST: warm-up OK, cookies=[REDACTED_AUTH_SECRET]
+2026-11-13 22:22:54,665 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+2026-11-13 22:22:54,665 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-13 22:23:31,495 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-13 22:23:34,757 r52.collectors.wb INFO WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-13 22:23:38,336 r52.collectors.wb INFO WB 199298871: price card_v1 -> 403
+2026-11-13 22:23:40,948 r52.collectors.wb INFO WB 199298871: price card_v2 -> 403
+2026-11-13 22:23:43,609 r52.collectors.wb INFO WB 199298871: price card_v4 -> 403
+2026-11-13 22:23:46,134 r52.collectors.wb INFO WB 199298871: price card_v5 -> 403
+2026-11-13 22:23:49,582 r52.collectors.wb INFO WB 199298871: price catalog_v1 -> 403
+2026-11-13 22:23:51,670 r52.collectors.wb INFO WB 199298871: price catalog_v2 -> 403
+2026-11-13 22:23:53,852 r52.collectors.wb INFO WB 199298871: price web_api -> 498
+2026-11-13 22:23:57,737 r52.collectors.wb INFO WB 199298871: price search_wb -> 403
+2026-11-13 22:23:57,737 r52.collectors.wb INFO WB 199298871: price — все эндпоинты не дали данных
+2026-11-13 22:24:17,620 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-13 22:24:17,620 r52.collectors.wb INFO WB 199298871: photo_count=6, found=1
+2026-11-13 22:24:17,620 r52.collectors.wb INFO WB 199298871: has_video=true, видео не найдено
+============================================================
+PIPELINE INTEGRATION TEST
+============================================================
+
+[1] Importing modules...
+  ✓ eye.py, normalize.py imported
+
+[2] FARPOST collect...
+  ✓ FARPOST: 2.8s, status=FULL_SUCCESS
+    title=IPhone 17 256Gb. Trade-IN. Кредит. Гарантия 1 год
+    prices=1
+    media=6
+
+[3] WB collect...
+  ✓ WB: 83.0s, status=PARTIAL_SUCCESS
+    title=Овсяный смарт коктейль для похудения без сахара
+    prices=0
+    media=1
+
+[4-FARPOST] check_export + normalize_eye...
+  ✓ check_export passed
+  ✓ normalize_eye passed
+    source=FARPOST
+    listing_id=116361427
+    title=IPhone 17 256Gb. Trade-IN. Кредит. Гарантия 1 год
+    prices=1
+      role=regular amount=7199900 RUB
+    availability=IN_STOCK
+    completeness={'total': 14, 'known': 3, 'unknown': ['Модель', 'Модификация', 'Отображаемая цена', 'Состояние', 'Комплект', 'Местонахождение продавца', 'Доставка', 'Гарантия', 'Возврат', 'Отзывы', 'Вопросы покупателей'], 'independently_verified': 0}
+    media=6 items
+
+[4-WB] check_export + normalize_eye...
+  ✓ check_export passed
+  ✓ normalize_eye passed
+    source=WB
+    listing_id=199298871
+    title=Овсяный смарт коктейль для похудения без сахара
+    prices=0
+    availability=UNKNOWN
+    completeness={'total': 14, 'known': 2, 'unknown': ['Модификация', 'Отображаемая цена', 'Условия цены', 'Состояние', 'Комплект', 'Местонахождение продавца', 'Наличие', 'Доставка', 'Гарантия', 'Возврат', 'Отзывы', 'Вопросы покупателей'], 'independently_verified': 0}
+    media=1 items
+
+[5] FolderWatcher test...
+  ✓ Written: jarvis-eye-farpost-test1.json (7379B)
+  ✓ Written: jarvis-eye-wb-test1.json (7744B)
+  Pattern 'jarvis-eye*.json' vs 'jarvis-eye-farpost-test1.json': ✓
+  Pattern 'jarvis-eye*.json' vs 'jarvis-eye-wb-test1.json': ✓
+
+  Lightweight scan (no app):
+  Found 2 candidates (expect 2)
+    jarvis-eye-farpost-test1.json (7379B)
+    jarvis-eye-wb-test1.json (7744B)
+
+[6] Preview (UI data)...
+
+  FARPOST:
+    title: IPhone 17 256Gb. Trade-IN. Кредит. Гарантия 1 год
+    price: 71 999 ₽
+    availability: IN_STOCK
+    completeness: {'total': 14, 'known': 3, 'unknown': ['Модель', 'Модификация', 'Отображаемая цена', 'Состояние', 'Комплект', 'Местонахождение продавца', 'Доставка', 'Гарантия', 'Возврат', 'Отзывы', 'Вопросы покупателей'], 'independently_verified': 0}
+
+  WB:
+    title: Овсяный смарт коктейль для похудения без сахара
+    price: Цена неизвестна
+    availability: UNKNOWN
+    completeness: {'total': 14, 'known': 2, 'unknown': ['Модификация', 'Отображаемая цена', 'Условия цены', 'Состояние', 'Комплект', 'Местонахождение продавца', 'Наличие', 'Доставка', 'Гарантия', 'Возврат', 'Отзывы', 'Вопросы покупателей'], 'independently_verified': 0}
+
+============================================================
+SUMMARY
+============================================================
+  FARPOST: ✓ PASS
+  WB:      ✓ PASS
+  FolderWatcher pattern: ✓
+  Files in intake dir: 2
+============================================================
+DONE

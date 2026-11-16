@@ -1,0 +1,35 @@
+=== diag_v7g — 2026-11-14 12:50:45 ===
+Query: 'наушники'
+
+── [A] COM _fetch_wholesale_html ──
+  OK: 748451 bytes, 4.2s
+  Locale: IT=0, EN=0, RU=1
+  pdp_npi currencies (first 20): {'EUR'}
+  Parsed: 12 products in 0.00s
+  [0] id=1005012296880178 title='EDIFIER W800BT SE Cuffie Wireless Over-Ear Bluetooth 5.4 con'
+      price=31.19 EUR
+  collect_by_search: 8 items, 9.2s
+  first: id=1005013565057281 pc=2 title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Ful'
+
+── [B] RU _fetch_wholesale_html ──
+  OK: 736843 bytes, 4.6s
+  Locale: IT=0, EN=0, RU=1
+  pdp_npi currencies (first 20): {'EUR'}
+  Parsed: 12 products in 0.00s
+  [0] id=1005013565057281 title='HIFIMAN Arya Cuffie Over-Ear Planar Magnetiche Full-Size per'
+      price=521.39 EUR
+  collect_by_search: 12 items, 20.5s
+  first: id=1005013423878416 pc=2 title='Nuove Cuffie Wireless Over-Ear 5-in-1, Radio TV RF'
+
+── [C] COM Playwright state ──
+  _pw_failed=False
+  _page=None
+  _session_warm=False
+  _ensure_browser: True in 0.6s
+  _page=<Page url='about:blank'>
+  _ctx=<BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=C:\Users\aleks\AppData\Local\ms-playwright\chromium-1248\chrome-win64\chrome.exe> version=156.0.8078.4>>
+
+── [D] RU _fetch_search_api ──
+  None returned in 3.0s
+
+=== DONE ===

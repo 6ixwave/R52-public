@@ -1,0 +1,63 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Hub USB 3.0 Hub USB 3 USB 2.0 Multi USB Splitter Adattatore di alimentazione Espansore multiplo 4/7 porte 2.0 con interruttore per accessori PC",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "5.21",
+        "amount_minor": 521,
+        "currency": "RUB",
+        "visible_label": "5.21 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "4.72",
+        "amount_minor": 472,
+        "currency": "RUB",
+        "visible_label": "4.72 RUB"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Hf5aad642fdd344499164aa03341f39cdF.jpg_480x480q75.jpg_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005002335192381",
+    "url": "https://ru.aliexpress.com/item/1005002335192381.html",
+    "observed_at": "2026-11-13T07:48:13.476788+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

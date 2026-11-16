@@ -1,0 +1,65 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "POCO F9 Pro 5G Smartphone, globale Version, Snapdragon 8 Elite Gen 5, 6,59\" 185Hz-Display, 200MP-Kamera, 6330mAh, 100W kabelgebundenes Laden, NFC",
+        "method": "WHOLESALE_HTML",
+        "evidence": {
+          "method": "WHOLESALE_HTML",
+          "source": "ALIEXPRESS_RU"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "887.13",
+        "amount_minor": 88713,
+        "currency": "CHF",
+        "visible_label": "887.13 CHF"
+      },
+      {
+        "role": "original",
+        "amount": "1331.70",
+        "amount_minor": 133170,
+        "currency": "CHF",
+        "visible_label": "1,331.70 CHF"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/S7b321f6a2ec74acdbe9a2954c86f9193J.png_480x480.png_.avif",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005006954503979",
+    "listing_id": "1005006954503979",
+    "title": "POCO F9 Pro 5G Smartphone, globale Version, Snapdragon 8 Elite Gen 5, 6,59\" 185Hz-Display, 200MP-Kamera, 6330mAh, 100W kabelgebundenes Laden, NFC",
+    "url": "https://ru.aliexpress.com/item/1005006954503979.html",
+    "observed_at": "2026-11-16T05:13:33.078514+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

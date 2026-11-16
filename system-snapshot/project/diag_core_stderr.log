@@ -1,0 +1,25 @@
+2026-11-13T12:59:19.777+00:00 INFO r52.sources [MainThread] Sources: зарегистрировано 6 сборщиков
+2026-11-13T12:59:19.816+00:00 INFO r52.backup [MainThread] Резервная копия r52-20261113T125919Z-pre-migrate-v6.sqlite3 создана, 2056192 байт
+2026-11-13T12:59:19.818+00:00 INFO r52.db [MainThread] Миграция 7 (assistant_request) применена
+2026-11-13T12:59:19.820+00:00 CRITICAL r52.crash [MainThread] Необработанная ошибка
+Traceback (most recent call last):
+  File "<frozen runpy>", line 201, in _run_module_as_main
+  File "<frozen runpy>", line 87, in _run_code
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\__main__.py", line 5, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\cli.py", line 434, in main
+    return args.func(args)
+           ~~~~~~~~~^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\cli.py", line 136, in cmd_serve
+    app.start(port=args.port)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\service.py", line 91, in start
+    self.open()
+    ~~~~~~~~~^^
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\service.py", line 71, in open
+    result = migrate(self.db, backup_dir=self.paths.backups_dir, now=self.clock.now())
+  File "C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\r52\db\migrate.py", line 70, in migrate
+    conn.executescript(script)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^
+sqlite3.OperationalError: no such table: assistant_llm_call

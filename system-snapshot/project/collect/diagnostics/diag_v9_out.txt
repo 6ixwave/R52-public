@@ -1,0 +1,11 @@
+2026-11-12 19:03:46,702 INFO === DIAG V9 START ===
+2026-11-12 19:03:46,712 INFO DB test_home: {'path': 'C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\e2e_test_home\\data\\r52.sqlite3', 'exists': True, 'size': 319488, 'product': 5, 'observation': 6, 'price_point': 2, 'price_point_sample': [{'id': 1, 'observation_id': 2, 'product_id': 2, 'role': 'regular', 'amount_minor': 13500000, 'currency': 'RUB', 'label': 'data-bulletin-price', 'observed_at': '2026-11-11T16:33:06.851+00:00'}, {'id': 2, 'observation_id': 3, 'product_id': 3, 'role': 'regular', 'amount_minor': 2440000, 'currency': 'RUB', 'label': 'data-bulletin-price', 'observed_at': '2026-11-11T16:32:54.128+00:00'}], 'inbox_item': 7}
+2026-11-12 19:03:47,007 INFO Imports OK: ['WB', 'OZON', 'AVITO', 'FARPOST']
+2026-11-12 19:03:48,191 INFO WB basket: {'b1': {'err': 'Failed to perform, curl: (6) Could not resolve host: basket-1.wbbasket.ru (Domai', 't': 0.6}, 'b2': {'err': 'Failed to perform, curl: (6) Could not resolve host: basket-2.wbbasket.ru (Domai', 't': 0.6}}
+2026-11-12 19:03:49,110 INFO WB price: {'http': 403, 'len': 0, 't': 0.9}
+2026-11-12 19:03:50,357 INFO FP warm: HTTP=200 t=1.2s
+2026-11-12 19:03:52,136 INFO FP card: {'http': 200, 'len': 197845, 'url': 'https://www.farpost.ru/verify?u=%2Fvladivostok%2F139122082.html', 'verify': True, 't': 0.8}
+2026-11-12 19:03:55,219 INFO OZON: {'composer': {'err': 'Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to g'}, 'ssr': {'http': 403, 'len': 8282, 't': 1.7}}
+2026-11-12 19:03:56,199 INFO AVITO: {'http': 439, 'len': 14382, 't': 1.0}
+2026-11-12 19:03:56,200 INFO === DIAG V9 DONE t=9.5s ===
+2026-11-12 19:03:56,200 INFO Results → C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_v9_results.json

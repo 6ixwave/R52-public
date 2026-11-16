@@ -1,0 +1,255 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "AMD Radeon RX 5700 XT Sapphire Nitro+ Видеокарта",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Видеокарты. Цена: 19 000&#8381;. Radeon RX 5700 XT. Б/у. В наличии. хорошее состояние, полностью рабочая карта, пломбы на месте, не вскрывалась. Владивосток",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Техника > Компьютерная техника и периферия > Комплектующие > Видеокарты > Radeon RX 5000 Series",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "AMD",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          },
+          "model": {
+            "label": "Модель",
+            "value": "Radeon RX 5700 XT"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Б/у"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "132429230",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 1900000,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "19000.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734189234_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734190338_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734192434_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734194202_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734195594_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734196347_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734197085_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734197915_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734199160_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734200043_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734201060_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1764734202350_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": true,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1786601796864_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1786601837932_bulletin",
+          "image_data": null,
+          "alt": "Radeon RX 5700 XT фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1786601856724_bulletin",
+          "image_data": null
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Техника > Компьютерная техника и периферия > Комплектующие > Видеокарты > Radeon RX 5000 Series",
+    "source": "FARPOST",
+    "id": "132429230",
+    "url": "https://www.farpost.ru/vladivostok/132429230.html",
+    "observed_at": "2026-11-15T02:07:30.908983+10:00",
+    "status": "FULL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

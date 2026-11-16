@@ -1,0 +1,57 @@
+======================================================================
+0. PROXY DEEP TEST [budget=30s]
+======================================================================
+  [0] https://www.farpost.ru/ -> 200 | 73362B | 2.99s | 
+  [1] https://www.wildberries.ru/ -> 498 | 1134B | 3.21s | 
+  [2] https://www.ozon.ru/ -> 403 | 5284B | 2.1s | 
+  Proxy OK: 1/3
+  PROXY: 11.0s
+======================================================================
+1. FARPOST — категория → item
+======================================================================
+  [cat /auto/] 200 | 89773B | items=0
+  [cat /zapchasti/] 200 | 198706B | items=0
+  [cat /realty/] 200 | 89732B | items=0
+  [item /auto/wheel/123456789/] 200 | 198641B | jsonld=False og=False price=False img=False
+  [item /bulletin/18530297982/] 404 | 12949B | jsonld=True og=True price=False img=False
+  [item /item/18530297982/] 404 | 13588B | jsonld=True og=True price=False img=False
+  [search] 200 | 89893B | items=0
+  FARPOST: 20.1s
+======================================================================
+2. WILDBERRIES — API + HTML + CDN
+======================================================================
+  [api_v2 100000001] 403 | 0B
+  [api_v2 200000001] 403 | 0B
+  [api_v1] 403 | 0B
+  [html] 498 | 1136B | state=False jsonld=False antibot=True
+  [cffi_html] 498 | 1136B
+  [proxy_html] 498 | 1134B
+  [cdn basket-01.wbbasket.ru] dns=213.184.157.8 http=404
+  [cdn basket-199.wbbasket.ru] dns=None http=-1
+  [cdn basket-200.wbbasket.ru] dns=None http=-1
+  [search_api] 403 | 0B
+  WB: 74.4s
+======================================================================
+3. OZON — HTML + API + cffi
+======================================================================
+  [html 100000001] 403 | 10019B | jsonld=False
+  [cffi] 403 | 8437B
+  [proxy] 403 | 5284B
+  [search_api] 403 | 6183B
+  [mobile] 403 | 5201B
+  [cdn ir-220.ozoncdn.net] DNS fail: [Errno 11001] getaddrinfo failed
+  [cdn av-853.ozoncdn.net] DNS fail: [Errno 11001] getaddrinfo failed
+  OZON: 107.5s
+======================================================================
+4. AVITO — мобильная + полный URL + 439
+======================================================================
+  [full 100000001] 439 | 14889B | jsonld=False
+  [mobile] 429 | 35048B | jsonld=False
+  [short_ad] 404 | 29907B
+  [proxy] 404 | 29907B
+  [search] 439 | 14889B | ids=0
+  AVITO: 113.9s
+======================================================================
+5. SWEEP — быстрая проверка всех через прокси
+======================================================================
+  [WB] 498 | 1134B | 2.09s

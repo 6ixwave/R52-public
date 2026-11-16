@@ -1,0 +1,153 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "WB",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Футболка женская в стиле скимс набор 2 шт",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      },
+      "brand": {
+        "status": "KNOWN",
+        "value": "Insolito",
+        "method": "SEARCH_API",
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "unknown",
+        "amount_minor": 98600,
+        "amount": "986.00",
+        "currency": "RUB",
+        "visible_label": "986.00 руб.",
+        "variant_id": "36-40",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.product",
+          "value_minor": 98600,
+          "listing_id": "893322100",
+          "variant_id": "36-40"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 274000,
+        "amount": "2740.00",
+        "currency": "RUB",
+        "visible_label": "2740.00 руб.",
+        "variant_id": "36-40",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[0].price.basic",
+          "value_minor": 274000,
+          "listing_id": "893322100",
+          "variant_id": "36-40"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 98600,
+        "amount": "986.00",
+        "currency": "RUB",
+        "visible_label": "986.00 руб.",
+        "variant_id": "42-44",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.product",
+          "value_minor": 98600,
+          "listing_id": "893322100",
+          "variant_id": "42-44"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 274000,
+        "amount": "2740.00",
+        "currency": "RUB",
+        "visible_label": "2740.00 руб.",
+        "variant_id": "42-44",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[1].price.basic",
+          "value_minor": 274000,
+          "listing_id": "893322100",
+          "variant_id": "42-44"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 98600,
+        "amount": "986.00",
+        "currency": "RUB",
+        "visible_label": "986.00 руб.",
+        "variant_id": "46-48",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.product",
+          "value_minor": 98600,
+          "listing_id": "893322100",
+          "variant_id": "46-48"
+        }
+      },
+      {
+        "role": "unknown",
+        "amount_minor": 274000,
+        "amount": "2740.00",
+        "currency": "RUB",
+        "visible_label": "2740.00 руб.",
+        "variant_id": "46-48",
+        "variant_association": "UNKNOWN",
+        "usable_purchase_price": false,
+        "evidence": {
+          "method": "SEARCH_API",
+          "source": "WB",
+          "path": "sizes[2].price.basic",
+          "value_minor": 274000,
+          "listing_id": "893322100",
+          "variant_id": "46-48"
+        }
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "UNKNOWN",
+    "category_path": null,
+    "source": "WB",
+    "id": "893322100",
+    "listing_id": "893322100",
+    "title": "Футболка женская в стиле скимс набор 2 шт",
+    "url": "https://www.wildberries.ru/catalog/893322100/detail.aspx",
+    "observed_at": "2026-11-16T04:20:10.937852+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

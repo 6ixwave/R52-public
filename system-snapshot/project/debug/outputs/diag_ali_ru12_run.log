@@ -1,0 +1,40 @@
+06:29:18 diag_ali_ru12: V12 live test starting...
+06:29:18 r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+06:29:19 r52.collectors.aliexpress: ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile
+06:29:19 diag_ali_ru12: Browser OK
+06:29:19 r52.collectors.aliexpress: ALI PW: session already warm (12 cookies)
+06:29:19 diag_ali_ru12: Warm: 12 cookies
+06:29:21 diag_ali_ru12: HTTP 200
+06:29:22 diag_ali_ru12: tick=0: {'onCap': True, 'isClick': True, 'msg': '', 'body': 98882}
+06:29:22 diag_ali_ru12: Captcha found, extracting images...
+06:29:25 diag_ali_ru12: Images: Q=38183b, Grid=9/9, hash=2849bf0c
+06:29:25 diag_ali_ru12: Running V10 comparison...
+06:29:25 diag_ali_ru12: Q: 356x49, 40 windows
+06:29:25 diag_ali_ru12: Scores: [(2, 0.378), (5, 0.388), (4, 0.397), (7, 0.4), (8, 0.408), (1, 0.429), (3, 0.455), (0, 0.486), (6, 0.51)]
+06:29:25 diag_ali_ru12: === Attempt 1: clicking [2] ===
+06:29:26 diag_ali_ru12:   Submitted: True
+06:29:40 diag_ali_ru12:   Status: timeout, state: {'onCap': True, 'isClick': True, 'msg': '', 'body': 106639}
+06:29:40 diag_ali_ru12:   Timeout — trying next attempt (maybe need more clicks?)
+06:29:42 diag_ali_ru12:   Images changed during timeout!
+06:29:42 diag_ali_ru12: Q: 356x49, 40 windows
+06:29:42 diag_ali_ru12: === Attempt 2: clicking [3, 1] ===
+06:29:44 diag_ali_ru12:   Submitted: True
+06:29:58 diag_ali_ru12:   Status: timeout, state: {'onCap': True, 'isClick': True, 'msg': '', 'body': 106639}
+06:29:58 diag_ali_ru12:   Timeout — trying next attempt (maybe need more clicks?)
+06:30:01 diag_ali_ru12:   Images changed during timeout!
+06:30:01 diag_ali_ru12: Q: 356x49, 40 windows
+06:30:01 diag_ali_ru12: === Attempt 3: clicking [5, 3, 2] ===
+06:30:03 diag_ali_ru12:   Submitted: True
+06:30:17 diag_ali_ru12:   Status: timeout, state: {'onCap': True, 'isClick': True, 'msg': '', 'body': 106639}
+06:30:17 diag_ali_ru12:   Timeout — trying next attempt (maybe need more clicks?)
+06:30:19 diag_ali_ru12:   Images changed during timeout!
+06:30:19 diag_ali_ru12: Q: 356x49, 40 windows
+06:30:19 diag_ali_ru12: === Attempt 4: clicking [0, 1, 2, 3, 4, 5, 6, 7, 8] ===
+06:30:25 diag_ali_ru12:   Submitted: True
+06:30:29 diag_ali_ru12:   Status: new_captcha, state: {'onCap': True, 'isClick': True, 'msg': '', 'body': 106655}
+06:30:29 diag_ali_ru12:   Wrong/new captcha, refreshing...
+06:30:34 diag_ali_ru12:   New hash: 9b6a8753 (changed: True)
+06:30:34 diag_ali_ru12: Q: 356x49, 40 windows
+06:30:34 diag_ali_ru12:   New scores: [(4, 0.39), (2, 0.405), (6, 0.409), (7, 0.415), (1, 0.425)]
+06:30:34 diag_ali_ru12: Saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru12_result.json
+06:30:34 diag_ali_ru12: PHASE=done solved=False

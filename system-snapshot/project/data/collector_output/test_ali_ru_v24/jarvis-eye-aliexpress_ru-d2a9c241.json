@@ -1,0 +1,48 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "ALIEXPRESS_RU",
+  "observation": {
+    "fields": {
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "ALIEXPRESS_RU"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "current",
+        "amount": "11.38",
+        "amount_minor": 1138,
+        "currency": "RUB",
+        "visible_label": "11.38 RUB"
+      },
+      {
+        "role": "original",
+        "amount": "5.69",
+        "amount_minor": 569,
+        "currency": "RUB",
+        "visible_label": "5.69 RUB"
+      }
+    ],
+    "media": {
+      "items": []
+    },
+    "availability": "IN_STOCK",
+    "category_path": null,
+    "source": "ALIEXPRESS_RU",
+    "id": "1005006995138897",
+    "url": "https://ru.aliexpress.com/item/1005006995138897.html",
+    "observed_at": "2026-11-13T08:02:42.577275+10:00",
+    "status": "PARTIAL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTML",
+    "http_status": 200
+  }
+}

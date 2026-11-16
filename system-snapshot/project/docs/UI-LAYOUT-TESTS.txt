@@ -1,0 +1,227 @@
+{
+  "errors": [],
+  "results": [
+    {
+      "size": [
+        1440,
+        900
+      ],
+      "areas": {
+        "panelBottom": 800,
+        "footerTop": 812,
+        "panelTop": 134,
+        "toolbarBottom": 122,
+        "bottomGap": 12,
+        "topGap": 12,
+        "width": 320,
+        "inside": true
+      },
+      "catalogue": {
+        "panelBottom": 800,
+        "footerTop": 812,
+        "panelTop": 134,
+        "toolbarBottom": 122,
+        "bottomGap": 12,
+        "topGap": 12,
+        "width": 340,
+        "inside": true
+      },
+      "exclusive": true,
+      "headerVisible": true
+    },
+    {
+      "size": [
+        1000,
+        620
+      ],
+      "areas": {
+        "panelBottom": 520,
+        "footerTop": 532,
+        "panelTop": 134,
+        "toolbarBottom": 122,
+        "bottomGap": 12,
+        "topGap": 12,
+        "width": 320,
+        "inside": true
+      },
+      "catalogue": {
+        "panelBottom": 520,
+        "footerTop": 532,
+        "panelTop": 134,
+        "toolbarBottom": 122,
+        "bottomGap": 12,
+        "topGap": 12,
+        "width": 340,
+        "inside": true
+      },
+      "exclusive": true,
+      "headerVisible": true
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "areas": {
+        "panelBottom": 730.5,
+        "footerTop": 742.5,
+        "panelTop": 212.796875,
+        "toolbarBottom": 200.796875,
+        "bottomGap": 12,
+        "topGap": 12,
+        "width": 320,
+        "inside": true
+      },
+      "catalogue": {
+        "panelBottom": 730.5,
+        "footerTop": 742.5,
+        "panelTop": 212.796875,
+        "toolbarBottom": 200.796875,
+        "bottomGap": 12,
+        "topGap": 12,
+        "width": 320,
+        "inside": true
+      },
+      "exclusive": true,
+      "headerVisible": true
+    },
+    {
+      "size": [
+        760,
+        480
+      ],
+      "areas": {
+        "panelBottom": 390,
+        "footerTop": 402,
+        "panelTop": 184,
+        "toolbarBottom": 172,
+        "bottomGap": 12,
+        "topGap": 12,
+        "width": 320,
+        "inside": true
+      },
+      "catalogue": {
+        "panelBottom": 390,
+        "footerTop": 402,
+        "panelTop": 184,
+        "toolbarBottom": 172,
+        "bottomGap": 12,
+        "topGap": 12,
+        "width": 340,
+        "inside": true
+      },
+      "exclusive": true,
+      "headerVisible": true
+    },
+    {
+      "view": "product",
+      "horizontalOverflow": false
+    },
+    {
+      "view": "products",
+      "horizontalOverflow": false
+    },
+    {
+      "view": "overview",
+      "horizontalOverflow": false
+    },
+    {
+      "view": "watch",
+      "horizontalOverflow": false
+    },
+    {
+      "view": "inbox",
+      "horizontalOverflow": false
+    },
+    {
+      "view": "tasks",
+      "horizontalOverflow": false
+    },
+    {
+      "view": "settings",
+      "horizontalOverflow": false
+    },
+    {
+      "view": "service",
+      "horizontalOverflow": false
+    },
+    {
+      "view": "assistant",
+      "horizontalOverflow": false
+    },
+    {
+      "expandingActionMenuInFlow": true,
+      "popoverAtEdge": true,
+      "popoverResize": true,
+      "modalFooterVisible": true,
+      "modalAbovePopover": true
+    }
+  ]
+}
+
+{
+  "errors": [],
+  "rows": [
+    {
+      "view": "product",
+      "disclosuresOpened": true,
+      "horizontalOverflow": false
+    },
+    {
+      "view": "products",
+      "disclosuresOpened": true,
+      "horizontalOverflow": false
+    },
+    {
+      "view": "overview",
+      "disclosuresOpened": true,
+      "horizontalOverflow": false
+    },
+    {
+      "view": "watch",
+      "disclosuresOpened": true,
+      "horizontalOverflow": false
+    },
+    {
+      "view": "inbox",
+      "disclosuresOpened": true,
+      "horizontalOverflow": false
+    },
+    {
+      "view": "tasks",
+      "disclosuresOpened": true,
+      "horizontalOverflow": false
+    },
+    {
+      "view": "settings",
+      "disclosuresOpened": true,
+      "horizontalOverflow": false
+    },
+    {
+      "view": "service",
+      "disclosuresOpened": true,
+      "horizontalOverflow": false
+    },
+    {
+      "view": "assistant",
+      "disclosuresOpened": true,
+      "horizontalOverflow": false
+    }
+  ]
+}
+
+.....................................
+----------------------------------------------------------------------
+Ran 37 tests in 0.969s
+
+OK
+..........................
+----------------------------------------------------------------------
+Ran 26 tests in 0.948s
+
+OK
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.537s
+
+OK

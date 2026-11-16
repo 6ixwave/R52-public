@@ -1,0 +1,41 @@
+2026-11-12 12:54:58,934 [diag19] ============================================================
+2026-11-12 12:54:58,935 [diag19] WB: dump card.json for 1097975275
+2026-11-12 12:54:58,935 [diag19] ============================================================
+2026-11-12 12:54:59,183 [diag19] WB: GET https://basket-42.wbbasket.ru/vol10979/part1097975/1097975275/info/ru/card.json
+2026-11-12 12:55:00,241 [diag19] WB: HTTP 200, 10942B
+2026-11-12 12:55:00,241 [diag19] WB: 21 keys: ['imt_id', 'nm_id', 'imt_name', 'slug', 'subj_name', 'subj_root_name', 'vendor_code', 'description', 'options', 'certificate', 'nm_colors_names', 'colors', 'full_colors', 'selling', 'media', 'data', 'grouped_options', 'need_kiz', 'user_flags', 'update_date', 'create_date']
+2026-11-12 12:55:00,243 [diag19] WB: numeric fields > 100: [{"path": "imt_id", "val": 2227481309}, {"path": "nm_id", "val": 1097975275}, {"path": "options[4].variable_value_IDs[0]", "val": 25613442}, {"path": "options[4].variable_value_IDs[1]", "val": 20214638}, {"path": "colors[0]", "val": 1097975273}, {"path": "colors[1]", "val": 1097975275}, {"path": "colors[2]", "val": 1097975274}, {"path": "full_colors[0].nm_id", "val": 1097975273}, {"path": "full_colors[1].nm_id", "val": 1097975275}, {"path": "full_colors[2].nm_id", "val": 1097975274}, {"path": "selling.supplier_id", "val": 250148991}, {"path": "selling.no_return_map", "val": 4351}, {"path": "data.subject_id", "val": 515}, {"path": "data.subject_root_id", "val": 6258}, {"path": "data.chrt_ids[0]", "val": 1625597378}, {"path": "grouped_options[0].options[0].variable_value_IDs[0]", "val": 25613442}, {"path": "grouped_options[0].options[0].variable_value_IDs[1]", "val": 20214638}, {"path": "grouped_options[2].options[0].variable_value_IDs[0]", "val": 25425}]
+2026-11-12 12:55:00,243 [diag19] ============================================================
+2026-11-12 12:55:00,243 [diag19] OZON: multi-strategy
+2026-11-12 12:55:00,243 [diag19] ============================================================
+2026-11-12 12:55:00,305 [diag19] OZON [desktop]: GET https://www.ozon.ru/product/2067947177/
+2026-11-12 12:55:01,961 [diag19] OZON [desktop]: HTTP 403, len=10105, final_url=https://www.ozon.ru/product/2067947177/?__rr=1
+2026-11-12 12:55:01,961 [diag19] OZON [desktop]: blocked
+2026-11-12 12:55:03,961 [diag19] OZON [mobile]: GET https://m.ozon.ru/product/2067947177/
+2026-11-12 12:55:05,656 [diag19] OZON [mobile]: HTTP 403, len=5249, final_url=https://m.ozon.ru/product/2067947177/
+2026-11-12 12:55:05,656 [diag19] OZON [mobile]: blocked
+2026-11-12 12:55:07,657 [diag19] OZON [desktop2]: GET https://www.ozon.ru/product/2067947177
+2026-11-12 12:55:07,778 [diag19] OZON [desktop2]: HTTP 403, len=10281, final_url=https://www.ozon.ru/product/2067947177
+2026-11-12 12:55:07,779 [diag19] OZON [desktop2]: blocked
+2026-11-12 12:55:09,779 [diag19] OZON: composer via requests
+2026-11-12 12:55:11,181 [diag19] OZON composer error: HTTPSConnectionPool(host='api.ozon.ru', port=443): Max retries exceeded with url: /composer-api.bx/page/json/v2?url=/product/2067947177/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)')))
+2026-11-12 12:55:11,181 [diag19] OZON: try product 113692656 (popular item)
+2026-11-12 12:55:11,303 [diag19] OZON: alt product HTTP 403, len=10281
+2026-11-12 12:55:11,304 [diag19] ============================================================
+2026-11-12 12:55:11,304 [diag19] AVITO: curl_cffi + known ads
+2026-11-12 12:55:11,304 [diag19] ============================================================
+2026-11-12 12:55:11,304 [diag19] AVITO cffi: GET https://www.avito.ru/moskva/smartfony-i-telefony
+2026-11-12 12:55:12,273 [diag19] AVITO cffi: HTTP 439, len=14382
+2026-11-12 12:55:14,274 [diag19] AVITO cffi: GET https://www.avito.ru/spb/smartfony-i-telefony
+2026-11-12 12:55:16,227 [diag19] AVITO cffi: HTTP 404, len=29440
+2026-11-12 12:55:18,227 [diag19] AVITO cffi: GET https://www.avito.ru/moskva/noutbuki-i-ulegkie-pc
+2026-11-12 12:55:19,240 [diag19] AVITO cffi: HTTP 429, len=34116
+2026-11-12 12:55:21,241 [diag19] AVITO: using fallback IDs: ['1097975275', '1234567890']
+2026-11-12 12:55:21,241 [diag19] AVITO cffi: GET https://www.avito.ru/ad/1097975275
+2026-11-12 12:55:22,157 [diag19] AVITO cffi ad: HTTP 404, len=29440
+2026-11-12 12:55:24,158 [diag19] AVITO cffi: GET https://www.avito.ru/ad/1234567890
+2026-11-12 12:55:25,067 [diag19] AVITO cffi ad: HTTP 404, len=29440
+2026-11-12 12:55:27,068 [diag19] AVITO cffi mobile: GET https://m.avito.ru/moskva/smartfony-i-telefony
+2026-11-12 12:55:28,054 [diag19] AVITO cffi mobile: HTTP 439, len=14382
+2026-11-12 12:55:28,056 [diag19] Result → C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag19_result.json
+2026-11-12 12:55:28,056 [diag19] DONE

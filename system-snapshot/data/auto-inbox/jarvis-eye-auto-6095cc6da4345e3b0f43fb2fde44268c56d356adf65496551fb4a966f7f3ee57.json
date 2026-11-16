@@ -1,0 +1,235 @@
+{
+  "format": "JARVIS_BR02_COLLECTOR_AUTONOMOUS",
+  "capture_action": "COLLECTOR_RUN",
+  "fully_autonomous": true,
+  "collector_source": "FARPOST",
+  "observation": {
+    "fields": {
+      "title": {
+        "status": "KNOWN",
+        "value": "Шкаф офисный, гардероб с продольной штангой АВ-28, Палдао УЦ",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "description": {
+        "status": "KNOWN",
+        "value": "Шкафы, стеллажи, полки. Цена: 13 692&#8381;. ЛДСП. Количество дверей: 2. Коричневый. 80 см. 191 см. 58 см. Офис. Новый. В наличии. Шкаф офисный, гардероб с продольной штангой АВ-28, Палдао УЦ Причина уценки: сколы по поверхности шкафа, отреставрированны Профессиональная программа мебели &quot;Агат&quot; — это идеальное соотношение функциональности и внешнего вида, цены и качества. &quot;Агат&quot; — это универсальный выбор при создании рабочих мест. Широкий модельный ряд — более 50 элементов — позволяет создать эргономичные ра... Владивосток",
+        "method": "JSONLD",
+        "evidence": {
+          "method": "JSONLD",
+          "source": "FARPOST"
+        }
+      },
+      "category": {
+        "status": "KNOWN",
+        "value": "Дом и ремонт > Мебель > Шкафы, стеллажи, полки > Шкафы офисные",
+        "method": "BREADCRUMB",
+        "evidence": {
+          "method": "BREADCRUMB",
+          "source": "FARPOST"
+        }
+      },
+      "specs": {
+        "status": "KNOWN",
+        "value": {
+          "goodPresentState": {
+            "label": "Наличие товара во Владивостоке",
+            "value": "В наличии"
+          },
+          "furnitureCabinetsMaterial": {
+            "label": "Материал",
+            "value": "ЛДСП"
+          },
+          "furnitureCabinetsDoors": {
+            "label": "Количество дверей",
+            "value": "2"
+          },
+          "furnitureColor": {
+            "label": "Основной цвет",
+            "value": "Коричневый"
+          },
+          "furnitureWidth": {
+            "label": "Ширина",
+            "value": "80&nbsp;см"
+          },
+          "furnitureHeight": {
+            "label": "Высота",
+            "value": "191&nbsp;см"
+          },
+          "furnitureDepth": {
+            "label": "Глубина",
+            "value": "58&nbsp;см"
+          },
+          "room": {
+            "label": "Подходит для комнаты",
+            "value": "Офис"
+          },
+          "condition": {
+            "label": "Состояние товара",
+            "value": "Новый"
+          }
+        },
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "bulletin_id": {
+        "status": "KNOWN",
+        "value": "138104082",
+        "method": "HTML",
+        "evidence": {
+          "method": "HTML",
+          "source": "FARPOST"
+        }
+      },
+      "availability": {
+        "status": "KNOWN",
+        "value": "IN_STOCK",
+        "method": "COLLECTOR",
+        "evidence": {
+          "method": "COLLECTOR",
+          "source": "FARPOST"
+        }
+      }
+    },
+    "price_candidates": [
+      {
+        "role": "regular",
+        "amount_minor": 1369200,
+        "currency": "RUB",
+        "label": "data-bulletin-price",
+        "amount": "13692.00",
+        "visible_label": "data-bulletin-price"
+      }
+    ],
+    "media": {
+      "items": [
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789953262359_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789953262511_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": false,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789953262946_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": false,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789953263410_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": false,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789953263817_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": false,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789953264216_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": false,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789953264610_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": false,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789953265096_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": false,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1789953265515_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": false,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1766543072363_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": false,
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "type": "image",
+          "source_url": "https://static.baza.farpost.ru/v/1766543075457_bulletin",
+          "image_data": null,
+          "alt": "Шкафы офисные для одежды. Коричневый, (Ш) 80 см, (В) 191 см, (Г) 58 см фото",
+          "label": "",
+          "is_main": false,
+          "width": 1166,
+          "height": 864
+        }
+      ]
+    },
+    "availability": "IN_STOCK",
+    "category_path": "Дом и ремонт > Мебель > Шкафы, стеллажи, полки > Шкафы офисные",
+    "source": "FARPOST",
+    "id": "138104082",
+    "url": "https://www.farpost.ru/vladivostok/138104082.html",
+    "observed_at": "2026-11-15T20:20:54.461394+10:00",
+    "status": "FULL_SUCCESS",
+    "product_content": true,
+    "evidence_level": "COLLECTOR_AUTONOMOUS_HTTP",
+    "http_status": 200
+  }
+}

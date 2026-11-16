@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-11-14T15:03:23",
+  "tests": [
+    {
+      "source": "OZON",
+      "name": "composer_api",
+      "status": "NONE",
+      "elapsed_s": 27.42,
+      "detail": "all endpoints failed or no data"
+    },
+    {
+      "source": "OZON",
+      "name": "collect_product",
+      "status": "NONE",
+      "elapsed_s": 128.05
+    },
+    {
+      "source": "OZON",
+      "name": "anti_bot_detect",
+      "input_len": 8287,
+      "result": "NONE",
+      "pass_": true
+    },
+    {
+      "source": "OZON",
+      "name": "404_detect",
+      "result": "NONE",
+      "pass_": true
+    },
+    {
+      "source": "FARPOST",
+      "name": "collect_139122082",
+      "status": "SUCCESS",
+      "elapsed_s": 2.72,
+      "obs_status": "FULL_SUCCESS",
+      "title": "Шины LingLong GREEN-Max Winter Grip Van 2 205/75 R16 в Красн",
+      "prices": 1,
+      "price_detail": [
+        {
+          "role": "regular",
+          "amount": "8499.00",
+          "currency": "RUB"
+        }
+      ],
+      "media_count": 1,
+      "evidence": "COLLECTOR_AUTONOMOUS_HTTP"
+    },
+    {
+      "source": "FARPOST",
+      "name": "404_detect",
+      "result": "NONE",
+      "pass_": true
+    },
+    {
+      "source": "FARPOST",
+      "name": "short_detect",
+      "result": "NONE",
+      "pass_": true
+    },
+    {
+      "source": "FARPOST",
+      "name": "discovery",
+      "status": "ERROR",
+      "error": "LISTING_HTTP_UNAVAILABLE",
+      "trace": "out-Fix_LASTUI\\R52-2.12\\debug\\diag_step3.py\", line 244, in <module>\n    items = collect_links(fcol, \"FARPOST\", search_url, limit=3, page=1)\n  File \"C:\\Users\\aleks\\Downloads\\R52-2.12-Layout-Fix_LASTUI\\R52-2.12\\r52\\collectors\\discovery.py\", line 53, in collect_links\n    raise ValueError(\"LISTING_HTTP_\" + str(status if isinstance(status, int) else \"UNAVAILABLE\"))\nValueError: LISTING_HTTP_UNAVAILABLE\n"
+    }
+  ]
+}

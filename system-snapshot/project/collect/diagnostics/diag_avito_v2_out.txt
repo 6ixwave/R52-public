@@ -1,0 +1,14 @@
+﻿2026-11-12 03:40:26,070 avito2 INFO === 1) FIND IDs ===
+2026-11-12 03:40:27,712 avito2 INFO moscow_transport     439 14889B
+2026-11-12 03:40:30,558 avito2 INFO spb_electronics      404 29907B
+2026-11-12 03:40:34,321 avito2 INFO moscow_phones        429 35048B
+2026-11-12 03:40:36,321 avito2 WARNING No IDs found from categories. Trying direct ad URL pattern...
+2026-11-12 03:40:36,321 avito2 INFO Target IDs: ['4601234567', '4598765432', '4587654321']
+2026-11-12 03:40:36,321 avito2 INFO === 2) FETCH CARDS ===
+2026-11-12 03:40:37,147 avito2 INFO ad[0] short    404 29907B https://www.avito.ru/ad/4601234567
+2026-11-12 03:40:42,858 avito2 INFO ad[0] full     439 14889B https://www.avito.ru/moscow/transport/4601234567
+2026-11-12 03:40:47,684 avito2 INFO ad[1] short    404 29907B https://www.avito.ru/ad/4598765432
+2026-11-12 03:40:53,448 avito2 INFO ad[1] full     429 35048B https://www.avito.ru/moscow/transport/4598765432
+2026-11-12 03:40:58,277 avito2 INFO ad[2] short    404 29907B https://www.avito.ru/ad/4587654321
+2026-11-12 03:41:04,064 avito2 INFO ad[2] full     429 35048B https://www.avito.ru/moscow/transport/4587654321
+2026-11-12 03:41:08,066 avito2 INFO === DONE 42s. 0 result keys. Saved: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\diag_avito_v2_out.json ===

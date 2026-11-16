@@ -1,0 +1,19 @@
+<frozen runpy>:129: RuntimeWarning: 'r52.collectors.runner' found in sys.modules after import of package 'r52.collectors', but prior to execution of 'r52.collectors.runner'; this may result in unpredictable behaviour
+2026-11-15 02:37:05,422 r52.autocollect.worker INFO phase=worker_start pid=5576
+2026-11-15 02:37:05,435 r52.autocollect.worker INFO source=ALIEXPRESS_RU mode=refresh phase=initialize
+2026-11-15 02:37:05,436 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\AppData\Local\R52\collectors\proxies.json не найден, авто-режим direct
+2026-11-15 02:37:05,436 r52.autocollect.worker INFO source=ALIEXPRESS_RU proxy_pool={'total': 0, 'alive': 0, 'use_proxies': False, 'fail_closed': True}
+2026-11-15 02:37:05,436 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012842083149 phase=collect_product_start
+2026-11-15 02:37:06,678 r52.collectors.aliexpress INFO ALI_RU: TMD/CAPTCHA (try 1), 2379B, bxpunish=1
+2026-11-15 02:37:24,421 r52.collectors.aliexpress INFO ALI_RU: TMD/CAPTCHA (try 2), 2379B, bxpunish=1
+2026-11-15 02:37:38,276 r52.collectors.aliexpress INFO ALI_RU: TMD/CAPTCHA (try 3), 2379B, bxpunish=1
+2026-11-15 02:37:38,276 r52.collectors.aliexpress INFO ALI_RU: HTML incomplete/captcha after 3 tries, trying search API for id=1005012842083149
+2026-11-15 02:37:41,083 r52.collectors.aliexpress WARNING ALI_RU: search API returned HTML (404 page?), len=13828
+2026-11-15 02:37:43,867 r52.collectors.aliexpress WARNING ALI_RU: search API returned HTML (404 page?), len=13828
+2026-11-15 02:37:46,761 r52.collectors.aliexpress WARNING ALI_RU: search API returned HTML (404 page?), len=13828
+2026-11-15 02:37:46,761 r52.autocollect.worker INFO source=ALIEXPRESS_RU listing=1005012842083149 phase=collect_product_return status=NO_RESULT
+2026-11-15 02:37:46,761 r52.autocollect.worker WARNING source=ALIEXPRESS_RU listing=1005012842083149 result=NO_RESULT remaining_not_attempted=['1005012849374380', '1005010604232754', '1005013182349018', '1005013374868977']
+2026-11-15 02:37:46,761 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_start returned=0 valid=0 stats={'requests': 3, 'success': 0, 'failed': 0, 'blocked': 3}
+2026-11-15 02:37:46,763 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=write_complete files=0
+2026-11-15 02:37:46,763 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_start
+2026-11-15 02:37:46,763 r52.autocollect.worker INFO source=ALIEXPRESS_RU phase=close_complete

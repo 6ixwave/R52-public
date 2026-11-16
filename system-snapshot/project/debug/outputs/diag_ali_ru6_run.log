@@ -1,0 +1,31 @@
+06:19:30 diag_ali_ru6: Starting AliExpress.ru collector (domain=ru)...
+06:19:30 r52.collectors.proxy: Файл прокси C:\Users\aleks\.local\share\r52\collectors\proxies.json не найден, режим direct
+06:19:30 r52.collectors.aliexpress: ALI PW: browser started, profile=C:\Users\aleks\.local\share\r52\aliexpress_pw_profile
+06:19:30 diag_ali_ru6: Browser OK (ru locale)
+06:19:30 r52.collectors.aliexpress: ALI PW: session already warm (13 cookies)
+06:19:30 diag_ali_ru6: Warm: 13 cookies
+06:19:30 diag_ali_ru6: Navigating: https://ru.aliexpress.com/item/1005013496905897.html
+06:19:31 diag_ali_ru6: HTTP 200
+06:19:32 diag_ali_ru6: tick=0: h1=N/A prices=[] cap=captchaclick body=98595
+06:19:32 diag_ali_ru6: Solving captcha: captchaclick
+06:19:32 r52.collectors.aliexpress: ALI PW: solving TMD...
+06:19:35 r52.collectors.aliexpress: ALI PW: solving click-captcha (grid)...
+06:19:39 r52.collectors.aliexpress: ALI PW: attempt 1, selected cells: [7, 8, 3, 2, 0]
+06:19:42 r52.collectors.aliexpress: ALI PW: click-captcha submitted (attempt 1)
+06:19:43 r52.collectors.aliexpress: ALI PW: captcha result: visible=True msg=Неправильный выбор!
+06:19:43 r52.collectors.aliexpress: ALI PW: captcha attempt 1 failed, refreshing
+06:19:48 r52.collectors.aliexpress: ALI PW: attempt 2, selected cells: [6, 8, 5, 3, 4]
+06:19:50 r52.collectors.aliexpress: ALI PW: click-captcha submitted (attempt 2)
+06:19:51 r52.collectors.aliexpress: ALI PW: captcha result: visible=True msg=Неправильный выбор!
+06:19:51 r52.collectors.aliexpress: ALI PW: captcha attempt 2 failed, refreshing
+06:19:56 r52.collectors.aliexpress: ALI PW: attempt 3, selected cells: [7, 1, 6, 0, 5]
+06:19:59 r52.collectors.aliexpress: ALI PW: click-captcha submitted (attempt 3)
+06:20:00 r52.collectors.aliexpress: ALI PW: captcha result: visible=True msg=Неправильный выбор!
+06:20:00 r52.collectors.aliexpress: ALI PW: captcha attempt 3 failed, refreshing
+06:20:02 diag_ali_ru6: Captcha solved: False
+06:20:02 diag_ali_ru6: Extracting DOM...
+06:20:02 diag_ali_ru6: DOM: title=Пройдите проверку prices=[] imgs=2 jsonld=0
+06:20:02 diag_ali_ru6: HTML saved: 832291 bytes
+06:20:02 diag_ali_ru6: Screenshot: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru6_shot.png
+06:20:03 diag_ali_ru6: Result saved: C:\Users\aleks\Downloads\R52-2.12-Layout-Fix_LASTUI\R52-2.12\diag_ali_ru6_result.json
+06:20:03 diag_ali_ru6: PHASE=done rendered=False cap=captchaclick

@@ -1,0 +1,66 @@
+2026-11-11 08:58:01,062 r52.collectors.proxy INFO Файл прокси C:\Users\aleks\Downloads\R52-2.12\R52-2.12\collectors\proxies.json не найден, режим direct
+2026-11-11 08:58:01,208 r52.collectors.wb INFO WB: curl_cffi доступен (impersonate=chrome)
+2026-11-11 08:58:41,757 r52.collectors.wb INFO WB: vol=1992 -> basket-13.wbbasket.ru (nm_id=199298871)
+2026-11-11 08:58:44,620 r52.collectors.wb INFO WB 199298871: card.json OK (24 keys, 9623B)
+2026-11-11 08:58:47,868 r52.collectors.wb INFO WB 199298871: price card_v1 -> 403
+2026-11-11 08:58:50,590 r52.collectors.wb INFO WB 199298871: price card_v2 -> 403
+2026-11-11 08:58:53,992 r52.collectors.wb INFO WB 199298871: price card_v4 -> 403
+2026-11-11 08:58:57,210 r52.collectors.wb INFO WB 199298871: price card_v5 -> 403
+2026-11-11 08:58:59,297 r52.collectors.wb INFO WB 199298871: price web_api -> 498
+2026-11-11 08:58:59,298 r52.collectors.wb INFO WB 199298871: price — все эндпоинты не дали данных
+2026-11-11 08:59:17,737 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-11 08:59:17,737 r52.collectors.wb INFO WB 199298871: photo_count=6, found=1
+2026-11-11 08:59:17,737 r52.collectors.wb INFO WB 199298871: has_video=true, видео не найдено
+2026-11-11 09:01:22,865 r52.collectors.wb INFO WB: vol=10979 -> basket-42.wbbasket.ru (nm_id=1097975275)
+2026-11-11 09:01:25,976 r52.collectors.wb INFO WB 1097975275: card.json OK (21 keys, 10942B)
+2026-11-11 09:01:29,208 r52.collectors.wb INFO WB 1097975275: price card_v1 -> 403
+2026-11-11 09:01:31,684 r52.collectors.wb INFO WB 1097975275: price card_v2 -> 403
+2026-11-11 09:01:33,746 r52.collectors.wb INFO WB 1097975275: price card_v4 -> 403
+2026-11-11 09:01:37,569 r52.collectors.wb INFO WB 1097975275: price card_v5 -> 403
+2026-11-11 09:01:40,329 r52.collectors.wb INFO WB 1097975275: price web_api -> 498
+2026-11-11 09:01:40,329 r52.collectors.wb INFO WB 1097975275: price — все эндпоинты не дали данных
+2026-11-11 09:01:58,610 r52.collectors.wb INFO WB HTML: HTTP 498
+2026-11-11 09:01:58,610 r52.collectors.wb INFO WB 1097975275: photo_count=5, found=1
+Stats before: {'requests': 0, 'success': 0, 'failed': 0, 'blocked': 0}
+Proxy stats: {'total': 0, 'alive': 0, 'use_proxies': False}
+
+============================================================
+COLLECTING WB 199298871
+============================================================
+  status: PARTIAL_SUCCESS
+  title: Овсяный смарт коктейль для похудения без сахара
+  brand: Родник Здоровья
+  model: овсяный2
+  category: Продукты > Коктейли злаковые
+  availability: UNKNOWN
+  prices (0):
+  media: 1 photos, 0 videos
+    IMG: https://basket-13.wbbasket.ru/vol1992/part199298/199298871/images/S800/S800.jpg
+  description: 2245 chars
+  elapsed: 76.5s
+  saved: test_wb_199298871.json
+
+============================================================
+COLLECTING WB 1097975275
+============================================================
+  status: PARTIAL_SUCCESS
+  title: Смартфон iPhone 17 Pro Max 256 Серебряный (eSIM)
+  brand: Apple
+  model: 17 Pro Max 256
+  category: Смартфоны и гаджеты > Смартфоны
+  availability: UNKNOWN
+  prices (0):
+  media: 1 photos, 0 videos
+    IMG: https://basket-42.wbbasket.ru/vol10979/part1097975/1097975275/images/S800/S800.jpg
+  description: 1545 chars
+  elapsed: 158.9s
+  saved: test_wb_1097975275.json
+
+============================================================
+SUMMARY
+============================================================
+  {'id': '199298871', 'status': 'PARTIAL_SUCCESS', 'elapsed': 76.5}
+  {'id': '1097975275', 'status': 'PARTIAL_SUCCESS', 'elapsed': 158.9}
+  Collector stats: {'requests': 69, 'success': 4, 'failed': 53, 'blocked': 12}
+
+Done. Output: C:\Users\aleks\Downloads\R52-2.12\R52-2.12\test_wb_out
